@@ -1,0 +1,3 @@
+[submodule "plugin-doc-common-config"]
+	path = plugin-doc-common-config
+	url = git@github.com:UrbanCode/plugin-doc-common-config.git
