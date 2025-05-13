@@ -4,16 +4,16 @@
 
 ## Labs
 
-### 01 Plan
+### [01 Plan](Plan/index.md)
 
-### 02 Control
+### [02 Control](Control/index.md)
 
-### 03 Code
+### [03 Code](Code/index.md)
 
-### 05 Deploy
+### [05 Deploy](Deploy/index.md)
 
-### 06 Test
+### [06 Test](Test/index.md)
 
-### 07 Measure
+### [07 Measure](Measure/index.md)
 
-### 08 Release
+### [08 Release](Release/index.md)

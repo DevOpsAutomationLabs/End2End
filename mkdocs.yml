@@ -1,2 +1,2 @@
 site_name: "End to End Hands-On Lab"
-INHERIT: plugin-doc-common-config/base.yml
+INHERIT: base.yml
