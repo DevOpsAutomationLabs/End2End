@@ -1,8 +1,10 @@
-# End to End Hands-On Lab and Demo of DevOps Automation platform
+# End to End Hands-On Lab
 
 ## Overview
 
 ## Labs
+
+### [00 Introduction](Introduction/index.md)
 
 ### [01 Plan](Plan/index.md)
 
