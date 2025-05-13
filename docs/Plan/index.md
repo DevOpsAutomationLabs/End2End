@@ -18,7 +18,7 @@ Or you can always switch using the central app switcher on the top left of your 
 
 ### Select Plan application to use
 
-If you have not set your default Plan application you will be provided with a screen with all applications you have access to. 
+If you have not set your default Plan application you will be provided with a screen with all applications you have access to.
 
 ![Plan Applications Page](media/Plan_Applications_page.png)
 
@@ -57,3 +57,25 @@ will open a new view to the technical details of the used workflow for the selec
 ![Schema Overview](media/Plan_app_view_details.png)
 
 This view provides the used record types, fields, transition matrizes and more.
+
+## Work with Boards
+
+### Project Board
+
+view around
+
+### Project and Releases
+
+#### Look at the Project and Release list
+
+#### Create and customize a new Project
+
+#### Create Releases, Sprint and Components
+
+#### Attach the Releases, Sprints and Components to the Project
+
+## Work with Queries
+
+### Public and Personal Queries
+
+### create new personal query
