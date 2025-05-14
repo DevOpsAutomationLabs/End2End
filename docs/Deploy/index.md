@@ -2,6 +2,9 @@
 # Deploy Lab
 
 This lab will provide you with a practical hands-on for deploying an application to target server. 
+  <img width="1627" alt="Screenshot 2025-05-14 at 11 14 21 PM" src="https://github.com/user-attachments/assets/5f642eb4-96b6-4efd-b31e-84db16a96364" />
+
+Look at the comprehensive dashboard offered by DevOps Deploy providing the important information about deployment failures and successes. 
 
   <img width="1723" alt="Screenshot 2025-05-14 at 5 30 00 PM" src="https://github.com/user-attachments/assets/7f9a31ee-11d1-4d3b-b450-b7e2c52dcb95" />
 
