@@ -1,0 +1,822 @@
+{
+    "name": "PizzaApp",
+    "description": "An example eCommerce application running in a docker container",
+    "enforceCompleteSnapshots": false,
+    "onlyChangedVersions": false,
+    "useWizard": false,
+    "propSheet": {
+        "properties": []
+    },
+    "templatePropSheet": {
+        "name": "template",
+        "properties": []
+    },
+    "components": [{
+        "name": "PizzaApp-Container",
+        "description": "",
+        "created": 1745571149299,
+        "componentType": "STANDARD",
+        "ignoreQualifiers": 0,
+        "importAutomatically": false,
+        "useVfs": false,
+        "active": true,
+        "deleted": false,
+        "defaultVersionType": "FULL",
+        "cleanupDaysToKeep": 0,
+        "cleanupCountToKeep": 0,
+        "envPropDefs": [],
+        "resPropDefs": [],
+        "versionPropDefs": [],
+        "propSheetGroup": {
+            "propSheets": [
+                {
+                    "name": "custom",
+                    "properties": []
+                },
+                {
+                    "name": "template",
+                    "properties": []
+                }
+            ]
+        },
+        "processes": [{
+            "name": "Deploy PizzaApp",
+            "description": "",
+            "defaultWorkingDir": "${p:resource\/work.dir}\/${p:component.name}",
+            "takesVersion": true,
+            "inventoryActionType": "ADD",
+            "status": "Active",
+            "configActionType": "ADD",
+            "active": true,
+            "path": "components\/1966c25f-5f3c-c550-9e93-ea9b822796db\/processes\/196867a3-d38c-3f2d-6121-0014399c868d",
+            "deleted": false,
+            "propDefs": [],
+            "rootActivity": {
+                "edges": [
+                    {
+                        "to": "Run Pizza App Container",
+                        "from": "35c750a42ddf6c9ac8d47815242638",
+                        "type": "SUCCESS",
+                        "value": ""
+                    },
+                    {
+                        "to": "Remove Docker Container",
+                        "from": "Stop Docker Container",
+                        "type": "ALWAYS",
+                        "value": ""
+                    },
+                    {
+                        "to": "35c750a42ddf6c9ac8d47815242638",
+                        "from": "Pull Docker Image",
+                        "type": "SUCCESS",
+                        "value": ""
+                    },
+                    {
+                        "to": "Docker Login",
+                        "type": "ALWAYS",
+                        "value": ""
+                    },
+                    {
+                        "to": "Pull Docker Image",
+                        "from": "Docker Login",
+                        "type": "SUCCESS",
+                        "value": ""
+                    },
+                    {
+                        "to": "2c83aa06ff1d4814eca7fe170e342d",
+                        "from": "Run IBM DevOps Test Hub test",
+                        "type": "SUCCESS",
+                        "value": ""
+                    },
+                    {
+                        "to": "35c750a42ddf6c9ac8d47815242638",
+                        "from": "Remove Docker Container",
+                        "type": "SUCCESS",
+                        "value": ""
+                    },
+                    {
+                        "to": "Stop Docker Container",
+                        "type": "ALWAYS",
+                        "value": ""
+                    },
+                    {
+                        "to": "Run IBM DevOps Test Hub test",
+                        "from": "Run Pizza App Container",
+                        "type": "SUCCESS",
+                        "value": ""
+                    }
+                ],
+                "offsets": [
+                    {
+                        "name": "35c750a42ddf6c9ac8d47815242638",
+                        "x": 0.27777777777777146,
+                        "y": 370,
+                        "h": 50,
+                        "w": 120
+                    },
+                    {
+                        "name": "Docker Login",
+                        "x": -195,
+                        "y": 130,
+                        "h": 70,
+                        "w": 220
+                    },
+                    {
+                        "name": "2c83aa06ff1d4814eca7fe170e342d",
+                        "x": 6.006944444444457,
+                        "y": 710,
+                        "h": 80,
+                        "w": 120
+                    },
+                    {
+                        "name": "Pull Docker Image",
+                        "x": -220,
+                        "y": 250,
+                        "h": 70,
+                        "w": 250
+                    },
+                    {
+                        "name": "Stop Docker Container",
+                        "x": 55,
+                        "y": 130,
+                        "h": 70,
+                        "w": 280
+                    },
+                    {
+                        "name": "Remove Docker Container",
+                        "x": 60,
+                        "y": 250,
+                        "h": 70,
+                        "w": 300
+                    },
+                    {
+                        "name": "Run Pizza App Container",
+                        "x": -75.90277777777777,
+                        "y": 470,
+                        "h": 70,
+                        "w": 280
+                    },
+                    {
+                        "name": "Run IBM DevOps Test Hub test",
+                        "x": -98.99305555555554,
+                        "y": 590,
+                        "h": 70,
+                        "w": 330
+                    }
+                ],
+                "layoutMode": "auto",
+                "type": "graph",
+                "name": "7b126712-5220-494d-a676-ea1fcbed5a1b",
+                "children": [
+                    {
+                        "type": "finish",
+                        "name": "2c83aa06ff1d4814eca7fe170e342d",
+                        "children": []
+                    },
+                    {
+                        "allowFailure": false,
+                        "useImpersonation": false,
+                        "showHidden": false,
+                        "impersonationUseSudo": false,
+                        "pluginVersion": 11,
+                        "commandName": "Stop Docker Container",
+                        "pluginName": "Docker",
+                        "pluginId": "com.urbancode.air.plugin.docker",
+                        "authTokenRestriction": "20000001-0001-0001-0001-000000000000",
+                        "properties": {
+                            "container": "pizzaapp",
+                            "commandOptions": "",
+                            "globalOptions": "",
+                            "envVars": ""
+                        },
+                        "cachedAuthTokenRestriction": {
+                            "name": "System Default",
+                            "description": "Used by default for any plugin steps without a specified token restriction",
+                            "restrictions": [{
+                                "verb": "ALL",
+                                "url": "\/*"
+                            }]
+                        },
+                        "type": "plugin",
+                        "name": "Stop Docker Container",
+                        "children": []
+                    },
+                    {
+                        "allowFailure": false,
+                        "useImpersonation": false,
+                        "showHidden": false,
+                        "impersonationUseSudo": false,
+                        "pluginVersion": 11,
+                        "commandName": "Remove Docker Container",
+                        "pluginName": "Docker",
+                        "pluginId": "com.urbancode.air.plugin.docker",
+                        "authTokenRestriction": "20000001-0001-0001-0001-000000000000",
+                        "properties": {
+                            "container": "pizzaapp",
+                            "commandOptions": "",
+                            "globalOptions": "",
+                            "envVars": ""
+                        },
+                        "cachedAuthTokenRestriction": {
+                            "name": "System Default",
+                            "description": "Used by default for any plugin steps without a specified token restriction",
+                            "restrictions": [{
+                                "verb": "ALL",
+                                "url": "\/*"
+                            }]
+                        },
+                        "type": "plugin",
+                        "name": "Remove Docker Container",
+                        "children": []
+                    },
+                    {
+                        "type": "join",
+                        "name": "35c750a42ddf6c9ac8d47815242638",
+                        "children": []
+                    },
+                    {
+                        "allowFailure": false,
+                        "useImpersonation": false,
+                        "showHidden": false,
+                        "impersonationUseSudo": false,
+                        "pluginVersion": 11,
+                        "commandName": "Docker Login",
+                        "pluginName": "Docker",
+                        "pluginId": "com.urbancode.air.plugin.docker",
+                        "authTokenRestriction": "20000001-0001-0001-0001-000000000000",
+                        "properties": {
+                            "registry": "",
+                            "dockerRegistryUserName": "ankit6133",
+                            "dockerRegistryUserPassword": "crypt_v1{AES\/CBC\/PKCS5Padding|aes256keyi47s|rx\/xqrCL3QKiFuIDmUtRBA==|DSkmNBI8cSPjCUlwnqu0mQ==}",
+                            "dockerRegistryUserEmail": "",
+                            "globalOptions": "",
+                            "envVars": "",
+                            "awsCli": "",
+                            "region": ""
+                        },
+                        "cachedAuthTokenRestriction": {
+                            "name": "System Default",
+                            "description": "Used by default for any plugin steps without a specified token restriction",
+                            "restrictions": [{
+                                "verb": "ALL",
+                                "url": "\/*"
+                            }]
+                        },
+                        "type": "plugin",
+                        "name": "Docker Login",
+                        "children": []
+                    },
+                    {
+                        "allowFailure": false,
+                        "useImpersonation": false,
+                        "showHidden": false,
+                        "impersonationUseSudo": false,
+                        "pluginVersion": 11,
+                        "commandName": "Pull Docker Image",
+                        "pluginName": "Docker",
+                        "pluginId": "com.urbancode.air.plugin.docker",
+                        "authTokenRestriction": "20000001-0001-0001-0001-000000000000",
+                        "properties": {
+                            "image": "ankit6133\/${p:version.name}",
+                            "commandOptions": "",
+                            "globalOptions": "",
+                            "envVars": ""
+                        },
+                        "cachedAuthTokenRestriction": {
+                            "name": "System Default",
+                            "description": "Used by default for any plugin steps without a specified token restriction",
+                            "restrictions": [{
+                                "verb": "ALL",
+                                "url": "\/*"
+                            }]
+                        },
+                        "type": "plugin",
+                        "name": "Pull Docker Image",
+                        "children": []
+                    },
+                    {
+                        "allowFailure": false,
+                        "useImpersonation": false,
+                        "showHidden": false,
+                        "impersonationUseSudo": false,
+                        "pluginVersion": 11,
+                        "commandName": "Run Docker Container",
+                        "pluginName": "Docker",
+                        "pluginId": "com.urbancode.air.plugin.docker",
+                        "authTokenRestriction": "20000001-0001-0001-0001-000000000000",
+                        "properties": {
+                            "image": "ankit6133\/${p:version.name}",
+                            "containerCommand": "",
+                            "container": "pizzaapp",
+                            "commandOptions": "-d -p ${p:port}:8000",
+                            "globalOptions": "${p?:resource\/docker.opts}",
+                            "envVars": ""
+                        },
+                        "cachedAuthTokenRestriction": {
+                            "name": "System Default",
+                            "description": "Used by default for any plugin steps without a specified token restriction",
+                            "restrictions": [{
+                                "verb": "ALL",
+                                "url": "\/*"
+                            }]
+                        },
+                        "type": "plugin",
+                        "name": "Run Pizza App Container",
+                        "children": []
+                    },
+                    {
+                        "allowFailure": false,
+                        "useImpersonation": false,
+                        "showHidden": false,
+                        "impersonationUseSudo": false,
+                        "pluginVersion": 4,
+                        "commandName": "Run IBM DevOps Test Hub test",
+                        "pluginName": "IBM DevOps Test Hub",
+                        "pluginId": "com.hcl.urbancode.air.plugin.rtas",
+                        "authTokenRestriction": "20000001-0001-0001-0001-000000000000",
+                        "properties": {
+                            "serverUrl": "https:\/\/devops101.eu-gb.containers.appdomain.cloud\/test",
+                            "offlineToken": "crypt_v1{AES\/CBC\/PKCS5Padding|aes256keyi47s|cMPAt2CDFjQyFF7Fy3KDKQ==|WYBtul6Qsb5JE3L2wMLY2XDyenY+XVJFRz9W9I4cR2vUQpVLGUqw3veiVjJdJ4BXHOS+ZhOvG9wFsybkOf6iRn0PS7a6eLUvsmVW9zjC9CdOF+CAooufX3QuRv+q8gYCxCgZ6mGRjK7Y6sDJfvbjbR+ZngR8hSu3EIqfiRdDBI8lVAVGQFb84Lbeg0rLa58tL+nNWmHqDFo4dHTbC0f2RX2awHbBReJret\/ztC1FeESD+JXvcqQU2KZ7MJQoajGK0BVcY9UMZweoHpXfkcLYkoaofjA1rMOcY\/JlnaiDJ0fQEw7EhyCNHiXHtXEAbGePXl4tunQHesveNS6t4+iKrVMlCpfi7bNBlyQv+T6VRRwpyBD6ngCFByOsBTdzkZyN9+rnuUf8d8yYRFcT5J19nKrwt+23DA8cIPKI1jYCM1iQL9t5Wsv0BbQ3DZa2YadTrE2g92aON4T0n2EMMgZ42nTdp8JFJ5Ikyuqfg\/QI9ULO5+jMmBG1ycLoQE0iPkIbuHwil1q8rVqyT4mmBojry3Wotp9fU4Cw9OSJSc2IvxLetBj8Ke1HsuW551jlYELoYXRZ0Ko8HoQE7FNantuh5QaAaIPKOV3HGXI4JEAuM7P\/HmKZJmg1M8y5zZHt4HqaVEBpQirY+jQRaoq28NfJ9pgLm4kyERYVrNChKj8A6QzuRw81G8LM6cBOUQOOgVh3ims6TIQsEoFX64WIHuhF4gJk6v\/pKKTcwwfaW7DiY4TfH1LiLU7v+JM4Tmsvd5BDDaHcbZGhLvBiZ2nMpmX3wkbfr1IXrSF16vrjL\/zXdXbgFWdihdEG+I5i9Uks+DowC8Z3zvZMKaQ+bBlpoBo\/BlPz+r2rGA+k002YRG0qSjGaheSVq2btq3tOheyxgvRA8T9Z23szvck9sz2kRmG5cscGCBVQql3\/1x22kIBrAcIHoiV0ipjjLXhL3gH7vXwe7lOt\/\/qq5YNSex7RdtBRaHub\/BfG+ySiJgeZwdb0dFNX\/4TYmdfy492aSlSYuvpv33O\/lEP5AOgM8ByKVfUWcQ==}",
+                            "teamspace": "Initial Team Space",
+                            "projName": "PizzaApp",
+                            "branchName": "main",
+                            "repoName": "https:\/\/github.com\/ankit6133\/DevOpsTests.git",
+                            "filepath": "pizza\/order pizza uta.dtx.yaml",
+                            "datasets": "",
+                            "variables": "",
+                            "tags": "",
+                            "secretsCollectionName": "",
+                            "ritEnv": "",
+                            "trustStorePath": "",
+                            "trustStorePassword": "crypt_v1{AES\/CBC\/PKCS5Padding|aes256keyi47s|ZjIXmcQZY4ftecxQqcYctw==|A7dr+wTopoDt3MIf4bbZUQ==}",
+                            "proxyHost": "",
+                            "proxyPort": "",
+                            "proxyUser": "",
+                            "proxyPass": "crypt_v1{AES\/CBC\/PKCS5Padding|aes256keyi47s|n32nQ1yhfOs941IJq7GeeQ==|s7+zxD0a27lv\/bX8ecDSpQ==}"
+                        },
+                        "cachedAuthTokenRestriction": {
+                            "name": "System Default",
+                            "description": "Used by default for any plugin steps without a specified token restriction",
+                            "restrictions": [{
+                                "verb": "ALL",
+                                "url": "\/*"
+                            }]
+                        },
+                        "type": "plugin",
+                        "name": "Run IBM DevOps Test Hub test",
+                        "children": []
+                    }
+                ]
+            }
+        }],
+        "configTemplates": [],
+        "genericProcesses": [],
+        "teamMappings": [],
+        "tags": []
+    }],
+    "environments": [
+        {
+            "name": "DEV",
+            "description": "",
+            "color": "#00B2EF",
+            "requireApprovals": false,
+            "noSelfApprovals": false,
+            "exemptProcesses": [],
+            "lockSnapshots": false,
+            "requireSnapshots": false,
+            "snapshotDaysToKeep": 0,
+            "cleanupDaysToKeep": 0,
+            "cleanupCountToKeep": 0,
+            "enableProcessHistoryCleanup": true,
+            "useSystemDefaultDays": true,
+            "showCompliancyOnLoad": false,
+            "historyCleanupDaysToKeep": 0,
+            "enableProcessLogCleanup": true,
+            "useSystemDefaultLogDays": true,
+            "logDaysToKeep": 0,
+            "order": 0,
+            "active": true,
+            "propSheet": {
+                "properties": [{
+                    "name": "port",
+                    "value": "3002",
+                    "description": "port for container",
+                    "secure": false
+                }]
+            },
+            "templatePropSheet": {
+                "name": "template",
+                "properties": []
+            },
+            "baseResources": [{
+                "basePath": "",
+                "tree": {
+                    "name": "Main",
+                    "path": "\/Main",
+                    "description": "",
+                    "parentName": "",
+                    "inheritTeam": false,
+                    "propSheet": {
+                        "name": "custom",
+                        "properties": []
+                    },
+                    "tags": [],
+                    "teamMappings": [],
+                    "impersonationUseSudo": false,
+                    "impersonationForce": false,
+                    "prototype": false
+                }
+            }],
+            "baseResourcesFull": [{
+                "basePath": "",
+                "tree": {
+                    "name": "Main",
+                    "path": "\/Main",
+                    "description": "",
+                    "parentName": "",
+                    "inheritTeam": false,
+                    "propSheet": {
+                        "name": "custom",
+                        "properties": []
+                    },
+                    "tags": [],
+                    "teamMappings": [],
+                    "impersonationUseSudo": false,
+                    "impersonationForce": false,
+                    "prototype": false,
+                    "children": [{
+                        "name": "KUBE.Agent.Attach",
+                        "path": "\/Main\/KUBE.Agent.Attach",
+                        "description": "",
+                        "parentName": "Main",
+                        "inheritTeam": true,
+                        "type": "agent",
+                        "typeName": "KUBE.Agent.Attach",
+                        "propSheet": {
+                            "name": "custom",
+                            "properties": []
+                        },
+                        "tags": [],
+                        "teamMappings": [],
+                        "impersonationUseSudo": false,
+                        "impersonationForce": false,
+                        "prototype": false,
+                        "children": [{
+                            "name": "PizzaApp-Container",
+                            "path": "\/Main\/KUBE.Agent.Attach\/PizzaApp-Container",
+                            "description": "",
+                            "parentName": "KUBE.Agent.Attach",
+                            "inheritTeam": true,
+                            "roleName": "PizzaApp-Container",
+                            "roleProperties": {
+                                "name": "PizzaApp-Container",
+                                "properties": []
+                            },
+                            "propSheet": {
+                                "name": "custom",
+                                "properties": []
+                            },
+                            "tags": [],
+                            "teamMappings": [],
+                            "impersonationUseSudo": false,
+                            "impersonationForce": false,
+                            "prototype": false,
+                            "children": []
+                        }]
+                    }]
+                }
+            }],
+            "componentPropSheets": [{
+                "properties": [],
+                "componentName": "PizzaApp-Container"
+            }],
+            "teamMappings": [],
+            "deploymentTriggers": []
+        },
+        {
+            "name": "QA",
+            "description": "",
+            "color": "#EEA10F",
+            "requireApprovals": false,
+            "noSelfApprovals": false,
+            "exemptProcesses": [],
+            "lockSnapshots": false,
+            "requireSnapshots": false,
+            "snapshotDaysToKeep": 0,
+            "cleanupDaysToKeep": 0,
+            "cleanupCountToKeep": 0,
+            "enableProcessHistoryCleanup": true,
+            "useSystemDefaultDays": true,
+            "showCompliancyOnLoad": false,
+            "historyCleanupDaysToKeep": 0,
+            "enableProcessLogCleanup": true,
+            "useSystemDefaultLogDays": true,
+            "logDaysToKeep": 0,
+            "order": 1,
+            "active": true,
+            "propSheet": {
+                "properties": []
+            },
+            "templatePropSheet": {
+                "name": "template",
+                "properties": []
+            },
+            "baseResources": [{
+                "basePath": "",
+                "tree": {
+                    "name": "Main",
+                    "path": "\/Main",
+                    "description": "",
+                    "parentName": "",
+                    "inheritTeam": false,
+                    "propSheet": {
+                        "name": "custom",
+                        "properties": []
+                    },
+                    "tags": [],
+                    "teamMappings": [],
+                    "impersonationUseSudo": false,
+                    "impersonationForce": false,
+                    "prototype": false
+                }
+            }],
+            "baseResourcesFull": [{
+                "basePath": "",
+                "tree": {
+                    "name": "Main",
+                    "path": "\/Main",
+                    "description": "",
+                    "parentName": "",
+                    "inheritTeam": false,
+                    "propSheet": {
+                        "name": "custom",
+                        "properties": []
+                    },
+                    "tags": [],
+                    "teamMappings": [],
+                    "impersonationUseSudo": false,
+                    "impersonationForce": false,
+                    "prototype": false,
+                    "children": [{
+                        "name": "KUBE.Agent.Attach",
+                        "path": "\/Main\/KUBE.Agent.Attach",
+                        "description": "",
+                        "parentName": "Main",
+                        "inheritTeam": true,
+                        "type": "agent",
+                        "typeName": "KUBE.Agent.Attach",
+                        "propSheet": {
+                            "name": "custom",
+                            "properties": []
+                        },
+                        "tags": [],
+                        "teamMappings": [],
+                        "impersonationUseSudo": false,
+                        "impersonationForce": false,
+                        "prototype": false,
+                        "children": [{
+                            "name": "PizzaApp-Container",
+                            "path": "\/Main\/KUBE.Agent.Attach\/PizzaApp-Container",
+                            "description": "",
+                            "parentName": "KUBE.Agent.Attach",
+                            "inheritTeam": true,
+                            "roleName": "PizzaApp-Container",
+                            "roleProperties": {
+                                "name": "PizzaApp-Container",
+                                "properties": []
+                            },
+                            "propSheet": {
+                                "name": "custom",
+                                "properties": []
+                            },
+                            "tags": [],
+                            "teamMappings": [],
+                            "impersonationUseSudo": false,
+                            "impersonationForce": false,
+                            "prototype": false,
+                            "children": []
+                        }]
+                    }]
+                }
+            }],
+            "componentPropSheets": [{
+                "properties": [],
+                "componentName": "PizzaApp-Container"
+            }],
+            "teamMappings": [],
+            "deploymentTriggers": []
+        },
+        {
+            "name": "PROD",
+            "description": "",
+            "color": "#17AF4A",
+            "requireApprovals": false,
+            "noSelfApprovals": false,
+            "exemptProcesses": [],
+            "lockSnapshots": false,
+            "requireSnapshots": false,
+            "snapshotDaysToKeep": 0,
+            "cleanupDaysToKeep": 0,
+            "cleanupCountToKeep": 0,
+            "enableProcessHistoryCleanup": true,
+            "useSystemDefaultDays": true,
+            "showCompliancyOnLoad": false,
+            "historyCleanupDaysToKeep": 0,
+            "enableProcessLogCleanup": true,
+            "useSystemDefaultLogDays": true,
+            "logDaysToKeep": 0,
+            "order": 2,
+            "active": true,
+            "propSheet": {
+                "properties": []
+            },
+            "templatePropSheet": {
+                "name": "template",
+                "properties": []
+            },
+            "baseResources": [{
+                "basePath": "",
+                "tree": {
+                    "name": "Main",
+                    "path": "\/Main",
+                    "description": "",
+                    "parentName": "",
+                    "inheritTeam": false,
+                    "propSheet": {
+                        "name": "custom",
+                        "properties": []
+                    },
+                    "tags": [],
+                    "teamMappings": [],
+                    "impersonationUseSudo": false,
+                    "impersonationForce": false,
+                    "prototype": false
+                }
+            }],
+            "baseResourcesFull": [{
+                "basePath": "",
+                "tree": {
+                    "name": "Main",
+                    "path": "\/Main",
+                    "description": "",
+                    "parentName": "",
+                    "inheritTeam": false,
+                    "propSheet": {
+                        "name": "custom",
+                        "properties": []
+                    },
+                    "tags": [],
+                    "teamMappings": [],
+                    "impersonationUseSudo": false,
+                    "impersonationForce": false,
+                    "prototype": false,
+                    "children": [{
+                        "name": "KUBE.Agent.Attach",
+                        "path": "\/Main\/KUBE.Agent.Attach",
+                        "description": "",
+                        "parentName": "Main",
+                        "inheritTeam": true,
+                        "type": "agent",
+                        "typeName": "KUBE.Agent.Attach",
+                        "propSheet": {
+                            "name": "custom",
+                            "properties": []
+                        },
+                        "tags": [],
+                        "teamMappings": [],
+                        "impersonationUseSudo": false,
+                        "impersonationForce": false,
+                        "prototype": false,
+                        "children": [{
+                            "name": "PizzaApp-Container",
+                            "path": "\/Main\/KUBE.Agent.Attach\/PizzaApp-Container",
+                            "description": "",
+                            "parentName": "KUBE.Agent.Attach",
+                            "inheritTeam": true,
+                            "roleName": "PizzaApp-Container",
+                            "roleProperties": {
+                                "name": "PizzaApp-Container",
+                                "properties": []
+                            },
+                            "propSheet": {
+                                "name": "custom",
+                                "properties": []
+                            },
+                            "tags": [],
+                            "teamMappings": [],
+                            "impersonationUseSudo": false,
+                            "impersonationForce": false,
+                            "prototype": false,
+                            "children": []
+                        }]
+                    }]
+                }
+            }],
+            "componentPropSheets": [{
+                "properties": [],
+                "componentName": "PizzaApp-Container"
+            }],
+            "teamMappings": [],
+            "deploymentTriggers": []
+        }
+    ],
+    "processes": [{
+        "name": "Deploy-App",
+        "description": "",
+        "inventoryManagementType": "AUTOMATIC",
+        "offlineAgentHandling": "PRE_EXECUTION_CHECK",
+        "disableSnapshots": false,
+        "rootActivity": {
+            "edges": [
+                {
+                    "to": "26f3f9dc86f3d82ec37203c7deeb02",
+                    "type": "ALWAYS",
+                    "value": ""
+                },
+                {
+                    "to": "e97ff1778b16320d11891f709095dc",
+                    "from": "26f3f9dc86f3d82ec37203c7deeb02",
+                    "type": "SUCCESS",
+                    "value": ""
+                }
+            ],
+            "offsets": [
+                {
+                    "name": "26f3f9dc86f3d82ec37203c7deeb02",
+                    "x": -110,
+                    "y": 230,
+                    "h": 70,
+                    "w": 280
+                },
+                {
+                    "name": "e97ff1778b16320d11891f709095dc",
+                    "x": -5,
+                    "y": 450,
+                    "h": 80,
+                    "w": 120
+                }
+            ],
+            "layoutMode": "auto",
+            "type": "graph",
+            "name": "87239391-f1f1-4d9b-86e4-8964b97489aa",
+            "children": [
+                {
+                    "type": "finish",
+                    "name": "e97ff1778b16320d11891f709095dc",
+                    "children": []
+                },
+                {
+                    "componentName": "PizzaApp-Container",
+                    "properties": [
+                        {
+                            "name": "maxIteration",
+                            "value": "-1"
+                        },
+                        {
+                            "name": "isIgnoreChildWarnings",
+                            "value": "false"
+                        },
+                        {
+                            "name": "failFast",
+                            "value": "false"
+                        }
+                    ],
+                    "type": "componentEnvironmentIterator",
+                    "name": "26f3f9dc86f3d82ec37203c7deeb02",
+                    "children": [{
+                        "componentName": "PizzaApp-Container",
+                        "status": "Active",
+                        "type": "inventoryVersionDiff",
+                        "name": "c7cd7455-e218-4262-bdb3-fe4b9853a5a1",
+                        "children": [{
+                            "componentProcessName": "Deploy PizzaApp",
+                            "componentName": "PizzaApp-Container",
+                            "allowFailure": false,
+                            "properties": {
+                                "isIgnoreChildWarnings": "false"
+                            },
+                            "draftProperties": {
+                                "isIgnoreChildWarnings": "false"
+                            },
+                            "type": "componentProcess",
+                            "name": "Install: \"PizzaApp-Container\"",
+                            "children": []
+                        }]
+                    }]
+                }
+            ]
+        },
+        "propDefs": [],
+        "versionPresets": []
+    }],
+    "genericProcesses": [],
+    "teamMappings": [],
+    "tags": [{
+        "id": "196a73a6-4043-e066-d672-02073497b12d",
+        "name": "Docker",
+        "color": "#00B2EF",
+        "description": "",
+        "objectType": "Application"
+    }],
+    "webhooks": []
+}
