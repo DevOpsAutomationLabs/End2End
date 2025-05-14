@@ -62,7 +62,23 @@ This view provides the used record types, fields, transition matrizes and more.
 
 ### Project Board
 
-view around
+Project Boards provide a graphical Kanban style overview of worktitems.
+TODO: add more text here
+
+To open the board use the Project Board icon ![Board Icon in sidebar](media/Plan_ProjectBoard_Icon.png) on the sidebar.
+
+The initial view is your My Board view which will show worktitems that are assigned to you. As we newly started the board is empty.
+![myWork Board](media/Plan_ProjectBoard_myBoard.png)
+
+Next to "My Board" is the Tab with all "Work Items" for the active Project. This board will a list of stati (Submitted, Backlog, Active, Resolved and Closed) and the Work Items which are in this state.
+
+![Work items Board](media/Plan_ProjectBoard_WorkItems.png)
+
+To limit the shown Work Items use the Filter bar
+![Filter Bar](media/Plan_ProjectBoard_Filterbar.png)
+
+You can switch between Projects using the Projects Switcher
+![Board Project switcher](media/Plan_ProjectBoard_SelectProject.png)
 
 ### Project and Releases
 
