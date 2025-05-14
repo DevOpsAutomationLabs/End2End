@@ -63,6 +63,7 @@ This view provides the used record types, fields, transition matrizes and more.
 ### Project Board
 
 Project Boards provide a graphical Kanban style overview of worktitems.
+
 TODO: add more text here
 
 To open the board use the Project Board icon ![Board Icon in sidebar](media/Plan_ProjectBoard_Icon.png) on the sidebar.
@@ -74,21 +75,179 @@ Next to "My Board" is the Tab with all "Work Items" for the active Project. This
 
 ![Work items Board](media/Plan_ProjectBoard_WorkItems.png)
 
-To limit the shown Work Items use the Filter bar
+To limit the shown Work Items use the Filter bar.
+
 ![Filter Bar](media/Plan_ProjectBoard_Filterbar.png)
 
 You can switch between Projects using the Projects Switcher
+
 ![Board Project switcher](media/Plan_ProjectBoard_SelectProject.png)
+
+Next Tab is a view on Releases.
+
+![Releases Board](media/Plan_ProjectBoard_Releases.png)
+
+In the Sprint Board View the workitems assigned to the Sprints is shown.
+
+![Sprint Board](media/Plan_ProjectBoard_SprintBoard.png)
+
+And last but not least is the Sprint Backlog view.
+
+![Sprint Backlog Board](media/Plan_ProjectBoard_SprintBacklog.png)
 
 ### Project and Releases
 
-#### Look at the Project and Release list
+In this specific workflow Projects and Releases are used to manage agile software development.
 
-#### Create and customize a new Project
+#### Projects
+
+When ths sidebar is minimized you can open the Projects view either by clicking on the Agile button:
+
+![Agile Icon](media/Plan_Sidebar_Agile_icon.png) which opens the selction pupup: ![Select Project from Agile Popup](media/Plan_Sidebar_Agile_Projects.png)
+
+When it is maximized just select directly the Projects entry:
+
+![Projects](media/Plan_Sidebar_Projects.png)
+
+This View will show you a list of available Projects and their Details:
+
+![Project List and Details](media/Plan_Project_List_Details.png)
+
+The Details cover Main informations like Name and Description (as shown in the above screenshot), Releases, Sprints and Components which are related to this Project.
+
+![Project list of Releases](media/Plan_Project_Releaseslist.png)
+
+![Project list of Sprints](media/Plan_Project_Sprintlist.png)
+
+![Project list of Components](media/Plan_Project_Componentlist.png)
+
+In the Configure section you can configure some of the Selection Fields of a Project. In this Workflow "Work item Types", "Priorities", "Story Points", "Severities", "Resolutions", "Tags" and "Release Types" can be configured:
+
+![Project configuration](media/Plan_Project_Configure.png)
+
+You can edit existing data using the Editor Icons:
+
+![Editor Bar](media/Plan_EditorBar.png)
+
+The Edit Icon will set the workitem into edit mode and allows changes of the fields:
+
+![Edit Record](media/Plan_EditRecord.png)
+
+With the Copy Link icon you can copy the URL of this item:
+
+![Copy Link](media/Plan_CopyLink.png)
+
+Use the Refresh icon to refresh the view when you think that the values may have been changed by someone else:
+
+![Refresh](media/Plan_Refresh.png)
+
+The Three Dots menue provides extra functionality for Printing, Exporting to JSON format, Cloning the workitem or deleting it:
+
+![ThreeDots](media/Plan_ThreeDotsmenue.png)
+
+In the Attachments section you can upload files and attach it to this workitem.
+
+![Attachments](media/Plan_ProjectAttachments.png)
+
+The Admin section provides information which user(s) is/are administrators of this item and have the right to change it.
+
+![Project Admin](media/Plan_ProjectAdmins.png)
+
+#### Releases
+
+Now let us have a look at Releases. Let's use the Agile icon again but now select Releases:
+
+![Select Releases from Agile Popup](media/Plan_Sidebar_Agile_Projects.png)
+
+This View list all the available Releases and their Details:
+
+![Releases List and Details](media/Plan_Releases_ListDetails.png)
+
+A Release has a Main section providing a Name, Type, Start/End Dates and a Description (see above screenshot).
+
+The Projects Section lists all Projects to which this Release is related:
+
+![List of Projects](media/Plan_Releases_ProjectList.png)
+
+The Sprint Section lists all Sprints to which this Release is related:
+
+![List of Sprints](media/Plan_Releases_SprintList.png)
+
+The Test Plans Section lists all Test Plans to which this workitem is related:
+
+![List of Test Plans](media/Plan_Releases_TestPlansList.png)
+
+## Create new Workitems
+
+Now it is time to do some work. Let us create a new Project and configure it. Then create new Releases, Sprints and Components and add them to our new Project.
+
+### Create and customize a new Project
+
+To create a new Workitem you have to click on the triangle icon on the NEW button on the top right of your screen:
+
+![Create new Workitem Button](media/Plan_New_WorkItem.png)
+
+![Create New Workitem List](media/Plan_New_WI_List.png)
+
+Select Project from the List. This will create a new Record from type "Project" and will show you its Main section first to provide Name and more Details:
+
+![New Project Main](media/Plan_New_Project_Main.png)
+
+Provide a name such as "Project"+ your **StudentNumber**. Feel free to add a meaningful description too.
+
+Next Mandatory information we have to enter (Sections marked with a red star) is the Configure section. Click on Configure section to open the details.
+
+![New Project Configure](media/Plan_New_Project_Configure.png)
+
+This screen lets you customize your project with different values for Work Item Types, Priorities, Story Points, Severities, Resolutions, Tags and Release Types. New values can be added by clicking in the white space, typing in a value and clicking the Create link that appears below. Existing values can be removed by clicking the X beside the value
+
+Add a tag named Customer Request and remove the Hill and SubHill work item types.
+
+Click the Save button on the lower right of the screen: ![Save Button](media/Plan_Save_Button.png)
 
 #### Create Releases, Sprint and Components
 
+Create a new release by click the down arrow next to the New button at the top right of the screen and pick Release:
+
+![Create new release](media/Plan_New_Release.png)
+
+Enter the name of the Release as your **StudentNumber**-12 (example 13-12) with start date of 9/23/24 and end date of 12/20/24.
+
+Click Save and Create Another at the bottom right of the screen: ![Save and Create Another](media/Plan_SaveAndCreateAnother.png)
+
+Add two more releases **StudentNumber**-03 12/23/24 - 3/21/25 and **StudentNumber**-06 3/24/25 – 6/20/25
+
+Create a new Sprint by click the down arrow next to the New button at the top right of the screen and pick Sprint.
+
+Using similar steps to Releases create Sprint **StudentNumber**-1 to **StudentNumber**-4 with start and end dates as follows: 9/23/24-10/11/24, 10/14/24-11/08/24, 11/11/24-11/29/42, 12/2/24-12/20/24
+
+Create a new Component by click the down arrow next to the New button at the top right of the screen and pick Component
+
+Using similar steps create these five components and add your **StudentNumber** in Front of the Name: Android App, IOS App, Mid Tier, Database, Mainframe
+
 #### Attach the Releases, Sprints and Components to the Project
+
+Click the Application Items icon on the left side of the screen:
+
+![Application Items](media/Plan_ApplicationItems.png)
+
+Click the Created By Me link ![Created by me](media/Plan_CreatedByMe.png) on the top of the screen.
+
+![List of items created by me](media/Plan_ListCreatedByMe.png)
+
+Scroll down the list on the left and click on your Project to select it (example Project13 created by Student13)
+
+Click the Modify/Edit Record Icon towards the top right of the screen ![Modify](media/Plan_EditRecord.png)
+
+Click on the Releases tab and then click in the box to show the three releases you created.
+
+![Select Releases to attach to project](media/Plan_editprojec_list_releases.png)
+
+Click the checkbox of the three releases to add them to the Project (NOTE: In this example only one Release is visible)
+
+Follow similar steps to add the sprints and components you created. Recently Viewed Items list, type part of the name into the box and it will appear If an item does not show up Recently Viewed Items list, type part of the name into the box and it will appear.
+
+Save the Project.
 
 ## Work with Queries
 
