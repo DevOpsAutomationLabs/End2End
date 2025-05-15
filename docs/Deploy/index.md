@@ -69,7 +69,7 @@ Now Click on save button on the screen.
 2. Click on New Item and fill `Enter an item name` with : App-01 (01 is your student ID as mentioned in your email)
 3. Choose `pipeline`, press Ok
 4. Now Scroll down and find the pipeline script text box.
-5. Copy the content available on https://github.com/DevOpsAutomationLabs/End2End/blob/main/Jenkins
+5. Copy the content available on https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/Jenkins
 6. Paste it to any editor and search for `COMPONENT = "PizzaApp-Container-XX"` and update XX with your student id. Eg. ` COMPONENT = "PizzaApp-Container-02"`
 7. Copy the upadted content and Paste the copied text in `pipeline script`
 8. Click Save
