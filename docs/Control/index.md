@@ -6,7 +6,7 @@ TODO: add here more about Control
 
 ## How to switch to Control from Home Page
 
-You can switch to Plan by either pressing "Let's go to Control" button on its tile:
+You can switch to Control by either pressing "Let's go to Control" button on its tile:
 
 ![Control Tile lets go](../Introduction/media/Loop_switch_to_Control.png)
 
