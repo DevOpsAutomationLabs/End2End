@@ -655,6 +655,75 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#how-to-switch-to-code-from-home-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to switch to Code from Home Page
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using Code
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-entry-view-toggle-bar-and-sidebars" class="md-nav__link">
+    <span class="md-ellipsis">
+      First entry view, Toggle bar and Sidebars
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clone-a-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clone a Repository
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-the-freshly-cloned-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open the freshly cloned repository
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit-a-file-and-commit-the-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Edit a file and commit the changes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusio
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1257,6 +1326,72 @@
 
 <h1 id="code-lab">Code Lab</h1>
 <h2 id="introduction">Introduction</h2>
+<p>TODO: add here more about Code
+NOTE: in the actual version a direct integration between Plan, Control and Code is not working and will be fixed in upcoming release</p>
+<h2 id="how-to-switch-to-code-from-home-page">How to switch to Code from Home Page</h2>
+<p>You can switch to Code by either pressing "Let's go to Code" button on its tile:</p>
+<p><img alt="Code Tile lets go" src="../Introduction/media/Loop_switch_to_Code.png" /></p>
+<p>Or you can always switch using the central app switcher on the top left of your screen:</p>
+<p><img alt="Central App Switcher" src="../Introduction/media/Loop_central_app_control.png" /></p>
+<p>Note: it takes a few seconds till your environment is setup and running, please be patient.</p>
+<h2 id="using-code">Using Code</h2>
+<h3 id="first-entry-view-toggle-bar-and-sidebars">First entry view, Toggle bar and Sidebars</h3>
+<p>Your first entry is a clean and empty workspace:</p>
+<p><img alt="First Entry" src="media/Code_FirstEntry.png" /></p>
+<p>You can open several additional views by using the Toggle bar on the top right corner of your screen:</p>
+<p><img alt="Toggle Bar" src="media/Code_ToggleBar.png" /></p>
+<p>Use the "Toggle Panel" Icon <img alt="Panel Icon" src="media/Code_Toggle_Panel.png" /> to open the Panel View which provides different tabs of information like: Problems, Output, Debug Console, Terminal and Ports:</p>
+<p><img alt="Panel View" src="media/Code_PanelView.png" /></p>
+<p>Use the "Toggle Primary Sidebar" icon <img alt="Primary Sidebar Icon" src="media/Code_Toggle_PrimarySidebar.png" /> to open the Primary Sidebar (right) which provides access to workspace and files:</p>
+<p><img alt="Primary Sidebar View" src="media/Code_PrimarySidebar_View.png" /></p>
+<p>Use the "Toggle Secondary Sidebar" icon <img alt="Secondary Sidebar Icon" src="media/Code_Toggle_SecondarySidebar.png" /> to open the Secondary Sidebar (left) which provides additional views:</p>
+<p><img alt="Secondary Sidebar View" src="media/Code_SecondarySidebar_View.png" /></p>
+<h3 id="clone-a-repository">Clone a Repository</h3>
+<p>NOTE: Due the issue with integration (will be fixed in next release) we have to clone repository manualy and set some global settings for git.</p>
+<ol>
+<li>Open the Panel view using the Toggle Panel icon and select the Terminal view.</li>
+<li>In the Terminal View enter the git clone command using your username and previously created access token. Use the repository you have created in the Control lab. Then set global git settings:<ol>
+<li>'git config --global user.name "<your git studentid>"'</li>
+<li>'git config --global user.email "<your studentid email>"`</li>
+<li><code>git clone https://&lt;your git studentid&gt;:&lt;your access token&gt;@&lt;repo url&gt;</code></li>
+</ol>
+</li>
+<li>Here an example with Student13:<ol>
+<li><code>git config --global user.name "student13-labs.com"</code></li>
+<li><code>git config --global user.email "student13@labs.com"</code></li>
+<li><code>git clone  https://student13-labs.com:cba1ae07eb42313eae4c27f953bfdddba235fb1e@devops101.eu-gb.containers.appdomain.cloud/control/student13-labs.com/PizzaApp.git</code></li>
+</ol>
+</li>
+<li>Example Screenshots:<ol>
+<li><img alt="Terminal set Git settings" src="media/Code_Terminal_SetGitSettings.png" /></li>
+<li><img alt="Terminal clone repo" src="media/Code_Terminal_CloneRepo.png" /></li>
+</ol>
+</li>
+</ol>
+<h3 id="open-the-freshly-cloned-repository">Open the freshly cloned repository</h3>
+<p>Click on the Primary Sidebar on the Open Folder button:</p>
+<p><img alt="Open Folder" src="media/Code_OpenFolder.png" /></p>
+<p>Enter the location of your cloned repository:</p>
+<p><img alt="Select the Location" src="media/Code_OpenPizzaAppFolder.png" /></p>
+<p>Now you have access to the cloned repository:</p>
+<p><img alt="First look at folder" src="media/Code_PizzaApp_FirstView.png" /></p>
+<p>Look around and open the Mockup image to view the Design:</p>
+<p><img alt="Look around and open the image" src="media/Code_PizzaApp_View_Image.png" /></p>
+<h3 id="edit-a-file-and-commit-the-changes">Edit a file and commit the changes</h3>
+<p>Open the README.md file and add some text. In this example added "Troubleshooting" at the end of the file then saved changes"</p>
+<p><img alt="File Changed" src="media/Code_NewFileChanges.png" /></p>
+<p>Now click on the Source Control icon <img alt="Source Control Icon" src="media/Code_SourceControl_Icon.png" /> which shows the changed files and provide a good commit message and press commit:</p>
+<p><img alt="Changes View" src="media/Code_ChangesView.png" /></p>
+<p>Click on the triangle on the Commit Button to open the menue:</p>
+<p><img alt="Commit menue" src="media/Code_CommitChangesMenu.png" /></p>
+<p>Click on Commit and Push. A new popup will appear and ask how to stage the changes. Press on Always to proceed:</p>
+<p><img alt="Commit Stage Changes Popup" src="media/Code_CommitStageChangesPopup.png" /></p>
+<p>Congratulations you have commited your first change into your repository. In the Graph view you will see your commit message:</p>
+<p><img alt="Graph View" src="media/Code_GitGraphView.png" /></p>
+<p>Switch Back to Control and verify that in the activity view you have your commit visible:</p>
+<p><img alt="New Activity in Control" src="../Control/media/Control_NewActivity.png" /></p>
+<h2 id="conclusio">Conclusio</h2>
+<p>Congratulations you have finished the Code Lab.</p>
 
 
 
