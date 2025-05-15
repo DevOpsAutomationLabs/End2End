@@ -22,9 +22,9 @@ Application > Environment(DEV, QA, PROD, etc.) > Components
 
 In order to deploy application, please download the [Application file](../../files/PizzaApp.json) directly or from [GitHub Link](https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/PizzaApp.json) open it on your preferred editor, and update the following in the file.
 
-1. Search for `"name": "PizzaApp"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-01"`)
-2. Search for `"name": "PizzaApp-Container"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-Container-01"`)
-3. Search for `"commandOptions": "-d -p ${p:port}:8000"` and replace it with your student code (30xx appended with to email id. eg., `"commandOptions": "-d -p 3001:8000"`) . Troubleshooting: If you see any issue, try to update the port like 3070,3071, etc...
+1. Search for `"name": "PizzaApp-01"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-02"`) 
+2. Search for `"name": "PizzaApp-Container-01"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-Container-02"`) 
+3. Search for `"commandOptions": "-d -p ${p:port}:8000",` and replace the `${p:port}` with your student code (30xx appended with to email id. eg., `"commandOptions": "-d -p 3002:8000"`) . Troubleshooting: If you see any issue, try to update the port like 3016,3017, etc...
 4. Save the file.
 
 ## Upload this to DevOps Deploy
@@ -36,6 +36,26 @@ Go to DevOps Deploy > Applications > Import Application > (Scroll down) Choose F
 Once you import the application, you would be able to see additional application listes like:
 
   <img width="1525" alt="Screenshot 2025-05-14 at 5 52 46 PM" src="https://github.com/user-attachments/assets/969d235a-cfde-4abf-9dff-92bbf59aa1a4" />
+
+Now, Click on you application > Switch Tab to Components > Click on PizzaApp-Container-XX > Switch tab to Process > Click on "Deploy PizzaApp" 
+
+It will show you the process designer:
+
+<img width="602" alt="Screenshot 2025-05-15 at 1 04 11 PM" src="https://github.com/user-attachments/assets/2f178fa9-4a1d-4880-9f5c-16cdfff5a91a" />
+
+
+Now click on edit button available on the individual process:
+
+<img width="243" alt="Screenshot 2025-05-15 at 12 57 44 PM" src="https://github.com/user-attachments/assets/a066fbb7-2f10-4f42-adb5-00f0951ec263" />
+
+Now click edit on `Stop Docker Container` and change the Docker Container to : pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
+
+Now Do the same for `Remove Docker Container`: pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
+
+Now Do the same for `Run Pizz App Container` (container name): pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
+
+<img width="599" alt="Screenshot 2025-05-15 at 12 53 13 PM" src="https://github.com/user-attachments/assets/7a907125-068f-4b52-8f58-18fa50136f31" />
+
 
 ## Build image and publish to Deploy
 
