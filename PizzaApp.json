@@ -308,7 +308,7 @@
                             "image": "ankit6133\/${p:version.name}",
                             "containerCommand": "",
                             "container": "pizzaapp",
-                            "commandOptions": "-d -p ${p:port}:8000",
+                            "commandOptions": "-d -p ${p:port}:8000 --name pizza-container-01",
                             "globalOptions": "${p?:resource\/docker.opts}",
                             "envVars": ""
                         },
