@@ -37,6 +37,26 @@ Once you import the application, you would be able to see additional application
 
   <img width="1525" alt="Screenshot 2025-05-14 at 5 52 46 PM" src="https://github.com/user-attachments/assets/969d235a-cfde-4abf-9dff-92bbf59aa1a4" />
 
+Now, Click on you application > Switch Tab to Components > Click on PizzaApp-Container-XX > Switch tab to Process > Click on "Deploy PizzaApp" 
+
+It will show you the process designer:
+
+<img width="602" alt="Screenshot 2025-05-15 at 1 04 11 PM" src="https://github.com/user-attachments/assets/2f178fa9-4a1d-4880-9f5c-16cdfff5a91a" />
+
+
+Now click on edit button available on the individual process:
+
+<img width="243" alt="Screenshot 2025-05-15 at 12 57 44 PM" src="https://github.com/user-attachments/assets/a066fbb7-2f10-4f42-adb5-00f0951ec263" />
+
+Now click on Remove Docker Container and change the Docker Container to : pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
+
+Now Do the same for Remove Docker Container: pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
+
+Now Do the same for Remove Docker Container: pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
+
+Now Do the same for Run Docker Container (container name): pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
+
+<img width="599" alt="Screenshot 2025-05-15 at 12 53 13 PM" src="https://github.com/user-attachments/assets/7a907125-068f-4b52-8f58-18fa50136f31" />
 
 ## Build image and publish to Deploy
 
