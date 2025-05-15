@@ -1,5 +1,5 @@
 {
-    "name": "PizzaApp",
+    "name": "PizzaApp-01",
     "description": "An example eCommerce application running in a docker container",
     "enforceCompleteSnapshots": false,
     "onlyChangedVersions": false,
@@ -12,7 +12,7 @@
         "properties": []
     },
     "components": [{
-        "name": "PizzaApp-Container",
+        "name": "PizzaApp-Container-01",
         "description": "",
         "created": 1745571149299,
         "componentType": "STANDARD",
@@ -462,14 +462,14 @@
                         "impersonationForce": false,
                         "prototype": false,
                         "children": [{
-                            "name": "PizzaApp-Container",
-                            "path": "\/Main\/KUBE.Agent.Attach\/PizzaApp-Container",
+                            "name": "PizzaApp-Container-01",
+                            "path": "\/Main\/KUBE.Agent.Attach\/PizzaApp-Container-01",
                             "description": "",
                             "parentName": "KUBE.Agent.Attach",
                             "inheritTeam": true,
-                            "roleName": "PizzaApp-Container",
+                            "roleName": "PizzaApp-Container-01",
                             "roleProperties": {
-                                "name": "PizzaApp-Container",
+                                "name": "PizzaApp-Container-01",
                                 "properties": []
                             },
                             "propSheet": {
@@ -488,7 +488,7 @@
             }],
             "componentPropSheets": [{
                 "properties": [],
-                "componentName": "PizzaApp-Container"
+                "componentName": "PizzaApp-Container-01"
             }],
             "teamMappings": [],
             "deploymentTriggers": []
@@ -575,14 +575,14 @@
                         "impersonationForce": false,
                         "prototype": false,
                         "children": [{
-                            "name": "PizzaApp-Container",
-                            "path": "\/Main\/KUBE.Agent.Attach\/PizzaApp-Container",
+                            "name": "PizzaApp-Container-01",
+                            "path": "\/Main\/KUBE.Agent.Attach\/PizzaApp-Container-01",
                             "description": "",
-                            "parentName": "KUBE.Agent.Attach",
+                            "parentName": "KUBE.Agent.Attach-01",
                             "inheritTeam": true,
-                            "roleName": "PizzaApp-Container",
+                            "roleName": "PizzaApp-Container-01",
                             "roleProperties": {
-                                "name": "PizzaApp-Container",
+                                "name": "PizzaApp-Container-01",
                                 "properties": []
                             },
                             "propSheet": {
@@ -601,7 +601,7 @@
             }],
             "componentPropSheets": [{
                 "properties": [],
-                "componentName": "PizzaApp-Container"
+                "componentName": "PizzaApp-Container-01"
             }],
             "teamMappings": [],
             "deploymentTriggers": []
@@ -688,14 +688,14 @@
                         "impersonationForce": false,
                         "prototype": false,
                         "children": [{
-                            "name": "PizzaApp-Container",
-                            "path": "\/Main\/KUBE.Agent.Attach\/PizzaApp-Container",
+                            "name": "PizzaApp-Container-01",
+                            "path": "\/Main\/KUBE.Agent.Attach\/PizzaApp-Container-01",
                             "description": "",
                             "parentName": "KUBE.Agent.Attach",
                             "inheritTeam": true,
-                            "roleName": "PizzaApp-Container",
+                            "roleName": "PizzaApp-Container-01",
                             "roleProperties": {
-                                "name": "PizzaApp-Container",
+                                "name": "PizzaApp-Container-01",
                                 "properties": []
                             },
                             "propSheet": {
@@ -714,7 +714,7 @@
             }],
             "componentPropSheets": [{
                 "properties": [],
-                "componentName": "PizzaApp-Container"
+                "componentName": "PizzaApp-Container-01"
             }],
             "teamMappings": [],
             "deploymentTriggers": []
@@ -766,7 +766,7 @@
                     "children": []
                 },
                 {
-                    "componentName": "PizzaApp-Container",
+                    "componentName": "PizzaApp-Container-01",
                     "properties": [
                         {
                             "name": "maxIteration",
@@ -784,13 +784,13 @@
                     "type": "componentEnvironmentIterator",
                     "name": "26f3f9dc86f3d82ec37203c7deeb02",
                     "children": [{
-                        "componentName": "PizzaApp-Container",
+                        "componentName": "PizzaApp-Container-01",
                         "status": "Active",
                         "type": "inventoryVersionDiff",
                         "name": "c7cd7455-e218-4262-bdb3-fe4b9853a5a1",
                         "children": [{
                             "componentProcessName": "Deploy PizzaApp",
-                            "componentName": "PizzaApp-Container",
+                            "componentName": "PizzaApp-Container-01",
                             "allowFailure": false,
                             "properties": {
                                 "isIgnoreChildWarnings": "false"
@@ -799,7 +799,7 @@
                                 "isIgnoreChildWarnings": "false"
                             },
                             "type": "componentProcess",
-                            "name": "Install: \"PizzaApp-Container\"",
+                            "name": "Install: \"PizzaApp-Container-01\"",
                             "children": []
                         }]
                     }]
