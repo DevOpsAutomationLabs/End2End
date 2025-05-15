@@ -107,11 +107,14 @@ Do not forget to do this important step once you can successfully run the Jenkin
 8. Click on your application. Eg. `PizzApp-02`
 9. Locate DEV  > Request Process > Click `"Request Process"`
 10. Click `"Choose Component Version"`
+    
    <img width="1671" alt="Screenshot 2025-05-14 at 5 57 00 PM" src="https://github.com/user-attachments/assets/016a3648-d6db-4aca-b59c-4be749cc9c60" />
+   
 11. A right panel will open, click on `Add` , the drop-down`"By Version Lookup"` Select the first available
 12. Click on Submit 
-13. Expand the process and check the deployment process. Note: You might see failure in `Stop Docker Container` and `Remove Docker Container` those are fine as you are running this process for the first time and you don't have any running container.
+13. Expand the process and check the deployment process. Note: You might see failure in `Stop Docker Container` and `Remove Docker Container` those are fine as you are running this process for the first time and you don't have after we have the running container.
 
-     <img width="1466" alt="Screenshot 2025-05-14 at 11 03 00 PM" src="https://github.com/user-attachments/assets/1eb06157-4748-46aa-acc2-50f590b0a293" />
+
+<img width="1466" alt="Screenshot 2025-05-14 at 11 03 00 PM" src="https://github.com/user-attachments/assets/1eb06157-4748-46aa-acc2-50f590b0a293" />
 
 ## GO TO Test Section: [Click Here](https://github.com/DevOpsAutomationLabs/End2End/blob/main/docs/Test/index.md)
