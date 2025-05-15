@@ -21,9 +21,9 @@ Application > Environment(DEV, QA, PROD, etc.) > Components
 
 
 In order to deploy application, please download the Application file (https://github.com/DevOpsAutomationLabs/End2End/blob/main/PizzaApp.json) open it on your preferred editor, and update the following in the file. 
-1. Search for `"name": "PizzaApp"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-01"`) 
-2. Search for `"name": "PizzaApp-Container"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-Container-01"`) 
-3. Search for `"commandOptions": "-d -p ${p:port}:8000"` and replace it with your student code (30xx appended with to email id. eg., `"commandOptions": "-d -p 3001:8000"`) . Troubleshooting: If you see any issue, try to update the port like 3070,3071, etc...
+1. Search for `"name": "PizzaApp-01"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-02"`) 
+2. Search for `"name": "PizzaApp-Container-01"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-Container-02"`) 
+3. Search for `"commandOptions": "-d -p ${p:port}:8000 --name pizza-container-01",` and replace it with your student code (30xx appended with to email id. eg., `"commandOptions": "-d -p 3002:8000 --name pizza-container-02"`) . Troubleshooting: If you see any issue, try to update the port like 3070,3071, etc...
 4. Save the file.
    
 
