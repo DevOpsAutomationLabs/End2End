@@ -20,7 +20,7 @@ Application > Environment(DEV, QA, PROD, etc.) > Components
 
   <img width="1481" alt="Screenshot 2025-05-14 at 10 51 29 PM" src="https://github.com/user-attachments/assets/046cece0-bc4b-47d5-904f-eeabefe8a52b" />
 
-In order to deploy application, please download the Application file (https://github.com/DevOpsAutomationLabs/End2End/blob/main/PizzaApp.json) open it on your preferred editor, and update the following in the file.
+In order to deploy application, please download the [Application file](../../files/PizzaApp.json) directly or from [GitHub Link](https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/PizzaApp.json) open it on your preferred editor, and update the following in the file.
 
 1. Search for `"name": "PizzaApp"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-01"`)
 2. Search for `"name": "PizzaApp-Container"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-Container-01"`)
