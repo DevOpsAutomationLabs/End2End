@@ -1326,38 +1326,55 @@ Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
 <p><img width="1583" alt="Screenshot 2025-05-14 at 5 30 59 PM" src="https://github.com/user-attachments/assets/939471bf-8171-4051-8a74-eca65c756b0f" /></p>
 <p>Once you import the application, you would be able to see additional application listes like:</p>
 <p><img width="1525" alt="Screenshot 2025-05-14 at 5 52 46 PM" src="https://github.com/user-attachments/assets/969d235a-cfde-4abf-9dff-92bbf59aa1a4" /></p>
-<p>Now, Click on you application &gt; Switch Tab to Components &gt; Click on PizzaApp-Container-XX &gt; Switch tab to Process &gt; Click on "Deploy PizzaApp" </p>
+<p>Now, Click on your application(PizzaApp-XX) &gt; Switch Tab to Components &gt; Click on PizzaApp-Container-XX &gt; Switch tab to Process &gt; Click on "Deploy PizzaApp" </p>
 <p>It will show you the process designer:</p>
 <p><img width="602" alt="Screenshot 2025-05-15 at 1 04 11 PM" src="https://github.com/user-attachments/assets/2f178fa9-4a1d-4880-9f5c-16cdfff5a91a" /></p>
 <p>Now click on edit button available on the individual process:</p>
 <p><img width="243" alt="Screenshot 2025-05-15 at 12 57 44 PM" src="https://github.com/user-attachments/assets/a066fbb7-2f10-4f42-adb5-00f0951ec263" /></p>
-<p>Now click edit on <code>Stop Docker Container</code> and change the Docker Container to : pizzaapp-01 (note: 01 should be replaced with you student id) and save it.</p>
-<p>Now Do the same for <code>Remove Docker Container</code>: pizzaapp-01 (note: 01 should be replaced with you student id) and save it.</p>
-<p>Now Do the same for <code>Run Pizz App Container</code> (container name): pizzaapp-01 (note: 01 should be replaced with you student id) and save it.</p>
+<p>Now click edit on <code>Stop Docker Container</code> and change the Docker Container edit field from <code>pizzaapp</code> to : pizzaapp-01 (note: 01 should be replaced with you student id) and save it.</p>
+<p>Now Edit <code>Remove Docker Container</code>: pizzaapp-01 (note: 01 should be replaced with you student id) and save it.</p>
+<p>Now Edit <code>Pull Docker Image</code> : 
+ 1. Update Image name to <code>ankit6133/pizza-app-4:latest</code></p>
+<p>Now Do the same for <code>Run Pizz App Container</code> : 
+ 1. Update Image name to <code>ankit6133/pizza-app-4:latest</code>
+ 2. Update container name to <code>pizzaapp-01</code> (note: 01 should be replaced with you student id) and save it.</p>
 <p><img width="599" alt="Screenshot 2025-05-15 at 12 53 13 PM" src="https://github.com/user-attachments/assets/7a907125-068f-4b52-8f58-18fa50136f31" /></p>
+<p>Now Click on save button on the screen.</p>
 <h2 id="build-image-and-publish-to-deploy">Build image and publish to Deploy</h2>
 <ol>
 <li>Open http://165.192.86.196:8080/</li>
-<li>Click on New Item and provide description as : App-01 (01 is your student ID as mentioned in your email)</li>
+<li>Click on New Item and fill <code>Enter an item name</code> with : App-01 (01 is your student ID as mentioned in your email)</li>
 <li>Choose <code>pipeline</code>, press Ok</li>
+<li>Now Scroll down and find the pipeline script text box.</li>
 <li>Copy the content available on https://github.com/DevOpsAutomationLabs/End2End/blob/main/Jenkins</li>
-<li>Under Pipeline script, paste the content copied, and then update the component name with student code: (replace <code>XX</code> with student code, eg: <code>01</code>)</li>
+<li>Paste it to any editor and search for <code>COMPONENT = "PizzaApp-Container-XX"</code> and update XX with your student id. Eg. <code>COMPONENT = "PizzaApp-Container-02"</code></li>
+<li>Copy the upadted content and Paste the copied text in <code>pipeline script</code></li>
+<li>Click Save</li>
+<li>Click Build Now and wait until the image link is pushed to DevOps Deploy</li>
 </ol>
 <p><img width="1607" alt="Screenshot 2025-05-14 at 10 54 11 PM" src="https://github.com/user-attachments/assets/295a20ba-f036-48e1-906d-d6dbeff7549e" /></p>
 <h2 id="update-the-resource-tree">Update the resource Tree</h2>
 <p>Do not forget to do this important step once you can successfully run the Jenkins command:
-Navigate to DevOps Devloy &gt; Resources&gt; Resource Tree &gt; Click on 3 dots &gt; Add Component (your component name: <code>PizzaApp-Container-01</code>)</p>
+1. Navigate to DevOps Deploy &gt; Find Resources on the left Pane and click on that &gt; Resource Tree &gt; Click on Main &gt; Click on 3 dots &gt; Add Component (your component name. Eg. <code>PizzaApp-Container-02</code>)
+2. Click Save.</p>
 <p><img width="1633" alt="Screenshot 2025-05-14 at 10 15 43 PM" src="https://github.com/user-attachments/assets/bb0c44e5-dd67-4f76-a1ea-7b0f42b223ff" /></p>
 <h2 id="final-steps-for-deployment">Final steps for Deployment</h2>
 <ol>
-<li>Click on your Application</li>
-<li>DEV  &gt; Click <code>"Request Process"</code></li>
+<li>Click on Application on the left panel</li>
+<li>Click on your application. Eg. <code>PizzApp-02</code></li>
+<li>Switch Tab to Processes &gt; Click on <code>Deploy App</code></li>
+<li>Click on Edit symbol on <code>install Component Install: "PizzaApp-Container-01"</code></li>
+<li>Under Component section, click the dopdown and Select your component. Eg. <code>PizzaApp-Container-02</code></li>
+<li>Click Ok and then Click Save.</li>
+<li>Click on Application on the left panel again.</li>
+<li>Click on your application. Eg. <code>PizzApp-02</code></li>
+<li>Locate DEV  &gt; Request Process &gt; Click <code>"Request Process"</code></li>
 <li>Click <code>"Choose Component Version"</code>
    <img width="1671" alt="Screenshot 2025-05-14 at 5 57 00 PM" src="https://github.com/user-attachments/assets/016a3648-d6db-4aca-b59c-4be749cc9c60" /></li>
 <li>A right panel will open, click on <code>Add</code> , the drop-down<code>"By Version Lookup"</code> Select the first available</li>
-<li>Click on Submit</li>
+<li>Click on Submit </li>
 <li>
-<p>Expand the process and check the deployment process.</p>
+<p>Expand the process and check the deployment process. Note: You might see failure in <code>Stop Docker Container</code> and <code>Remove Docker Container</code> those are fine as you are running this process for the first time and you don't have any running container.</p>
 <p><img width="1466" alt="Screenshot 2025-05-14 at 11 03 00 PM" src="https://github.com/user-attachments/assets/1eb06157-4748-46aa-acc2-50f590b0a293" /></p>
 </li>
 </ol>
