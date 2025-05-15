@@ -1,4 +1,3 @@
-
 # Deploy Lab
 
 This lab will provide you with a practical hands-on for deploying an application to target server.
@@ -23,7 +22,7 @@ Application > Environment(DEV, QA, PROD, etc.) > Components
 In order to deploy application, please download the [Application file](../../files/PizzaApp.json) directly (if you are using the repo localy) or from [GitHub Link](https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/PizzaApp.json) (if you are using the web) open it on your preferred editor, and update the following in the file.
 
 1. Search for `"name": "PizzaApp-01"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-02"`) 
-2. Search for `"name": "PizzaApp-Container-01"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-Container-02"`) 
+2. Search all the occurances for `"name": "PizzaApp-Container-01"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-Container-02"`) 
 3. Search for `"commandOptions": "-d -p 3001:8000"` and replace the `3002` with your student code (30xx appended with to email id. eg., `"commandOptions": "-d -p 3002:8000"`) . Troubleshooting: If you see any issue, try to update the port like 3016,3017, etc...
 4. Save the file.
 
@@ -53,13 +52,11 @@ Now click edit on `Stop Docker Container` and change the Docker Container edit f
 Now Edit `Remove Docker Container`: pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
 
 Now Edit `Pull Docker Image` : 
- 1. Update Image name to `ankit6133/pizza-app-4:latest`
+ 1. Update Image name to `ankit6133/pizza-app-4:latest` (Note: This is dummy for now and in production scenario we will have our image pushed to docker.io and will be pulled)
 
 Now Do the same for `Run Pizz App Container` : 
- 1. Update Image name to `ankit6133/pizza-app-4:latest`
- 2. Update container name to `pizzaapp-01` (note: 01 should be replaced with you student id) and save it.
-
-<img width="599" alt="Screenshot 2025-05-15 at 12 53 13 PM" src="https://github.com/user-attachments/assets/7a907125-068f-4b52-8f58-18fa50136f31" />
+ 1. Update container name to `pizzaapp-01` (note: 01 should be replaced with you student id) and save it.
+  <img width="603" alt="Screenshot 2025-05-15 at 11 03 28 PM" src="https://github.com/user-attachments/assets/564d58b8-1f2f-49a3-9079-764ba25d1371" />
 
 Now Click on save button on the screen.
 
@@ -68,12 +65,25 @@ Now Click on save button on the screen.
 1. Open http://165.192.86.196:8080/
 2. Click on New Item and fill `Enter an item name` with : App-01 (01 is your student ID as mentioned in your email)
 3. Choose `pipeline`, press Ok
-4. Now Scroll down and find the pipeline script text box.
-5. Copy the content available on https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/Jenkins
-6. Paste it to any editor and search for `COMPONENT = "PizzaApp-Container-XX"` and update XX with your student id. Eg. ` COMPONENT = "PizzaApp-Container-02"`
+4. Copy the content available on https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/Jenkins
+5. Paste it to any editor and update the text as below:
+     1. Search for `COMPONENT = "PizzaApp-Container-XX"` and Update XX with your student id. Eg. `COMPONENT = "PizzaApp-Container-02"`
+     2. Search for all the occurances of `XX` and replace it with your student id. Eg. `02`
+     3. Search for `<YOUR DEVOPS CONTROL EMAIL>"` and replace it with your email id shown in DevOps Control.
+        <img width="1354" alt="Screenshot 2025-05-15 at 10 54 39 PM" src="https://github.com/user-attachments/assets/ff175d09-8c14-4e34-95a6-34693dd6167e" />
+6. Now, switch back to jenkins, and scroll down and find the pipeline script textbox.
 7. Copy the upadted content and Paste the copied text in `pipeline script`
 8. Click Save
-9. Click Build Now and wait until the image link is pushed to DevOps Deploy
+9. Go to Jenkins Dashboard → Manage Jenkins → Credentials.
+    Choose the right scope (e.g., "Global").
+    Click Add Credentials.
+    Use these settings:
+      * Kind: Username with password
+      * Username: your Devops Control email id (Eg. student01-ibm.com)
+      * Password: the GitHub token (paste it here) (Note: You can get this by opening `DevOps Control` > Click on `Profile` > `Settings` > On left  panel select `Access token` > Give token name : “labs” > Select all permissions (Read and Write) > `Generate Token` > Copy and paste in the password field in jenkins credentials)
+      * ID: github-token-creds-xx (Note: xx is your student id ans should match with pipeline script)
+    
+11. Click Build Now and wait until the image link is pushed to DevOps Deploy
 
   <img width="1607" alt="Screenshot 2025-05-14 at 10 54 11 PM" src="https://github.com/user-attachments/assets/295a20ba-f036-48e1-906d-d6dbeff7549e" />
 
