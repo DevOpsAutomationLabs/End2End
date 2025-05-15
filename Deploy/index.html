@@ -1316,9 +1316,9 @@ Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
 <p><img width="1481" alt="Screenshot 2025-05-14 at 10 51 29 PM" src="https://github.com/user-attachments/assets/046cece0-bc4b-47d5-904f-eeabefe8a52b" /></p>
 <p>In order to deploy application, please download the <a href="../../files/PizzaApp.json">Application file</a> directly or from <a href="https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/PizzaApp.json">GitHub Link</a> open it on your preferred editor, and update the following in the file.</p>
 <ol>
-<li>Search for <code>"name": "PizzaApp"</code> and replace it with your student code (xx appended to your email id. eg., <code>"name": "PizzaApp-01"</code>)</li>
-<li>Search for <code>"name": "PizzaApp-Container"</code> and replace it with your student code (xx appended to your email id. eg., <code>"name": "PizzaApp-Container-01"</code>)</li>
-<li>Search for <code>"commandOptions": "-d -p ${p:port}:8000"</code> and replace it with your student code (30xx appended with to email id. eg., <code>"commandOptions": "-d -p 3001:8000"</code>) . Troubleshooting: If you see any issue, try to update the port like 3070,3071, etc...</li>
+<li>Search for <code>"name": "PizzaApp-01"</code> and replace it with your student code (xx appended to your email id. eg., <code>"name": "PizzaApp-02"</code>) </li>
+<li>Search for <code>"name": "PizzaApp-Container-01"</code> and replace it with your student code (xx appended to your email id. eg., <code>"name": "PizzaApp-Container-02"</code>) </li>
+<li>Search for <code>"commandOptions": "-d -p ${p:port}:8000",</code> and replace the <code>${p:port}</code> with your student code (30xx appended with to email id. eg., <code>"commandOptions": "-d -p 3002:8000"</code>) . Troubleshooting: If you see any issue, try to update the port like 3016,3017, etc...</li>
 <li>Save the file.</li>
 </ol>
 <h2 id="upload-this-to-devops-deploy">Upload this to DevOps Deploy</h2>
@@ -1326,6 +1326,15 @@ Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
 <p><img width="1583" alt="Screenshot 2025-05-14 at 5 30 59 PM" src="https://github.com/user-attachments/assets/939471bf-8171-4051-8a74-eca65c756b0f" /></p>
 <p>Once you import the application, you would be able to see additional application listes like:</p>
 <p><img width="1525" alt="Screenshot 2025-05-14 at 5 52 46 PM" src="https://github.com/user-attachments/assets/969d235a-cfde-4abf-9dff-92bbf59aa1a4" /></p>
+<p>Now, Click on you application &gt; Switch Tab to Components &gt; Click on PizzaApp-Container-XX &gt; Switch tab to Process &gt; Click on "Deploy PizzaApp" </p>
+<p>It will show you the process designer:</p>
+<p><img width="602" alt="Screenshot 2025-05-15 at 1 04 11 PM" src="https://github.com/user-attachments/assets/2f178fa9-4a1d-4880-9f5c-16cdfff5a91a" /></p>
+<p>Now click on edit button available on the individual process:</p>
+<p><img width="243" alt="Screenshot 2025-05-15 at 12 57 44 PM" src="https://github.com/user-attachments/assets/a066fbb7-2f10-4f42-adb5-00f0951ec263" /></p>
+<p>Now click edit on <code>Stop Docker Container</code> and change the Docker Container to : pizzaapp-01 (note: 01 should be replaced with you student id) and save it.</p>
+<p>Now Do the same for <code>Remove Docker Container</code>: pizzaapp-01 (note: 01 should be replaced with you student id) and save it.</p>
+<p>Now Do the same for <code>Run Pizz App Container</code> (container name): pizzaapp-01 (note: 01 should be replaced with you student id) and save it.</p>
+<p><img width="599" alt="Screenshot 2025-05-15 at 12 53 13 PM" src="https://github.com/user-attachments/assets/7a907125-068f-4b52-8f58-18fa50136f31" /></p>
 <h2 id="build-image-and-publish-to-deploy">Build image and publish to Deploy</h2>
 <ol>
 <li>Open http://165.192.86.196:8080/</li>
