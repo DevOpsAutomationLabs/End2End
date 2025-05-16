@@ -20,7 +20,7 @@
     
     
       
-        <title>Deploy Lab - End to End Hands-On Lab</title>
+        <title>Index - End to End Hands-On Lab</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#deploy-lab" class="md-skip">
+        <a href="#configuration" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Deploy Lab
+              Index
             
           </span>
         </div>
@@ -745,15 +745,13 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   
   <span class="md-ellipsis">
-    Deploy Lab
+    Index
     
   </span>
   
@@ -766,7 +764,7 @@
   
   
   <span class="md-ellipsis">
-    Deploy Lab
+    Index
     
   </span>
   
@@ -778,8 +776,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-  
-    
   
   
     <label class="md-nav__title" for="__toc">
@@ -794,6 +790,21 @@
       Configuration
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#important-note-this-is-a-shared-lab-environment-to-ensure-a-smooth-experience-for-everyone-please-only-modify-the-applications-components-or-processes-that-you-create-during-your-lab-session-kindly-avoid-making-changes-to-any-existing-applications-or-configurations-visible-in-devops-deploy-as-they-may-be-in-use-by-others" class="md-nav__link">
+    <span class="md-ellipsis">
+      Important Note: This is a shared lab environment. To ensure a smooth experience for everyone, please only modify the applications, components, or processes that you create during your lab session. Kindly avoid making changes to any existing applications or configurations visible in DevOps Deploy, as they may be in use by others.
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1300,20 +1311,23 @@
 
 
 
-<h1 id="deploy-lab">Deploy Lab</h1>
-<p>This lab will provide you with a practical hands-on for deploying an application to target server.
+  <h1>Index</h1>
+
+<p><img width="1125" alt="Screenshot 2025-05-16 at 5 56 12 PM" src="https://github.com/user-attachments/assets/80ab326b-b0e3-444b-8004-c7cc660da2e1" /># Deploy Lab</p>
+<p>his lab provides a practical, hands-on experience in deploying an application to a target server.
   <img width="1627" alt="Screenshot 2025-05-14 at 11 14 21 PM" src="https://github.com/user-attachments/assets/5f642eb4-96b6-4efd-b31e-84db16a96364" /></p>
-<p>Look at the comprehensive dashboard offered by DevOps Deploy providing the important information about deployment failures and successes.</p>
+<p>Explore the comprehensive dashboard provided by DevOps Deploy, which displays key information about deployment successes and failures</p>
 <p><img width="1723" alt="Screenshot 2025-05-14 at 5 30 00 PM" src="https://github.com/user-attachments/assets/7f9a31ee-11d1-4d3b-b450-b7e2c52dcb95" /></p>
 <p>Note:</p>
 <ol>
-<li>This supports agent-based installation so that you can install your application on any kind of environment, be it On-Prem, IBM Cloud, Azure, AWS, GCP, Mainframes, etc.</li>
-<li>In this demo, our agent is running on the IBM cloud, so we will deploy our application on the IBM cloud</li>
+<li>Agent-Based Installation Support: DevOps Deploy works on agent-based deployments, allowing you to deploy applications across various environments—including On-Premises, IBM Cloud, Microsoft Azure, AWS, Google Cloud Platform (GCP), Mainframes, and more.</li>
+<li>Demo Environment: In this demonstration, the deployment agent is running on IBM Cloud. Therefore, the application will be deployed to an IBM Cloud environment.</li>
 </ol>
 <h2 id="configuration">Configuration</h2>
 <p>DevOps Deploy is a rich tool and provides excellent mechanisms to control the deployment of application. A simple architecture is
 Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
 <p><img width="1481" alt="Screenshot 2025-05-14 at 10 51 29 PM" src="https://github.com/user-attachments/assets/046cece0-bc4b-47d5-904f-eeabefe8a52b" /></p>
+<h3 id="important-note-this-is-a-shared-lab-environment-to-ensure-a-smooth-experience-for-everyone-please-only-modify-the-applications-components-or-processes-that-you-create-during-your-lab-session-kindly-avoid-making-changes-to-any-existing-applications-or-configurations-visible-in-devops-deploy-as-they-may-be-in-use-by-others">Important Note: This is a shared lab environment. To ensure a smooth experience for everyone, please only modify the applications, components, or processes that you create during your lab session. Kindly avoid making changes to any existing applications or configurations visible in DevOps Deploy, as they may be in use by others.</h3>
 <p>In order to deploy application, please download the <a href="../../files/PizzaApp.json">Application file</a> directly (if you are using the repo localy) or from <a href="https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/PizzaApp.json">GitHub Link</a> (if you are using the web) open it on your preferred editor, and update the following in the file.</p>
 <ol>
 <li>Search for <code>"name": "PizzaApp-01"</code> and replace it with your student code (xx appended to your email id. eg., <code>"name": "PizzaApp-02"</code>) </li>
@@ -1343,14 +1357,18 @@ Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
 <li>Click on New Item and fill <code>Enter an item name</code> with : App-01 (01 should be replaced with your student ID as mentioned in your email)</li>
 <li>Choose <code>pipeline</code>, press Ok</li>
 <li>Copy the content available on https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/Jenkins</li>
-<li>Paste it to any editor and update the text as below:<ol>
+<li>
+<p>Paste it to any editor and update the text as below:</p>
+<ol>
 <li>Search for <code>COMPONENT = "PizzaApp-Container-XX"</code> and Update XX with your student id. Eg. <code>COMPONENT = "PizzaApp-Container-02"</code></li>
 <li>Search for all the occurances of <code>XX</code> and replace it with your student id. Eg. <code>02</code></li>
 <li>Search for <code>&lt;YOUR DEVOPS CONTROL EMAIL&gt;"</code> and replace it with your email id shown in DevOps Control. Eg. <code>student02-labs.com</code>
-    <img width="1354" alt="Screenshot 2025-05-15 at 10 54 39 PM" src="https://github.com/user-attachments/assets/ff175d09-8c14-4e34-95a6-34693dd6167e" /></li>
+    <img width="1125" alt="Screenshot 2025-05-16 at 5 56 12 PM" src="https://github.com/user-attachments/assets/3f0a8d30-8f33-4919-bdcd-d1315e558aea" /></li>
 </ol>
 </li>
-<li>Now, switch back to jenkins, and scroll down and find the pipeline script textbox.</li>
+<li>
+<p>Now, switch back to Jenkins, and scroll down and find the pipeline script textbox.</p>
+</li>
 <li>Copy the upadted content and Paste the copied text in <code>pipeline script</code></li>
 <li>Click Save</li>
 <li>
@@ -1397,7 +1415,7 @@ Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
 </ol>
 <p><img width="1466" alt="Screenshot 2025-05-14 at 11 03 00 PM" src="https://github.com/user-attachments/assets/1eb06157-4748-46aa-acc2-50f590b0a293" /></p>
 <ol>
-<li>Check your running application at: http://165.192.86.196:30XX/ (Note: XX should be relaced with your student id)</li>
+<li>Check your running application at: http://165.192.86.196:30XX (Note: XX should be relaced with your student id)</li>
 </ol>
 <h2 id="go-to-test-section-click-here">GO TO Test Section: <a href="https://github.com/DevOpsAutomationLabs/End2End/blob/main/docs/Test/index.md">Click Here</a></h2>
 
