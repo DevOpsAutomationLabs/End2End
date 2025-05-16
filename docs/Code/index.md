@@ -102,6 +102,18 @@ Switch Back to Control and verify that in the activity view you have your commit
 
 ![New Activity in Control](../Control/media/Control_NewActivity.png)
 
+### Close and terminate Environment
+
+Your development environment runs in it's own pod and uses resources. When you are finished with your work it is recommended to terminate the Environment.
+
+NOTE: your session will not be terminated when you switch between capabilities or just close your browser!
+
+Use the Logout icon ![Code Logout](media/Code_LogoutIcon.png) to get a popup which asks what to do with your running development environment:
+
+![Code Environment Terminate or Not](media/Code_Terminate_Environment.png)
+
+Click on "Yes, terminate it" to shutdown the pod, which will delete all unsaved or pushed changes! Or you can decide to keep it alive with "No, let it run" if you want to continue working later.
+
 ## Conclusio
 
 Congratulations you have finished the Code Lab.

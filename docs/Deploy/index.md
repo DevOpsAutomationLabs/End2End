@@ -1,6 +1,7 @@
-<img width="1125" alt="Screenshot 2025-05-16 at 5 56 12 PM" src="https://github.com/user-attachments/assets/80ab326b-b0e3-444b-8004-c7cc660da2e1" /># Deploy Lab
+# Deploy Lab
 
-his lab provides a practical, hands-on experience in deploying an application to a target server.
+This lab provides a practical, hands-on experience in deploying an application to a target server.
+
   <img width="1627" alt="Screenshot 2025-05-14 at 11 14 21 PM" src="https://github.com/user-attachments/assets/5f642eb4-96b6-4efd-b31e-84db16a96364" />
 
 Explore the comprehensive dashboard provided by DevOps Deploy, which displays key information about deployment successes and failures
@@ -19,12 +20,12 @@ Application > Environment(DEV, QA, PROD, etc.) > Components
 
   <img width="1481" alt="Screenshot 2025-05-14 at 10 51 29 PM" src="https://github.com/user-attachments/assets/046cece0-bc4b-47d5-904f-eeabefe8a52b" />
 
-### Important Note: This is a shared lab environment. To ensure a smooth experience for everyone, please only modify the applications, components, or processes that you create during your lab session. Kindly avoid making changes to any existing applications or configurations visible in DevOps Deploy, as they may be in use by others.
+### Important Note: This is a shared lab environment. To ensure a smooth experience for everyone, please only modify the applications, components, or processes that you create during your lab session. Kindly avoid making changes to any existing applications or configurations visible in DevOps Deploy, as they may be in use by others
 
 In order to deploy application, please download the [Application file](../../files/PizzaApp.json) directly (if you are using the repo localy) or from [GitHub Link](https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/PizzaApp.json) (if you are using the web) open it on your preferred editor, and update the following in the file.
 
-1. Search for `"name": "PizzaApp-01"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-02"`) 
-2. Search all the occurances for `PizzaApp-Container-01` and replace it with your student code (xx appended to your email id. eg., `PizzaApp-Container-02`) 
+1. Search for `"name": "PizzaApp-01"` and replace it with your student code (xx appended to your email id. eg., `"name": "PizzaApp-02"`)
+2. Search all the occurances for `PizzaApp-Container-01` and replace it with your student code (xx appended to your email id. eg., `PizzaApp-Container-02`)
 3. Search for `"commandOptions": "-d -p 3001:8000"` and replace the `3002` with your student code (30xx appended with to email id. eg., `"commandOptions": "-d -p 3002:8000"`) . Troubleshooting: If you see any issue, try to update the port like 3016,3017, etc...
 4. Save the file.
 
@@ -38,12 +39,11 @@ Once you import the application, you would be able to see additional application
 
   <img width="1525" alt="Screenshot 2025-05-14 at 5 52 46 PM" src="https://github.com/user-attachments/assets/969d235a-cfde-4abf-9dff-92bbf59aa1a4" />
 
-Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click on PizzaApp-Container-XX > Switch tab to Process > Click on "Deploy PizzaApp" 
+Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click on PizzaApp-Container-XX > Switch tab to Process > Click on "Deploy PizzaApp"
 
 It will show you the process designer:
 
 <img width="602" alt="Screenshot 2025-05-15 at 1 04 11 PM" src="https://github.com/user-attachments/assets/2f178fa9-4a1d-4880-9f5c-16cdfff5a91a" />
-
 
 Now click on edit button available on the individual process:
 
@@ -53,7 +53,8 @@ Now click edit on `Stop Docker Container` and change the Docker Container edit f
 
 Now Edit `Remove Docker Container`: pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
 
-Now edit `Run Pizza App Container` : 
+Now edit `Run Pizza App Container` :
+
  1. Update container name to `pizzaapp-01` (note: 01 should be replaced with you student id) and save it.
   <img width="603" alt="Screenshot 2025-05-15 at 11 03 28 PM" src="https://github.com/user-attachments/assets/564d58b8-1f2f-49a3-9079-764ba25d1371" />
 
@@ -70,11 +71,11 @@ Now Click on save button on the screen.
      2. Search for all the occurances of `XX` and replace it with your student id. Eg. `02`
      3. Search for `<YOUR DEVOPS CONTROL EMAIL>"` and replace it with your email id shown in DevOps Control. Eg. `student02-labs.com`
         <img width="1125" alt="Screenshot 2025-05-16 at 5 56 12 PM" src="https://github.com/user-attachments/assets/3f0a8d30-8f33-4919-bdcd-d1315e558aea" />
-     
+
 6. Now, switch back to Jenkins, and scroll down and find the pipeline script textbox.
 7. Copy the upadted content and Paste the copied text in `pipeline script`
 8. Click Save
-9. {Jenkins Credential Setup (Optional): This has been already configured. So skip it. If you face issue while running jenkins build, then follow the below steps} Go to Jenkins Dashboard → Manage Jenkins → Credentials.
+9. Jenkins Credential Setup (Optional): This has been already configured. So skip it. If you face issue while running jenkins build, then follow the below steps} Go to Jenkins Dashboard → Manage Jenkins → Credentials.
     Choose the right scope (e.g., "Global").
     Click Add Credentials.
     Use these settings:
@@ -82,15 +83,16 @@ Now Click on save button on the screen.
       * Username: your Devops Control email id (Eg. student01-ibm.com)
       * Password: the GitHub token (paste it here) (Note: You can get this by opening `DevOps Control` > Click on `Profile` > `Settings` > On left  panel select `Access token` > Give token name : “labs” > Select all permissions (Read and Write) > `Generate Token` > Copy and paste in the password field in jenkins credentials)
       * ID: github-token-creds-xx (Note: xx is your student id ans should match with pipeline script)
-    
-11. Click `Build Now` on Jenkins and wait until the image link is pushed to DevOps Deploy
-12. `Troubleshooting`: If your jenkins build fails, check if your control has the repository cloned or not. It is important to clone before you start build.
+
+10. Click `Build Now` on Jenkins and wait until the image link is pushed to DevOps Deploy
+11. `Troubleshooting`: If your jenkins build fails, check if your control has the repository cloned or not. It is important to clone before you start build.
 
   <img width="1607" alt="Screenshot 2025-05-14 at 10 54 11 PM" src="https://github.com/user-attachments/assets/295a20ba-f036-48e1-906d-d6dbeff7549e" />
 
 ## Update the resource Tree
 
 Do not forget to do this important step once you can successfully run the Jenkins command:
+
 1. Navigate to DevOps Deploy > Find Resources on the left Pane and click on that > `Resource Tree` > Click on `Main` > locate row showing `online` > Click on 3 dots > `Add Component` (your component name. Eg. `PizzaApp-Container-02`)
 2. Back to Deploy Dashboard.
 
@@ -108,16 +110,12 @@ Do not forget to do this important step once you can successfully run the Jenkin
 8. Click on your application. Eg. `PizzApp-02`
 9. Locate DEV  > Request Process > Click `"Request Process"`
 10. Click `"Choose Component Version"`
-    
    <img width="1671" alt="Screenshot 2025-05-14 at 5 57 00 PM" src="https://github.com/user-attachments/assets/016a3648-d6db-4aca-b59c-4be749cc9c60" />
-   
+
 11. A right panel will open, click on `Add` , the drop-down`"By Version Lookup"` Select the first available
-12. Click on Submit 
+12. Click on Submit
 13. Expand the process and check the deployment process. Note: You might see failure in `Stop Docker Container` and `Remove Docker Container` those are fine as you are running this process for the first time and you don't have after we have the running container.
-
-
 <img width="1466" alt="Screenshot 2025-05-14 at 11 03 00 PM" src="https://github.com/user-attachments/assets/1eb06157-4748-46aa-acc2-50f590b0a293" />
-
 14. Check your running application at: http://165.192.86.196:30XX (Note: XX should be relaced with your student id)
 
 ## GO TO Test Section: [Click Here](https://github.com/DevOpsAutomationLabs/End2End/blob/main/docs/Test/index.md)
