@@ -347,7 +347,7 @@
                             "projName": "PizzaApp",
                             "branchName": "main",
                             "repoName": "https:\/\/github.com\/ankit6133\/DevOpsTests.git",
-                            "filepath": "pizza\/order pizza uta.dtx.yaml",
+                            "filepath": "PizzaaDemoTest\/lab_httptest.testsuite",
                             "datasets": "",
                             "variables": "",
                             "tags": "",
