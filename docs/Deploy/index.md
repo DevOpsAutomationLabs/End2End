@@ -51,9 +51,6 @@ Now click edit on `Stop Docker Container` and change the Docker Container edit f
 
 Now Edit `Remove Docker Container`: pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
 
-Now Edit `Pull Docker Image` : 
- 1. Update Image name to `ankit6133/pizza-app-4:latest` (Note: This is dummy for now and in production scenario we will have our image pushed to docker.io and will be pulled)
-
 Now Do the same for `Run Pizz App Container` : 
  1. Update container name to `pizzaapp-01` (note: 01 should be replaced with you student id) and save it.
   <img width="603" alt="Screenshot 2025-05-15 at 11 03 28 PM" src="https://github.com/user-attachments/assets/564d58b8-1f2f-49a3-9079-764ba25d1371" />
@@ -63,7 +60,7 @@ Now Click on save button on the screen.
 ## Build image and publish to Deploy
 
 1. Open http://165.192.86.196:8080/
-2. Click on New Item and fill `Enter an item name` with : App-01 (01 is your student ID as mentioned in your email)
+2. Click on New Item and fill `Enter an item name` with : App-01 (01 should be replaced with your student ID as mentioned in your email)
 3. Choose `pipeline`, press Ok
 4. Copy the content available on https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/Jenkins
 5. Paste it to any editor and update the text as below:
@@ -74,7 +71,7 @@ Now Click on save button on the screen.
 6. Now, switch back to jenkins, and scroll down and find the pipeline script textbox.
 7. Copy the upadted content and Paste the copied text in `pipeline script`
 8. Click Save
-9. Go to Jenkins Dashboard → Manage Jenkins → Credentials.
+9. {Jenkins Credential Setup (Optional): This has been already configured. So skip it. If you face issue while running jenkins build, then follow the below steps} Go to Jenkins Dashboard → Manage Jenkins → Credentials.
     Choose the right scope (e.g., "Global").
     Click Add Credentials.
     Use these settings:
@@ -83,14 +80,15 @@ Now Click on save button on the screen.
       * Password: the GitHub token (paste it here) (Note: You can get this by opening `DevOps Control` > Click on `Profile` > `Settings` > On left  panel select `Access token` > Give token name : “labs” > Select all permissions (Read and Write) > `Generate Token` > Copy and paste in the password field in jenkins credentials)
       * ID: github-token-creds-xx (Note: xx is your student id ans should match with pipeline script)
     
-11. Click Build Now and wait until the image link is pushed to DevOps Deploy
+11. Click `Build Now` on Jenkins and wait until the image link is pushed to DevOps Deploy
+12. `Troubleshooting`: If your jenkins build fails, check if your control has the repository cloneed or not. It is important to clone before you start build.
 
   <img width="1607" alt="Screenshot 2025-05-14 at 10 54 11 PM" src="https://github.com/user-attachments/assets/295a20ba-f036-48e1-906d-d6dbeff7549e" />
 
 ## Update the resource Tree
 
 Do not forget to do this important step once you can successfully run the Jenkins command:
-1. Navigate to DevOps Deploy > Find Resources on the left Pane and click on that > Resource Tree > Click on Main > Click on 3 dots > Add Component (your component name. Eg. `PizzaApp-Container-02`)
+1. Navigate to DevOps Deploy > Find Resources on the left Pane and click on that > `Resource Tree` > Click on `Main` > locate row showing `online` > Click on 3 dots > `Add Component` (your component name. Eg. `PizzaApp-Container-02`)
 2. Click Save.
 
   <img width="1633" alt="Screenshot 2025-05-14 at 10 15 43 PM" src="https://github.com/user-attachments/assets/bb0c44e5-dd67-4f76-a1ea-7b0f42b223ff" />
@@ -116,5 +114,7 @@ Do not forget to do this important step once you can successfully run the Jenkin
 
 
 <img width="1466" alt="Screenshot 2025-05-14 at 11 03 00 PM" src="https://github.com/user-attachments/assets/1eb06157-4748-46aa-acc2-50f590b0a293" />
+
+14. Check your running application at: http://165.192.86.196:30XX/ (Note: XX should be relaced with your student id)
 
 ## GO TO Test Section: [Click Here](https://github.com/DevOpsAutomationLabs/End2End/blob/main/docs/Test/index.md)
