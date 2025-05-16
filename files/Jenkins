@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "pizza-app-${BUILD_NUMBER}:latest"
+        IMAGE_NAME = "pizza-app-XX-${BUILD_NUMBER}"
         COMPONENT = "PizzaApp-Container-XX"
         UCD_SERVER = "https://devops101.eu-gb.containers.appdomain.cloud/deploy"
         UCD_CLI = "/downloads/DevOps-Deploy/udclient/udclient"
@@ -11,6 +11,26 @@ pipeline {
     }
 
     stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                    credentialsId: 'github-token-creds-XX',
+                    url: 'https://devops101.eu-gb.containers.appdomain.cloud/control/<YOUR DEVOPS CONTROL EMAIL>/PizzaApp.git'
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                dir('src') {
+                    script {
+                        def fullImageName = "${IMAGE_NAME}"
+                        echo "Building Docker image: ${fullImageName}"
+                        sh "docker build -t ${fullImageName} ."
+                    }
+                }
+            }
+        }
+
         stage('Create UCD Version') {
             steps {
                 withCredentials([string(credentialsId: 'ucd-token', variable: 'UCD_TOKEN')]) {
@@ -35,7 +55,7 @@ pipeline {
                     sh label: 'Add Jenkins Pipeline Link', script: """
                         ${UCD_CLI} -weburl ${UCD_SERVER} -authtoken \$UCD_TOKEN \\
                             addVersionLink -component "${COMPONENT}" -version "${IMAGE_NAME}" \\
-                            -linkName "Jenkins Pipeline" -link "http://165.192.86.196:8080/job/App-01/"
+                            -linkName "Jenkins Pipeline" -link "http://165.192.86.196:8080/job/App-XX/"
                     """
                 }
             }

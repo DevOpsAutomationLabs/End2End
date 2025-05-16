@@ -311,7 +311,7 @@
                         "pluginId": "com.urbancode.air.plugin.docker",
                         "authTokenRestriction": "20000001-0001-0001-0001-000000000000",
                         "properties": {
-                            "image": "ankit6133\/pizza-app-4:latest",
+                            "image": "${p:version.name}",
                             "containerCommand": "",
                             "container": "pizzaapp",
                             "commandOptions": "-d -p 3001:8000",
