@@ -1,16 +1,16 @@
-# Deploy Lab
+<img width="1125" alt="Screenshot 2025-05-16 at 5 56 12 PM" src="https://github.com/user-attachments/assets/80ab326b-b0e3-444b-8004-c7cc660da2e1" /># Deploy Lab
 
-This lab will provide you with a practical hands-on for deploying an application to target server.
+his lab provides a practical, hands-on experience in deploying an application to a target server.
   <img width="1627" alt="Screenshot 2025-05-14 at 11 14 21 PM" src="https://github.com/user-attachments/assets/5f642eb4-96b6-4efd-b31e-84db16a96364" />
 
-Look at the comprehensive dashboard offered by DevOps Deploy providing the important information about deployment failures and successes.
+Explore the comprehensive dashboard provided by DevOps Deploy, which displays key information about deployment successes and failures
 
   <img width="1723" alt="Screenshot 2025-05-14 at 5 30 00 PM" src="https://github.com/user-attachments/assets/7f9a31ee-11d1-4d3b-b450-b7e2c52dcb95" />
 
 Note:
 
-1. This supports agent-based installation so that you can install your application on any kind of environment, be it On-Prem, IBM Cloud, Azure, AWS, GCP, Mainframes, etc.
-2. In this demo, our agent is running on the IBM cloud, so we will deploy our application on the IBM cloud
+1. Agent-Based Installation Support: DevOps Deploy works on agent-based deployments, allowing you to deploy applications across various environments—including On-Premises, IBM Cloud, Microsoft Azure, AWS, Google Cloud Platform (GCP), Mainframes, and more.
+2. Demo Environment: In this demonstration, the deployment agent is running on IBM Cloud. Therefore, the application will be deployed to an IBM Cloud environment.
 
 ## Configuration
 
@@ -18,6 +18,8 @@ DevOps Deploy is a rich tool and provides excellent mechanisms to control the de
 Application > Environment(DEV, QA, PROD, etc.) > Components
 
   <img width="1481" alt="Screenshot 2025-05-14 at 10 51 29 PM" src="https://github.com/user-attachments/assets/046cece0-bc4b-47d5-904f-eeabefe8a52b" />
+
+### Important Note: This is a shared lab environment. To ensure a smooth experience for everyone, please only modify the applications, components, or processes that you create during your lab session. Kindly avoid making changes to any existing applications or configurations visible in DevOps Deploy, as they may be in use by others.
 
 In order to deploy application, please download the [Application file](../../files/PizzaApp.json) directly (if you are using the repo localy) or from [GitHub Link](https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/PizzaApp.json) (if you are using the web) open it on your preferred editor, and update the following in the file.
 
@@ -67,8 +69,9 @@ Now Click on save button on the screen.
      1. Search for `COMPONENT = "PizzaApp-Container-XX"` and Update XX with your student id. Eg. `COMPONENT = "PizzaApp-Container-02"`
      2. Search for all the occurances of `XX` and replace it with your student id. Eg. `02`
      3. Search for `<YOUR DEVOPS CONTROL EMAIL>"` and replace it with your email id shown in DevOps Control. Eg. `student02-labs.com`
-        <img width="1354" alt="Screenshot 2025-05-15 at 10 54 39 PM" src="https://github.com/user-attachments/assets/ff175d09-8c14-4e34-95a6-34693dd6167e" />
-6. Now, switch back to jenkins, and scroll down and find the pipeline script textbox.
+        <img width="1125" alt="Screenshot 2025-05-16 at 5 56 12 PM" src="https://github.com/user-attachments/assets/3f0a8d30-8f33-4919-bdcd-d1315e558aea" />
+     
+6. Now, switch back to Jenkins, and scroll down and find the pipeline script textbox.
 7. Copy the upadted content and Paste the copied text in `pipeline script`
 8. Click Save
 9. {Jenkins Credential Setup (Optional): This has been already configured. So skip it. If you face issue while running jenkins build, then follow the below steps} Go to Jenkins Dashboard → Manage Jenkins → Credentials.
@@ -115,6 +118,6 @@ Do not forget to do this important step once you can successfully run the Jenkin
 
 <img width="1466" alt="Screenshot 2025-05-14 at 11 03 00 PM" src="https://github.com/user-attachments/assets/1eb06157-4748-46aa-acc2-50f590b0a293" />
 
-14. Check your running application at: http://165.192.86.196:30XX/ (Note: XX should be relaced with your student id)
+14. Check your running application at: http://165.192.86.196:30XX (Note: XX should be relaced with your student id)
 
 ## GO TO Test Section: [Click Here](https://github.com/DevOpsAutomationLabs/End2End/blob/main/docs/Test/index.md)
