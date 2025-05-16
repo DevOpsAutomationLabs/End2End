@@ -51,7 +51,7 @@ Now click edit on `Stop Docker Container` and change the Docker Container edit f
 
 Now Edit `Remove Docker Container`: pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
 
-Now Do the same for `Run Pizz App Container` : 
+Now edit `Run Pizza App Container` : 
  1. Update container name to `pizzaapp-01` (note: 01 should be replaced with you student id) and save it.
   <img width="603" alt="Screenshot 2025-05-15 at 11 03 28 PM" src="https://github.com/user-attachments/assets/564d58b8-1f2f-49a3-9079-764ba25d1371" />
 
@@ -66,7 +66,7 @@ Now Click on save button on the screen.
 5. Paste it to any editor and update the text as below:
      1. Search for `COMPONENT = "PizzaApp-Container-XX"` and Update XX with your student id. Eg. `COMPONENT = "PizzaApp-Container-02"`
      2. Search for all the occurances of `XX` and replace it with your student id. Eg. `02`
-     3. Search for `<YOUR DEVOPS CONTROL EMAIL>"` and replace it with your email id shown in DevOps Control.
+     3. Search for `<YOUR DEVOPS CONTROL EMAIL>"` and replace it with your email id shown in DevOps Control. Eg. `student02-labs.com`
         <img width="1354" alt="Screenshot 2025-05-15 at 10 54 39 PM" src="https://github.com/user-attachments/assets/ff175d09-8c14-4e34-95a6-34693dd6167e" />
 6. Now, switch back to jenkins, and scroll down and find the pipeline script textbox.
 7. Copy the upadted content and Paste the copied text in `pipeline script`
@@ -81,7 +81,7 @@ Now Click on save button on the screen.
       * ID: github-token-creds-xx (Note: xx is your student id ans should match with pipeline script)
     
 11. Click `Build Now` on Jenkins and wait until the image link is pushed to DevOps Deploy
-12. `Troubleshooting`: If your jenkins build fails, check if your control has the repository cloneed or not. It is important to clone before you start build.
+12. `Troubleshooting`: If your jenkins build fails, check if your control has the repository cloned or not. It is important to clone before you start build.
 
   <img width="1607" alt="Screenshot 2025-05-14 at 10 54 11 PM" src="https://github.com/user-attachments/assets/295a20ba-f036-48e1-906d-d6dbeff7549e" />
 
@@ -89,7 +89,7 @@ Now Click on save button on the screen.
 
 Do not forget to do this important step once you can successfully run the Jenkins command:
 1. Navigate to DevOps Deploy > Find Resources on the left Pane and click on that > `Resource Tree` > Click on `Main` > locate row showing `online` > Click on 3 dots > `Add Component` (your component name. Eg. `PizzaApp-Container-02`)
-2. Click Save.
+2. Back to Deploy Dashboard.
 
   <img width="1633" alt="Screenshot 2025-05-14 at 10 15 43 PM" src="https://github.com/user-attachments/assets/bb0c44e5-dd67-4f76-a1ea-7b0f42b223ff" />
 
