@@ -1333,7 +1333,7 @@ Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
 <p><img width="243" alt="Screenshot 2025-05-15 at 12 57 44 PM" src="https://github.com/user-attachments/assets/a066fbb7-2f10-4f42-adb5-00f0951ec263" /></p>
 <p>Now click edit on <code>Stop Docker Container</code> and change the Docker Container edit field from <code>pizzaapp</code> to : pizzaapp-01 (note: 01 should be replaced with you student id) and save it.</p>
 <p>Now Edit <code>Remove Docker Container</code>: pizzaapp-01 (note: 01 should be replaced with you student id) and save it.</p>
-<p>Now Do the same for <code>Run Pizz App Container</code> : 
+<p>Now edit <code>Run Pizza App Container</code> : 
  1. Update container name to <code>pizzaapp-01</code> (note: 01 should be replaced with you student id) and save it.
   <img width="603" alt="Screenshot 2025-05-15 at 11 03 28 PM" src="https://github.com/user-attachments/assets/564d58b8-1f2f-49a3-9079-764ba25d1371" /></p>
 <p>Now Click on save button on the screen.</p>
@@ -1346,7 +1346,7 @@ Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
 <li>Paste it to any editor and update the text as below:<ol>
 <li>Search for <code>COMPONENT = "PizzaApp-Container-XX"</code> and Update XX with your student id. Eg. <code>COMPONENT = "PizzaApp-Container-02"</code></li>
 <li>Search for all the occurances of <code>XX</code> and replace it with your student id. Eg. <code>02</code></li>
-<li>Search for <code>&lt;YOUR DEVOPS CONTROL EMAIL&gt;"</code> and replace it with your email id shown in DevOps Control.
+<li>Search for <code>&lt;YOUR DEVOPS CONTROL EMAIL&gt;"</code> and replace it with your email id shown in DevOps Control. Eg. <code>student02-labs.com</code>
     <img width="1354" alt="Screenshot 2025-05-15 at 10 54 39 PM" src="https://github.com/user-attachments/assets/ff175d09-8c14-4e34-95a6-34693dd6167e" /></li>
 </ol>
 </li>
@@ -1368,13 +1368,13 @@ Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
 <li>
 <p>Click <code>Build Now</code> on Jenkins and wait until the image link is pushed to DevOps Deploy</p>
 </li>
-<li><code>Troubleshooting</code>: If your jenkins build fails, check if your control has the repository cloneed or not. It is important to clone before you start build.</li>
+<li><code>Troubleshooting</code>: If your jenkins build fails, check if your control has the repository cloned or not. It is important to clone before you start build.</li>
 </ol>
 <p><img width="1607" alt="Screenshot 2025-05-14 at 10 54 11 PM" src="https://github.com/user-attachments/assets/295a20ba-f036-48e1-906d-d6dbeff7549e" /></p>
 <h2 id="update-the-resource-tree">Update the resource Tree</h2>
 <p>Do not forget to do this important step once you can successfully run the Jenkins command:
 1. Navigate to DevOps Deploy &gt; Find Resources on the left Pane and click on that &gt; <code>Resource Tree</code> &gt; Click on <code>Main</code> &gt; locate row showing <code>online</code> &gt; Click on 3 dots &gt; <code>Add Component</code> (your component name. Eg. <code>PizzaApp-Container-02</code>)
-2. Click Save.</p>
+2. Back to Deploy Dashboard.</p>
 <p><img width="1633" alt="Screenshot 2025-05-14 at 10 15 43 PM" src="https://github.com/user-attachments/assets/bb0c44e5-dd67-4f76-a1ea-7b0f42b223ff" /></p>
 <h2 id="final-steps-for-deployment">Final steps for Deployment</h2>
 <ol>
