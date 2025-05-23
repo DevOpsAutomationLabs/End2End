@@ -57,7 +57,7 @@ Now Edit `Remove Docker Container`: pizzaapp-01 (note: 01 should be replaced wit
 Now edit `Run Pizza App Container` :
 
  1. Update container name to `pizzaapp-01` (note: 01 should be replaced with you student id) and save it.
-  ![Deploy Run Pizza Container Page](Media/edit_pull_docker.png)
+  ![Deploy Run Pizza Container Page](Media/run_docker_container.png)
 
 Now Click on save button on the screen.
 
