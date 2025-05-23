@@ -2,11 +2,11 @@
 
 This lab provides a practical, hands-on experience in deploying an application to a target server.
 
-  ![Deploy Applications Page](media/navigate.png)
+  ![Deploy Applications Page](Media/navigate.png)
 
 Explore the comprehensive dashboard provided by DevOps Deploy, which displays key information about deployment successes and failures
 
-   ![Deploy Dashboard Page](media/dashboard.png)
+   ![Deploy Dashboard Page](Media/dashboard.png)
 
 Note:
 
@@ -18,7 +18,7 @@ Note:
 DevOps Deploy is a rich tool and provides excellent mechanisms to control the deployment of application. A simple architecture is
 Application > Environment(DEV, QA, PROD, etc.) > Components
 
-  ![Deploy Environment Page](media/deploy_environment.png)
+  ![Deploy Environment Page](Media/deploy_environment.png)
 
  **_Important Note: This is a shared lab environment. To ensure a smooth experience for everyone, please only modify the applications, components, or processes that you create during your lab session. Kindly avoid making changes to any existing applications or configurations visible in DevOps Deploy, as they may be in use by others_**
 
@@ -33,22 +33,22 @@ In order to deploy application, please download the [Application file](../../fil
 
 Go to DevOps Deploy > Applications > Import Application > (Scroll down) Choose File > Select your updated file > Submit
 
-  ![Deploy Import Application Page](media/import_application.png)
+  ![Deploy Import Application Page](Media/import_application.png)
 
 
 Once you import the application, you would be able to see additional application listes like:
 
-  ![Deploy Updated Application](media/updated_application.png)
+  ![Deploy Updated Application](Media/updated_application.png)
 
 Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click on PizzaApp-Container-XX > Switch tab to Process > Click on "Deploy PizzaApp"
 
 It will show you the process designer:
 
-![Deploy Process Diagram Application Page](media/process_diagram.png)
+![Deploy Process Diagram Application Page](Media/process_diagram.png)
 
 Now click on edit button available on the individual process:
 
-![Deploy Edit Process Page](media/edit_process.png)
+![Deploy Edit Process Page](Media/edit_process.png)
 
 Now click edit on `Stop Docker Container` and change the Docker Container edit field from `pizzaapp` to : pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
 
@@ -57,7 +57,7 @@ Now Edit `Remove Docker Container`: pizzaapp-01 (note: 01 should be replaced wit
 Now edit `Run Pizza App Container` :
 
  1. Update container name to `pizzaapp-01` (note: 01 should be replaced with you student id) and save it.
-  ![Deploy Run Pizza Container Page](media/edit_pull_docker.png)
+  ![Deploy Run Pizza Container Page](Media/edit_pull_docker.png)
 
 Now Click on save button on the screen.
 
@@ -71,7 +71,7 @@ Now Click on save button on the screen.
      1. Search for `COMPONENT = "PizzaApp-Container-XX"` and Update XX with your student id. Eg. `COMPONENT = "PizzaApp-Container-02"`
      2. Search for all the occurances of `XX` and replace it with your student id. Eg. `02`
      3. Search for `<YOUR DEVOPS CONTROL EMAIL>"` and replace it with your email id shown in DevOps Control. Eg. `student02-labs.com`
-        ![Control Email](media/control_email.png)
+        ![Control Email](Media/control_email.png)
 
 6. Now, switch back to Jenkins, and scroll down and find the pipeline script textbox.
 7. Copy the upadted content and Paste the copied text in `pipeline script`
@@ -88,7 +88,7 @@ Now Click on save button on the screen.
 10. Click `Build Now` on Jenkins and wait until the image link is pushed to DevOps Deploy
 11. `Troubleshooting`: If your jenkins build fails, check if your control has the repository cloned or not. It is important to clone before you start build.
 
-  ![Jenkins pipeline Page](media/jenkins_pipeline.png)
+  ![Jenkins pipeline Page](Media/jenkins_pipeline.png)
 
 ## Update the resource Tree
 
@@ -97,7 +97,7 @@ Do not forget to do this important step once you can successfully run the Jenkin
 1. Navigate to DevOps Deploy > Find Resources on the left Pane and click on that > `Resource Tree` > Click on `Main` > locate row showing `online` > Click on 3 dots > `Add Component` (your component name. Eg. `PizzaApp-Container-02`)
 2. Back to Deploy Dashboard.
 
-  ![Add Component Page](media/add_component.png)
+  ![Add Component Page](Media/add_component.png)
 
 ## Final steps for Deployment
 
@@ -111,13 +111,13 @@ Do not forget to do this important step once you can successfully run the Jenkin
 8. Click on your application. Eg. `PizzApp-02`
 9. Locate DEV  > Request Process > Click `"Request Process"`
 10. Click `"Choose Component Version"`
-   ![Run Application pipeline Page](media/run_application_process.png)
+   ![Run Application pipeline Page](Media/run_application_process.png)
 
 
 11. A right panel will open, click on `Add` , the drop-down`"By Version Lookup"` Select the first available
 12. Click on Submit
 13. Expand the process and check the deployment process. Note: You might see failure in `Stop Docker Container` and `Remove Docker Container` those are fine as you are running this process for the first time and you don't have after we have the running container.
-![Deployment process](media/deployment_process.png)
+![Deployment process](Media/deployment_process.png)
 14. Check your running application at: http://165.192.86.196:30XX (Note: XX should be relaced with your student id)
 
 ## GO TO Test Section: [Click Here](https://github.com/DevOpsAutomationLabs/End2End/blob/main/docs/Test/index.md)
