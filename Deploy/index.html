@@ -1302,9 +1302,9 @@
 
 <h1 id="deploy-lab">Deploy Lab</h1>
 <p>This lab provides a practical, hands-on experience in deploying an application to a target server.</p>
-<p><img width="1627" alt="Screenshot 2025-05-14 at 11 14 21 PM" src="https://github.com/user-attachments/assets/5f642eb4-96b6-4efd-b31e-84db16a96364" /></p>
+<p><img alt="Deploy Applications Page" src="Media/navigate.png" /></p>
 <p>Explore the comprehensive dashboard provided by DevOps Deploy, which displays key information about deployment successes and failures</p>
-<p><img width="1723" alt="Screenshot 2025-05-14 at 5 30 00 PM" src="https://github.com/user-attachments/assets/7f9a31ee-11d1-4d3b-b450-b7e2c52dcb95" /></p>
+<p><img alt="Deploy Dashboard Page" src="Media/dashboard.png" /></p>
 <p>Note:</p>
 <ol>
 <li>Agent-Based Installation Support: DevOps Deploy works on agent-based deployments, allowing you to deploy applications across various environments—including On-Premises, IBM Cloud, Microsoft Azure, AWS, Google Cloud Platform (GCP), Mainframes, and more.</li>
@@ -1313,7 +1313,7 @@
 <h2 id="configuration">Configuration</h2>
 <p>DevOps Deploy is a rich tool and provides excellent mechanisms to control the deployment of application. A simple architecture is
 Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
-<p><img width="1481" alt="Screenshot 2025-05-14 at 10 51 29 PM" src="https://github.com/user-attachments/assets/046cece0-bc4b-47d5-904f-eeabefe8a52b" /></p>
+<p><img alt="Deploy Environment Page" src="Media/deploy_environment.png" /></p>
 <p><strong><em>Important Note: This is a shared lab environment. To ensure a smooth experience for everyone, please only modify the applications, components, or processes that you create during your lab session. Kindly avoid making changes to any existing applications or configurations visible in DevOps Deploy, as they may be in use by others</em></strong></p>
 <p>In order to deploy application, please download the <a href="../../files/PizzaApp.json">Application file</a> directly (if you are using the repo localy) or from <a href="https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/PizzaApp.json">GitHub Link</a> (if you are using the web) open it on your preferred editor, and update the following in the file.</p>
 <ol>
@@ -1324,20 +1324,20 @@ Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
 </ol>
 <h2 id="upload-this-to-devops-deploy">Upload this to DevOps Deploy</h2>
 <p>Go to DevOps Deploy &gt; Applications &gt; Import Application &gt; (Scroll down) Choose File &gt; Select your updated file &gt; Submit</p>
-<p><img width="1583" alt="Screenshot 2025-05-14 at 5 30 59 PM" src="https://github.com/user-attachments/assets/939471bf-8171-4051-8a74-eca65c756b0f" /></p>
+<p><img alt="Deploy Import Application Page" src="Media/import_application.png" /></p>
 <p>Once you import the application, you would be able to see additional application listes like:</p>
-<p><img width="1525" alt="Screenshot 2025-05-14 at 5 52 46 PM" src="https://github.com/user-attachments/assets/969d235a-cfde-4abf-9dff-92bbf59aa1a4" /></p>
+<p><img alt="Deploy Updated Application" src="Media/updated_application.png" /></p>
 <p>Now, Click on your application(PizzaApp-XX) &gt; Switch Tab to Components &gt; Click on PizzaApp-Container-XX &gt; Switch tab to Process &gt; Click on "Deploy PizzaApp"</p>
 <p>It will show you the process designer:</p>
-<p><img width="602" alt="Screenshot 2025-05-15 at 1 04 11 PM" src="https://github.com/user-attachments/assets/2f178fa9-4a1d-4880-9f5c-16cdfff5a91a" /></p>
+<p><img alt="Deploy Process Diagram Application Page" src="Media/process_diagram.png" /></p>
 <p>Now click on edit button available on the individual process:</p>
-<p><img width="243" alt="Screenshot 2025-05-15 at 12 57 44 PM" src="https://github.com/user-attachments/assets/a066fbb7-2f10-4f42-adb5-00f0951ec263" /></p>
+<p><img alt="Deploy Edit Process Page" src="Media/edit_process.png" /></p>
 <p>Now click edit on <code>Stop Docker Container</code> and change the Docker Container edit field from <code>pizzaapp</code> to : pizzaapp-01 (note: 01 should be replaced with you student id) and save it.</p>
 <p>Now Edit <code>Remove Docker Container</code>: pizzaapp-01 (note: 01 should be replaced with you student id) and save it.</p>
 <p>Now edit <code>Run Pizza App Container</code> :</p>
 <ol>
 <li>Update container name to <code>pizzaapp-01</code> (note: 01 should be replaced with you student id) and save it.
-  <img width="603" alt="Screenshot 2025-05-15 at 11 03 28 PM" src="https://github.com/user-attachments/assets/564d58b8-1f2f-49a3-9079-764ba25d1371" /></li>
+  <img alt="Deploy Run Pizza Container Page" src="Media/run_docker_container.png" /></li>
 </ol>
 <p>Now Click on save button on the screen.</p>
 <h2 id="build-image-and-publish-to-deploy">Build image and publish to Deploy</h2>
@@ -1345,14 +1345,14 @@ Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
 <li>Open http://165.192.86.196:8080/</li>
 <li>Click on New Item and fill <code>Enter an item name</code> with : App-01 (01 should be replaced with your student ID as mentioned in your email)</li>
 <li>Choose <code>pipeline</code>, press Ok</li>
-<li>Copy the content available on https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/Jenkins</li>
+<li>Copy the content available on: https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/Jenkins</li>
 <li>
 <p>Paste it to any editor and update the text as below:</p>
 <ol>
 <li>Search for <code>COMPONENT = "PizzaApp-Container-XX"</code> and Update XX with your student id. Eg. <code>COMPONENT = "PizzaApp-Container-02"</code></li>
 <li>Search for all the occurances of <code>XX</code> and replace it with your student id. Eg. <code>02</code></li>
 <li>Search for <code>&lt;YOUR DEVOPS CONTROL EMAIL&gt;"</code> and replace it with your email id shown in DevOps Control. Eg. <code>student02-labs.com</code>
-    <img width="1125" alt="Screenshot 2025-05-16 at 5 56 12 PM" src="https://github.com/user-attachments/assets/3f0a8d30-8f33-4919-bdcd-d1315e558aea" /></li>
+    <img alt="Control Email" src="Media/control_email.png" /></li>
 </ol>
 </li>
 <li>
@@ -1377,14 +1377,14 @@ Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
 </li>
 <li><code>Troubleshooting</code>: If your jenkins build fails, check if your control has the repository cloned or not. It is important to clone before you start build.</li>
 </ol>
-<p><img width="1607" alt="Screenshot 2025-05-14 at 10 54 11 PM" src="https://github.com/user-attachments/assets/295a20ba-f036-48e1-906d-d6dbeff7549e" /></p>
+<p><img alt="Jenkins pipeline Page" src="Media/jenkins_pipeline.png" /></p>
 <h2 id="update-the-resource-tree">Update the resource Tree</h2>
 <p>Do not forget to do this important step once you can successfully run the Jenkins command:</p>
 <ol>
 <li>Navigate to DevOps Deploy &gt; Find Resources on the left Pane and click on that &gt; <code>Resource Tree</code> &gt; Click on <code>Main</code> &gt; locate row showing <code>online</code> &gt; Click on 3 dots &gt; <code>Add Component</code> (your component name. Eg. <code>PizzaApp-Container-02</code>)</li>
 <li>Back to Deploy Dashboard.</li>
 </ol>
-<p><img width="1633" alt="Screenshot 2025-05-14 at 10 15 43 PM" src="https://github.com/user-attachments/assets/bb0c44e5-dd67-4f76-a1ea-7b0f42b223ff" /></p>
+<p><img alt="Add Component Page" src="Media/add_component.png" /></p>
 <h2 id="final-steps-for-deployment">Final steps for Deployment</h2>
 <ol>
 <li>Click on Application on the left panel</li>
@@ -1398,14 +1398,14 @@ Application &gt; Environment(DEV, QA, PROD, etc.) &gt; Components</p>
 <li>Locate DEV  &gt; Request Process &gt; Click <code>"Request Process"</code></li>
 <li>
 <p>Click <code>"Choose Component Version"</code>
-   <img width="1671" alt="Screenshot 2025-05-14 at 5 57 00 PM" src="https://github.com/user-attachments/assets/016a3648-d6db-4aca-b59c-4be749cc9c60" /></p>
+   <img alt="Run Application pipeline Page" src="Media/run_application_process.png" /></p>
 </li>
 <li>
 <p>A right panel will open, click on <code>Add</code> , the drop-down<code>"By Version Lookup"</code> Select the first available</p>
 </li>
 <li>Click on Submit</li>
 <li>Expand the process and check the deployment process. Note: You might see failure in <code>Stop Docker Container</code> and <code>Remove Docker Container</code> those are fine as you are running this process for the first time and you don't have after we have the running container.
-<img width="1466" alt="Screenshot 2025-05-14 at 11 03 00 PM" src="https://github.com/user-attachments/assets/1eb06157-4748-46aa-acc2-50f590b0a293" /></li>
+<img alt="Deployment process" src="Media/deployment_process.png" /></li>
 <li>Check your running application at: http://165.192.86.196:30XX (Note: XX should be relaced with your student id)</li>
 </ol>
 <h2 id="go-to-test-section-click-here">GO TO Test Section: <a href="https://github.com/DevOpsAutomationLabs/End2End/blob/main/docs/Test/index.md">Click Here</a></h2>
