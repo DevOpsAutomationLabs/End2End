@@ -1,0 +1,2949 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../build/">
+      
+      
+      <link rel="icon" href="../None">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Demo Flow - DevOps Loop End to End Demo</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#demo-flow" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://devopsautomationlabs.github.io/Index/" title="DevOps Loop End to End Demo" class="md-header__button md-logo" aria-label="DevOps Loop End to End Demo" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DevOps Loop End to End Demo
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Demo Flow
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indilight-bluego" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  DevOps Loop Demo
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Demo Flow
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../build/" class="md-tabs__link">
+          
+  
+  
+  Build
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../code/" class="md-tabs__link">
+          
+  
+  
+  Code
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../control/" class="md-tabs__link">
+          
+  
+  
+  Control
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../deploy/" class="md-tabs__link">
+          
+  
+  
+  Deploy
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../introduction/" class="md-tabs__link">
+          
+  
+  
+  Introduction
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../measure/" class="md-tabs__link">
+          
+  
+  
+  Measure
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../plan/" class="md-tabs__link">
+          
+  
+  
+  Plan
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../release/" class="md-tabs__link">
+          
+  
+  
+  Release
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../secure/" class="md-tabs__link">
+          
+  
+  
+  Secure
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../test/" class="md-tabs__link">
+          
+  
+  
+  Test
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://devopsautomationlabs.github.io/Index/" title="DevOps Loop End to End Demo" class="md-nav__button md-logo" aria-label="DevOps Loop End to End Demo" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+
+    </a>
+    DevOps Loop End to End Demo
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DevOps Loop Demo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Demo Flow
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Demo Flow
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Loop
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plan
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Plan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#plan-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plan Overview
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-plan-ai-assistant" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Plan AI Assistant
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#control" class="md-nav__link">
+    <span class="md-ellipsis">
+      Control
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#build" class="md-nav__link">
+    <span class="md-ellipsis">
+      Build
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploy
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Deploy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deploy-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploy Overview
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-a-deplyoment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run a Deplyoment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-the-deployment-genie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use the Deployment Genie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-the-plug-ins-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Show the Plug-Ins Page
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Measure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#release" class="md-nav__link">
+    <span class="md-ellipsis">
+      Release
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#genie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Genie
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusio
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Build
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Build
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../build/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Build Lab
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Code
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Code
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Code Lab
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Control
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Control
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Control Lab
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Deploy
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Deploy
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../deploy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Deploy Lab
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Introduction
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Intro
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            Intro
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About Box, Sidebar and Plug-Ins
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Loops
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            Loops
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/loops/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Loops
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Teamspace
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
+            <span class="md-nav__icon md-icon"></span>
+            Teamspace
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/teamspace/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Teamspace
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Measure
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Measure
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../measure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Measure Lab
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Plan
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Plan
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Plan Lab
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Boards
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_2">
+            <span class="md-nav__icon md-icon"></span>
+            Boards
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plan/boards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Boards
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_3" id="__nav_9_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Newapp
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_3">
+            <span class="md-nav__icon md-icon"></span>
+            Newapp
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plan/newapp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Create new Application
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Newproject
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_4">
+            <span class="md-nav__icon md-icon"></span>
+            Newproject
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plan/newproject/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Create new Project
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_5" id="__nav_9_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Queries
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_5">
+            <span class="md-nav__icon md-icon"></span>
+            Queries
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plan/queries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Queries
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Setup
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_6">
+            <span class="md-nav__icon md-icon"></span>
+            Setup
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../plan/setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Setting Up
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Release
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Release
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../release/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Release Lab
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Secure
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Secure
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../secure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Secure Lab
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Test
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Test
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../test/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Test
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="demo-flow">Demo Flow</h1>
+<p><img alt="Demo Flow" src="../media/demoflow.png" /></p>
+<h2 id="loop"><a href="../introduction/">Loop</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">After loging in you will be on the <a href="../introduction/#the-home-page">Home Page</a> of Loop</td>
+<td style="text-align: left;"><img alt="Home Page" src="../introduction/media/Loop_Home_Page.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">If you are not on the Home Page page, click on Home button in the side bar to switch to the Home Page</td>
+<td style="text-align: left;"><img alt="Home Page Sidebar" src="../introduction/media/Loop_Home_Page_SideBar.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">The Home Page provides metrics and dashboards over all of my accessible Loops</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Showing data from Plan - Ratio of Issues created versus closed</td>
+<td style="text-align: left;"><img alt="Plan Metric" src="../introduction/media/LoopHome_Plan_metrics.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Number of Build Jobs failed and successeful finished</td>
+<td style="text-align: left;"><img alt="Build Metric" src="../introduction/media/LoopHome_Build_Metrics.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Count of Deployments and how many of them were successfull or failed</td>
+<td style="text-align: left;"><img alt="Deploy Metric" src="../introduction/media/LoopHome_Deploy_Metrics.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">Top contributors in Control</td>
+<td style="text-align: left;"><img alt="Control Metric" src="../introduction/media/LoopHome_Control_metrics.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">Two DORA (DevOps Research and Assessment) metrics for</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Lead Time: In general, lead-time reflects the time from the start of a project until its final disposition</td>
+<td style="text-align: left;"><img alt="Lead Time" src="../introduction/media/LoopHome_LeadTime.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Cycle Time: In general, cycle-time reflects the time project elements take to resolve or complete</td>
+<td style="text-align: left;"><img alt="Cycle Time" src="../introduction/media/LoopHome_CycleTime.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Find out more about <a href="https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-dora">DORA Metrics here</a></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="plan"><a href="../plan/">Plan</a></h2>
+<h3 id="plan-overview">Plan Overview</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="../plan/#how-to-switch-to-plan-from-home-page">Open Plan</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">You can switch to Plan by either pressing "Let's go to Plan" button on its tile</td>
+<td style="text-align: left;"><img alt="Plan Tile lets go" src="../introduction/media/Loop_switch_to_Plan.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Or you can always switch using the central app switcher on the top left of your screen</td>
+<td style="text-align: left;"><img alt="Central App Switcher" src="../introduction/media/Loop_central_app_control.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;"><a href="../plan/boards/#project-board">Show My board</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">To open the board use the Project Board icon <img alt="Board Icon in sidebar" src="../plan/boards/media/Plan_ProjectBoard_Icon.png" /> on the sidebar</td>
+<td style="text-align: left;"><img alt="sidebar" src="../plan/media/Plan_Sidebar_ProjectBoards.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">The initial view is your My Board view which will show worktitems that are assigned to you</td>
+<td style="text-align: left;"><img alt="myWork Board" src="../plan/boards/media/Plan_ProjectBoard_myBoard.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;"><a href="../plan/boards/#filter-epics">Show how to filter out Epics</a></td>
+<td style="text-align: left;"><img alt="Board filter" src="../plan/boards/media/Plan_ProjectBoard_Filterbar.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;"><a href="../plan/boards/#work-items">Show all work items</a></td>
+<td style="text-align: left;"><img alt="Board workitems" src="../plan/boards/media/Plan_ProjectBoard_WorkItems.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;"><a href="../plan/boards/#select-workitem">Select and Show the details of a work item</a></td>
+<td style="text-align: left;"><img alt="Select WorkItem from Board" src="../plan/boards/media/PLAN_Boards_SelectWI.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img alt="Show Workitem Details" src="../plan/boards/media/PLAN_Board_ShowWI_Detail.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;"><a href="../plan/boards/#show-commit">Show the link between work item to code and explain how easy it is to have traceability</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img alt="PLAN - Show Control/Git Commit Link" src="../plan/media/PLAN_Show_GitCommit.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img alt="CONTROL - Show Git Commit Details" src="../control/media/CONTROL_ShowGitCommit.png" /></td>
+</tr>
+</tbody>
+</table>
+<h3 id="use-plan-ai-assistant">Use Plan AI Assistant</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="../plan/#ai-assistant">Use the AI Assistant</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Select the AI Assistant Icon <img alt="AI Assistant Icon" src="../plan/media/PLAN_AI_assistant_Icon.png" /> from the Sidebar</td>
+<td style="text-align: left;"><img alt="Sidebar" src="../plan/media/PLAN_Sidebar.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Accept the Terms of Service</td>
+<td style="text-align: left;"><img alt="Accept Terms" src="../plan/media/PLAN_AI_accept_Terms.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;"><a href="../plan/#ai-assistant-chat-dialog">The AI Assistant Chat Dialog opens</a></td>
+<td style="text-align: left;"><img alt="AI Assistant Dialog" src="../plan/media/PLAN_AI_Dialog1.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Enter Now a prompt, you can use the example prompts or use the following one:</td>
+<td style="text-align: left;"><img alt="Enter Prompt" src="../plan/media/PLAN_AI_enter_prompt.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Provide the necessary steps to implement a Keycloak solution in our enterprise application</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Click on the <strong>Next</strong> Button to proceed</td>
+<td style="text-align: left;"><img alt="Next Button" src="../plan/media/PLAN_AI_NextButton.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;"><a href="../plan/#ai-assistant-type-of-output">The Applying Prompts page is shown with several types</a></td>
+<td style="text-align: left;"><img alt="Applying Prompts" src="../plan/media/PLAN_AI_UserInputType.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">Select <strong>Generate Action Items</strong> (click into the circle with the check mark)</td>
+<td style="text-align: left;"><img alt="Generate Action Items" src="../plan/media/PLAN_AI_Generate_Action_Items.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">This will generate a set of responses</td>
+<td style="text-align: left;"><img alt="AI Responses" src="../plan/media/PLAN_AI_to_create_Items.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">Click the <strong>Select</strong> Button and select <strong>Break Down into Titles</strong></td>
+<td style="text-align: left;"><img alt="Select Button" src="../plan/media/PLAN_AI_SelectButton_List.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: left;">This will convert the list of responses to a list with checkboxes</td>
+<td style="text-align: left;"><img alt="AI Responses with Checkboxes" src="../plan/media/PLAN_AI_select_items.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: left;">Select a few you like from the list</td>
+<td style="text-align: left;"><img alt="AI Responses selected" src="../plan/media/PLAN_AI_select_items2.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: left;"><a href="../plan/#ai-assistant-create-records-from-responses">Create Records from Responses</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td style="text-align: left;">Click the <strong>Select Record Type</strong> Button</td>
+<td style="text-align: left;"><img alt="Select Record Type" src="../plan/media/PLAN_AI_select_record_type.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">16</td>
+<td style="text-align: left;">to select <strong>Workitem</strong> from the list</td>
+<td style="text-align: left;"><img alt="Select Workitem" src="../plan/media/PLAN_AI_recordtype_workitem.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td style="text-align: left;">In the next Dialog  select the right <strong>Project</strong> and <strong>Workitem Type</strong></td>
+<td style="text-align: left;"><img alt="Record Creation Dialog1" src="../plan/media/PLAN_AI_recordtype_Dialog1.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">18</td>
+<td style="text-align: left;">for example <strong>Project</strong>: Echologic and <strong>Type</strong>: Epic</td>
+<td style="text-align: left;"><img alt="Record Creation Dialog2" src="../plan/media/PLAN_AI_recordtype_Dialog2.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">19</td>
+<td style="text-align: left;">Press the <strong>Create Records</strong> Button to get the <strong>Epics</strong> created.</td>
+<td style="text-align: left;"><img alt="Create Records Button" src="../plan/media/PLAN_AI_create_records_button.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">20</td>
+<td style="text-align: left;">A few seconds later all newly created records are now created</td>
+<td style="text-align: left;"><img alt="Newly created Records" src="../plan/media/PLAN_AI_records_created.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">21</td>
+<td style="text-align: left;">Press <strong>Done</strong>  to finish using the AI Assistant</td>
+<td style="text-align: left;"><img alt="Done Button" src="../plan/media/PLAN_AI_done.png" /></td>
+</tr>
+</tbody>
+</table>
+<!-- [Open a workitem and use AI to create description and exploratory test information](plan/boards/index.md#use-ai-in-workitem) -->
+
+<h2 id="code"><a href="../code/">Code</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Explain that we showed the link between a work item and the code in control</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;"><a href="../code/#how-to-switch-to-code-from-home-page">Now open CODE</a></td>
+<td style="text-align: left;">( use VScode for now, Switch to DevOps Code later)</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;"><a href="../code/#watsonx-code-assistant">Use WCA to explain code and generate some new code</a></td>
+<td style="text-align: left;"><img alt="Explain code part 1" src="../code/media/CODE_WCAx_Explain1.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img alt="Explain code part 2" src="../code/media/CODE_WCAx_Explain2.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;"><a href="../code/#commit-code-with-wi">Push code and add comment with work item number</a></td>
+<td style="text-align: left;"><img alt="Commit Code with WI" src="../code/media/CODE_CommitWithWI.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;"><a href="#control">Open Control and show the update</a></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="control"><a href="../control/">Control</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="../control/#how-to-switch-to-control-from-home-page">Open Control</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;"><a href="../control/#show-activity-report">Show the Update</a> in the activity report of the repository</td>
+<td style="text-align: left;"><img alt="Show Last Commit" src="../control/media/CONTROL_ShowLastCommit.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Git Commit Details</td>
+<td style="text-align: left;"><img alt="CONTROL - Show Git Commit Details" src="../control/media/CONTROL_ShowGitCommit.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="build"><a href="../build/">Build</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"><a href="../build/#how-to-switch-to-build-from-home-page">Open Build</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"><a href="../build/#build-project-runs">Show overview on build runs and results</a></td>
+<td style="text-align: left;"><img alt="Project Build Runs and Results" src="../build/media/BUILD_Process_Runs_results.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"><a href="../build/#build-process-detail">Show build process</a></td>
+<td style="text-align: left;"><img alt="Build Process Detail" src="../build/media/BUILD_Process_Runs_Details.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"><a href="../build/#templates">Show Templates</a></td>
+<td style="text-align: left;"><img alt="Templates - Process" src="../build/media/BUILD_Template_Process.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"><a href="../build/#process-template-detail">Show Build Template Detail</a></td>
+<td style="text-align: left;"><img alt="Templates - Process Details" src="../build/media/BUILD_Templates_Process_Detail.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"><a href="../build/#media/BUILD_Templates_Process_Def.png">Show Build Template Definition</a></td>
+<td style="text-align: left;"><img alt="Templates - Process Definition" src="../build/media/BUILD_Templates_Process_Def.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="deploy"><a href="../deploy/">Deploy</a></h2>
+<h3 id="deploy-overview">Deploy Overview</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="../deploy/#how-to-switch-to-deploy-from-home-page">Open Deploy</a> by <a href="../deploy/#what-would-you-like-to-do-today">Using the ‘What would you like to do today’ and select Deploy</a></td>
+<td style="text-align: left;"><img alt="What would you like to do today?" src="../introduction/media/Loop_whatwouldyouliketodotoday.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;"><a href="../deploy/#deploy-landing-page">Show the landing page and explain the metrics</a></td>
+<td style="text-align: left;"><a href="../deploy/media/dashboard.png">DeployLandingPage</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;"><a href="../deploy/#processes">Show process (components, app)</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Component Process</td>
+<td style="text-align: left;"><img alt="component processes" src="../deploy/media/DEPLOY_Component_Processlist_withentries.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">You can either create a <a href="../deploy/#process-designer">new process</a> by pressing Create Process Button</td>
+<td style="text-align: left;"><img alt="Create new Process Button" src="../deploy/media/DEPLOY_Component_CreateProcessButton.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">- It will show you the process designer for a new process</td>
+<td style="text-align: left;"><img alt="Process Designer" src="../deploy/media/DEPLOY_Component_ProcessEditor.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">Or click on existing Process to view and edit the given Process</td>
+<td style="text-align: left;"><img alt="select one of the processes" src="deploy/media/DEPLOY_Component_WithProcesslist.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">- <a href="../deploy/#adding-version-statuses">show a process which executes a TEST with setting quality tag on version</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">-- Deploy with Test Passed</td>
+<td style="text-align: left;"><img alt="Process Designer - Final Process with passed Test" src="../deploy/media/DEPLOY_ComponentProcessFinalWithPassingTest.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">-- Deploy with Test Failed</td>
+<td style="text-align: left;"><img alt="Process Designer - Final Process with failing Test" src="../deploy/media/DEPLOY_ComponentProcessFinalWithFailingTest.png" /></td>
+</tr>
+</tbody>
+</table>
+<h3 id="run-a-deplyoment">Run a Deplyoment</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="../deploy/#run-a-deployment">Run a Process and view results of steps</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Open the Applicationslist by clicking on Applications Icon</td>
+<td style="text-align: left;"><img alt="Deploy Applications Button on Sidebar" src="../deploy/media/DEPLOY_ApplicationsButton.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Select your Application by clicking on the link in the Applications List</td>
+<td style="text-align: left;"><img alt="Deploy Application" src="../deploy/media/DEPLOY_ApplicationList_ShowEcologic.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">All Environments of Application will be shown</td>
+<td style="text-align: left;"><img alt="Deploy Application Environment List" src="../deploy/media/DEPLOY_Application_Environmentlist.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;"><a href="../deploy/#request-a-process">Run a Deployment in an Environment</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">On the DEV environment click on Request Process Button: <img alt="Request Button" src="../deploy/media/DEPLOY_Application_RequestProcess.png" /></td>
+<td style="text-align: left;"><img alt="Dev Environment" src="../deploy/media/DEPLOY_AppEnv_DEV.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">Select <strong>Deploy with Test Passed</strong></td>
+<td style="text-align: left;"><img alt="Run Process Dialog - Select Deployment Process" src="../deploy/media/DEPLOY_Application_Runappprocessdialog1_SelectDeploymentProcess.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">Uncheck <strong>Deploy Only Changed</strong> to deploy same versions again</td>
+<td style="text-align: left;"><img alt="Run Process Dialog - uncheck Deploy Only Changed" src="../deploy/media/DEPLOY_Application_Runappprocessdialog3_OnlyChanged.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">click on <strong>Choose Component Versions</strong> button</td>
+<td style="text-align: left;"><img alt="Run Process Dialog - Choose Versions Button" src="../deploy/media/DEPLOY_Application_Runappprocessdialog4_ChooseCompVersionButton.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">Select the Versions of the Components for deployment</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img alt="Run Process Dialog - Select Component Version 1" src="../deploy/media/DEPLOY_Application_Runappprocessdialog5_SelectCompVersion.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img alt="Run Process Dialog - Select Component Version 2" src="../deploy/media/DEPLOY_Application_Runappprocessdialog6_SelectCompVersion.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td style="text-align: left;">Press the Submit button to start the deployment process</td>
+<td style="text-align: left;"><img alt="Submit Button" src="../deploy/media/DEPLOY_Application_Runappprocessdialog7_Submit.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: left;">The Deployment Process is started and you can <a href="../deploy/#view-of-running-process">View the running Process</a></td>
+<td style="text-align: left;"><img alt="Running Process" src="../deploy/media/DEPLOY_RunningProcess1.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td style="text-align: left;">In this View the details of the executed steps are shown by clicking on <strong>Expand All</strong></td>
+<td style="text-align: left;"><img alt="Expand All" src="../deploy/media/DEPLOY_RunningProcess2_ExpandAll.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">16</td>
+<td style="text-align: left;">To view the detailed output of a step click on <strong>3 dots menue</strong> of the step</td>
+<td style="text-align: left;"><img alt="3 dots menue of step" src="../deploy/media/DEPLOY_RunningProcess3_Stepdetails.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td style="text-align: left;">View the output of the step</td>
+<td style="text-align: left;"><img alt="Output of Step" src="../deploy/media/DEPLOY_RunningProcess4_StepDetails.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">18</td>
+<td style="text-align: left;">When the deplyoment finishes the <a href="../deploy/#result-of-run">Result</a> will be shown</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">19</td>
+<td style="text-align: left;">The deployment run successfully</td>
+<td style="text-align: left;"><img alt="Deployment Success" src="../deploy/media/DEPLOY_AppProcessFinishedSuccess.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">20</td>
+<td style="text-align: left;"><a href="../deploy/#result-of-run">Show Environment and its new configuration</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">21</td>
+<td style="text-align: left;">Switch to the Environment View of the Application and view the updated configuration</td>
+<td style="text-align: left;"><img alt="Environment with deployed versions of components" src="../deploy/media/DEPLOY_Application_EnvironmentResultVersions.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">22</td>
+<td style="text-align: left;">By clicking on the Component <strong>Echo</strong> in this view the set Status in the Versionlist of the component will be shown</td>
+<td style="text-align: left;"><img alt="Status added to version" src="../deploy/media/DEPLOY_Component_VersionList_withStatus.png" /></td>
+</tr>
+</tbody>
+</table>
+<h3 id="use-the-deployment-genie">Use the Deployment Genie</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Use Deploy Genie to understand why the deployment failed</td>
+<td style="text-align: left;">TODO: update as soon as connected to openai to showcase Deploy Genie</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="show-the-plug-ins-page">Show the Plug-Ins Page</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="../deploy/#settings">Show the plug-ins page and explain how easy it is to integrate with 3rd parties out of the box</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Switch to Settings by using the Settings Icon</td>
+<td style="text-align: left;"><img alt="Deploy Settings Icon" src="../deploy/media/DEPLOY_SettingsIcon.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">In the Settings View there is a <a href="../deploy/#plugins">Section Automation to View installed and available Plugins</a></td>
+<td style="text-align: left;"><img alt="Automation Plugins" src="../deploy/media/DEPLOY_Settings_AutomationSection.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">By clicking on <strong>Available Plugins</strong> a list of all available Plug-Ins is shown</td>
+<td style="text-align: left;"><img alt="Plugin List" src="../deploy/media/DEPLOY_PluginsList.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;"><a href="../deploy/#how-to-install-a-plugin">Install a new Plugin</a> by clicking on the <strong>3 Dots Menue</strong> <a href="media/DEPLOY_PluginList_3DotsMenue.png">3 dots menue</a> of a Plugin</td>
+<td style="text-align: left;"><img alt="Install plugin" src="media/DEPLOY_Plugins_Install.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">An Installation Confirmation Dialog will pop up, click here on <strong>Confirm</strong> to proceed</td>
+<td style="text-align: left;"><img alt="Plugin Installation Confirmation" src="../deploy/media/DEPLOY_PluginInstallConfirmation.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">Installation is Successfull Notification</td>
+<td style="text-align: left;"><img alt="Plugin Installation Successfull" src="../deploy/media/DEPLOY_PluginInstallSuccess.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="test"><a href="../test/">Test</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="../test/#how-to-switch-to-test-from-home-page">Open Test</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Explain that you are now playing the role of a tester</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Show the test landing page and metrics</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Run a test</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Show the analysis of the test results</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Show how we can create or edit a test</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Generate test data</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Run a new test that will fail</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Create a defect in Plan and show that is has all the data automatically</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Explain that everything is traceabl</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="measure"><a href="../measure/">Measure</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="../measure/#how-to-switch-to-measure-from-home-page">Open Measure</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Explain that we have built, deployed and tested so now we need to coordinate releases</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Show and talk about pipeline(s) with environments and Gates</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Create simple new gate to show usage of metrics</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Explain that we have been shoeing individual roles but we can look across roles and track the value of our delivery work</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Open the VSM for the project</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Show the audit information of a dot</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Show the swimlane view.</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="release"><a href="../release/">Release</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="../measure/#how-to-switch-to-measure-from-home-page">Open Release</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">You can switch to Release by either pressing "Let's go to Release" button on its tile</td>
+<td style="text-align: left;"><img alt="Release Tile lets go" src="../introduction/media/Loop_switch_to_Release.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Or you can always switch using the central app switcher on the top left of your screen:</td>
+<td style="text-align: left;"><img alt="Central App Switcher" src="../introduction/media/Loop_central_app_control.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Show release overview with calendar</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">So how do we ensure everyone understands the state of our project.  Well we can generate a release readiness report. – Generate the report</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="genie">Genie</h2>
+<p>Explain that we have covered a lot of roles and used a mixture of AI and automation but we can bring it all together with what we call our Loop Genie</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"><a href="../introduction/#how-to-use-loop-genie">How to use Loop Genie</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"><a href="../introduction/media/Loop_Home_Page.png">Open Home Page</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Open Loop Genie by clicking on its Icon on the right side of the Dashboard</td>
+<td style="text-align: left;"><img alt="Loop Genie Icon on Home Page" src="../introduction/intro/media/LOOP_HomePage_LoopGenieButton.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Loop Genie Dialog opens</td>
+<td style="text-align: left;"><img alt="Loop Genie Dialog" src="../introduction/intro/media/LOOP_HomePage_LoopGenieDialog.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Ask xyz question.</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p>Explain that we are back to the start and that this has been a quick end to end demo</p>
+<h2 id="conclusio">Conclusio</h2>
+<p>If you want to talk more about Loop please have a look at the <a href="intro/index.md">About Box, Sidebar and Plug-Ins</a> introduction.</p>
+<p>Go back to <a href="../#introduction">Lab and Demo Overview</a></p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.integrate", "content.tabs.link", "content.code.copy"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
