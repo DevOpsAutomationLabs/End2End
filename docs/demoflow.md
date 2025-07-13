@@ -221,7 +221,7 @@ Explain that we are back to the start and that this has been a quick end to end 
 
 ## Conclusio
 
-If you want to talk more about Loop please have a look at the [About Box, Sidebar and Plug-Ins](intro/index.md) introduction.
+If you want to talk more about Loop please have a look at the [About Box, Sidebar and Plug-Ins][IntroductionAboutBoxSidebarPlugins] introduction.
 
 Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 
@@ -352,3 +352,4 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [ReleaseTile]: ../introduction/media/Loop_switch_to_Release.png
 [CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
 [LoopHomePage]: introduction/index.md#the-home-page
+[IntroductionAboutBoxSidebarPlugins]: introduction/intro/index.md

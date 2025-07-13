@@ -39,3 +39,12 @@ On the sidebar a view of slected plug-ins is available. By pressing on the Plug-
 ![Sidebar Plugins](media/Loop_Sidebar_plugins.png)
 
 <!-- <img src="media/Loop_Sidebar_plugins.png" width="50%" height="50%"> -->
+
+## Conclusio
+
+Go back to [Introduction][GoBackToParentIndex] or [Lab and Demo Overview][GoBackToDemoOverview]
+
+---
+
+[GoBackToDemoOverview]: ../index.md#introduction
+[GoBackToParentIndex]: ../index.md

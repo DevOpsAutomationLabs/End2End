@@ -24,9 +24,16 @@ Your freshly created TeamSpace has no Loop yet.
 |   | Creation is successfull | ![Loops - Create New - creation successfull][LoopCreatedSuccess] |
 | 6 | Press now **Go to my Loops** Button to proceed | ![Go to my Loop Button][GoToMyLoops] |
 
-Back to [creating a TeamSpace and Loops](../index.md#creation-of-a-teamspace-and-loops)
+## Conclusio
+
+Back to [creating a TeamSpace and Loops][GoBackToCreatingTSandLoop]
+Go back to [Introduction][GoBackToParentIndex] or [Lab and Demo Overview][GoBackToDemoOverview]
 
 ---
+
+[GoBackToDemoOverview]: ../index.md#introduction
+[GoBackToParentIndex]: ../index.md
+[GoBackToCreatingTSandLoop]: ../index.md#creation-of-a-teamspace-and-loops
 
 [LoopHome]: media/Loop_Teamspace_07_CreateNewLoop_Home.png
 [CreateNewDialog]: media/Loop_Teamspace_08_CreateNewLoop_Dialog.png

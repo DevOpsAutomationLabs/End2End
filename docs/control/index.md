@@ -96,8 +96,13 @@ Press Generate Token and **SAVE your newly created Token**:
 
 Congratulations you have finished Control Lab and have created a new repository and an access token.
 
+Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
 ---
 
+[GoBackToDemoOverview]: ../index.md
+[GoBackToParentIndex]: ../index.md#control
+[NextLab]: ../index.md#code
 [ControlTile]: ../introduction/media/Loop_switch_to_Control.png
 [CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
 [ControlListOrgsRepos]: media/Control_List_Repo_and_Org.png

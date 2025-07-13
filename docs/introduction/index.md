@@ -65,7 +65,7 @@ You need to create at least one Loop in your TeamSpace, please follow the [Instr
 
 ## Conclusio
 
-If you want to talk more about Loop please have a look at the [About Box, Sidebar and Plug-Ins](intro/index.md) introduction.
+If you want to talk more about Loop please have a look at the [About Box, Sidebar and Plug-Ins][IntroAboutBoxSidebarPlugins] introduction.
 
 Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 
@@ -78,3 +78,4 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [GoBackToDemoOverview]: ../index.md#introduction
 [LoopHomeLoopGenieIcon]: media/../intro/media/LOOP_HomePage_LoopGenieButton.png
 [LoopGenieDialog]: intro/media/LOOP_HomePage_LoopGenieDialog.png
+[IntroAboutBoxSidebarPlugins]: intro/index.md

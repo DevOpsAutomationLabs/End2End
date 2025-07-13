@@ -44,3 +44,13 @@ Or you can always switch using the central app switcher on the top left of your 
 7. Explore more results by clicking on available options:
 
    ![Test Dashboard Page](media/test_dashboard.png)
+
+## Conclusio
+
+Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
+---
+
+[GoBackToDemoOverview]: ../index.md
+[GoBackToParentIndex]: ../index.md#test
+[NextLab]: ../index.md#secure

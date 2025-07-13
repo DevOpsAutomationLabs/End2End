@@ -56,7 +56,15 @@ Or you can always switch using the central app switcher on the top left of your 
 
 ![Templates - Jobs Step Detail][BuildJobTemplatesStepsDetail]
 
+## Conclusio
+
+Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
 ---
+
+[GoBackToDemoOverview]: ../index.md
+[GoBackToParentIndex]: ../index.md#build
+[NextLab]: ../index.md#deploy
 
 [BuildTile]: ../introduction/media/Loop_switch_to_Build.png
 [CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png

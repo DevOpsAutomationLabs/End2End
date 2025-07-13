@@ -128,7 +128,13 @@ Press **Done** ![Done Button][AIDoneButton] to finish using the AI Assistant
 
 Congratulations! You have finished the Plan lab and have got a short overview of its capabilities.
 
+Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
 ---
+
+[GoBackToDemoOverview]: ../index.md
+[GoBackToParentIndex]: ../index.md#plan
+[NextLab]: ../index.md#control
 
 [AppPage]: newapp/media/PLAN_Tenant_AppListFinal.png
 [PlanTile]: ../introduction/media/Loop_switch_to_Plan.png

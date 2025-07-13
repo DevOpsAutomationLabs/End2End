@@ -109,3 +109,11 @@ In this view you will see two existing dashboards. Delivery Performance and Deli
 ## Conclusio
 
 Congratulations! You have finished the Measure Lab!
+
+Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
+---
+
+[GoBackToDemoOverview]: ../index.md
+[GoBackToParentIndex]: ../index.md#measure
+[NextLab]: ../index.md#release

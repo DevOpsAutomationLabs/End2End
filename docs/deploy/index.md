@@ -319,6 +319,16 @@ Do not forget to do this important step once you can successfully run the Jenkin
 14. Check your running application at: http://165.192.86.196:30XX (Note: XX should be relaced with your student id)
  -->
 
+## Conclusio
+
+Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
+---
+
+[GoBackToDemoOverview]: ../index.md
+[GoBackToParentIndex]: ../index.md#deploy
+[NextLab]: ../index.md#test
+
 [DeployTile]: ../introduction/media/Loop_switch_to_Deploy.png
 [WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png
 [CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png

@@ -19,9 +19,18 @@ _**What are Teamspaces**_
 |  5   | Teamspace creation will take a few moments, as soon as it finishes a success dialog will be shown | ![Teamspace - Create New - creation process started][TSCreationStarted] |
 |  6   | Teamspace created. Click on **Go to Teamspace** for next steps                                    | ![Teamspace - Create New - creation successfull][TSCreateionFinished]   |
 
-Please proceed with [creating a Loop](../index.md#creation-of-a-teamspace-and-loops)
+Please proceed with [creating a Loop][GoBackToCreateALoop]
+
+## Conclusio
+
+Back to [creating a TeamSpace and Loops][GoBackToCreatingTSandLoop]
+Go back to [Introduction][GoBackToParentIndex] or [Lab and Demo Overview][GoBackToDemoOverview]
 
 ---
+
+[GoBackToDemoOverview]: ../index.md#introduction
+[GoBackToParentIndex]: ../index.md
+[GoBackToCreatingTSandLoop]: ../index.md#creation-of-a-teamspace-and-loops
 
 [TSMenue]: media/Loop_Teamspace_01_Menue.png
 [TSCreateNewDialog]: media/Loop_Teamspace_02_CreateNew_Dialog.png
@@ -33,3 +42,4 @@ Please proceed with [creating a Loop](../index.md#creation-of-a-teamspace-and-lo
 [TSCreateTSentry]: media/Loop_CreateTeamSpace.png
 [TSCreateButton]: media/Loop_Create_TS_Button.png
 [NextButton]: ../../media/Button_NEXT.png
+[GoBackToCreateALoop]: ../index.md#create-a-loop
