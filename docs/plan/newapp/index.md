@@ -22,15 +22,21 @@
 |      |                                                                                                  | ![New App creation process][AppCreationProcess] |
 |  6   | Now you have a new Application with some Sample Data                                             | ![App List finished][Application List]          |
 |  7   | You can use the **Let's go! Button** to switch to your newly created Application                 | ![Lets go button][LetsGoButton]                 |
-|      | or proceed with next step in the [Plan Overview](../index.md#how-to-create-a-new-application)    |                                                 |
+|      | or proceed with next step in the [Plan Overview][GoBackToParentIndex]    |                                                 |
 
 ## Conclusio
 
 You have successfully created a new Application in Plan.
 
-Back to [Plan Overview](../index.md#how-to-create-a-new-application)
+Back to [Plan Overview][GoBackToParentIndex]
+
+Go back to [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
 
 ---
+
+[GoBackToDemoOverview]: ../../index.md
+[GoBackToParentIndex]: ../index.md#how-to-create-a-new-application
+[NextLab]: ../index.md#lets-go-with-plan
 
 [AddAppButton]: media/PLAN_Tenant_AddAppButton.png
 [DialogNewApp]: media/PLAN_Tenant_CreateNewApp.png

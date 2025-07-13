@@ -73,3 +73,13 @@ If you want to save and go on with editing use the Save button. It can be also u
 #### Public Queries
 
 Have a look at the available Queries in the Public Queries list and try them out.
+
+## Conclusio
+
+Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
+---
+
+[GoBackToDemoOverview]: ../index.md
+[GoBackToParentIndex]: ../index.md#work-with-queries
+[NextLab]: ../index.md#integrations

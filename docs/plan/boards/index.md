@@ -61,6 +61,16 @@ TODO: Use Plan Genie to create description and explorative test information (nee
 
 - ![Board Sprint Backlog](media/Plan_ProjectBoard_SprintBacklog.png)
 
+## Conclusio
+
+Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
+---
+
+[GoBackToDemoOverview]: ../index.md
+[GoBackToParentIndex]: ../index.md#plan
+[NextLab]: ../index.md#create-and-customize-a-new-project
+
 [PlanShowCommit]: ../media/PLAN_Show_GitCommit.png
 [ControlShowCommit]: ../../control/media/CONTROL_ShowGitCommit.png
 [OpenControl]: control/index.md#how-to-switch-to-control-from-home-page

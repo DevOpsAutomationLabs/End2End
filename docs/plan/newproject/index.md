@@ -109,3 +109,13 @@ The new component list should look like this:
 ![Final Component List](media/Plan_Project_ComponentList_withdata.png)
 
 Do not forget to save the project to keep the changes!
+
+## Conclusio
+
+Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
+---
+
+[GoBackToDemoOverview]: ../index.md
+[GoBackToParentIndex]: ../index.md#work-with-boards
+[NextLab]: ../index.md#work-with-queries

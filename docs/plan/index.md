@@ -18,11 +18,11 @@ TODO: add here more about Plan
 
 ### Setup Demo Data
 
-You can use the pre-created Plan application from your Loop and add sampl data to it please follow [this document](setup/index.md) to import Demo data into Plan.
+You can use the pre-created Plan application from your Loop and add sampl data to it please follow [this document][GoToSetup] to import Demo data into Plan.
 
 ### How to create a new Application
 
-If you want to create a new Application and do not want to use the pre-created application from your Loop please follow the instructions how to [create a new Application with Sample Data](newapp/index.md).
+If you want to create a new Application and do not want to use the pre-created application from your Loop please follow the instructions how to [create a new Application with Sample Data][GoToNewApp].
 
 ## Let's go with Plan
 
@@ -38,21 +38,21 @@ Set the provided app as default and presss "Let's go" to proceed.
 
 If you have logged in the first time into Plan you will get a Welcome Screen:
 
-![Welcome Screen](media/Plan_welcome_screen.png)
+![Welcome Screen][PlanWelcomeScreen]
 
 By pressing the button "Explore" a new page is shown which provides an Introduction to Plan and the used workflow model for the selected application:
 
-![Plan Introduction page](media/Plan_welcome_introduction_screen.png)
+![Plan Introduction page][PlanIntroductionPage]
 
 ### Use Home Button to switch to Plan Home Page
 
 Please use the "Home" button on the left sidebar to switch to the Home page for Plan.
 
-![Plan Home Page Button](media/Plan_Home_button.png)
+![Plan Home Page Button][PlanHomePageButton]
 
 This Home page will provide you some basic information and also the means to switch between Plan applications (My Applications Button on the right)
 
-![Plan Home page](media/Plan_Home_page.png)
+![Plan Home page][PlanHomePage]
 
 The explore options on this page will forward you to the Exploration page mentioned above.
 
@@ -60,11 +60,11 @@ The explore options on this page will forward you to the Exploration page mentio
 
 Pressing the button "View":
 
-![view schema button](media/Plan_app_view_flow.png)
+![view schema button][PlanViewSchemaButton]
 
 will open a new view to the technical details of the used workflow for the selected application.
 
-![Schema Overview](media/Plan_app_view_details.png)
+![Schema Overview][PlanViewSchemaOverview]
 
 This view provides the used record types, fields, transition matrizes and more.
 
@@ -108,15 +108,15 @@ Press **Done** ![Done Button][AIDoneButton] to finish using the AI Assistant
 
 ## Work with Boards
 
-[Please follow these instructions to learn more about Boards](boards/index.md).
+[Please follow these instructions to learn more about Boards][GoToPlanBoards].
 
 ## Create and customize a new Project
 
-[Please follow these instructions to create a new Project](newproject/index.md).
+[Please follow these instructions to create a new Project][GoToPlanCreateNewProject].
 
 ## Work with Queries
 
-[Please follow these instructions to show how to work with Queries](queries/index.md)
+[Please follow these instructions to show how to work with Queries][GoToWorkWithQueries]
 
 ## Integrations
 
@@ -162,3 +162,14 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [AICreateRecordsButton]: media/PLAN_AI_create_records_button.png
 [AINewlyCreatedRecords]: media/PLAN_AI_records_created.png
 [AIDoneButton]: media/PLAN_AI_done.png
+[GoToSetup]: setup/index.md
+[GoToNewApp]: newapp/index.md
+[PlanWelcomeScreen]: media/Plan_welcome_screen.png
+[PlanIntroductionPage]: media/Plan_welcome_introduction_screen.png
+[PlanHomePageButton]: media/Plan_Home_button.png
+[PlanHomePage]: media/Plan_Home_page.png
+[PlanViewSchemaButton]: media/Plan_app_view_flow.png
+[PlanViewSchemaOverview]: media/Plan_app_view_details.png
+[GoToPlanBoards]: boards/index.md
+[GoToPlanCreateNewProject]: newproject/index.md
+[GoToWorkWithQueries]: queries/index.md
