@@ -1,0 +1,20 @@
+[
+	{
+		"pattern": "*",
+		"strategy":"replaceExact",
+		"map": {
+			"admin":"%CURRENT_USER%",
+			"lead": "%CURRENT_USER%",
+			"QE":"%CURRENT_USER%",
+			"user":"%CURRENT_USER%",
+			"engineer":"%CURRENT_USER%"
+		}
+	},
+    {
+        "pattern": "action_timestamp|SubmitDate|ModifyDate|CloseDate|StartDate|EndDate",
+        "strategy": "relativeDate",
+        "inFormat": ["yyyy-M-d H:mm:ss", "M/d/yy H:mm:ss", "M/d/yyyy H:mm:ss", "M/d/yy H:mm", "M/d/yyyy H:mm"],
+        "outFormat": "yyyy-M-d H:mm:ss",
+        "origin": "2022-01-26 00:00:00"
+    }
+]

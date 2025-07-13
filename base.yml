@@ -12,21 +12,22 @@ theme:
     - content.tabs.link
     - content.code.copy
   palette:
+    - primary: light blue
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-      primary: indigo
-      accent: teal
+      primary: light blue
+      accent: light blue
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-      primary: indigo
-      accent: teal
+      primary: indilight bluego
+      accent: light blue
 markdown_extensions:
   - admonition
   - pymdownx.superfences

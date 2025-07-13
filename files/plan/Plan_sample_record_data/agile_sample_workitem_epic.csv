@@ -1,0 +1,13 @@
+id,State,Title,Description,DescriptionPT,SubmitDate,SubmitBy,ModifyDate,ModifyBy,CloseDate,CloseBy,Resolution,Severity,Priority,StartDate,EndDate,old_id,Owner,Project,Component,PlannedRelease,WIType
+ECHOL00000001,Resolved,Can request through Logic to get Echo on the mobile app UI,,,1/3/2022 9:46,admin,1/14/2022 11:44,admin,,,Done,S1 - Critical,1 - High,,,,engineer,EchoLogic,EchoLogic UI,EchoLogic 1.0,Epic
+ECHOL00000002,Backlog,calculates status of echo between logic and echolon app,,,1/4/2022 10:01,admin,1/8/2022 9:53,admin,,,,S2 - Major,1 - High,,,,QE,EchoLogic,Logic Backend,EchoLogic 2.0 beta,Epic
+ECHOL00000003,Backlog,Echolon alerts Logic User to check on Echo response,,,1/3/2022 13:20,admin,1/8/2022 13:28,admin,,,,S2 - Major,2 - Medium,,,,admin,EchoLogic,Echo UI,EchoLogic 1.0,Epic
+ECHOL00000004,Resolved,process echo response through value exchange service,,,1/4/2022 13:16,admin,1/16/2022 10:17,admin,,,,S1 - Critical,1 - High,,,,admin,EchoLogic,EchoLogic Core,EchoLogic 1.0,Epic
+ECHOL00000005,Backlog,"baked, baked, boxed, and driven",,,1/5/2022 9:09,admin,1/8/2022 9:21,admin,,,,S2 - Major,1 - High,,,,lead,EchoLogic,Logic UI,EchoLogic 2.0 beta,Epic
+ECHOL00000006,Backlog,consumer saves frequent request info into profile,,,1/3/2022 15:52,admin,1/5/2022 9:38,admin,,,,S3 - Normal,3 - Low,,,,admin,EchoLogic,EchoLogic Backend,EchoLogic 1.0,Epic
+ECHOL00000007,Submitted,ability to call Echolon to check on process request from Echolonboard,,,1/5/2022 13:50,admin,1/5/2022 13:50,admin,,,,S4 - Low,3 - Low,,,,admin,EchoLogic,Logic Core,EchoLogic 2.0 beta,Epic
+ECHOL00000008,Active,Logic given the greenest possible processing state,,,1/2/2022 12:14,admin,1/7/2022 11:47,admin,,,,S2 - Major,1 - High,,,,admin,EchoLogic,Echo Backend,EchoLogic 1.0,Epic
+ECHOL00000009,Backlog,recalculates request of requests based of envrionmental condition changes,,,1/2/2022 13:43,admin,1/5/2022 10:09,admin,,,,S4 - Low,3 - Low,,,,admin,EchoLogic,Echo Core,EchoLogic 1.0,Epic
+ECHOL00000010,Submitted,generate requests list for Echo component based on envionmental impact,,,1/6/2022 15:14,admin,1/6/2022 15:14,admin,,,,S1 - Critical,1 - High,,,,admin,EchoLogic,EchoLogic Backend,EchoLogic 1.0,Epic
+ECHOL00000011,Submitted,show user facts about environment while waiting for Echo,,,1/6/2022 15:12,admin,1/6/2022 15:12,admin,,,,S1 - Critical,3 - Low,,,,admin,EchoLogic,Logic UI,EchoLogic 2.0 beta,Epic
+ECHOL00000012,Submitted,consumer and provider can communicate securely with each other without exchanging api keys,,,1/6/2022 13:45,admin,1/6/2022 13:45,admin,,,,S3 - Normal,2 - Medium,,,,admin,EchoLogic,Echo Backend,EchoLogic 2.0 beta,Epic

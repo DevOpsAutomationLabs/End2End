@@ -1,0 +1,6 @@
+records,Sprint,agile_sample_sprint.csv
+records,Release,agile_sample_release.csv
+records,Component,agile_sample_component.csv
+records,Project,agile_sample_project.csv
+records,WorkItem,agile_sample_workitem_epic.csv,agile_sample_workitem_epic_history.csv
+records,WorkItem,agile_sample_workitem_story.csv,agile_sample_workitem_story_history.csv
