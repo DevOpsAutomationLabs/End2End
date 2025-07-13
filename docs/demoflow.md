@@ -6,7 +6,7 @@
 
 | Step | Details                                                                                                       | Additional Information                |
 |:----:|:--------------------------------------------------------------------------------------------------------------|:--------------------------------------|
-|  1   | After loging in you will be on the [Home Page][LoopHomePage] of Loop                                          | ![Home Page][HomePage]                |
+|  1   | After loging in you will be on the [Home Page][LoopHomePage] of Loop                                          | ![Home Page][HomePage]{ width="50% }                |
 |  2   | If you are not on the Home Page page, click on Home button in the side bar to switch to the Home Page         | ![Home Page Sidebar][HomePageSideBar] |
 |  3   | The Home Page provides metrics and dashboards over all of my accessible Loops                                 |                                       |
 |  4   | Showing data from Plan - Ratio of Issues created versus closed                                                | ![Plan Metric][PlanMetric]            |

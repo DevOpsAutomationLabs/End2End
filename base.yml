@@ -8,31 +8,50 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
     - toc.integrate
     - content.tabs.link
     - content.code.copy
+    - content.tooltips
   palette:
-    - primary: light blue
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-      primary: light blue
-      accent: light blue
+      primary: black
+      accent: cyan
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-      primary: indilight bluego
-      accent: light blue
+      primary: black
+      accent: cyan
 markdown_extensions:
   - admonition
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - tables
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+plugins:
+  - search
+extra_css:
+  - stylesheets/extra.css
 extra:
   generator: false
   homepage: https://devopsautomationlabs.github.io/Index/
