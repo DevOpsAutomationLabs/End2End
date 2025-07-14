@@ -8,7 +8,7 @@ This Demo/Lab is providing a Stepy by Step guide [Demo Flow](demoflow.md) how to
 
 ### [Introduction](learn/introduction/index.md)
 
-This Guide will give you a short introduction into DevOps Loop. Follow this [Guide](learn/introduction/index.md#creation-of-a-teamspace-and-loops if you need to create a new Teamspace and Loop.
+This Guide will give you a short introduction into DevOps Loop. Follow this [Fast Setup Guide](setup.md) or with more detail [Introduction Creation of Teamspace and Loop](learn/introduction/index.md#creation-of-a-teamspace-and-loops) if you need to create a new Teamspace and Loop.
 
 Guide how to setup a frewh new Teamspace and Loop
 
