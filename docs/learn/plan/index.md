@@ -9,10 +9,11 @@ TODO: add here more about Plan
 
 ## How to switch to Plan from Home Page
 
-| Step | Details                                                                                | Additional Information               |
-|:----:|:---------------------------------------------------------------------------------------|:-------------------------------------|
-|  1   | You can switch to Plan by either pressing "Let's go to Plan" button on its tile        | ![Plan Tile lets go][PlanTile]       |
-|  2   | Or you can always switch using the central app switcher on the top left of your screen | ![Central App Switcher][AppSwitcher] |
+| Step | Details                                                                                                  | Additional Information                                         |
+|:----:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
+|  1   | You can switch to Plan by either pressing "Let's go to Plan" button on its tile                          | ![Plan Tile lets go][PlanTile]                                 |
+|  2   | Or you can always switch using the central app switcher on the top left of your screen                   | ![Central App Switcher][AppSwitcher]                           |
+|  3   | Or You can switch directly to Plan by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 ## Demo Data or New Application with Sample Data
 
@@ -173,3 +174,5 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [GoToPlanBoards]: boards/index.md
 [GoToPlanCreateNewProject]: newproject/index.md
 [GoToWorkWithQueries]: queries/index.md
+
+[WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png

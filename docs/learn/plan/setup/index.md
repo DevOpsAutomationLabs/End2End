@@ -12,7 +12,7 @@
 |  5   | Presss the Import Button to start                                          | ![Press Import Button][ImportButton]                     |
 |  6   | The Import process starts.                                                 | ![Import Process starting][ImportStarts]                 |
 |  7   | By clicking on Details the process output can be viewed                    | ![Import running with Details][ImportRunningWithDetails] |
-|  8   | Import has finished                                                        | ![Import Finished](media/PLAN_Import_finished.png)       |
+|  8   | Import has finished                                                        | ![Import Finished][ImportFinished]       |
 |  9   | Press the close button (bottom right on the screen)                        | ![Close Button][ImportClose]                             |
 |      |                                                                            |                                                          |
 
@@ -38,3 +38,4 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next L
 [ImportRunningWithDetails]: media/PLAN_Import_running.png
 [ImportClose]: media/PLAN_Import_Close_dialog.png
 [EchoLogicZIPFile]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/plan/EchoLogic.zip
+[ImportFinished]: media/PLAN_Import_finished.png
