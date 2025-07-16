@@ -30,18 +30,21 @@ TODO: get more information which environment to use and how to use the "Frontend
 
 #### Setup a Teamspace
 
-| Step | Details                                                                                                                                                                         | Additional Information                                                  |
-|:----:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
-|  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon] to view your Teamspaces or create a new one                                                                               | ![Teamspace menue][TSMenue]                                             |
-|  2   | Click on **Create TeamSpace**                                                                                                                                                   | ![TeamSpace menue - Create TeamSpace Link][TSCreateTSentry]             |
-|  3   | Enter a name and a Description <br>**Example Name: 'Demo'** <br>**Example Description: 'Teamspace for Demos'** <br>                                                             | ![Teamspace - Create New][TSCreateNewDialog]                            |
-|  4   | press **Next** Button to proceed                                                                                                                                                | ![Next Button][NextButton]                                              |
-|  5   | You can search and **add** Teammembers to a Teamspace                                                                                                                           | ![Teamspace - Create New - search Member][TSAddTeammember]              |
-|  6   | Teammember is added to a list. Proceed to add more members if needed.                                                                                                           | ![Teamspace - Create New - Member added][TSTeamMemberAdded]             |
-|  7   | Press **Create** to proceed                                                                                                                                                     | ![Create TeamSpace Button][TSCreateButton]                              |
-|  8   | Teamspace creation will take a few moments, as soon as it finishes a success dialog will be shown                                                                               | ![Teamspace - Create New - creation process started][TSCreationStarted] |
-|  9   | Teamspace created. Click on **Go to Teamspace** for next steps                                                                                                                  | ![Teamspace - Create New - creation successfull][TSCreateionFinished]   |
-|  10  | When the creation of a TeamSpace is finished you will be forwarded to your empty loops home page for your new TeamSpace <br> Please proceed with [Setting up a Loop][SetupLoop] | ![Empty Loops Homepage][LoopHomePageCreateNewLoop]                      |
+| Step | Details                                                                                           | Additional Information                                                  |
+|:----:|:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
+|  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon] to view your Teamspaces or create a new one | ![Teamspace menue][TSMenue]                                             |
+|  2   | Click on **Create TeamSpace**                                                                     | ![TeamSpace menue - Create TeamSpace Link][TSCreateTSentry]             |
+|  3   | Enter a name and a Description                                                                    |                                                                         |
+|      | **Example Name: 'Demo'** <br>**Example Description: 'Teamspace for Demos'**                       | ![Teamspace - Create New][TSCreateNewDialog]                            |
+|  4   | press **Next** Button to proceed                                                                  | ![Next Button][NextButton]                                              |
+|  5   | You can search and **add** Teammembers to a Teamspace                                             | ![Teamspace - Create New - search Member][TSAddTeammember]              |
+|  6   | Teammember is added to a list. Proceed to add more members if needed.                             | ![Teamspace - Create New - Member added][TSTeamMemberAdded]             |
+|  7   | Press **Create** to proceed                                                                       | ![Create TeamSpace Button][TSCreateButton]                              |
+|  8   | Teamspace creation will take a few moments, as soon as it finishes a success dialog will be shown | ![Teamspace - Create New - creation process started][TSCreationStarted] |
+|  9   | Teamspace created. Click on **Go to Teamspace** for next steps                                    | ![Teamspace - Create New - creation successfull][TSCreateionFinished]   |
+|  10  | When the creation of a TeamSpace is finished you will be forwarded                                |                                                                         |
+|      | to your empty loops home page for your new TeamSpace                                              | ![Empty Loops Homepage][LoopHomePageCreateNewLoop]                      |
+|      | Please proceed with [Setting up a Loop][SetupLoop]                                                |                                                                         |
 
 #### Setup a Loop
 
@@ -64,7 +67,7 @@ TODO: get more information which environment to use and how to use the "Frontend
 
 | Step | Details                                                                      | Additional Information                                         |
 |:----:|:-----------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | Switch to PLAN                                                               |                                                                |
+|  1   | Switch to [Plan](plan/index.md)                                              |                                                                |
 |      | 1.1 by either pressing "Let's go to Plan" button on its tile                 | ![Plan Tile lets go][PlanTile]                                 |
 |      | 1.2 by using the central app switcher on the top left of your screen         | ![Central App Switcher][AppSwitcher]                           |
 |      | 1.3 by using the button/link from What would you like to do today section    | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
@@ -88,7 +91,89 @@ TODO: get more information which environment to use and how to use the "Frontend
 |  7   | verify that data has been loaded                                             |                                                                |
 |      | 7.1 Click on **Project Board icon** on the Sidebar                           | ![Board Icon in sidebar][SideBarBoardIcon]                     |
 |      |                                                                              | ![sidebar][SideBar]                                            |
-|      | 7.2 Your board should look similar to this screenshot       |  ![My Board with imported data][MyBoardWithImportedData]                      |
+|      | 7.2 Your board should look similar to this screenshot                        | ![My Board with imported data][MyBoardWithImportedData]        |
+
+#### Importing Demo Data into Control
+
+Task: Copy files and folders from [Demo App repository](https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git "https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git") ```URL: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git``` into target repository.
+
+| Step | Details                                                                   | Additional Information                                         |
+|:----:|:--------------------------------------------------------------------------|:---------------------------------------------------------------|
+|  1   | Switch to [Control](control/index.md)                                     |                                                                |
+|      | 1.1 by either pressing "Let's go to Control" button on its tile           | ![Control Tile lets go][ControlTile]                           |
+|      | 1.2 by using the central app switcher on the top left of your screen      | ![Central App Switcher][AppSwitcher]                           |
+|      | 1.3 by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
+
+##### Setup a Personal Access Token
+
+| Step | Details                                                          | Additional Information                                      |
+|:----:|:-----------------------------------------------------------------|:------------------------------------------------------------|
+|  1   | Click on the top right on Profile and Settings                   | ![Profile and Settigs][ControlProfileSettings]              |
+|      | 1.1 Select **Settings**                                          | ![Settings][ProfileSettings]                                |
+|  2   | Click on **Access Tokens** in the menu                           | ![Access Token][SettingsAccessTokens]                       |
+|      | 2.1 click on the **Select Permissions** section to open settings | ![PAT Select Permissions][PATSelectPermissions]             |
+|      | 2.2 Set "issue" to "Read/Write"                                  |                                                             |
+|      | 2.3 Set "repository" to "Read/Write"                             |                                                             |
+|      | 2.4 Set "user" to "Read"                                         |                                                             |
+|      | 2.5 Click on **Generate Token** Button                           | ![Create New Personal Access Token - PAT][PATGenerateToken] |
+|  3   | The new Token is created and shown                               | ![PAT created and shown][PATcreated]                        |
+|      | **NOTE:**                                                        |                                                             |
+|      | 3.1 Copy and Paste the token into a text file for reference!     | ![copy PAT into a text file][PATcopy4ref]                   |
+
+##### Clone Target Repository
+
+| Step | Details                                                                                    | Additional Information                                |
+|:----:|:-------------------------------------------------------------------------------------------|:------------------------------------------------------|
+|  1   | Open a Terminal to clone the target and source repositories                                | ![Open a Terminal][OpenTerminal]                      |
+|  2   | cd into the Documents folder ```cd Documents```                                            | ![CD into Documents folder][CDDocs]                   |
+|  3   | Clone the target repository                                                                | ![Clone target repository][CloneTargetRepo]           |
+|      | 3.1 ```git clone https://devops.automation.techzone.ibm.com/control/Demo/EchoLogic.git"``` |                                                       |
+|      | 3.2 Provide Username: ```demo-devops.loop```                                               | ![Provide Username for git clone][ProvideGitUserName] |
+|      | 3.3 Provide access token (copy from textfile)                                              | ![copy the referenced PAT from textfile][ProvidePAT]  |
+|  4   | The target repository is cloned                                                            | ![Target Repo is cloned][TargetRepoCloned]            |
+|      | 4.1 check the folder with ```ls EchoLogic```                                               | ![Target Repo is empty][TargetRepoEmpty]              |
+|  5   | If needed Getting back to Documents                                                        | ```cd&cd Documents```                                 |
+|  6   | Clone the source repository                                                                |                                                       |
+|      | 6.1 ```git clone https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git```          | ![clone source repository][CloneSourceRepo]           |
+|      | 6.2 check Documents folder ```ls```                                                        | ![list all folders in Documents][LSDocs]              |
+|  7   | Copy some folders and files from Source Repo to Target Repo                                | ![copy from source to target][CopyData]               |
+|      | 7.1 Copy docs folder                                                                       | ```cp -r EchoLogic_DemoApp/docs EchoLogic/```         |
+|      | 7.2 Copy files folder                                                                      | ```cp -r EchoLogic_DemoApp/files EchoLogic/```        |
+|      | 7.3 Copy src folder                                                                        | ```cp -r EchoLogic_DemoApp/src EchoLogic/```          |
+|      | 7.4 Copy the Readme file                                                                   | ```cp -r EchoLogic_DemoApp/README.md EchoLogic/```    |
+|  8   | Check target repo folder ```ls EchoLogic```                                                | ![ls target repo folder][LSTargetRepo]                |
+|  9   | Push changes                                                                               | ![git add commit][GitAddCommit]                       |
+|      | 9.1 Add changes                                                                            | ```git add .```                                       |
+|      | 9.2 Commit Message                                                                         | ```git commit -m "upload"```                          |
+|      | 9.3 Push changes                                                                           | ```git push```                                        |
+|      | 9.4 Provide username and token (same as with clone)                                        |                                                       |
+|      | 9.4.1 ```demo-devops.loop```                                                               | ![Provide Username for git clone][ProvideGitUserName] |
+|      | 9.4.2 Provide access token (copy from textfile)                                            | ![copy the referenced PAT from textfile][ProvidePAT]  |
+|      | 9.5 push finishes                                                                          | ![git push][GitPushDone]                              |
+|  10  | Switch back to Control and view Repo                                                       | ![New data is shown in Control][NewDataInRepo]        |
+
+
+#### Importing Data into
+
+| Step | Details | Additional Information |
+|:----:|:--------|:-----------------------|
+|      |         |                        |
+|      |         |                        |
+|      |         |                        |
+|      |         |                        |
+|      |         |                        |
+
+#### Importing Data into
+
+| Step | Details | Additional Information |
+|:----:|:--------|:-----------------------|
+|      |         |                        |
+|      |         |                        |
+|      |         |                        |
+|      |         |                        |
+|      |         |                        |
+
+#### Importing Data into
 
 | Step | Details | Additional Information |
 |:----:|:--------|:-----------------------|
@@ -108,6 +193,7 @@ TODO: get more information which environment to use and how to use the "Frontend
 |      |         |                        |
 |      |         |                        |
 |      |         |                        |
+
 
 ---
 
@@ -168,3 +254,26 @@ TODO: get more information which environment to use and how to use the "Frontend
 [SideBarBoardIcon]: learn/plan/boards/media/Plan_ProjectBoard_Icon.png
 [SideBar]: learn/plan/media/Plan_Sidebar_ProjectBoards.png
 [MyBoardWithImportedData]: learn/plan/boards/media/Plan_ProjectBoard_myBoard_with_imported_data.png
+
+[ControlTile]: learn/introduction/media/Loop_switch_to_Control.png
+[ControlProfileSettings]: learn/control/media/CONTROL_ProfileAndSettings1.png
+[ProfileSettings]: learn/control/media/CONTROL_ProfileAndSettings2.png
+[SettingsAccessTokens]: learn/control/media/CONTROL_ProfileAndSettings3.png
+[PATSelectPermissions]: learn/control/media/CONTROL_PersonalAccessToken2.png
+[PATGenerateToken]: learn/control/media/CONTROL_PersonalAccessToken1.png
+[PATcreated]: learn/control/media/CONTROL_PersonalAccessToken3.png
+[PATcopy4ref]: learn/control/media/CONTROL_PersonalAccessToken4.png
+[OpenTerminal]: learn/control/media/Terminal_1_Open.png
+[CDDocs]: learn/control/media/Terminal_2_cd_documents.png
+[CloneTargetRepo]: learn/control/media/Terminal_3_clone_target_repo1.png
+[ProvideGitUserName]: learn/control/media/Terminal_3_clone_target_repo2.png
+[ProvidePAT]: learn/control/media/Terminal_3_clone_target_repo3.png
+[TargetRepoCloned]: learn/control/media/Terminal_3_clone_target_repo4_cloned.png
+[TargetRepoEmpty]: learn/control/media/Terminal_3_clone_target_repo5_empty.png
+[CloneSourceRepo]: learn/control/media/Terminal_4_clone_source_repo1.png
+[LSDocs]: learn/control/media/Terminal_4_clone_source_repo2.png
+[CopyData]: learn/control/media/Terminal_5_copy_to_target.png
+[LSTargetRepo]: learn/control/media/Terminal_6_target_new_data.png
+[GitAddCommit]: learn/control/media/Terminal_7_git_add_commit.png
+[GitPushDone]: learn/control/media/Terminal_8_git_push.png
+[NewDataInRepo]: learn/control/media/CONTROL_Repo_New_Data.png
