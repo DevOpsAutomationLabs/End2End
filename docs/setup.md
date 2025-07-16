@@ -122,35 +122,35 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 
 ##### Clone Target Repository
 
-| Step | Details                                                                                    | Additional Information                                |
-|:----:|:-------------------------------------------------------------------------------------------|:------------------------------------------------------|
-|  1   | Open a Terminal to clone the target and source repositories                                | ![Open a Terminal][OpenTerminal]                      |
-|  2   | cd into the Documents folder ```cd Documents```                                            | ![CD into Documents folder][CDDocs]                   |
-|  3   | Clone the target repository                                                                | ![Clone target repository][CloneTargetRepo]           |
-|      | 3.1 ```git clone https://devops.automation.techzone.ibm.com/control/Demo/EchoLogic.git"``` |                                                       |
-|      | 3.2 Provide Username: ```demo-devops.loop```                                               | ![Provide Username for git clone][ProvideGitUserName] |
-|      | 3.3 Provide access token (copy from textfile)                                              | ![copy the referenced PAT from textfile][ProvidePAT]  |
-|  4   | The target repository is cloned                                                            | ![Target Repo is cloned][TargetRepoCloned]            |
-|      | 4.1 check the folder with ```ls EchoLogic```                                               | ![Target Repo is empty][TargetRepoEmpty]              |
-|  5   | If needed Getting back to Documents                                                        | ```cd&cd Documents```                                 |
-|  6   | Clone the source repository                                                                |                                                       |
-|      | 6.1 ```git clone https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git```          | ![clone source repository][CloneSourceRepo]           |
-|      | 6.2 check Documents folder ```ls```                                                        | ![list all folders in Documents][LSDocs]              |
-|  7   | Copy some folders and files from Source Repo to Target Repo                                | ![copy from source to target][CopyData]               |
-|      | 7.1 Copy docs folder                                                                       | ```cp -r EchoLogic_DemoApp/docs EchoLogic/```         |
-|      | 7.2 Copy files folder                                                                      | ```cp -r EchoLogic_DemoApp/files EchoLogic/```        |
-|      | 7.3 Copy src folder                                                                        | ```cp -r EchoLogic_DemoApp/src EchoLogic/```          |
-|      | 7.4 Copy the Readme file                                                                   | ```cp -r EchoLogic_DemoApp/README.md EchoLogic/```    |
-|  8   | Check target repo folder ```ls EchoLogic```                                                | ![ls target repo folder][LSTargetRepo]                |
-|  9   | Push changes                                                                               | ![git add commit][GitAddCommit]                       |
-|      | 9.1 Add changes                                                                            | ```git add .```                                       |
-|      | 9.2 Commit Message                                                                         | ```git commit -m "upload"```                          |
-|      | 9.3 Push changes                                                                           | ```git push```                                        |
-|      | 9.4 Provide username and token (same as with clone)                                        |                                                       |
-|      | 9.4.1 ```demo-devops.loop```                                                               | ![Provide Username for git clone][ProvideGitUserName] |
-|      | 9.4.2 Provide access token (copy from textfile)                                            | ![copy the referenced PAT from textfile][ProvidePAT]  |
-|      | 9.5 push finishes                                                                          | ![git push][GitPushDone]                              |
-|  10  | Switch back to Control and view Repo                                                       | ![New data is shown in Control][NewDataInRepo]        |
+| Step | Details                                                     | Additional Information                                                                 |
+|:----:|:------------------------------------------------------------|:---------------------------------------------------------------------------------------|
+|  1   | Open a Terminal to clone the target and source repositories | ![Open a Terminal][OpenTerminal]                                                       |
+|  2   | cd into the Documents folder ```cd Documents```             | ![CD into Documents folder][CDDocs]                                                    |
+|  3   | Clone the target repository                                 | ![Clone target repository][CloneTargetRepo]                                            |
+|      | 3.1 Git Clone command                                       | ```git clone https://devops.automation.techzone.ibm.com/control/Demo/EchoLogic.git"``` |
+|      | 3.2 Provide Username: ```demo-devops.loop```                | ![Provide Username for git clone][ProvideGitUserName]                                  |
+|      | 3.3 Provide access token (copy from textfile)               | ![copy the referenced PAT from textfile][ProvidePAT]                                   |
+|  4   | The target repository is cloned                             | ![Target Repo is cloned][TargetRepoCloned]                                             |
+|      | 4.1 check the folder with ```ls EchoLogic```                | ![Target Repo is empty][TargetRepoEmpty]                                               |
+|  5   | If needed Getting back to Documents                         | ```cd&cd Documents```                                                                  |
+|  6   | Clone the source repository                                 | ![clone source repository][CloneSourceRepo]                                            |
+|      | 6.1 Git Clone Command                                       | ```git clone https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git```          |
+|      | 6.2 check Documents folder ```ls```                         | ![list all folders in Documents][LSDocs]                                               |
+|  7   | Copy some folders and files from Source Repo to Target Repo | ![copy from source to target][CopyData]                                                |
+|      | 7.1 Copy docs folder                                        | ```cp -r EchoLogic_DemoApp/docs EchoLogic/```                                          |
+|      | 7.2 Copy files folder                                       | ```cp -r EchoLogic_DemoApp/files EchoLogic/```                                         |
+|      | 7.3 Copy src folder                                         | ```cp -r EchoLogic_DemoApp/src EchoLogic/```                                           |
+|      | 7.4 Copy the Readme file                                    | ```cp -r EchoLogic_DemoApp/README.md EchoLogic/```                                     |
+|  8   | Check target repo folder ```ls EchoLogic```                 | ![ls target repo folder][LSTargetRepo]                                                 |
+|  9   | Push changes                                                | ![git add commit][GitAddCommit]                                                        |
+|      | 9.1 Add changes                                             | ```git add .```                                                                        |
+|      | 9.2 Commit Message                                          | ```git commit -m "upload"```                                                           |
+|      | 9.3 Push changes                                            | ```git push```                                                                         |
+|      | 9.4 Provide username and token (same as with clone)         |                                                                                        |
+|      | 9.4.1 ```demo-devops.loop```                                | ![Provide Username for git clone][ProvideGitUserName]                                  |
+|      | 9.4.2 Provide access token (copy from textfile)             | ![copy the referenced PAT from textfile][ProvidePAT]                                   |
+|      | 9.5 push finishes                                           | ![git push][GitPushDone]                                                               |
+|  10  | Switch back to Control and view Repo                        | ![New data is shown in Control][NewDataInRepo]                                         |
 
 
 #### Importing Data into
