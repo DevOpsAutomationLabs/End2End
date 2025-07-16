@@ -62,32 +62,33 @@ TODO: get more information which environment to use and how to use the "Frontend
 
 #### Importing Demo Data into Plan
 
-| Step | Details                                                                                          | Additional Information                                         |
-|:----:|:-------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | Switch to PLAN                                                                                   |                                                                |
-|      | 1.1 by either pressing "Let's go to Plan" button on its tile                                     | ![Plan Tile lets go][PlanTile]                                 |
-|      | 1.2 by using the central app switcher on the top left of your screen                             | ![Central App Switcher][AppSwitcher]                           |
-|      | 1.3 by using the button/link from What would you like to do today section                        | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
-|  1   | In the Side bar click on **Configuration** to use the Import Feature of plan to load sample data | ![Import Icon][ImportIcon]                                     |
-|  2   | In the Dialog for importing record data                                                          | ![Import Dialog][ImportDialog1]                                |
-|      | click the Choose File Button to select the sample data file to be imported                       | ![Choose File Button][ChooseFileDialog]                        |
-|  3   | Select the [EchoLogic Zip File from files section][EchoLogicZipFile]                             | ![Select the file][SelectZipFile]                              |
-|  4   | Now we have the file selected                                                                    | ![Import Dialog with selected File][ImportDialog2]             |
-|  5   | Presss the Import Button to start                                                                | ![Press Import Button][ImportButton]                           |
-|  6   | The Import process starts.                                                                       | ![Import Process starting][ImportStarts]                       |
-|  7   | By clicking on Details the process output can be viewed                                          | ![Import running with Details][ImportRunningWithDetails]       |
-|  8   | Import has finished                                                                              | ![Import Finished][ImportFinished]                             |
-|  9   | Press the close button (bottom right on the screen)                                              | ![Close Button][ImportClose]                                   |
-|      |                                                                                                  |                                                                |
-|      |                                                                                                  |                                                                |
-|      |                                                                                                  |                                                                |
-|      |                                                                                                  |                                                                |
-|      |                                                                                                  |                                                                |
-|      |                                                                                                  |                                                                |
-|      |                                                                                                  |                                                                |
-|      |                                                                                                  |                                                                |
-|      |                                                                                                  |                                                                |
-|      |                                                                                                  |                                                                |
+| Step | Details                                                                      | Additional Information                                         |
+|:----:|:-----------------------------------------------------------------------------|:---------------------------------------------------------------|
+|  1   | Switch to PLAN                                                               |                                                                |
+|      | 1.1 by either pressing "Let's go to Plan" button on its tile                 | ![Plan Tile lets go][PlanTile]                                 |
+|      | 1.2 by using the central app switcher on the top left of your screen         | ![Central App Switcher][AppSwitcher]                           |
+|      | 1.3 by using the button/link from What would you like to do today section    | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
+|  2   | Click on **Let's Go** on the "EchoL" application                             | ![Application Page][AppPage]                                   |
+|      | 2.1 if you get a *Welcome Screen* click to close to proceed with data import | ![Welcome Screen][PlanWelcomeScreen]                           |
+|  3   | click in the **Sidebar**                                                     |                                                                |
+|      | 3.1 on **Configuration**                                                     | ![Config Button][ConfigButton]                                 |
+|      | 3.2 Use the **Import** Feature of plan to load sample data                   | ![Import Icon][ImportIcon]                                     |
+|  4   | **NOTE** Download the Demo Data File onto your local drive                   |                                                                |
+|      | 4.1 Click oon [EchoLogic Zip File from files section][EchoLogicZipFile]      |                                                                |
+|      | 4.2 and save the file on your local drive (best into Downloads)              | ![Download Demo Data file][DownloadDemoDataFile]               |
+|  5   | In the Dialog for importing record data                                      | ![Import Dialog][ImportDialog1]                                |
+|      | 5.1 click the Choose File Button                                             | ![Choose File Button][ChooseFileDialog]                        |
+|      | 5.2 select the sample data file (from Step 2) to be imported                 | ![Select the file][SelectZipFile]                              |
+|      | 5.3 Now we have the file selected                                            | ![Import Dialog with selected File][ImportDialog2]             |
+|      | 5.4 Press the Import Button to start                                         | ![Press Import Button][ImportButton]                           |
+|  6   | The Import process starts.                                                   | ![Import Process starting][ImportStarts]                       |
+|      | 6.1 By clicking on Details the process output can be viewed                  | ![Import running with Details][ImportRunningWithDetails]       |
+|      | 6.2 Import has finished                                                      | ![Import Finished][ImportFinished]                             |
+|      | 6.3 Press the close button (bottom right on the screen)                      | ![Close Button][ImportClose]                                   |
+|  7   | verify that data has been loaded                                             |                                                                |
+|      | 7.1 Click on **Project Board icon** on the Sidebar                           | ![Board Icon in sidebar][SideBarBoardIcon]                     |
+|      |                                                                              | ![sidebar][SideBar]                                            |
+|      | 7.2 Your board should look similar to this screenshot       |  ![My Board with imported data][MyBoardWithImportedData]                      |
 
 | Step | Details | Additional Information |
 |:----:|:--------|:-----------------------|
@@ -158,3 +159,12 @@ TODO: get more information which environment to use and how to use the "Frontend
 [ImportClose]: learn/plan/setup/media/PLAN_Import_Close_dialog.png
 [EchoLogicZIPFile]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/plan/EchoLogic.zip
 [ImportFinished]: learn/plan/setup/media/PLAN_Import_finished.png
+[DownloadDemoDataFile]: learn/plan/setup/media/Download_PlanDemoDataFile.png
+
+[AppPage]: learn/plan/media/Plan_Applications_Page.png
+[PlanWelcomeScreen]: learn/plan/media/Plan_welcome_screen.png
+[ConfigButton]: learn/plan/media/PLAN_Sidebar_ConfigurationButton.png
+
+[SideBarBoardIcon]: learn/plan/boards/media/Plan_ProjectBoard_Icon.png
+[SideBar]: learn/plan/media/Plan_Sidebar_ProjectBoards.png
+[MyBoardWithImportedData]: learn/plan/boards/media/Plan_ProjectBoard_myBoard_with_imported_data.png

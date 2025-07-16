@@ -33,6 +33,10 @@ If you have not set your default Plan application you will be provided with a sc
 
 ![Plan Applications Page][AppPage]
 
+or if you have created additional Applications then you will get a list
+
+![Plan Applications Page with List][AppPageList]
+
 Set the provided app as default and presss "Let's go" to proceed.
 
 ### Welcome Page for first time users
@@ -137,7 +141,8 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [GoBackToParentIndex]: ../index.md#plan
 [NextLab]: ../index.md#control
 
-[AppPage]: newapp/media/PLAN_Tenant_AppListFinal.png
+[AppPage]: media/Plan_Applications_page.png
+[AppPageList]: newapp/media/PLAN_Tenant_AppListFinal.png
 [PlanTile]: ../introduction/media/Loop_switch_to_Plan.png
 [AppSwitcher]: ../introduction/media/Loop_central_app_control.png
 

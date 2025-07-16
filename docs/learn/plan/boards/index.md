@@ -8,24 +8,24 @@ Project Boards provide a graphical Kanban style overview of worktitems.
 
 TODO: add more text here
 
-To open the board use the Project Board icon ![Board Icon in sidebar](media/Plan_ProjectBoard_Icon.png) on the Sidebar ![sidebar](../media/Plan_Sidebar_ProjectBoards.png).
+To open the board use the Project Board icon ![Board Icon in sidebar][SideBarBoardIcon] on the Sidebar ![sidebar][SideBar].
 
 The initial view is your My Board view which will show worktitems that are assigned to you. As we newly started the board is empty.
-![myWork Board](media/Plan_ProjectBoard_myBoard.png)
+![myWork Board][BoardMyBoardwithoneentry]
 
 TODO: Show the board with data and expain what it is good for and how to use it
 
 ### Work Items
 
-- ![Board workitems](media/Plan_ProjectBoard_WorkItems.png)
+- ![Board workitems][BoardWorkItems]
 
 #### Select Workitem
 
-- ![Select WorkItem from Board](media/PLAN_Boards_SelectWI.png)
+- ![Select WorkItem from Board][BoardSelectWI]
 
 #### Show Workitem Details
 
-- ![Show Workitem Details](media/PLAN_Board_ShowWI_Detail.png)
+- ![Show Workitem Details][BoardShowWIDetail]
 
 #### Show Commit
 
@@ -43,23 +43,23 @@ TODO: Use Plan Genie to create description and explorative test information (nee
 
 ### Filter Projects
 
-- ![Board Selec Project](media/Plan_ProjectBoard_SelectProject.png)
+- ![Board Select Project][BoardSelectProject]
 
 ### Filter Epics
 
-- ![Board filter](media/Plan_ProjectBoard_Filterbar.png)
+- ![Board filter][BoardFilterWITypes]
 
 ### Show Releases
 
-- ![Board Releases](media/Plan_ProjectBoard_Releases.png)
+- ![Board Releases][BoardShowReleases]
 
 ### Show Sprints
 
-- ![Board Sprint Board](media/Plan_ProjectBoard_SprintBoard.png)
+- ![Board Sprint Board][BoardShowSprintBoard]
 
 ### Show Sprint Backlog
 
-- ![Board Sprint Backlog](media/Plan_ProjectBoard_SprintBacklog.png)
+- ![Board Sprint Backlog][BoardShowSprintBacklog]
 
 ## Conclusio
 
@@ -74,3 +74,14 @@ Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOver
 [PlanShowCommit]: ../media/PLAN_Show_GitCommit.png
 [ControlShowCommit]: ../../control/media/CONTROL_ShowGitCommit.png
 [OpenControl]: control/index.md#how-to-switch-to-control-from-home-page
+[SideBarBoardIcon]: media/Plan_ProjectBoard_Icon.png
+[SideBar]: ../media/Plan_Sidebar_ProjectBoards.png
+[BoardMyBoardwithoneentry]: media/Plan_ProjectBoard_myBoard.png
+[BoardWorkItems]: media/Plan_ProjectBoard_WorkItems.png
+[BoardSelectWI]: media/PLAN_Boards_SelectWI.png
+[BoardShowWIDetail]: media/PLAN_Board_ShowWI_Detail.png
+[BoardSelectProject]: media/Plan_ProjectBoard_SelectProject.png
+[BoardFilterWITypes]: media/Plan_ProjectBoard_Filterbar.png
+[BoardShowReleases]: media/Plan_ProjectBoard_Releases.png
+[BoardShowSprintBoard]: media/Plan_ProjectBoard_SprintBoard.png
+[BoardShowSprintBacklog]: media/Plan_ProjectBoard_SprintBacklog.png
