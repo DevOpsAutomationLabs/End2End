@@ -6,7 +6,7 @@
 
 | Step | Details                                                                                                       | Additional Information                |
 |:----:|:--------------------------------------------------------------------------------------------------------------|:--------------------------------------|
-|  1   | After loging in you will be on the [Home Page][LoopHomePage] of Loop                                          | ![Home Page][HomePage]{ width="50% }                |
+|  1   | After loging in you will be on the [Home Page][LoopHomePage] of Loop                                          | ![Home Page][HomePage]{ width="50% }  |
 |  2   | If you are not on the Home Page page, click on Home button in the side bar to switch to the Home Page         | ![Home Page Sidebar][HomePageSideBar] |
 |  3   | The Home Page provides metrics and dashboards over all of my accessible Loops                                 |                                       |
 |  4   | Showing data from Plan - Ratio of Issues created versus closed                                                | ![Plan Metric][PlanMetric]            |
@@ -68,14 +68,14 @@
 
 ## [Code](code/index.md)
 
-| Step | Details                                                                     | Additional Information                             |
-|:----:|:----------------------------------------------------------------------------|:---------------------------------------------------|
-|  1   | Explain that we showed the link between a work item and the code in control |                                                    |
+| Step | Details                                                                     | Additional Information                                    |
+|:----:|:----------------------------------------------------------------------------|:----------------------------------------------------------|
+|  1   | Explain that we showed the link between a work item and the code in control |                                                           |
 |  2   | [Now open CODE][CODEopen]                                                   | **TODO: use VScode for now, Switch to DevOps Code later** |
-|  3   | [Use WCA to explain code and generate some new code][CODEWcaX]              | ![Explain code part 1][WcaXexplain1]               |
-|      |                                                                             | ![Explain code part 2][WcaXexplain2]               |
-|  4   | [Push code and add comment with work item number][CODEcommitWI]             | ![Commit Code with WI][CodeWithWIcommit]           |
-|  5   | [Open Control and show the update](#control)                                |                                                    |
+|  3   | [Use WCA to explain code and generate some new code][CODEWcaX]              | ![Explain code part 1][WcaXexplain1]                      |
+|      |                                                                             | ![Explain code part 2][WcaXexplain2]                      |
+|  4   | [Push code and add comment with work item number][CODEcommitWI]             | ![Commit Code with WI][CodeWithWIcommit]                  |
+|  5   | [Open Control and show the update](#control)                                |                                                           |
 
 ## [Control](control/index.md)
 
@@ -101,18 +101,19 @@
 
 ### Deploy Overview
 
-| Step | Details                                                                                                    | Additional Information                                                                   |
-|:----:|:-----------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-|  1   | [Open Deploy][DeployOpen] by [Using the ‘What would you like to do today’ and select Deploy][DeployWWYLTT] | ![What would you like to do today?][WhatWouldYouLikeToDoToday]                           |
-|  2   | [Show the landing page and explain the metrics][DeployShowLandingPage]                                     | [DeployLandingPage][DeployDashboard]                                                     |
-|  3   | [Show process (components, app)][DeployShowProcesses]                                                      |                                                                                          |
-|  4   | Component Process                                                                                          | ![component processes][DeployComponentWithProcesses]                                     |
-|  5   | You can either create a [new process][DeployShowProcessDesigner] by pressing Create Process Button         | ![Create new Process Button][DeployComponentCreateNewProcessButton]                      |
-|  6   | - It will show you the process designer for a new process                                                  | ![Process Designer][DeployProcessDesigner]                                               |
-|  7   | Or click on existing Process to view and edit the given Process                                            | ![select one of the processes][DeployComponentProcessesList]                             |
-|  8   | - [show a process which executes a TEST with setting quality tag on version][DeployShowProcessWithTest]    |                                                                                          |
-|  9   | -- Deploy with Test Passed                                                                                 | ![Process Designer - Final Process with passed Test][DeployComponentProcessPassingTest]  |
-|  10  | -- Deploy with Test Failed                                                                                 | ![Process Designer - Final Process with failing Test][DeployComponentProcessFailingTest] |
+| Step | Details                                                                                                 | Additional Information                                                |
+|:----:|:--------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|
+|  1   | [Open Deploy][DeployOpen]                                                                               |                                                                       |
+|      | by [Using the ‘What would you like to do today’ and select Deploy][DeployWWYLTT]                        | ![WWYLTT?][WhatWouldYouLikeToDoToday]                                 |
+|  2   | [Show the landing page and explain the metrics][DeployShowLandingPage]                                  | ![DeployLandingPage][DeployDashboard]                                  |
+|  3   | [Show process (components, app)][DeployShowProcesses]                                                   |                                                                       |
+|  4   | Component Process                                                                                       | ![component processes][DeployComponentWithProcesses]                  |
+|  5   | You can either create a [new process][DeployShowProcessDesigner]                                        | ![Create new Process Button][DeployComponentCreateNewProcessButton]   |
+|  6   | by pressing Create Process Button which shows you the process designer for a new process                | ![Process Designer][DeployProcessDesigner]                            |
+|  7   | Or click on existing Process to view and edit the given Process                                         | ![select process][DeployComponentProcessesList]                       |
+|  8   | - show a process which executes a TEST with [setting quality tag on version][DeployShowProcessWithTest] |                                                                       |
+|  9   | -- Deploy with Test Passed                                                                              | ![Final Process with passed Test][DeployComponentProcessPassingTest]  |
+|  10  | -- Deploy with Test Failed                                                                              | ![Final Process with failing Test][DeployComponentProcessFailingTest] |
 
 ### Run a Deplyoment
 
@@ -143,12 +144,12 @@
 
 ### Use the Deployment Genie
 
-| Step | Details                                                  | Additional Information                                               |
-|:----:|:---------------------------------------------------------|:---------------------------------------------------------------------|
+| Step | Details                                                  | Additional Information                                                   |
+|:----:|:---------------------------------------------------------|:-------------------------------------------------------------------------|
 |      | Use Deploy Genie to understand why the deployment failed | **TODO: update as soon as connected to openai to showcase Deploy Genie** |
-|      |                                                          |                                                                      |
-|      |                                                          |                                                                      |
-|      |                                                          |                                                                      |
+|      |                                                          |                                                                          |
+|      |                                                          |                                                                          |
+|      |                                                          |                                                                          |
 
 ### Show the Plug-Ins Page
 

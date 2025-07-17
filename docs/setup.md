@@ -26,9 +26,9 @@ TODO: get more information which environment to use and how to use the "Frontend
 | 2.2  | If your **loop is empty** proceed with [Setting up Demo Data][SetupDemoData]                                         | ![Home Page][LoopHomePageWithNoData]               |
 | 2.3  | If your **loop has data** proceed with the [Demo Flow][GoToDemoFlow] or [Self Enablement][GoToSelfenablement]        | ![Home Page][LoopHomePageView]                     |
 
-### Setup a Teamspace and Loop
+## Setup a Teamspace and Loop
 
-#### Setup a Teamspace
+### Setup a Teamspace
 
 | Step | Details                                                                                           | Additional Information                                                  |
 |:----:|:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
@@ -46,7 +46,7 @@ TODO: get more information which environment to use and how to use the "Frontend
 |      | to your empty loops home page for your new TeamSpace                                              | ![Empty Loops Homepage][LoopHomePageCreateNewLoop]                      |
 |      | Please proceed with [Setting up a Loop][SetupLoop]                                                |                                                                         |
 
-#### Setup a Loop
+### Setup a Loop
 
 | Step | Details                                                                                     | Additional Information                                           |
 |:----:|:--------------------------------------------------------------------------------------------|:-----------------------------------------------------------------|
@@ -61,9 +61,9 @@ TODO: get more information which environment to use and how to use the "Frontend
 |  9   | Press now **Go to my Loops** Button to proceed                                              | ![Go to my Loop Button][GoToMyLoops]                             |
 |  10  | As your Loop has no data please proceed with [Setting up Demo Data][SetupDemoData]          | ![Home Page][LoopHomePageWithNoData]                             |
 
-### Setup Demo Data
+## Setup Demo Data
 
-#### Importing Demo Data into Plan
+### Importing Demo Data into Plan
 
 | Step | Details                                                                      | Additional Information                                         |
 |:----:|:-----------------------------------------------------------------------------|:---------------------------------------------------------------|
@@ -93,7 +93,7 @@ TODO: get more information which environment to use and how to use the "Frontend
 |      |                                                                              | ![sidebar][SideBar]                                            |
 |      | 7.2 Your board should look similar to this screenshot                        | ![My Board with imported data][MyBoardWithImportedData]        |
 
-#### Importing Demo Data into Control
+### Importing Demo Data into Control
 
 Task: Copy files and folders from [Demo App repository](https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git "https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git") ```URL: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git``` into target repository.
 
@@ -104,7 +104,7 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 |      | 1.2 by using the central app switcher on the top left of your screen      | ![Central App Switcher][AppSwitcher]                           |
 |      | 1.3 by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
-##### Setup a Personal Access Token
+#### Setup a Personal Access Token
 
 | Step | Details                                                          | Additional Information                                      |
 |:----:|:-----------------------------------------------------------------|:------------------------------------------------------------|
@@ -120,7 +120,7 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 |      | **NOTE:**                                                        |                                                             |
 |      | 3.1 Copy and Paste the token into a text file for reference!     | ![copy PAT into a text file][PATcopy4ref]                   |
 
-##### Clone Target Repository
+#### Clone Target Repository
 
 | Step | Details                                                     | Additional Information                                                                 |
 |:----:|:------------------------------------------------------------|:---------------------------------------------------------------------------------------|
@@ -152,8 +152,32 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 |      | 9.5 push finishes                                           | ![git push][GitPushDone]                                                               |
 |  10  | Switch back to Control and view Repo                        | ![New data is shown in Control][NewDataInRepo]                                         |
 
+### Setup Demo Data in Deploy
 
-#### Importing Data into
+| Step | Details                                                                   | Additional Information                                         |
+|:----:|:--------------------------------------------------------------------------|:---------------------------------------------------------------|
+|  1   | Switch to [Deploy](deploy/index.md)                                       |                                                                |
+|      | 1.1 by either pressing "Let's go to Deploy" button on its tile            | ![Deploy Tile lets go][DeployTile]                             |
+|      | 1.2 by using the central app switcher on the top left of your screen      | ![Central App Switcher][AppSwitcher]                           |
+|      | 1.3 by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
+
+#### Setup an Agent Pool
+
+| Step | Details                                                     | Additional Information                          |
+|:----:|:------------------------------------------------------------|:------------------------------------------------|
+|  1   | Switch to [Resources](learn/deploy/resources/index.md) View |                                                 |
+|      | by clicking on the Sidebar                                  | ![Sidebar Resources][SBResourcesIcon]           |
+|      |                                                             | ![Sidebar Resources with Text][SBResourcesText] |
+|  2   | Switch to AgentPools View            | ![Agent Pools Tab][ResAPTab]              |
+|  3   | In this view                         | ![AgentPool View][ResAPView]              |
+|  4   | click on                             | ![Create AP Button][ResAPCreateButton]    |
+|  5   | In the **Create Agent Pool** Dialog  | ![AP Creation Dialog][ResAPCreateDialog]  |
+|      | 5.1 Enter "demo" in the name field   |                                           |
+|      | 5.2 Select all agents                | ![Select Agents][ResAPCreateSelectAgents] |
+|      | 4.3 Click on **Save** Button         | ![Save Button][ButtonSave]                |
+|   6   | New Agent Pool is listed in the View | ![Agent Pool List][ResAPList]             |
+
+### Importing Data into
 
 | Step | Details | Additional Information |
 |:----:|:--------|:-----------------------|
@@ -163,17 +187,7 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 |      |         |                        |
 |      |         |                        |
 
-#### Importing Data into
-
-| Step | Details | Additional Information |
-|:----:|:--------|:-----------------------|
-|      |         |                        |
-|      |         |                        |
-|      |         |                        |
-|      |         |                        |
-|      |         |                        |
-
-#### Importing Data into
+### Importing Data into
 
 | Step | Details | Additional Information |
 |:----:|:--------|:-----------------------|
@@ -193,7 +207,6 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 |      |         |                        |
 |      |         |                        |
 |      |         |                        |
-
 
 ---
 
@@ -277,3 +290,15 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 [GitAddCommit]: learn/control/media/Terminal_7_git_add_commit.png
 [GitPushDone]: learn/control/media/Terminal_8_git_push.png
 [NewDataInRepo]: learn/control/media/CONTROL_Repo_New_Data.png
+
+[DeployTile]: learn/introduction/media/Loop_switch_to_Deploy.png
+[SBResourcesIcon]: learn/deploy/media/Deploy_SideBar_1_ResourcesIcon.png
+[SBResourcesText]: learn/deploy/media/Deploy_SideBar_1_ResourcesIconWithText.png
+
+[ResAPTab]: learn/deploy/resources/media/Deploy_Resources_AgentPoolsTab.png
+[ResAPView]: learn/deploy/resources/media/Deploy_Resources_AgentPoolsView.png
+[ResAPCreateButton]: learn/deploy/resources/media/Deploy_Resources_AgentPools_CreateAgentPoolButton.png
+[ResAPCreateDialog]: learn/deploy/resources/media/Deploy_Resources_AgentPoolsCreateDialog.png
+[ResAPCreateSelectAgents]: learn/deploy/resources/media/Deploy_AgentPool_SelectFromListOfAgents.png
+[ButtonSave]: media/Button_NEXT.png
+[ResAPList]: learn/deploy/resources/media/Deploy_Resources_AgentPool_list.png
