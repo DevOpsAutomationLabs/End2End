@@ -168,16 +168,41 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 |  1   | Switch to [Resources](learn/deploy/resources/index.md) View |                                                 |
 |      | by clicking on the Sidebar                                  | ![Sidebar Resources][SBResourcesIcon]           |
 |      |                                                             | ![Sidebar Resources with Text][SBResourcesText] |
-|  2   | Switch to AgentPools View            | ![Agent Pools Tab][ResAPTab]              |
-|  3   | In this view                         | ![AgentPool View][ResAPView]              |
-|  4   | click on                             | ![Create AP Button][ResAPCreateButton]    |
-|  5   | In the **Create Agent Pool** Dialog  | ![AP Creation Dialog][ResAPCreateDialog]  |
-|      | 5.1 Enter "demo" in the name field   |                                           |
-|      | 5.2 Select all agents                | ![Select Agents][ResAPCreateSelectAgents] |
-|      | 4.3 Click on **Save** Button         | ![Save Button][ButtonSave]                |
-|   6   | New Agent Pool is listed in the View | ![Agent Pool List][ResAPList]             |
+|  2   | Switch to AgentPools View                                   | ![Agent Pools Tab][ResAPTab]                    |
+|  3   | In this view                                                | ![AgentPool View][ResAPView]                    |
+|  4   | click on                                                    | ![Create AP Button][ResAPCreateButton]          |
+|  5   | In the **Create Agent Pool** Dialog                         | ![AP Creation Dialog][ResAPCreateDialog]        |
+|      | 5.1 Enter "demo" in the name field                          |                                                 |
+|      | 5.2 Select all agents                                       | ![Select Agents][ResAPCreateSelectAgents]       |
+|      | 4.3 Click on **Save** Button                                | ![Save Button][ButtonSave]                      |
+|  6   | New Agent Pool is listed in the View                        | ![Agent Pool List][ResAPList]                   |
 
-### Importing Data into
+#### Importing Components
+
+| Step | Details                                       | Additional Information                         |
+|:----:|:----------------------------------------------|:-----------------------------------------------|
+|  1   | In the sidebar select the **Components** Icon | ![Sidebar Components Icon][SBCompIcon]         |
+|      |                                               | ![Sidebar ComponentsIcon Text][SBCompIconText] |
+|  2   | Components View                               | ![Components View][CompView]                   |
+|  3    | click on **Import Component** Button          | ![Import Component Button][ButtonImportComps]  |
+|  4    | Import Dialog opens                           | ![Import Dialog][CompImportDialog]             |
+|  5    | click on **Chose File** Button                | ![Choose File Button][CompImpChooseFileButton] |
+|  6    | Switch to folder with files and select one    | ![Files to choose][Filestochoose]              |
+|  7    | File is selected                              | ![File is selected][FileChoosen]               |
+|  8    | click the **Submit** Button                   | ![Submit Button][ButtonSubmit]                 |
+|  9    | Result is component imported                  | ![Component Imported][CompImported]            |
+|  10    | Repeat Import for second component            |                                                |
+|      |                                               |                                                |
+|      |                                               |                                                |
+|      |                                               |                                                |
+|      |                                               |                                                |
+|      |                                               |                                                |
+|      |                                               |                                                |
+|      |                                               |                                                |
+|      |                                               |                                                |
+|      |                                               |                                                |
+
+### Importing Data into Test
 
 | Step | Details | Additional Information |
 |:----:|:--------|:-----------------------|
@@ -187,7 +212,7 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 |      |         |                        |
 |      |         |                        |
 
-### Importing Data into
+### Importing Data into Build
 
 | Step | Details | Additional Information |
 |:----:|:--------|:-----------------------|
@@ -302,3 +327,14 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 [ResAPCreateSelectAgents]: learn/deploy/resources/media/Deploy_AgentPool_SelectFromListOfAgents.png
 [ButtonSave]: media/Button_NEXT.png
 [ResAPList]: learn/deploy/resources/media/Deploy_Resources_AgentPool_list.png
+
+[SBCompIcon]: learn/deploy/media/Deploy_Sidebar_ComponentsIcon.png
+[SBCompIconText]: learn/deploy/media/Deploy_Sidebar_ComponentsIconWithText.png
+[CompView]: learn/deploy/components/media/Components_View.png
+[ButtonImportComps]: learn/deploy/components/media/Component_Import_Components_Button.png
+[CompImportDialog]: learn/deploy/components/media/Component_Import_Dialog.png
+[CompImpChooseFileButton]: learn/deploy/components/media/Component_Import_Dialog_ChooseFile.png
+[Filestochoose]: learn/deploy/components/media/Component_Import_Files.png
+[ButtonSubmit]: learn/deploy/components/media/Component_Import_SubmitButton.png
+[FileChoosen]: learn/deploy/components/media/Component_Import_Dialog_FileChosen.png
+[CompImported]: learn/deploy/components/media/Component_Imported.png
