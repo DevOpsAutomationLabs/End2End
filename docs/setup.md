@@ -267,6 +267,8 @@ If no Application exists either import or create application
 
 ##### Add Components to Application
 
+If no components are associated to the new Application, add the [imported components](#importing-components).
+
 | Step | Details                                 | Additional Information                        |
 |:----:|:----------------------------------------|:----------------------------------------------|
 |      | Click on **Components** Tab             | ![App Components Tab][AppCompTab]             |
@@ -276,7 +278,37 @@ If no Application exists either import or create application
 |      | Click on **Save** Button                | ![Save Button][ButtonSave]                    |
 |      | Components View with added Components   | ![App Comp View with Comps][AppCompViewFinal] |
 
+##### Add Environments to Application
+
+If no environments are available in the new Application, add them following this steps:
+
+| Step | Details                                                   | Additional Information                                            |
+|:----:|:----------------------------------------------------------|:------------------------------------------------------------------|
+|      | Click on the **Create Environment** Button                | ![Create Environment Button][ButtonCreateEnv]                     |
+|      | In the Dialog enter "DEV" as Name                         | ![Create Env Dialog][CreateEnvDialog]                             |
+|      | Scroll down and click on Color                            | ![Create Env Dialog Color][CreateEnvDialogColor]                  |
+|      | to select the color for your environment                  | ![Create Env Dialog Selected Color][CreateEnvDialogSelectedConor] |
+|      | click on the **Save** Button to create new Environment    | ![Save Button][ButtonSave]                                        |
+|      | Repleat this section and add "QA" and "PROD" environments | ![Save Button][ButtonSave]                                        |
+|      | List of all Environments                                  | ![Final Environment List][AppEnvironmentsView]                    |
+
+##### Assign Resources to Environments
+
+If environments do not have a base resource associated follow this steps to add them:
+
+| Step | Details                                                         | Additional Information                      |
+|:----:|:----------------------------------------------------------------|:--------------------------------------------|
+|      | In the Environments List click on the "DEV" entry               | ![Click on Env][ENVselect]                  |
+|      | The Environment View is shown                                   | ![Environment View][ENVView]                |
+|      | click on the **Add Base Resources** button                      | ![Add Base Resources Button][ENVAddBaseRes] |
+|      | In the Dialog select the Resource with same name as Environment | ![Add Resource Dialog][ENVAddResDialog]     |
+|      |                                                                 | ![Resource Selected][EnvAddResSelected]     |
+|      | Click on **Save** Button                                        | ![Save Button][ButtonSave]                  |
+|      | Repeat this section for "QA" and "PROD" Environments            |                                             |
+
 ##### Import Processes
+
+If application has no applications processes, follow these steps to import them:
 
 | Step | Details                                             | Additional Information                                 |
 |:----:|:----------------------------------------------------|:-------------------------------------------------------|
@@ -292,18 +324,6 @@ If no Application exists either import or create application
 |      | File is selected                                    | ![Import Dialog File Selected][ImpProcessFileSelected] |
 |      | click on **Submit** Button to start import          | ![Submit Button][ButtonSubmit]                         |
 |      | Imported Application Process are shown              | ![Application Processes List][AppProcessList]          |
-
-| Step | Details | Additional Information |
-|:----:|:--------|:-----------------------|
-|      |         |                        |
-|      |         |                        |
-|      |         |                        |
-|      |         |                        |
-|      |         |                        |
-|      |         |                        |
-|      |         |                        |
-|      |         |                        |
-|      |         |                        |
 
 ### Importing Data into Test
 
@@ -488,3 +508,13 @@ If no Application exists either import or create application
 [ButtonAddComp]: learn/deploy/applications/media/Deploy_Apps_AddComponents_Button.png
 [SelectCompToAdd]: learn/deploy/applications/media/Deploy_Apps_AddComponents_Dialog.png
 [AppCompViewFinal]: learn/deploy/applications/media/Deploy_Apps_Components_View_Final.png
+[ButtonCreateEnv]: learn/deploy/applications/media/Deploy_App_CreateEnv_Button.png
+[CreateEnvDialog]: learn/deploy/applications/media/Deploy_App_CreateEnv_Dialog1.png
+[CreateEnvDialogColor]: learn/deploy/applications/media/Deploy_App_CreateEnv_Dialog2.png
+[CreateEnvDialogSelectedConor]: learn/deploy/applications/media/Deploy_App_CreateEnv_Dialog3.png
+[AppEnvironmentsView]: learn/deploy/applications/media/Deploy_App_EnvironmentList.png
+[ENVselect]: learn/deploy/applications/media/Deploy_App_Environment_select.png
+[ENVView]: learn/deploy/applications/media/Deploy_Env_View.png
+[ENVAddBaseRes]: learn/deploy/applications/media/Deploy_Env_AddBaseRes_Button.png
+[ENVAddResDialog]: learn/deploy/applications/media/Deploy_Env_AddRes_Dialog.png
+[EnvAddResSelected]: learn/deploy/applications/media/Deploy_Env_AddRes_Selected.png

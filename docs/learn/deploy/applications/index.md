@@ -14,6 +14,8 @@
 
 ### Create New Application
 
+#### Create Application
+
 | Step | Details                                        | Additional Information                                |
 |:----:|:-----------------------------------------------|:------------------------------------------------------|
 |      | If no Applications are available               | ![Empty Applications View][APPSallViewEmpty]          |
@@ -23,6 +25,30 @@
 |      | Select "Demo"                                  | ![Select Loop and add Name][CreateAppDialogEnterInfo] |
 |      | click on the **Save** Button to create new App | ![Save Button][ButtonSave]                            |
 |      | Application is shown                           | ![Application View][AppView]                          |
+
+#### Add Environments to Application
+
+| Step | Details                                                   | Additional Information                                            |
+|:----:|:----------------------------------------------------------|:------------------------------------------------------------------|
+|      | Click on the **Create Environment** Button                | ![Create Environment Button][ButtonCreateEnv]                     |
+|      | In the Dialog enter "DEV" as Name                         | ![Create Env Dialog][CreateEnvDialog]                             |
+|      | Scroll down and click on Color                            | ![Create Env Dialog Color][CreateEnvDialogColor]                  |
+|      | to select the color for your environment                  | ![Create Env Dialog Selected Color][CreateEnvDialogSelectedConor] |
+|      | click on the **Save** Button to create new Environment    | ![Save Button][ButtonSave]                                        |
+|      | Repleat this section and add "QA" and "PROD" environments |                                                                   |
+|      | List of all Environments                                  | ![Final Environment List][AppEnvironmentsView]                    |
+
+#### Assign Resources to Environments
+
+| Step | Details                                                         | Additional Information                      |
+|:----:|:----------------------------------------------------------------|:--------------------------------------------|
+|      | In the Environments List click on the "DEV" entry               | ![Click on Env][ENVselect]                  |
+|      | The Environment View is shown                                   | ![Environment View][ENVView]                |
+|      | click on the **Add Base Resources** button                      | ![Add Base Resources Button][ENVAddBaseRes] |
+|      | In the Dialog select the Resource with same name as Environment | ![Add Resource Dialog][ENVAddResDialog]     |
+|      |                                                                 | ![Resource Selected][EnvAddResSelected]     |
+|      | Click on **Save** Button                                        | ![Save Button][ButtonSave]                  |
+|      | Repeat this section for "QA" and "PROD" Environments            |                                             |
 
 ### Import Application
 
@@ -34,16 +60,16 @@
 |      | Click on the **Choose File** Button to select App Import file | ![Choose File][ButtonChooseFile]             |
 |      | Select file "" in your file explorer                          | ![Select Import File][FileSelect]            |
 |      | click on **Submit** Button to start Import                    | ![Submit Button][ButtonSubmit]               |
-|      | Application is shown                                          | ![Application View][AppView]                 |
+|      | Application is shown                                          | ![Application View with Env][AppViewWEnv]    |
 
 ## View Application
 
-| Step | Details                              | Additional Information           |
-|:----:|:-------------------------------------|:---------------------------------|
-|  1   | From the list of Applications        |                                  |
-|  2   | Click on the "EchoLogic" Application | ![All Applications][APPSallView] |
-|  3   | First View is the Environments view  | ![Application View][AppView]     |
-|      |                                      |                                  |
+| Step | Details                              | Additional Information                    |
+|:----:|:-------------------------------------|:------------------------------------------|
+|  1   | From the list of Applications        |                                           |
+|  2   | Click on the "EchoLogic" Application | ![All Applications][APPSallView]          |
+|  3   | First View is the Environments view  | ![Application View with Env][AppViewWEnv] |
+|      |                                      |                                           |
 
 ## Add Components to Application
 
@@ -100,3 +126,14 @@
 [ButtonAddComp]: media/Deploy_Apps_AddComponents_Button.png
 [SelectCompToAdd]: media/Deploy_Apps_AddComponents_Dialog.png
 [AppCompViewFinal]: media/Deploy_Apps_Components_View_Final.png
+[AppViewWEnv]: media/Deploy_Application_View_WithEnv.png
+[ButtonCreateEnv]: media/Deploy_App_CreateEnv_Button.png
+[CreateEnvDialog]: media/Deploy_App_CreateEnv_Dialog1.png
+[CreateEnvDialogColor]: media/Deploy_App_CreateEnv_Dialog2.png
+[CreateEnvDialogSelectedConor]: media/Deploy_App_CreateEnv_Dialog3.png
+[AppEnvironmentsView]: media/Deploy_App_EnvironmentList.png
+[ENVselect]: media/Deploy_App_Environment_select.png
+[ENVView]: media/Deploy_Env_View.png
+[ENVAddBaseRes]: media/Deploy_Env_AddBaseRes_Button.png
+[ENVAddResDialog]: media/Deploy_Env_AddRes_Dialog.png
+[EnvAddResSelected]: media/Deploy_Env_AddRes_Selected.png
