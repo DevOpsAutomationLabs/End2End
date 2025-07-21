@@ -19,19 +19,17 @@ TODO: get more information which environment to use and how to use the "Frontend
 
 ### The Home Page
 
-| Step | Details                                                                    | Additional Information                             |
-|:----:|:---------------------------------------------------------------------------|:---------------------------------------------------|
-|  1   | **Teamspaces**                                                             |                                                    |
-|      | 1.1 **If no Teamspace is available** follow the steps:                     | ![No Teamspace available][NoTeamSpaceAvailable]    |
-|      | 1.1.1 proceed with **[setting up a Teamspace and Loop][SetupTSandLoop]**   |                                                    |
-|      | 1.2  **If a Teamspace is available** you will be directed to your homepage | ![TeamSpace is available][LoopHomePageWithNoData]  |
-|  2   | **Loops**                                                                  |                                                    |
-|      | 2.1 If **no Loop** exists, **proceed with [Setup a Loop][SetupLoop]**      | ![Empty Loops Homepage][LoopHomePageCreateNewLoop] |
-|      | 2.2 If your **loop is empty** proceed with                                 | ![Home Page][LoopHomePageWithNoData]               |
-|      | 2.2.1 **[Setting up Demo Data][SetupDemoData]**                            |                                                    |
-|      | 2.3 If your **loop has data** proceed with:                                | ![Home Page][LoopHomePageView]                     |
-|      | 2.3.1 **the [Demo Flow][GoToDemoFlow]**                                    |                                                    |
-|      | 2.3.2 **or [Self Enablement][GoToSelfenablement]**                         |                                                    |
+| Step | Details                                                                                                        | Additional Information                             |
+|:----:|:---------------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
+|  1   | **Teamspaces**                                                                                                 |                                                    |
+|      | 1.1 **If no Teamspace is available** follow the steps to **[setting up a Teamspace and Loop][SetupTSandLoop]** | ![No Teamspace available][NoTeamSpaceAvailable]    |
+|      | 1.2  **If a Teamspace is available** you will be directed to your homepage                                     | ![TeamSpace is available][LoopHomePageWithNoData]  |
+|  2   | **Loops**                                                                                                      |                                                    |
+|      | 2.1 If **no Loop** exists, **proceed with [Setup a Loop][SetupLoop]**                                          | ![Empty Loops Homepage][LoopHomePageCreateNewLoop] |
+|      | 2.2 If your **loop is empty** follow **[Setting up Demo Data][SetupDemoData]**                                 | ![Home Page][LoopHomePageWithNoData]               |
+|      | 2.3 If your **loop has data** proceed with:                                                                    | ![Home Page][LoopHomePageView]                     |
+|      | 2.3.1 **the [Demo Flow][GoToDemoFlow]**                                                                        |                                                    |
+|      | 2.3.2 **or [Self Enablement][GoToSelfenablement]**                                                             |                                                    |
 
 ## Setup a Teamspace and Loop
 
@@ -204,8 +202,8 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 |  4   | Import Dialog opens                           | ![Import Dialog][CompImportDialog]             |
 |  5   | click on **Chose File** Button                | ![Choose File Button][CompImpChooseFileButton] |
 |  6   | Switch to folder with files and select one    | ![Files to choose][Filestochoose]              |
-| | 6.1 - [Echo Component][FileComp_Echo] | |
-| | 6.2 - [Logic Component][FileComp_Logic] | |
+|      | 6.1 - [Echo Component][FileComp_Echo]         |                                                |
+|      | 6.2 - [Logic Component][FileComp_Logic]       |                                                |
 |  7   | File is selected                              | ![File is selected][FileChoosen]               |
 |  8   | click the **Submit** Button                   | ![Submit Button][ButtonSubmit]                 |
 |  9   | Result is component imported                  | ![Component Imported][CompImported]            |
@@ -265,15 +263,15 @@ If no Application exists either import or create application
 <p><strong>NOTE:</strong> Download <a href="https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/App_EchoLogic_NoComponents.json">App_EchoLogic_NoComponents.json</a> to your local file system.</p>
 </blockquote>
 
-| Step | Details                                                             | Additional Information                       |
-|:----:|:--------------------------------------------------------------------|:---------------------------------------------|
-|      | If no Applications are available                                    | ![Empty Applications View][APPSallViewEmpty] |
-|      | click on the **Import Applications** Button                         | ![Import App Button][ButtonImportApps]       |
-|      | If necessary change the settings in the Dialog                      | ![Import App dialog][ImportAppsDialog]       |
-|      | Click on the **Choose File** Button to select App Import file       | ![Choose File][ButtonChooseFile]             |
+| Step | Details                                                                                  | Additional Information                       |
+|:----:|:-----------------------------------------------------------------------------------------|:---------------------------------------------|
+|      | If no Applications are available                                                         | ![Empty Applications View][APPSallViewEmpty] |
+|      | click on the **Import Applications** Button                                              | ![Import App Button][ButtonImportApps]       |
+|      | If necessary change the settings in the Dialog                                           | ![Import App dialog][ImportAppsDialog]       |
+|      | Click on the **Choose File** Button to select App Import file                            | ![Choose File][ButtonChooseFile]             |
 |      | Select file **[App_EchoLogic_NoComponents.json][FileApp_NoComps]** in your file explorer | ![Select Import File][FileSelect]            |
-|      | click on **Submit** Button to start Import                          | ![Submit Button][ButtonSubmit]               |
-|      | Application is shown                                                | ![Application View][AppView]                 |
+|      | click on **Submit** Button to start Import                                               | ![Submit Button][ButtonSubmit]               |
+|      | Application is shown                                                                     | ![Application View][AppView]                 |
 
 ###### Create New Application
 
@@ -341,20 +339,20 @@ If no Application exists either import or create application
 <p><strong>NOTE:</strong>If application has no applications processes, follow these steps to import them:</p>
 </blockquote>
 
-| Step | Details                                                                      | Additional Information                                 |
-|:----:|:-----------------------------------------------------------------------------|:-------------------------------------------------------|
-|  1   | From the list of Applications                                                |                                                        |
-|  2   | Click on the "EchoLogic" Application                                         | ![All Applications][APPSallView]                       |
-|  3   | First View is the Environments view                                          | ![Application View][AppView]                           |
-|      | click on "Processes" Tab                                                     | ![App Processes Tab][AppProcessesTab]                  |
-|      | List of all Application Processes will be shown.                             | ![Application Processes][AppProcessesView]             |
-|      | Click on **Import Process** Button                                           | ![Import App Process Button][AppImportProcessButton]   |
-|      | The Import Process Dialog opens                                              | ![Import Dialog][ImportProcessDialog]                  |
-|      | click on **Choose File** Button                                              | ![Import Dialog Select File][ImpProcessChooseFile]     |
+| Step | Details                                                                  | Additional Information                                 |
+|:----:|:-------------------------------------------------------------------------|:-------------------------------------------------------|
+|  1   | From the list of Applications                                            |                                                        |
+|  2   | Click on the "EchoLogic" Application                                     | ![All Applications][APPSallView]                       |
+|  3   | First View is the Environments view                                      | ![Application View][AppView]                           |
+|      | click on "Processes" Tab                                                 | ![App Processes Tab][AppProcessesTab]                  |
+|      | List of all Application Processes will be shown.                         | ![Application Processes][AppProcessesView]             |
+|      | Click on **Import Process** Button                                       | ![Import App Process Button][AppImportProcessButton]   |
+|      | The Import Process Dialog opens                                          | ![Import Dialog][ImportProcessDialog]                  |
+|      | click on **Choose File** Button                                          | ![Import Dialog Select File][ImpProcessChooseFile]     |
 |      | From the artifact list select **[App_Processes.yml][FileApp_Processes]** | ![Import Dialog List of Files][ImpProcessFileList]     |
-|      | File is selected                                                             | ![Import Dialog File Selected][ImpProcessFileSelected] |
-|      | click on **Submit** Button to start import                                   | ![Submit Button][ButtonSubmit]                         |
-|      | Imported Application Process are shown                                       | ![Application Processes List][AppProcessList]          |
+|      | File is selected                                                         | ![Import Dialog File Selected][ImpProcessFileSelected] |
+|      | click on **Submit** Button to start import                               | ![Submit Button][ButtonSubmit]                         |
+|      | Imported Application Process are shown                                   | ![Application Processes List][AppProcessList]          |
 
 ### Importing Data into Test
 
