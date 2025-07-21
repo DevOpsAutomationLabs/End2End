@@ -883,6 +883,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Create New Application">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-environments-to-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Add Environments to Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assign-resources-to-environments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assign Resources to Environments
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -2248,6 +2281,7 @@
 </table>
 <h2 id="create-or-import-application">Create or Import Application</h2>
 <h3 id="create-new-application">Create New Application</h3>
+<h4 id="create-application">Create Application</h4>
 <table>
 <thead>
 <tr>
@@ -2294,6 +2328,100 @@
 </tr>
 </tbody>
 </table>
+<h4 id="add-environments-to-application">Add Environments to Application</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Click on the <strong>Create Environment</strong> Button</td>
+<td style="text-align: left;"><img alt="Create Environment Button" src="media/Deploy_App_CreateEnv_Button.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">In the Dialog enter "DEV" as Name</td>
+<td style="text-align: left;"><img alt="Create Env Dialog" src="media/Deploy_App_CreateEnv_Dialog1.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Scroll down and click on Color</td>
+<td style="text-align: left;"><img alt="Create Env Dialog Color" src="media/Deploy_App_CreateEnv_Dialog2.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">to select the color for your environment</td>
+<td style="text-align: left;"><img alt="Create Env Dialog Selected Color" src="media/Deploy_App_CreateEnv_Dialog3.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">click on the <strong>Save</strong> Button to create new Environment</td>
+<td style="text-align: left;"><img alt="Save Button" src="../../../media/Button_Save.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Repleat this section and add "QA" and "PROD" environments</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">List of all Environments</td>
+<td style="text-align: left;"><img alt="Final Environment List" src="media/Deploy_App_EnvironmentList.png" /></td>
+</tr>
+</tbody>
+</table>
+<h4 id="assign-resources-to-environments">Assign Resources to Environments</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">In the Environments List click on the "DEV" entry</td>
+<td style="text-align: left;"><img alt="Click on Env" src="media/Deploy_App_Environment_select.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">The Environment View is shown</td>
+<td style="text-align: left;"><img alt="Environment View" src="media/Deploy_Env_View.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">click on the <strong>Add Base Resources</strong> button</td>
+<td style="text-align: left;"><img alt="Add Base Resources Button" src="media/Deploy_Env_AddBaseRes_Button.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">In the Dialog select the Resource with same name as Environment</td>
+<td style="text-align: left;"><img alt="Add Resource Dialog" src="media/Deploy_Env_AddRes_Dialog.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img alt="Resource Selected" src="media/Deploy_Env_AddRes_Selected.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Click on <strong>Save</strong> Button</td>
+<td style="text-align: left;"><img alt="Save Button" src="../../../media/Button_Save.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Repeat this section for "QA" and "PROD" Environments</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="import-application">Import Application</h3>
 <table>
 <thead>
@@ -2337,7 +2465,7 @@
 <tr>
 <td style="text-align: center;"></td>
 <td style="text-align: left;">Application is shown</td>
-<td style="text-align: left;"><img alt="Application View" src="media/Deploy_Application_View.png" /></td>
+<td style="text-align: left;"><img alt="Application View with Env" src="media/Deploy_Application_View_WithEnv.png" /></td>
 </tr>
 </tbody>
 </table>
@@ -2364,7 +2492,7 @@
 <tr>
 <td style="text-align: center;">3</td>
 <td style="text-align: left;">First View is the Environments view</td>
-<td style="text-align: left;"><img alt="Application View" src="media/Deploy_Application_View.png" /></td>
+<td style="text-align: left;"><img alt="Application View with Env" src="media/Deploy_Application_View_WithEnv.png" /></td>
 </tr>
 <tr>
 <td style="text-align: center;"></td>

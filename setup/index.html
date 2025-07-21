@@ -628,6 +628,24 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#add-environments-to-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Add Environments to Application
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assign-resources-to-environments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assign Resources to Environments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#import-processes" class="md-nav__link">
     <span class="md-ellipsis">
       Import Processes
@@ -3415,6 +3433,7 @@
 </tbody>
 </table>
 <h5 id="add-components-to-application">Add Components to Application</h5>
+<p>If no components are associated to the new Application, add the <a href="#importing-components">imported components</a>.</p>
 <table>
 <thead>
 <tr>
@@ -3456,7 +3475,104 @@
 </tr>
 </tbody>
 </table>
+<h5 id="add-environments-to-application">Add Environments to Application</h5>
+<p>If no environments are available in the new Application, add them following this steps:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Click on the <strong>Create Environment</strong> Button</td>
+<td style="text-align: left;"><img alt="Create Environment Button" src="../learn/deploy/applications/media/Deploy_App_CreateEnv_Button.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">In the Dialog enter "DEV" as Name</td>
+<td style="text-align: left;"><img alt="Create Env Dialog" src="../learn/deploy/applications/media/Deploy_App_CreateEnv_Dialog1.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Scroll down and click on Color</td>
+<td style="text-align: left;"><img alt="Create Env Dialog Color" src="../learn/deploy/applications/media/Deploy_App_CreateEnv_Dialog2.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">to select the color for your environment</td>
+<td style="text-align: left;"><img alt="Create Env Dialog Selected Color" src="../learn/deploy/applications/media/Deploy_App_CreateEnv_Dialog3.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">click on the <strong>Save</strong> Button to create new Environment</td>
+<td style="text-align: left;"><img alt="Save Button" src="../media/Button_Save.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Repleat this section and add "QA" and "PROD" environments</td>
+<td style="text-align: left;"><img alt="Save Button" src="../media/Button_Save.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">List of all Environments</td>
+<td style="text-align: left;"><img alt="Final Environment List" src="../learn/deploy/applications/media/Deploy_App_EnvironmentList.png" /></td>
+</tr>
+</tbody>
+</table>
+<h5 id="assign-resources-to-environments">Assign Resources to Environments</h5>
+<p>If environments do not have a base resource associated follow this steps to add them:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">In the Environments List click on the "DEV" entry</td>
+<td style="text-align: left;"><img alt="Click on Env" src="../learn/deploy/applications/media/Deploy_App_Environment_select.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">The Environment View is shown</td>
+<td style="text-align: left;"><img alt="Environment View" src="../learn/deploy/applications/media/Deploy_Env_View.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">click on the <strong>Add Base Resources</strong> button</td>
+<td style="text-align: left;"><img alt="Add Base Resources Button" src="../learn/deploy/applications/media/Deploy_Env_AddBaseRes_Button.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">In the Dialog select the Resource with same name as Environment</td>
+<td style="text-align: left;"><img alt="Add Resource Dialog" src="../learn/deploy/applications/media/Deploy_Env_AddRes_Dialog.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img alt="Resource Selected" src="../learn/deploy/applications/media/Deploy_Env_AddRes_Selected.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Click on <strong>Save</strong> Button</td>
+<td style="text-align: left;"><img alt="Save Button" src="../media/Button_Save.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Repeat this section for "QA" and "PROD" Environments</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h5 id="import-processes">Import Processes</h5>
+<p>If application has no applications processes, follow these steps to import them:</p>
 <table>
 <thead>
 <tr>
@@ -3525,62 +3641,6 @@
 <td style="text-align: center;"></td>
 <td style="text-align: left;">Imported Application Process are shown</td>
 <td style="text-align: left;"><img alt="Application Processes List" src="../learn/deploy/applications/media/Deploy_AppProcess_ListFinal.png" /></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align: center;">Step</th>
-<th style="text-align: left;">Details</th>
-<th style="text-align: left;">Additional Information</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
