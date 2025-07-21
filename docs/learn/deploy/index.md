@@ -67,7 +67,13 @@ Once you import the application, you would be able to see additional application
 Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click on PizzaApp-Container-XX > Switch tab to Process > Click on "Deploy PizzaApp"
  -->
 
-## Components
+## [Applications](applications/index.md)
+
+TODO: talk about applications
+
+### Create New Application
+
+## [Components](components/index.md)
 
 TODO: talk about components
 

@@ -184,23 +184,126 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 |  1   | In the sidebar select the **Components** Icon | ![Sidebar Components Icon][SBCompIcon]         |
 |      |                                               | ![Sidebar ComponentsIcon Text][SBCompIconText] |
 |  2   | Components View                               | ![Components View][CompView]                   |
-|  3    | click on **Import Component** Button          | ![Import Component Button][ButtonImportComps]  |
-|  4    | Import Dialog opens                           | ![Import Dialog][CompImportDialog]             |
-|  5    | click on **Chose File** Button                | ![Choose File Button][CompImpChooseFileButton] |
-|  6    | Switch to folder with files and select one    | ![Files to choose][Filestochoose]              |
-|  7    | File is selected                              | ![File is selected][FileChoosen]               |
-|  8    | click the **Submit** Button                   | ![Submit Button][ButtonSubmit]                 |
-|  9    | Result is component imported                  | ![Component Imported][CompImported]            |
-|  10    | Repeat Import for second component            |                                                |
-|      |                                               |                                                |
-|      |                                               |                                                |
-|      |                                               |                                                |
-|      |                                               |                                                |
-|      |                                               |                                                |
-|      |                                               |                                                |
-|      |                                               |                                                |
-|      |                                               |                                                |
-|      |                                               |                                                |
+|  3   | click on **Import Component** Button          | ![Import Component Button][ButtonImportComps]  |
+|  4   | Import Dialog opens                           | ![Import Dialog][CompImportDialog]             |
+|  5   | click on **Chose File** Button                | ![Choose File Button][CompImpChooseFileButton] |
+|  6   | Switch to folder with files and select one    | ![Files to choose][Filestochoose]              |
+|  7   | File is selected                              | ![File is selected][FileChoosen]               |
+|  8   | click the **Submit** Button                   | ![Submit Button][ButtonSubmit]                 |
+|  9   | Result is component imported                  | ![Component Imported][CompImported]            |
+|  10  | Repeat Import for second component            |                                                |
+
+#### Setup Resource Tree
+
+| Step | Details                                                                                   | Additional Information                         |
+|:----:|:------------------------------------------------------------------------------------------|:-----------------------------------------------|
+|  1   | Switch to Resource Tree View                                                              | ![Resource Tree Tab][ResTreeTab]               |
+|  2   | In this view                                                                              | ![Resourcetree view][ResTreeView]              |
+|  3   | Create a **Top-Level** Group                                                              |                                                |
+|      | 3.1click on **Create Top-Level Group** button                                             | ![Create Top Level Button][ResButtonCreateTop] |
+|      | 3.2 The **Create Resource** Dialog appears                                                | ![Create Resource Dialog][ResCreateResDialog]  |
+|      | 3.3 Enter "EchoLogic" in the name field                                                   | ![Enter Name][ResCreateDialogEnterName]        |
+|      | 3.4 click on **Save** Button                                                              | ![Save Button][ButtonSave]                     |
+|      | 3.5 Top Level Group created                                                               | ![Top Level Created][ResTopLevelCreated]       |
+|  4   | Add Sub Groups for Environments                                                           |                                                |
+|      | 4.1 To add sub Groups to Top Level click on the 3 dots                                    | ![3 Dots][3Dots]                               |
+|      | 4.2 Menu is shown                                                                         | ![3 Dots menue][Res3DotsMenu]                  |
+|      | 4.3 Select **Add Group** from this menue                                                  | ![Add Group][ResAddGroup]                      |
+|      | 4.4 Enter Sub Group name "DEV"                                                            | ![Group Name][ResSubGroupName]                 |
+|      | 4.5   Click on **Save** Button                                                            | ![Save Button][ButtonSave]                     |
+|      | 4.6 repeat this section to add additional Groups for "QA" and "PROD"                      | ![All SubGroups added][ResSubGroups]           |
+|  5   | Add an Agent Pool to Environment Sub Groups                                               |                                                |
+|      | 5.1 To add Agent Pool to Sub Group click on the 3 dots of the sub group                   | ![3 Dots][3Dots]                               |
+|      | 5.2 Menu is shown                                                                         | ![3 Dots menue][Res3DotsMenu]                  |
+|      | 5.3 Select **Add Agent Pool**                                                             | ![Add Agent Pool menue][ResAddAgentPool]       |
+|      | 5.4 Select "demo" from list of Agent Pools and enter "demo" as name                       | ![Add Agent Pool Dialog][AddAgentPoolDialog]   |
+|      | 5.5 Click on **Save** Button                                                              | ![Save Button][ButtonSave]                     |
+|      | 5.6 repeat this section to add an Agent pool to Groups "QA" and "PROD"                    |                                                |
+|  6   | Add a Component Tag                                                                       |                                                |
+|      | 6.1 To add a Component Tag to the Agent Pools click on the 3 dots on the right side of it | ![3 Dots][3Dots]                               |
+|      | 6.2 Menu is shown                                                                         | ![Agent/Pool 3 Dots menue][Agent3DotsMenu]     |
+|      | 6.3 Select **Add Component Tag**                                                          | ![Add Component Tag][AgentAddCompTag]          |
+|      | 6.4 Select "EchoLogicComponents" from List of Tags and use same as Name                   | ![Select Component Tag][CompTagDialog]         |
+|      | 6.5 Click on **Save** Button                                                              | ![Save Button][ButtonSave]                     |
+|      | 6.6 repeat this section to add a Component Tag to other 2 Sub Groups/Environments         |                                                |
+|  7   | Final Resource Tree View                                                                  | ![Final Resource Tree][ResTreeFinal]           |
+
+#### [Application](learn/deploy/applications/index.md)
+
+| Step | Details                                                                   | Additional Information                                |
+|:----:|:--------------------------------------------------------------------------|:------------------------------------------------------|
+|  1   | Switch to [Applications View][SwitchToAppView] by clicking on the Sidebar |                                                       |
+|      |                                                                           | ![Sidebar Applications][SBApplicationsIcon]           |
+|      |                                                                           | ![Sidebar Applications with Text][SBApplicationsText] |
+|      | View for all Applications                                                 | ![All Applications View][APPSallView]                 |
+
+##### [Import or Create App](learn/deploy/applications/index.md#create-or-import-application)
+
+If no Application exists either import or create application
+
+###### Import Application
+
+| Step | Details                                                       | Additional Information                       |
+|:----:|:--------------------------------------------------------------|:---------------------------------------------|
+|      | If no Applications are available                              | ![Empty Applications View][APPSallViewEmpty] |
+|      | click on the **Import Applications** Button                   | ![Import App Button][ButtonImportApps]       |
+|      | If necessary change the settings in the Dialog                | ![Import App dialog][ImportAppsDialog]       |
+|      | Click on the **Choose File** Button to select App Import file | ![Choose File][ButtonChooseFile]             |
+|      | Select file "" in your file explorer                          | ![Select Import File][FileSelect]            |
+|      | click on **Submit** Button to start Import                    | ![Submit Button][ButtonSubmit]               |
+|      | Application is shown                                          | ![Application View][AppView]                 |
+
+###### Create New Application
+
+| Step | Details                                        | Additional Information                                |
+|:----:|:-----------------------------------------------|:------------------------------------------------------|
+|      | If no Applications are available               | ![Empty Applications View][APPSallViewEmpty]          |
+|      | Click on the **Create Application** Button     | ![Create App Button][ButtonCreateApp]                 |
+|      | Select **New Application** from Menu           | ![Select New App from Menu][CreateAppMenu]            |
+|      | The **Create Application** Dialog is shown     | ![Create App Dialog][CreateAppDialog]                 |
+|      | Select "Demo"                                  | ![Select Loop and add Name][CreateAppDialogEnterInfo] |
+|      | click on the **Save** Button to create new App | ![Save Button][ButtonSave]                            |
+|      | Application is shown                           | ![Application View][AppView]                          |
+
+##### Add Components to Application
+
+| Step | Details                                 | Additional Information                        |
+|:----:|:----------------------------------------|:----------------------------------------------|
+|      | Click on **Components** Tab             | ![App Components Tab][AppCompTab]             |
+|      | Components View is shown                | ![App Components View][AppCompView]           |
+|      | Click on **Add Components** Button      | ![Add Comp Button][ButtonAddComp]             |
+|      | In the Dialog select "Echo" and "Logic" | ![Select Components to add][SelectCompToAdd]  |
+|      | Click on **Save** Button                | ![Save Button][ButtonSave]                    |
+|      | Components View with added Components   | ![App Comp View with Comps][AppCompViewFinal] |
+
+##### Import Processes
+
+| Step | Details                                             | Additional Information                                 |
+|:----:|:----------------------------------------------------|:-------------------------------------------------------|
+|  1   | From the list of Applications                       |                                                        |
+|  2   | Click on the "EchoLogic" Application                | ![All Applications][APPSallView]                       |
+|  3   | First View is the Environments view                 | ![Application View][AppView]                           |
+|      | click on "Processes" Tab                            | ![App Processes Tab][AppProcessesTab]                  |
+|      | List of all Application Processes will be shown.    | ![Application Processes][AppProcessesView]             |
+|      | Click on **Import Process** Button                  | ![Import App Process Button][AppImportProcessButton]   |
+|      | The Import Process Dialog opens                     | ![Import Dialog][ImportProcessDialog]                  |
+|      | click on **Choose File** Button                     | ![Import Dialog Select File][ImpProcessChooseFile]     |
+|      | From the artifact list select **App_Processes.yml** | ![Import Dialog List of Files][ImpProcessFileList]     |
+|      | File is selected                                    | ![Import Dialog File Selected][ImpProcessFileSelected] |
+|      | click on **Submit** Button to start import          | ![Submit Button][ButtonSubmit]                         |
+|      | Imported Application Process are shown              | ![Application Processes List][AppProcessList]          |
+
+| Step | Details | Additional Information |
+|:----:|:--------|:-----------------------|
+|      |         |                        |
+|      |         |                        |
+|      |         |                        |
+|      |         |                        |
+|      |         |                        |
+|      |         |                        |
+|      |         |                        |
+|      |         |                        |
+|      |         |                        |
 
 ### Importing Data into Test
 
@@ -325,7 +428,7 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 [ResAPCreateButton]: learn/deploy/resources/media/Deploy_Resources_AgentPools_CreateAgentPoolButton.png
 [ResAPCreateDialog]: learn/deploy/resources/media/Deploy_Resources_AgentPoolsCreateDialog.png
 [ResAPCreateSelectAgents]: learn/deploy/resources/media/Deploy_AgentPool_SelectFromListOfAgents.png
-[ButtonSave]: media/Button_NEXT.png
+[ButtonSave]: media/Button_Save.png
 [ResAPList]: learn/deploy/resources/media/Deploy_Resources_AgentPool_list.png
 
 [SBCompIcon]: learn/deploy/media/Deploy_Sidebar_ComponentsIcon.png
@@ -335,6 +438,53 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 [CompImportDialog]: learn/deploy/components/media/Component_Import_Dialog.png
 [CompImpChooseFileButton]: learn/deploy/components/media/Component_Import_Dialog_ChooseFile.png
 [Filestochoose]: learn/deploy/components/media/Component_Import_Files.png
-[ButtonSubmit]: learn/deploy/components/media/Component_Import_SubmitButton.png
 [FileChoosen]: learn/deploy/components/media/Component_Import_Dialog_FileChosen.png
 [CompImported]: learn/deploy/components/media/Component_Imported.png
+
+[ResTreeTab]: learn/deploy/resources/media/Deploy_Resources_ResourceTreeTab.png
+[ResTreeView]: learn/deploy/resources/media/Deploy_ResourceTree_View.png
+[ResButtonCreateTop]: learn/deploy/resources/media/Deploy_Resources_CreateTopLevel.png
+[ResCreateResDialog]: learn/deploy/resources/media/Deploy_ResourceTree_CreateDialog.png
+[ResCreateDialogEnterName]: learn/deploy/resources/media/Deploy_ResourceTree_CreateDialog_EnterName.png
+[ResTopLevelCreated]: learn/deploy/resources/media/Deploy_ResourceTree_TopLevelCreated.png
+[Res3DotsMenu]: learn/deploy/resources/media/Deploy_ResourceTree_3DotsMenu.png
+[3Dots]: learn/deploy/media/Deploy_3Dots.png
+[ResAddGroup]: learn/deploy/resources/media/Deploy_ResourceTree_3Dots_addGroup.png
+[ResSubGroupName]: learn/deploy/resources/media/Deploy_ResourceTree_SubGroupName.png
+[ResSubGroups]: learn/deploy/resources/media/Deploy_ResourceTree_SubGroups.png
+[ResAddAgentPool]: learn/deploy/resources/media/Deploy_ResourceTree_3Dots_addAgentPool.png
+[AddAgentPoolDialog]: learn/deploy/resources/media/Deploy_ResourceTree_Add_AgentPoolDialog.png
+[Agent3DotsMenu]: learn/deploy/resources/media/Deploy_Resources_AgentandPools_3DotsMenu.png
+[AgentAddCompTag]: learn/deploy/resources/media/Deploy_ResourceTree_3Dots_addCompTag.png
+[CompTagDialog]: learn/deploy/resources/media/Deploy_ResourceTree_CreateResouceDialog_ComponentTag.png
+[ResTreeFinal]: learn/deploy/resources/media/Deploy_ResourceTree_Final.png
+
+[SBApplicationsIcon]: learn/deploy/media/Deploy_SideBar_ApplicationsIcon.png
+[SBApplicationsText]: learn/deploy/media/Deploy_SideBar_ApplicationsIconWithText.png
+[APPSallView]: learn/deploy/applications/media/Deploy_Applications_View.png
+[AppView]: learn/deploy/applications/media/Deploy_Application_View.png
+[AppProcessesTab]: learn/deploy/applications/media/Deploy_Application_ProcessesTab.png
+[AppProcessesView]: learn/deploy/applications/media/Deploy_App_Processes_view.png
+[AppImportProcessButton]: learn/deploy/applications/media/Deploy_Application_ImportProcessButton.png
+[ImportProcessDialog]: learn/deploy/applications/media/Deploy_ImportAppProcess_Dialog1.png
+[ImpProcessChooseFile]: learn/deploy/applications/media/Deploy_ImportAppProcess_Dialog2.png
+[ImpProcessFileList]: learn/deploy/applications/media/Deploy_ImportAppProcess_Dialog3.png
+[ImpProcessFileSelected]:learn/deploy/applications/media/Deploy_ImportAppProcess_Dialog4.png
+[ButtonSubmit]: media/Button_Submit.png
+[AppProcessList]: learn/deploy/applications/media/Deploy_AppProcess_ListFinal.png
+[SwitchToAppView]: learn/deploy/applications/index.md#switch-to-applications-view
+
+[APPSallViewEmpty]: learn/deploy/applications/media/Deploy_Applications_View_Empty.png
+[ButtonCreateApp]: learn/deploy/applications/media/Deploy_App_CreateAppButton.png
+[CreateAppMenu]: learn/deploy/applications/media/Deploy_App_CreateAppMenue.png
+[CreateAppDialog]: learn/deploy/applications/media/DevOps_App_CreateApp_Dialog1.png
+[CreateAppDialogEnterInfo]: learn/deploy/applications/media/DevOps_App_CreateApp_Dialog2.png
+[ButtonImportApps]: learn/deploy/media/Deploy_Import_Apps_Button.png
+[ImportAppsDialog]: learn/deploy/media/Deploy_Import_Apps_Dialog.png
+[ButtonChooseFile]: media/Button_ChooseFile.png
+[FileSelect]: learn/deploy/media/Deploy_Import_Apps_SelectFile.png
+[AppCompTab]: learn/deploy/applications/media/Deploy_Apps_ComponentsTab.png
+[AppCompView]: learn/deploy/applications/media/Deploy_Apps_Components_View.png
+[ButtonAddComp]: learn/deploy/applications/media/Deploy_Apps_AddComponents_Button.png
+[SelectCompToAdd]: learn/deploy/applications/media/Deploy_Apps_AddComponents_Dialog.png
+[AppCompViewFinal]: learn/deploy/applications/media/Deploy_Apps_Components_View_Final.png
