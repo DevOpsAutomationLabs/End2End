@@ -479,8 +479,8 @@ If application has no applications processes, follow these steps to import them:
 [CompTagDialog]: learn/deploy/resources/media/Deploy_ResourceTree_CreateResouceDialog_ComponentTag.png
 [ResTreeFinal]: learn/deploy/resources/media/Deploy_ResourceTree_Final.png
 
-[SBApplicationsIcon]: learn/deploy/media/Deploy_SideBar_AppIcon.png
-[SBApplicationsText]: learn/deploy/media/Deploy_SideBar_AppIconWithText.png
+[SBApplicationsIcon]: learn/deploy/media/Deploy_Sidebar_AppIcon.jpg
+[SBApplicationsText]: learn/deploy/media/Deploy_Sidebar_AppIconWithText.jpg
 [APPSallView]: learn/deploy/applications/media/Deploy_Applications_View.png
 [AppView]: learn/deploy/applications/media/Deploy_Application_View.png
 [AppProcessesTab]: learn/deploy/applications/media/Deploy_Application_ProcessesTab.png
