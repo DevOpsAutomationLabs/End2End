@@ -10,41 +10,48 @@ TODO: get more information which environment to use and how to use the "Frontend
 
 ### How to log in
 
-| Step | Details                                                                                                     | Additional Information                                       |
-|:----:|:------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------|
-|  1   | [Open DevOps Loop in Browser][URLDevOpsLoop]                                                                | URL= 'https://devops.automation.techzone.ibm.com/automation' |
-|  2   | Enter Your Credentials in the Login Screen <br> **User:** 'demo@devops.loop' <br>  **Password:** 'Passw0rd' | ![Login Screen][LoginDialog]                                 |
-|  3   | Click on the Sign In Button                                                                                 | ![Sign In button][SignInButton]                              |
+| Step | Details                                                          | Additional Information                                       |
+|:----:|:-----------------------------------------------------------------|:-------------------------------------------------------------|
+|  1   | [Open DevOps Loop in Browser][URLDevOpsLoop]                     | URL= 'https://devops.automation.techzone.ibm.com/automation' |
+|  2   | Enter Your Credentials in the Login Screen                       | ![Login Screen][LoginDialog]                                 |
+|      | <br> **User:** 'demo@devops.loop' <br>  **Password:** 'Passw0rd' |                                                              |
+|  3   | Click on the Sign In Button                                      | ![Sign In button][SignInButton]                              |
 
 ### The Home Page
 
-| Step | Details                                                                                                              | Additional Information                             |
-|:----:|:---------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
-|  1   | **If no Teamspace is available** follow the steps to proceed with [setting up a Teamspace and Loop][SetupTSandLoop]  | ![No Teamspace available][NoTeamSpaceAvailable]    |
-|  2   | **If a Teamspace is available** you will be directed to your homepage and it will provide you an overview your Loops |                                                    |
-| 2.1  | If **no Loop** exists, proceed with [Setup a Loop][SetupLoop]                                                        | ![Empty Loops Homepage][LoopHomePageCreateNewLoop] |
-| 2.2  | If your **loop is empty** proceed with [Setting up Demo Data][SetupDemoData]                                         | ![Home Page][LoopHomePageWithNoData]               |
-| 2.3  | If your **loop has data** proceed with the [Demo Flow][GoToDemoFlow] or [Self Enablement][GoToSelfenablement]        | ![Home Page][LoopHomePageView]                     |
+| Step | Details                                                                    | Additional Information                             |
+|:----:|:---------------------------------------------------------------------------|:---------------------------------------------------|
+|  1   | **Teamspaces**                                                             |                                                    |
+|      | 1.1 **If no Teamspace is available** follow the steps:                     | ![No Teamspace available][NoTeamSpaceAvailable]    |
+|      | 1.1.1 proceed with **[setting up a Teamspace and Loop][SetupTSandLoop]**   |                                                    |
+|      | 1.2  **If a Teamspace is available** you will be directed to your homepage | ![TeamSpace is available][LoopHomePageWithNoData]  |
+|  2   | **Loops**                                                                  |                                                    |
+|      | 2.1 If **no Loop** exists, **proceed with [Setup a Loop][SetupLoop]**      | ![Empty Loops Homepage][LoopHomePageCreateNewLoop] |
+|      | 2.2 If your **loop is empty** proceed with                                 | ![Home Page][LoopHomePageWithNoData]               |
+|      | 2.2.1 **[Setting up Demo Data][SetupDemoData]**                            |                                                    |
+|      | 2.3 If your **loop has data** proceed with:                                | ![Home Page][LoopHomePageView]                     |
+|      | 2.3.1 **the [Demo Flow][GoToDemoFlow]**                                    |                                                    |
+|      | 2.3.2 **or [Self Enablement][GoToSelfenablement]**                         |                                                    |
 
 ## Setup a Teamspace and Loop
 
 ### Setup a Teamspace
 
-| Step | Details                                                                                           | Additional Information                                                  |
-|:----:|:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
-|  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon] to view your Teamspaces or create a new one | ![Teamspace menue][TSMenue]                                             |
-|  2   | Click on **Create TeamSpace**                                                                     | ![TeamSpace menue - Create TeamSpace Link][TSCreateTSentry]             |
-|  3   | Enter a name and a Description                                                                    |                                                                         |
-|      | **Example Name: 'Demo'** <br>**Example Description: 'Teamspace for Demos'**                       | ![Teamspace - Create New][TSCreateNewDialog]                            |
-|  4   | press **Next** Button to proceed                                                                  | ![Next Button][NextButton]                                              |
-|  5   | You can search and **add** Teammembers to a Teamspace                                             | ![Teamspace - Create New - search Member][TSAddTeammember]              |
-|  6   | Teammember is added to a list. Proceed to add more members if needed.                             | ![Teamspace - Create New - Member added][TSTeamMemberAdded]             |
-|  7   | Press **Create** to proceed                                                                       | ![Create TeamSpace Button][TSCreateButton]                              |
-|  8   | Teamspace creation will take a few moments, as soon as it finishes a success dialog will be shown | ![Teamspace - Create New - creation process started][TSCreationStarted] |
-|  9   | Teamspace created. Click on **Go to Teamspace** for next steps                                    | ![Teamspace - Create New - creation successfull][TSCreateionFinished]   |
-|  10  | When the creation of a TeamSpace is finished you will be forwarded                                |                                                                         |
-|      | to your empty loops home page for your new TeamSpace                                              | ![Empty Loops Homepage][LoopHomePageCreateNewLoop]                      |
-|      | Please proceed with [Setting up a Loop][SetupLoop]                                                |                                                                         |
+| Step | Details                                                                         | Additional Information                               |
+|:----:|:--------------------------------------------------------------------------------|:-----------------------------------------------------|
+|  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon]                           | ![TS Menu][TSMenue]                                  |
+|      | 1.1 to **view** or **create** a Teamspace                                       |                                                      |
+|  2   | Click on **Create TeamSpace**                                                   | ![TS Menu - Create TS Link][TSCreateTSentry]         |
+|  3   | Enter a name and a Description                                                  |                                                      |
+|      | 2.1 **Example Name: 'Demo'** <br>**Example Description: 'Teamspace for Demos'** | ![TS - Create New][TSCreateNewDialog]                |
+|  4   | press **Next** Button to proceed                                                | ![Next Button][NextButton]                           |
+|  5   | You can search and **add** Teammembers to a Teamspace                           | ![TS - Create New - search Member][TSAddTeammember]  |
+|  6   | Teammember is added to a list. Proceed to add more members if needed.           | ![TS - Create New - Member added][TSTeamMemberAdded] |
+|  7   | Press **Create** to proceed                                                     | ![Create TeamSpace Button][TSCreateButton]           |
+|  8   | Teamspace creation will take a few moments                                      | ![TS - Create started][TSCreationStarted]            |
+|  9   | Teamspace created. Click on **Go to Teamspace** for next steps                  | ![TS - creation successfull][TSCreateionFinished]    |
+|  10  | New Teamspace is shown                                                          | ![Empty Loops Homepage][LoopHomePageCreateNewLoop]   |
+|  11  | Please proceed with [Setting up a Loop][SetupLoop]                              |                                                      |
 
 ### Setup a Loop
 
@@ -67,7 +74,7 @@ TODO: get more information which environment to use and how to use the "Frontend
 
 | Step | Details                                                                      | Additional Information                                         |
 |:----:|:-----------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | Switch to [Plan](plan/index.md)                                              |                                                                |
+|  1   | Switch to [Plan][SwitchToPlan]                                               |                                                                |
 |      | 1.1 by either pressing "Let's go to Plan" button on its tile                 | ![Plan Tile lets go][PlanTile]                                 |
 |      | 1.2 by using the central app switcher on the top left of your screen         | ![Central App Switcher][AppSwitcher]                           |
 |      | 1.3 by using the button/link from What would you like to do today section    | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
@@ -77,7 +84,7 @@ TODO: get more information which environment to use and how to use the "Frontend
 |      | 3.1 on **Configuration**                                                     | ![Config Button][ConfigButton]                                 |
 |      | 3.2 Use the **Import** Feature of plan to load sample data                   | ![Import Icon][ImportIcon]                                     |
 |  4   | **NOTE** Download the Demo Data File onto your local drive                   |                                                                |
-|      | 4.1 Click oon [EchoLogic Zip File from files section][EchoLogicZipFile]      |                                                                |
+|      | 4.1 Click on [EchoLogic Zip File from files section][EchoLogicZipFile]       |                                                                |
 |      | 4.2 and save the file on your local drive (best into Downloads)              | ![Download Demo Data file][DownloadDemoDataFile]               |
 |  5   | In the Dialog for importing record data                                      | ![Import Dialog][ImportDialog1]                                |
 |      | 5.1 click the Choose File Button                                             | ![Choose File Button][ChooseFileDialog]                        |
@@ -156,28 +163,37 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 
 | Step | Details                                                                   | Additional Information                                         |
 |:----:|:--------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | Switch to [Deploy](deploy/index.md)                                       |                                                                |
+|  1   | Switch to [Deploy][SwitchToDeploy]                                        |                                                                |
 |      | 1.1 by either pressing "Let's go to Deploy" button on its tile            | ![Deploy Tile lets go][DeployTile]                             |
 |      | 1.2 by using the central app switcher on the top left of your screen      | ![Central App Switcher][AppSwitcher]                           |
 |      | 1.3 by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 #### Setup an Agent Pool
 
-| Step | Details                                                     | Additional Information                          |
-|:----:|:------------------------------------------------------------|:------------------------------------------------|
-|  1   | Switch to [Resources](learn/deploy/resources/index.md) View |                                                 |
-|      | by clicking on the Sidebar                                  | ![Sidebar Resources][SBResourcesIcon]           |
-|      |                                                             | ![Sidebar Resources with Text][SBResourcesText] |
-|  2   | Switch to AgentPools View                                   | ![Agent Pools Tab][ResAPTab]                    |
-|  3   | In this view                                                | ![AgentPool View][ResAPView]                    |
-|  4   | click on                                                    | ![Create AP Button][ResAPCreateButton]          |
-|  5   | In the **Create Agent Pool** Dialog                         | ![AP Creation Dialog][ResAPCreateDialog]        |
-|      | 5.1 Enter "demo" in the name field                          |                                                 |
-|      | 5.2 Select all agents                                       | ![Select Agents][ResAPCreateSelectAgents]       |
-|      | 4.3 Click on **Save** Button                                | ![Save Button][ButtonSave]                      |
-|  6   | New Agent Pool is listed in the View                        | ![Agent Pool List][ResAPList]                   |
+| Step | Details                                                            | Additional Information                          |
+|:----:|:-------------------------------------------------------------------|:------------------------------------------------|
+|  1   | Switch to [Resources][SwitchToRes] View by clicking on the Sidebar | ![Sidebar Resources][SBResourcesIcon]           |
+|      |                                                                    | ![Sidebar Resources with Text][SBResourcesText] |
+|  2   | Switch to AgentPools View                                          | ![Agent Pools Tab][ResAPTab]                    |
+|  3   | In this view                                                       | ![AgentPool View][ResAPView]                    |
+|  4   | click on                                                           | ![Create AP Button][ResAPCreateButton]          |
+|  5   | In the **Create Agent Pool** Dialog                                | ![AP Creation Dialog][ResAPCreateDialog]        |
+|      | 5.1 Enter "demo" in the name field                                 |                                                 |
+|      | 5.2 Select all agents                                              | ![Select Agents][ResAPCreateSelectAgents]       |
+|      | 4.3 Click on **Save** Button                                       | ![Save Button][ButtonSave]                      |
+|  6   | New Agent Pool is listed in the View                               | ![Agent Pool List][ResAPList]                   |
 
 #### Importing Components
+
+<blockquote>
+<p><strong>NOTE:</strong>Download the component JSON files which are used in this section</p>
+  <p>
+    <ul>
+    <li> <a href="https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Echo.json">Echo Component</a></li>
+    <li> <a href="https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Logic.json">Logic Component</a></li>
+    </ul>
+  </p>
+</blockquote>
 
 | Step | Details                                       | Additional Information                         |
 |:----:|:----------------------------------------------|:-----------------------------------------------|
@@ -188,6 +204,8 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 |  4   | Import Dialog opens                           | ![Import Dialog][CompImportDialog]             |
 |  5   | click on **Chose File** Button                | ![Choose File Button][CompImpChooseFileButton] |
 |  6   | Switch to folder with files and select one    | ![Files to choose][Filestochoose]              |
+| | 6.1 - [Echo Component][FileComp_Echo] | |
+| | 6.2 - [Logic Component][FileComp_Logic] | |
 |  7   | File is selected                              | ![File is selected][FileChoosen]               |
 |  8   | click the **Submit** Button                   | ![Submit Button][ButtonSubmit]                 |
 |  9   | Result is component imported                  | ![Component Imported][CompImported]            |
@@ -243,15 +261,19 @@ If no Application exists either import or create application
 
 ###### Import Application
 
-| Step | Details                                                       | Additional Information                       |
-|:----:|:--------------------------------------------------------------|:---------------------------------------------|
-|      | If no Applications are available                              | ![Empty Applications View][APPSallViewEmpty] |
-|      | click on the **Import Applications** Button                   | ![Import App Button][ButtonImportApps]       |
-|      | If necessary change the settings in the Dialog                | ![Import App dialog][ImportAppsDialog]       |
-|      | Click on the **Choose File** Button to select App Import file | ![Choose File][ButtonChooseFile]             |
-|      | Select file "" in your file explorer                          | ![Select Import File][FileSelect]            |
-|      | click on **Submit** Button to start Import                    | ![Submit Button][ButtonSubmit]               |
-|      | Application is shown                                          | ![Application View][AppView]                 |
+<blockquote>
+<p><strong>NOTE:</strong> Download <a href="https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/App_EchoLogic_NoComponents.json">App_EchoLogic_NoComponents.json</a> to your local file system.</p>
+</blockquote>
+
+| Step | Details                                                             | Additional Information                       |
+|:----:|:--------------------------------------------------------------------|:---------------------------------------------|
+|      | If no Applications are available                                    | ![Empty Applications View][APPSallViewEmpty] |
+|      | click on the **Import Applications** Button                         | ![Import App Button][ButtonImportApps]       |
+|      | If necessary change the settings in the Dialog                      | ![Import App dialog][ImportAppsDialog]       |
+|      | Click on the **Choose File** Button to select App Import file       | ![Choose File][ButtonChooseFile]             |
+|      | Select file **[App_EchoLogic_NoComponents.json][FileApp_NoComps]** in your file explorer | ![Select Import File][FileSelect]            |
+|      | click on **Submit** Button to start Import                          | ![Submit Button][ButtonSubmit]               |
+|      | Application is shown                                                | ![Application View][AppView]                 |
 
 ###### Create New Application
 
@@ -267,7 +289,10 @@ If no Application exists either import or create application
 
 ##### Add Components to Application
 
-If no components are associated to the new Application, add the [imported components](#importing-components).
+<blockquote>
+<p><strong>NOTE:</strong>If no components are associated to the new Application, add the imported components.</p>
+</blockquote>
+**[follow imported components step if not done yet](#importing-components)**
 
 | Step | Details                                 | Additional Information                        |
 |:----:|:----------------------------------------|:----------------------------------------------|
@@ -280,7 +305,9 @@ If no components are associated to the new Application, add the [imported compon
 
 ##### Add Environments to Application
 
-If no environments are available in the new Application, add them following this steps:
+<blockquote>
+<p><strong>NOTE:</strong>If no environments are available in the new Application, add them following this steps:</p>
+</blockquote>
 
 | Step | Details                                                   | Additional Information                                            |
 |:----:|:----------------------------------------------------------|:------------------------------------------------------------------|
@@ -294,7 +321,9 @@ If no environments are available in the new Application, add them following this
 
 ##### Assign Resources to Environments
 
-If environments do not have a base resource associated follow this steps to add them:
+<blockquote>
+<p><strong>NOTE:</strong>If environments do not have a base resource associated follow this steps to add them:</p>
+</blockquote>
 
 | Step | Details                                                         | Additional Information                      |
 |:----:|:----------------------------------------------------------------|:--------------------------------------------|
@@ -308,22 +337,24 @@ If environments do not have a base resource associated follow this steps to add 
 
 ##### Import Processes
 
-If application has no applications processes, follow these steps to import them:
+<blockquote>
+<p><strong>NOTE:</strong>If application has no applications processes, follow these steps to import them:</p>
+</blockquote>
 
-| Step | Details                                             | Additional Information                                 |
-|:----:|:----------------------------------------------------|:-------------------------------------------------------|
-|  1   | From the list of Applications                       |                                                        |
-|  2   | Click on the "EchoLogic" Application                | ![All Applications][APPSallView]                       |
-|  3   | First View is the Environments view                 | ![Application View][AppView]                           |
-|      | click on "Processes" Tab                            | ![App Processes Tab][AppProcessesTab]                  |
-|      | List of all Application Processes will be shown.    | ![Application Processes][AppProcessesView]             |
-|      | Click on **Import Process** Button                  | ![Import App Process Button][AppImportProcessButton]   |
-|      | The Import Process Dialog opens                     | ![Import Dialog][ImportProcessDialog]                  |
-|      | click on **Choose File** Button                     | ![Import Dialog Select File][ImpProcessChooseFile]     |
-|      | From the artifact list select **App_Processes.yml** | ![Import Dialog List of Files][ImpProcessFileList]     |
-|      | File is selected                                    | ![Import Dialog File Selected][ImpProcessFileSelected] |
-|      | click on **Submit** Button to start import          | ![Submit Button][ButtonSubmit]                         |
-|      | Imported Application Process are shown              | ![Application Processes List][AppProcessList]          |
+| Step | Details                                                                      | Additional Information                                 |
+|:----:|:-----------------------------------------------------------------------------|:-------------------------------------------------------|
+|  1   | From the list of Applications                                                |                                                        |
+|  2   | Click on the "EchoLogic" Application                                         | ![All Applications][APPSallView]                       |
+|  3   | First View is the Environments view                                          | ![Application View][AppView]                           |
+|      | click on "Processes" Tab                                                     | ![App Processes Tab][AppProcessesTab]                  |
+|      | List of all Application Processes will be shown.                             | ![Application Processes][AppProcessesView]             |
+|      | Click on **Import Process** Button                                           | ![Import App Process Button][AppImportProcessButton]   |
+|      | The Import Process Dialog opens                                              | ![Import Dialog][ImportProcessDialog]                  |
+|      | click on **Choose File** Button                                              | ![Import Dialog Select File][ImpProcessChooseFile]     |
+|      | From the artifact list select **[App_Processes.yml][FileApp_Processes]** | ![Import Dialog List of Files][ImpProcessFileList]     |
+|      | File is selected                                                             | ![Import Dialog File Selected][ImpProcessFileSelected] |
+|      | click on **Submit** Button to start import                                   | ![Submit Button][ButtonSubmit]                         |
+|      | Imported Application Process are shown                                       | ![Application Processes List][AppProcessList]          |
 
 ### Importing Data into Test
 
@@ -518,3 +549,10 @@ If application has no applications processes, follow these steps to import them:
 [ENVAddBaseRes]: learn/deploy/applications/media/Deploy_Env_AddBaseRes_Button.png
 [ENVAddResDialog]: learn/deploy/applications/media/Deploy_Env_AddRes_Dialog.png
 [EnvAddResSelected]: learn/deploy/applications/media/Deploy_Env_AddRes_Selected.png
+[SwitchToRes]: learn/deploy/resources/index.md
+[SwitchToDeploy]: deploy/index.md
+[SwitchToPlan]: plan/index.md
+[FileApp_Processes]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/App_Processes.json
+[FileComp_Echo]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Echo.json
+[FileComp_Logic]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Logic.json
+[FileApp_NoComps]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/App_EchoLogic_NoComponents.json

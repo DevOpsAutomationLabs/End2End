@@ -58,7 +58,7 @@
 |      | click on the **Import Applications** Button                   | ![Import App Button][ButtonImportApps]       |
 |      | If necessary change the settings in the Dialog                | ![Import App dialog][ImportAppsDialog]       |
 |      | Click on the **Choose File** Button to select App Import file | ![Choose File][ButtonChooseFile]             |
-|      | Select file "" in your file explorer                          | ![Select Import File][FileSelect]            |
+|      | Select file "App_EchoLogic_NoComponents.json" in your file explorer                          | ![Select Import File][FileSelect]            |
 |      | click on **Submit** Button to start Import                    | ![Submit Button][ButtonSubmit]               |
 |      | Application is shown                                          | ![Application View with Env][AppViewWEnv]    |
 
