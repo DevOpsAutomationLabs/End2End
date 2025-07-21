@@ -364,7 +364,7 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [DeployProcessDesignerAddedVersionStatus]: media/DEPLOY_Component_ProcessEditor_StepAdded_AddStatus.png
 [DeployProcessDesignerAddedVersionStatusProperties]: media/DEPLOY_Component_Process_Step_AddStatusProperties.png
 [DeployComponentFinalProcesWithVersionStatus]: media/DEPLOY_Component_VersionList_withStatus.png
-[DeploySidebarAppIcon]: media/DEPLOY_ApplicationsButton.png
+[DeploySidebarAppIcon]: media/Deploy_Sidebar_AppIcon.png
 [DeployShowApp]: media/DEPLOY_ApplicationList_ShowEcologic.png
 [DeployAppEnvList]: media/DEPLOY_Application_Environmentlist.png
 [DeployAppRequestProcessButton]: media/DEPLOY_Application_RequestProcess.png
