@@ -19,17 +19,21 @@ TODO: get more information which environment to use and how to use the "Frontend
 
 ### The Home Page
 
-| Step | Details                                                                                                        | Additional Information                             |
-|:----:|:---------------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
-|  1   | **Teamspaces**                                                                                                 |                                                    |
-|      | 1.1 **If no Teamspace is available** follow the steps to **[setting up a Teamspace and Loop][SetupTSandLoop]** | ![No Teamspace available][NoTeamSpaceAvailable]    |
-|      | 1.2  **If a Teamspace is available** you will be directed to your homepage                                     | ![TeamSpace is available][LoopHomePageWithNoData]  |
-|  2   | **Loops**                                                                                                      |                                                    |
-|      | 2.1 If **no Loop** exists, **proceed with [Setup a Loop][SetupLoop]**                                          | ![Empty Loops Homepage][LoopHomePageCreateNewLoop] |
-|      | 2.2 If your **loop is empty** follow **[Setting up Demo Data][SetupDemoData]**                                 | ![Home Page][LoopHomePageWithNoData]               |
-|      | 2.3 If your **loop has data** proceed with:                                                                    | ![Home Page][LoopHomePageView]                     |
-|      | 2.3.1 **the [Demo Flow][GoToDemoFlow]**                                                                        |                                                    |
-|      | 2.3.2 **or [Self Enablement][GoToSelfenablement]**                                                             |                                                    |
+| Step | Details                                                                          | Additional Information                             |
+|:----:|:---------------------------------------------------------------------------------|:---------------------------------------------------|
+|  1   | **Teamspaces**                                                                   |                                                    |
+|      | 1.1 **If no Teamspace is available**                                             | ![No Teamspace available][NoTeamSpaceAvailable]    |
+|      | 1.1.1  follow the steps to **[setting up a Teamspace and Loop][SetupTSandLoop]** |                                                    |
+|      | 1.2  **If a Teamspace is available**                                             | ![TeamSpace is available][LoopHomePageWithNoData]  |
+|      | 1.2.1 you will be directed to your homepage                                      | **Check if Loop exists follow Step 2**             |
+|  2   | **Loops**                                                                        |                                                    |
+|      | 2.1 **If no Loop is available**                                                  | ![Empty Loops Homepage][LoopHomePageCreateNewLoop] |
+|      | 2.1.1 proceed with **[Setup a Loop][SetupLoop]**                                 |                                                    |
+|      | 2.2 **If your Loop is empty**                                                    | ![Home Page][LoopHomePageWithNoData]               |
+|      | 2.2.1 follow **[Setting up Demo Data][SetupDemoData]**                           |                                                    |
+|      | 2.3 **If your Loop has data** proceed with:                                      | ![Home Page][LoopHomePageView]                     |
+|      | 2.3.1 the **[Demo Flow][GoToDemoFlow]**                                          |                                                    |
+|      | 2.3.2 or **[Self Enablement][GoToSelfenablement]**                               |                                                    |
 
 ## Setup a Teamspace and Loop
 
@@ -53,20 +57,48 @@ TODO: get more information which environment to use and how to use the "Frontend
 
 ### Setup a Loop
 
-| Step | Details                                                                                     | Additional Information                                           |
-|:----:|:--------------------------------------------------------------------------------------------|:-----------------------------------------------------------------|
-|  1   | Press the **Create Loop** Button                                                            | ![Create New Loop Button][CreateNewLoopButton]                   |
-|  2   | In the Loop creation Dialog enter a name and a description                                  | ![Loops - Create New - Dialog][CreateNewDialog]                  |
-|  3   | press the **Next** Button to proceed                                                        | ![Next Button][NextButton]                                       |
-|  4   | You can search and add a Teammember to the Loop                                             | ![Loops - Create New - search Member][SearchAddMember]           |
-|  5   | a new Member is added                                                                       | ![Loops - Create New - member added][AddedMember]                |
-|  6   | Press the **Create** Button to start Loop creation                                          | ![Create Button][CreateButton]                                   |
-|  7   | Loop creation can take a few moments, as soon as it finishes a Success screen will be shown | ![Loops - Create New - create process started][LoopCreation]     |
-|  8   | Creation is successfull                                                                     | ![Loops - Create New - creation successfull][LoopCreatedSuccess] |
-|  9   | Press now **Go to my Loops** Button to proceed                                              | ![Go to my Loop Button][GoToMyLoops]                             |
-|  10  | As your Loop has no data please proceed with [Setting up Demo Data][SetupDemoData]          | ![Home Page][LoopHomePageWithNoData]                             |
+| Step | Details                                                                                       | Additional Information                                                                       |
+|:----:|:----------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------|
+|  1   | Press the **Create Loop** Button                                                              | ![Create New Loop Button][CreateNewLoopButton]                                               |
+|  2   | In the Loop creation Dialog enter a name and a description                                    | ![Loops - Create New - Dialog][CreateNewDialog]                                              |
+|      | 2.1 Name:                                                                                     | "EchoLogic"                                                                                  |
+|      | 2.2 Description:                                                                              | "Bringing together the power of Echo and Logic into bleeding edge, cloud native and beyond!" |
+|  3   | press the **Next** Button to proceed                                                          | ![Next Button][NextButton]                                                                   |
+|  4   | You can search and add a Teammember to the Loop                                               | ![Loops - Create New - search Member][SearchAddMember]                                       |
+|      | 4.1 enter "a" in search dialog and if a mail address is shown, select it and click on **Add** | ![Add][ButtonAdd]                                                                            |
+|      | 4.2 a new Member is added                                                                     | ![Loops - Create New - member added][AddedMember]                                            |
+|  5   | Press the **Create** Button to start Loop creation                                            | ![Create Button][CreateButton]                                                               |
+|  6   | Loop creation can take a few moments, as soon as it finishes a Success screen will be shown   | ![Loops - Create New - create process started][LoopCreation]                                 |
+|  7   | Creation is successfull                                                                       | ![Loops - Create New - creation successfull][LoopCreatedSuccess]                             |
+|  8   | Press now **Go to my Loops** Button to proceed                                                | ![Go to my Loop Button][GoToMyLoops]                                                         |
+|  9   | As your Loop has no data please proceed with [Setting up Demo Data][SetupDemoData]            | ![Home Page][LoopHomePageWithNoData]                                                         |
 
 ## Setup Demo Data
+
+<blockquote>
+<p><strong>NOTE:</strong> All Files which are referenced here are available in the following GitHub Repository: <a href="https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp">https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp</a></p>
+  <p>
+  Folowing options how you can use the data from the repo:
+    <ul>
+    <li> Download latest <a href="https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/releases/latest">source code zip file</a> and unzip on your local drive</li>
+    <li> Access the files from the provided links in the setup steps</li>
+    <li> Clone to your local disc</li>
+    </ul>
+  </p>
+</blockquote>
+
+### Download EchoLogic DemoApp files
+
+| Step | Details                                                      | Additional Information                                   |
+|:----:|:-------------------------------------------------------------|:---------------------------------------------------------|
+|  1   | Click [URL to Latest Version][URLDemoAppLatestVersion]       |                                                          |
+|  2   | The latest version will be shown                             | ![Latest Version of Demo App ZIPfile][LatestVersionView] |
+|  3   | In the **Assets** section                                    | ![Assets section][AssetsSection]                         |
+|  4   | Click on **Source Code Zip**                                 | ![File to download][LatestVersionZip]                    |
+|  5   | Save into **Downloads Folder**                               | ![Into Downloads Folder][DownloadToFolder]               |
+|  6   | Click on **Downloads Icon** of Browser                       | ![Downloads Icon][BrowserDLIcon]                         |
+|  7   | Click on File to automatically unzip and show in Filemanager | ![open file in filemanager][BrowserDLdFile]              |
+|  8   | The ZIP file should have been unzipped into a new folder     | ![Downloads Folder][DLwithUnzippedFile]                  |
 
 ### Importing Demo Data into Plan
 
@@ -81,14 +113,12 @@ TODO: get more information which environment to use and how to use the "Frontend
 |  3   | click in the **Sidebar**                                                     |                                                                |
 |      | 3.1 on **Configuration**                                                     | ![Config Button][ConfigButton]                                 |
 |      | 3.2 Use the **Import** Feature of plan to load sample data                   | ![Import Icon][ImportIcon]                                     |
-|  4   | **NOTE** Download the Demo Data File onto your local drive                   |                                                                |
-|      | 4.1 Click on [EchoLogic Zip File from files section][EchoLogicZipFile]       |                                                                |
-|      | 4.2 and save the file on your local drive (best into Downloads)              | ![Download Demo Data file][DownloadDemoDataFile]               |
-|  5   | In the Dialog for importing record data                                      | ![Import Dialog][ImportDialog1]                                |
-|      | 5.1 click the Choose File Button                                             | ![Choose File Button][ChooseFileDialog]                        |
-|      | 5.2 select the sample data file (from Step 2) to be imported                 | ![Select the file][SelectZipFile]                              |
-|      | 5.3 Now we have the file selected                                            | ![Import Dialog with selected File][ImportDialog2]             |
-|      | 5.4 Press the Import Button to start                                         | ![Press Import Button][ImportButton]                           |
+|  4   | In the Dialog for importing record data                                      | ![Import Dialog][ImportDialog1]                                |
+|      | 4.1 click the Choose File Button                                             | ![Choose File Button][ChooseFileDialog]                        |
+|      | 4.2 go into Downloads/EchoLogic_DemoApp-NN/files/plan folder         | ![Plan folder][DLPlanFolder]                                   |
+|      | 4.3 select the sample data file **EchoLogic.zip**  to be imported            | ![Select the file][SelectZipFile]                              |
+|      | 4.4 Now we have the file selected                                            | ![Import Dialog with selected File][ImportDialog2]             |
+|      | 4.5 Press the Import Button to start                                         | ![Press Import Button][ImportButton]                           |
 |  6   | The Import process starts.                                                   | ![Import Process starting][ImportStarts]                       |
 |      | 6.1 By clicking on Details the process output can be viewed                  | ![Import running with Details][ImportRunningWithDetails]       |
 |      | 6.2 Import has finished                                                      | ![Import Finished][ImportFinished]                             |
@@ -99,8 +129,6 @@ TODO: get more information which environment to use and how to use the "Frontend
 |      | 7.2 Your board should look similar to this screenshot                        | ![My Board with imported data][MyBoardWithImportedData]        |
 
 ### Importing Demo Data into Control
-
-Task: Copy files and folders from [Demo App repository](https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git "https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git") ```URL: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git``` into target repository.
 
 | Step | Details                                                                   | Additional Information                                         |
 |:----:|:--------------------------------------------------------------------------|:---------------------------------------------------------------|
@@ -114,7 +142,8 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 | Step | Details                                                          | Additional Information                                      |
 |:----:|:-----------------------------------------------------------------|:------------------------------------------------------------|
 |  1   | Click on the top right on Profile and Settings                   | ![Profile and Settigs][ControlProfileSettings]              |
-|      | 1.1 Select **Settings**                                          | ![Settings][ProfileSettings]                                |
+| | 1.1 Provide a name for the token. Example **demostokenos** | |
+|      | 1.2 Select **Settings**                                          | ![Settings][ProfileSettings]                                |
 |  2   | Click on **Access Tokens** in the menu                           | ![Access Token][SettingsAccessTokens]                       |
 |      | 2.1 click on the **Select Permissions** section to open settings | ![PAT Select Permissions][PATSelectPermissions]             |
 |      | 2.2 Set "issue" to "Read/Write"                                  |                                                             |
@@ -138,9 +167,7 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 |  4   | The target repository is cloned                             | ![Target Repo is cloned][TargetRepoCloned]                                             |
 |      | 4.1 check the folder with ```ls EchoLogic```                | ![Target Repo is empty][TargetRepoEmpty]                                               |
 |  5   | If needed Getting back to Documents                         | ```cd&cd Documents```                                                                  |
-|  6   | Clone the source repository                                 | ![clone source repository][CloneSourceRepo]                                            |
-|      | 6.1 Git Clone Command                                       | ```git clone https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git```          |
-|      | 6.2 check Documents folder ```ls```                         | ![list all folders in Documents][LSDocs]                                               |
+|  6 | 
 |  7   | Copy some folders and files from Source Repo to Target Repo | ![copy from source to target][CopyData]                                                |
 |      | 7.1 Copy docs folder                                        | ```cp -r EchoLogic_DemoApp/docs EchoLogic/```                                          |
 |      | 7.2 Copy files folder                                       | ```cp -r EchoLogic_DemoApp/files EchoLogic/```                                         |
@@ -156,6 +183,10 @@ Task: Copy files and folders from [Demo App repository](https://github.com/DevOp
 |      | 9.4.2 Provide access token (copy from textfile)             | ![copy the referenced PAT from textfile][ProvidePAT]                                   |
 |      | 9.5 push finishes                                           | ![git push][GitPushDone]                                                               |
 |  10  | Switch back to Control and view Repo                        | ![New data is shown in Control][NewDataInRepo]                                         |
+
+<!-- |  6   | Clone the source repository                                 | ![clone source repository][CloneSourceRepo]                                            |
+|      | 6.1 Git Clone Command                                       | ```git clone https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp.git```          |
+|      | 6.2 check Documents folder ```ls```                         | ![list all folders in Documents][LSDocs]                                               | -->
 
 ### Setup Demo Data in Deploy
 
@@ -407,8 +438,8 @@ If no Application exists either import or create application
 [LoopHomePageCreateNewLoop]: learn/introduction/loops/media/Loop_Teamspace_07_CreateNewLoop_Home.png
 [CreateNewDialog]: learn/introduction/loops/media/Loop_Teamspace_08_CreateNewLoop_Dialog.png
 [CreateNewLoopButton]: learn/introduction/loops/media/Loop_CreateNewLoop_Button.png
-[SearchAddMember]: learn/introduction/loops/media/Loop_Teamspace_09_CreateNewLoop_searchMember.png
-[AddedMember]: learn/introduction/loops/media/Loop_Teamspace_10_CreateNewLoop_MemberAdded.png
+[SearchAddMember]: learn/introduction/loops/media/Loop_Teamspace_10_CreateNewLoop_MemberAdded.png 
+[AddedMember]: learn/introduction/loops/media/Loop_Teamspace_09_CreateNewLoop_searchMember.png
 
 [CreateButton]: learn/introduction/loops/media/Loop_CreateNewLoop_Button.png
 [LoopCreation]: learn/introduction/loops/media/Loop_Teamspace_11_CreateNewLoop_creation.png
@@ -554,3 +585,13 @@ If no Application exists either import or create application
 [FileComp_Echo]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Echo.json
 [FileComp_Logic]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Logic.json
 [FileApp_NoComps]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/App_EchoLogic_NoComponents.json
+[ButtonAdd]: media/Button_ADD.jpg
+[URLDemoAppLatestVersion]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/releases/latest
+[AssetsSection]: media/Desktop_EchoLogicDemoApp_LatestVersion_Assets.png
+[LatestVersionView]: media/Desktop_EchoLogicDemoApp_LatestVersion_View.png
+[LatestVersionZip]: media/Desktop_EchoLogicDemoApp_LatestVersion_SourceCodeZip.png
+[DownloadToFolder]: media/Desktop_Browser_SaveToDownloads.png
+[BrowserDLIcon]: media/Desktop_Browser_DownloadsIcon.png
+[BrowserDLdFile]: media/Desktop_Browser_DownloadsOpenFile.png
+[DLwithUnzippedFile]: media/Desktop_Downloads_EchoLogicDemoAppZip.png
+[DLPlanFolder]: media/Desktop_Downloads_EchoLogicAppZip_Plan_folder.png
