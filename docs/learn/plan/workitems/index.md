@@ -10,19 +10,19 @@ TODO: More about Work Items
 
 ### From [Board](../boards/index.md#project-board)
 
-- [Open Work items View](../boards/index.md#work-items)
+- [Open Work items View][REFBoardWIview]
 - ![Board workitems][BoardWorkItems]
 
 ### From [Query](../queries/index.md)
 
-- Use existing [Public or Personal Queries](../queries/index.md#public-and-personal-queries) to list Work items.
-- Or create a new [Personal Query](../queries/index.md#create-new-personal-query) with your personal filters.
+- Use existing [Public or Personal Queries][REFQueriesUseExisting] to list Work items.
+- Or create a new [Personal Query][REFQueriesCreateNew] with your personal filters.
 
 ## Show Workitem Details
 
 If you are viewing a Work Item in the Right Sidebar, click on the **Link with Work Item Number**
 
-![Link with WI Number to open full detail](media/Plan_WI_Link_open_Detail.png)
+![Link with WI Number to open full detail][WIuseLinkWithNumber]
 
 to open the full Details View.
 
@@ -77,3 +77,7 @@ click on the **Generate** button ![Generate Button][ButtonGenerateAIText]
 [WIExploratoryTestCreated]: media/Plan_WI_Exploratory_Generated.png
 
 [BoardWorkItems]: ../boards/media/Plan_ProjectBoard_WorkItems.png
+[REFBoardWIview]: ../boards/index.md#work-items
+[REFQueriesUseExisting]: ../queries/index.md#public-and-personal-queries
+[REFQueriesCreateNew]: ../queries/index.md#create-new-personal-query
+[WIuseLinkWithNumber]: media/Plan_WI_Link_open_Detail.png
