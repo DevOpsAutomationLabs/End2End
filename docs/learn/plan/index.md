@@ -75,11 +75,31 @@ This view provides the used record types, fields, transition matrizes and more.
 
 ## AI Assistant
 
+### AI Assistant integration setup
+
+![Sidebar Configuration Integration][PlanSidebarConfigIntegration]
+
+![Integrations View][PlanIntegrationsView]
+
+![New Integration Button][ButtonNewIntegration]
+
+![New Integration Dialog 1][NewIntegrationDialog]
+
+![New Integration Dialog 2][NewIntegrationDialogAIProvider]
+
+![New Integration created][NewIntegrationCreated]
+
+Check Member Access
+
+![Sidebar Profile Member Access][PlanSidebarProfileMemberAccess]
+
+![View Member Acces][MemberAccessView]
+
+### AI Assistant Chat Dialog
+
 Select the AI Assistant Icon ![AI Assistant Icon][PlanAIIcon] from the Sidebar ![Sidebar][PlanSidebar]
 
 Accept the terms of service ![Accept Terms][AcceptTerms]
-
-### AI Assistant Chat Dialog
 
 The AI Assistant Chat Dialog opens ![AI Assistant Dialog][AIAssistantDialog]
 
@@ -181,3 +201,11 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [GoToWorkWithQueries]: queries/index.md
 
 [WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png
+[PlanSidebarConfigIntegration]: media/Plan_Sidebar_Config_Integrations.png
+[PlanIntegrationsView]: media/Plan_IntegrationsView.png
+[ButtonNewIntegration]: media/Plan_Integration_New_Button.png
+[NewIntegrationDialog]: media/Plan_Integration_New_Dialog1.png
+[NewIntegrationDialogAIProvider]: media/Plan_Integration_New_Dialog2.png
+[NewIntegrationCreated]: media/Plan_Integration_New_created.png
+[PlanSidebarProfileMemberAccess]: media/Plan_Profile_MemberAccess.png
+[MemberAccessView]: media/Plan_MemberAccess_View.png

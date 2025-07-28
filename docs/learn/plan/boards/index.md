@@ -50,6 +50,11 @@ By clicking on the **Link** in the **SCM Event Details** Section of the new view
 #### Use AI in WorkItem
 
 TODO: Use Plan Genie to create description and explorative test information (need screenshots or animated gif)
+<blockquote>
+<p><strong>NOTE:</strong>If not integration has been configured, please follow the AI Assistant setup</p>
+</blockquote>
+
+**[AI Assistant Setup][AIAssistantSetup]**
 
 ### Filter Projects
 
@@ -96,3 +101,4 @@ Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOver
 [BoardShowSprintBoard]: media/Plan_ProjectBoard_SprintBoard.png
 [BoardShowSprintBacklog]: media/Plan_ProjectBoard_SprintBacklog.png
 [PlanShowSCMEntryDetails]: ../media/Plan_Show_SCM_Entry_Details.png
+[AIAssistantSetup]: ../index.md#ai-assistant-integration-setup
