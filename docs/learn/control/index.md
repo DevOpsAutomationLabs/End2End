@@ -61,7 +61,7 @@ If you want to create a fresh new repository or migrate an existing repository t
 
 ![New Button][ControlNewRepoButton]
 
-## User provide and Access Token
+## Access Token
 
 For external use of the repositories you need to provide an Access Token, for example to be able to clone and push changes to it.
 
@@ -83,6 +83,30 @@ Press Generate Token and **SAVE your newly created Token**:
 ![AccessToken][ControlAccessToken]
 
 ## Explore Control
+
+### Open repo with VSCode
+
+Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menue.
+
+![Code Button Expanded][ButtonCodeExpanded]
+
+Click on **Open with VSCode** ![open with vscode][OpenWithVSCode]
+
+In the following **Dialog Window** allow to open Link
+
+![Allow to open VSCode by link][AllowToOpenVSCode]
+
+VSCode will ask you for a location to clone the folder
+
+![Target Folder for cloning][SelectTargetFolderforCloning]
+
+VSCode will ask for Control Userid, enter **demo@devops.loop**
+
+![Code asking for Userid][CodeEnterUserID]
+
+VSCode will ask for Control Token, enter your **Access Token** you created in the [Access Token Section](access-token)
+
+![Code asking for Password or Token][CodeEnterPAT]
 
 ### Show Git Commit Details
 
@@ -121,3 +145,10 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [ControlShowGitCommitDetails]: media/CONTROL_ShowGitCommit.png
 [ControlShowLastCommit]: media/CONTROL_ShowLastCommit.png
 [ControlListPullrequestsIcon]: media/Control_SidebarPull.png
+[ButtonCode]: media/Control_CodeButton.png
+[ButtonCodeExpanded]: media/Control_CodeButtonExpanded.png
+[OpenWithVSCode]: media/Control_Open_with_VSCode.png
+[AllowToOpenVSCode]: media/Control_AllowOpenVSCode.png
+[SelectTargetFolderforCloning]: ../code/media/Code_VSCode_clone_targetfolder.png
+[CodeEnterUserID]: ../code/media/Code_VSCode_enterGitUser.png
+[CodeEnterPAT]: ../code/media/Code_VSCode_Enter_PAT.png

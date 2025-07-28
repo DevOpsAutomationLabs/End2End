@@ -11,11 +11,11 @@ TODO: add here more about Code
 
 You can switch to Code by either pressing "Let's go to Code" button on its tile:
 
-![Code Tile lets go](../introduction/media/Loop_switch_to_Code.png)
+![Code Tile lets go][CodeTile]
 
 Or you can always switch using the central app switcher on the top left of your screen:
 
-![Central App Switcher](../introduction/media/Loop_central_app_control.png)
+![Central App Switcher][AppSwitcher]
 
 Note: it takes a few seconds till your environment is setup and running, please be patient.
 
@@ -25,14 +25,16 @@ Note: it takes a few seconds till your environment is setup and running, please 
 <p><strong>NOTE:</strong> To showcase WCAx you need to use external VSCode as DevOps CODE in actual version does not have WCAx available. Will be provided in next releases.</p>
 </blockquote>
 
+[Open the repository with VSCode from Control Repo view][REFControlOpenWithVSCode]
+
 ### WatsonX Code Assistant
 
-![Explain code part 2](media/CODE_WCAx_Explain1.png)
-![Explain code part 2](media/CODE_WCAx_Explain2.png)
+![Explain code part 2][WCAxExplain1]
+![Explain code part 2][WCAExplain2]
 
 ### Commit Code with WI
 
-![Commit Code with WI](media/CODE_CommitWithWI.png)
+![Commit Code with WI][CommitWithWI]
 
 ---
 <!-- 
@@ -148,3 +150,9 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [GoBackToDemoOverview]: ../index.md
 [GoBackToParentIndex]: ../index.md#code
 [NextLab]: ../index.md#build
+[CodeTile]: ../introduction/media/Loop_switch_to_Code.png
+[AppSwitcher]: ../introduction/media/Loop_central_app_control.png
+[WCAxExplain1]: media/CODE_WCAx_Explain1.png
+[WCAExplain2]: media/CODE_WCAx_Explain2.png
+[CommitWithWI]: media/CODE_CommitWithWI.png
+[REFControlOpenWithVSCode]: ../control/index.md#open-repo-with-vscode

@@ -1,8 +1,8 @@
 # Demo Flow
 
-![Demo Flow](media/demoflow.png)
+![Demo Flow][ChartFlowOfDemo]
 
-## [Loop](introduction/index.md)
+## [Loop](learn/introduction/index.md)
 
 | Step | Details                                                                                                       | Additional Information                |
 |:----:|:--------------------------------------------------------------------------------------------------------------|:--------------------------------------|
@@ -18,7 +18,7 @@
 |      | Cycle Time: In general, cycle-time reflects the time project elements take to resolve or complete             | ![Cycle Time][CycleTime]              |
 |      | Find out more about [DORA Metrics here](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-dora) |                                       |
 
-## [Plan](plan/index.md)
+## [Plan](learn/plan/index.md)
 
 ### Plan Overview
 
@@ -42,7 +42,7 @@
 
 | Step | Details                                                                                    | Additional Information                                     |
 |:----:|:-------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
-|  1   | [More about AI Assistant][PlanAI]                                                             |                                                            |
+|  1   | [More about AI Assistant][PlanAI]                                                          |                                                            |
 |  2   | Select the AI Assistant Icon ![AI Assistant Icon][PlanAIIcon] from the Sidebar             | ![Sidebar][PlanSidebar]                                    |
 |  3   | Accept the Terms of Service                                                                | ![Accept Terms][AcceptTerms]                               |
 |  4   | [The AI Assistant Chat Dialog opens][AIChatDialog]                                         | ![AI Assistant Dialog][AIAssistantDialog]                  |
@@ -66,18 +66,30 @@
 
 <!-- [Open a workitem and use AI to create description and exploratory test information](plan/boards/index.md#use-ai-in-workitem) -->
 
-## [Code](code/index.md)
+## [Control - Work with Repository](learn/control/index.md#open-repo-with-vscode)
+
+| Step | Details                                                                               | Additional Information                                     |
+|:----:|:--------------------------------------------------------------------------------------|:-----------------------------------------------------------|
+|      | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menue. | ![Code Button Expanded][ButtonCodeExpanded]                |
+|      | Click on **Open with VSCode**                                                         | ![open with vscode][OpenWithVSCode]                        |
+|      | In the following **Dialog Window** allow to open Link                                 | ![Allow to open VSCode by link][AllowToOpenVSCode]         |
+|      | VSCode will ask you for a location to clone the folder                                | ![Target Folder for cloning][SelectTargetFolderforCloning] |
+|      | VSCode will ask for Control Userid, enter **demo@devops.loop**                        | ![Code asking for Userid][CodeEnterUserID]                 |
+|      | VSCode will ask for Control Token, enter your **Access Token**                        | ![Code asking for Password or Token][CodeEnterPAT]         |
+|      | which you created in the [Access Token Section](access-token)                         |                                                            |
+
+## [Code](learn/code/index.md)
 
 | Step | Details                                                                     | Additional Information                                    |
 |:----:|:----------------------------------------------------------------------------|:----------------------------------------------------------|
-|  1   | Explain that we showed the link between a work item and the code in control |                                                           |
-|  2   | [Now open CODE][CODEopen]                                                   | **TODO: use VScode for now, Switch to DevOps Code later** |
-|  3   | [Use WCA to explain code and generate some new code][CODEWcaX]              | ![Explain code part 1][WcaXexplain1]                      |
+|      | Explain that we showed the link between a work item and the code in control |                                                           |
+|      | [Switch to CODE][CODEopen] if it is not visible  | **NOTE: use VScode for now, Switch to DevOps Code later when WCAx is integrated** |
+|      | [Use WCA to explain code and generate some new code][CODEWcaX]              | ![Explain code part 1][WcaXexplain1]                      |
 |      |                                                                             | ![Explain code part 2][WcaXexplain2]                      |
-|  4   | [Push code and add comment with work item number][CODEcommitWI]             | ![Commit Code with WI][CodeWithWIcommit]                  |
-|  5   | [Open Control and show the update](#control)                                |                                                           |
+|      | [Push code and add comment with work item number][CODEcommitWI]             | ![Commit Code with WI][CodeWithWIcommit]                  |
+|      | [Open Control and show the update](#control)                                |                                                           |
 
-## [Control](control/index.md)
+## [Control](learn/control/index.md)
 
 | Step | Details                                                                       | Additional Information                                  |
 |:----:|:------------------------------------------------------------------------------|:--------------------------------------------------------|
@@ -85,7 +97,7 @@
 |  2   | [Show the Update][ControlShowUpdate] in the activity report of the repository | ![Show Last Commit][ControlShowLastCommit]              |
 |  3   | Git Commit Details                                                            | ![CONTROL - Show Git Commit Details][ControlShowCommit] |
 
-## [Build](build/index.md)
+## [Build](learn/build/index.md)
 
 | Step | Details                                                             | Additional Information                                             |
 |:----:|:--------------------------------------------------------------------|:-------------------------------------------------------------------|
@@ -97,7 +109,7 @@
 |      | [Show Build Template Definition][BuildShowTemplateDefinition]       | ![Templates - Process Definition][BuildProcessTemplatesDefinition] |
 |      |                                                                     |                                                                    |
 
-## [Deploy](deploy/index.md)
+## [Deploy](learn/deploy/index.md)
 
 ### Deploy Overview
 
@@ -163,7 +175,7 @@
 |  6   | An Installation Confirmation Dialog will pop up, click here on **Confirm** to proceed                                                       | ![Plugin Installation Confirmation][DeployInstallPluginConfirmation] |
 |  7   | Installation is Successfull Notification                                                                                                    | ![Plugin Installation Successfull][DeployPluginInstallSuccess]       |
 
-## [Test](test/index.md)
+## [Test](learn/test/index.md)
 
 | Step | Details                                                                 | Additional Information |
 |:----:|:------------------------------------------------------------------------|:-----------------------|
@@ -178,7 +190,7 @@
 |      | Create a defect in Plan and show that is has all the data automatically |                        |
 |      | Explain that everything is traceabl                                     |                        |
 
-## [Measure](measure/index.md)
+## [Measure](learn/measure/index.md)
 
 | Step | Details                                                                                                                  | Additional Information |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------|:-----------------------|
@@ -191,7 +203,7 @@
 |      | Show the audit information of a dot                                                                                      |                        |
 |      | Show the swimlane view.                                                                                                  |                        |
 
-## [Release](release/index.md)
+## [Release](learn/release/index.md)
 
 | Step | Details                                                                                                                                    | Additional Information                      |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------|
@@ -355,3 +367,12 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
 [LoopHomePage]: learn/introduction/index.md#the-home-page
 [IntroductionAboutBoxSidebarPlugins]: learn/introduction/intro/index.md
+[ChartFlowOfDemo]: media/demoflow.png
+
+[ButtonCode]: learn/control/media/Control_CodeButton.png
+[ButtonCodeExpanded]: learn/control/media/Control_CodeButtonExpanded.png
+[OpenWithVSCode]: learn/control/media/Control_Open_with_VSCode.png
+[AllowToOpenVSCode]: learn/control/media/Control_AllowOpenVSCode.png
+[SelectTargetFolderforCloning]: learn/code/media/Code_VSCode_clone_targetfolder.png
+[CodeEnterUserID]: learn/code/media/Code_VSCode_enterGitUser.png
+[CodeEnterPAT]: learn/code/media/Code_VSCode_Enter_PAT.png
