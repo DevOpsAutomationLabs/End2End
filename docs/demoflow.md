@@ -42,7 +42,7 @@
 
 | Step | Details                                                                                    | Additional Information                                     |
 |:----:|:-------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
-|  1   | [Use the AI Assistant][PlanAI]                                                             |                                                            |
+|  1   | [More about AI Assistant][PlanAI]                                                             |                                                            |
 |  2   | Select the AI Assistant Icon ![AI Assistant Icon][PlanAIIcon] from the Sidebar             | ![Sidebar][PlanSidebar]                                    |
 |  3   | Accept the Terms of Service                                                                | ![Accept Terms][AcceptTerms]                               |
 |  4   | [The AI Assistant Chat Dialog opens][AIChatDialog]                                         | ![AI Assistant Dialog][AIAssistantDialog]                  |
