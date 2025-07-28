@@ -22,21 +22,21 @@
 
 ### Plan Overview
 
-| Step | Details                                                                                                 | Additional Information                                  |
-|:----:|:--------------------------------------------------------------------------------------------------------|:--------------------------------------------------------|
-|  1   | [Open Plan][PLANopen]                                                                                   |                                                         |
-|      | You can switch to Plan by either pressing "Let's go to Plan" button on its tile                         | ![Plan Tile lets go][PlanTile]                          |
-|      | Or you can always switch using the central app switcher on the top left of your screen                  | ![Central App Switcher][AppSwitcher]                    |
-|  2   | [Show My board][ShowMyBoard]                                                                            |                                                         |
-|      | To open the board use the Project Board icon ![Board Icon in sidebar][ProjectBoardsIcon] on the sidebar | ![sidebar][SidebarBoardIcon]                            |
-|      | The initial view is your My Board view which will show worktitems that are assigned to you              | ![myWork Board][MyWorkBoard]                            |
-|  3   | [Show how to filter out Epics][HowToFilter]                                                             | ![Board filter][FilterBar]                              |
-|  4   | [Show all work items][WorkItems]                                                                        | ![Board workitems][ProjectBoardWorkItems]               |
-|  5   | [Select and Show the details of a work item][SelectWorkItem]                                            | ![Select WorkItem from Board][BoardSelectWorkItem]      |
-|      |                                                                                                         | ![Show Workitem Details][BoardShowWorkItemDetail]       |
-|  6   | [Show the link between work item to code and explain how easy it is to have traceability][ShowCommit]   |                                                         |
-|      |                                                                                                         | ![PLAN - Show Control/Git Commit Link][PlanShowCommit]  |
-|      |                                                                                                         | ![CONTROL - Show Git Commit Details][ControlShowCommit] |
+| Step | Details                                                                                                 | Additional Information                                   |
+|:----:|:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------|
+|  1   | [Open Plan][PLANopen]                                                                                   |                                                          |
+|      | You can switch to Plan by either pressing "Let's go to Plan" button on its tile                         | ![Plan Tile lets go][PlanTile]                           |
+|      | Or you can always switch using the central app switcher on the top left of your screen                  | ![Central App Switcher][AppSwitcher]                     |
+|  2   | [Show My board][ShowMyBoard]                                                                            |                                                          |
+|      | To open the board use the Project Board icon ![Board Icon in sidebar][ProjectBoardsIcon] on the sidebar | ![sidebar][SidebarBoardIcon]                             |
+|      | The initial view is your My Board view which will show worktitems that are assigned to you              | ![myWork Board][MyWorkBoard]                             |
+|  3   | [Show how to filter out Epics][HowToFilter]                                                             | ![Board filter][FilterBar]                               |
+|  4   | [Show all work items][WorkItems]                                                                        | ![Board workitems][ProjectBoardWorkItems]                |
+|  5   | [Select and Show the details of a work item][SelectWorkItem]                                            | ![Select WorkItem from Board][BoardSelectWorkItem]       |
+|      |                                                                                                         | ![Show Workitem Details][BoardShowWorkItemDetail]        |
+|  6   | [Scroll down to show SCM Events Section and click on it][ShowCommit]                                    | ![PLAN - Show Control/Git Commit Link][PlanShowCommit]   |
+|      | Click on the first entry to show the link between work item to code changes                             | ![PLAN - Show SCM commit entry][PlanShowSCMEntryDetails] |
+|      | and explain how easy it is to have traceability                                                         | ![CONTROL - Show Git Commit Details][ControlShowCommit]  |
 
 ### Use Plan AI Assistant
 
@@ -105,7 +105,7 @@
 |:----:|:--------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|
 |  1   | [Open Deploy][DeployOpen]                                                                               |                                                                       |
 |      | by [Using the ‘What would you like to do today’ and select Deploy][DeployWWYLTT]                        | ![WWYLTT?][WhatWouldYouLikeToDoToday]                                 |
-|  2   | [Show the landing page and explain the metrics][DeployShowLandingPage]                                  | ![DeployLandingPage][DeployDashboard]                                  |
+|  2   | [Show the landing page and explain the metrics][DeployShowLandingPage]                                  | ![DeployLandingPage][DeployDashboard]                                 |
 |  3   | [Show process (components, app)][DeployShowProcesses]                                                   |                                                                       |
 |  4   | Component Process                                                                                       | ![component processes][DeployComponentWithProcesses]                  |
 |  5   | You can either create a [new process][DeployShowProcessDesigner]                                        | ![Create new Process Button][DeployComponentCreateNewProcessButton]   |
@@ -256,6 +256,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [BoardShowWorkItemDetail]: learn/plan/boards/media/PLAN_Board_ShowWI_Detail.png
 [ShowCommit]: learn/plan/boards/index.md#show-commit
 [PlanShowCommit]: learn/plan/media/PLAN_Show_GitCommit.png
+[PlanShowSCMEntryDetails]: learn/plan/media/Plan_Show_SCM_Entry_Details.png
 [ControlShowCommit]: learn/control/media/CONTROL_ShowGitCommit.png
 [PlanAI]: learn/plan/index.md#ai-assistant
 [PlanAIIcon]: learn/plan/media/PLAN_AI_assistant_Icon.png

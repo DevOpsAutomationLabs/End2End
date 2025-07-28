@@ -10,30 +10,40 @@ TODO: add more text here
 
 To open the board use the Project Board icon ![Board Icon in sidebar][SideBarBoardIcon] on the Sidebar ![sidebar][SideBar].
 
-The initial view is your My Board view which will show worktitems that are assigned to you. As we newly started the board is empty.
+The initial view is your My Board view which will show worktitems that are assigned to you. As we newly started the board may be empty.
 ![myWork Board][BoardMyBoardwithoneentry]
 
 TODO: Show the board with data and expain what it is good for and how to use it
 
 ### Work Items
 
+Click on the **Work Items** Tab to view all Work Items (WI) of the project.
+
 - ![Board workitems][BoardWorkItems]
 
 #### Select Workitem
 
+Let's view a Work Item and it's Details. Please select item in the **Closed** column of the board.
+
 - ![Select WorkItem from Board][BoardSelectWI]
 
-#### Show Workitem Details
+##### Show Workitem Details
+
+Click on the Work Item Number (**EchoL00000004**) to view the Details.
 
 - ![Show Workitem Details][BoardShowWIDetail]
 
-#### Show Commit
+##### Show Commit
 
-Switch to Sourcecontrol section and show the commit link:
+To view the details of commits (from source control systems like DevOps Control) scroll down in the Work Item Detail View and click on **SCM Events** section.
 
 ![PLAN - Show Control/Git Commit Link][PlanShowCommit]
 
-[Open Control][OpenControl] to see the link to the workitem:
+Click on the first entry to view more detail about the commit.
+
+![PLAN - Show SCM commit entry][PlanShowSCMEntryDetails]
+
+By clicking on the **Link** in the **SCM Event Details** Section of the new view, [Control][OpenControl] is opened and the commit details are shown.
 
 ![CONTROL - Show Git Commit Details][ControlShowCommit]
 
@@ -85,3 +95,4 @@ Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOver
 [BoardShowReleases]: media/Plan_ProjectBoard_Releases.png
 [BoardShowSprintBoard]: media/Plan_ProjectBoard_SprintBoard.png
 [BoardShowSprintBacklog]: media/Plan_ProjectBoard_SprintBacklog.png
+[PlanShowSCMEntryDetails]: ../media/Plan_Show_SCM_Entry_Details.png
