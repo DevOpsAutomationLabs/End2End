@@ -38,7 +38,7 @@ Go back to [Introduction][GoBackToParentIndex] or [Lab and Demo Overview][GoBack
 [LoopHome]: media/Loop_Teamspace_07_CreateNewLoop_Home.png
 [CreateNewDialog]: media/Loop_Teamspace_08_CreateNewLoop_Dialog.png
 [CreateNewLoopButton]: media/Loop_CreateNewLoop_Button.png
-[NextButton]: ../../media/Button_NEXT.png
+[NextButton]: ../../../media/Button_NEXT.png
 [SearchAddMember]: media/Loop_Teamspace_09_CreateNewLoop_searchMember.png
 [AddedMember]: media/Loop_Teamspace_10_CreateNewLoop_MemberAdded.png
 [CreateButton]: media/Loop_CreateNewLoop_Button.png

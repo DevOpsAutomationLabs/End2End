@@ -104,7 +104,7 @@ VSCode will ask for Control Userid, enter **demo@devops.loop**
 
 ![Code asking for Userid][CodeEnterUserID]
 
-VSCode will ask for Control Token, enter your **Access Token** you created in the [Access Token Section](access-token)
+VSCode will ask for Control Token, enter your **Access Token** you created in the [Access Token Section](#access-token)
 
 ![Code asking for Password or Token][CodeEnterPAT]
 

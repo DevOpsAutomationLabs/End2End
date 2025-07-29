@@ -132,7 +132,7 @@ TODO: get more information which environment to use and how to use the "Frontend
 
 | Step | Details                                                                   | Additional Information                                         |
 |:----:|:--------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | Switch to [Control](control/index.md)                                     |                                                                |
+|  1   | Switch to [Control][SwitchToControl]                                     |                                                                |
 |      | 1.1 by either pressing "Let's go to Control" button on its tile           | ![Control Tile lets go][ControlTile]                           |
 |      | 1.2 by using the central app switcher on the top left of your screen      | ![Central App Switcher][AppSwitcher]                           |
 |      | 1.3 by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
@@ -167,7 +167,7 @@ TODO: get more information which environment to use and how to use the "Frontend
 |  4   | The target repository is cloned                             | ![Target Repo is cloned][TargetRepoCloned]                                             |
 |      | 4.1 check the folder with ```ls EchoLogic```                | ![Target Repo is empty][TargetRepoEmpty]                                               |
 |  5   | If needed Getting back to Documents                         | ```cd&cd Documents```                                                                  |
-|  6 | 
+|  6 | | |
 |  7   | Copy some folders and files from Source Repo to Target Repo | ![copy from source to target][CopyData]                                                |
 |      | 7.1 Copy docs folder                                        | ```cp -r EchoLogic_DemoApp/docs EchoLogic/```                                          |
 |      | 7.2 Copy files folder                                       | ```cp -r EchoLogic_DemoApp/files EchoLogic/```                                         |
@@ -438,7 +438,7 @@ If no Application exists either import or create application
 [LoopHomePageCreateNewLoop]: learn/introduction/loops/media/Loop_Teamspace_07_CreateNewLoop_Home.png
 [CreateNewDialog]: learn/introduction/loops/media/Loop_Teamspace_08_CreateNewLoop_Dialog.png
 [CreateNewLoopButton]: learn/introduction/loops/media/Loop_CreateNewLoop_Button.png
-[SearchAddMember]: learn/introduction/loops/media/Loop_Teamspace_10_CreateNewLoop_MemberAdded.png 
+[SearchAddMember]: learn/introduction/loops/media/Loop_Teamspace_10_CreateNewLoop_MemberAdded.png
 [AddedMember]: learn/introduction/loops/media/Loop_Teamspace_09_CreateNewLoop_searchMember.png
 
 [CreateButton]: learn/introduction/loops/media/Loop_CreateNewLoop_Button.png
@@ -464,9 +464,7 @@ If no Application exists either import or create application
 [ImportStarts]: learn/plan/setup/media/PLAN_Import_started.png
 [ImportRunningWithDetails]: learn/plan/setup/media/PLAN_Import_running.png
 [ImportClose]: learn/plan/setup/media/PLAN_Import_Close_dialog.png
-[EchoLogicZIPFile]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/plan/EchoLogic.zip
 [ImportFinished]: learn/plan/setup/media/PLAN_Import_finished.png
-[DownloadDemoDataFile]: learn/plan/setup/media/Download_PlanDemoDataFile.png
 
 [AppPage]: learn/plan/media/Plan_Applications_Page.png
 [PlanWelcomeScreen]: learn/plan/media/Plan_welcome_screen.png
@@ -491,8 +489,6 @@ If no Application exists either import or create application
 [ProvidePAT]: learn/control/media/Terminal_3_clone_target_repo3.png
 [TargetRepoCloned]: learn/control/media/Terminal_3_clone_target_repo4_cloned.png
 [TargetRepoEmpty]: learn/control/media/Terminal_3_clone_target_repo5_empty.png
-[CloneSourceRepo]: learn/control/media/Terminal_4_clone_source_repo1.png
-[LSDocs]: learn/control/media/Terminal_4_clone_source_repo2.png
 [CopyData]: learn/control/media/Terminal_5_copy_to_target.png
 [LSTargetRepo]: learn/control/media/Terminal_6_target_new_data.png
 [GitAddCommit]: learn/control/media/Terminal_7_git_add_commit.png
@@ -579,8 +575,8 @@ If no Application exists either import or create application
 [ENVAddResDialog]: learn/deploy/applications/media/Deploy_Env_AddRes_Dialog.png
 [EnvAddResSelected]: learn/deploy/applications/media/Deploy_Env_AddRes_Selected.png
 [SwitchToRes]: learn/deploy/resources/index.md
-[SwitchToDeploy]: deploy/index.md
-[SwitchToPlan]: plan/index.md
+[SwitchToDeploy]: learn/deploy/index.md
+[SwitchToPlan]: learn/plan/index.md
 [FileApp_Processes]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/App_Processes.json
 [FileComp_Echo]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Echo.json
 [FileComp_Logic]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Logic.json
@@ -595,3 +591,4 @@ If no Application exists either import or create application
 [BrowserDLdFile]: media/Desktop_Browser_DownloadsOpenFile.png
 [DLwithUnzippedFile]: media/Desktop_Downloads_EchoLogicDemoAppZip.png
 [DLPlanFolder]: media/Desktop_Downloads_EchoLogicAppZip_Plan_folder.png
+[SwitchToControl]: learn/control/index.md

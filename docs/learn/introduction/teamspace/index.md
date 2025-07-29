@@ -8,6 +8,8 @@ _**What are Teamspaces**_
 
 ## Create new Teamspace
 
+--8<-- [start:CreateNewTS]
+
 | Step | Details                                                                                           | Additional Information                                                  |
 |:----:|:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
 |  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon] to view your Teamspaces or create a new one | ![Teamspace menue][TSMenue]                                             |
@@ -18,6 +20,8 @@ _**What are Teamspaces**_
 |  4   | Press **Create** to proceed                                                                       | ![Create TeamSpace Button][TSCreateButton]                              |
 |  5   | Teamspace creation will take a few moments, as soon as it finishes a success dialog will be shown | ![Teamspace - Create New - creation process started][TSCreationStarted] |
 |  6   | Teamspace created. Click on **Go to Teamspace** for next steps                                    | ![Teamspace - Create New - creation successfull][TSCreateionFinished]   |
+
+--8<-- [end:CreateNewTS]
 
 Please proceed with [creating a Loop][GoBackToCreateALoop]
 
@@ -41,5 +45,5 @@ Go back to [Introduction][GoBackToParentIndex] or [Lab and Demo Overview][GoBack
 [TSIcon]: media/Loop_TeamSpaceIcon.png
 [TSCreateTSentry]: media/Loop_CreateTeamSpace.png
 [TSCreateButton]: media/Loop_Create_TS_Button.png
-[NextButton]: ../../media/Button_NEXT.png
+[NextButton]: ../../../media/Button_NEXT.png
 [GoBackToCreateALoop]: ../index.md#create-a-loop

@@ -99,7 +99,7 @@
 ---
 
 [SBApplicationsIcon]: ../media/Deploy_Sidebar_AppIcon.jpg
-[SBApplicationsText]: ../media/Deploy_SideBar_AppIconWithText.png
+[SBApplicationsText]: ../media/Deploy_Sidebar_AppIconWithText.png
 [APPSallView]: media/Deploy_Applications_View.png
 [AppView]: media/Deploy_Application_View.png
 [AppProcessesTab]: media/Deploy_Application_ProcessesTab.png

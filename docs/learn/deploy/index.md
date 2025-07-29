@@ -353,8 +353,8 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [DeployProcessDesignerAddStepp]: media/DEPLOY_Component_Process_AddStep.png
 [DeployProcessDesignerStepProperties1]: media/DEPLOY_Component_Process_Step_Properties1.png
 [DeployProcessDesignerStepProperties2]: media/DEPLOY_Component_Process_Step_Properties2.png
-[DeployComponentProcessesListEmpty]: media/DEPLOY_Component_Processlist.png
-[DeployComponentProcessesList]: media/DEPLOY_Component_WithProcesslist.png
+[DeployComponentProcessesListEmpty]: media/DEPLOY_Component_ProcessList.png
+[DeployComponentProcessesList]: media/DEPLOY_Component_WithProcessList.png
 [DeployComponentCreateNewProcessButton]: media/DEPLOY_Component_CreateProcessButton.png
 [DeployComponentCreateProcessDialog]: media/DEPLOY_Component_CreateProcessDialog.png
 [DeployProcessDesignerStepShellScript1]: media/DEPLOY_Component_Process_Step_ShellScript1.png

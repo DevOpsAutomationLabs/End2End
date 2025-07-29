@@ -80,6 +80,10 @@ When the creation of a TeamSpace is finished you will be forwarded to your empty
 
 ![Empty Loops Homepage][LoopHomePageCreateNewLoop]
 
+--8<--
+teamspace/index.md:CreateNewTS
+--8<--
+
 ### Create a Loop
 
 You need to create at least one Loop in your TeamSpace, please follow the [Instructions for creation of a new Loop][InstructionsCreateLoop]

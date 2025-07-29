@@ -161,7 +161,7 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [GoBackToParentIndex]: ../index.md#plan
 [NextLab]: ../index.md#control
 
-[AppPage]: media/Plan_Applications_page.png
+[AppPage]: media/Plan_Applications_Page.png
 [AppPageList]: newapp/media/PLAN_Tenant_AppListFinal.png
 [PlanTile]: ../introduction/media/Loop_switch_to_Plan.png
 [AppSwitcher]: ../introduction/media/Loop_central_app_control.png

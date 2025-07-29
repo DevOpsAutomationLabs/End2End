@@ -84,7 +84,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 |      | VSCode will ask you for a location to clone the folder                                | ![Target Folder for cloning][SelectTargetFolderforCloning] |
 |      | VSCode will ask for Control Userid, enter **demo@devops.loop**                        | ![Code asking for Userid][CodeEnterUserID]                 |
 |      | VSCode will ask for Control Token, enter your **Access Token**                        | ![Code asking for Password or Token][CodeEnterPAT]         |
-|      | which you created in the [Access Token Section](access-token)                         |                                                            |
+|      | which you created in the [Access Token Section][REFPATSection]                        |                                                            |
 
 ## [Code](learn/code/index.md)
 
@@ -137,30 +137,32 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ### Run a Deplyoment
 
-| Step | Details                                                                                                             | Additional Information                                                                        |
-|:----:|:--------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
-|  1   | [Run a Process and view results of steps][DeployRunaDeployment]                                                     |                                                                                               |
-|  2   | Open the Applicationslist by clicking on Applications Icon                                                          | ![Deploy Applications Button on Sidebar][DeploySidebarAppIcon]                                |
-|  3   | Select your Application by clicking on the link in the Applications List                                            | ![Deploy Application][DeployShowApp]                                                          |
-|  4   | All Environments of Application will be shown                                                                       | ![Deploy Application Environment List][DeployAppEnvList]                                      |
-|  5   | [Run a Deployment in an Environment][DeployRequestAprocess]                                                         |                                                                                               |
-|  6   | On the DEV environment click on Request Process Button: ![Request Button][DeployAppRequestProcessButton]            | ![Dev Environment][DeployAppDevEnv]                                                           |
-|  7   | Select **Deploy with Test Passed**                                                                                  | ![Run Process Dialog - Select Deployment Process][DeployAppProcessRequestSelectProcess]       |
-|  8   | Uncheck **Deploy Only Changed** to deploy same versions again                                                       | ![Run Process Dialog - uncheck Deploy Only Changed][DeployAppProcessRequestOnlyChanged]       |
-|  9   | click on **Choose Component Versions** button                                                                       | ![Run Process Dialog - Choose Versions Button][DeployAppPocessRequestChooseCompVersionButton] |
-|  10  | Select the Versions of the Components for deployment                                                                |                                                                                               |
-|  11  |                                                                                                                     | ![Run Process Dialog - Select Component Version 1][DeployAppPocessRequestSelectCompVersion1]  |
-|  12  |                                                                                                                     | ![Run Process Dialog - Select Component Version 2][DeployAppPocessRequestSelectCompVersion2]  |
-|  13  | Press the Submit button to start the deployment process                                                             | ![Submit Button][DeployAppPocessRequestSubmitButton]                                          |
-|  14  | The Deployment Process is started and you can [View the running Process][DeployViewRunningProcess]                  | ![Running Process][DeployProcessRunning]                                                      |
-|  15  | In this View the details of the executed steps are shown by clicking on **Expand All**                              | ![Expand All][DeployProcessRunningExpandAllButton]                                            |
-|  16  | To view the detailed output of a step click on **3 dots menue** of the step                                         | ![3 dots menue of step][DeployProcessRunning3DotsofStep]                                      |
-|  17  | View the output of the step                                                                                         | ![Output of Step][DeployProcessRunningStepOutputDetails]                                      |
-|  18  | When the deplyoment finishes the [Result][DeployResultofRun] will be shown                                          |                                                                                               |
-|  19  | The deployment run successfully                                                                                     | ![Deployment Success][DeployAppProcessRunSuccess]                                             |
-|  20  | [Show Environment and its new configuration][DeployResultofRun]                                                     |                                                                                               |
-|  21  | Switch to the Environment View of the Application and view the updated configuration                                | ![Environment with deployed versions of components][DeployAppEnvwithDeployedVersions]         |
-|  22  | By clicking on the Component **Echo** in this view the set Status in the Versionlist of the component will be shown | ![Status added to version][DeployComponentFinalProcesWithVersionStatus]                       |
+| Step | Details                                                                                            | Additional Information                                                                        |
+|:----:|:---------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
+|  1   | [Run a Process and view results of steps][DeployRunaDeployment]                                    |                                                                                               |
+|  2   | Open the Applicationslist by clicking on Applications Icon                                         | ![Deploy Applications Button on Sidebar][DeploySidebarAppIcon]                                |
+|  3   | Select your Application by clicking on the link in the Applications List                           | ![Deploy Application][DeployShowApp]                                                          |
+|  4   | All Environments of Application will be shown                                                      | ![Deploy Application Environment List][DeployAppEnvList]                                      |
+|  5   | [Run a Deployment in an Environment][DeployRequestAprocess]                                        |                                                                                               |
+|  6   | On the DEV environment                                                                             | ![Dev Environment][DeployAppDevEnv]                                                           |
+| 6.1  | click on Request Process Button:                                                                   | ![Request Button][DeployAppRequestProcessButton]                                              |
+|  7   | Select **Deploy with Test Passed**                                                                 | ![Run Process Dialog - Select Deployment Process][DeployAppProcessRequestSelectProcess]       |
+|  8   | Uncheck **Deploy Only Changed** to deploy same versions again                                      | ![Run Process Dialog - uncheck Deploy Only Changed][DeployAppProcessRequestOnlyChanged]       |
+|  9   | click on **Choose Component Versions** button                                                      | ![Run Process Dialog - Choose Versions Button][DeployAppPocessRequestChooseCompVersionButton] |
+|  10  | Select the Versions of the Components for deployment                                               |                                                                                               |
+|  11  |                                                                                                    | ![Run Process Dialog - Select Component Version 1][DeployAppPocessRequestSelectCompVersion1]  |
+|  12  |                                                                                                    | ![Run Process Dialog - Select Component Version 2][DeployAppPocessRequestSelectCompVersion2]  |
+|  13  | Press the Submit button to start the deployment process                                            | ![Submit Button][DeployAppPocessRequestSubmitButton]                                          |
+|  14  | The Deployment Process is started and you can [View the running Process][DeployViewRunningProcess] | ![Running Process][DeployProcessRunning]                                                      |
+|  15  | In this View the details of the executed steps are shown by clicking on **Expand All**             | ![Expand All][DeployProcessRunningExpandAllButton]                                            |
+|  16  | To view the detailed output of a step click on **3 dots menue** of the step                        | ![3 dots menue of step][DeployProcessRunning3DotsofStep]                                      |
+|  17  | View the output of the step                                                                        | ![Output of Step][DeployProcessRunningStepOutputDetails]                                      |
+|  18  | When the deplyoment finishes the [Result][DeployResultofRun] will be shown                         |                                                                                               |
+|  19  | The deployment run successfully                                                                    | ![Deployment Success][DeployAppProcessRunSuccess]                                             |
+|  20  | [Show Environment and its new configuration][DeployResultofRun]                                    |                                                                                               |
+|  21  | Switch to the Environment View of the Application and view the updated configuration               | ![Environment with deployed versions of components][DeployAppEnvwithDeployedVersions]         |
+|  22  | By clicking on the Component **Echo** in this view                                                 | ![Status added to version][DeployComponentFinalProcesWithVersionStatus]                       |
+| 22.1 | the set Status in the Versionlist of the component will be shown                                   |                                                                                               |
 
 ### Use the Deployment Genie
 
@@ -173,30 +175,58 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ### Show the Plug-Ins Page
 
-| Step | Details                                                                                                                                     | Additional Information                                               |
-|:----:|:--------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------|
-|  1   | [Show the plug-ins page and explain how easy it is to integrate with 3rd parties out of the box][DeployShowPluginsPage]                     |                                                                      |
-|  2   | Switch to Settings by using the Settings Icon                                                                                               | ![Deploy Settings Icon][DeploySettingsIcon]                          |
-|  3   | In the Settings View there is a [Section Automation to View installed and available Plugins][DeploySettingsAutomationSection]               | ![Automation Plugins][DeploySettingsAutomationPlugins]               |
-|  4   | By clicking on **Available Plugins** a list of all available Plug-Ins is shown                                                              | ![Plugin List][DeploySettingsPluginsList]                            |
-|  5   | [Install a new Plugin][DeployShowHowToInstallPlugin] by clicking on the **3 Dots Menue** [3 dots menue][DeployPlugin3DotsMenue] of a Plugin | ![Install plugin][DeployInstallPlugin]                               |
-|  6   | An Installation Confirmation Dialog will pop up, click here on **Confirm** to proceed                                                       | ![Plugin Installation Confirmation][DeployInstallPluginConfirmation] |
-|  7   | Installation is Successfull Notification                                                                                                    | ![Plugin Installation Successfull][DeployPluginInstallSuccess]       |
+| Step | Details                                                                                                                       | Additional Information                                               |
+|:----:|:------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------|
+|  1   | [Show the plug-ins page and explain how easy it is to integrate with 3rd parties out of the box][DeployShowPluginsPage]       |                                                                      |
+|  2   | Switch to Settings by using the Settings Icon                                                                                 | ![Deploy Settings Icon][DeploySettingsIcon]                          |
+|  3   | In the Settings View there is a [Section Automation to View installed and available Plugins][DeploySettingsAutomationSection] | ![Automation Plugins][DeploySettingsAutomationPlugins]               |
+|  4   | By clicking on **Available Plugins** a list of all available Plug-Ins is shown                                                | ![Plugin List][DeploySettingsPluginsList]                            |
+|  5   | [Install a new Plugin][DeployShowHowToInstallPlugin]                                                                          | ![Install plugin][DeployInstallPlugin]                               |
+| 5.1  | by clicking on the **3 Dots Menue** of a Plugin                                                                               | [3 dots menue][DeployPlugin3DotsMenue]                               |
+|  6   | An Installation Confirmation Dialog will pop up, click here on **Confirm** to proceed                                         | ![Plugin Installation Confirmation][DeployInstallPluginConfirmation] |
+|  7   | Installation is Successfull Notification                                                                                      | ![Plugin Installation Successfull][DeployPluginInstallSuccess]       |
 
 ## [Test](learn/test/index.md)
 
-| Step | Details                                                                 | Additional Information |
-|:----:|:------------------------------------------------------------------------|:-----------------------|
-|  1   | [Open Test][TestOpen]                                                   |                        |
-|      | Explain that you are now playing the role of a tester                   |                        |
-|      | Show the test landing page and metrics                                  |                        |
-|      | Run a test                                                              |                        |
-|      | Show the analysis of the test results                                   |                        |
-|      | Show how we can create or edit a test                                   |                        |
-|      | Generate test data                                                      |                        |
-|      | Run a new test that will fail                                           |                        |
-|      | Create a defect in Plan and show that is has all the data automatically |                        |
-|      | Explain that everything is traceabl                                     |                        |
+| Step | Details                                                                                                     | Additional Information                           |
+|:----:|:------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|
+|      | Explain that you are now playing the role of a tester                                                       |                                                  |
+|      | [Open Test][TestOpen]                                                                                       |                                                  |
+|      | You can switch to Test by either pressing "Let's go to Test" button on its tile                             | ![Test Tile lets go][SwitchToTest]               |
+|      | Or you can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][CentralAppSwitcher]      |
+|      | [Switch Teamspace and select Project if needed][REFSwitchTestTS]                                            |                                                  |
+|      | Should you see a different Teamspace or Project than expected (Demo and EchoLogic), click on Teamspace Icon | ![Teamspace Switcher][SwitchTestTS]              |
+|      | and Select **Demo**. A list of Projects is shown:                                                           | ![Projectlist is shown][TestPrjList]             |
+|      | click on **EchoLogic** Project to open landing page                                                         | ![Open EchoLogic Project][Projecttile]           |
+|      | Show the test landing page and metrics                                                                      | ![Test Landing Page][ProjectHomePage]            |
+|      | Run a test                                                                                                  |                                                  |
+|      | click on **Execute** Section in the Sidebar                                                                 | ![Test Exec Section][SectionExecute]             |
+|      | List of Scripts is shown                                                                                    | ![List of executable Scripts][ExecuteScriptList] |
+|      | click on **Run Button** on the right of Script **DemoTest**                                                 | ![Run Button][ButtonRun]                         |
+|      | Dialog is opened to select a Browser, use the default settings                                              | ![Select Browser][RunDialog]                     |
+|      | Click on **Execute** Button to start Test Execution                                                         | ![Execute Button][ButtonExecute]                 |
+|      | Run will take a few moments                                                                                 | ![Running Script][RunningScript]                 |
+|      | Show the analysis of the test results                                                                       |                                                  |
+|      | click on **Analyze** section in Sidebar to get list of Menue                                                | ![Analyze Section][SectionAnalyze]               |
+|      | click on **Results** to get Results View                                                                    | ![Results Overview][ResultsOverview]             |
+|      | Show how we can create or edit a test                                                                       |                                                  |
+|      | click on **Author** section on **Test Editor** menue entry                                                  | ![Test Author Section][SectionAuthor]            |
+|      | Test Editor View opens and select the **DemoTestFail** script                                               | ![Test Editor View][TestEditorView]              |
+|      | Test Script will be shown                                                                                   | ![Test Script][TestScriptEditor]                 |
+|      | click on the **verification** step to view step details                                                     | ![Step Details][TestScriptStepDetails]           |
+|      | Run a new test that will fail                                                                               |                                                  |
+|      | click on **Execute** Section in the Sidebar                                                                 | ![Test Exec Section][SectionExecute]             |
+|      | List of Scripts is shown                                                                                    | ![List of executable Scripts][ExecuteScriptList] |
+|      | click on **Run Button** on the right of Script **DemoTestFail**                                             | ![Run Button][ButtonRun]                         |
+|      | Testexecution will take a few moments.                                                                      |                                                  |
+|      | Create a defect in Plan and show that is has all the data automatically                                     |                                                  |
+|      | Switch to Results View using the **Analyze** Section menue                                                  | ![Analyze Section menue][MenueAnalyze]           |
+|      | In the **Results** View select the **DemoTestFail** run                                                     | ![Results Overview][ResultsOverview]             |
+|      | Click on **DevOps Plan** ![Create ticket icon][CreateTicketIcon] Icon on the right side of the row          | ![Failed Test][ResultsFailedTest]                |
+|      | A WorkItem creation Dialog opens, select **Workitem** in the Type field                                     | ![CreateWI][WICreatedialog]                      |
+|      | Select Project "EchoLogic",  Workitem Type "Defect" and enter a Title                                       | ![CreateWI Enter Title][WICreateDetails]         |
+|      | In the **Results** View click on the **DemoTestFail** name to get a Detailed View                           | ![Result Details with Plan Link][ResultLinked]   |
+|      | Explain that everything is traceable                                                                        |                                                  |
 
 ## [Measure](learn/measure/index.md)
 
@@ -227,7 +257,7 @@ Explain that we have covered a lot of roles and used a mixture of AI and automat
 
 | Step | Details                                                                    | Additional Information                                 |
 |:----:|:---------------------------------------------------------------------------|:-------------------------------------------------------|
-|      | [How to use Loop Genie](introduction/index.md#how-to-use-loop-genie)       |                                                        |
+|      | [How to use Loop Genie][REFUseLoopGenie]                                   |                                                        |
 |      | [Open Home Page][HomePage]                                                 |                                                        |
 |      | Open Loop Genie by clicking on its Icon on the right side of the Dashboard | ![Loop Genie Icon on Home Page][LoopHomeLoopGenieIcon] |
 |      | Loop Genie Dialog opens                                                    | ![Loop Genie Dialog][LoopGenieDialog]                  |
@@ -254,7 +284,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 
 [LoopHomeLoopGenieIcon]: learn/introduction/intro/media/LOOP_HomePage_LoopGenieButton.png
 [LoopGenieDialog]: learn/introduction/intro/media/LOOP_HomePage_LoopGenieDialog.png
-[GoBackToDemoOverview]: index.md#introduction
+[GoBackToDemoOverview]: index.md
 
 [HomePage]: learn/introduction/media/Loop_Home_Page.png
 [HomePageSideBar]: learn/introduction/media/Loop_Home_Page_SideBar.png
@@ -278,8 +308,8 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [ProjectBoardWorkItems]: learn/plan/boards/media/Plan_ProjectBoard_WorkItems.png
 [SelectWorkItem]: learn/plan/boards/index.md#select-workitem
 [BoardSelectWorkItem]: learn/plan/boards/media/PLAN_Boards_SelectWI.png
-[BoardShowWorkItemDetail]: learn/plan/boards/media/PLAN_Board_ShowWI_Detail.png
-[ShowCommit]: learn/plan/boards/index.md#show-commit
+[BoardShowWorkItemDetail]: learn/plan/workitems/media/PLAN_Board_ShowWI_Detail.png
+[ShowCommit]: learn/plan/workitems/index.md#show-commit
 [PlanShowCommit]: learn/plan/media/PLAN_Show_GitCommit.png
 [PlanShowSCMEntryDetails]: learn/plan/media/Plan_Show_SCM_Entry_Details.png
 [ControlShowCommit]: learn/control/media/CONTROL_ShowGitCommit.png
@@ -340,10 +370,10 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [DeployComponentProcessPassingTest]: learn/deploy/media/DEPLOY_ComponentProcessFinalWithPassingTest.png
 [DeployComponentProcessFailingTest]: learn/deploy/media/DEPLOY_ComponentProcessFinalWithFailingTest.png
 [DeployComponentFinalProcesWithVersionStatus]: learn/deploy/media/DEPLOY_Component_VersionList_withStatus.png
-[DeployComponentProcessesList]: learn/deploy/media/DEPLOY_Component_WithProcesslist.png
+[DeployComponentProcessesList]: learn/deploy/media/DEPLOY_Component_WithProcessList.png
 [DeployComponentCreateNewProcessButton]: learn/deploy/media/DEPLOY_Component_CreateProcessButton.png
 [DeployShowApp]: learn/deploy/media/DEPLOY_ApplicationList_ShowEcologic.png
-[DeploySidebarAppIcon]: learn/deploy/media/DEPLOY_ApplicationsButton.png
+[DeploySidebarAppIcon]: learn/deploy/media/Deploy_Sidebar_AppIcon.png
 [DeployAppEnvList]: learn/deploy/media/DEPLOY_Application_Environmentlist.png
 [DeployAppRequestProcessButton]: learn/deploy/media/DEPLOY_Application_RequestProcess.png
 [DeployAppProcessRequestSelectProcess]: learn/deploy/media/DEPLOY_Application_Runappprocessdialog1_SelectDeploymentProcess.png
@@ -368,16 +398,16 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [DeploySettingsAutomationPlugins]: learn/deploy/media/DEPLOY_Settings_AutomationSection.png
 [DeploySettingsPluginsList]: learn/deploy/media/DEPLOY_PluginsList.png
 [DeploySettingsAutomationSection]: learn/deploy/index.md#plugins
-[DeployInstallPlugin]: media/DEPLOY_Plugins_Install.png
-[DeployPlugin3DotsMenue]: media/DEPLOY_PluginList_3DotsMenue.png
+[DeployInstallPlugin]: learn/deploy/media/DEPLOY_Plugins_Install.png
+[DeployPlugin3DotsMenue]: learn/deploy/media/DEPLOY_PluginList_3DotsMenue.png
 [DeployShowHowToInstallPlugin]: learn/deploy/index.md#how-to-install-a-plugin
 [DeployInstallPluginConfirmation]: learn/deploy/media/DEPLOY_PluginInstallConfirmation.png
 [DeployPluginInstallSuccess]: learn/deploy/media/DEPLOY_PluginInstallSuccess.png
 [TestOpen]: learn/test/index.md#how-to-switch-to-test-from-home-page
 [MeasureOpen]: learn/measure/index.md#how-to-switch-to-measure-from-home-page
 [ReleaseOpen]: learn/measure/index.md#how-to-switch-to-measure-from-home-page
-[ReleaseTile]: ../introduction/media/Loop_switch_to_Release.png
-[CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
+[ReleaseTile]: learn/introduction/media/Loop_switch_to_Release.png
+[CentralAppSwitcher]: learn/introduction/media/Loop_central_app_control.png
 [LoopHomePage]: learn/introduction/index.md#the-home-page
 [IntroductionAboutBoxSidebarPlugins]: learn/introduction/intro/index.md
 [ChartFlowOfDemo]: media/demoflow.png
@@ -389,3 +419,30 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [SelectTargetFolderforCloning]: learn/code/media/Code_VSCode_clone_targetfolder.png
 [CodeEnterUserID]: learn/code/media/Code_VSCode_enterGitUser.png
 [CodeEnterPAT]: learn/code/media/Code_VSCode_Enter_PAT.png
+[REFUseLoopGenie]: learn/introduction/index.md#how-to-use-loop-genie
+[REFPATSection]: learn/control/index.md#access-token
+
+[SwitchToTest]: learn/introduction/media/Loop_switch_to_Test.png
+[SectionExecute]: learn/test/media/Test_Sidebar_ExecuteSection.png
+[ExecuteScriptList]: learn/test/media/Test_Execute_ScriptList.png
+[ButtonRun]: learn/test/media/Test_RunButton.png
+[CreateTicketIcon]: learn/test/media/Test_ResultView_FailedTest_CreateTicket.png
+[Projecttile]: learn/test/media/Test_Project_Tile.png
+[ProjectHomePage]: learn/test/media/Test_Project_Homepage.png
+[RunDialog]: learn/test/media/Test_Run_Dialog.png
+[ButtonExecute]: learn/test/media/Test_ExecuteButton.png
+[RunningScript]: learn/test/media/Test_Execute_ScriptList_runningScript.png
+[SectionAnalyze]: learn/test/media/Test_Sidebar_Analyze_Section.png
+[ResultsOverview]: learn/test/media/Test_Analyze_ResultOverview.png
+[SectionAuthor]: learn/test/media/Test_Sidebar_AuthorSection.png
+[TestEditorView]: learn/test/media/Test_TestEditor_View.png
+[TestScriptEditor]: learn/test/media/Test_TestEditor_ScriptOpened.png
+[TestScriptStepDetails]: learn/test/media/Test_TestEditor_StepDetails.png
+[MenueAnalyze]: learn/test/media/Test_Sidebar_Analyze_Menue.png
+[ResultsFailedTest]: learn/test/media/Test_ResultView_FailedTest.png
+[WICreatedialog]: learn/test/media/Test_Plan_WI_Dialog1.png
+[WICreateDetails]: learn/test/media/Test_Plan_WI_Dialog2.png
+[ResultLinked]: learn/test/media/Test_Result_Details_with_PlanLink.png
+[REFSwitchTestTS]: learn/test/index.md#switch-teamspace-and-project-if-needed
+[TestPrjList]: learn/test/media/Test_Show_ProjectList.png
+[SwitchTestTS]: learn/test/media/Test_SwitchTS.png
