@@ -39,7 +39,12 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 |      | To open the board use the Project Board icon ![Board Icon in sidebar][ProjectBoardsIcon] on the sidebar | ![sidebar][SidebarBoardIcon]                             |
 |      | The initial view is your My Board view which will show worktitems that are assigned to you              | ![myWork Board][MyWorkBoard]                             |
 |  3   | [Show how to filter out Epics][HowToFilter]                                                             | ![Board filter][FilterBar]                               |
-|  4   | [Show all work items][WorkItems]                                                                        | ![Board workitems][ProjectBoardWorkItems]                |
+| 3.1  | Uncheck **Epic** from the list of Types                                                                 | ![Uncheck Epic][FilterUncheckEpic]                       |
+| 3.2  | Click on an empty field to trigger filter                                                               |                                                          |
+| 3.3  | Filtered Board (Epics are hidden) is shown                                                              | ![Filtered Board][BoardFiltered]                         |
+| 3.4  | Clear the filter by pressing **Clear** Button                                                           | ![Clear Filter][ButtonClearFilter]                       |
+|  4   | [Show all work items][WorkItems]                                                                        |                                                          |
+| 4.1  | Click on the **Work Items** Tab to view all Work Items (WI) of the project                              | ![Board workitems][ProjectBoardWorkItems]                |
 |  5   | [Select and Show the details of a work item][SelectWorkItem]                                            | ![Select WorkItem from Board][BoardSelectWorkItem]       |
 |      |                                                                                                         | ![Show Workitem Details][BoardShowWorkItemDetail]        |
 |  6   | [Scroll down to show SCM Events Section and click on it][ShowCommit]                                    | ![PLAN - Show Control/Git Commit Link][PlanShowCommit]   |
@@ -304,15 +309,19 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [SidebarBoardIcon]: learn/plan/media/Plan_Sidebar_ProjectBoards.png
 [HowToFilter]: learn/plan/boards/index.md#filter-epics
 [FilterBar]: learn/plan/boards/media/Plan_ProjectBoard_Filterbar.png
+[ButtonClearFilter]: learn/plan/boards/media/Plan_ProjectBoard_ClearFilterButton.png
+[FilterUncheckEpic]: learn/plan/boards/media/Plan_ProjectBoard_Filterbar_UncheckEpic.png
+[BoardFiltered]: learn/plan/boards/media/Plan_ProjectBoard_WorkItemsFiltered.png
 [WorkItems]: learn/plan/boards/index.md#work-items
 [ProjectBoardWorkItems]: learn/plan/boards/media/Plan_ProjectBoard_WorkItems.png
-[SelectWorkItem]: learn/plan/boards/index.md#select-workitem
+[SelectWorkItem]: learn/plan/boards/index.md#workitem
 [BoardSelectWorkItem]: learn/plan/boards/media/PLAN_Boards_SelectWI.png
 [BoardShowWorkItemDetail]: learn/plan/workitems/media/PLAN_Board_ShowWI_Detail.png
 [ShowCommit]: learn/plan/workitems/index.md#show-commit
 [PlanShowCommit]: learn/plan/media/PLAN_Show_GitCommit.png
 [PlanShowSCMEntryDetails]: learn/plan/media/Plan_Show_SCM_Entry_Details.png
 [ControlShowCommit]: learn/control/media/CONTROL_ShowGitCommit.png
+
 [PlanAI]: learn/plan/index.md#ai-assistant
 [PlanAIIcon]: learn/plan/media/PLAN_AI_assistant_Icon.png
 [PlanSidebar]: learn/plan/media/PLAN_Sidebar.png
@@ -355,7 +364,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [BuildProcessTemplatesDefinition]: learn/build/media/BUILD_Templates_Process_Def.png
 [BuildShowTemplates]: learn/build/index.md#templates
 [BuildShowTemplateDetail]: learn/build/index.md#process-template-detail
-[BuildShowTemplateDefinition]: learn/build/index.md#media/BUILD_Templates_Process_Def.png
+[BuildShowTemplateDefinition]: learn/build/media/BUILD_Templates_Process_Def.png
 
 [DeployOpen]: learn/deploy/index.md#how-to-switch-to-deploy-from-home-page
 [DeployWWYLTT]: learn/deploy/index.md#what-would-you-like-to-do-today

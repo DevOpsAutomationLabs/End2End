@@ -41,6 +41,10 @@ Let's view a Work Item and it's Details. Please select item in the **Closed** co
 ### Filter Epics
 
 - ![Board filter][BoardFilterWITypes]
+- Uncheck **Epic** [Uncheck Epic][FilterUncheckEpic]
+- Click on an empty field to trigger filter
+- Filtered Board (Epics are hidden) is shown ![Filtered Board][BoardFiltered]
+- Clear the filter by pressing **Clear** Button ![Clear Filter][ButtonClearFilter]
 
 ### Show Releases
 
@@ -60,8 +64,8 @@ Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOver
 
 ---
 
-[GoBackToDemoOverview]: ../index.md
-[GoBackToParentIndex]: ../index.md#plan
+[GoBackToDemoOverview]: ../../index.md
+[GoBackToParentIndex]: ../index.md
 [NextLab]: ../index.md#create-and-customize-a-new-project
 
 [SideBarBoardIcon]: media/Plan_ProjectBoard_Icon.png
@@ -83,3 +87,6 @@ Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOver
 [PlanShowCommit]: ../media/PLAN_Show_GitCommit.png
 [WIExploratoryInEditMode]: ../workitems/media/Plan_WI_Exploratory_InEditMode.png
 [WIExploratoryTestCreated]: ../workitems/media/Plan_WI_Exploratory_Generated.png
+[FilterUncheckEpic]: media/Plan_ProjectBoard_Filterbar_UncheckEpic.png
+[BoardFiltered]: media/Plan_ProjectBoard_WorkItemsFiltered.png
+[ButtonClearFilter]: media/Plan_ProjectBoard_ClearFilterButton.png
