@@ -2192,15 +2192,24 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#switch-teamspace-and-project-if-needed" class="md-nav__link">
+    <span class="md-ellipsis">
+      Switch TeamSpace and Project if needed
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
+  <a href="#steps" class="md-nav__link">
     <span class="md-ellipsis">
-      Configuration
+      Steps
     </span>
   </a>
   
@@ -2256,8 +2265,6 @@
 
 
 <h1 id="test">Test</h1>
-<p>TODO: update flow, app references and screenshots
-<em><strong>TODO: update flow, app references from PIZZA to EchoLogic and screenshots</strong></em></p>
 <p>This lab will provide you with a practical hands-on of our testing capabilities. You can click on the main menu and navigate to the DevOps test.</p>
 <h2 id="overview">Overview</h2>
 <h3 id="how-to-switch-to-test-from-home-page">How to switch to Test from Home Page</h3>
@@ -2265,39 +2272,178 @@
 <p><img alt="Test Tile lets go" src="../introduction/media/Loop_switch_to_Test.png" /></p>
 <p>Or you can always switch using the central app switcher on the top left of your screen:</p>
 <p><img alt="Central App Switcher" src="../introduction/media/Loop_central_app_control.png" /></p>
-<h2 id="configuration">Configuration</h2>
-<ol>
-<li>
-<p>Click on DevOps Test to naviagte to DevOps Test.
-    <img alt="Test Applications Page" src="media/navigator.png" /></p>
-</li>
-<li>
-<p>Click on the PizzaApp project, which has tests for our target Application.</p>
-</li>
-</ol>
-<p><img alt="Test Project" src="media/test_project.png" /></p>
-<ol>
-<li>Click on gear icon to look more configuration. It provides the git location where the test scripts are being hosted:</li>
-</ol>
-<p><img alt="Test Settings " src="media/project_settings.png" /></p>
-<ol>
-<li>
-<p>From left-panal, Navigate to <code>Execute</code> &gt; <code>Progress</code>  You can click on tests which we are in progress:
-    <img alt="Test Progress Pge" src="media/progress.png" /></p>
-</li>
-<li>
-<p>From left-panal, Now check the executed test by navigating to <code>Analyse</code> &gt; <code>Results</code></p>
-<p><img alt="Test Results " src="media/results.png" /></p>
-</li>
-<li>
-<p>Clicking on functional report will provide complete insights of the test:</p>
-<p><img alt="Test Report Viewer " src="media/report_viewer.png" /></p>
-</li>
-<li>
-<p>Explore more results by clicking on available options:</p>
-</li>
-</ol>
-<p><img alt="Test Dashboard Page" src="media/test_dashboard.png" /></p>
+<h3 id="switch-teamspace-and-project-if-needed">Switch TeamSpace and Project if needed</h3>
+<p>Should Test show you a different Teamspace or Project then expected (Demo and EchoLogic), click on Teamspace Icon</p>
+<p><img alt="Teamspace Switcher" src="media/Test_SwitchTS.png" /></p>
+<p>and Select <strong>Demo</strong>. A list of Projects is shown:</p>
+<p><img alt="Projectlist is shown" src="media/Test_Show_ProjectList.png" /></p>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Explain that you are now playing the role of a tester</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">click on <strong>EchoLogic</strong> Project to open landing page</td>
+<td style="text-align: left;"><img alt="Open EchoLogic Project" src="media/Test_Project_Tile.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Show the test landing page and metrics</td>
+<td style="text-align: left;"><img alt="Test Landing Page" src="media/Test_Project_Homepage.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Run a test</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">click on <strong>Execute</strong> Section in the Sidebar</td>
+<td style="text-align: left;"><img alt="Test Exec Section" src="media/Test_Sidebar_ExecuteSection.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">List of Scripts is shown</td>
+<td style="text-align: left;"><img alt="List of executable Scripts" src="media/Test_Execute_ScriptList.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">click on <strong>Run Button</strong> on the right of Script <strong>DemoTest</strong></td>
+<td style="text-align: left;"><img alt="Run Button" src="media/Test_RunButton.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Dialog is opened to select a Browser, use the default settings</td>
+<td style="text-align: left;"><img alt="Select Browser" src="media/Test_Run_Dialog.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Click on <strong>Execute</strong> Button to start Test Execution</td>
+<td style="text-align: left;"><img alt="Execute Button" src="media/Test_ExecuteButton.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Run will take a few moments</td>
+<td style="text-align: left;"><img alt="Running Script" src="media/Test_Execute_ScriptList_runningScript.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Show the analysis of the test results</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">click on <strong>Analyze</strong> section in Sidebar to get list of Menue</td>
+<td style="text-align: left;"><img alt="Analyze Section" src="media/Test_Sidebar_Analyze_Section.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">click on <strong>Results</strong> to get Results View</td>
+<td style="text-align: left;"><img alt="Results Overview" src="media/Test_Analyze_ResultOverview.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Show how we can create or edit a test</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">click on <strong>Author</strong> section on <strong>Test Editor</strong> menue entry</td>
+<td style="text-align: left;"><img alt="Test Author Section" src="media/Test_Sidebar_AuthorSection.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Test Editor View opens and select the <strong>DemoTestFail</strong> script</td>
+<td style="text-align: left;"><img alt="Test Editor View" src="media/Test_TestEditor_View.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Test Script will be shown</td>
+<td style="text-align: left;"><img alt="Test Script" src="media/Test_TestEditor_ScriptOpened.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">click on the <strong>verification</strong> step to view step details</td>
+<td style="text-align: left;"><img alt="Step Details" src="media/Test_TestEditor_StepDetails.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Run a new test that will fail</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">click on <strong>Execute</strong> Section in the Sidebar</td>
+<td style="text-align: left;"><img alt="Test Exec Section" src="media/Test_Sidebar_ExecuteSection.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">List of Scripts is shown</td>
+<td style="text-align: left;"><img alt="List of executable Scripts" src="media/Test_Execute_ScriptList.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">click on <strong>Run Button</strong> on the right of Script <strong>DemoTestFail</strong></td>
+<td style="text-align: left;"><img alt="Run Button" src="media/Test_RunButton.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Testexecution will take a few moments.</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Create a defect in Plan and show that is has all the data automatically</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Switch to Results View using the <strong>Analyze</strong> Section menue</td>
+<td style="text-align: left;"><img alt="Analyze Section menue" src="media/Test_Sidebar_Analyze_Menue.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">In the <strong>Results</strong> View select the <strong>DemoTestFail</strong> run</td>
+<td style="text-align: left;"><img alt="Results Overview" src="media/Test_Analyze_ResultOverview.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Click on <strong>DevOps Plan</strong> <img alt="Create ticket icon" src="media/Test_ResultView_FailedTest_CreateTicket.png" /> Icon on the right side of the row</td>
+<td style="text-align: left;"><img alt="Failed Test" src="media/Test_ResultView_FailedTest.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">A WorkItem creation Dialog opens, select <strong>Workitem</strong> in the Type field</td>
+<td style="text-align: left;"><img alt="CreateWI" src="media/Test_Plan_WI_Dialog1.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Select Project "EchoLogic",  Workitem Type "Defect" and enter a Title</td>
+<td style="text-align: left;"><img alt="CreateWI Enter Title" src="media/Test_Plan_WI_Dialog2.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">In the <strong>Results</strong> View click on the <strong>DemoTestFail</strong> name to get a Detailed View</td>
+<td style="text-align: left;"><img alt="Result Details with Plan Link" src="media/Test_Result_Details_with_PlanLink.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Explain that everything is traceable</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h2 id="conclusio">Conclusio</h2>
 <p>Go back to <a href="../#test">Introduction</a>, <a href="../">Lab and Demo Overview</a> or proceed with <a href="../#secure">Next Lab</a></p>
 <hr />
