@@ -2,21 +2,29 @@
 
 ![Demo Flow][ChartFlowOfDemo]
 
+## Overview
+
+This Step by Step Demo Guide will give you compact Instructions how to demo DevOps Loop. For more detailed information about the Capabilities and Steps links to the indepth enablement Guide has been added.
+
 ## [Loop](learn/introduction/index.md)
 
-| Step | Details                                                                                                       | Additional Information                |
-|:----:|:--------------------------------------------------------------------------------------------------------------|:--------------------------------------|
-|  1   | After loging in you will be on the [Home Page][LoopHomePage] of Loop                                          | ![Home Page][HomePage]{ width="50% }  |
-|  2   | If you are not on the Home Page page, click on Home button in the side bar to switch to the Home Page         | ![Home Page Sidebar][HomePageSideBar] |
-|  3   | The Home Page provides metrics and dashboards over all of my accessible Loops                                 |                                       |
-|  4   | Showing data from Plan - Ratio of Issues created versus closed                                                | ![Plan Metric][PlanMetric]            |
-|  5   | Number of Build Jobs failed and successeful finished                                                          | ![Build Metric][BuildMetric]          |
-|  6   | Count of Deployments and how many of them were successfull or failed                                          | ![Deploy Metric][DeployMetric]        |
-|  7   | Top contributors in Control                                                                                   | ![Control Metric][ControlMetric]      |
-|  8   | Two DORA (DevOps Research and Assessment) metrics for                                                         |                                       |
-|      | Lead Time: In general, lead-time reflects the time from the start of a project until its final disposition    | ![Lead Time][LeadTime]                |
-|      | Cycle Time: In general, cycle-time reflects the time project elements take to resolve or complete             | ![Cycle Time][CycleTime]              |
-|      | Find out more about [DORA Metrics here](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-dora) |                                       |
+| Step  | Details                                                                                                       | Additional Information                                       |
+|:-----:|:--------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------|
+|   1   | [Open DevOps Loop in Browser][URLDevOpsLoop]                                                                  | URL= 'https://devops.automation.techzone.ibm.com/automation' |
+|  1.1  | Enter Your Credentials in the Login Screen <br> **User:** 'demo@devops.loop' <br>  **Password:** 'Passw0rd'   | ![Login Screen][LoginDialog]                                 |
+|  1.2  | Click on the **Sign In** Button                                                                               | ![Sign In button][SignInButton]                              |
+|  1.3  | After login you will be on the [Home Page][LoopHomePage] of Loop                                              | ![Home Page][HomePage]{ width="50% }                         |
+|  1.4  | If you are in a different TeamSpace, click on **TeamSpace Icon** and switch to **Demo**                       | ![Switch TeamSpace][SwitchToHome]                            |
+|  1.5  | If you are not on the Home Page page, click on **Home Button** in the side bar to switch to the Home Page     | ![Switch to Home][HomePageSideBar]                           |
+|   2   | The Home Page provides metrics and dashboards over all of my accessible Loops                                 |                                                              |
+|  2.1  | Showing data from Plan - Ratio of Issues created versus closed                                                | ![Plan Metric][PlanMetric]                                   |
+|  2.3  | Number of Build Jobs failed and successeful finished                                                          | ![Build Metric][BuildMetric]                                 |
+|  2.3  | Count of Deployments and how many of them were successfull or failed                                          | ![Deploy Metric][DeployMetric]                               |
+|  2.4  | Top contributors in Control                                                                                   | ![Control Metric][ControlMetric]                             |
+|  2.5  | Two DORA (DevOps Research and Assessment) metrics for                                                         |                                                              |
+| 2.5.1 | Lead Time: In general, lead-time reflects the time from the start of a project until its final disposition    | ![Lead Time][LeadTime]                                       |
+| 2.5.2 | Cycle Time: In general, cycle-time reflects the time project elements take to resolve or complete             | ![Cycle Time][CycleTime]                                     |
+| 2.5.3 | Find out more about [DORA Metrics here](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-dora) |                                                              |
 
 ## [Plan](learn/plan/index.md)
 
@@ -80,14 +88,14 @@
 
 ## [Code](learn/code/index.md)
 
-| Step | Details                                                                     | Additional Information                                    |
-|:----:|:----------------------------------------------------------------------------|:----------------------------------------------------------|
-|      | Explain that we showed the link between a work item and the code in control |                                                           |
-|      | [Switch to CODE][CODEopen] if it is not visible  | **NOTE: use VScode for now, Switch to DevOps Code later when WCAx is integrated** |
-|      | [Use WCA to explain code and generate some new code][CODEWcaX]              | ![Explain code part 1][WcaXexplain1]                      |
-|      |                                                                             | ![Explain code part 2][WcaXexplain2]                      |
-|      | [Push code and add comment with work item number][CODEcommitWI]             | ![Commit Code with WI][CodeWithWIcommit]                  |
-|      | [Open Control and show the update](#control)                                |                                                           |
+| Step | Details                                                                     | Additional Information                                                            |
+|:----:|:----------------------------------------------------------------------------|:----------------------------------------------------------------------------------|
+|      | Explain that we showed the link between a work item and the code in control |                                                                                   |
+|      | [Switch to CODE][CODEopen] if it is not visible                             | **NOTE: use VScode for now, Switch to DevOps Code later when WCAx is integrated** |
+|      | [Use WCA to explain code and generate some new code][CODEWcaX]              | ![Explain code part 1][WcaXexplain1]                                              |
+|      |                                                                             | ![Explain code part 2][WcaXexplain2]                                              |
+|      | [Push code and add comment with work item number][CODEcommitWI]             | ![Commit Code with WI][CodeWithWIcommit]                                          |
+|      | [Open Control and show the update](#control)                                |                                                                                   |
 
 ## [Control](learn/control/index.md)
 
@@ -240,12 +248,17 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 
 ---
 
+[LoginDialog]: learn/introduction/media/Loop_Login_Page.png
+[SignInButton]: learn/introduction/media/Loop_SignInButton.png
+[URLDevOpsLoop]: https://devops.automation.techzone.ibm.com/automation
+
 [LoopHomeLoopGenieIcon]: learn/introduction/intro/media/LOOP_HomePage_LoopGenieButton.png
 [LoopGenieDialog]: learn/introduction/intro/media/LOOP_HomePage_LoopGenieDialog.png
 [GoBackToDemoOverview]: index.md#introduction
 
 [HomePage]: learn/introduction/media/Loop_Home_Page.png
 [HomePageSideBar]: learn/introduction/media/Loop_Home_Page_SideBar.png
+[SwitchToHome]: learn/introduction/media/Loop_Sidebar_SwitchTeamSpace.png
 [PlanMetric]: learn/introduction/media/LoopHome_Plan_metrics.png
 [BuildMetric]: learn/introduction/media/LoopHome_Build_Metrics.png
 [DeployMetric]: learn/introduction/media/LoopHome_Deploy_Metrics.png

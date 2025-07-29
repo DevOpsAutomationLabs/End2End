@@ -1,21 +1,48 @@
 # DevOps Loop Demo
 
-This Demo script will help you to learn DevOps Loop very easily and how to efficiently provide a demo.
+This Demo/Lab is providing a short [Introduction][REFIntro], Stepy by Step [Demo][REFDemo] Instructions and indepth enablement [Guide][REFLearn].
 
-## Overview and How to use the Demo Flow
+It will help you to learn DevOps Loop very easily and how to efficiently provide a demo.
 
-This Demo/Lab is providing a Stepy by Step guide [Demo Flow](demoflow.md) how to demo DevOps Loop and a full enablement [Guide](learn/index.md).
+<div class="grid cards" markdown>
 
-### [Introduction](learn/introduction/index.md)
+- :material-location-enter:{ .lg .middle } __Introduction__
 
-This Guide will give you a short introduction into DevOps Loop. Follow this [Fast Setup Guide](setup.md) or with more detail [Introduction Creation of Teamspace and Loop](learn/introduction/index.md#creation-of-a-teamspace-and-loops) if you need to create a new Teamspace and Loop.
+    This Guide will give you a short introduction into DevOps Loop.
+  
+    ---
 
-Guide how to setup a frewh new Teamspace and Loop
+    [:octicons-arrow-right-24: Introduction][REFIntro]
 
-### [Learn](learn/index.md)
+- :material-run-fast:{ .lg .middle } __Demo Flow__
 
-For more indepth learning please follow this [Labs for Self Enablement](learn/index.md).
+    Please use this Demo Flow for fast demoing DevOps Loop.
 
-### [Demo Flow](demoflow.md)
+    ---
 
-Please use this [Demo Flow](demoflow.md) for fast demoing DevOps Loop, all necessary steps are linked to the full documents. 
+    [:octicons-arrow-right-24: Demo Flow][REFDemo]
+
+- :simple-futurelearn:{ .lg .middle } __Learn more about DevOps Loop__
+
+    For more indepth learning please follow this Labs for Self Enablement.
+  
+    ---
+
+    [:octicons-arrow-right-24: Indepth enablement][REFLearn]
+
+- :construction_site:{ .lg .middle } __Setting Up Demo Data from Scratch__
+
+    Follow this Guide to setup Demo Data from scratch
+  
+    ---
+
+    [:octicons-arrow-right-24: Setup Guide][REFSetup]
+
+</div>
+
+---
+
+[REFDemo]: demoflow.md
+[REFIntro]: learn/introduction/index.md
+[REFLearn]: learn/index.md
+[REFSetup]: setup.md
