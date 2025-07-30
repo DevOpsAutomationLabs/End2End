@@ -866,6 +866,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#switch-to-applications-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Switch to Applications View
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#create-new-application" class="md-nav__link">
     <span class="md-ellipsis">
       Create New Application
@@ -1044,15 +1053,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#applications_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Applications
-    </span>
-  </a>
   
 </li>
       
@@ -2661,6 +2661,43 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 <h2 id="applications"><a href="applications/">Applications</a></h2>
 <p>TODO: talk about applications</p>
+<h3 id="switch-to-applications-view">Switch to Applications View</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Switch to Applications View by clicking on the Sidebar</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img alt="Sidebar Applications" src="media/Deploy_Sidebar_AppIcon.jpg" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img alt="Sidebar Applications with Text" src="media/Deploy_Sidebar_AppIconWithText.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">View for all Applications</td>
+<td style="text-align: left;"><img alt="All Applications View" src="applications/#switch-to-applications-view" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="create-new-application">Create New Application</h3>
 <h2 id="components"><a href="components/">Components</a></h2>
 <p>TODO: talk about components</p>
@@ -2762,15 +2799,35 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 <p><img alt="Component with Deployment Process passing and failing" src="media/DEPLOY_Component_WithProcessList.png" /></p>
 <p>Result in the Versionlist of the component:
 <img alt="Status added to version" src="media/DEPLOY_Component_VersionList_withStatus.png" /></p>
-<h2 id="applications_1">Applications</h2>
-<p>TODO: talk about applications</p>
-<p>Open the Applicationslist by clicking on Applications Icon: <img alt="Deploy Applications Button on Sidebar" src="media/Deploy_Sidebar_AppIcon.png" /></p>
 <h2 id="environments">Environments</h2>
 <p>TODO: talk about environments</p>
 <h2 id="run-a-deployment">Run a deployment</h2>
-<p>Select your Application by clicking on the link: <img alt="Deploy Application" src="media/DEPLOY_ApplicationList_ShowEcologic.png" /></p>
-<p>All Environments of Application will be shown:
-<img alt="Deploy Application Environment List" src="media/DEPLOY_Application_Environmentlist.png" /></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Step</th>
+<th style="text-align: left;">Details</th>
+<th style="text-align: left;" width="50%">Additional Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"><a href="#switch-to-applications-view">Switch to Applications view</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Select <strong>EchoLogic</strong> Application by clicking on the name/link</td>
+<td style="text-align: left;"><img alt="Deploy Application" src="applications/media/Deploy_Applications_View.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">All Environments of Application will be shown</td>
+<td style="text-align: left;"><img alt="Deploy Application Environment List" src="media/DEPLOY_Application_Environmentlist.png" /></td>
+</tr>
+</tbody>
+</table>
 <h3 id="request-a-process">Request a Process</h3>
 <p>click on Request Process Button: <img alt="Request Button" src="media/DEPLOY_Application_RequestProcess.png" /> on the DEV Environment <img alt="Dev Environment" src="media/DEPLOY_AppEnv_DEV.png" /></p>
 <p>Go through dialog:</p>
@@ -2790,9 +2847,9 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 <p>Click on 3 dots menue of a step <img alt="3 dots menue of step" src="media/DEPLOY_RunningProcess3_Stepdetails.png" />
 View the output of the step <img alt="Output of Step" src="media/DEPLOY_RunningProcess4_StepDetails.png" /></p>
 <h3 id="result-of-run">Result of Run</h3>
-<p>The deployment run successfully <img alt="Deployment Success" src="media/DEPLOY_AppProcessFinishedSuccess.png" />
-and updated the configuration of the environment with the deployed component versions:
-<img alt="Environment with deployed versions of components" src="media/DEPLOY_Application_EnvironmentResultVersions.png" /></p>
+<p>The deployment run successfully <img alt="Deployment Success" src="media/DEPLOY_AppProcessFinishedSuccess.png" /></p>
+<p>and updated the configuration of the environment with the deployed component versions:</p>
+<p><img alt="Environment with deployed versions of components" src="media/DEPLOY_Application_EnvironmentResultVersions.png" /></p>
 <h3 id="create-a-snapshot">Create a Snapshot</h3>
 <p>TODO: talk about snapshots and what they are good for</p>
 <p>Select the Create Snapshot Icon: <img alt="Create Snapshot" src="media/DEPLOY_Application_Environment_CreateSnapshot.png" /></p>
