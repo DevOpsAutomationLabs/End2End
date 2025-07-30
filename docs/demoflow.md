@@ -8,29 +8,32 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ## [Loop](learn/introduction/index.md)
 
-| Step  | Details                                                                                                       | Additional Information                                       |
-|:-----:|:--------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------|
-|   1   | [Open DevOps Loop in Browser][URLDevOpsLoop]                                                                  | URL= 'https://devops.automation.techzone.ibm.com/automation' |
-|  1.1  | Enter Your Credentials in the Login Screen <br> **User:** 'demo@devops.loop' <br>  **Password:** 'Passw0rd'   | ![Login Screen][LoginDialog]                                 |
-|  1.2  | Click on the **Sign In** Button                                                                               | ![Sign In button][SignInButton]                              |
-|  1.3  | After login you will be on the [Home Page][LoopHomePage] of Loop                                              | ![Home Page][HomePage]{ width="50% }                         |
-|  1.4  | If you are in a different TeamSpace, click on **TeamSpace Icon** and switch to **Demo**                       | ![Switch TeamSpace][SwitchToHome]                            |
-|  1.5  | If you are not on the Home Page page, click on **Home Button** in the side bar to switch to the Home Page     | ![Switch to Home][HomePageSideBar]                           |
-|   2   | The Home Page provides metrics and dashboards over all of my accessible Loops                                 |                                                              |
-|  2.1  | Showing data from Plan - Ratio of Issues created versus closed                                                | ![Plan Metric][PlanMetric]                                   |
-|  2.3  | Number of Build Jobs failed and successeful finished                                                          | ![Build Metric][BuildMetric]                                 |
-|  2.3  | Count of Deployments and how many of them were successfull or failed                                          | ![Deploy Metric][DeployMetric]                               |
-|  2.4  | Top contributors in Control                                                                                   | ![Control Metric][ControlMetric]                             |
-|  2.5  | Two DORA (DevOps Research and Assessment) metrics for                                                         |                                                              |
-| 2.5.1 | Lead Time: In general, lead-time reflects the time from the start of a project until its final disposition    | ![Lead Time][LeadTime]                                       |
-| 2.5.2 | Cycle Time: In general, cycle-time reflects the time project elements take to resolve or complete             | ![Cycle Time][CycleTime]                                     |
-| 2.5.3 | Find out more about [DORA Metrics here](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-dora) |                                                              |
+| Step  | Details                                                                                          | Additional Information { width="50%" }                       |
+|:-----:|:-------------------------------------------------------------------------------------------------|:-------------------------------------------------------------|
+|   1   | [Open DevOps Loop in Browser][URLDevOpsLoop]                                                     | URL= 'https://devops.automation.techzone.ibm.com/automation' |
+|  1.1  | Enter Your Credentials in the Login Screen                                                       |                                                              |
+|       | <br> **User:** 'demo@devops.loop' <br>  **Password:** 'Passw0rd'                                 | ![Login Screen][LoginDialog]                                 |
+|  1.2  | Click on the **Sign In** Button                                                                  | ![Sign In button][SignInButton]                              |
+|  1.3  | After login you will be on the [Home Page][LoopHomePage] of Loop                                 | ![Home Page][HomePage]{ width="50% }                         |
+|  1.4  | If you are in a different TeamSpace                                                              |                                                              |
+|       | click on **TeamSpace Icon** and switch to **Demo**                                               | ![Switch TeamSpace][SwitchToHome]                            |
+|  1.5  | If you are not on the Home Page page,                                                            |                                                              |
+|       | click on **Home Button** in the side bar to switch to the Home Page                              | ![Switch to Home][HomePageSideBar]                           |
+|   2   | The Home Page provides metrics and dashboards over all of my accessible Loops                    |                                                              |
+|  2.1  | Showing data from Plan - Ratio of Issues created versus closed                                   | ![Plan Metric][PlanMetric]                                   |
+|  2.3  | Number of Build Jobs failed and successeful finished                                             | ![Build Metric][BuildMetric]                                 |
+|  2.3  | Count of Deployments and how many of them were successfull or failed                             | ![Deploy Metric][DeployMetric]                               |
+|  2.4  | Top contributors in Control                                                                      | ![Control Metric][ControlMetric]                             |
+|  2.5  | Two DORA (DevOps Research and Assessment) metrics for                                            |                                                              |
+| 2.5.1 | Lead Time: In general, reflects the time from the start of a project until its final disposition | ![Lead Time][LeadTime]                                       |
+| 2.5.2 | Cycle Time: In general, reflects the time project elements take to resolve or complete           | ![Cycle Time][CycleTime]                                     |
+| 2.5.3 | Find out more about:                                                                             | [DORA Metrics here][URLDoraMetrics]                          |
 
 ## [Plan](learn/plan/index.md)
 
 ### Plan Overview
 
-| Step | Details                                                                                                 | Additional Information                                   |
+| Step | Details                                                                                                 | Additional Information { width="50%" }                   |
 |:----:|:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------|
 |  1   | [Open Plan][PLANopen]                                                                                   |                                                          |
 |      | You can switch to Plan by either pressing "Let's go to Plan" button on its tile                         | ![Plan Tile lets go][PlanTile]                           |
@@ -53,7 +56,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ### Use Plan AI Assistant
 
-| Step | Details                                                                                    | Additional Information                                     |
+| Step | Details                                                                                    | Additional Information { width="50%" }                     |
 |:----:|:-------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
 |  1   | [More about AI Assistant][PlanAI]                                                          |                                                            |
 |  2   | Select the AI Assistant Icon ![AI Assistant Icon][PlanAIIcon] from the Sidebar             | ![Sidebar][PlanSidebar]                                    |
@@ -81,7 +84,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ## [Control - Work with Repository](learn/control/index.md#open-repo-with-vscode)
 
-| Step | Details                                                                               | Additional Information                                     |
+| Step | Details                                                                               | Additional Information { width="50%" }                     |
 |:----:|:--------------------------------------------------------------------------------------|:-----------------------------------------------------------|
 |      | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menue. | ![Code Button Expanded][ButtonCodeExpanded]                |
 |      | Click on **Open with VSCode**                                                         | ![open with vscode][OpenWithVSCode]                        |
@@ -93,7 +96,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ## [Code](learn/code/index.md)
 
-| Step | Details                                                                     | Additional Information                                                            |
+| Step | Details                                                                     | Additional Information { width="50%" }                                            |
 |:----:|:----------------------------------------------------------------------------|:----------------------------------------------------------------------------------|
 |      | Explain that we showed the link between a work item and the code in control |                                                                                   |
 |      | [Switch to CODE][CODEopen] if it is not visible                             | **NOTE: use VScode for now, Switch to DevOps Code later when WCAx is integrated** |
@@ -104,7 +107,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ## [Control](learn/control/index.md)
 
-| Step | Details                                                                       | Additional Information                                  |
+| Step | Details                                                                       | Additional Information { width="50%" }                  |
 |:----:|:------------------------------------------------------------------------------|:--------------------------------------------------------|
 |  1   | [Open Control][ControlOPEN]                                                   |                                                         |
 |  2   | [Show the Update][ControlShowUpdate] in the activity report of the repository | ![Show Last Commit][ControlShowLastCommit]              |
@@ -112,7 +115,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ## [Build](learn/build/index.md)
 
-| Step | Details                                                             | Additional Information                                             |
+| Step | Details                                                             | Additional Information { width="50%" }                             |
 |:----:|:--------------------------------------------------------------------|:-------------------------------------------------------------------|
 |      | [Open Build][BuildOpen]                                             |                                                                    |
 |      | [Show overview on build runs and results][BuildOverviewRunsResults] | ![Project Build Runs and Results][BuildProjectRunsResults]         |
@@ -124,54 +127,73 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ## [Deploy](learn/deploy/index.md)
 
+| Step | Details                                                                        | Additional Information |
+|:----:|:-------------------------------------------------------------------------------|:-----------------------|
+|  x   | show the landing page and explain the metrics                                  |                        |
+|      | show processes (components, app)                                               |                        |
+|      | edit a process                                                                 |                        |
+|      | show a process which executes a test (passing) and sets quality tag on version |                        |
+|      | run and view results of steps                                                  |                        |
+|      | show results on environment changes                                            |                        |
+|      | run a failing deployment                                                       |                        |
+|      | use deploy genie to understand why it failed                                   |                        |
+|      | show the plugin page and explain how easy it is to integrate with 3rd parties  |                        |
+
 ### Deploy Overview
 
-| Step | Details                                                                                                 | Additional Information                                                |
-|:----:|:--------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|
-|  1   | [Open Deploy][DeployOpen]                                                                               |                                                                       |
-|      | by [Using the ‘What would you like to do today’ and select Deploy][DeployWWYLTT]                        | ![WWYLTT?][WhatWouldYouLikeToDoToday]                                 |
-|  2   | [Show the landing page and explain the metrics][DeployShowLandingPage]                                  | ![DeployLandingPage][DeployDashboard]                                 |
-|  3   | [Show process (components, app)][DeployShowProcesses]                                                   |                                                                       |
-|  4   | Component Process                                                                                       | ![component processes][DeployComponentWithProcesses]                  |
-|  5   | You can either create a [new process][DeployShowProcessDesigner]                                        | ![Create new Process Button][DeployComponentCreateNewProcessButton]   |
-|  6   | by pressing Create Process Button which shows you the process designer for a new process                | ![Process Designer][DeployProcessDesigner]                            |
-|  7   | Or click on existing Process to view and edit the given Process                                         | ![select process][DeployComponentProcessesList]                       |
-|  8   | - show a process which executes a TEST with [setting quality tag on version][DeployShowProcessWithTest] |                                                                       |
-|  9   | -- Deploy with Test Passed                                                                              | ![Final Process with passed Test][DeployComponentProcessPassingTest]  |
-|  10  | -- Deploy with Test Failed                                                                              | ![Final Process with failing Test][DeployComponentProcessFailingTest] |
+| Step | Details                                                                                 | Additional Information { width="50%" }                                      |
+|:----:|:----------------------------------------------------------------------------------------|:----------------------------------------------------------------------------|
+|  1   | [Open Deploy][DeployOpen]                                                               |                                                                             |
+|  2   | [Show the landing page and explain the metrics][DeployShowLandingPage]                  | ![DeployLandingPage][DeployDashboard]                                       |
+|  3   | Show process of [Applications][REFAppProcessView] and [Components][REFCompProcessView]  |                                                                             |
+|  4   | Switch to Applications View by clicking on the Sidebar                                  | ![Sidebar Applications][SBApplicationsIcon]                                 |
+| 4.1  | View for all Applications is shown                                                      | ![All Applications View][APPSallView]                                       |
+| 4.2  | Click on the **EchoLogic** Application to show details                                  | ![Application View with Env][AppViewWEnv]                                   |
+| 4.3  | [Switch to Processes View][SwitchToProcessView] by clicking on click on "Processes" Tab | ![App Processes Tab][AppProcessesTab]                                       |
+| 4.4  | Available application processes are shown                                               | ![Application Processes][AppProcessesView]                                  |
+| 4.5  | Show the **Deploy** Process by clicking on it                                           | ![App Deployment Process][AppViewProcess]                                   |
+| 4.6  | [Talk about Application Processes][REFAppProcesses]                                     |                                                                             |
+|  5   | [Switch to Components View][REFSwitchToCompView]                                        |                                                                             |
+| 5.1  | In the sidebar select the **Components** Icon                                           | ![Sidebar Components Icon][SBCompIcon]                                      |
+| 5.2  | All components are shown                                                                | ![Components View][CompView]                                                |
+| 5.3  | click on **Echo** component to view details                                             | ![Open Echo Component][CompDetails]                                         |
+| 5.4  | click on **Processes** Tab                                                              | ![Switch to Component processes View][CompProcessTab]                       |
+| 5.5  | Available Component processes are shown                                                 | ![Component Processes][CompProcesses]                                       |
+| 5.6  | show a process which executes a TEST                                                    | and is [setting quality tag on deployed version][DeployShowProcessWithTest] |
+| 5.7  | Click on **Deploy with Test Passed**                                                    | ![Final Process with passed Test][DeployComponentProcessPassingTest]        |
 
 ### Run a Deplyoment
 
-| Step | Details                                                                                            | Additional Information                                                                        |
-|:----:|:---------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
-|  1   | [Run a Process and view results of steps][DeployRunaDeployment]                                    |                                                                                               |
-|  2   | Open the Applicationslist by clicking on Applications Icon                                         | ![Deploy Applications Button on Sidebar][DeploySidebarAppIcon]                                |
-|  3   | Select your Application by clicking on the link in the Applications List                           | ![Deploy Application][DeployShowApp]                                                          |
-|  4   | All Environments of Application will be shown                                                      | ![Deploy Application Environment List][DeployAppEnvList]                                      |
-|  5   | [Run a Deployment in an Environment][DeployRequestAprocess]                                        |                                                                                               |
-|  6   | On the DEV environment                                                                             | ![Dev Environment][DeployAppDevEnv]                                                           |
-| 6.1  | click on Request Process Button:                                                                   | ![Request Button][DeployAppRequestProcessButton]                                              |
-|  7   | Select **Deploy with Test Passed**                                                                 | ![Run Process Dialog - Select Deployment Process][DeployAppProcessRequestSelectProcess]       |
-|  8   | Uncheck **Deploy Only Changed** to deploy same versions again                                      | ![Run Process Dialog - uncheck Deploy Only Changed][DeployAppProcessRequestOnlyChanged]       |
-|  9   | click on **Choose Component Versions** button                                                      | ![Run Process Dialog - Choose Versions Button][DeployAppPocessRequestChooseCompVersionButton] |
-|  10  | Select the Versions of the Components for deployment                                               |                                                                                               |
-|  11  |                                                                                                    | ![Run Process Dialog - Select Component Version 1][DeployAppPocessRequestSelectCompVersion1]  |
-|  12  |                                                                                                    | ![Run Process Dialog - Select Component Version 2][DeployAppPocessRequestSelectCompVersion2]  |
-|  13  | Press the Submit button to start the deployment process                                            | ![Submit Button][DeployAppPocessRequestSubmitButton]                                          |
-|  14  | The Deployment Process is started and you can [View the running Process][DeployViewRunningProcess] | ![Running Process][DeployProcessRunning]                                                      |
-|  15  | In this View the details of the executed steps are shown by clicking on **Expand All**             | ![Expand All][DeployProcessRunningExpandAllButton]                                            |
-|  16  | To view the detailed output of a step click on **3 dots menue** of the step                        | ![3 dots menue of step][DeployProcessRunning3DotsofStep]                                      |
-|  17  | View the output of the step                                                                        | ![Output of Step][DeployProcessRunningStepOutputDetails]                                      |
-|  18  | When the deplyoment finishes the [Result][DeployResultofRun] will be shown                         |                                                                                               |
-|  19  | The deployment run successfully                                                                    | ![Deployment Success][DeployAppProcessRunSuccess]                                             |
-|  20  | [Show Environment and its new configuration][DeployResultofRun]                                    |                                                                                               |
-|  21  | Switch to the Environment View of the Application and view the updated configuration               | ![Environment with deployed versions of components][DeployAppEnvwithDeployedVersions]         |
-|  22  | By clicking on the Component **Echo** in this view                                                 | ![Status added to version][DeployComponentFinalProcesWithVersionStatus]                       |
-| 22.1 | the set Status in the Versionlist of the component will be shown                                   |                                                                                               |
+| Step | Details                                                                                | Additional Information { width="50%" }                                                        |
+|:----:|:---------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
+|  1   | [Run a Process and view results of steps][DeployRunaDeployment]                        |                                                                                               |
+|  2   | Open the Applicationslist by clicking on Applications Icon                             | ![Deploy Applications Button on Sidebar][DeploySidebarAppIcon]                                |
+|  3   | Select your Application by clicking on the link in the Applications List               | ![Deploy Application][DeployShowApp]                                                          |
+|  4   | All Environments of Application will be shown                                          | ![Deploy Application Environment List][DeployAppEnvList]                                      |
+|  5   | [Run a Deployment in an Environment][DeployRequestAprocess]                            |                                                                                               |
+|  6   | On the DEV environment                                                                 | ![Dev Environment][DeployAppDevEnv]                                                           |
+| 6.1  | click on Request Process Button:                                                       | ![Request Button][DeployAppRequestProcessButton]                                              |
+|  7   | Select **Deploy with Test Passed**                                                     | ![Run Process Dialog - Select Deployment Process][DeployAppProcessRequestSelectProcess]       |
+|  8   | Uncheck **Deploy Only Changed** to deploy same versions again                          | ![Run Process Dialog - uncheck Deploy Only Changed][DeployAppProcessRequestOnlyChanged]       |
+|  9   | click on **Choose Component Versions** button                                          | ![Run Process Dialog - Choose Versions Button][DeployAppPocessRequestChooseCompVersionButton] |
+|  10  | Select the Versions of the Components for deployment                                   |                                                                                               |
+|  11  |                                                                                        | ![Run Process Dialog - Select Component Version 1][DeployAppPocessRequestSelectCompVersion1]  |
+|  12  |                                                                                        | ![Run Process Dialog - Select Component Version 2][DeployAppPocessRequestSelectCompVersion2]  |
+|  13  | Press the Submit button to start the deployment process                                | ![Submit Button][DeployAppPocessRequestSubmitButton]                                          |
+|  14  | Process is started and you can [View the running Process][DeployViewRunningProcess]    | ![Running Process][DeployProcessRunning]                                                      |
+|  15  | In this View the details of the executed steps are shown by clicking on **Expand All** | ![Expand All][DeployProcessRunningExpandAllButton]                                            |
+|  16  | To view the detailed output of a step click on **3 dots menue** of the step            | ![3 dots menue of step][DeployProcessRunning3DotsofStep]                                      |
+|  17  | View the output of the step                                                            | ![Output of Step][DeployProcessRunningStepOutputDetails]                                      |
+|  18  | When the deplyoment finishes the [Result][DeployResultofRun] will be shown             |                                                                                               |
+|  19  | The deployment run successfully                                                        | ![Deployment Success][DeployAppProcessRunSuccess]                                             |
+|  20  | [Show Environment and its new configuration][DeployResultofRun]                        |                                                                                               |
+|  21  | Switch to the Environment View of the Application and view the updated configuration   | ![Environment with deployed versions of components][DeployAppEnvwithDeployedVersions]         |
+|  22  | By clicking on the Component **Echo** in this view                                     | ![Status added to version][DeployComponentFinalProcesWithVersionStatus]                       |
+| 22.1 | the set Status in the Versionlist of the component will be shown                       |                                                                                               |
 
 ### Use the Deployment Genie
 
-| Step | Details                                                  | Additional Information                                                   |
+| Step | Details                                                  | Additional Information { width="50%" }                                   |
 |:----:|:---------------------------------------------------------|:-------------------------------------------------------------------------|
 |      | Use Deploy Genie to understand why the deployment failed | **TODO: update as soon as connected to openai to showcase Deploy Genie** |
 |      |                                                          |                                                                          |
@@ -180,20 +202,22 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ### Show the Plug-Ins Page
 
-| Step | Details                                                                                                                       | Additional Information                                               |
-|:----:|:------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------|
-|  1   | [Show the plug-ins page and explain how easy it is to integrate with 3rd parties out of the box][DeployShowPluginsPage]       |                                                                      |
-|  2   | Switch to Settings by using the Settings Icon                                                                                 | ![Deploy Settings Icon][DeploySettingsIcon]                          |
-|  3   | In the Settings View there is a [Section Automation to View installed and available Plugins][DeploySettingsAutomationSection] | ![Automation Plugins][DeploySettingsAutomationPlugins]               |
-|  4   | By clicking on **Available Plugins** a list of all available Plug-Ins is shown                                                | ![Plugin List][DeploySettingsPluginsList]                            |
-|  5   | [Install a new Plugin][DeployShowHowToInstallPlugin]                                                                          | ![Install plugin][DeployInstallPlugin]                               |
-| 5.1  | by clicking on the **3 Dots Menue** of a Plugin                                                                               | [3 dots menue][DeployPlugin3DotsMenue]                               |
-|  6   | An Installation Confirmation Dialog will pop up, click here on **Confirm** to proceed                                         | ![Plugin Installation Confirmation][DeployInstallPluginConfirmation] |
-|  7   | Installation is Successfull Notification                                                                                      | ![Plugin Installation Successfull][DeployPluginInstallSuccess]       |
+| Step | Details                                                                               | Additional Information { width="50%" }                               |
+|:----:|:--------------------------------------------------------------------------------------|:---------------------------------------------------------------------|
+|  1   | [Show the plug-ins page][DeployShowPluginsPage]                                       |                                                                      |
+|      | and explain how easy it is to integrate with 3rd parties out of the box               |                                                                      |
+|  2   | Switch to Settings by using the Settings Icon                                         | ![Deploy Settings Icon][DeploySettingsIcon]                          |
+|  3   | In the Settings View in the Section **Automation**                                    |                                                                      |
+|      | [View installed and available Plugins][DeploySettingsAutomationSection]               | ![Automation Plugins][DeploySettingsAutomationPlugins]               |
+|  4   | By clicking on **Available Plugins** a list of all available Plug-Ins is shown        | ![Plugin List][DeploySettingsPluginsList]                            |
+|  5   | [Install a new Plugin][DeployShowHowToInstallPlugin]                                  | ![Install plugin][DeployInstallPlugin]                               |
+| 5.1  | by clicking on the **3 Dots Menue** of a Plugin                                       | [3 dots menue][DeployPlugin3DotsMenue]                               |
+|  6   | An Installation Confirmation Dialog will pop up, click here on **Confirm** to proceed | ![Plugin Installation Confirmation][DeployInstallPluginConfirmation] |
+|  7   | Installation is Successfull Notification                                              | ![Plugin Installation Successfull][DeployPluginInstallSuccess]       |
 
 ## [Test](learn/test/index.md)
 
-| Step | Details                                                                                                     | Additional Information                           |
+| Step | Details                                                                                                     | Additional Information { width="50%" }           |
 |:----:|:------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|
 |      | Explain that you are now playing the role of a tester                                                       |                                                  |
 |      | [Open Test][TestOpen]                                                                                       |                                                  |
@@ -235,20 +259,20 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ## [Measure](learn/measure/index.md)
 
-| Step | Details                                                                                                                  | Additional Information |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------|:-----------------------|
-|  1   | [Open Measure][MeasureOpen]                                                                                              |                        |
-|      | Explain that we have built, deployed and tested so now we need to coordinate releases                                    |                        |
-|      | Show and talk about pipeline(s) with environments and Gates                                                              |                        |
-|      | Create simple new gate to show usage of metrics                                                                          |                        |
-|      | Explain that we have been shoeing individual roles but we can look across roles and track the value of our delivery work |                        |
-|      | Open the VSM for the project                                                                                             |                        |
-|      | Show the audit information of a dot                                                                                      |                        |
-|      | Show the swimlane view.                                                                                                  |                        |
+| Step | Details                                                                                                                  | Additional Information { width="50%" } |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------|:---------------------------------------|
+|  1   | [Open Measure][MeasureOpen]                                                                                              |                                        |
+|      | Explain that we have built, deployed and tested so now we need to coordinate releases                                    |                                        |
+|      | Show and talk about pipeline(s) with environments and Gates                                                              |                                        |
+|      | Create simple new gate to show usage of metrics                                                                          |                                        |
+|      | Explain that we have been shoeing individual roles but we can look across roles and track the value of our delivery work |                                        |
+|      | Open the VSM for the project                                                                                             |                                        |
+|      | Show the audit information of a dot                                                                                      |                                        |
+|      | Show the swimlane view.                                                                                                  |                                        |
 
 ## [Release](learn/release/index.md)
 
-| Step | Details                                                                                                                                    | Additional Information                      |
+| Step | Details                                                                                                                                    | Additional Information { width="50%" }      |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------|
 |  1   | [Open Release][ReleaseOpen]                                                                                                                |                                             |
 |      | You can switch to Release by either pressing "Let's go to Release" button on its tile                                                      | ![Release Tile lets go][ReleaseTile]        |
@@ -260,7 +284,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 Explain that we have covered a lot of roles and used a mixture of AI and automation but we can bring it all together with what we call our Loop Genie
 
-| Step | Details                                                                    | Additional Information                                 |
+| Step | Details                                                                    | Additional Information { width="50%" }                 |
 |:----:|:---------------------------------------------------------------------------|:-------------------------------------------------------|
 |      | [How to use Loop Genie][REFUseLoopGenie]                                   |                                                        |
 |      | [Open Home Page][HomePage]                                                 |                                                        |
@@ -372,7 +396,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [DeployShowLandingPage]: learn/deploy/index.md#deploy-landing-page
 [DeployDashboard]: learn/deploy/media/dashboard.png
 [DeployShowProcesses]: learn/deploy/index.md#processes
-[DeployComponentWithProcesses]: learn/deploy/media/DEPLOY_Component_Processlist_withentries.png
+[DeployComponentWithProcesses]: learn/deploy/components/media/Component_Processlist_withentries.png
 [DeployShowProcessDesigner]: learn/deploy/index.md#process-designer
 [DeployProcessDesigner]: learn/deploy/media/DEPLOY_Component_ProcessEditor.png
 [DeployShowProcessWithTest]: learn/deploy/index.md#adding-version-statuses
@@ -420,6 +444,23 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [LoopHomePage]: learn/introduction/index.md#the-home-page
 [IntroductionAboutBoxSidebarPlugins]: learn/introduction/intro/index.md
 [ChartFlowOfDemo]: media/demoflow.png
+[SBApplicationsIcon]: learn/deploy/media/Deploy_Sidebar_AppIcon.jpg
+[SBApplicationsText]: learn/deploy/media/Deploy_Sidebar_AppIconWithText.png
+[APPSallView]: learn/deploy/applications/media/Deploy_Applications_View.png
+[AppViewWEnv]: learn/deploy/applications/media/Deploy_Application_View_WithEnv.png
+[SwitchToProcessView]: learn/deploy/applications/index.md#show-processes
+[AppProcessesTab]: learn/deploy/applications/media/Deploy_Application_ProcessesTab.png
+[AppProcessesView]: learn/deploy/applications/media/Deploy_App_Processes_view.png
+[AppProcessList]: learn/deploy/applications/media/Deploy_AppProcess_ListFinal.png
+[DeployComponentFinalProcess]: learn/deploy/media/DEPLOY_Component_Process_Final.png
+[AppViewProcess]: learn/deploy/applications/media/Deploy_AppDeploymentProcess.png
+[REFSwitchToCompView]: learn/deploy/components/index.md#switch-to-components-view
+[SBCompIcon]: learn/deploy/media/Deploy_Sidebar_ComponentsIcon.png
+[SBCompIconText]: learn/deploy/media/Deploy_Sidebar_ComponentsIconWithText.png
+[CompView]: learn/deploy/media/DEPLOY_Components_List.png
+[CompDetails]: learn/deploy/components/media/Component_Imported.png
+[CompProcessTab]: learn/deploy/components/media/Component_Tabbar_Processes.png
+[CompProcesses]: learn/deploy/components/media/Component_Processlist_withentries.png
 
 [ButtonCode]: learn/control/media/Control_CodeButton.png
 [ButtonCodeExpanded]: learn/control/media/Control_CodeButtonExpanded.png
@@ -455,3 +496,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [REFSwitchTestTS]: learn/test/index.md#switch-teamspace-and-project-if-needed
 [TestPrjList]: learn/test/media/Test_Show_ProjectList.png
 [SwitchTestTS]: learn/test/media/Test_SwitchTS.png
+[URLDoraMetrics]: https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-dora
+[REFAppProcessView]: learn/deploy/index.md#view-application-processes
+[REFCompProcessView]: learn/deploy/index.md#view-component-processes
+[REFAppProcesses]: learn/deploy/index.md#application-processes

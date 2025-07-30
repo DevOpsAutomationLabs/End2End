@@ -32,6 +32,14 @@ Or you can always switch using the central app switcher on the top left of your 
 ### Deploy Landing Page
 
    ![Deploy Dashboard Page][DeployDashboard]
+
+**This Dashboard provides an overall view on:**
+
+- Deployment statuses (Number of executions, Number of successfull ones and Number of failed ones)
+- How many applications and components are managed by this instance
+- Utilization and Health status of deployment agents (which are doing the actual deployment work)
+- And a timeline of deployment activities and their results
+
 <!-- 
 ### Note
 
@@ -82,16 +90,17 @@ TODO: talk about components
 ### Create New Component
 
 - Press Create new Component Button: ![Component - Create new][DeployComponentCreateNew]
-- ![Component - Create Dialog 1][DeployComponentCreateNewDialog1]
-- ![Component - Create Dialog 2][DeployComponentCreateNewDialog2]
-- ![Component - Create Dialog 3][DeployComponentCreateNewDialog3]
-- ![Component - Create Dialog 4][DeployComponentCreateNewDialog4]
+  - ![Component - Create Dialog 1][DeployComponentCreateNewDialog1]
+  - ![Component - Create Dialog 2][DeployComponentCreateNewDialog2]
+  - ![Component - Create Dialog 3][DeployComponentCreateNewDialog3]
+  - ![Component - Create Dialog 4][DeployComponentCreateNewDialog4]
 - Component successful created, first view is the Versions view
-- ![Component - Newly Created Comp first view versions ][DeployComponentNewVersionView]
+  - ![Component - Newly Created Comp first view versions ][DeployComponentNewVersionView]
 - have a look at the Components configuration, you can change it here if needed
-- ![Component - Newly Created Comp configuraiton view][DeployComponentNewConfigurationView]
-- have a look at the processes of the component
-- ![Component - Newly Created Comp Processes view][DeployComponentNewProcessesView]
+  - ![Component - Newly Created Comp configuraiton view][DeployComponentNewConfigurationView]
+- have a look at the processes of the component, which are empty too
+  - ![Component - Newly Created Comp Processes view][DeployComponentNewProcessesView]
+  - We will add processes later in this lab
 
 ## Processes
 
@@ -105,11 +114,29 @@ TODO: talk about generic processes and for what they are good for
 
 #### Application Processes
 
-TODO: talk about app processes and what is the diff to other
+[Detailed Documentation on Application Processes][DOCAppProccesses]
+
+Application processes, like component processes, are created with the process editor. You use application processes to deploy or to roll back components, define the orchestration of the deployment of components. Means if there are dependencies between components deploy them sequentially, if no dependency exists do it in parallel.
+
+##### View Application Processes
+
+| Step | Details                                         | Additional Information { width="50%" }   |
+|:----:|:------------------------------------------------|:-----------------------------------------|
+|      | [Switch to Applications View][APPSallView]      |                                          |
+|      | [Open EchoLogic App][AppViewWithEnv]            |                                          |
+|      | [Switch to Processes View][SwitchToProcessView] |                                          |
+|      | Available application processes are shown       | ![Application Processes][AppProcessList] |
+|      |                                                 |                                          |
 
 #### Component Processes
 
-TODO: talk about component processes and what is it good fore
+TODO: talk about component processes and what is it good for
+
+##### View Component Processes
+
+[Switch to Components View][REFSwitchToCompView]
+
+[View Component Processes][REFCompProcessesView]
 
 A freshly created component does not have any processes:
 
@@ -251,80 +278,6 @@ Installation is Successfull Notification ![Plugin Installation Successfull][Depl
 
 Same procedure as installing a Plugin. Click on the 3 Dots menue and select **Upgrade**
 
-<!-- 
-Now click on edit button available on the individual process:
-
-![Deploy Edit Process Page](media/edit_process.png)
-
-Now click edit on `Stop Docker Container` and change the Docker Container edit field from `pizzaapp` to : pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
-
-Now Edit `Remove Docker Container`: pizzaapp-01 (note: 01 should be replaced with you student id) and save it.
-
-Now edit `Run Pizza App Container` :
-
- 1. Update container name to `pizzaapp-01` (note: 01 should be replaced with you student id) and save it.
-  ![Deploy Run Pizza Container Page](media/run_docker_container.png)
-
-Now Click on save button on the screen.
-
-## Build image and publish to Deploy
-
-1. Open http://165.192.86.196:8080/
-2. Click on New Item and fill `Enter an item name` with : App-01 (01 should be replaced with your student ID as mentioned in your email)
-3. Choose `pipeline`, press Ok
-4. Copy the content available on: https://github.com/DevOpsAutomationLabs/End2End/blob/main/files/Jenkins
-5. Paste it to any editor and update the text as below:
-     1. Search for `COMPONENT = "PizzaApp-Container-XX"` and Update XX with your student id. Eg. `COMPONENT = "PizzaApp-Container-02"`
-     2. Search for all the occurances of `XX` and replace it with your student id. Eg. `02`
-     3. Search for `<YOUR DEVOPS CONTROL EMAIL>"` and replace it with your email id shown in DevOps Control. Eg. `student02-labs.com`
-        ![Control Email](media/control_email.png)
-
-6. Now, switch back to Jenkins, and scroll down and find the pipeline script textbox.
-7. Copy the upadted content and Paste the copied text in `pipeline script`
-8. Click Save
-9. Jenkins Credential Setup (Optional): This has been already configured. So skip it. If you face issue while running jenkins build, then follow the below steps} Go to Jenkins Dashboard → Manage Jenkins → Credentials.
-    Choose the right scope (e.g., "Global").
-    Click Add Credentials.
-    Use these settings:
-      * Kind: Username with password
-      * Username: your Devops Control email id (Eg. student01-ibm.com)
-      * Password: the GitHub token (paste it here) (Note: You can get this by opening `DevOps Control` > Click on `Profile` > `Settings` > On left  panel select `Access token` > Give token name : “labs” > Select all permissions (Read and Write) > `Generate Token` > Copy and paste in the password field in jenkins credentials)
-      * ID: github-token-creds-xx (Note: xx is your student id ans should match with pipeline script)
-
-10. Click `Build Now` on Jenkins and wait until the image link is pushed to DevOps Deploy
-11. `Troubleshooting`: If your jenkins build fails, check if your control has the repository cloned or not. It is important to clone before you start build.
-
-  ![Jenkins pipeline Page](media/jenkins_pipeline.png)
-
-## Update the resource Tree
-
-Do not forget to do this important step once you can successfully run the Jenkins command:
-
-1. Navigate to DevOps Deploy > Find Resources on the left Pane and click on that > `Resource Tree` > Click on `Main` > locate row showing `online` > Click on 3 dots > `Add Component` (your component name. Eg. `PizzaApp-Container-02`)
-2. Back to Deploy Dashboard.
-
-  ![Add Component Page](media/add_component.png)
-
-## Final steps for Deployment
-
-1. Click on Application on the left panel
-2. Click on your application. Eg. `PizzApp-02`
-3. Switch Tab to Processes > Click on `Deploy App`
-4. Click on Edit symbol on `install Component Install: "PizzaApp-Container-01"`
-5. Under Component section, click the dopdown and Select your component. Eg. `PizzaApp-Container-02`
-6. Click Ok and then Click Save.
-7. Click on Application on the left panel again.
-8. Click on your application. Eg. `PizzApp-02`
-9. Locate DEV  > Request Process > Click `"Request Process"`
-10. Click `"Choose Component Version"`
-   ![Run Application pipeline Page](media/run_application_process.png)
-11. A right panel will open, click on `Add` , the drop-down`"By Version Lookup"` Select the first available
-12. Click on Submit
-13. Expand the process and check the deployment process. Note: You might see failure in `Stop Docker Container` and `Remove Docker Container` those are fine as you are running this process for the first time and you don't have after we have the running container.
-![Deployment process](media/deployment_process.png)
-14. Check your running application at: http://165.192.86.196:30XX (Note: XX should be relaced with your student id)
- -->
-
 ## Conclusio
 
 Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
@@ -345,9 +298,9 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [DeployComponentCreateNewDialog2]: media/DEPLOY_Components_CreateDialog2.png
 [DeployComponentCreateNewDialog3]: media/DEPLOY_Components_CreateDialog3.png
 [DeployComponentCreateNewDialog4]: media/DEPLOY_Components_CreateDialog4.png
-[DeployComponentNewVersionView]: media/DEPLOY_Components_NewCreatedComponentVersion.png
-[DeployComponentNewConfigurationView]: media/DEPLOY_Components_NewCreatedComponentConfig.png
-[DeployComponentNewProcessesView]: media/DEPLOY_Components_NewCreatedComponentProcesses.png
+[DeployComponentNewVersionView]: components/media/Component_Versions_View_empty.png
+[DeployComponentNewConfigurationView]: components/media/Component_Config.png
+[DeployComponentNewProcessesView]: components/media/Component_Tabbar_Processes.png
 [DeployProcessDesigner]: media/DEPLOY_Component_ProcessEditor.png
 [DeployComponentProcessDesignerSidebar]: media/DEPLOY_Component_ProcessEditor_Sidebar.png
 [DeployProcessDesignerAddStepp]: media/DEPLOY_Component_Process_AddStep.png
@@ -391,3 +344,10 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [DeployPlugin3DotsMenue]: media/DEPLOY_PluginList_3DotsMenue.png
 [DeployInstallPluginConfirmation]: media/DEPLOY_PluginInstallConfirmation.png
 [DeployPluginInstallSuccess]: media/DEPLOY_PluginInstallSuccess.png
+[APPSallView]: applications/index.md#switch-to-applications-view
+[AppViewWithEnv]: applications/index.md#view-application
+[SwitchToProcessView]: applications/index.md#show-processes
+[AppProcessList]: applications/media/Deploy_AppProcess_ListFinal.png
+[REFSwitchToCompView]: components/index.md#switch-to-components-view
+[REFCompProcessesView]: components/index.md#view-component-processes
+[DOCAppProccesses]: https://www.ibm.com/docs/en/devops-deploy/8.1.2?topic=processes-application

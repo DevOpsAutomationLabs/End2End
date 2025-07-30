@@ -52,15 +52,15 @@
 
 ### Import Application
 
-| Step | Details                                                       | Additional Information                       |
-|:----:|:--------------------------------------------------------------|:---------------------------------------------|
-|      | If no Applications are available                              | ![Empty Applications View][APPSallViewEmpty] |
-|      | click on the **Import Applications** Button                   | ![Import App Button][ButtonImportApps]       |
-|      | If necessary change the settings in the Dialog                | ![Import App dialog][ImportAppsDialog]       |
-|      | Click on the **Choose File** Button to select App Import file | ![Choose File][ButtonChooseFile]             |
-|      | Select file "App_EchoLogic_NoComponents.json" in your file explorer                          | ![Select Import File][FileSelect]            |
-|      | click on **Submit** Button to start Import                    | ![Submit Button][ButtonSubmit]               |
-|      | Application is shown                                          | ![Application View with Env][AppViewWEnv]    |
+| Step | Details                                                             | Additional Information                       |
+|:----:|:--------------------------------------------------------------------|:---------------------------------------------|
+|      | If no Applications are available                                    | ![Empty Applications View][APPSallViewEmpty] |
+|      | click on the **Import Applications** Button                         | ![Import App Button][ButtonImportApps]       |
+|      | If necessary change the settings in the Dialog                      | ![Import App dialog][ImportAppsDialog]       |
+|      | Click on the **Choose File** Button to select App Import file       | ![Choose File][ButtonChooseFile]             |
+|      | Select file "App_EchoLogic_NoComponents.json" in your file explorer | ![Select Import File][FileSelect]            |
+|      | click on **Submit** Button to start Import                          | ![Submit Button][ButtonSubmit]               |
+|      | Application is shown                                                | ![Application View with Env][AppViewWEnv]    |
 
 ## View Application
 
@@ -71,23 +71,43 @@
 |  3   | First View is the Environments view  | ![Application View with Env][AppViewWEnv] |
 |      |                                      |                                           |
 
-## Add Components to Application
+### Show Components
 
-| Step | Details                                 | Additional Information                        |
-|:----:|:----------------------------------------|:----------------------------------------------|
-|      | Click on **Components** Tab             | ![App Components Tab][AppCompTab]             |
-|      | Components View is shown                | ![App Components View][AppCompView]           |
-|      | Click on **Add Components** Button      | ![Add Comp Button][ButtonAddComp]             |
-|      | In the Dialog select "Echo" and "Logic" | ![Select Components to add][SelectCompToAdd]  |
-|      | Click on **Save** Button                | ![Save Button][ButtonSave]                    |
-|      | Components View with added Components   | ![App Comp View with Comps][AppCompViewFinal] |
+| Step | Details                     | Additional Information              |
+|:----:|:----------------------------|:------------------------------------|
+|      | Click on **Components** Tab | ![App Components Tab][AppCompTab]   |
+|      | Components View is shown    | ![App Components View][AppCompView] |
 
-## Import Processes
+#### How to Add Components to Application
+
+| Step | Details                                       | Additional Information                        |
+|:----:|:----------------------------------------------|:----------------------------------------------|
+|      | [Switch to Components View](#show-components) |                                               |
+|      | Click on **Add Components** Button            | ![Add Comp Button][ButtonAddComp]             |
+|      | In the Dialog select "Echo" and "Logic"       | ![Select Components to add][SelectCompToAdd]  |
+|      | Click on **Save** Button                      | ![Save Button][ButtonSave]                    |
+|      | Components View with added Components         | ![App Comp View with Comps][AppCompViewFinal] |
+
+### Show Processes
+
+| Step | Details                                          | Additional Information                     |
+|:----:|:-------------------------------------------------|:-------------------------------------------|
+|      | click on "Processes" Tab                         | ![App Processes Tab][AppProcessesTab]      |
+|      | List of all Application Processes will be shown. | ![Application Processes][AppProcessesView] |
+
+#### Show an Application Process
+
+| Step | Details                                                   | Additional Information                        |
+|:----:|:----------------------------------------------------------|:----------------------------------------------|
+|      | [Switch to Processes View][SwitchToProcessView]           |                                               |
+|      | Click on **Deploy** Process                               | ![Application Processes List][AppProcessList] |
+|      | The Process Editor opens and shows the deployment process | ![App Deployment Process][AppViewProcess]     |
+
+#### How to Import Processes
 
 | Step | Details                                             | Additional Information                                 |
 |:----:|:----------------------------------------------------|:-------------------------------------------------------|
-|      | click on "Processes" Tab                            | ![App Processes Tab][AppProcessesTab]                  |
-|      | List of all Application Processes will be shown.    | ![Application Processes][AppProcessesView]             |
+|      | [Switch to Processes View][SwitchToProcessView]     |                                                        |
 |      | Click on **Import Process** Button                  | ![Import App Process Button][AppImportProcessButton]   |
 |      | The Import Process Dialog opens                     | ![Import Dialog][ImportProcessDialog]                  |
 |      | click on **Choose File** Button                     | ![Import Dialog Select File][ImpProcessChooseFile]     |
@@ -137,3 +157,5 @@
 [ENVAddBaseRes]: media/Deploy_Env_AddBaseRes_Button.png
 [ENVAddResDialog]: media/Deploy_Env_AddRes_Dialog.png
 [EnvAddResSelected]: media/Deploy_Env_AddRes_Selected.png
+[SwitchToProcessView]: #show-processes
+[AppViewProcess]: media/Deploy_AppDeploymentProcess.png
