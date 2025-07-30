@@ -1111,6 +1111,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#use-the-deployment-genie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use the Deployment Genie
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -2860,6 +2869,23 @@ View the output of the step <img alt="Output of Step" src="media/DEPLOY_RunningP
 </ul>
 <p>Now the Environment configuration has been updated to indicate that a Snapshot is applied:
 <img alt="Snapshot on environment" src="media/DEPLOY_Application_Environment_SnapshotApplied.png" /></p>
+<h3 id="use-the-deployment-genie">Use the Deployment Genie</h3>
+<p>Use Deploy Genie to understand why the deployment failed. To simulate a failed deployment <a href="#request-a-process">request a new deployment process</a> but now select the following:</p>
+<ul>
+<li>Deployment Process <strong>Failing Deployment</strong></li>
+<li><img alt="Failing Deployment Process" src="media/Deploy_RunProc_FailingDeploy.png" /></li>
+<li>Select Versions for Components</li>
+<li>for <strong>Echo</strong> select Version <strong>1.0</strong></li>
+<li>for <strong>Logic</strong> select Version <strong>2.0.0</strong></li>
+<li><img alt="Select Versions for Components" src="media/Deploy_AppRun_SelectedCompVersions.png" /></li>
+<li>The result will be a failed deployment as one step has failed</li>
+<li><img alt="Failed Result" src="media/Deploy_AppRun_ResultFailed.png" /></li>
+<li>Click on the <strong>3 dots</strong> <img alt="3 dots menue" src="media/DEPLOY_PluginList_3DotsMenue.png" /> of the failing to show Menue: <img alt="menue" src="media/Deploy_AppRun_ResultFailed_Step_3Dots.png" /></li>
+<li>Click on <strong>Deployment Genie</strong> after a few moments the step will be analyzed and the results shown<ul>
+<li><img alt="AI Analyzed" src="media/Deploy_AppProcess_AI_Analysis.png" /></li>
+</ul>
+</li>
+</ul>
 <h2 id="settings">Settings</h2>
 <p>Switch to Settings by using the Settings Icon: <img alt="Deploy Settings Icon" src="media/DEPLOY_SettingsIcon.png" /></p>
 <h3 id="plugins">Plugins</h3>
@@ -2869,7 +2895,7 @@ View the output of the step <img alt="Output of Step" src="media/DEPLOY_RunningP
 <li><img alt="Plugin List" src="media/DEPLOY_PluginsList.png" /></li>
 </ul>
 <h4 id="how-to-install-a-plugin">How to install a plugin</h4>
-<p>click on the <a href="media/DEPLOY_PluginList_3DotsMenue.png">3 dots menue</a> of the plugin you want to install and select install: <img alt="Install plugin" src="media/DEPLOY_Plugins_Install.png" />
+<p>click on the <strong>3 Dots</strong> <img alt="3 dots menue" src="media/DEPLOY_PluginList_3DotsMenue.png" /> of the plugin you want to install and select install: <img alt="Install plugin" src="media/DEPLOY_Plugins_Install.png" />
 An Installation Confirmation Dialog will pop up, click here on <strong>Confirm</strong> to proceed <img alt="Plugin Installation Confirmation" src="media/DEPLOY_PluginInstallConfirmation.png" />
 Installation is Successfull Notification <img alt="Plugin Installation Successfull" src="media/DEPLOY_PluginInstallSuccess.png" /></p>
 <h3 id="how-to-upgrade-a-plugin">How to upgrade a plugin</h3>
