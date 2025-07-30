@@ -264,6 +264,22 @@ Select the Create Snapshot Icon: ![Create Snapshot](media/DEPLOY_Application_Env
 Now the Environment configuration has been updated to indicate that a Snapshot is applied:
 ![Snapshot on environment](media/DEPLOY_Application_Environment_SnapshotApplied.png)
 
+### Use the Deployment Genie
+
+Use Deploy Genie to understand why the deployment failed. To simulate a failed deployment [request a new deployment process][REFRequestAProcess] but now select the following:
+
+- Deployment Process **Failing Deployment**
+  - ![Failing Deployment Process][RunSelectFailingDeployment]
+- Select Versions for Components
+  - for **Echo** select Version **1.0**
+  - for **Logic** select Version **2.0.0**
+  - ![Select Versions for Components][RunFailSelectCompVersions]
+- The result will be a failed deployment as one step has failed
+  - ![Failed Result][RunFailed]
+  - Click on the **3 dots** ![3 dots menue][DeployPlugin3DotsMenue] of the failing to show Menue: ![menue][Step3DotsMenueWithGenie]
+  - Click on **Deployment Genie** after a few moments the step will be analyzed and the results shown
+    - ![AI Analyzed][GenieAnalysis]
+
 ## Settings
 
 Switch to Settings by using the Settings Icon: ![Deploy Settings Icon][DeploySettingsIcon]
@@ -277,7 +293,7 @@ Plugins are listed in the Automation Section of the Settings pages.
 
 #### How to install a plugin
 
-click on the [3 dots menue][DeployPlugin3DotsMenue] of the plugin you want to install and select install: ![Install plugin][DeployInstallPlugin]
+click on the **3 Dots** ![3 dots menue][DeployPlugin3DotsMenue] of the plugin you want to install and select install: ![Install plugin][DeployInstallPlugin]
 An Installation Confirmation Dialog will pop up, click here on **Confirm** to proceed ![Plugin Installation Confirmation][DeployInstallPluginConfirmation]
 Installation is Successfull Notification ![Plugin Installation Successfull][DeployPluginInstallSuccess]
 
@@ -360,3 +376,9 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [SBApplicationsIcon]: media/Deploy_Sidebar_AppIcon.jpg
 [SBApplicationsText]: media/Deploy_Sidebar_AppIconWithText.png
 [REFSwitchToAppView]: #switch-to-applications-view
+[RunSelectFailingDeployment]: media/Deploy_RunProc_FailingDeploy.png
+[REFRequestAProcess]: #request-a-process
+[Step3DotsMenueWithGenie]: media/Deploy_AppRun_ResultFailed_Step_3Dots.png
+[RunFailSelectCompVersions]: media/Deploy_AppRun_SelectedCompVersions.png
+[RunFailed]: media/Deploy_AppRun_ResultFailed.png
+[GenieAnalysis]: media/Deploy_AppProcess_AI_Analysis.png

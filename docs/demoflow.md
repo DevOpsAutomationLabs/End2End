@@ -127,18 +127,6 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ## [Deploy](learn/deploy/index.md)
 
-| Step | Details                                                                        | Additional Information |
-|:----:|:-------------------------------------------------------------------------------|:-----------------------|
-|  x   | show the landing page and explain the metrics                                  |                        |
-|  x   | show processes (components, app)                                               |                        |
-|  -   | edit a process                                                                 |                        |
-|  x   | show a process which executes a test (passing) and sets quality tag on version |                        |
-|      | run and view results of steps                                                  |                        |
-|      | show results on environment changes                                            |                        |
-|      | run a failing deployment                                                       |                        |
-|      | use deploy genie to understand why it failed                                   |                        |
-|      | show the plugin page and explain how easy it is to integrate with 3rd parties  |                        |
-
 ### [Deploy Overview][REFDeployOverview]
 
 | Step | Details                                                                                 | Additional Information { width="50%" }                                      |
@@ -179,7 +167,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 | 5.6  | Select the Versions of the Components for deployment                                   |                                                                                       |
 | 5.7  | Select Version **1.1** for the **Echo** Component                                      | ![Echo Version][DeployAppPocessRequestSelectCompVersion1]                             |
 | 5.8  | Select Version **2.0.1** for the **Logic** Component                                   | ![LogicVersion][DeployAppPocessRequestSelectCompVersion2]                             |
-| 5.9  | Press the Submit button to start the deployment process                                | ![Submit Button][DeployAppPocessRequestSubmitButton]                                  |
+| 5.9  | Press the **Submit** button to start the deployment process                            | ![Submit Button][DeployAppPocessRequestSubmitButton]                                  |
 |  6   | Process is started and you can [View the running Process][DeployViewRunningProcess]    | ![Running Process][DeployProcessRunning]                                              |
 | 6.1  | In this View the details of the executed steps are shown by clicking on **Expand All** | ![Expand All][DeployProcessRunningExpandAllButton]                                    |
 | 6.2  | To view the detailed output of a step click on **3 dots menue** of the step            | ![3 dots menue of step][DeployProcessRunning3DotsofStep]                              |
@@ -191,14 +179,18 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 | 7.3  | Click on the Component **Echo** to Details                                             | ![Status added to version][DeployComponentFinalProcesWithVersionStatus]               |
 | 7.4  | Status in the Versionlist of the component will be shown                               |                                                                                       |
 
-### Use the Deployment Genie
+### [Use the Deployment Genie][REFUseGenie]
 
-| Step | Details                                                  | Additional Information { width="50%" }                                   |
-|:----:|:---------------------------------------------------------|:-------------------------------------------------------------------------|
-|      | Use Deploy Genie to understand why the deployment failed | **TODO: update as soon as connected to openai to showcase Deploy Genie** |
-|      |                                                          |                                                                          |
-|      |                                                          |                                                                          |
-|      |                                                          |                                                                          |
+| Step | Details                                                                                                              | Additional Information { width="50%" }                    |
+|:----:|:---------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
+|      | Use Deploy Genie to understand why the deployment failed                                                             |                                                           |
+|      | To simulate a failed deployment [request a new deployment process][REFRequestAProcess] but now select the following: |                                                           |
+|      | Deployment Process **Failing Deployment**                                                                            | ![Failing Process][RunSelectFailingDeployment] |
+|      | Select following Versions <br>for **Echo** select **1.0**<br>for **Logic** select **2.0.0**                          | ![Comp Versions][RunFailSelectCompVersions]                    |
+|      | Press the **Submit** button to start the deployment process                                                          | ![Submit Button][DeployAppPocessRequestSubmitButton]      |
+|      | The result will be a **failed** deployment as one step has failed                                                    | ![Failed Result][RunFailed]                               |
+|      | Click on the **3 dots** ![3 dots menue][DeployPlugin3DotsMenue] to get menue of the failed step                      | ![Step Menue][Step3DotsMenueWithGenie]                         |
+|      | Click on **Deployment Genie** after a few moments the step will be analyzed and the results shown                    | ![AI Analyzed][GenieAnalysis]                             |
 
 ### Show the Plug-Ins Page
 
@@ -210,10 +202,6 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 |  3   | In the Settings View in the Section **Automation**                                    |                                                                      |
 |      | [View installed and available Plugins][DeploySettingsAutomationSection]               | ![Automation Plugins][DeploySettingsAutomationPlugins]               |
 |  4   | By clicking on **Available Plugins** a list of all available Plug-Ins is shown        | ![Plugin List][DeploySettingsPluginsList]                            |
-|  5   | [Install a new Plugin][DeployShowHowToInstallPlugin]                                  | ![Install plugin][DeployInstallPlugin]                               |
-| 5.1  | by clicking on the **3 Dots Menue** of a Plugin                                       | [3 dots menue][DeployPlugin3DotsMenue]                               |
-|  6   | An Installation Confirmation Dialog will pop up, click here on **Confirm** to proceed | ![Plugin Installation Confirmation][DeployInstallPluginConfirmation] |
-|  7   | Installation is Successfull Notification                                              | ![Plugin Installation Successfull][DeployPluginInstallSuccess]       |
 
 ## [Test](learn/test/index.md)
 
@@ -461,6 +449,13 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [CompDetails]: learn/deploy/components/media/Component_Imported.png
 [CompProcessTab]: learn/deploy/components/media/Component_Tabbar_Processes.png
 [CompProcesses]: learn/deploy/components/media/Component_Processlist_withentries.png
+[REFUseGenie]: learn/deploy/index.md#use-the-deployment-genie
+[RunSelectFailingDeployment]: learn/deploy/media/Deploy_RunProc_FailingDeploy.png
+[REFRequestAProcess]: learn/deploy/index.md#request-a-process
+[RunFailSelectCompVersions]: learn/deploy/media/Deploy_AppRun_SelectedCompVersions.png
+[RunFailed]: learn/deploy/media/Deploy_AppRun_ResultFailed.png
+[GenieAnalysis]: learn/deploy/media/Deploy_AppProcess_AI_Analysis.png
+[Step3DotsMenueWithGenie]: learn/deploy/media/Deploy_AppRun_ResultFailed_Step_3Dots.png
 
 [ButtonCode]: learn/control/media/Control_CodeButton.png
 [ButtonCodeExpanded]: learn/control/media/Control_CodeButtonExpanded.png
