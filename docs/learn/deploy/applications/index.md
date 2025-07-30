@@ -1,14 +1,8 @@
 # Applications
 
-## Switch to Applications View
+## [Switch to Applications View](../index.md#switch-to-applications-view)
 
-| Step | Details                                                | Additional Information                                |
-|:----:|:-------------------------------------------------------|:------------------------------------------------------|
-|  1   | Switch to Applications View by clicking on the Sidebar |                                                       |
-|      |                                                        | ![Sidebar Applications][SBApplicationsIcon]           |
-|      |                                                        | ![Sidebar Applications with Text][SBApplicationsText] |
-|      | View for all Applications                              | ![All Applications View][APPSallView]                 |
-|      |                                                        |                                                       |
+To switch to Applications View, click in the Sidebar on the **Applications** Icon ![Sidebar Applications][SBApplicationsIcon] / ![Sidebar App Expanded][SBApplicationsText]
 
 ## Create or Import Application
 

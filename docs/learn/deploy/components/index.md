@@ -2,7 +2,7 @@
 
 ## Switch to Components View
 
-| Step | Details                                       | Additional Information { width="50%" } |
+| Step | Details                                       | Additional Information { width="50%" }         |
 |:----:|:----------------------------------------------|:-----------------------------------------------|
 |  1   | In the sidebar select the **Components** Icon | ![Sidebar Components Icon][SBCompIcon]         |
 |      |                                               | ![Sidebar ComponentsIcon Text][SBCompIconText] |
@@ -10,17 +10,17 @@
 
 ## View Component Processes
 
-| Step | Details                                              | Additional Information { width="50%" } |
-|:----:|:-----------------------------------------------------|:---------------------------------------|
-|      | [Switch to Components View][SwitchToCompView]        |                                        |
-|      | List of Components is shown             | ![List of Comps][CompsList]|
-|      |click on **Echo** component to view details|![Open Echo Component][CompDetails] |
+| Step | Details                                               | Additional Information { width="50%" } |
+|:----:|:------------------------------------------------------|:---------------------------------------|
+|      | [Switch to Components View][SwitchToCompView]         |                                        |
+|      | List of Components is shown                           | ![List of Comps][CompsList]            |
+|      | click on **Echo** component to view details           | ![Open Echo Component][CompDetails]    |
 |      | ![Switch to Component processes View][CompProcessTab] |                                        |
-|      | Available Component processes are shown              | ![Component Processes][CompProcesses]  |
+|      | Available Component processes are shown               | ![Component Processes][CompProcesses]  |
 
 ## Importing Components
 
-| Step | Details                                    | Additional Information { width="50%" } |
+| Step | Details                                    | Additional Information { width="50%" }         |
 |:----:|:-------------------------------------------|:-----------------------------------------------|
 |      | click on **Import Component** Button       | ![Import Component Button][ButtonImportComps]  |
 |      | Import Dialog opens                        | ![Import Dialog][CompImportDialog]             |

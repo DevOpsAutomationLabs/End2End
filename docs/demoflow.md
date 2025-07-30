@@ -130,16 +130,16 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 | Step | Details                                                                        | Additional Information |
 |:----:|:-------------------------------------------------------------------------------|:-----------------------|
 |  x   | show the landing page and explain the metrics                                  |                        |
-|      | show processes (components, app)                                               |                        |
-|      | edit a process                                                                 |                        |
-|      | show a process which executes a test (passing) and sets quality tag on version |                        |
+|  x   | show processes (components, app)                                               |                        |
+|  -   | edit a process                                                                 |                        |
+|  x   | show a process which executes a test (passing) and sets quality tag on version |                        |
 |      | run and view results of steps                                                  |                        |
 |      | show results on environment changes                                            |                        |
 |      | run a failing deployment                                                       |                        |
 |      | use deploy genie to understand why it failed                                   |                        |
 |      | show the plugin page and explain how easy it is to integrate with 3rd parties  |                        |
 
-### Deploy Overview
+### [Deploy Overview][REFDeployOverview]
 
 | Step | Details                                                                                 | Additional Information { width="50%" }                                      |
 |:----:|:----------------------------------------------------------------------------------------|:----------------------------------------------------------------------------|
@@ -164,32 +164,32 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ### Run a Deplyoment
 
-| Step | Details                                                                                | Additional Information { width="50%" }                                                        |
-|:----:|:---------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
-|  1   | [Run a Process and view results of steps][DeployRunaDeployment]                        |                                                                                               |
-|  2   | Open the Applicationslist by clicking on Applications Icon                             | ![Deploy Applications Button on Sidebar][DeploySidebarAppIcon]                                |
-|  3   | Select your Application by clicking on the link in the Applications List               | ![Deploy Application][DeployShowApp]                                                          |
-|  4   | All Environments of Application will be shown                                          | ![Deploy Application Environment List][DeployAppEnvList]                                      |
-|  5   | [Run a Deployment in an Environment][DeployRequestAprocess]                            |                                                                                               |
-|  6   | On the DEV environment                                                                 | ![Dev Environment][DeployAppDevEnv]                                                           |
-| 6.1  | click on Request Process Button:                                                       | ![Request Button][DeployAppRequestProcessButton]                                              |
-|  7   | Select **Deploy with Test Passed**                                                     | ![Run Process Dialog - Select Deployment Process][DeployAppProcessRequestSelectProcess]       |
-|  8   | Uncheck **Deploy Only Changed** to deploy same versions again                          | ![Run Process Dialog - uncheck Deploy Only Changed][DeployAppProcessRequestOnlyChanged]       |
-|  9   | click on **Choose Component Versions** button                                          | ![Run Process Dialog - Choose Versions Button][DeployAppPocessRequestChooseCompVersionButton] |
-|  10  | Select the Versions of the Components for deployment                                   |                                                                                               |
-|  11  |                                                                                        | ![Run Process Dialog - Select Component Version 1][DeployAppPocessRequestSelectCompVersion1]  |
-|  12  |                                                                                        | ![Run Process Dialog - Select Component Version 2][DeployAppPocessRequestSelectCompVersion2]  |
-|  13  | Press the Submit button to start the deployment process                                | ![Submit Button][DeployAppPocessRequestSubmitButton]                                          |
-|  14  | Process is started and you can [View the running Process][DeployViewRunningProcess]    | ![Running Process][DeployProcessRunning]                                                      |
-|  15  | In this View the details of the executed steps are shown by clicking on **Expand All** | ![Expand All][DeployProcessRunningExpandAllButton]                                            |
-|  16  | To view the detailed output of a step click on **3 dots menue** of the step            | ![3 dots menue of step][DeployProcessRunning3DotsofStep]                                      |
-|  17  | View the output of the step                                                            | ![Output of Step][DeployProcessRunningStepOutputDetails]                                      |
-|  18  | When the deplyoment finishes the [Result][DeployResultofRun] will be shown             |                                                                                               |
-|  19  | The deployment run successfully                                                        | ![Deployment Success][DeployAppProcessRunSuccess]                                             |
-|  20  | [Show Environment and its new configuration][DeployResultofRun]                        |                                                                                               |
-|  21  | Switch to the Environment View of the Application and view the updated configuration   | ![Environment with deployed versions of components][DeployAppEnvwithDeployedVersions]         |
-|  22  | By clicking on the Component **Echo** in this view                                     | ![Status added to version][DeployComponentFinalProcesWithVersionStatus]                       |
-| 22.1 | the set Status in the Versionlist of the component will be shown                       |                                                                                               |
+| Step | Details                                                                                | Additional Information { width="50%" }                                                |
+|:----:|:---------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
+|  1   | [Run a Process and view results of steps][DeployRunaDeployment]                        |                                                                                       |
+|  2   | Open the Applicationslist by clicking on Applications Icon                             | ![Deploy Applications Button on Sidebar][SBApplicationsIcon]                          |
+|  3   | Select your Application by clicking on the link in the Applications List               | ![Deploy Application][DeployShowApp]                                                  |
+|  4   | All Environments of Application will be shown                                          | ![Deploy Application Environment List][DeployAppEnvList]                              |
+|  5   | [Run a Deployment][DeployRequestAprocess]                                              |                                                                                       |
+| 5.1  | Use the DEV environment                                                                | ![Dev Environment][DeployAppDevEnv]                                                   |
+| 5.2  | click on Request Process Button:                                                       | ![Request Button][DeployAppRequestProcessButton]                                      |
+| 5.3  | Select **Deploy with Test Passed**                                                     | ![Select Deployment Process][DeployAppProcessRequestSelectProcess]                    |
+| 5.4  | Uncheck **Deploy Only Changed** to deploy same versions again                          | ![uncheck Deploy Only Changed][DeployAppProcessRequestOnlyChanged]                    |
+| 5.5  | click on **Choose Component Versions** button                                          | ![Choose Versions Button][DeployAppPocessRequestChooseCompVersionButton]              |
+| 5.6  | Select the Versions of the Components for deployment                                   |                                                                                       |
+| 5.7  | Select Version **1.1** for the **Echo** Component                                      | ![Echo Version][DeployAppPocessRequestSelectCompVersion1]                             |
+| 5.8  | Select Version **2.0.1** for the **Logic** Component                                   | ![LogicVersion][DeployAppPocessRequestSelectCompVersion2]                             |
+| 5.9  | Press the Submit button to start the deployment process                                | ![Submit Button][DeployAppPocessRequestSubmitButton]                                  |
+|  6   | Process is started and you can [View the running Process][DeployViewRunningProcess]    | ![Running Process][DeployProcessRunning]                                              |
+| 6.1  | In this View the details of the executed steps are shown by clicking on **Expand All** | ![Expand All][DeployProcessRunningExpandAllButton]                                    |
+| 6.2  | To view the detailed output of a step click on **3 dots menue** of the step            | ![3 dots menue of step][DeployProcessRunning3DotsofStep]                              |
+| 6.3  | View the output of the step                                                            | ![Output of Step][DeployProcessRunningStepOutputDetails]                              |
+| 6.4  | When the deplyoment finishes the [Result][DeployResultofRun] will be shown             |                                                                                       |
+|  7   | The deployment run successfully                                                        | ![Deployment Success][DeployAppProcessRunSuccess]                                     |
+| 7.1  | [Show Environment and its new configuration][DeployResultofRun]                        |                                                                                       |
+| 7.2  | Switch to the Environment View of the Application and view the updated configuration   | ![Environment with deployed versions of components][DeployAppEnvwithDeployedVersions] |
+| 7.3  | Click on the Component **Echo** to Details                                             | ![Status added to version][DeployComponentFinalProcesWithVersionStatus]               |
+| 7.4  | Status in the Versionlist of the component will be shown                               |                                                                                       |
 
 ### Use the Deployment Genie
 
@@ -391,6 +391,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [BuildShowTemplateDefinition]: learn/build/media/BUILD_Templates_Process_Def.png
 
 [DeployOpen]: learn/deploy/index.md#how-to-switch-to-deploy-from-home-page
+[REFDeployOverview]: learn/deploy/index.md#overview
 [DeployWWYLTT]: learn/deploy/index.md#what-would-you-like-to-do-today
 [WhatWouldYouLikeToDoToday]: learn/introduction/media/Loop_whatwouldyouliketodotoday.png
 [DeployShowLandingPage]: learn/deploy/index.md#deploy-landing-page
@@ -406,7 +407,6 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [DeployComponentProcessesList]: learn/deploy/media/DEPLOY_Component_WithProcessList.png
 [DeployComponentCreateNewProcessButton]: learn/deploy/media/DEPLOY_Component_CreateProcessButton.png
 [DeployShowApp]: learn/deploy/media/DEPLOY_ApplicationList_ShowEcologic.png
-[DeploySidebarAppIcon]: learn/deploy/media/Deploy_Sidebar_AppIcon.png
 [DeployAppEnvList]: learn/deploy/media/DEPLOY_Application_Environmentlist.png
 [DeployAppRequestProcessButton]: learn/deploy/media/DEPLOY_Application_RequestProcess.png
 [DeployAppProcessRequestSelectProcess]: learn/deploy/media/DEPLOY_Application_Runappprocessdialog1_SelectDeploymentProcess.png

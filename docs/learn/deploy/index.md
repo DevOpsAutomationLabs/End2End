@@ -79,6 +79,16 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 TODO: talk about applications
 
+### Switch to Applications View
+
+| Step | Details                                                | Additional Information                                |
+|:----:|:-------------------------------------------------------|:------------------------------------------------------|
+|  1   | Switch to Applications View by clicking on the Sidebar |                                                       |
+|      |                                                        | ![Sidebar Applications][SBApplicationsIcon]           |
+|      |                                                        | ![Sidebar Applications with Text][SBApplicationsText] |
+|      | View for all Applications                              | ![All Applications View][APPSallView]                 |
+|      |                                                        |                                                       |
+
 ### Create New Application
 
 ## [Components](components/index.md)
@@ -196,22 +206,17 @@ Now we have additional deployment processes. One for passing a test and one for 
 Result in the Versionlist of the component:
 ![Status added to version][DeployComponentFinalProcesWithVersionStatus]
 
-## Applications
-
-TODO: talk about applications
-
-Open the Applicationslist by clicking on Applications Icon: ![Deploy Applications Button on Sidebar][DeploySidebarAppIcon]
-
 ## Environments
 
 TODO: talk about environments
 
 ## Run a deployment
 
-Select your Application by clicking on the link: ![Deploy Application][DeployShowApp]
-
-All Environments of Application will be shown:
-![Deploy Application Environment List][DeployAppEnvList]
+| Step | Details                                                       | Additional Information { width="50%" }                   |
+|:----:|:--------------------------------------------------------------|:---------------------------------------------------------|
+|  1   | [Switch to Applications view][REFSwitchToAppView]             |                                                          |
+|  2   | Select **EchoLogic** Application by clicking on the name/link | ![Deploy Application][DeployShowApp]                     |
+|  4   | All Environments of Application will be shown                 | ![Deploy Application Environment List][DeployAppEnvList] |
 
 ### Request a Process
 
@@ -241,7 +246,9 @@ View the output of the step ![Output of Step][DeployProcessRunningStepOutputDeta
 ### Result of Run
 
 The deployment run successfully ![Deployment Success][DeployAppProcessRunSuccess]
+
 and updated the configuration of the environment with the deployed component versions:
+
 ![Environment with deployed versions of components][DeployAppEnvwithDeployedVersions]
 
 ### Create a Snapshot
@@ -317,8 +324,7 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [DeployProcessDesignerAddedVersionStatus]: media/DEPLOY_Component_ProcessEditor_StepAdded_AddStatus.png
 [DeployProcessDesignerAddedVersionStatusProperties]: media/DEPLOY_Component_Process_Step_AddStatusProperties.png
 [DeployComponentFinalProcesWithVersionStatus]: media/DEPLOY_Component_VersionList_withStatus.png
-[DeploySidebarAppIcon]: media/Deploy_Sidebar_AppIcon.png
-[DeployShowApp]: media/DEPLOY_ApplicationList_ShowEcologic.png
+[DeployShowApp]: applications/media/Deploy_Applications_View.png
 [DeployAppEnvList]: media/DEPLOY_Application_Environmentlist.png
 [DeployAppRequestProcessButton]: media/DEPLOY_Application_RequestProcess.png
 [DeployAppProcessRequestSelectProcess]: media/DEPLOY_Application_Runappprocessdialog1_SelectDeploymentProcess.png
@@ -351,3 +357,6 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [REFSwitchToCompView]: components/index.md#switch-to-components-view
 [REFCompProcessesView]: components/index.md#view-component-processes
 [DOCAppProccesses]: https://www.ibm.com/docs/en/devops-deploy/8.1.2?topic=processes-application
+[SBApplicationsIcon]: media/Deploy_Sidebar_AppIcon.jpg
+[SBApplicationsText]: media/Deploy_Sidebar_AppIconWithText.png
+[REFSwitchToAppView]: #switch-to-applications-view
