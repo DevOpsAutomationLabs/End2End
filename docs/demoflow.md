@@ -86,24 +86,24 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 | Step | Details                                                                               | Additional Information { width="50%" }                     |
 |:----:|:--------------------------------------------------------------------------------------|:-----------------------------------------------------------|
-|      | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menue. | ![Code Button Expanded][ButtonCodeExpanded]                |
-|      | Click on **Open with VSCode**                                                         | ![open with vscode][OpenWithVSCode]                        |
-|      | In the following **Dialog Window** allow to open Link                                 | ![Allow to open VSCode by link][AllowToOpenVSCode]         |
-|      | VSCode will ask you for a location to clone the folder                                | ![Target Folder for cloning][SelectTargetFolderforCloning] |
-|      | VSCode will ask for Control Userid, enter **demo@devops.loop**                        | ![Code asking for Userid][CodeEnterUserID]                 |
-|      | VSCode will ask for Control Token, enter your **Access Token**                        | ![Code asking for Password or Token][CodeEnterPAT]         |
-|      | which you created in the [Access Token Section][REFPATSection]                        |                                                            |
+|  1   | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menue. | ![Code Button Expanded][ButtonCodeExpanded]                |
+|  2   | Click on **Open with VSCode**                                                         | ![open with vscode][OpenWithVSCode]                        |
+|  3   | In the following **Dialog Window** allow to open Link                                 | ![Allow to open VSCode by link][AllowToOpenVSCode]         |
+|  4   | VSCode will ask you for a location to clone the folder                                | ![Target Folder for cloning][SelectTargetFolderforCloning] |
+|  5   | VSCode will ask for Control Userid, enter **demo@devops.loop**                        | ![Code asking for Userid][CodeEnterUserID]                 |
+|  6   | VSCode will ask for Control Token, enter your **Access Token**                        | ![Code asking for Password or Token][CodeEnterPAT]         |
+|  7   | which you created in the [Access Token Section][REFPATSection]                        |                                                            |
 
 ## [Code](learn/code/index.md)
 
 | Step | Details                                                                     | Additional Information { width="50%" }                                            |
 |:----:|:----------------------------------------------------------------------------|:----------------------------------------------------------------------------------|
-|      | Explain that we showed the link between a work item and the code in control |                                                                                   |
-|      | [Switch to CODE][CODEopen] if it is not visible                             | **NOTE: use VScode for now, Switch to DevOps Code later when WCAx is integrated** |
-|      | [Use WCA to explain code and generate some new code][CODEWcaX]              | ![Explain code part 1][WcaXexplain1]                                              |
+|  1   | Explain that we showed the link between a work item and the code in control |                                                                                   |
+|  2   | [Switch to CODE][CODEopen] if it is not visible                             | **NOTE: use VScode for now, Switch to DevOps Code later when WCAx is integrated** |
+|  3   | [Use WCA to explain code and generate some new code][CODEWcaX]              | ![Explain code part 1][WcaXexplain1]                                              |
 |      |                                                                             | ![Explain code part 2][WcaXexplain2]                                              |
-|      | [Push code and add comment with work item number][CODEcommitWI]             | ![Commit Code with WI][CodeWithWIcommit]                                          |
-|      | [Open Control and show the update](#control)                                |                                                                                   |
+|  4   | [Push code and add comment with work item number][CODEcommitWI]             | ![Commit Code with WI][CodeWithWIcommit]                                          |
+|  5   | [Open Control and show the update](#control)                                |                                                                                   |
 
 ## [Control](learn/control/index.md)
 
@@ -117,12 +117,12 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 | Step | Details                                                             | Additional Information { width="50%" }                             |
 |:----:|:--------------------------------------------------------------------|:-------------------------------------------------------------------|
-|      | [Open Build][BuildOpen]                                             |                                                                    |
-|      | [Show overview on build runs and results][BuildOverviewRunsResults] | ![Project Build Runs and Results][BuildProjectRunsResults]         |
-|      | [Show build process][BuildShowBuildProcess]                         | ![Build Process Detail][BuildProcessDetail]                        |
-|      | [Show Templates][BuildShowTemplates]                                | ![Templates - Process][BuildProcessTemplates]                      |
-|      | [Show Build Template Detail][BuildShowTemplateDetail]               | ![Templates - Process Details][BuildProcessTemplatesDetail]        |
-|      | [Show Build Template Definition][BuildShowTemplateDefinition]       | ![Templates - Process Definition][BuildProcessTemplatesDefinition] |
+|  1   | [Open Build][BuildOpen]                                             |                                                                    |
+|  2   | [Show overview on build runs and results][BuildOverviewRunsResults] | ![Project Build Runs and Results][BuildProjectRunsResults]         |
+|  3   | [Show build process][BuildShowBuildProcess]                         | ![Build Process Detail][BuildProcessDetail]                        |
+|  4   | [Show Templates][BuildShowTemplates]                                | ![Templates - Process][BuildProcessTemplates]                      |
+|  5   | [Show Build Template Detail][BuildShowTemplateDetail]               | ![Templates - Process Details][BuildProcessTemplatesDetail]        |
+|  6   | [Show Build Template Definition][BuildShowTemplateDefinition]       | ![Templates - Process Definition][BuildProcessTemplatesDefinition] |
 |      |                                                                     |                                                                    |
 
 ## [Deploy](learn/deploy/index.md)
@@ -183,14 +183,14 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 | Step | Details                                                                                                              | Additional Information { width="50%" }               |
 |:----:|:---------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
-|      | Use Deploy Genie to understand why the deployment failed                                                             |                                                      |
-|      | To simulate a failed deployment [request a new deployment process][REFRequestAProcess] but now select the following: |                                                      |
-|      | Deployment Process **Failing Deployment**                                                                            | ![Failing Process][RunSelectFailingDeployment]       |
-|      | Select following Versions <br>for **Echo** select **1.0**<br>for **Logic** select **2.0.0**                          | ![Comp Versions][RunFailSelectCompVersions]          |
-|      | Press the **Submit** button to start the deployment process                                                          | ![Submit Button][DeployAppPocessRequestSubmitButton] |
-|      | The result will be a **failed** deployment as one step has failed                                                    | ![Failed Result][RunFailed]                          |
-|      | Click on the **3 dots** ![3 dots menue][DeployPlugin3DotsMenue] to get menue of the failed step                      | ![Step Menue][Step3DotsMenueWithGenie]               |
-|      | Click on **Deployment Genie** after a few moments the step will be analyzed and the results shown                    | ![AI Analyzed][GenieAnalysis]                        |
+|  1   | Use Deploy Genie to understand why the deployment failed                                                             |                                                      |
+|  2   | To simulate a failed deployment [request a new deployment process][REFRequestAProcess] but now select the following: |                                                      |
+|  3   | Deployment Process **Failing Deployment**                                                                            | ![Failing Process][RunSelectFailingDeployment]       |
+|  4   | Select following Versions <br>for **Echo** select **1.0**<br>for **Logic** select **2.0.0**                          | ![Comp Versions][RunFailSelectCompVersions]          |
+|  5   | Press the **Submit** button to start the deployment process                                                          | ![Submit Button][DeployAppPocessRequestSubmitButton] |
+|  6   | The result will be a **failed** deployment as one step has failed                                                    | ![Failed Result][RunFailed]                          |
+|  7   | Click on the **3 dots** ![3 dots menue][DeployPlugin3DotsMenue] to get menue of the failed step                      | ![Step Menue][Step3DotsMenueWithGenie]               |
+|  8   | Click on **Deployment Genie** after a few moments the step will be analyzed and the results shown                    | ![AI Analyzed][GenieAnalysis]                        |
 
 ### Show the Plug-Ins Page
 
@@ -207,44 +207,44 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 | Step | Details                                                                                                     | Additional Information { width="50%" }           |
 |:----:|:------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|
-|      | Explain that you are now playing the role of a tester                                                       |                                                  |
-|      | [Open Test][TestOpen]                                                                                       |                                                  |
-|      | You can switch to Test by either pressing "Let's go to Test" button on its tile                             | ![Test Tile lets go][SwitchToTest]               |
-|      | Or you can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][CentralAppSwitcher]      |
-|      | [Switch Teamspace and select Project if needed][REFSwitchTestTS]                                            |                                                  |
-|      | Should you see a different Teamspace or Project than expected (Demo and EchoLogic), click on Teamspace Icon | ![Teamspace Switcher][SwitchTestTS]              |
-|      | and Select **Demo**. A list of Projects is shown:                                                           | ![Projectlist is shown][TestPrjList]             |
-|      | click on **EchoLogic** Project to open landing page                                                         | ![Open EchoLogic Project][Projecttile]           |
-|      | Show the test landing page and metrics                                                                      | ![Test Landing Page][ProjectHomePage]            |
-|      | Run a test                                                                                                  |                                                  |
-|      | click on **Execute** Section in the Sidebar                                                                 | ![Test Exec Section][SectionExecute]             |
-|      | List of Scripts is shown                                                                                    | ![List of executable Scripts][ExecuteScriptList] |
-|      | click on **Run Button** on the right of Script **DemoTest**                                                 | ![Run Button][ButtonRun]                         |
-|      | Dialog is opened to select a Browser, use the default settings                                              | ![Select Browser][RunDialog]                     |
-|      | Click on **Execute** Button to start Test Execution                                                         | ![Execute Button][ButtonExecute]                 |
-|      | Run will take a few moments                                                                                 | ![Running Script][RunningScript]                 |
-|      | Show the analysis of the test results                                                                       |                                                  |
-|      | click on **Analyze** section in Sidebar to get list of Menue                                                | ![Analyze Section][SectionAnalyze]               |
-|      | click on **Results** to get Results View                                                                    | ![Results Overview][ResultsOverview]             |
-|      | Show how we can create or edit a test                                                                       |                                                  |
-|      | click on **Author** section on **Test Editor** menue entry                                                  | ![Test Author Section][SectionAuthor]            |
-|      | Test Editor View opens and select the **DemoTestFail** script                                               | ![Test Editor View][TestEditorView]              |
-|      | Test Script will be shown                                                                                   | ![Test Script][TestScriptEditor]                 |
-|      | click on the **verification** step to view step details                                                     | ![Step Details][TestScriptStepDetails]           |
-|      | Run a new test that will fail                                                                               |                                                  |
-|      | click on **Execute** Section in the Sidebar                                                                 | ![Test Exec Section][SectionExecute]             |
-|      | List of Scripts is shown                                                                                    | ![List of executable Scripts][ExecuteScriptList] |
-|      | click on **Run Button** on the right of Script **DemoTestFail**                                             | ![Run Button][ButtonRun]                         |
-|      | Testexecution will take a few moments.                                                                      |                                                  |
-|      | Create a defect in Plan and show that is has all the data automatically                                     |                                                  |
-|      | Switch to Results View using the **Analyze** Section menue                                                  | ![Analyze Section menue][MenueAnalyze]           |
-|      | In the **Results** View select the **DemoTestFail** run                                                     | ![Results Overview][ResultsOverview]             |
-|      | Click on **DevOps Plan** ![Create ticket icon][CreateTicketIcon] Icon on the right side of the row          | ![Failed Test][ResultsFailedTest]                |
-|      | A WorkItem creation Dialog opens, select **Workitem** in the Type field                                     | ![CreateWI][WICreatedialog]                      |
-|      | Select Project "EchoLogic",  Workitem Type "Defect" and enter a Title                                       | ![CreateWI Enter Title][WICreateDetails]         |
-|      | In the **Results** View click on the **DemoTestFail** name to get a Detailed View                           | ![Result Details with Plan Link][ResultLinked]   |
-| | Generate test data | |
-|      | Explain that everything is traceable                                                                        |                                                  |
+|  1   | Explain that you are now playing the role of a tester                                                       |                                                  |
+|  2   | [Open Test][TestOpen]                                                                                       |                                                  |
+| 2.1  | You can switch to Test by either pressing "Let's go to Test" button on its tile                             | ![Test Tile lets go][SwitchToTest]               |
+| 2.2  | Or you can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][CentralAppSwitcher]      |
+|  3   | [Switch Teamspace and select Project if needed][REFSwitchTestTS]                                            |                                                  |
+| 3.1  | Should you see a different Teamspace or Project than expected (Demo and EchoLogic), click on Teamspace Icon | ![Teamspace Switcher][SwitchTestTS]              |
+| 3.2  | and Select **Demo**. A list of Projects is shown:                                                           | ![Projectlist is shown][TestPrjList]             |
+| 3.3  | click on **EchoLogic** Project to open landing page                                                         | ![Open EchoLogic Project][Projecttile]           |
+| 3.4  | Show the test landing page and metrics                                                                      | ![Test Landing Page][ProjectHomePage]            |
+|  6   | Run a test                                                                                                  |                                                  |
+| 6.1  | click on **Execute** Section in the Sidebar                                                                 | ![Test Exec Section][SectionExecute]             |
+| 6.2  | List of Scripts is shown                                                                                    | ![List of executable Scripts][ExecuteScriptList] |
+| 6.3  | click on **Run Button** on the right of Script **DemoTest**                                                 | ![Run Button][ButtonRun]                         |
+| 6.4  | Dialog is opened to select a Browser, use the default settings                                              | ![Select Browser][RunDialog]                     |
+| 6.5  | Click on **Execute** Button to start Test Execution                                                         | ![Execute Button][ButtonExecute]                 |
+| 6.6  | Run will take a few moments                                                                                 | ![Running Script][RunningScript]                 |
+|  7   | Show the analysis of the test results                                                                       |                                                  |
+| 7.1  | click on **Analyze** section in Sidebar to get list of Menue                                                | ![Analyze Section][SectionAnalyze]               |
+| 7.2  | click on **Results** to get Results View                                                                    | ![Results Overview][ResultsOverview]             |
+|  8   | Show how we can create or edit a test                                                                       |                                                  |
+| 8.1  | click on **Author** section on **Test Editor** menue entry                                                  | ![Test Author Section][SectionAuthor]            |
+| 8.2  | Test Editor View opens and select the **DemoTestFail** script                                               | ![Test Editor View][TestEditorView]              |
+| 8.3  | Test Script will be shown                                                                                   | ![Test Script][TestScriptEditor]                 |
+| 8.4  | click on the **verification** step to view step details                                                     | ![Step Details][TestScriptStepDetails]           |
+|  9   | Run a new test that will fail                                                                               |                                                  |
+| 9.1  | click on **Execute** Section in the Sidebar                                                                 | ![Test Exec Section][SectionExecute]             |
+| 9.2  | List of Scripts is shown                                                                                    | ![List of executable Scripts][ExecuteScriptList] |
+| 9.3  | click on **Run Button** on the right of Script **DemoTestFail**                                             | ![Run Button][ButtonRun]                         |
+| 9.4  | Testexecution will take a few moments.                                                                      |                                                  |
+|  10  | Create a defect in Plan and show that is has all the data automatically                                     |                                                  |
+| 10.1 | Switch to Results View using the **Analyze** Section menue                                                  | ![Analyze Section menue][MenueAnalyze]           |
+| 10.2 | In the **Results** View select the **DemoTestFail** run                                                     | ![Results Overview][ResultsOverview]             |
+| 10.3 | Click on **DevOps Plan** ![Create ticket icon][CreateTicketIcon] Icon on the right side of the row          | ![Failed Test][ResultsFailedTest]                |
+| 10.4 | A WorkItem creation Dialog opens, select **Workitem** in the Type field                                     | ![CreateWI][WICreatedialog]                      |
+| 10.5 | Select Project "EchoLogic",  Workitem Type "Defect" and enter a Title                                       | ![CreateWI Enter Title][WICreateDetails]         |
+| 10.6 | In the **Results** View click on the **DemoTestFail** name to get a Detailed View                           | ![Result Details with Plan Link][ResultLinked]   |
+|  11  | Generate test data                                                                                          |                                                  |
+|  12  | Explain that everything is traceable                                                                        |                                                  |
 
 ## [Measure](learn/measure/index.md)
 
