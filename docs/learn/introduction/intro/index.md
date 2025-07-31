@@ -42,7 +42,7 @@ On the sidebar a view of slected plug-ins is available. By pressing on the Plug-
 
 ## Settings
 
-The Settings Menue provides a view User Administration and managing the AI integration. 
+The Settings Menue provides a view User Administration and managing the AI integration.
 
 ![Sidebar Settings][SBSettings]
 

@@ -156,7 +156,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 |:----:|:---------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------|
 |  1   | [Run a Process and view results of steps][DeployRunaDeployment]                        |                                                                                       |
 |  2   | Open the Applicationslist by clicking on Applications Icon                             | ![Deploy Applications Button on Sidebar][SBApplicationsIcon]                          |
-|  3   | Select your Application by clicking on the link in the Applications List               | ![Deploy Application][DeployShowApp]                                                  |
+|  3   | Click on **EchoLogic** Name (Link)                                                     | ![Deploy Application][DeployShowApp]                                                  |
 |  4   | All Environments of Application will be shown                                          | ![Deploy Application Environment List][DeployAppEnvList]                              |
 |  5   | [Run a Deployment][DeployRequestAprocess]                                              |                                                                                       |
 | 5.1  | Use the DEV environment                                                                | ![Dev Environment][DeployAppDevEnv]                                                   |
@@ -181,27 +181,27 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ### [Use the Deployment Genie][REFUseGenie]
 
-| Step | Details                                                                                                              | Additional Information { width="50%" }                    |
-|:----:|:---------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
-|      | Use Deploy Genie to understand why the deployment failed                                                             |                                                           |
-|      | To simulate a failed deployment [request a new deployment process][REFRequestAProcess] but now select the following: |                                                           |
-|      | Deployment Process **Failing Deployment**                                                                            | ![Failing Process][RunSelectFailingDeployment] |
-|      | Select following Versions <br>for **Echo** select **1.0**<br>for **Logic** select **2.0.0**                          | ![Comp Versions][RunFailSelectCompVersions]                    |
-|      | Press the **Submit** button to start the deployment process                                                          | ![Submit Button][DeployAppPocessRequestSubmitButton]      |
-|      | The result will be a **failed** deployment as one step has failed                                                    | ![Failed Result][RunFailed]                               |
-|      | Click on the **3 dots** ![3 dots menue][DeployPlugin3DotsMenue] to get menue of the failed step                      | ![Step Menue][Step3DotsMenueWithGenie]                         |
-|      | Click on **Deployment Genie** after a few moments the step will be analyzed and the results shown                    | ![AI Analyzed][GenieAnalysis]                             |
+| Step | Details                                                                                                              | Additional Information { width="50%" }               |
+|:----:|:---------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------|
+|      | Use Deploy Genie to understand why the deployment failed                                                             |                                                      |
+|      | To simulate a failed deployment [request a new deployment process][REFRequestAProcess] but now select the following: |                                                      |
+|      | Deployment Process **Failing Deployment**                                                                            | ![Failing Process][RunSelectFailingDeployment]       |
+|      | Select following Versions <br>for **Echo** select **1.0**<br>for **Logic** select **2.0.0**                          | ![Comp Versions][RunFailSelectCompVersions]          |
+|      | Press the **Submit** button to start the deployment process                                                          | ![Submit Button][DeployAppPocessRequestSubmitButton] |
+|      | The result will be a **failed** deployment as one step has failed                                                    | ![Failed Result][RunFailed]                          |
+|      | Click on the **3 dots** ![3 dots menue][DeployPlugin3DotsMenue] to get menue of the failed step                      | ![Step Menue][Step3DotsMenueWithGenie]               |
+|      | Click on **Deployment Genie** after a few moments the step will be analyzed and the results shown                    | ![AI Analyzed][GenieAnalysis]                        |
 
 ### Show the Plug-Ins Page
 
-| Step | Details                                                                               | Additional Information { width="50%" }                               |
-|:----:|:--------------------------------------------------------------------------------------|:---------------------------------------------------------------------|
-|  1   | [Show the plug-ins page][DeployShowPluginsPage]                                       |                                                                      |
-|      | and explain how easy it is to integrate with 3rd parties out of the box               |                                                                      |
-|  2   | Switch to Settings by using the Settings Icon                                         | ![Deploy Settings Icon][DeploySettingsIcon]                          |
-|  3   | In the Settings View in the Section **Automation**                                    |                                                                      |
-|      | [View installed and available Plugins][DeploySettingsAutomationSection]               | ![Automation Plugins][DeploySettingsAutomationPlugins]               |
-|  4   | By clicking on **Available Plugins** a list of all available Plug-Ins is shown        | ![Plugin List][DeploySettingsPluginsList]                            |
+| Step | Details                                                                        | Additional Information { width="50%" }                 |
+|:----:|:-------------------------------------------------------------------------------|:-------------------------------------------------------|
+|  1   | [Show the plug-ins page][DeployShowPluginsPage]                                |                                                        |
+|      | and explain how easy it is to integrate with 3rd parties out of the box        |                                                        |
+|  2   | Switch to Settings by using the Settings Icon                                  | ![Deploy Settings Icon][DeploySettingsIcon]            |
+|  3   | In the Settings View in the Section **Automation**                             |                                                        |
+|      | [View installed and available Plugins][DeploySettingsAutomationSection]        | ![Automation Plugins][DeploySettingsAutomationPlugins] |
+|  4   | By clicking on **Available Plugins** a list of all available Plug-Ins is shown | ![Plugin List][DeploySettingsPluginsList]              |
 
 ## [Test](learn/test/index.md)
 
@@ -243,6 +243,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 |      | A WorkItem creation Dialog opens, select **Workitem** in the Type field                                     | ![CreateWI][WICreatedialog]                      |
 |      | Select Project "EchoLogic",  Workitem Type "Defect" and enter a Title                                       | ![CreateWI Enter Title][WICreateDetails]         |
 |      | In the **Results** View click on the **DemoTestFail** name to get a Detailed View                           | ![Result Details with Plan Link][ResultLinked]   |
+| | Generate test data | |
 |      | Explain that everything is traceable                                                                        |                                                  |
 
 ## [Measure](learn/measure/index.md)
@@ -380,21 +381,12 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 
 [DeployOpen]: learn/deploy/index.md#how-to-switch-to-deploy-from-home-page
 [REFDeployOverview]: learn/deploy/index.md#overview
-[DeployWWYLTT]: learn/deploy/index.md#what-would-you-like-to-do-today
-[WhatWouldYouLikeToDoToday]: learn/introduction/media/Loop_whatwouldyouliketodotoday.png
 [DeployShowLandingPage]: learn/deploy/index.md#deploy-landing-page
 [DeployDashboard]: learn/deploy/media/dashboard.png
-[DeployShowProcesses]: learn/deploy/index.md#processes
-[DeployComponentWithProcesses]: learn/deploy/components/media/Component_Processlist_withentries.png
-[DeployShowProcessDesigner]: learn/deploy/index.md#process-designer
-[DeployProcessDesigner]: learn/deploy/media/DEPLOY_Component_ProcessEditor.png
 [DeployShowProcessWithTest]: learn/deploy/index.md#adding-version-statuses
 [DeployComponentProcessPassingTest]: learn/deploy/media/DEPLOY_ComponentProcessFinalWithPassingTest.png
-[DeployComponentProcessFailingTest]: learn/deploy/media/DEPLOY_ComponentProcessFinalWithFailingTest.png
 [DeployComponentFinalProcesWithVersionStatus]: learn/deploy/media/DEPLOY_Component_VersionList_withStatus.png
-[DeployComponentProcessesList]: learn/deploy/media/DEPLOY_Component_WithProcessList.png
-[DeployComponentCreateNewProcessButton]: learn/deploy/media/DEPLOY_Component_CreateProcessButton.png
-[DeployShowApp]: learn/deploy/media/DEPLOY_ApplicationList_ShowEcologic.png
+[DeployShowApp]: learn/deploy/applications/media/Deploy_Applications_View.png
 [DeployAppEnvList]: learn/deploy/media/DEPLOY_Application_Environmentlist.png
 [DeployAppRequestProcessButton]: learn/deploy/media/DEPLOY_Application_RequestProcess.png
 [DeployAppProcessRequestSelectProcess]: learn/deploy/media/DEPLOY_Application_Runappprocessdialog1_SelectDeploymentProcess.png
@@ -419,11 +411,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [DeploySettingsAutomationPlugins]: learn/deploy/media/DEPLOY_Settings_AutomationSection.png
 [DeploySettingsPluginsList]: learn/deploy/media/DEPLOY_PluginsList.png
 [DeploySettingsAutomationSection]: learn/deploy/index.md#plugins
-[DeployInstallPlugin]: learn/deploy/media/DEPLOY_Plugins_Install.png
 [DeployPlugin3DotsMenue]: learn/deploy/media/DEPLOY_PluginList_3DotsMenue.png
-[DeployShowHowToInstallPlugin]: learn/deploy/index.md#how-to-install-a-plugin
-[DeployInstallPluginConfirmation]: learn/deploy/media/DEPLOY_PluginInstallConfirmation.png
-[DeployPluginInstallSuccess]: learn/deploy/media/DEPLOY_PluginInstallSuccess.png
 [TestOpen]: learn/test/index.md#how-to-switch-to-test-from-home-page
 [MeasureOpen]: learn/measure/index.md#how-to-switch-to-measure-from-home-page
 [ReleaseOpen]: learn/measure/index.md#how-to-switch-to-measure-from-home-page
@@ -433,18 +421,14 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [IntroductionAboutBoxSidebarPlugins]: learn/introduction/intro/index.md
 [ChartFlowOfDemo]: media/demoflow.png
 [SBApplicationsIcon]: learn/deploy/media/Deploy_Sidebar_AppIcon.jpg
-[SBApplicationsText]: learn/deploy/media/Deploy_Sidebar_AppIconWithText.png
 [APPSallView]: learn/deploy/applications/media/Deploy_Applications_View.png
 [AppViewWEnv]: learn/deploy/applications/media/Deploy_Application_View_WithEnv.png
 [SwitchToProcessView]: learn/deploy/applications/index.md#show-processes
 [AppProcessesTab]: learn/deploy/applications/media/Deploy_Application_ProcessesTab.png
 [AppProcessesView]: learn/deploy/applications/media/Deploy_App_Processes_view.png
-[AppProcessList]: learn/deploy/applications/media/Deploy_AppProcess_ListFinal.png
-[DeployComponentFinalProcess]: learn/deploy/media/DEPLOY_Component_Process_Final.png
 [AppViewProcess]: learn/deploy/applications/media/Deploy_AppDeploymentProcess.png
 [REFSwitchToCompView]: learn/deploy/components/index.md#switch-to-components-view
 [SBCompIcon]: learn/deploy/media/Deploy_Sidebar_ComponentsIcon.png
-[SBCompIconText]: learn/deploy/media/Deploy_Sidebar_ComponentsIconWithText.png
 [CompView]: learn/deploy/media/DEPLOY_Components_List.png
 [CompDetails]: learn/deploy/components/media/Component_Imported.png
 [CompProcessTab]: learn/deploy/components/media/Component_Tabbar_Processes.png

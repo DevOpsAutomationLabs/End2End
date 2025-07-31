@@ -509,7 +509,7 @@ If no Application exists either import or create application
 
 [SBCompIcon]: learn/deploy/media/Deploy_Sidebar_ComponentsIcon.png
 [SBCompIconText]: learn/deploy/media/Deploy_Sidebar_ComponentsIconWithText.png
-[CompView]: learn/deploy/components/media/Components_View.png
+[CompView]: learn/deploy/media/DEPLOY_Components_List.png
 [ButtonImportComps]: learn/deploy/components/media/Component_Import_Components_Button.png
 [CompImportDialog]: learn/deploy/components/media/Component_Import_Dialog.png
 [CompImpChooseFileButton]: learn/deploy/components/media/Component_Import_Dialog_ChooseFile.png
