@@ -15,6 +15,15 @@ Or you can always switch using the central app switcher on the top left of your 
 
 ![Central App Switcher][CentralAppSwitcher]
 
+## Releases View
+
+The Releases View and a Calender is shown
+
+![Releases View][ReleaseViewasList]
+
+Switch to Tiles view by clicking on ![Release tiles icon][ReleaseSwitchToTiles]
+![Releases as Tiles view][ReleaseViewasTiles]
+
 ## Conclusio
 
 Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
@@ -27,3 +36,7 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 
 [ReleaseTile]: ../introduction/media/Loop_switch_to_Release.png
 [CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
+
+[ReleaseViewasList]: media/Release_View_asList.png
+[ReleaseSwitchToTiles]: media/Release_Switch_To_TilesView.png
+[ReleaseViewasTiles]: media/Release_View_asTiles.png

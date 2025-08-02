@@ -205,79 +205,78 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ## [Test](learn/test/index.md)
 
-| Step | Details                                                                                                     | Additional Information { width="50%" }           |
-|:----:|:------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|
-|  1   | Explain that you are now playing the role of a tester                                                       |                                                  |
-|  2   | [Open Test][TestOpen]                                                                                       |                                                  |
-| 2.1  | You can switch to Test by either pressing "Let's go to Test" button on its tile                             | ![Test Tile lets go][SwitchToTest]               |
-| 2.2  | Or you can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][CentralAppSwitcher]      |
-|  3   | [Switch Teamspace and select Project if needed][REFSwitchTestTS]                                            |                                                  |
-| 3.1  | Should you see a different Teamspace or Project than expected (Demo and EchoLogic), click on Teamspace Icon | ![Teamspace Switcher][SwitchTestTS]              |
-| 3.2  | and Select **Demo**. A list of Projects is shown:                                                           | ![Projectlist is shown][TestPrjList]             |
-| 3.3  | click on **EchoLogic** Project to open landing page                                                         | ![Open EchoLogic Project][Projecttile]           |
-| 3.4  | Show the test landing page and metrics                                                                      | ![Test Landing Page][ProjectHomePage]            |
-|  6   | Run a test                                                                                                  |                                                  |
-| 6.1  | click on **Execute** Section in the Sidebar                                                                 | ![Test Exec Section][SectionExecute]             |
-| 6.2  | List of Scripts is shown                                                                                    | ![List of executable Scripts][ExecuteScriptList] |
-| 6.3  | click on **Run Button** on the right of Script **DemoTest**                                                 | ![Run Button][ButtonRun]                         |
-| 6.4  | Dialog is opened to select a Browser, use the default settings                                              | ![Select Browser][RunDialog]                     |
-| 6.5  | Click on **Execute** Button to start Test Execution                                                         | ![Execute Button][ButtonExecute]                 |
-| 6.6  | Run will take a few moments                                                                                 | ![Running Script][RunningScript]                 |
-|  7   | Show the analysis of the test results                                                                       |                                                  |
-| 7.1  | click on **Analyze** section in Sidebar to get list of Menue                                                | ![Analyze Section][SectionAnalyze]               |
-| 7.2  | click on **Results** to get Results View                                                                    | ![Results Overview][ResultsOverview]             |
-|  8   | Show how we can create or edit a test                                                                       |                                                  |
-| 8.1  | click on **Author** section on **Test Editor** menue entry                                                  | ![Test Author Section][SectionAuthor]            |
-| 8.2  | Test Editor View opens and select the **DemoTestFail** script                                               | ![Test Editor View][TestEditorView]              |
-| 8.3  | Test Script will be shown                                                                                   | ![Test Script][TestScriptEditor]                 |
-| 8.4  | click on the **verification** step to view step details                                                     | ![Step Details][TestScriptStepDetails]           |
-|  9   | Run a new test that will fail                                                                               |                                                  |
-| 9.1  | click on **Execute** Section in the Sidebar                                                                 | ![Test Exec Section][SectionExecute]             |
-| 9.2  | List of Scripts is shown                                                                                    | ![List of executable Scripts][ExecuteScriptList] |
-| 9.3  | click on **Run Button** on the right of Script **DemoTestFail**                                             | ![Run Button][ButtonRun]                         |
-| 9.4  | Testexecution will take a few moments.                                                                      |                                                  |
-|  10  | Create a defect in Plan and show that is has all the data automatically                                     |                                                  |
-| 10.1 | Switch to Results View using the **Analyze** Section menue                                                  | ![Analyze Section menue][MenueAnalyze]           |
-| 10.2 | In the **Results** View select the **DemoTestFail** run                                                     | ![Results Overview][ResultsOverview]             |
-| 10.3 | Click on **DevOps Plan** ![Create ticket icon][CreateTicketIcon] Icon on the right side of the row          | ![Failed Test][ResultsFailedTest]                |
-| 10.4 | A WorkItem creation Dialog opens, select **Workitem** in the Type field                                     | ![CreateWI][WICreatedialog]                      |
-| 10.5 | Select Project "EchoLogic",  Workitem Type "Defect" and enter a Title                                       | ![CreateWI Enter Title][WICreateDetails]         |
-| 10.6 | In the **Results** View click on the **DemoTestFail** name to get a Detailed View                           | ![Result Details with Plan Link][ResultLinked]   |
-| 10.7 | Explain that everything is traceable                                                                        |                                                  |
-|  11  | Generate test data                                                                                          |                                                  |
-|      | Open **Author** section on **Test Editor** menue entry and click on **Data**                                | ![Test Author Section][SectionAuthor]            |
-|      | Data Definitions and Schemas are shown                                                                      | ![Data Definitions Schemas][DataDefView]         |
-|      | click on **CRM-System** in the Schema folder                                                                | ![Schemas][DataSchemas]                          |
-|      | the **CRM-System** Data Schema is shown                                                                     | ![Schema View][DataSchemaView]                   |
-|      | Click on the **Preview Icon** ![Preview Icon][DataPreviewIcon]                                              | ![Data Preview][DataPreview]                     |
-|      | Click on the **Generate Icon** ![Generate Icon][GenerateIcon]                                               | ![][GenerateDialog]                              |
-|      | Download the generated Data by clicking on **Downlad** Button                                               | ![Download button][ButtonDownload]               |
-|      | Unzip and open the create folder                                                                            | ![Downloaded Unzipped][TestDataFolder]           |
-|      | Two files are created **Customers** and **Orders**                                                          | ![Gnereated Files][TestDataFiles]                |
-|      | Open one **Orders.csv** to view gnerated Data                                                               | ![Generated Data][TestDataGenerated]             |
+| Step  | Details                                                                                                     | Additional Information { width="50%" }           |
+|:-----:|:------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|
+|   1   | Explain that you are now playing the role of a tester                                                       |                                                  |
+|   2   | [Open Test][TestOpen]                                                                                       |                                                  |
+|  2.1  | You can switch to Test by either pressing "Let's go to Test" button on its tile                             | ![Test Tile lets go][SwitchToTest]               |
+|  2.2  | Or you can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][CentralAppSwitcher]      |
+|   3   | [Switch Teamspace and select Project if needed][REFSwitchTestTS]                                            |                                                  |
+|  3.1  | Should you see a different Teamspace or Project than expected (Demo and EchoLogic), click on Teamspace Icon | ![Teamspace Switcher][SwitchTestTS]              |
+|  3.2  | and Select **Demo**. A list of Projects is shown:                                                           | ![Projectlist is shown][TestPrjList]             |
+|  3.3  | click on **EchoLogic** Project to open landing page                                                         | ![Open EchoLogic Project][Projecttile]           |
+|  3.4  | Show the test landing page and metrics                                                                      | ![Test Landing Page][ProjectHomePage]            |
+|   6   | Run a test                                                                                                  |                                                  |
+|  6.1  | click on **Execute** Section in the Sidebar                                                                 | ![Test Exec Section][SectionExecute]             |
+|  6.2  | List of Scripts is shown                                                                                    | ![List of executable Scripts][ExecuteScriptList] |
+|  6.3  | click on **Run Button** on the right of Script **DemoTest**                                                 | ![Run Button][ButtonRun]                         |
+|  6.4  | Dialog is opened to select a Browser, use the default settings                                              | ![Select Browser][RunDialog]                     |
+|  6.5  | Click on **Execute** Button to start Test Execution                                                         | ![Execute Button][ButtonExecute]                 |
+|  6.6  | Run will take a few moments                                                                                 | ![Running Script][RunningScript]                 |
+|   7   | Show the analysis of the test results                                                                       |                                                  |
+|  7.1  | click on **Analyze** section in Sidebar to get list of Menue                                                | ![Analyze Section][SectionAnalyze]               |
+|  7.2  | click on **Results** to get Results View                                                                    | ![Results Overview][ResultsOverview]             |
+|   8   | Show how we can create or edit a test                                                                       |                                                  |
+|  8.1  | click on **Author** section on **Test Editor** menue entry                                                  | ![Test Author Section][SectionAuthor]            |
+|  8.2  | Test Editor View opens and select the **DemoTestFail** script                                               | ![Test Editor View][TestEditorView]              |
+|  8.3  | Test Script will be shown                                                                                   | ![Test Script][TestScriptEditor]                 |
+|  8.4  | click on the **verification** step to view step details                                                     | ![Step Details][TestScriptStepDetails]           |
+|   9   | Run a new test that will fail                                                                               |                                                  |
+|  9.1  | click on **Execute** Section in the Sidebar                                                                 | ![Test Exec Section][SectionExecute]             |
+|  9.2  | List of Scripts is shown                                                                                    | ![List of executable Scripts][ExecuteScriptList] |
+|  9.3  | click on **Run Button** on the right of Script **DemoTestFail**                                             | ![Run Button][ButtonRun]                         |
+|  9.4  | Testexecution will take a few moments.                                                                      |                                                  |
+|  10   | Create a defect in Plan and show that is has all the data automatically                                     |                                                  |
+| 10.1  | Switch to Results View using the **Analyze** Section menue                                                  | ![Analyze Section menue][MenueAnalyze]           |
+| 10.2  | In the **Results** View select the **DemoTestFail** run                                                     | ![Results Overview][ResultsOverview]             |
+| 10.3  | Click on **DevOps Plan** ![Create ticket icon][CreateTicketIcon] Icon on the right side of the row          | ![Failed Test][ResultsFailedTest]                |
+| 10.4  | A WorkItem creation Dialog opens, select **Workitem** in the Type field                                     | ![CreateWI][WICreatedialog]                      |
+| 10.5  | Select Project "EchoLogic",  Workitem Type "Defect" and enter a Title                                       | ![CreateWI Enter Title][WICreateDetails]         |
+| 10.6  | In the **Results** View click on the **DemoTestFail** name to get a Detailed View                           | ![Result Details with Plan Link][ResultLinked]   |
+| 10.7  | Explain that everything is traceable                                                                        |                                                  |
+|  11   | Generate test data                                                                                          |                                                  |
+| 11.1  | Open **Author** section on **Test Editor** menue entry and click on **Data**                                | ![Test Author Section][SectionAuthor]            |
+| 11.2  | Data Definitions and Schemas are shown                                                                      | ![Data Definitions Schemas][DataDefView]         |
+| 11.3  | click on **CRM-System** in the Schema folder                                                                | ![Schemas][DataSchemas]                          |
+| 11.4  | the **CRM-System** Data Schema is shown                                                                     | ![Schema View][DataSchemaView]                   |
+| 11.5  | Click on the **Preview Icon** ![Preview Icon][DataPreviewIcon]                                              | ![Data Preview][DataPreview]                     |
+| 11.6  | Click on the **Generate Icon** ![Generate Icon][GenerateIcon]                                               | ![][GenerateDialog]                              |
+| 11.7  | Download the generated Data by clicking on **Downlad** Button                                               | ![Download button][ButtonDownload]               |
+| 11.8  | Unzip and open the create folder                                                                            | ![Downloaded Unzipped][TestDataFolder]           |
+| 11.9  | Two files are created **Customers** and **Orders**                                                          | ![Gnereated Files][TestDataFiles]                |
+| 11.10 | Open one **Orders.csv** to view gnerated Data                                                               | ![Generated Data][TestDataGenerated]             |
 
 ## [Measure](learn/measure/index.md)
 
-| Step | Details                                                                                                                  | Additional Information { width="50%" } |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------|:---------------------------------------|
-|  1   | [Open Measure][MeasureOpen]                                                                                              |                                        |
-|      | Explain that we have built, deployed and tested so now we need to coordinate [releases](#release)                                    |                                        |
-|      | Show and talk about pipeline(s) with environments and Gates                                                              |                                        |
-| | click on ![Pipeline Tab][TabPipeline] in the Tabbar to view [Pipelines][REFMeasurePipelines] | ![Measure VSM Tabs][MeasureTabs]|
-| | Delivery Pipelines linked to this VSM are shown| ![Pipeline view][PipelineView] |
-|      | Create simple new [Gate][REFMeasureGates]                                                                          |                                        |
-| | click on the **3 Dots** ![3 Dots][3Dots] of the QA environment to view its menue| ![][MeasureEnv3DotsMenue] |
-| | click on **Add Gate** to create an approver gate | ![Gate Dialog 1][MeasureGateDialog1] |
-| | |![Gate Dialog 2][MeasureGateDialog2] |
-|      | Explain that we have been shoeing individual roles but we can look across roles and track the value of our delivery work |                                        |
-|      | Open the [VSM][REFMeasureVSM] for the project by clicking on **Value Stream** in the Tabmenue       | ![Measure VSM Tabs][MeasureTabs]|
-| | The ValueStream of EchoLogic Project is shown| ![EchoLogic VSM][VSMEchoLogic] |
-| | click on a dot to get more information | ![View Dot][VSMSelectDot] |
-| | This view will give you a complate Audit information of this item | ![View Dot Details 1](learn/measure/media/VSM_ViewDotDetails1.png) |
-| | | ![View Dot Details 2](learn/measure/media/VSM_ViewDotDetails2.png) |
-|      | click on **Swimlane** ![Swimmlane][TabSwimlane] in tabbar  |![Measure VSM Tabs][MeasureTabs]|
-| | The Swimlane view opens and gives more information about the distribution of items | ![Swimlane View][SwimlaneView] |
-
+| Step | Details                                                                                                                  | Additional Information { width="50%" }                             |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------|
+|  1   | [Open Measure][MeasureOpen]                                                                                              |                                                                    |
+|      | Explain that we have built, deployed and tested so now we need to coordinate [releases](#release)                        |                                                                    |
+|  2   | Show and talk about pipeline(s) with environments and Gates                                                              |                                                                    |
+| 2.1  | click on ![Pipeline Tab][TabPipeline] in the Tabbar to view [Pipelines][REFMeasurePipelines]                             | ![Measure VSM Tabs][MeasureTabs]                                   |
+| 2.2  | Delivery Pipelines linked to this VSM are shown                                                                          | ![Pipeline view][PipelineView]                                     |
+| 2.3  | Create simple new [Gate][REFMeasureGates]                                                                                |                                                                    |
+| 2.4  | click on the **3 Dots** ![3 Dots][3Dots] of the QA environment to view its menue                                         | ![][MeasureEnv3DotsMenue]                                          |
+| 2.5  | click on **Add Gate** to create an approver gate                                                                         | ![Gate Dialog 1][MeasureGateDialog1]                               |
+|      |                                                                                                                          | ![Gate Dialog 2][MeasureGateDialog2]                               |
+|  3   | Explain that we have been shoeing individual roles but we can look across roles and track the value of our delivery work |                                                                    |
+| 3.1  | Open the [VSM][REFMeasureVSM] for the project by clicking on **Value Stream** in the Tabmenue                            | ![Measure VSM Tabs][MeasureTabs]                                   |
+| 3.2  | The ValueStream of EchoLogic Project is shown                                                                            | ![EchoLogic VSM][VSMEchoLogic]                                     |
+| 3.3  | click on a dot to get more information                                                                                   | ![View Dot][VSMSelectDot]                                          |
+| 3.4  | This view will give you a complate Audit information of this item                                                        | ![View Dot Details 1](learn/measure/media/VSM_ViewDotDetails1.png) |
+|      |                                                                                                                          | ![View Dot Details 2](learn/measure/media/VSM_ViewDotDetails2.png) |
+|  4   | click on **Swimlane** ![Swimmlane][TabSwimlane] in tabbar                                                                | ![Measure VSM Tabs][MeasureTabs]                                   |
+| 4.1  | The Swimlane view opens and gives more information about the distribution of items                                       | ![Swimlane View][SwimlaneView]                                     |
 
 ## [Release](learn/release/index.md)
 
@@ -286,7 +285,8 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 |  1   | [Open Release][ReleaseOpen]                                                                                                                |                                             |
 |      | You can switch to Release by either pressing "Let's go to Release" button on its tile                                                      | ![Release Tile lets go][ReleaseTile]        |
 |      | Or you can always switch using the central app switcher on the top left of your screen:                                                    | ![Central App Switcher][CentralAppSwitcher] |
-|      | Show release overview with calendar                                                                                                        |                                             |
+|2 | The Releases View and a Calender is shown         | ![Releases View][ReleaseViewasList] |
+| 2.1 | Switch to Tiles view by clicking on ![Release tiles icon][ReleaseSwitchToTiles] | ![Releases as Tiles view][ReleaseViewasTiles] |
 |      | So how do we ensure everyone understands the state of our project.  Well we can generate a release readiness report. – Generate the report |                                             |
 
 ## Genie
@@ -434,7 +434,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [DeployPlugin3DotsMenue]: learn/deploy/media/DEPLOY_PluginList_3DotsMenue.png
 [TestOpen]: learn/test/index.md#how-to-switch-to-test-from-home-page
 [MeasureOpen]: learn/measure/index.md#how-to-switch-to-measure-from-home-page
-[ReleaseOpen]: learn/measure/index.md#how-to-switch-to-measure-from-home-page
+[ReleaseOpen]: learn/release/index.md#how-to-switch-to-release-from-home-page
 [ReleaseTile]: learn/introduction/media/Loop_switch_to_Release.png
 [CentralAppSwitcher]: learn/introduction/media/Loop_central_app_control.png
 [LoopHomePage]: learn/introduction/index.md#the-home-page
@@ -525,3 +525,6 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [VSMSelectDot]: learn/measure/media/VSM_ViewDot.png
 [TabSwimlane]: learn/measure/media/Measure_Swimlane_Tab.png
 [SwimlaneView]: learn/measure/media/Measure_Swimlane_view.png
+[ReleaseViewasList]: learn/release/media/Release_View_asList.png
+[ReleaseSwitchToTiles]: learn/release/media/Release_Switch_To_TilesView.png
+[ReleaseViewasTiles]: learn/release/media/Release_View_asTiles.png
