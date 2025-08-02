@@ -243,31 +243,41 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 | 10.4 | A WorkItem creation Dialog opens, select **Workitem** in the Type field                                     | ![CreateWI][WICreatedialog]                      |
 | 10.5 | Select Project "EchoLogic",  Workitem Type "Defect" and enter a Title                                       | ![CreateWI Enter Title][WICreateDetails]         |
 | 10.6 | In the **Results** View click on the **DemoTestFail** name to get a Detailed View                           | ![Result Details with Plan Link][ResultLinked]   |
+| 10.7 | Explain that everything is traceable                                                                        |                                                  |
 |  11  | Generate test data                                                                                          |                                                  |
-|      | Open **Author** section on **Test Editor** menue entry and click on **Data** | ![Test Author Section][SectionAuthor]                |
-|      | Data Definitions and Schemas are shown                                       | ![Data Definitions Schemas][DataDefView]             |
-|      | click on **CRM-System** in the Schema folder                                 | ![Schemas][DataSchemas]                              |
-|      | the **CRM-System** Data Schema is shown                                      | ![Schema View][DataSchemaView]                       |
-|      | Click on the **Preview Icon** ![Preview Icon][DataPreviewIcon]               | ![Data Preview][DataPreview]                         |
-|      | Click on the **Generate Icon** ![Generate Icon][GenerateIcon]                | ![][GenerateDialog]                                  |
-|      | Download the generated Data by clicking on **Downlad** Button                | ![Download button][ButtonDownload]                   |
-|      | Unzip and open the create folder                                             | ![Downloaded Unzipped][TestDataFolder]               |
-|      | Two files are created **Customers** and **Orders**                           | ![Gnereated Files][TestDataFiles]                    |
-|      | Open one **Orders.csv** to view gnerated Data                                | ![Generated Data][TestDataGenerated] |
-|  12  | Explain that everything is traceable                                                                        |                                                  |
+|      | Open **Author** section on **Test Editor** menue entry and click on **Data**                                | ![Test Author Section][SectionAuthor]            |
+|      | Data Definitions and Schemas are shown                                                                      | ![Data Definitions Schemas][DataDefView]         |
+|      | click on **CRM-System** in the Schema folder                                                                | ![Schemas][DataSchemas]                          |
+|      | the **CRM-System** Data Schema is shown                                                                     | ![Schema View][DataSchemaView]                   |
+|      | Click on the **Preview Icon** ![Preview Icon][DataPreviewIcon]                                              | ![Data Preview][DataPreview]                     |
+|      | Click on the **Generate Icon** ![Generate Icon][GenerateIcon]                                               | ![][GenerateDialog]                              |
+|      | Download the generated Data by clicking on **Downlad** Button                                               | ![Download button][ButtonDownload]               |
+|      | Unzip and open the create folder                                                                            | ![Downloaded Unzipped][TestDataFolder]           |
+|      | Two files are created **Customers** and **Orders**                                                          | ![Gnereated Files][TestDataFiles]                |
+|      | Open one **Orders.csv** to view gnerated Data                                                               | ![Generated Data][TestDataGenerated]             |
 
 ## [Measure](learn/measure/index.md)
 
 | Step | Details                                                                                                                  | Additional Information { width="50%" } |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------|:---------------------------------------|
 |  1   | [Open Measure][MeasureOpen]                                                                                              |                                        |
-|      | Explain that we have built, deployed and tested so now we need to coordinate releases                                    |                                        |
+|      | Explain that we have built, deployed and tested so now we need to coordinate [releases](#release)                                    |                                        |
 |      | Show and talk about pipeline(s) with environments and Gates                                                              |                                        |
-|      | Create simple new gate to show usage of metrics                                                                          |                                        |
+| | click on ![Pipeline Tab][TabPipeline] in the Tabbar to view [Pipelines][REFMeasurePipelines] | ![Measure VSM Tabs][MeasureTabs]|
+| | Delivery Pipelines linked to this VSM are shown| ![Pipeline view][PipelineView] |
+|      | Create simple new [Gate][REFMeasureGates]                                                                          |                                        |
+| | click on the **3 Dots** ![3 Dots][3Dots] of the QA environment to view its menue| ![][MeasureEnv3DotsMenue] |
+| | click on **Add Gate** to create an approver gate | ![Gate Dialog 1][MeasureGateDialog1] |
+| | |![Gate Dialog 2][MeasureGateDialog2] |
 |      | Explain that we have been shoeing individual roles but we can look across roles and track the value of our delivery work |                                        |
-|      | Open the VSM for the project                                                                                             |                                        |
-|      | Show the audit information of a dot                                                                                      |                                        |
-|      | Show the swimlane view.                                                                                                  |                                        |
+|      | Open the [VSM][REFMeasureVSM] for the project by clicking on **Value Stream** in the Tabmenue       | ![Measure VSM Tabs][MeasureTabs]|
+| | The ValueStream of EchoLogic Project is shown| ![EchoLogic VSM][VSMEchoLogic] |
+| | click on a dot to get more information | ![View Dot][VSMSelectDot] |
+| | This view will give you a complate Audit information of this item | ![View Dot Details 1](learn/measure/media/VSM_ViewDotDetails1.png) |
+| | | ![View Dot Details 2](learn/measure/media/VSM_ViewDotDetails2.png) |
+|      | click on **Swimlane** ![Swimmlane][TabSwimlane] in tabbar  |![Measure VSM Tabs][MeasureTabs]|
+| | The Swimlane view opens and gives more information about the distribution of items | ![Swimlane View][SwimlaneView] |
+
 
 ## [Release](learn/release/index.md)
 
@@ -501,3 +511,17 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [REFAppProcessView]: learn/deploy/index.md#view-application-processes
 [REFCompProcessView]: learn/deploy/index.md#view-component-processes
 [REFAppProcesses]: learn/deploy/index.md#application-processes
+[TabPipeline]: media/../learn/measure/media/Measure_Pipeline_Tab.png
+[PipelineView]: learn/measure/media/Measure_PipelineView.png
+[3Dots]: media/3Dots.png
+[MeasureEnv3DotsMenue]: learn/measure/media/Measure_Pipeline_Env_3Dotsmenue.png
+[MeasureGateDialog1]: learn/measure/media/Measure_Pipeline_Env_CreateGatedialog1.png
+[MeasureGateDialog2]: learn/measure/media/Measure_Pipeline_Env_CreateGatedialog2.png
+[MeasureTabs]: learn/measure/media/VSM_Tabs.png
+[REFMeasurePipelines]: learn/measure/index.md#pipeline
+[REFMeasureGates]: learn/measure/index.md#quality-gates
+[REFMeasureVSM]: learn/measure/index.md#have-a-look-at-the-value-stream
+[VSMEchoLogic]: learn/measure/media/Measure_VSM_EchoLogic.png
+[VSMSelectDot]: learn/measure/media/VSM_ViewDot.png
+[TabSwimlane]: learn/measure/media/Measure_Swimlane_Tab.png
+[SwimlaneView]: learn/measure/media/Measure_Swimlane_view.png

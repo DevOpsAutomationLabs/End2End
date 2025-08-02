@@ -1,11 +1,11 @@
 # Measure Lab
 
-TODO: update flow, app references and screenshots
+TODO: #34 update flow, app references and screenshots
 _**TODO: update flow, app references from PIZZA to EchoLogic and screenshots**_
 
 ## Introduction
 
-TODO: add more about Measure
+TODO: #35 add more about Measure
 
 ## How to switch to Measure from Home Page
 
@@ -48,7 +48,7 @@ Finally, when you click on a dot, the displayed card provides information about 
 
 Please click on "Emerald ..." Link to open the value stream and explore the shown data. This will open the Dot View of the Emerald Product Team - Accounting VSM:
 
-![Emerald Dot View](media/Measure_Emerald_VSM_DotView.png)
+![Emerald Dot View][VSMEmerald]
 
 The "Emerald .." VSM contains Demo Data to give you a good insight how Measure works. When you click on one Dot it will open a popup with additional informatio and a full history of changes (lifecycle)
 
@@ -117,3 +117,4 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [GoBackToDemoOverview]: ../index.md
 [GoBackToParentIndex]: ../index.md#measure
 [NextLab]: ../index.md#release
+[VSMEmerald]: media/Measure_Emerald_VSM_DotView.png
