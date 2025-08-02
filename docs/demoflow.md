@@ -244,6 +244,16 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 | 10.5 | Select Project "EchoLogic",  Workitem Type "Defect" and enter a Title                                       | ![CreateWI Enter Title][WICreateDetails]         |
 | 10.6 | In the **Results** View click on the **DemoTestFail** name to get a Detailed View                           | ![Result Details with Plan Link][ResultLinked]   |
 |  11  | Generate test data                                                                                          |                                                  |
+|      | Open **Author** section on **Test Editor** menue entry and click on **Data** | ![Test Author Section][SectionAuthor]                |
+|      | Data Definitions and Schemas are shown                                       | ![Data Definitions Schemas][DataDefView]             |
+|      | click on **CRM-System** in the Schema folder                                 | ![Schemas][DataSchemas]                              |
+|      | the **CRM-System** Data Schema is shown                                      | ![Schema View][DataSchemaView]                       |
+|      | Click on the **Preview Icon** ![Preview Icon][DataPreviewIcon]               | ![Data Preview][DataPreview]                         |
+|      | Click on the **Generate Icon** ![Generate Icon][GenerateIcon]                | ![][GenerateDialog]                                  |
+|      | Download the generated Data by clicking on **Downlad** Button                | ![Download button][ButtonDownload]                   |
+|      | Unzip and open the create folder                                             | ![Downloaded Unzipped][TestDataFolder]               |
+|      | Two files are created **Customers** and **Orders**                           | ![Gnereated Files][TestDataFiles]                    |
+|      | Open one **Orders.csv** to view gnerated Data                                | ![Generated Data][TestDataGenerated] |
 |  12  | Explain that everything is traceable                                                                        |                                                  |
 
 ## [Measure](learn/measure/index.md)
@@ -475,6 +485,18 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [REFSwitchTestTS]: learn/test/index.md#switch-teamspace-and-project-if-needed
 [TestPrjList]: learn/test/media/Test_Show_ProjectList.png
 [SwitchTestTS]: learn/test/media/Test_SwitchTS.png
+[DataDefView]: learn/test/media/Test_Author_DataDefView.png
+[DataSchemas]: learn/test/media/Test_Author_Schemas.png
+[DataSchemaView]: learn/test/media/Test_Author_Schema_View.png
+[DataPreviewIcon]: learn/test/media/Test_Data_PreviewIcon.png
+[DataPreview]: learn/test/media/Test_Data_Preview.png
+[GenerateIcon]: learn/test/media/Test_Data_GenerateIcon.png
+[GenerateDialog]: learn/test/media/Test_Data_GenerateDialog.png
+[ButtonDownload]: media/Button_Download.png
+[TestDataFolder]: learn/test/media/Test_Data_DownloadedUnzipped.png
+[TestDataFiles]: learn/test/media/Test_Data_DownloadedFiles.png
+[TestDataGenerated]: learn/test/media/Test_Data_GeneratedData.png
+
 [URLDoraMetrics]: https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-dora
 [REFAppProcessView]: learn/deploy/index.md#view-application-processes
 [REFCompProcessView]: learn/deploy/index.md#view-component-processes

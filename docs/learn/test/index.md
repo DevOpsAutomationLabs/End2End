@@ -24,7 +24,7 @@ and Select **Demo**. A list of Projects is shown:
 
 ![Projectlist is shown][TestPrjList]
 
-## Steps
+## TestScripts and Testruns
 
 | Step | Details                                                                                            | Additional Information                           |
 |:----:|:---------------------------------------------------------------------------------------------------|:-------------------------------------------------|
@@ -60,6 +60,21 @@ and Select **Demo**. A list of Projects is shown:
 |      | In the **Results** View click on the **DemoTestFail** name to get a Detailed View                  | ![Result Details with Plan Link][ResultLinked]   |
 |      | Explain that everything is traceable                                                               |                                                  |
 
+## Testdata
+
+| Step | Details                                                                      | Additional Information                               |
+|:----:|:-----------------------------------------------------------------------------|:-----------------------------------------------------|
+|      | Open **Author** section on **Test Editor** menue entry and click on **Data** | ![Test Author Section][SectionAuthor]                |
+|      | Data Definitions and Schemas are shown                                       | ![Data Definitions Schemas][DataDefView]             |
+|      | click on **CRM-System** in the Schema folder                                 | ![Schemas][DataSchemas]                              |
+|      | the **CRM-System** Data Schema is shown                                      | ![Schema View][DataSchemaView]                       |
+|      | Click on the **Preview Icon** ![Preview Icon][DataPreviewIcon]               | ![Data Preview][DataPreview]                         |
+|      | Click on the **Generate Icon** ![Generate Icon][GenerateIcon]                | ![][GenerateDialog]                                  |
+|      | Download the generated Data by clicking on **Downlad** Button                | ![Download button][ButtonDownload]                   |
+|      | Unzip and open the create folder                                             | ![Downloaded Unzipped][TestDataFolder]               |
+|      | Two files are created **Customers** and **Orders**                           | ![Gnereated Files][TestDataFiles]                    |
+|      | Open one **Orders.csv** to view gnerated Data                                | ![Generated Data][TestDataGenerated] |
+
 ## Conclusio
 
 Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
@@ -93,3 +108,14 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [ResultLinked]: media/Test_Result_Details_with_PlanLink.png
 [SwitchTS]: media/Test_SwitchTS.png
 [TestPrjList]: media/Test_Show_ProjectList.png
+[DataDefView]: media/Test_Author_DataDefView.png
+[DataSchemas]: media/Test_Author_Schemas.png
+[DataSchemaView]: media/Test_Author_Schema_View.png
+[DataPreviewIcon]: media/Test_Data_PreviewIcon.png
+[DataPreview]: media/Test_Data_Preview.png
+[GenerateIcon]: media/Test_Data_GenerateIcon.png
+[GenerateDialog]: media/Test_Data_GenerateDialog.png
+[ButtonDownload]: ../../media/Button_Download.png
+[TestDataFolder]: media/Test_Data_DownloadedUnzipped.png
+[TestDataFiles]: media/Test_Data_DownloadedFiles.png
+[TestDataGenerated]: media/Test_Data_GeneratedData.png

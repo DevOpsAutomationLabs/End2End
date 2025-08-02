@@ -128,8 +128,8 @@ To switch to Applications View, click in the Sidebar on the **Applications** Ico
 [APPSallViewEmpty]: media/Deploy_Applications_View_Empty.png
 [ButtonCreateApp]: media/Deploy_App_CreateAppButton.png
 [CreateAppMenu]: media/Deploy_App_CreateAppMenue.png
-[CreateAppDialog]: media/DevOps_App_CreateApp_Dialog1.png
-[CreateAppDialogEnterInfo]: media/DevOps_App_CreateApp_Dialog2.png
+[CreateAppDialog]: media/Deploy_App_CreateApp_Dialog1.png
+[CreateAppDialogEnterInfo]: media/Deploy_App_CreateApp_Dialog2.png
 [ButtonImportApps]: ../media/Deploy_Import_Apps_Button.png
 [ImportAppsDialog]: ../media/Deploy_Import_Apps_Dialog.png
 [ButtonChooseFile]: ../../../media/Button_ChooseFile.png

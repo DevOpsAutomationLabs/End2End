@@ -553,8 +553,8 @@ If no Application exists either import or create application
 [APPSallViewEmpty]: learn/deploy/applications/media/Deploy_Applications_View_Empty.png
 [ButtonCreateApp]: learn/deploy/applications/media/Deploy_App_CreateAppButton.png
 [CreateAppMenu]: learn/deploy/applications/media/Deploy_App_CreateAppMenue.png
-[CreateAppDialog]: learn/deploy/applications/media/DevOps_App_CreateApp_Dialog1.png
-[CreateAppDialogEnterInfo]: learn/deploy/applications/media/DevOps_App_CreateApp_Dialog2.png
+[CreateAppDialog]: learn/deploy/applications/media/Deploy_App_CreateApp_Dialog1.png
+[CreateAppDialogEnterInfo]: learn/deploy/applications/media/Deploy_App_CreateApp_Dialog2.png
 [ButtonImportApps]: learn/deploy/media/Deploy_Import_Apps_Button.png
 [ImportAppsDialog]: learn/deploy/media/Deploy_Import_Apps_Dialog.png
 [ButtonChooseFile]: media/Button_ChooseFile.png
