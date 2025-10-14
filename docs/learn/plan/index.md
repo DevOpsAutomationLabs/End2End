@@ -77,23 +77,46 @@ This view provides the used record types, fields, transition matrizes and more.
 
 ### AI Assistant integration setup
 
-![Sidebar Configuration Integration][PlanSidebarConfigIntegration]
+For easier management of AI access we need to create a Usergroup and add the eligible members to it.
 
-![Integrations View][PlanIntegrationsView]
+| Step | Details                                                         | Additional Information                                           |
+|:----:|:----------------------------------------------------------------|:-----------------------------------------------------------------|
+|      | Click on *User Management* in the *3 Dots* menue in the sidebar | ![UserManagement][PlanSideBarUserManagement]                     |
+|      | Click on the *Groups* tab in the User Management View           | ![Click on Groups Tab][UserManagementGroups]                     |
+|      | Click on *Create Group* Button to create a new Group            | ![Click on Create Group Button][CreateNewGroupButton]            |
+|      | Enter a meaningful name for new Group                           | ![Enter a Name for new Group][NameForNewGroup]                   |
+|      | Click on the *Add User* section                                 | ![Add a user to this group][GroupAddUserButton]                  |
+|      | Select the users by clicking on the *+* symbol                  | ![select the users for this group][GroupAddUserFromList]         |
+|      | Click the *Add* Button to add selected Users to Group           | ![Presss ADD button to add selected users][AddUserToGroupButton] |
+|      | All Groupmemebers are now listed in Group                       | ![Group Member List][GroupUpdated]                               |
 
-![New Integration Button][ButtonNewIntegration]
+Next configure the AI Integration
 
-![New Integration Dialog 1][NewIntegrationDialog]
+| Step | Details                                                                  | Additional Information                                                                   |
+|:----:|:-------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
+|      | Click on *Integrations* in the *Configuration* menue in the sidebar      | ![Sidebar Configuration Integration][PlanSidebarConfigIntegration]                       |
+|      | The empty integrations view is shown                                     | ![Integrations View][PlanIntegrationsView]                                               |
+|      | Click on *New Integration* Button                                        | ![New Integration Button][ButtonNewIntegration]                                          |
+|      | Enter a meaningful name and select your AI Provider and API Key          | ![New Integration Dialog 1][NewIntegrationDialog]                                        |
+|      | Press *Next* Button to enter more Details                                | ![Click Next Button][AINextButton]                                                       |
+|      | Next dialog page opens                                                   | ![New Integration Dialog 2][NewIntegrationDialogAIProvider]                              |
+|      | Enter API Endpoint if missing                                            | [https://api.openai.com/v1/chat/completions](https://api.openai.com/v1/chat/completions) |
+|      | Select your prefered model                                               | ![Select a Model][SelectAIModelFromList]                                                 |
+|      | Set your prefered LLM settings for temperature and more                  | ![Set your preferences for LLM][LLMSettings]                                             |
+|      | Click on *Save*                                                          | ![Click Save Button][ButtonSave]                                                         |
+|      | The new AI integration is created but no Groups are associated           | ![Newly created integration with no groups associated][NewIntegrationNoGroups]    |
+|      | Press the Add Groups Button under Actions Column                         | ![Press Add Groups Button][NewIntegrationAddGroupButton]                                 |
+|      | Select the new Group you created from above and additional ones you need | ![Select Groups][NewIntegrationSelectGroups]                                             |
+|      | Click on *ADD* Button to save selection                                  | ![Press the Add Button to save selection][ButtonADD]                                     |
+|      | Updated View                                                             | ![Final Integration view][NewIntegrationFinal]                                           |
 
-![New Integration Dialog 2][NewIntegrationDialogAIProvider]
+Last step is for every enabled user (from selected groups) is to activate the access
 
-![New Integration created][NewIntegrationCreated]
-
-Check Member Access
-
-![Sidebar Profile Member Access][PlanSidebarProfileMemberAccess]
-
-![View Member Acces][MemberAccessView]
+| Step | Details                                                                      | Additional Information                                                              |
+|:----:|:-----------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
+|      | Click on your *Profile* Icon in the Sidebar and select *Member Access*       | ![Sidebar Profile Member Access][PlanMemberAccessSelected]            |
+|      | A list of integrations available for Member access is shown and their status | ![Integrations for Member Access][PlanMemberAccessList]                             |
+|      | Click on the Integrationname to activate access                              | ![Check the newly created integration to get it activated][PlanMemberAccessChecked] |
 
 ### AI Assistant Chat Dialog
 
@@ -206,6 +229,24 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [ButtonNewIntegration]: media/Plan_Integration_New_Button.png
 [NewIntegrationDialog]: media/Plan_Integration_New_Dialog1.png
 [NewIntegrationDialogAIProvider]: media/Plan_Integration_New_Dialog2.png
-[NewIntegrationCreated]: media/Plan_Integration_New_created.png
-[PlanSidebarProfileMemberAccess]: media/Plan_Profile_MemberAccess.png
-[MemberAccessView]: media/Plan_MemberAccess_View.png
+[NewIntegrationNoGroups]: media/Plan_Integration_New_created_no_Groups.png
+[NewIntegrationAddGroupButton]: media/Plan_Integration_AddGroup.png
+[NewIntegrationSelectGroups]: media/Plan_Integration_SelectGroups.png
+[NewIntegrationFinal]: media/Plan_Integration_Final.png
+[PlanMemberAccessList]: media/Plan_MemberAccess_Integrations_NotChecked.png
+[PlanMemberAccessChecked]: media/Plan_MemberAccess_Integrations_Checked.png
+
+[PlanSideBarUserManagement]: media/Plan_SideBar_UserManagement.png
+[UserManagementGroups]: media/Plan_User_Management_Groups.png
+[CreateNewGroupButton]: media/Plan_Usermanagement_CreateGroup_Button.png
+[NameForNewGroup]: media/Plan_Usermanagement_NewGroupName.png
+[GroupAddUserButton]: media/Plan_Usermanagement_GroupAddUser.png
+[GroupAddUserFromList]: media/Plan_Usermanagement_GroupAddUsersList.png
+[AddUserToGroupButton]: media/Plan_Usermanagement_GroupAddUsersList_ButtonADD.png
+[GroupUpdated]: media/Plan_Usermanagement_GroupAddUsersList_Updated.png
+[ButtonADD]: ../../media/Button_ADD.jpg
+[PlanMemberAccessSelected]: media/Plan_SideBar_Profile_MemberAccess_Selected.png
+
+[SelectAIModelFromList]: media/Plan_Integration_SelectAIModel.png
+[LLMSettings]: media/Plan_Integration_LLMSettings.png
+[ButtonSave]: ../../media/Button_Save.png

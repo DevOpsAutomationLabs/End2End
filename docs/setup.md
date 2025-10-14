@@ -73,6 +73,10 @@ TODO: get more information which environment to use and how to use the "Frontend
 |  8   | Press now **Go to my Loops** Button to proceed                                                | ![Go to my Loop Button][GoToMyLoops]                                                         |
 |  9   | As your Loop has no data please proceed with [Setting up Demo Data][SetupDemoData]            | ![Home Page][LoopHomePageWithNoData]                                                         |
 
+## Setup AI Integrations
+
+Please follow [this instructions](ai_setup.md)
+
 ## Setup Demo Data
 
 <blockquote>

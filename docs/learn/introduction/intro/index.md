@@ -55,15 +55,20 @@ The Settings Menue provides a view User Administration and managing the AI integ
 
 View or Create an Integration to an AI Provider
 
-![Integrations View with Entry][IntegrationsView]
-
-![Create Integrations Button][ButtonCreateNewIntegration]
-
-![New Integrations Dialog][NewIntegrationsDialog]
-
-![Select AI Provider][NewIntegrationsSelectAIProvider]
-
-![New Integrations additional Details][NewIntegrationsDialogNext]
+| Step | Details                                                                                             | Additional Information                                            |
+|:----:|:----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------|
+|  1   | Click on *Integrations* in the Settings menue to get the list of all integrations or create new one | ![Sidebar Settings][SBSettings]                                   |
+|  2   | A list of integrations is shown if available.                                                       | ![Integrations View with Entry][IntegrationsView]                 |
+|  3   | To create a new integration click the Button *New Integration*                                      | ![Create Integrations Button][ButtonCreateNewIntegration]         |
+|  4   | A Dialog for the integration appears                                                                | ![New Integrations Dialog][NewIntegrationsDialog]                 |
+| 4.1  | Enter a meaningful Name                                                                             | ![New Integration Name][NewIntegrationName]                       |
+| 4.2  | Select the AI Provider                                                                              | ![Select AI Provider][NewIntegrationsSelectAIProvider]            |
+| 4.3  | Enter your API Key and press *Next*                                                                 | ![Press Next][ButtonNext]                                         |
+|  5   | Next page of dialog is shown                                                                        | ![New Integrations additional Details][NewIntegrationsDialogNext] |
+| 5.1  | Enter the API endpoint                                                                              | [https://api.openai.com/v1](https://api.openai.com/v1)            |
+| 5.2  | Select your prefered model and further configurations                                               | ![Enter more details][NewIntegrationsDialogNextDetails]           |
+| 5.3  | click on *Save*                                                                                     | ![Click the Save button][ButtonSave]                              |
+|  6   | The newly created AI integration is shown                                                           | ![List of Integrations][ListOfIntegrations]                       |
 
 ## Conclusio
 
@@ -84,8 +89,13 @@ Go back to [Introduction][GoBackToParentIndex] or [Lab and Demo Overview][GoBack
 [AboutButton]: media/Loop_About_Button.png
 [UserAdminUserDetail]: media/Loop_Settings_UserAdmin_Users.png
 [UserAdminView]: media/Loop_Settings_UserAdmin.png
-[IntegrationsView]: media/Loop_Settings_Integrations.png
+[IntegrationsView]: media/Loop_AI_Setup_empty_list.png
 [ButtonCreateNewIntegration]: media/Loop_Settings_NewIntegrationsButton.png
 [NewIntegrationsDialog]: media/Loop_Settings_IntegrationsNewDialog1.png
-[NewIntegrationsSelectAIProvider]: media/Loop_Settings_IntegrationsNewDialog2.png
+[NewIntegrationName]: media/Loop_AI_Setup_Name.png
+[NewIntegrationsSelectAIProvider]: media/Loop_AI_setup_Select_Provider.png
 [NewIntegrationsDialogNext]: media/Loop_Settings_IntegrationsNewDialog3.png
+[NewIntegrationsDialogNextDetails]: media/Loop_AI_Setup_Page_2.png
+[ListOfIntegrations]: media/Loop_Settings_Integrations.png
+[ButtonNext]: ../../../media/Button_NEXT.png
+[ButtonSave]: ../../../media/Button_Save.png
