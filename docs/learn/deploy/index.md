@@ -282,24 +282,7 @@ Use Deploy Genie to understand why the deployment failed. To simulate a failed d
 
 ## Settings
 
-Switch to Settings by using the Settings Icon: ![Deploy Settings Icon][DeploySettingsIcon]
-
-### Plugins
-
-Plugins are listed in the Automation Section of the Settings pages.
-
-- ![Automation Plugins][DeploySettingsAutomationPlugins]
-- ![Plugin List][DeploySettingsPluginsList]
-
-#### How to install a plugin
-
-click on the **3 Dots** ![3 dots menue][DeployPlugin3DotsMenue] of the plugin you want to install and select install: ![Install plugin][DeployInstallPlugin]
-An Installation Confirmation Dialog will pop up, click here on **Confirm** to proceed ![Plugin Installation Confirmation][DeployInstallPluginConfirmation]
-Installation is Successfull Notification ![Plugin Installation Successfull][DeployPluginInstallSuccess]
-
-### How to upgrade a plugin
-
-Same procedure as installing a Plugin. Click on the 3 Dots menue and select **Upgrade**
+Please read the [Settings Section](settings/index.md) for more Details how to set System parameters or install Plugins.
 
 ## Conclusio
 
@@ -359,13 +342,7 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [DeployProcessRunningStepOutputDetails]: media/DEPLOY_RunningProcess4_StepDetails.png
 [DeployAppProcessRunSuccess]: media/DEPLOY_AppProcessFinishedSuccess.png
 [DeployAppEnvwithDeployedVersions]: media/DEPLOY_Application_EnvironmentResultVersions.png
-[DeploySettingsIcon]: media/DEPLOY_SettingsIcon.png
-[DeploySettingsAutomationPlugins]: media/DEPLOY_Settings_AutomationSection.png
-[DeploySettingsPluginsList]: media/DEPLOY_PluginsList.png
-[DeployInstallPlugin]: media/DEPLOY_Plugins_Install.png
 [DeployPlugin3DotsMenue]: media/DEPLOY_PluginList_3DotsMenue.png
-[DeployInstallPluginConfirmation]: media/DEPLOY_PluginInstallConfirmation.png
-[DeployPluginInstallSuccess]: media/DEPLOY_PluginInstallSuccess.png
 [APPSallView]: applications/index.md#switch-to-applications-view
 [AppViewWithEnv]: applications/index.md#view-application
 [SwitchToProcessView]: applications/index.md#show-processes
