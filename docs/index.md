@@ -40,9 +40,20 @@ It will help you to learn DevOps Loop very easily and how to efficiently provide
 
 </div>
 
+- :genie:{ .lg .middle } __Setting Up AI Integrations__
+
+    All AI Integration setup Details in one Place
+  
+    ---
+
+    [:octicons-arrow-right-24: AI Integrations][AISetup]
+
+</div>
+
 ---
 
 [REFDemo]: demoflow.md
 [REFIntro]: learn/introduction/index.md
 [REFLearn]: learn/index.md
 [REFSetup]: setup.md
+[AISetup]: ai_setup.md
