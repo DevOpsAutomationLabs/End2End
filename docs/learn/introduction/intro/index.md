@@ -32,7 +32,7 @@ Which will provide the sidebar items with text details:
 
 ![Sidebar expanded][SBExpanded]
 
-## Plug-Ins
+### Plug-Ins
 
 On the sidebar a view of slected plug-ins is available. By pressing on the Plug-Ins symbol the Featured Plugins page will be presented:
 
@@ -40,18 +40,18 @@ On the sidebar a view of slected plug-ins is available. By pressing on the Plug-
 
 <!-- <img src="media/Loop_Sidebar_plugins.png" width="50%" height="50%"> -->
 
-## Settings
+### Settings
 
 The Settings Menue provides a view User Administration and managing the AI integration.
 
 ![Sidebar Settings][SBSettings]
 
-### User Administration
+#### User Administration
 
 ![User Admin View][UserAdminView]
 ![User Detail][UserAdminUserDetail]
 
-### Integrations
+#### Integrations
 
 View or Create an Integration to an AI Provider
 

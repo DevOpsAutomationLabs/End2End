@@ -1,8 +1,14 @@
 # AI Integrations
 
+AI integrations can be setup only with administrative rights.
+
 ## [AI Integration on Teamspace level](learn/introduction/intro/index.md#integrations)
 
-View or Create an Integration to an AI Provider
+|   |                                                                                                            |                                    |
+|:-:|:-----------------------------------------------------------------------------------------------------------|:-----------------------------------|
+|   | Switch to the main view of your Teamspace by clicking on **DevOps Loop: Loop** in the **Central App Menu** | ![Central App Menue][SwitchToLoop] |
+
+### View or Create an Integration to an AI Provider
 
 | Step | Details                                                                         | Additional Information                                            |
 |:----:|:--------------------------------------------------------------------------------|:------------------------------------------------------------------|
@@ -21,63 +27,71 @@ View or Create an Integration to an AI Provider
 
 ## [DevOps Plan AI integration setup](learn/plan/index.md#ai-assistant-integration-setup)
 
+|   |                                                 |   |
+|:-:|:------------------------------------------------|:--|
+|   | Switch to [DevOps Plan home view][SwitchToPlan] |   |
+
+### Adding an AI User Group
+
 For easier management of AI access we need to create a Usergroup and add the eligible members to it.
 
 | Step | Details                                                               | Additional Information                                           |
 |:----:|:----------------------------------------------------------------------|:-----------------------------------------------------------------|
-|      | Click on **User Management** in the **3 Dots** menue in the sidebar   | ![UserManagement][PlanSideBarUserManagement]                     |
-|      | Click on the **Groups** tab in the User Management View               | ![Click on Groups Tab][UserManagementGroups]                     |
-|      | Click on **Create Group** Button to create a new Group                | ![Click on Create Group Button][CreateNewGroupButton]            |
-|      | Enter a meaningful name for new Group                                 | ![Enter a Name for new Group][NameForNewGroup]                   |
-|      | Click on the **Add User** section                                     | ![Add a user to this group][GroupAddUserButton]                  |
-|      | Select the users by clicking on the ![Plus Symbol][PlusSymbol] symbol | ![select the users for this group][GroupAddUserFromList]         |
-|      | Click the *Add* Button to add selected Users to Group                 | ![Presss ADD button to add selected users][AddUserToGroupButton] |
-|      | All Groupmemebers are now listed in Group                             | ![Group Member List][GroupUpdated]                               |
+|  1   | Click on **User Management** in the **3 Dots** menue in the sidebar   | ![UserManagement][PlanSideBarUserManagement]                     |
+|  2   | Click on the **Groups** tab in the User Management View               | ![Click on Groups Tab][UserManagementGroups]                     |
+|  3   | Click on **Create Group** Button to create a new Group                | ![Click on Create Group Button][CreateNewGroupButton]            |
+|  4   | Enter a meaningful name for new Group                                 | ![Enter a Name for new Group][NameForNewGroup]                   |
+|  5   | Click on the **Add User** section                                     | ![Add a user to this group][GroupAddUserButton]                  |
+|  6   | Select the users by clicking on the ![Plus Symbol][PlusSymbol] symbol | ![select the users for this group][GroupAddUserFromList]         |
+|  7   | Click the *Add* Button to add selected Users to Group                 | ![Presss ADD button to add selected users][AddUserToGroupButton] |
+|  8   | All Groupmemebers are now listed in Group                             | ![Group Member List][GroupUpdated]                               |
 
-Next configure the AI Integration
+### Configure Plan AI Integrations
 
 | Step | Details                                                                  | Additional Information                                                                   |
 |:----:|:-------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-|      | Click on *Integrations* in the *Configuration* menue in the sidebar      | ![Sidebar Configuration Integration][PlanSidebarConfigIntegration]                       |
-|      | The empty integrations view is shown                                     | ![Integrations View][PlanIntegrationsView]                                               |
-|      | Click on *New Integration* Button                                        | ![New Integration Button][ButtonNewIntegration]                                          |
-|      | Enter a meaningful name and select your AI Provider and API Key          | ![New Integration Dialog 1][NewIntegrationDialog]                                        |
-|      | Press *Next* Button to enter more Details                                | ![Click Next Button][AINextButton]                                                       |
-|      | Next dialog page opens                                                   | ![New Integration Dialog 2][NewIntegrationDialogAIProvider]                              |
-|      | Enter API Endpoint if missing                                            | [https://api.openai.com/v1/chat/completions](https://api.openai.com/v1/chat/completions) |
-|      | Select your prefered model                                               | ![Select a Model][SelectAIModelFromList]                                                 |
-|      | Set your prefered LLM settings for temperature and more                  | ![Set your preferences for LLM][LLMSettings]                                             |
-|      | Click on *Save*                                                          | ![Click Save Button][ButtonSave]                                                         |
-|      | The new AI integration is created but no Groups are associated           | ![Newly created integration with no groups associated][NewIntegrationNoGroups]           |
-|      | Press the Add Groups Button under Actions Column                         | ![Press Add Groups Button][NewIntegrationAddGroupButton]                                 |
-|      | Select the new Group you created from above and additional ones you need | ![Select Groups][NewIntegrationSelectGroups]                                             |
-|      | Click on *ADD* Button to save selection                                  | ![Press the Add Button to save selection][ButtonADD]                                     |
-|      | Updated View                                                             | ![Final Integration view][NewIntegrationFinal]                                           |
+|  1   | Click on *Integrations* in the *Configuration* menue in the sidebar      | ![Sidebar Configuration Integration][PlanSidebarConfigIntegration]                       |
+|  2   | The empty integrations view is shown                                     | ![Integrations View][PlanIntegrationsView]                                               |
+|  3   | Click on *New Integration* Button                                        | ![New Integration Button][ButtonNewIntegration]                                          |
+|  4   | Enter a meaningful name and select your AI Provider and API Key          | ![New Integration Dialog 1][NewIntegrationDialog]                                        |
+|  5   | Press *Next* Button to enter more Details                                | ![Click Next Button][AINextButton]                                                       |
+|  6   | Next dialog page opens                                                   | ![New Integration Dialog 2][NewIntegrationDialogAIProvider]                              |
+|  7   | Enter API Endpoint if missing                                            | [https://api.openai.com/v1/chat/completions](https://api.openai.com/v1/chat/completions) |
+|  8   | Select your prefered model                                               | ![Select a Model][SelectAIModelFromList]                                                 |
+|  9   | Set your prefered LLM settings for temperature and more                  | ![Set your preferences for LLM][LLMSettings]                                             |
+|  10  | Click on *Save*                                                          | ![Click Save Button][ButtonSave]                                                         |
+|  11  | The new AI integration is created but no Groups are associated           | ![Newly created integration with no groups associated][NewIntegrationNoGroups]           |
+|  12  | Press the Add Groups Button under Actions Column                         | ![Press Add Groups Button][NewIntegrationAddGroupButton]                                 |
+|  13  | Select the new Group you created from above and additional ones you need | ![Select Groups][NewIntegrationSelectGroups]                                             |
+|  14  | Click on *ADD* Button to save selection                                  | ![Press the Add Button to save selection][ButtonADD]                                     |
+|  15  | Updated View                                                             | ![Final Integration view][NewIntegrationFinal]                                           |
+
+### Activate Member Access
 
 Last step is for every enabled user (from selected groups) is to activate the access
 
 | Step | Details                                                                      | Additional Information                                                              |
 |:----:|:-----------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
-|      | Click on your *Profile* Icon in the Sidebar and select *Member Access*       | ![Sidebar Profile Member Access][PlanMemberAccessSelected]                          |
-|      | A list of integrations available for Member access is shown and their status | ![Integrations for Member Access][PlanMemberAccessList]                             |
-|      | Click on the Integrationname to activate access                              | ![Check the newly created integration to get it activated][PlanMemberAccessChecked] |
+|  1   | Click on your *Profile* Icon in the Sidebar and select *Member Access*       | ![Sidebar Profile Member Access][PlanMemberAccessSelected]                          |
+|  2   | A list of integrations available for Member access is shown and their status | ![Integrations for Member Access][PlanMemberAccessList]                             |
+|  3   | Click on the Integrationname to activate access                              | ![Check the newly created integration to get it activated][PlanMemberAccessChecked] |
 
 ## [Deploy AI Settings](learn/deploy/settings/index.md#ai-settings)
 
-Switch to Settings by using the Settings Icon: ![Deploy Settings Icon][DeploySettingsIcon]
-
-| Step | Details                                                          | Additional Information { width="50%" }                             |
-|:----:|:-----------------------------------------------------------------|:-------------------------------------------------------------------|
-|      | Scroll down in the System Section to view all sub sections       | ![System Section in Settings][DeploySystemSection]                 |
-|      | Click on the **AI Settings** icon                                | ![AI Icon][DeployAISettingsIcon]                                   |
-|      | The AI Integration configuration Dialog opens                    | ![AI Integration Settings Dialog][AISettings_Dialog]               |
-|      | In the **AI Provider** listbox select OpenAI                     | ![Select OpenAI as Provider][AIProvider]                           |
-|      | If **AI Provider Endpoint** is empty enter this URL              | [https://api.openai.com/](https://api.openai.com/)                 |
-|      | Enter your API Key in the **AI Provider API Key** field          |                                                                    |
-|      | Click on the **Model Name** Listbox to view all available Models | ![Model Name][ModelName]                                           |
-|      | Select your prefered moddel from list                            | ![Select Your Prefered Model][ModelList]                           |
-|      | Selected Model will be shown                                     | ![Selected Model][ModelSelected] |
-|      | Click on **Save** to finish setup                                | ![Click on Save][ButtonSave]                                       |
+| Step | Details                                                                                    | Additional Information { width="50%" }               |
+|:----:|:-------------------------------------------------------------------------------------------|:-----------------------------------------------------|
+|  1   | Switch to [Deploy Home Page](learn/deploy/index.md#how-to-switch-to-deploy-from-home-page) |                                                      |
+|  2   | On the Deploy Home page switch to Settings by using the Settings Icon                      | ![Deploy Settings Icon][DeploySettingsIcon]          |
+|  3   | Scroll down in the System Section to view all sub sections                                 | ![System Section in Settings][DeploySystemSection]   |
+|  4   | Click on the **AI Settings** icon                                                          | ![AI Icon][DeployAISettingsIcon]                     |
+|  5   | The AI Integration configuration Dialog opens                                              | ![AI Integration Settings Dialog][AISettings_Dialog] |
+|  6   | In the **AI Provider** listbox select OpenAI                                               | ![Select OpenAI as Provider][AIProvider]             |
+|  7   | If **AI Provider Endpoint** is empty enter this URL                                        | [https://api.openai.com/](https://api.openai.com/)   |
+|  8   | Enter your API Key in the **AI Provider API Key** field                                    |                                                      |
+|  9   | Click on the **Model Name** Listbox to view all available Models                           | ![Model Name][ModelName]                             |
+|  10  | Select your prefered moddel from list                                                      | ![Select Your Prefered Model][ModelList]             |
+|  11  | Selected Model will be shown                                                               | ![Selected Model][ModelSelected]                     |
+|  12  | Click on **Save** to finish setup                                                          | ![Click on Save][ButtonSave]                         |
 
 ---
 
@@ -127,3 +141,5 @@ Switch to Settings by using the Settings Icon: ![Deploy Settings Icon][DeploySet
 [ButtonADD]: media/Button_ADD.jpg
 [PlanMemberAccessSelected]: learn/plan/media/Plan_SideBar_Profile_MemberAccess_Selected.png
 [PlusSymbol]: learn/plan/media/Plan_PlusSymbol.png
+[SwitchToPlan]: learn/plan/index.md#how-to-switch-to-plan-from-home-page
+[SwitchToLoop]: learn/introduction/media/Loop_central_app_control.png
