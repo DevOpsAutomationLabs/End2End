@@ -1,4 +1,4 @@
-# Setting up the AI integrations
+# AI Integrations
 
 ## [AI Integration on Teamspace level](learn/introduction/intro/index.md#integrations)
 
@@ -76,7 +76,7 @@ Switch to Settings by using the Settings Icon: ![Deploy Settings Icon][DeploySet
 |      | Enter your API Key in the **AI Provider API Key** field          |                                                                    |
 |      | Click on the **Model Name** Listbox to view all available Models | ![Model Name][ModelName]                                           |
 |      | Select your prefered moddel from list                            | ![Select Your Prefered Model][ModelList]                           |
-|      | Selected Model will be shown                                     | ![Selected Model](media/Deploy_AI_Settings_ModelName_Selected.png) |
+|      | Selected Model will be shown                                     | ![Selected Model][ModelSelected] |
 |      | Click on **Save** to finish setup                                | ![Click on Save][ButtonSave]                                       |
 
 ---
@@ -88,6 +88,7 @@ Switch to Settings by using the Settings Icon: ![Deploy Settings Icon][DeploySet
 [AIProvider]: learn/deploy/settings/media/Deploy_AI_Settings_AIProviderSelection.png
 [ModelName]: learn/deploy/settings/media/Deploy_AI_Settings_ModelName.png
 [ModelList]: learn/deploy/settings/media/Deploy_AI_Settings_Model_AvailableList.png
+[ModelSelected]: learn/deploy/settings/media/Deploy_AI_Settings_ModelName_Selected.png
 [ButtonSave]: media/Button_Save.png
 
 [PlanSidebarConfigIntegration]: learn/plan/media/Plan_Sidebar_Config_Integrations.png

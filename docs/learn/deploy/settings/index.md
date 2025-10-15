@@ -29,18 +29,18 @@ Same procedure as installing a Plugin. Click on the 3 Dots menue and select **Up
 
 Configuring the AI Integration is in the **Systems** Section
 
-| Step | Details                                                          | Additional Information { width="50%" }                             |
-|:----:|:-----------------------------------------------------------------|:-------------------------------------------------------------------|
-|      | Scroll down in the System Section to view all sub sections       | ![System Section in Settings][DeploySystemSection]                 |
-|      | Click on the **AI Settings** icon                                | ![AI Icon][DeployAISettingsIcon]                                   |
-|      | The AI Integration configuration Dialog opens                    | ![AI Integration Settings Dialog][AISettings_Dialog]               |
-|      | In the **AI Provider** listbox select OpenAI                     | ![Select OpenAI as Provider][AIProvider]                           |
-|      | If **AI Provider Endpoint** is empty enter this URL              | [https://api.openai.com/](https://api.openai.com/)                 |
-|      | Enter your API Key in the **AI Provider API Key** field          |                                                                    |
-|      | Click on the **Model Name** Listbox to view all available Models | ![Model Name][ModelName]                                           |
-|      | Select your prefered moddel from list                            | ![Select Your Prefered Model][ModelList]                           |
-|      | Selected Model will be shown                                     | ![Selected Model](media/Deploy_AI_Settings_ModelName_Selected.png) |
-|      | Click on **Save** to finish setup                                | ![Click on Save][ButtonSave]                                       |
+| Step | Details                                                          | Additional Information { width="50%" }               |
+|:----:|:-----------------------------------------------------------------|:-----------------------------------------------------|
+|      | Scroll down in the System Section to view all sub sections       | ![System Section in Settings][DeploySystemSection]   |
+|      | Click on the **AI Settings** icon                                | ![AI Icon][DeployAISettingsIcon]                     |
+|      | The AI Integration configuration Dialog opens                    | ![AI Integration Settings Dialog][AISettings_Dialog] |
+|      | In the **AI Provider** listbox select OpenAI                     | ![Select OpenAI as Provider][AIProvider]             |
+|      | If **AI Provider Endpoint** is empty enter this URL              | [https://api.openai.com/](https://api.openai.com/)   |
+|      | Enter your API Key in the **AI Provider API Key** field          |                                                      |
+|      | Click on the **Model Name** Listbox to view all available Models | ![Model Name][ModelName]                             |
+|      | Select your prefered moddel from list                            | ![Select Your Prefered Model][ModelList]             |
+|      | Selected Model will be shown                                     | ![Selected Model][ModelSelected]                     |
+|      | Click on **Save** to finish setup                                | ![Click on Save][ButtonSave]                         |
 
 ---
 
@@ -51,6 +51,7 @@ Configuring the AI Integration is in the **Systems** Section
 [DeployInstallPluginConfirmation]: media/DEPLOY_PluginInstallConfirmation.png
 [DeployPluginInstallSuccess]: media/DEPLOY_PluginInstallSuccess.png
 [DeployPlugin3DotsMenue]: ../media/DEPLOY_PluginList_3DotsMenue.png
+[ModelSelected]: media/Deploy_AI_Settings_ModelName_Selected.png
 
 [DeploySystemSection]: media/Deploy_Settings_SystemSection.png
 [DeployAISettingsIcon]: media/Deploy_SystemSection_AI_Settings.png
