@@ -81,14 +81,14 @@ Switch to Settings by using the Settings Icon: ![Deploy Settings Icon][DeploySet
 
 ---
 
-[DeploySettingsIcon]: ../media/DEPLOY_SettingsIcon.png
-[DeploySystemSection]: media/Deploy_Settings_SystemSection.png
-[DeployAISettingsIcon]: media/Deploy_SystemSection_AI_Settings.png
-[AISettings_Dialog]: media/Deploy_AI_Settings_Dialog.png
-[AIProvider]: media/Deploy_AI_Settings_AIProviderSelection.png
-[ModelName]: media/Deploy_AI_Settings_ModelName.png
-[ModelList]: media/Deploy_AI_Settings_Model_AvailableList.png
-[ButtonSave]: ../../../media/Button_Save.png
+[DeploySettingsIcon]: learn/deploy/media/DEPLOY_SettingsIcon.png
+[DeploySystemSection]: learn/deploy/settings/media/Deploy_Settings_SystemSection.png
+[DeployAISettingsIcon]: learn/deploy/settings/media/Deploy_SystemSection_AI_Settings.png
+[AISettings_Dialog]: learn/deploy/settings/media/Deploy_AI_Settings_Dialog.png
+[AIProvider]: learn/deploy/settings/media/Deploy_AI_Settings_AIProviderSelection.png
+[ModelName]: learn/deploy/settings/media/Deploy_AI_Settings_ModelName.png
+[ModelList]: learn/deploy/settings/media/Deploy_AI_Settings_Model_AvailableList.png
+[ButtonSave]: media/Button_Save.png
 
 [PlanSidebarConfigIntegration]: learn/plan/media/Plan_Sidebar_Config_Integrations.png
 [PlanIntegrationsView]: learn/plan/media/Plan_IntegrationsView.png
