@@ -6,6 +6,14 @@ theme:
     logo: material/arrow-left
   favicon: null
   features:
+    - navigation.instant
+    - navigation.indexes
+    - toc.follow
+    - search.share
+    - search.highlight
+    - search.suggest
+    - content.code.annotate
+    - content.code.select
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
