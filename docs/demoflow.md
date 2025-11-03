@@ -428,9 +428,9 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [DeployResultofRun]: learn/deploy/index.md#result-of-run
 [DeployShowPluginsPage]: learn/deploy/index.md#settings
 [DeploySettingsIcon]: learn/deploy/media/DEPLOY_SettingsIcon.png
-[DeploySettingsAutomationPlugins]: learn/deploy/media/DEPLOY_Settings_AutomationSection.png
-[DeploySettingsPluginsList]: learn/deploy/media/DEPLOY_PluginsList.png
-[DeploySettingsAutomationSection]: learn/deploy/index.md#plugins
+[DeploySettingsAutomationPlugins]: learn/deploy/settings/media/DEPLOY_Settings_AutomationSection.png
+[DeploySettingsPluginsList]: learn/deploy/settings/media/DEPLOY_PluginsList.png
+[DeploySettingsAutomationSection]: learn/deploy/settings/index.md#plugins
 [DeployPlugin3DotsMenue]: learn/deploy/media/DEPLOY_PluginList_3DotsMenue.png
 [TestOpen]: learn/test/index.md#how-to-switch-to-test-from-home-page
 [MeasureOpen]: learn/measure/index.md#how-to-switch-to-measure-from-home-page

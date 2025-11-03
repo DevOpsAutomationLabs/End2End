@@ -1,2 +1,3 @@
 site_name: "DevOps Loop End to End Demo"
+repo_url: "https://github.com/DevOpsAutomationLabs/End2End"
 INHERIT: base.yml
