@@ -69,7 +69,6 @@ markdown_extensions:
       permalink: true
   - def_list
 plugins:
-  - git-authors
   - git-revision-date-localized
   - search
   - minify:
