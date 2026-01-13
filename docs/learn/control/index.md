@@ -100,7 +100,7 @@ VSCode will ask you for a location to clone the folder
 
 ![Target Folder for cloning][SelectTargetFolderforCloning]
 
-VSCode will ask for Control Userid, enter **demo@devops.loop**
+VSCode will ask for Control Userid, enter **<demo@devops.loop>**
 
 ![Code asking for Userid][CodeEnterUserID]
 

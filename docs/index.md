@@ -38,7 +38,7 @@ It will help you to learn DevOps Loop very easily and how to efficiently provide
 
     [:octicons-arrow-right-24: Setup Guide][REFSetup]
 
-- :woman_genie:{ .lg .middle } __Setting Up AI Integrations__
+- :genie:{ .lg .middle } __Setting Up AI Integrations__
 
     All AI Integration setup Details in one Place
   

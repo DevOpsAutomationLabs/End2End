@@ -1,23 +1,22 @@
 # Setup
 
-Manual Setup of Demo Environment on top of pre-provided DevOps Loop Environment.
+With the introduction of "Learning Data" in Loops this section is no more needed.
 
-## TechZone
-
-TODO: get more information which environment to use and how to use the "Frontend"
+Keeping it for learning purposes only: Manual Setup of Demo Environment on top of pre-provided DevOps Loop Environment.
 
 ## Start Here
 
 ### How to log in
 
-| Step | Details                                                          | Additional Information                                       |
-|:----:|:-----------------------------------------------------------------|:-------------------------------------------------------------|
-|  1   | [Open DevOps Loop in Browser][URLDevOpsLoop]                     | URL= 'https://devops.automation.techzone.ibm.com/automation' |
-|  2   | Enter Your Credentials in the Login Screen                       | ![Login Screen][LoginDialog]                                 |
-|      | <br> **User:** 'demo@devops.loop' <br>  **Password:** 'Passw0rd' |                                                              |
-|  3   | Click on the Sign In Button                                      | ![Sign In button][SignInButton]                              |
+--8<--
+learn/introduction/index.md:HowtoLogin
+--8<--
 
 ### The Home Page
+
+--8<--
+; learn/introduction/index.md:TheHomePage
+--8<--
 
 | Step | Details                                                                          | Additional Information                             |
 |:----:|:---------------------------------------------------------------------------------|:---------------------------------------------------|
@@ -79,17 +78,12 @@ Please follow [this instructions](ai_setup.md)
 
 ## Setup Demo Data
 
-<blockquote>
-<p><strong>NOTE:</strong> All Files which are referenced here are available in the following GitHub Repository: <a href="https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp">https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp</a></p>
-  <p>
-  Folowing options how you can use the data from the repo:
-    <ul>
-    <li> Download latest <a href="https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/releases/latest">source code zip file</a> and unzip on your local drive</li>
-    <li> Access the files from the provided links in the setup steps</li>
-    <li> Clone to your local disc</li>
-    </ul>
-  </p>
-</blockquote>
+> **NOTE**: All Files which are referenced here are available in the following GitHub Repository: [https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp](https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp)
+> > Folowing options how you can use the data from the repo:
+> > > Download latest <https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/releases/latest> source code zip file
+> > > Unzip on your local drive
+> > > Access the files from the provided links in the setup steps
+> > > Clone to your local disc
 
 ### Download EchoLogic DemoApp files
 
@@ -119,7 +113,7 @@ Please follow [this instructions](ai_setup.md)
 |      | 3.2 Use the **Import** Feature of plan to load sample data                   | ![Import Icon][ImportIcon]                                     |
 |  4   | In the Dialog for importing record data                                      | ![Import Dialog][ImportDialog1]                                |
 |      | 4.1 click the Choose File Button                                             | ![Choose File Button][ChooseFileDialog]                        |
-|      | 4.2 go into Downloads/EchoLogic_DemoApp-NN/files/plan folder         | ![Plan folder][DLPlanFolder]                                   |
+|      | 4.2 go into Downloads/EchoLogic_DemoApp-NN/files/plan folder                 | ![Plan folder][DLPlanFolder]                                   |
 |      | 4.3 select the sample data file **EchoLogic.zip**  to be imported            | ![Select the file][SelectZipFile]                              |
 |      | 4.4 Now we have the file selected                                            | ![Import Dialog with selected File][ImportDialog2]             |
 |      | 4.5 Press the Import Button to start                                         | ![Press Import Button][ImportButton]                           |
@@ -136,7 +130,7 @@ Please follow [this instructions](ai_setup.md)
 
 | Step | Details                                                                   | Additional Information                                         |
 |:----:|:--------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | Switch to [Control][SwitchToControl]                                     |                                                                |
+|  1   | Switch to [Control][SwitchToControl]                                      |                                                                |
 |      | 1.1 by either pressing "Let's go to Control" button on its tile           | ![Control Tile lets go][ControlTile]                           |
 |      | 1.2 by using the central app switcher on the top left of your screen      | ![Central App Switcher][AppSwitcher]                           |
 |      | 1.3 by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
@@ -146,7 +140,7 @@ Please follow [this instructions](ai_setup.md)
 | Step | Details                                                          | Additional Information                                      |
 |:----:|:-----------------------------------------------------------------|:------------------------------------------------------------|
 |  1   | Click on the top right on Profile and Settings                   | ![Profile and Settigs][ControlProfileSettings]              |
-| | 1.1 Provide a name for the token. Example **demostokenos** | |
+|      | 1.1 Provide a name for the token. Example **demostokenos**       |                                                             |
 |      | 1.2 Select **Settings**                                          | ![Settings][ProfileSettings]                                |
 |  2   | Click on **Access Tokens** in the menu                           | ![Access Token][SettingsAccessTokens]                       |
 |      | 2.1 click on the **Select Permissions** section to open settings | ![PAT Select Permissions][PATSelectPermissions]             |
@@ -171,7 +165,7 @@ Please follow [this instructions](ai_setup.md)
 |  4   | The target repository is cloned                             | ![Target Repo is cloned][TargetRepoCloned]                                             |
 |      | 4.1 check the folder with ```ls EchoLogic```                | ![Target Repo is empty][TargetRepoEmpty]                                               |
 |  5   | If needed Getting back to Documents                         | ```cd&cd Documents```                                                                  |
-|  6 | | |
+|  6   |                                                             |                                                                                        |
 |  7   | Copy some folders and files from Source Repo to Target Repo | ![copy from source to target][CopyData]                                                |
 |      | 7.1 Copy docs folder                                        | ```cp -r EchoLogic_DemoApp/docs EchoLogic/```                                          |
 |      | 7.2 Copy files folder                                       | ```cp -r EchoLogic_DemoApp/files EchoLogic/```                                         |
@@ -218,15 +212,11 @@ Please follow [this instructions](ai_setup.md)
 
 #### Importing Components
 
-<blockquote>
-<p><strong>NOTE:</strong>Download the component JSON files which are used in this section</p>
-  <p>
-    <ul>
-    <li> <a href="https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Echo.json">Echo Component</a></li>
-    <li> <a href="https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Logic.json">Logic Component</a></li>
-    </ul>
-  </p>
-</blockquote>
+> **NOTE:** Download the component JSON files which are used in this section
+> >
+> > [Echo Component](https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Echo.json)
+> >
+> > [Logic Component](https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Logic.json)
 
 | Step | Details                                       | Additional Information                         |
 |:----:|:----------------------------------------------|:-----------------------------------------------|
@@ -423,9 +413,6 @@ If no Application exists either import or create application
 ---
 
 [LoopHomePageView]: learn/introduction/media/Loop_Home_Page.png
-[URLDevOpsLoop]: https://devops.automation.techzone.ibm.com/automation
-[LoginDialog]: learn/introduction/media/Loop_Login_Page.png
-[SignInButton]: learn/introduction/media/Loop_SignInButton.png
 [NoTeamSpaceAvailable]: learn/introduction/media/INIT_1_NoTeamspace.png
 
 [TSMenue]: learn/introduction/teamspace/media/Loop_Teamspace_01_Menue.png

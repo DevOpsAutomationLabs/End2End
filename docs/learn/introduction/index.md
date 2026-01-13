@@ -1,29 +1,37 @@
 # Introduction
 
-TODO: update flow, app references and screenshots.
-_**TODO: update flow, app references to EchoLogic and screenshots**_
+A very short introduction to DevOps Loop.
 
 ## Start Here
 
-To use the platform you have to be onboarded onto it. This is normaly done by your administrators. For this lab we have provided you with pre created accounts.
+To use the platform you have to be onboarded onto it. This is normaly done by your administrators. URLs and User names are examples, please check with your admin about the information.
 
 ### How to log in
 
-| Step | Details                                                                                                     | Additional Information                                       |
-|:----:|:------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------|
-|  1   | [Open DevOps Loop in Browser][URLDevOpsLoop]                                                                | URL= 'https://devops.automation.techzone.ibm.com/automation' |
-|  2   | Enter Your Credentials in the Login Screen <br> **User:** 'demo@devops.loop' <br>  **Password:** 'Passw0rd' | ![Login Screen][LoginDialog]                                 |
-|  3   | Click on the Sign In Button                                                                                 | ![Sign In button][SignInButton]                              |
+--8<-- [start:HowtoLogin]
+
+| Step | Details                                                                                                                | Additional Information                                                 |
+|:----:|:-----------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------|
+|  1   | [Open DevOps Loop in Browser][URLDevOpsLoop]                                                                           | example URL= '<https://devops.automation.techzone.ibm.com/automation>' |
+|  2   | Enter Your Credentials in the Login Screen <br> Example: **User:** '<demo@devops.loop>' <br>  **Password:** 'Passw0rd' | ![Login Screen][LoginDialog]                                           |
+|  3   | Click on the Sign In Button                                                                                            | ![Sign In button][SignInButton]                                        |
+
+--8<-- [end:HowtoLogin]
 
 ### The Home Page
 
-| Step | Details                                                                                                                               | Additional Information                          |
-|:----:|:--------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------|
-|  1   | After you have been logged in you will be directed to your homepage and it will provide you an overview about metrics from your Loops | ![Home Page][LoopHomePageView]                  |
-| 1.1  | If you are in a different TeamSpace, click on **TeamSpace Icon** and switch to **Demo**                                               | ![Switch TeamSpace][SwitchToHome]               |
-| 1.2  | If you are not on the Home Page page, click on **Home Button** in the side bar to switch to the Home Page                             | ![Switch to Home][HomePageSideBar]              |
-|  2   | If no **Teamspace** or **Loop** has been created follow the [Creation of a Teamspace and Loops instructions](#creation-of-a-teamspace-and-loops)      | ![No Teamspace available][NoTeamSpaceAvailable] ![Empty Loops Homepage][LoopHomePageCreateNewLoop] |
-|  3   | If a Teamspace is available with a precreated Loop, explore the Environment following the next sections                                |  [Next Section](#dashboard-and-metrics)  |
+--8<-- [start:TheHomePage]
+
+| Step | Details                                                                                                   | Additional Information                          |
+|:----:|:----------------------------------------------------------------------------------------------------------|:------------------------------------------------|
+|  1   | After you have been logged in you will be directed to your homepage                                       |                                                 |
+|      | If no **Teamspace** or **Loop** has been created follow the                                               |                                                 |
+|      | [Creation of a Teamspace and Loops instructions](#creation-of-a-teamspace-and-loops)                      | ![No Teamspace available][NoTeamSpaceAvailable] |
+|  2   | if a **Teamspace** and **Loop** exists it will provide you an overview about metrics from your Loops      | ![Home Page][LoopHomePageView]                  |
+| 2.1  | If you are in a different TeamSpace, click on **TeamSpace Icon** and switch to **Demo**                   | ![Switch TeamSpace][SwitchToHome]               |
+| 2.2  | If you are not on the Home Page page, click on **Home Button** in the side bar to switch to the Home Page | ![Switch to Home][HomePageSideBar]              |
+
+--8<-- [end:TheHomePage]
 
 #### Dashboard and Metrics
 
@@ -41,32 +49,18 @@ To use the platform you have to be onboarded onto it. This is normaly done by yo
 
 ### Switching to Capabilities
 
-There are 3 ways to switch to the capabilites (Plan, Control, Code, Build, Deploy, Test, Measure, Release), via the [Solutions Tab](#solutions-tab), the [What would you like to do today?](#what-would-you-like-to-do-today) Menue on the botton of the Dashboard and the [Central App Switcher](#central-solutionapp-switcher)
-
-#### Solutions Tab
-
-Click on the Homepage on the **Solutions** Tab to view all Capabilities.
-
-![Solutions View][SolutionsView]
-
-#### What would you like to do today?
-
-You can switch directly to the capability/solution by using the button/link.
-
-![What would you like to do today?][WhatWouldYouLikeToDoToday]
-
-Only the capabilities fully integrated into Teamspaces and Loops are shown
-
-#### Central Solution/App Switcher
-
-By using the central app switcher on the top left
-
-![Central App Switcher][CentralAppSwitcher]
+|     | Details                                                                                                                   | Additional Information                                         |
+|:---:|:--------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
+|     | There are several ways to switch to the capabilites (Plan, _Model_, Control, Code, Build, Deploy, Test, Measure, Release) |                                                                |
+|  1  | by using the central app switcher on the top left Central Solution/App Switcher                                           | ![Central App Switcher][CentralAppSwitcher]                    |
+|  2  | by using the "What would you like to do today?" Menue on the botton of the Dashboard                                      | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
+| 2.1 | Only the capabilities fully integrated into Teamspaces and Loops are shown                                                |                                                                |
 
 ## How to use Loop Genie
 
-![Loop Genie Icon on Home Page][LoopHomeLoopGenieIcon]
-![Loop Genie Dialog][LoopGenieDialog]
+--8<--
+learn/introduction/genie/index.md:HowToUseLoopGenie
+--8<--
 
 ## Creation of a Teamspace and Loops
 
@@ -81,7 +75,7 @@ When the creation of a TeamSpace is finished you will be forwarded to your empty
 ![Empty Loops Homepage][LoopHomePageCreateNewLoop]
 
 --8<--
-teamspace/index.md:CreateNewTS
+; learn/introduction/teamspace/index.md:CreateNewTS
 --8<--
 
 ### Create a Loop
@@ -102,8 +96,6 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [InstructionsCreateTeamSpace]: teamspace/index.md
 [InstructionsCreateLoop]: loops/index.md
 [GoBackToDemoOverview]: ../index.md#introduction
-[LoopHomeLoopGenieIcon]: media/../intro/media/LOOP_HomePage_LoopGenieButton.png
-[LoopGenieDialog]: intro/media/LOOP_HomePage_LoopGenieDialog.png
 [IntroAboutBoxSidebarPlugins]: intro/index.md
 [URLDevOpsLoop]: https://devops.automation.techzone.ibm.com/automation
 [LoginDialog]: media/Loop_Login_Page.png
@@ -118,4 +110,3 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [CentralAppSwitcher]: media/Loop_central_app_control.png
 [NoTeamSpaceAvailable]: media/INIT_1_NoTeamspace.png
 [SwitchToHome]: media/Loop_Sidebar_SwitchTeamSpace.png
-[SolutionsView]: media/Loop_Home_Page_Solutions.png

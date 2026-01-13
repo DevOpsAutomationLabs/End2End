@@ -6,23 +6,27 @@ theme:
     logo: material/arrow-left
   favicon: null
   features:
-    - navigation.instant
+    - content.cards
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.collaps
     - navigation.indexes
-    - toc.follow
+    - navigation.instant
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.sections
+    - navigation.expand
     - search.share
     - search.highlight
     - search.suggest
-    - content.code.annotate
-    - content.code.select
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.path
     - toc.integrate
-    - content.tabs.link
-    - content.code.copy
-    - content.tooltips
+    - toc.follow
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -41,27 +45,38 @@ theme:
       accent: cyan
 markdown_extensions:
   - admonition
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - tables
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
   - attr_list
+  - codehilite
   - md_in_html
   - pymdownx.blocks.caption
-  - def_list
-  - pymdownx.snippets
-  - pymdownx.tasklist:
-      custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.caret
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets:
+      base_path: 'docs/'
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - tables
+  - toc:
+      permalink: true
+  - def_list
 plugins:
+  - git-authors
+  - git-revision-date-localized
   - search
+  - minify:
+      minify_html: true
+  - tags
+  - toggle-sidebar:
+      enabled: true
 extra_css:
   - stylesheets/extra.css
 extra:

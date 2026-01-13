@@ -10,9 +10,9 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 | Step  | Details                                                                                          | Additional Information { width="50%" }                       |
 |:-----:|:-------------------------------------------------------------------------------------------------|:-------------------------------------------------------------|
-|   1   | [Open DevOps Loop in Browser][URLDevOpsLoop]                                                     | URL= 'https://devops.automation.techzone.ibm.com/automation' |
+|   1   | [Open DevOps Loop in Browser][URLDevOpsLoop]                                                     | URL= <https://devops.automation.techzone.ibm.com/automation> |
 |  1.1  | Enter Your Credentials in the Login Screen                                                       |                                                              |
-|       | <br> **User:** 'demo@devops.loop' <br>  **Password:** 'Passw0rd'                                 | ![Login Screen][LoginDialog]                                 |
+|       | <br> **User:** <demo@devops.loop> <br>  **Password:** 'Passw0rd'                                 | ![Login Screen][LoginDialog]                                 |
 |  1.2  | Click on the **Sign In** Button                                                                  | ![Sign In button][SignInButton]                              |
 |  1.3  | After login you will be on the [Home Page][LoopHomePage] of Loop                                 | ![Home Page][HomePage]{ width="50% }                         |
 |  1.4  | If you are in a different TeamSpace                                                              |                                                              |
@@ -90,7 +90,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 |  2   | Click on **Open with VSCode**                                                         | ![open with vscode][OpenWithVSCode]                        |
 |  3   | In the following **Dialog Window** allow to open Link                                 | ![Allow to open VSCode by link][AllowToOpenVSCode]         |
 |  4   | VSCode will ask you for a location to clone the folder                                | ![Target Folder for cloning][SelectTargetFolderforCloning] |
-|  5   | VSCode will ask for Control Userid, enter **demo@devops.loop**                        | ![Code asking for Userid][CodeEnterUserID]                 |
+|  5   | VSCode will ask for Control Userid, enter **<demo@devops.loop>**                      | ![Code asking for Userid][CodeEnterUserID]                 |
 |  6   | VSCode will ask for Control Token, enter your **Access Token**                        | ![Code asking for Password or Token][CodeEnterPAT]         |
 |  7   | which you created in the [Access Token Section][REFPATSection]                        |                                                            |
 
@@ -250,7 +250,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 | 11.3  | click on **CRM-System** in the Schema folder                                                                | ![Schemas][DataSchemas]                          |
 | 11.4  | the **CRM-System** Data Schema is shown                                                                     | ![Schema View][DataSchemaView]                   |
 | 11.5  | Click on the **Preview Icon** ![Preview Icon][DataPreviewIcon]                                              | ![Data Preview][DataPreview]                     |
-| 11.6  | Click on the **Generate Icon** ![Generate Icon][GenerateIcon]                                               | ![][GenerateDialog]                              |
+| 11.6  | Click on the **Generate Icon** ![Generate Icon][GenerateIcon]                                               | ![Generate Dialog][GenerateDialog]               |
 | 11.7  | Download the generated Data by clicking on **Downlad** Button                                               | ![Download button][ButtonDownload]               |
 | 11.8  | Unzip and open the create folder                                                                            | ![Downloaded Unzipped][TestDataFolder]           |
 | 11.9  | Two files are created **Customers** and **Orders**                                                          | ![Gnereated Files][TestDataFiles]                |
@@ -266,7 +266,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 | 2.1  | click on ![Pipeline Tab][TabPipeline] in the Tabbar to view [Pipelines][REFMeasurePipelines]                             | ![Measure VSM Tabs][MeasureTabs]                                   |
 | 2.2  | Delivery Pipelines linked to this VSM are shown                                                                          | ![Pipeline view][PipelineView]                                     |
 | 2.3  | Create simple new [Gate][REFMeasureGates]                                                                                |                                                                    |
-| 2.4  | click on the **3 Dots** ![3 Dots][3Dots] of the QA environment to view its menue                                         | ![][MeasureEnv3DotsMenue]                                          |
+| 2.4  | click on the **3 Dots** ![3 Dots][3Dots] of the QA environment to view its menue                                         | ![3 dots][MeasureEnv3DotsMenue]                                    |
 | 2.5  | click on **Add Gate** to create an approver gate                                                                         | ![Gate Dialog 1][MeasureGateDialog1]                               |
 |      |                                                                                                                          | ![Gate Dialog 2][MeasureGateDialog2]                               |
 |  3   | Explain that we have been shoeing individual roles but we can look across roles and track the value of our delivery work |                                                                    |
@@ -280,22 +280,21 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ## [Release](learn/release/index.md)
 
-| Step | Details                                                                                                                                    | Additional Information { width="50%" }      |
-|:----:|:-------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------|
-|  1   | [Open Release][ReleaseOpen]                                                                                                                |                                             |
-|      | You can switch to Release by either pressing "Let's go to Release" button on its tile                                                      | ![Release Tile lets go][ReleaseTile]        |
-|      | Or you can always switch using the central app switcher on the top left of your screen:                                                    | ![Central App Switcher][CentralAppSwitcher] |
-|2 | The Releases View and a Calender is shown         | ![Releases View][ReleaseViewasList] |
-| 2.1 | Switch to Tiles view by clicking on ![Release tiles icon][ReleaseSwitchToTiles] | ![Releases as Tiles view][ReleaseViewasTiles] |
-|      | So how do we ensure everyone understands the state of our project.  Well we can generate a release readiness report. – Generate the report |                                             |
+| Step | Details                                                                                                                                    | Additional Information { width="50%" }        |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------|
+|  1   | [Open Release][ReleaseOpen]                                                                                                                |                                               |
+|      | You can switch to Release by either pressing "Let's go to Release" button on its tile                                                      | ![Release Tile lets go][ReleaseTile]          |
+|      | Or you can always switch using the central app switcher on the top left of your screen:                                                    | ![Central App Switcher][CentralAppSwitcher]   |
+|  2   | The Releases View and a Calender is shown                                                                                                  | ![Releases View][ReleaseViewasList]           |
+| 2.1  | Switch to Tiles view by clicking on ![Release tiles icon][ReleaseSwitchToTiles]                                                            | ![Releases as Tiles view][ReleaseViewasTiles] |
+|      | So how do we ensure everyone understands the state of our project.  Well we can generate a release readiness report. – Generate the report |                                               |
 
-## Genie
+## [Loop Genie](learn/introduction/genie/index.md)
 
 Explain that we have covered a lot of roles and used a mixture of AI and automation but we can bring it all together with what we call our Loop Genie
 
 | Step | Details                                                                    | Additional Information { width="50%" }                 |
 |:----:|:---------------------------------------------------------------------------|:-------------------------------------------------------|
-|      | [How to use Loop Genie][REFUseLoopGenie]                                   |                                                        |
 |      | [Open Home Page][HomePage]                                                 |                                                        |
 |      | Open Loop Genie by clicking on its Icon on the right side of the Dashboard | ![Loop Genie Icon on Home Page][LoopHomeLoopGenieIcon] |
 |      | Loop Genie Dialog opens                                                    | ![Loop Genie Dialog][LoopGenieDialog]                  |
@@ -320,8 +319,8 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [SignInButton]: learn/introduction/media/Loop_SignInButton.png
 [URLDevOpsLoop]: https://devops.automation.techzone.ibm.com/automation
 
-[LoopHomeLoopGenieIcon]: learn/introduction/intro/media/LOOP_HomePage_LoopGenieButton.png
-[LoopGenieDialog]: learn/introduction/intro/media/LOOP_HomePage_LoopGenieDialog.png
+[LoopHomeLoopGenieIcon]: learn/introduction/genie/media/Loop_Genie_Button.png
+[LoopGenieDialog]: learn/introduction/genie/media/Loop_Genie_Dialog.png
 [GoBackToDemoOverview]: index.md
 
 [HomePage]: learn/introduction/media/Loop_Home_Page.png
@@ -468,7 +467,6 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [SelectTargetFolderforCloning]: learn/code/media/Code_VSCode_clone_targetfolder.png
 [CodeEnterUserID]: learn/code/media/Code_VSCode_enterGitUser.png
 [CodeEnterPAT]: learn/code/media/Code_VSCode_Enter_PAT.png
-[REFUseLoopGenie]: learn/introduction/index.md#how-to-use-loop-genie
 [REFPATSection]: learn/control/index.md#access-token
 
 [SwitchToTest]: learn/introduction/media/Loop_switch_to_Test.png
