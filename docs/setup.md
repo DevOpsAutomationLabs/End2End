@@ -15,24 +15,8 @@ learn/introduction/index.md:HowtoLogin
 ### The Home Page
 
 --8<--
-; learn/introduction/index.md:TheHomePage
+learn/introduction/index.md:TheHomePage
 --8<--
-
-| Step | Details                                                                          | Additional Information                             |
-|:----:|:---------------------------------------------------------------------------------|:---------------------------------------------------|
-|  1   | **Teamspaces**                                                                   |                                                    |
-|      | 1.1 **If no Teamspace is available**                                             | ![No Teamspace available][NoTeamSpaceAvailable]    |
-|      | 1.1.1  follow the steps to **[setting up a Teamspace and Loop][SetupTSandLoop]** |                                                    |
-|      | 1.2  **If a Teamspace is available**                                             | ![TeamSpace is available][LoopHomePageWithNoData]  |
-|      | 1.2.1 you will be directed to your homepage                                      | **Check if Loop exists follow Step 2**             |
-|  2   | **Loops**                                                                        |                                                    |
-|      | 2.1 **If no Loop is available**                                                  | ![Empty Loops Homepage][LoopHomePageCreateNewLoop] |
-|      | 2.1.1 proceed with **[Setup a Loop][SetupLoop]**                                 |                                                    |
-|      | 2.2 **If your Loop is empty**                                                    | ![Home Page][LoopHomePageWithNoData]               |
-|      | 2.2.1 follow **[Setting up Demo Data][SetupDemoData]**                           |                                                    |
-|      | 2.3 **If your Loop has data** proceed with:                                      | ![Home Page][LoopHomePageView]                     |
-|      | 2.3.1 the **[Demo Flow][GoToDemoFlow]**                                          |                                                    |
-|      | 2.3.2 or **[Self Enablement][GoToSelfenablement]**                               |                                                    |
 
 ## Setup a Teamspace and Loop
 
@@ -415,6 +399,8 @@ If no Application exists either import or create application
 [URLDevOpsLoop]: https://devops.automation.techzone.ibm.com/automation
 [LoginDialog]: learn/introduction/media/Loop_Login_Page.png
 [SignInButton]: learn/introduction/media/Loop_SignInButton.png
+[SwitchToHome]: learn/introduction/media/Loop_Sidebar_SwitchTeamSpace.png
+[HomePageSideBar]: learn/introduction/media/Loop_Home_Page_SideBar.png
 
 [LoopHomePageView]: learn/introduction/media/Loop_Home_Page.png
 [NoTeamSpaceAvailable]: learn/introduction/media/INIT_1_NoTeamspace.png
