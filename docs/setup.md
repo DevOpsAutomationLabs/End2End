@@ -412,6 +412,10 @@ If no Application exists either import or create application
 
 ---
 
+[URLDevOpsLoop]: https://devops.automation.techzone.ibm.com/automation
+[LoginDialog]: learn/introduction/media/Loop_Login_Page.png
+[SignInButton]: learn/introduction/media/Loop_SignInButton.png
+
 [LoopHomePageView]: learn/introduction/media/Loop_Home_Page.png
 [NoTeamSpaceAvailable]: learn/introduction/media/INIT_1_NoTeamspace.png
 
