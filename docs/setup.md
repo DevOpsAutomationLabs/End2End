@@ -1,8 +1,8 @@
 # Setup
 
-With the introduction of "Learning Data" in Loops this section is no more needed.
+> **NOTE:** With the introduction of "Learning Data" in Loops this section is no more needed.
 
-Keeping it for learning purposes only: Manual Setup of Demo Environment on top of pre-provided DevOps Loop Environment.
+> **NOTE:** Keeping it for learning purposes only: Manual Setup of Demo Environment on top of pre-provided DevOps Loop Environment.
 
 ## Start Here
 
