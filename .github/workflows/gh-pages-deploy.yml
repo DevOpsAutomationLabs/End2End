@@ -10,4 +10,4 @@ permissions:
 
 jobs:
   deploy:
-    uses: UrbanCode/reusable-workflows/.github/workflows/mkdocs-deploy.yml@main
+    uses: DevOpsAutomationLabs/Index/.github/workflows/mkdocs-deploy.yml@main
