@@ -26,7 +26,7 @@ To use the platform you have to be onboarded onto it. This is normaly done by yo
 |:----:|:----------------------------------------------------------------------------------------------------------|:------------------------------------------------|
 |  1   | After you have been logged in you will be directed to your homepage                                       |                                                 |
 |      | If no **Teamspace** or **Loop** has been created follow the                                               |                                                 |
-|      | [Creation of a Teamspace and Loops instructions](#creation-of-a-teamspace-and-loops)                      | ![No Teamspace available][NoTeamSpaceAvailable] |
+|      | [Creation of a Teamspace and Loops instructions](#setup-a-teamspace-and-loop)                             | ![No Teamspace available][NoTeamSpaceAvailable] |
 |  2   | if a **Teamspace** and **Loop** exists it will provide you an overview about metrics from your Loops      | ![Home Page][LoopHomePageView]                  |
 | 2.1  | If you are in a different TeamSpace, click on **TeamSpace Icon** and switch to **Demo**                   | ![Switch TeamSpace][SwitchToHome]               |
 | 2.2  | If you are not on the Home Page page, click on **Home Button** in the side bar to switch to the Home Page | ![Switch to Home][HomePageSideBar]              |
@@ -62,25 +62,29 @@ To use the platform you have to be onboarded onto it. This is normaly done by yo
 learn/introduction/genie/index.md:HowToUseLoopGenie
 --8<--
 
-## Creation of a Teamspace and Loops
+## Setup a Teamspace and Loop
 
 In the case of an empty environment you need to create a new Teamspace and at least one Loop.
 
 ### Create a TeamSpace
 
-Please follow the [Instructions for creating Teamspace(s)][InstructionsCreateTeamSpace]
+Please follow the [Instructions for creating Teamspace(s)][InstructionsCreateTeamSpace] for more details.
+
+--8<--
+learn/introduction/teamspace/index.md:CreateNewTS
+--8<--
 
 When the creation of a TeamSpace is finished you will be forwarded to your empty loops home page for your new TeamSpace.
 
 ![Empty Loops Homepage][LoopHomePageCreateNewLoop]
 
---8<--
-; learn/introduction/teamspace/index.md:CreateNewTS
---8<--
-
 ### Create a Loop
 
-You need to create at least one Loop in your TeamSpace, please follow the [Instructions for creation of a new Loop][InstructionsCreateLoop]
+You need to create at least one Loop in your TeamSpace, please follow the [Instructions for creation of a new Loop][InstructionsCreateLoop] for more details.
+
+--8<--
+learn/introduction/loops/index.md:CreateNewLoop
+--8<--
 
 ## Conclusio
 
@@ -91,7 +95,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 ---
 
 [LoopHomePageView]: media/Loop_Home_Page.png
-[LoopHomePageCreateNewLoop]: loops/media/Loop_Teamspace_07_CreateNewLoop_Home.png
+[LoopHomePageCreateNewLoop]: loops/media/NoLoops_inthis_TeamSpace.png
 [HomePageSideBar]: media/Loop_Home_Page_SideBar.png
 [InstructionsCreateTeamSpace]: teamspace/index.md
 [InstructionsCreateLoop]: loops/index.md
@@ -110,3 +114,28 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [CentralAppSwitcher]: media/Loop_central_app_control.png
 [NoTeamSpaceAvailable]: media/INIT_1_NoTeamspace.png
 [SwitchToHome]: media/Loop_Sidebar_SwitchTeamSpace.png
+
+[TSMenue]: teamspace/media/Loop_Teamspace_01_Menue.png
+[TSCreateNewDialog]: teamspace/media/Loop_Teamspace_02_CreateNew_Dialog.png
+[TSAddTeammember]: teamspace/media/Loop_Teamspace_03_CreateNew_searchMember.png
+[TSTeamMemberAdded]: teamspace/media/Loop_Teamspace_04_CreateNew_MemberAdded.png
+[TSCreationStarted]: teamspace/media/Loop_Teamspace_05_CreateNew_creation.png
+[TSCreateionFinished]: teamspace/media/Loop_Teamspace_06_CreateNew_success.png
+[TSIcon]: teamspace/media/Loop_TeamSpaceIcon.png
+[TSCreateTSentry]: teamspace/media/Loop_CreateTeamSpace.png
+[TSCreateButton]: teamspace/media/Loop_Create_TS_Button.png
+[GenieButton]: genie/media/Loop_Genie_Button.png
+[GenieDialog]: genie/media/Loop_Genie_Dialog.png
+[GenieFocusSelection]: genie/media/Loop_Genie_Dialog_FocusSelection.png
+
+[LoopHome]: loops/media/NoLoops_inthis_TeamSpace.png
+[CreateNewDialog]: loops/media/Create_New_Loop_Dialog.png
+[WithLearningData]: loops/media/Create_New_Loop_with_Learning_Data.png
+[CreateNewLoopButton]: loops/media/Loop_CreateNewLoop_Button.png
+[NextButton]: ../../media/Button_NEXT.png
+[SearchAddMember]: loops/media/Loop_Teamspace_09_CreateNewLoop_searchMember.png
+[AddedMember]: loops/media/Loop_Teamspace_10_CreateNewLoop_MemberAdded.png
+[CreateButton]: loops/media/Loop_CreateNewLoop_Button.png
+[LoopCreation]: loops/media/New_Loop_Creation_Progress.png
+[LoopCreatedSuccess]: loops/media/New_Loop_Creation_Success.png
+[GoToMyLoops]: loops/media/Loops_GoToMyLoops_Button.png
