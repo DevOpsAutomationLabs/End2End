@@ -15,13 +15,13 @@ DevOps Plan is a change management application for tracking work-items with work
 
 ## Demo Data or New Application with Sample Data
 
-### [How to create a new Application](newapp/index.md)
-
-If you want to create a new Application and do not want to use the pre-created application from your Loop please follow the instructions how to [create a new Application with Sample Data][GoToNewApp].
-
-### [Setup Demo Data](setup/index.md)
-
-You can use the pre-created Plan application from your Loop and add sample data to it please follow [this document][GoToSetup] to import Demo data into Plan.
+| Step | Details                                                                                    | Additional Information                                          |
+|:----:|:-------------------------------------------------------------------------------------------|:----------------------------------------------------------------|
+|  1   | [How to create a new Application](newapp/index.md)                                         |                                                                 |
+|      | If you want to create a new Application and do not want to use the pre-created application |                                                                 |
+|      | Please follow the instructions:                                                            | how to [create a new Application with Sample Data][GoToNewApp]  |
+|  2   | [Setup Demo Data](setup/index.md)                                                          |                                                                 |
+|      | You can use the pre-created Plan application from your Loop and add sample data:           | Follow [this document][GoToSetup] to import Demo data into Plan |
 
 ## Let's go with Plan
 
