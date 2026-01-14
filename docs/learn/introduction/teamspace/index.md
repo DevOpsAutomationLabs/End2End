@@ -1,10 +1,10 @@
 # Teamspace
 
-TODO: update flow, app references and screenshots
+For more details please have a look at the [Teamspace management][DOCSLoopTS] documentation.
 
 ## Overview
 
-_**What are Teamspaces**_
+A teamspace acts as a logical partition of larger system providing a secure and isolated "environment/workspace" for multiple teams to work independent.
 
 ## Create new Teamspace
 
@@ -25,16 +25,7 @@ _**What are Teamspaces**_
 
 Please proceed with [creating a Loop][GoBackToCreateALoop]
 
-## Conclusio
-
-Back to [creating a TeamSpace and Loops][GoBackToCreatingTSandLoop]
-Go back to [Introduction][GoBackToParentIndex] or [Lab and Demo Overview][GoBackToDemoOverview]
-
 ---
-
-[GoBackToDemoOverview]: ../index.md#introduction
-[GoBackToParentIndex]: ../index.md
-[GoBackToCreatingTSandLoop]: ../index.md#creation-of-a-teamspace-and-loops
 
 [TSMenue]: media/Loop_Teamspace_01_Menue.png
 [TSCreateNewDialog]: media/Loop_Teamspace_02_CreateNew_Dialog.png
@@ -47,3 +38,4 @@ Go back to [Introduction][GoBackToParentIndex] or [Lab and Demo Overview][GoBack
 [TSCreateButton]: media/Loop_Create_TS_Button.png
 [NextButton]: ../../../media/Button_NEXT.png
 [GoBackToCreateALoop]: ../index.md#create-a-loop
+[DOCSLoopTS]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=administration-teamspace-management

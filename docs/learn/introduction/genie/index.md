@@ -1,6 +1,10 @@
 # Loop Genie
 
-Introduction to Loop Genie.
+Introduction to Loop Genie. Please have a look at the [Loop Genie documentation][DOCSLoopGenie] for more details.
+
+## Overview
+
+Loop Genie is an AI multi-agent chatbot integrated into DevOps Loop. It requires integrations to LLM providers (OpenAI, IBM WatsonX, Claude, Gemini, Ollama for local LLMs) to use natural language understanding, context-aware responses and advanced automation which enables Loop Genie to perform tasks and retrieve information efficiently from DevOps Loop.
 
 ## How to use Loop Genie
 
@@ -21,3 +25,4 @@ Introduction to Loop Genie.
 [GenieDialog]: media/Loop_Genie_Dialog.png
 [LoopHomePageView]: ../media/Loop_Home_Page.png
 [GenieFocusSelection]: media/Loop_Genie_Dialog_FocusSelection.png
+[DOCSLoopGenie]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=loop-genie-tech-preview

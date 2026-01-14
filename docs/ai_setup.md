@@ -10,20 +10,9 @@ AI integrations can be setup only with administrative rights.
 
 ### View or Create an Integration to an AI Provider
 
-| Step | Details                                                                         | Additional Information                                            |
-|:----:|:--------------------------------------------------------------------------------|:------------------------------------------------------------------|
-|  1   | Click on *I*ntegrations** in the **Settings** menue for setting up Integrations | ![Sidebar Settings][SBSettings]                                   |
-|  2   | A list of integrations is shown if available.                                   | ![Integrations View with Entry][IntegrationsView]                 |
-|  3   | To create a new integration click the Button *New Integration*                  | ![Create Integrations Button][ButtonCreateNewIntegration]         |
-|  4   | A Dialog for the integration appears                                            | ![New Integrations Dialog][NewIntegrationsDialog]                 |
-| 4.1  | Enter a meaningful Name                                                         | ![New Integration Name][NewIntegrationName]                       |
-| 4.2  | Select the AI Provider                                                          | ![Select AI Provider][NewIntegrationsSelectAIProvider]            |
-| 4.3  | Enter your API Key and press *Next*                                             | ![Press Next][ButtonNext]                                         |
-|  5   | Next page of dialog is shown                                                    | ![New Integrations additional Details][NewIntegrationsDialogNext] |
-| 5.1  | Enter the API endpoint                                                          | [https://api.openai.com/v1](https://api.openai.com/v1)            |
-| 5.2  | Select your prefered model and further configurations                           | ![Enter more details][NewIntegrationsDialogNextDetails]           |
-| 5.3  | click on *Save*                                                                 | ![Click the Save button][ButtonSave]                              |
-|  6   | The newly created AI integration is shown                                       | ![List of Integrations][ListOfIntegrations]                       |
+--8<--
+learn/introduction/intro/index.md:TSAIIntegrations
+--8<--
 
 ## [DevOps Plan AI integration setup](learn/plan/index.md#ai-assistant-integration-setup)
 

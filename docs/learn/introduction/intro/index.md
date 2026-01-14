@@ -55,6 +55,8 @@ The Settings Menue provides a view User Administration and managing the AI integ
 
 View or Create an Integration to an AI Provider
 
+--8<-- [start:TSAIIntegrations]
+
 | Step | Details                                                                                             | Additional Information                                            |
 |:----:|:----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------|
 |  1   | Click on *Integrations* in the Settings menue to get the list of all integrations or create new one | ![Sidebar Settings][SBSettings]                                   |
@@ -62,22 +64,18 @@ View or Create an Integration to an AI Provider
 |  3   | To create a new integration click the Button *New Integration*                                      | ![Create Integrations Button][ButtonCreateNewIntegration]         |
 |  4   | A Dialog for the integration appears                                                                | ![New Integrations Dialog][NewIntegrationsDialog]                 |
 | 4.1  | Enter a meaningful Name                                                                             | ![New Integration Name][NewIntegrationName]                       |
-| 4.2  | Select the AI Provider                                                                              | ![Select AI Provider][NewIntegrationsSelectAIProvider]            |
+| 4.2  | Select the AI Provider (for example OpenAI)                                                         | ![Select AI Provider][NewIntegrationsSelectAIProvider]            |
 | 4.3  | Enter your API Key and press *Next*                                                                 | ![Press Next][ButtonNext]                                         |
 |  5   | Next page of dialog is shown                                                                        | ![New Integrations additional Details][NewIntegrationsDialogNext] |
-| 5.1  | Enter the API endpoint                                                                              | [https://api.openai.com/v1](https://api.openai.com/v1)            |
-| 5.2  | Select your prefered model and further configurations                                               | ![Enter more details][NewIntegrationsDialogNextDetails]           |
+| 5.1  | Enter the API endpoint (for example for OpenAI)                                                     | [https://api.openai.com/v1](https://api.openai.com/v1)            |
+| 5.2  | Select your prefered model and further configurations (for example from OpenAI models)              | ![Enter more details][NewIntegrationsDialogNextDetails]           |
 | 5.3  | click on *Save*                                                                                     | ![Click the Save button][ButtonSave]                              |
 |  6   | The newly created AI integration is shown                                                           | ![List of Integrations][ListOfIntegrations]                       |
 
-## Conclusio
-
-Go back to [Introduction][GoBackToParentIndex] or [Lab and Demo Overview][GoBackToDemoOverview]
+--8<-- [end:TSAIIntegrations]
 
 ---
 
-[GoBackToDemoOverview]: ../index.md#introduction
-[GoBackToParentIndex]: ../index.md
 [SBSettings]: media/Loop_Sidebar_Settings.png
 [SBPlugins]: media/Loop_Sidebar_plugins.png
 [SBExpanded]: media/Loop_Sidebar_expanded.png

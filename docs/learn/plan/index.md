@@ -1,157 +1,62 @@
 # Plan Lab
 
-TODO: update flow, app references and screenshots
+Please have a look at the [DevOps Plan documentation][DOCSPlan] for more details.
 
 ## Introduction
 
-TODO: add here more about Plan
+DevOps Plan is a change management application for tracking work-items with workflow automations. Various types of work-items (called record types) and their workflow can be defined using low-code technology.
 
-## How to switch to Plan from Home Page
+### How to switch to Plan from Home Page
 
 | Step | Details                                                                                                  | Additional Information                                         |
 |:----:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | You can switch to Plan by either pressing "Let's go to Plan" button on its tile                          | ![Plan Tile lets go][PlanTile]                                 |
-|  2   | Or you can always switch using the central app switcher on the top left of your screen                   | ![Central App Switcher][AppSwitcher]                           |
-|  3   | Or You can switch directly to Plan by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
+|  1   | You can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][AppSwitcher]                           |
+|  2   | Or You can switch directly to Plan by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 ## Demo Data or New Application with Sample Data
 
-### Setup Demo Data
-
-You can use the pre-created Plan application from your Loop and add sampl data to it please follow [this document][GoToSetup] to import Demo data into Plan.
-
-### How to create a new Application
+### [How to create a new Application](newapp/index.md)
 
 If you want to create a new Application and do not want to use the pre-created application from your Loop please follow the instructions how to [create a new Application with Sample Data][GoToNewApp].
 
+### [Setup Demo Data](setup/index.md)
+
+You can use the pre-created Plan application from your Loop and add sample data to it please follow [this document][GoToSetup] to import Demo data into Plan.
+
 ## Let's go with Plan
 
-### Select Plan application to use
-
-If you have not set your default Plan application you will be provided with a screen with all applications you have access to.
-
-![Plan Applications Page][AppPage]
-
-or if you have created additional Applications then you will get a list
-
-![Plan Applications Page with List][AppPageList]
-
-Set the provided app as default and presss "Let's go" to proceed.
-
-### Welcome Page for first time users
-
-If you have logged in the first time into Plan you will get a Welcome Screen:
-
-![Welcome Screen][PlanWelcomeScreen]
-
-By pressing the button "Explore" a new page is shown which provides an Introduction to Plan and the used workflow model for the selected application:
-
-![Plan Introduction page][PlanIntroductionPage]
+| Step | Details                                                                                                                        | Additional Information                           |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|
+|  1   | Select Plan application to use                                                                                                 |                                                  |
+|      | If you have not set your default Plan application you will be provided with a screen with all applications you have access to. | ![Plan Applications Page][AppPage]               |
+|      | If you have created additional Applications then you will get a list                                                           | ![Plan Applications Page with List][AppPageList] |
+|      | Set the provided app as default and press "Let's go" to proceed.                                                               |                                                  |
+|  2   | Welcome Page for first time users                                                                                              |                                                  |
+|      | If you have logged in the first time into Plan you will get a Welcome Screen:                                                  | ![Welcome Screen][PlanWelcomeScreen]             |
+|      | By pressing the button "Explore" a new page is shown which provides an Introduction                                            | ![Plan Introduction page][PlanIntroductionPage]  |
+|      | to Plan and the used workflow model for the selected application:                                                              |                                                  |
 
 ### Use Home Button to switch to Plan Home Page
 
-Please use the "Home" button on the left sidebar to switch to the Home page for Plan.
-
-![Plan Home Page Button][PlanHomePageButton]
-
-This Home page will provide you some basic information and also the means to switch between Plan applications (My Applications Button on the right)
-
-![Plan Home page][PlanHomePage]
-
-The explore options on this page will forward you to the Exploration page mentioned above.
+| Step | Details                                                                                                             | Additional Information                       |
+|:----:|:--------------------------------------------------------------------------------------------------------------------|:---------------------------------------------|
+|  1   | Please use the "Home" button on the left sidebar to switch to the Home page for Plan                                | ![Plan Home Page Button][PlanHomePageButton] |
+|  2   | View basic information and also the means to switch between Plan applications (My Applications Button on the right) | ![Plan Home page][PlanHomePage]              |
+|  3   | The explore options on this page will forward you to the Exploration page mentioned above.                          |                                              |
 
 ### Explore the technical worflow
 
-Pressing the button "View":
+| Step | Details                                                                                         | Additional Information                      |
+|:----:|:------------------------------------------------------------------------------------------------|:--------------------------------------------|
+|  1   | Pressing the button "View"                                                                      | ![view schema button][PlanViewSchemaButton] |
+|  2   | will open a new view to the technical details of the used workflow for the selected application | ![Schema Overview][PlanViewSchemaOverview]  |
+|  3   | This view provides the used record types, fields, transition matrizes and more.                 |                                             |
 
-![view schema button][PlanViewSchemaButton]
+## [AI Assistant](ai_assistant/index.md)
 
-will open a new view to the technical details of the used workflow for the selected application.
+Please follow [this steps for setting up the AI integration](ai_assistant/index.md#ai-assistant-integration-setup) in Plan.
 
-![Schema Overview][PlanViewSchemaOverview]
-
-This view provides the used record types, fields, transition matrizes and more.
-
-## AI Assistant
-
-### AI Assistant integration setup
-
-**For easier management of AI access we need to create a Usergroup and add the eligible members to it.**
-
-| Step | Details                                                             | Additional Information                                           |
-|:----:|:--------------------------------------------------------------------|:-----------------------------------------------------------------|
-|      | Click on **User Management** in the **3 Dots** menue in the sidebar | ![UserManagement][PlanSideBarUserManagement]                     |
-|      | Click on the *Groups* tab in the User Management View               | ![Click on Groups Tab][UserManagementGroups]                     |
-|      | Click on **Create Group** Button to create a new Group              | ![Click on Create Group Button][CreateNewGroupButton]            |
-|      | Enter a meaningful name for new Group                               | ![Enter a Name for new Group][NameForNewGroup]                   |
-|      | Click on the **Add User** section                                   | ![Add a user to this group][GroupAddUserButton]                  |
-|      | Select the users by clicking on the ![Plus Symbol][PlusSymbol] symbol                      | ![select the users for this group][GroupAddUserFromList]         |
-|      | Click the **Add** Button to add selected Users to Group             | ![Presss ADD button to add selected users][AddUserToGroupButton] |
-|      | All Groupmemebers are now listed in Group                           | ![Group Member List][GroupUpdated]                               |
-
-Next configure the AI Integration
-
-| Step | Details                                                                  | Additional Information                                                                   |
-|:----:|:-------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-|      | Click on *Integrations* in the *Configuration* menue in the sidebar      | ![Sidebar Configuration Integration][PlanSidebarConfigIntegration]                       |
-|      | The empty integrations view is shown                                     | ![Integrations View][PlanIntegrationsView]                                               |
-|      | Click on **New Integration** Button                                      | ![New Integration Button][ButtonNewIntegration]                                          |
-|      | Enter a meaningful name and select your AI Provider and API Key          | ![New Integration Dialog 1][NewIntegrationDialog]                                        |
-|      | Press **Next** Button to enter more Details                              | ![Click Next Button][AINextButton]                                                       |
-|      | Next dialog page opens                                                   | ![New Integration Dialog 2][NewIntegrationDialogAIProvider]                              |
-|      | Enter API Endpoint if missing                                            | [https://api.openai.com/v1/chat/completions](https://api.openai.com/v1/chat/completions) |
-|      | Select your prefered model                                               | ![Select a Model][SelectAIModelFromList]                                                 |
-|      | Set your prefered LLM settings for temperature and more                  | ![Set your preferences for LLM][LLMSettings]                                             |
-|      | Click on **Save**                                                        | ![Click Save Button][ButtonSave]                                                         |
-|      | The new AI integration is created but no Groups are associated           | ![Newly created integration with no groups associated][NewIntegrationNoGroups]           |
-|      | Press the Add Groups Button under Actions Column                         | ![Press Add Groups Button][NewIntegrationAddGroupButton]                                 |
-|      | Select the new Group you created from above and additional ones you need | ![Select Groups][NewIntegrationSelectGroups]                                             |
-|      | Click on *ADD* Button to save selection                                  | ![Press the Add Button to save selection][ButtonADD]                                     |
-|      | Updated View                                                             | ![Final Integration view][NewIntegrationFinal]                                           |
-
-Last step is for every enabled user (from selected groups) is to activate the access
-
-| Step | Details                                                                      | Additional Information                                                              |
-|:----:|:-----------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
-|      | Click on your *Profile* Icon in the Sidebar and select **Member Access**     | ![Sidebar Profile Member Access][PlanMemberAccessSelected]                          |
-|      | A list of integrations available for Member access is shown and their status | ![Integrations for Member Access][PlanMemberAccessList]                             |
-|      | Click on the Integrationname to activate access                              | ![Check the newly created integration to get it activated][PlanMemberAccessChecked] |
-
-### AI Assistant Chat Dialog
-
-Select the AI Assistant Icon ![AI Assistant Icon][PlanAIIcon] from the Sidebar ![Sidebar][PlanSidebar]
-
-Accept the terms of service ![Accept Terms][AcceptTerms]
-
-The AI Assistant Chat Dialog opens ![AI Assistant Dialog][AIAssistantDialog]
-
-Enter Now a prompt, you can use the example prompts, or enter your prompt ![Enter Prompt][AIEnterPrompt]
-
-Click on the Next Button ![Next Button][AINextButton]
-
-### AI Assistant Type of Output
-
-Now select the type of Output you want. We will select **Generate Action Items** ![Generate Action Items][AIGenerateActionItems] from the Applying Prompts page ![Applying Prompts][AIApplyingPromptsType]
-
-This will generate a set of responses ![AI Responses][AIResponses]
-
-Click the **Select** Button ![Select Button][AISelectButtonBreakDownintoTitles] and select **Break Down into Titles**
-
-This will convert the list of responses to a list with checkboxes: ![AI Responses with Checkboxes][AIResponsesWithCheckboxes]
-
-Select a few you like from the list ![AI Responses selected][AISelectedResponses]
-
-### AI Assistant Create Records from Responses
-
-Click the **Select Record Type** Button ![Select Record Type][AISelectRecordTypeButton] to select **Workitem** from the list ![Select Workitem][AISelectWorkitemRecordtype]
-
-In the next Dialog ![Record Creation Dialog1][AIRecordCreationDialogEmpty] select the right **Project** and **Workitem Type** for example Project: Echologic and Type: Epic ![Record Creation Dialog2][AIRecordCreationDialogFilled]
-
-Press the **Create Records** Button ![Create Records Button][AICreateRecordsButton] to get the **Epics** created.
-
-A few seconds later all newly created records are now created ![Newly created Records][AINewlyCreatedRecords]
-
-Press **Done** ![Done Button][AIDoneButton] to finish using the AI Assistant
+[Learn more how to use the Plan AI Assistant](ai_assistant/index.md#using-the-plan-ai-assistant)
 
 ## Work with Boards
 
@@ -171,45 +76,15 @@ Press **Done** ![Done Button][AIDoneButton] to finish using the AI Assistant
 
 - ![PLAN - Show Control/Git Commit Link][ShowCommitLink]
 
-## Conclusio
-
-Congratulations! You have finished the Plan lab and have got a short overview of its capabilities.
-
-Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
-
 ---
 
-[GoBackToDemoOverview]: ../index.md
-[GoBackToParentIndex]: ../index.md#plan
-[NextLab]: ../index.md#control
-
+[ShowCommitLink]: media/PLAN_Show_GitCommit.png
 [AppPage]: media/Plan_Applications_Page.png
 [AppPageList]: newapp/media/PLAN_Tenant_AppListFinal.png
-[PlanTile]: ../introduction/media/Loop_switch_to_Plan.png
 [AppSwitcher]: ../introduction/media/Loop_central_app_control.png
 
  <!-- media/Plan_Applications_page.png -->
 
-[ShowCommitLink]: media/PLAN_Show_GitCommit.png
-[PlanAIIcon]: media/PLAN_AI_assistant_Icon.png
-[PlanSidebar]: media/PLAN_Sidebar.png
-[AcceptTerms]: media/PLAN_AI_accept_Terms.png
-[AIAssistantDialog]: media/PLAN_AI_Dialog1.png
-[AIEnterPrompt]: media/PLAN_AI_enter_prompt.png
-[AINextButton]: media/PLAN_AI_NextButton.png
-[AIGenerateActionItems]: media/PLAN_AI_Generate_Action_Items.png
-[AIApplyingPromptsType]: media/PLAN_AI_UserInputType.png
-[AIResponses]: media/PLAN_AI_to_create_Items.png
-[AISelectButtonBreakDownintoTitles]: media/PLAN_AI_SelectButton_List.png
-[AIResponsesWithCheckboxes]: media/PLAN_AI_select_items.png
-[AISelectedResponses]: media/PLAN_AI_select_items2.png
-[AISelectRecordTypeButton]: media/PLAN_AI_select_record_type.png
-[AISelectWorkitemRecordtype]: media/PLAN_AI_recordtype_workitem.png
-[AIRecordCreationDialogEmpty]: media/PLAN_AI_recordtype_Dialog1.png
-[AIRecordCreationDialogFilled]: media/PLAN_AI_recordtype_Dialog2.png
-[AICreateRecordsButton]: media/PLAN_AI_create_records_button.png
-[AINewlyCreatedRecords]: media/PLAN_AI_records_created.png
-[AIDoneButton]: media/PLAN_AI_done.png
 [GoToSetup]: setup/index.md
 [GoToNewApp]: newapp/index.md
 [PlanWelcomeScreen]: media/Plan_welcome_screen.png
@@ -223,30 +98,4 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [GoToWorkWithQueries]: queries/index.md
 
 [WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png
-[PlanSidebarConfigIntegration]: media/Plan_Sidebar_Config_Integrations.png
-[PlanIntegrationsView]: media/Plan_IntegrationsView.png
-[ButtonNewIntegration]: media/Plan_Integration_New_Button.png
-[NewIntegrationDialog]: media/Plan_Integration_New_Dialog1.png
-[NewIntegrationDialogAIProvider]: media/Plan_Integration_New_Dialog2.png
-[NewIntegrationNoGroups]: media/Plan_Integration_New_created_no_Groups.png
-[NewIntegrationAddGroupButton]: media/Plan_Integration_AddGroup.png
-[NewIntegrationSelectGroups]: media/Plan_Integration_SelectGroups.png
-[NewIntegrationFinal]: media/Plan_Integration_Final.png
-[PlanMemberAccessList]: media/Plan_MemberAccess_Integrations_NotChecked.png
-[PlanMemberAccessChecked]: media/Plan_MemberAccess_Integrations_Checked.png
-
-[PlanSideBarUserManagement]: media/Plan_SideBar_UserManagement.png
-[UserManagementGroups]: media/Plan_User_Management_Groups.png
-[CreateNewGroupButton]: media/Plan_Usermanagement_CreateGroup_Button.png
-[NameForNewGroup]: media/Plan_Usermanagement_NewGroupName.png
-[GroupAddUserButton]: media/Plan_Usermanagement_GroupAddUser.png
-[GroupAddUserFromList]: media/Plan_Usermanagement_GroupAddUsersList.png
-[AddUserToGroupButton]: media/Plan_Usermanagement_GroupAddUsersList_ButtonADD.png
-[GroupUpdated]: media/Plan_Usermanagement_GroupAddUsersList_Updated.png
-[ButtonADD]: ../../media/Button_ADD.jpg
-[PlanMemberAccessSelected]: media/Plan_SideBar_Profile_MemberAccess_Selected.png
-
-[SelectAIModelFromList]: media/Plan_Integration_SelectAIModel.png
-[LLMSettings]: media/Plan_Integration_LLMSettings.png
-[ButtonSave]: ../../media/Button_Save.png
-[PlusSymbol]: media/Plan_PlusSymbol.png
+[DOCSPlan]: https://www.ibm.com/docs/en/devops-plan

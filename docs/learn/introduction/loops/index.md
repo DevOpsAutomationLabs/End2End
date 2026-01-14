@@ -1,14 +1,18 @@
 # Loops
 
+For more details please have a look at the [Working with Loops][DOCSWorkWithLoops] Documentation.
+
 ## Overview
 
-_**What are Loops**_
+A loop consists of several interconnected phases for connecting DevOps activities of your team from planning, development, building, testing, deployment and release management.
 
 ## Create new Loop
 
 Your freshly created TeamSpace has no Loop yet.
 
 ![Loops - Home][LoopHome]
+
+### Step by Step instructions
 
 --8<-- [start:CreateNewLoop]
 
@@ -27,16 +31,7 @@ Your freshly created TeamSpace has no Loop yet.
 
 --8<-- [end:CreateNewLoop]
 
-## Conclusio
-
-Back to [creating a TeamSpace and Loops][GoBackToCreatingTSandLoop]
-Go back to [Introduction][GoBackToParentIndex] or [Lab and Demo Overview][GoBackToDemoOverview]
-
 ---
-
-[GoBackToDemoOverview]: ../index.md#introduction
-[GoBackToParentIndex]: ../index.md
-[GoBackToCreatingTSandLoop]: ../index.md#creation-of-a-teamspace-and-loops
 
 [LoopHome]: media/NoLoops_inthis_TeamSpace.png
 [CreateNewDialog]: media/Create_New_Loop_Dialog.png
@@ -49,3 +44,4 @@ Go back to [Introduction][GoBackToParentIndex] or [Lab and Demo Overview][GoBack
 [LoopCreation]: media/New_Loop_Creation_Progress.png
 [LoopCreatedSuccess]: media/New_Loop_Creation_Success.png
 [GoToMyLoops]: media/Loops_GoToMyLoops_Button.png
+[DOCSWorkWithLoops]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=working-loops

@@ -19,17 +19,7 @@
 |  9   | Press the close button (bottom right on the screen)                     | ![Close Button][ImportClose]                             |
 |      |                                                                         |                                                          |
 
-## Conclusio
-
-Back to [Plan Lab][GoBackToParentIndex]
-
-Go back to [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
-
 ---
-
-[GoBackToDemoOverview]: ../../index.md
-[GoBackToParentIndex]: ../index.md#setup-demo-data
-[NextLab]: ../index.md#how-to-create-a-new-application
 
 [ChooseFileDialog]: media/PLAN_Import_Dialog_ChooseFile.png
 [ImportIcon]: media/PLAN_Import_Icon.png
