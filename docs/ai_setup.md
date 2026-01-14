@@ -14,7 +14,7 @@ AI integrations can be setup only with administrative rights.
 learn/introduction/intro/index.md:TSAIIntegrations
 --8<--
 
-## [DevOps Plan AI integration setup](learn/plan/index.md#ai-assistant-integration-setup)
+## [DevOps Plan AI integration setup](learn/plan/ai_assistant/index.md#ai-assistant-integration-setup)
 
 |   |                                                 |   |
 |:-:|:------------------------------------------------|:--|
@@ -118,7 +118,7 @@ Last step is for every enabled user (from selected groups) is to activate the ac
 [NewIntegrationsDialogNextDetails]: learn/introduction/intro/media/Loop_AI_Setup_Page_2.png
 [ListOfIntegrations]: learn/introduction/intro/media/Loop_Settings_Integrations.png
 [ButtonNext]: media/Button_NEXT.png
-[AINextButton]: learn/plan/media/PLAN_AI_NextButton.png
+[AINextButton]: learn/plan/ai_assistant/media/PLAN_AI_NextButton.png
 [SelectAIModelFromList]: learn/plan/media/Plan_Integration_SelectAIModel.png
 [LLMSettings]: learn/plan/media/Plan_Integration_LLMSettings.png
 [NewIntegrationNoGroups]: learn/plan/media/Plan_Integration_New_created_no_Groups.png

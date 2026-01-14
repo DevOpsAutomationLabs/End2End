@@ -45,9 +45,8 @@ By clicking on the **Link** in the **SCM Event Details** Section of the new view
 ## Use AI in WorkItem
 
 TODO: Use Plan Genie to create description and explorative test information (need screenshots or animated gif)
-<blockquote>
-<p><strong>NOTE:</strong>If not integration has been configured, please follow the AI Assistant setup</p>
-</blockquote>
+
+> NOTE: If not integration has been configured, please follow the AI Assistant setup</p>
 
 **[AI Assistant Setup][AIAssistantSetup]**
 
@@ -70,7 +69,7 @@ click on the **Generate** button ![Generate Button][ButtonGenerateAIText]
 [ControlShowCommit]: ../../control/media/CONTROL_ShowGitCommit.png
 [OpenControl]: ../../control/index.md#how-to-switch-to-control-from-home-page
 [PlanShowSCMEntryDetails]: ../media/Plan_Show_SCM_Entry_Details.png
-[AIAssistantSetup]: ../index.md#ai-assistant-integration-setup
+[AIAssistantSetup]: ../ai_assistant/index.md#ai-assistant-integration-setup
 [WIExploratorySection]: media/Plan_WI_Exploratory_View.png
 [WIExploratoryInEditMode]: media/Plan_WI_Exploratory_InEditMode.png
 [ButtonGenerateAIText]: media/Plan_WI_Exploratory_GenerateButton.png
