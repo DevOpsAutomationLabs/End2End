@@ -22,14 +22,13 @@ To use the platform you have to be onboarded onto it. This is normaly done by yo
 
 --8<-- [start:TheHomePage]
 
-| Step | Details                                                                                                   | Additional Information                          |
-|:----:|:----------------------------------------------------------------------------------------------------------|:------------------------------------------------|
-|  1   | After you have been logged in you will be directed to your homepage                                       |                                                 |
-|      | If no **Teamspace** or **Loop** has been created follow the                                               |                                                 |
-|      | [Creation of a Teamspace and Loops instructions](#setup-a-teamspace-and-loop)                             | ![No Teamspace available][NoTeamSpaceAvailable] |
-|  2   | if a **Teamspace** and **Loop** exists it will provide you an overview about metrics from your Loops      | ![Home Page][LoopHomePageView]                  |
-| 2.1  | If you are in a different TeamSpace, click on **TeamSpace Icon** and switch to **Demo**                   | ![Switch TeamSpace][SwitchToHome]               |
-| 2.2  | If you are not on the Home Page page, click on **Home Button** in the side bar to switch to the Home Page | ![Switch to Home][HomePageSideBar]              |
+| Step | Details                                                                                                                                        | Additional Information                          |
+|:----:|:-----------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------:|
+|  1   | After you have been logged in you will be directed to your homepage                                                                            |                                                 |
+|  2   | If no **Teamspace** or **Loop** has been created follow: <br> [Creation of a Teamspace and Loops instructions](#setup-a-teamspace-and-loop) | ![No Teamspace available][NoTeamSpaceAvailable] |
+|  3   | if a **Teamspace** and **Loop** exists it will provide you an overview about metrics from your Loops                                           | ![Home Page][LoopHomePageView]                  |
+|  4   | If you are in a different TeamSpace, click on **TeamSpace Icon** and switch to **Demo**                                                        | ![Switch TeamSpace][SwitchToHome]               |
+|  5   | If you are not on the Home Page page, click on **Home Button** in the side bar to switch to the Home Page                                      | ![Switch to Home][HomePageSideBar]              |
 
 --8<-- [end:TheHomePage]
 

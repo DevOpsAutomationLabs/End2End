@@ -20,7 +20,6 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
-    - navigation.expand
     - search.share
     - search.highlight
     - search.suggest

@@ -10,16 +10,16 @@ A teamspace acts as a logical partition of larger system providing a secure and 
 
 --8<-- [start:CreateNewTS]
 
-| Step | Details                                                                                           | Additional Information                                                  |
-|:----:|:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
-|  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon] to view your Teamspaces or create a new one | ![Teamspace menue][TSMenue]                                             |
-|      | Click on **Create TeamSpace**                                                                     | ![TeamSpace menue - Create TeamSpace Link][TSCreateTSentry]             |
-|  2   | Enter the name and a Description and press **Next** ![Next Button][NextButton]                    | ![Teamspace - Create New][TSCreateNewDialog]                            |
-|  3   | You can search and **add** Teammembers to a Teamspace                                             | ![Teamspace - Create New - search Member][TSAddTeammember]              |
-|      | Teammember is added to a list. Proceed to add more members if needed.                             | ![Teamspace - Create New - Member added][TSTeamMemberAdded]             |
-|  4   | Press **Create** to proceed                                                                       | ![Create TeamSpace Button][TSCreateButton]                              |
+| Step | Details                                                                                           |                         Additional Information                          |
+|:----:|:--------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------:|
+|  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon] to view your Teamspaces or create a new one |                       ![Teamspace menue][TSMenue]                       |
+|      | Click on **Create TeamSpace**                                                                     |       ![TeamSpace menue - Create TeamSpace Link][TSCreateTSentry]       |
+|  2   | Enter the name and a Description and press **Next** ![Next Button][NextButton]                    |              ![Teamspace - Create New][TSCreateNewDialog]               |
+|  3   | You can search and **add** Teammembers to a Teamspace                                             |       ![Teamspace - Create New - search Member][TSAddTeammember]        |
+|      | Teammember is added to a list. Proceed to add more members if needed.                             |       ![Teamspace - Create New - Member added][TSTeamMemberAdded]       |
+|  4   | Press **Create** to proceed                                                                       |               ![Create TeamSpace Button][TSCreateButton]                |
 |  5   | Teamspace creation will take a few moments, as soon as it finishes a success dialog will be shown | ![Teamspace - Create New - creation process started][TSCreationStarted] |
-|  6   | Teamspace created. Click on **Go to Teamspace** for next steps                                    | ![Teamspace - Create New - creation successfull][TSCreateionFinished]   |
+|  6   | Teamspace created. Click on **Go to Teamspace** for next steps                                    |  ![Teamspace - Create New - creation successfull][TSCreateionFinished]  |
 
 --8<-- [end:CreateNewTS]
 
