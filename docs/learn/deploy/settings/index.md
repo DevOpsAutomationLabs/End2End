@@ -29,6 +29,8 @@ Same procedure as installing a Plugin. Click on the 3 Dots menue and select **Up
 
 Configuring the AI Integration is in the **Systems** Section
 
+--8<-- [start:DeployAIIntegration]
+
 | Step | Details                                                          | Additional Information { width="50%" }               |
 |:----:|:-----------------------------------------------------------------|:-----------------------------------------------------|
 |      | Scroll down in the System Section to view all sub sections       | ![System Section in Settings][DeploySystemSection]   |
@@ -41,6 +43,8 @@ Configuring the AI Integration is in the **Systems** Section
 |      | Select your prefered moddel from list                            | ![Select Your Prefered Model][ModelList]             |
 |      | Selected Model will be shown                                     | ![Selected Model][ModelSelected]                     |
 |      | Click on **Save** to finish setup                                | ![Click on Save][ButtonSave]                         |
+
+--8<-- [end:DeployAIIntegration]
 
 ---
 

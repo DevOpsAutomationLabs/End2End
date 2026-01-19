@@ -8,10 +8,14 @@ DevOps Plan is a change management application for tracking work-items with work
 
 ### How to switch to Plan from Home Page
 
+--8<-- [start:SWITCH2Plan]
+
 | Step | Details                                                                                                  | Additional Information                                         |
 |:----:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
 |  1   | You can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][AppSwitcher]                           |
 |  2   | Or You can switch directly to Plan by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
+
+--8<-- [end:SWITCH2Plan]
 
 ## Demo Data or New Application with Sample Data
 

@@ -2,54 +2,46 @@
 
 ## About Box and Logging out
 
-On the above right side of your page you have the buttons for viewing the About box:
-
-![About Button][AboutButton]
-
-By pressing the About button the Information about the platform version and copyright will be presented. Please close by clicking on the "x" symbol on popup.
-
-![About Box][About]
-
-You can always log out of the platform by pressing the user symbol:
-
-![User Symbol for Logging Out][LoggOutButton]
-
-After a secure log out you will be presented with a new page which provides a login again:
-
-![Logged out][LoggedOut]
+| Step | Details                                                                                                 | Additional Information                        |
+|:----:|:--------------------------------------------------------------------------------------------------------|:----------------------------------------------|
+|      | **About Loop**                                                                                          |                                               |
+|      | On the above right side of your page you have the buttons for viewing the **About** box                 | ![About Button][AboutButton]                  |
+|      | By pressing the About button the Information about the platform version and copyright will be presented | ![About Box][About]                           |
+|      | Please close by clicking on the "x" symbol on popup                                                     |                                               |
+|      | **Logging out**                                                                                         |                                               |
+|      | You can always log out of the platform by pressing the user symbol                                      | ![User Symbol for Logging Out][LoggOutButton] |
+|      | After a secure log out you will be presented with a new page which provides a login again               | ![Logged out][LoggedOut]                      |
 
 ## Sidebar
 
-On the left side of the page you will have the side bar which will provide context related menu:
-
-![Sidebar][SBIcons]
-
-You can expand the side bar with the expand button on the bottom left side of the page:
-
-![Sidebar expander][SBExpander]
-
-Which will provide the sidebar items with text details:
-
-![Sidebar expanded][SBExpanded]
+| Step | Details                                                                                         | Additional Information          |
+|:----:|:------------------------------------------------------------------------------------------------|:--------------------------------|
+|      | On the left side of the page you will have the side bar which will provide context related menu | ![Sidebar][SBIcons]             |
+|      | You can expand the side bar with the expand button on the bottom left side of the page          | ![Sidebar expander][SBExpander] |
+|      | Which will provide the sidebar items with text details                                          | ![Sidebar expanded][SBExpanded] |
 
 ### Plug-Ins
 
-On the sidebar a view of slected plug-ins is available. By pressing on the Plug-Ins symbol the Featured Plugins page will be presented:
+> NOTE: This page will provide you some information about available Plug-Ins, installing and configuring them needs to be done in the appropiate capabilities.
 
-![Sidebar Plugins][SBPlugins]
+| Step | Details                                                                                                                                | Additional Information        |
+|:----:|:---------------------------------------------------------------------------------------------------------------------------------------|:------------------------------|
+|      | On the sidebar a view of slected plug-ins is available. By pressing on the Plug-Ins symbol the Featured Plugins page will be presented | ![Sidebar Plugins][SBPlugins] |
 
 <!-- <img src="media/Loop_Sidebar_plugins.png" width="50%" height="50%"> -->
 
 ### Settings
 
-The Settings Menue provides a view User Administration and managing the AI integration.
-
-![Sidebar Settings][SBSettings]
+| Step | Details                                                                                | Additional Information          |
+|:----:|:---------------------------------------------------------------------------------------|:--------------------------------|
+|      | The Settings Menue provides a view User Administration and managing the AI integration | ![Sidebar Settings][SBSettings] |
 
 #### User Administration
 
-![User Admin View][UserAdminView]
-![User Detail][UserAdminUserDetail]
+| Step | Details                                                                                       | Additional Information              |
+|:----:|:----------------------------------------------------------------------------------------------|:------------------------------------|
+|      | This view will provide information about the Tenant and the users in this tenant              | ![User Admin View][UserAdminView]   |
+|      | Detailed information about a user, which Teamspaces and Loops it has access to and gobal Role | ![User Detail][UserAdminUserDetail] |
 
 #### Integrations
 

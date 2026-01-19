@@ -18,6 +18,27 @@
 |      | ![Switch to Component processes View][CompProcessTab] |                                        |
 |      | Available Component processes are shown               | ![Component Processes][CompProcesses]  |
 
+## Creating or Importing Components
+
+### Creating Components
+
+--8<-- [start:CreateNewComponent]
+
+| Step | Details                                                                                | Additional Information { width="50%" }                                                    |
+|:----:|:---------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
+|      | Press Create new Component Button: ![Component - Create new][DeployComponentCreateNew] |                                                                                           |
+|      | Enter the name of the component (for example Echo) and a Description                   | ![Component - Create Dialog 1][DeployComponentCreateNewDialog1]                           |
+|      | Select Version Source Configuration (use file system versioned for this step)          | ![Component - Create Dialog 2][DeployComponentCreateNewDialog2]                           |
+|      | Provide the base path from where to import versions for this component                 | ![Component - Create Dialog 3][DeployComponentCreateNewDialog3]                           |
+|      | use "home/echologic/echo" for this example                                             | <home/echologic/echo>                                                                     |
+|      | select "copy to Codestation" if not selected automatically                             | ![Component - Create Dialog 4][DeployComponentCreateNewDialog4]                           |
+|      | Component successful created, first view is the Versions view                          | ![Component - Newly Created Comp first view versions ][DeployComponentNewVersionView]     |
+|      | have a look at the Components configuration, you can change it here if needed          | ![Component - Newly Created Comp configuraiton view][DeployComponentNewConfigurationView] |
+|      | have a look at the processes of the component, which are empty too                     | ![Component - Newly Created Comp Processes view][DeployComponentNewProcessesView]         |
+|      | We will add processes later in this lab                                                |                                                                                           |
+
+--8<-- [end:CreateNewComponent]
+
 ## Importing Components
 
 | Step | Details                                    | Additional Information { width="50%" }         |
@@ -48,3 +69,12 @@
 [CompDetails]: media/Component_Imported.png
 [CompProcessTab]: media/Component_Tabbar_Processes.png
 [CompProcesses]: media/Component_Processlist_withentries.png
+
+[DeployComponentCreateNew]: media/DEPLOY_Components_CreateComponentButton.png
+[DeployComponentCreateNewDialog1]: media/DEPLOY_Components_CreateDialog1.png
+[DeployComponentCreateNewDialog2]: media/DEPLOY_Components_CreateDialog2.png
+[DeployComponentCreateNewDialog3]: media/DEPLOY_Components_CreateDialog3.png
+[DeployComponentCreateNewDialog4]: media/DEPLOY_Components_CreateDialog4.png
+[DeployComponentNewVersionView]: media/Component_Versions_View_empty.png
+[DeployComponentNewConfigurationView]: media/Component_Config.png
+[DeployComponentNewProcessesView]: media/Component_Tabbar_Processes.png

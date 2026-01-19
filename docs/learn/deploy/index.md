@@ -1,7 +1,6 @@
 # Deploy Lab
 
-TODO: Flow needs complete rewrite and new screenshots
-_**TODO: update flow, app references from PIZZA to EchoLogic and screenshots**_
+TODO: Flow needs rewrite and new screenshots
 
 ## Overview
 
@@ -11,23 +10,16 @@ Explore the comprehensive dashboard provided by DevOps Deploy, which displays ke
 
 ### How to switch to Deploy from Home Page
 
-#### Lets go
+--8<-- [start:SWITCH2Deploy]
 
-You can switch to Deploy by either pressing "Let's go to Deploy" button on its tile:
+| Step | Details                                                                                                  | Additional Information                                         |
+|:----:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
+|      | **Central App Switcher**                                                                                 |                                                                |
+|      | Or you can always switch using the central app switcher on the top left of your screen:                  | ![Central App Switcher][CentralAppSwitcher]                    |
+|      | **What would you like to do today**                                                                      |                                                                |
+|      | You can switch directly to Deploy by using the button/link from What would you like to do today section: | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
-![Deploy Tile lets go][DeployTile]
-
-#### What would you like to do today?
-
-You can switch directly to Deploy by using the button/link from What would you like to do today section:
-
-![What would you like to do today?][WhatWouldYouLikeToDoToday]
-
-#### Central App Switcher
-
-Or you can always switch using the central app switcher on the top left of your screen:
-
-![Central App Switcher][CentralAppSwitcher]
+--8<-- [end:SWITCH2Deploy]
 
 ### Deploy Landing Page
 
@@ -91,6 +83,10 @@ TODO: talk about applications
 
 ### Create New Application
 
+--8<--
+learn/deploy/applications/index.md:CreateNewApplication
+--8<--
+
 ## [Components](components/index.md)
 
 TODO: talk about components
@@ -99,112 +95,11 @@ TODO: talk about components
 
 ### Create New Component
 
-- Press Create new Component Button: ![Component - Create new][DeployComponentCreateNew]
-  - ![Component - Create Dialog 1][DeployComponentCreateNewDialog1]
-  - ![Component - Create Dialog 2][DeployComponentCreateNewDialog2]
-  - ![Component - Create Dialog 3][DeployComponentCreateNewDialog3]
-  - ![Component - Create Dialog 4][DeployComponentCreateNewDialog4]
-- Component successful created, first view is the Versions view
-  - ![Component - Newly Created Comp first view versions ][DeployComponentNewVersionView]
-- have a look at the Components configuration, you can change it here if needed
-  - ![Component - Newly Created Comp configuraiton view][DeployComponentNewConfigurationView]
-- have a look at the processes of the component, which are empty too
-  - ![Component - Newly Created Comp Processes view][DeployComponentNewProcessesView]
-  - We will add processes later in this lab
+--8<--
+learn/deploy/components/index.md:CreateNewComponent
+--8<--
 
-## Processes
-
-TODO: talk about processes
-
-### Types of Processes
-
-#### Generic Processes
-
-TODO: talk about generic processes and for what they are good for
-
-#### Application Processes
-
-[Detailed Documentation on Application Processes][DOCAppProccesses]
-
-Application processes, like component processes, are created with the process editor. You use application processes to deploy or to roll back components, define the orchestration of the deployment of components. Means if there are dependencies between components deploy them sequentially, if no dependency exists do it in parallel.
-
-##### View Application Processes
-
-| Step | Details                                         | Additional Information { width="50%" }   |
-|:----:|:------------------------------------------------|:-----------------------------------------|
-|      | [Switch to Applications View][APPSallView]      |                                          |
-|      | [Open EchoLogic App][AppViewWithEnv]            |                                          |
-|      | [Switch to Processes View][SwitchToProcessView] |                                          |
-|      | Available application processes are shown       | ![Application Processes][AppProcessList] |
-|      |                                                 |                                          |
-
-#### Component Processes
-
-TODO: talk about component processes and what is it good for
-
-##### View Component Processes
-
-[Switch to Components View][REFSwitchToCompView]
-
-[View Component Processes][REFCompProcessesView]
-
-A freshly created component does not have any processes:
-
-![component processes][DeployComponentProcessesListEmpty]
-
-Every Component needs at least one (1) process. To create one press the Create Process Button ![Create new Process Button][DeployComponentCreateNewProcessButton]
-
-![Component Process - Dialog][DeployComponentCreateProcessDialog]
-
-TODO: talk about process details
-
-### Process Designer
-
-It will show you the process designer for a new process:
-
-![Process Designer][DeployProcessDesigner]
-
-#### Process Designer Sidebar
-
-TODO: talk about sidebar
-
-![Process Designer Sidebar][DeployComponentProcessDesignerSidebar]
-
-Drag Drop a step onto the canvas.
-
-![Dragged a Step onto the canvas][DeployProcessDesignerAddStepp]
-
-Configure the step:
-
-![Step properties 1][DeployProcessDesignerStepProperties1]
-![Step properties 2][DeployProcessDesignerStepProperties2]
-
-In this example the shell step requires to have some script/commands added into the shell script field:
-
-![Shell Script1][DeployProcessDesignerStepShellScript1]
-![Shell Script2][DeployProcessDesignerStepShellScript2]
-
-#### Final Process Diagram
-
-![Deploy Process Diagram Application Page][DeployComponentFinalProcess]
-
-#### Adding Version Statuses
-
-![Process Designer - sidebar add version status][DeployProcesDesignerSidebarAddVersionStatus]
-![process designer - step added add version status][DeployProcessDesignerAddedVersionStatus]
-![process designer - add version status properites][DeployProcessDesignerAddedVersionStatusProperties]
-
-##### Final Process Diagrams (Passing and Failing tests)
-
-![Process Designer - Final Process with passed Test][DeployComponentProcessPassingTest]
-![Process Designer - Final Process with failing Test][DeployComponentProcessFailingTest]
-
-Now we have additional deployment processes. One for passing a test and one for failing a test. Both processes will set the appropiate version tag about status of test.
-
-![Component with Deployment Process passing and failing][DeployComponentProcessesList]
-
-Result in the Versionlist of the component:
-![Status added to version][DeployComponentFinalProcesWithVersionStatus]
+## [Processes](processes/index.md)
 
 ## Environments
 
@@ -299,11 +194,11 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
 [DeployDashboard]: media/dashboard.png
 [DeployComponentList]: media/DEPLOY_Components_List.png
-[DeployComponentCreateNew]: media/DEPLOY_Components_CreateComponentButton.png
-[DeployComponentCreateNewDialog1]: media/DEPLOY_Components_CreateDialog1.png
-[DeployComponentCreateNewDialog2]: media/DEPLOY_Components_CreateDialog2.png
-[DeployComponentCreateNewDialog3]: media/DEPLOY_Components_CreateDialog3.png
-[DeployComponentCreateNewDialog4]: media/DEPLOY_Components_CreateDialog4.png
+[DeployComponentCreateNew]: components/media/DEPLOY_Components_CreateComponentButton.png
+[DeployComponentCreateNewDialog1]: components/media/DEPLOY_Components_CreateDialog1.png
+[DeployComponentCreateNewDialog2]: components/media/DEPLOY_Components_CreateDialog2.png
+[DeployComponentCreateNewDialog3]: components/media/DEPLOY_Components_CreateDialog3.png
+[DeployComponentCreateNewDialog4]: components/media/DEPLOY_Components_CreateDialog4.png
 [DeployComponentNewVersionView]: components/media/Component_Versions_View_empty.png
 [DeployComponentNewConfigurationView]: components/media/Component_Config.png
 [DeployComponentNewProcessesView]: components/media/Component_Tabbar_Processes.png
@@ -359,3 +254,10 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [RunFailSelectCompVersions]: media/Deploy_AppRun_SelectedCompVersions.png
 [RunFailed]: media/Deploy_AppRun_ResultFailed.png
 [GenieAnalysis]: media/Deploy_AppProcess_AI_Analysis.png
+[APPSallViewEmpty]: applications/media/Deploy_Applications_View_Empty.png
+[ButtonCreateApp]: applications/media/Deploy_App_CreateAppButton.png
+[CreateAppMenu]: applications/media/Deploy_App_CreateAppMenue.png
+[CreateAppDialog]: applications/media/Deploy_App_CreateApp_Dialog1.png
+[CreateAppDialogEnterInfo]: applications/media/Deploy_App_CreateApp_Dialog2.png
+[ButtonSave]: ../../media/Button_Save.png
+[AppView]: applications/media/Deploy_Application_View.png

@@ -10,6 +10,8 @@ To switch to Applications View, click in the Sidebar on the **Applications** Ico
 
 #### Create Application
 
+--8<-- [start:CreateNewApplication]
+
 | Step | Details                                        | Additional Information                                |
 |:----:|:-----------------------------------------------|:------------------------------------------------------|
 |      | If no Applications are available               | ![Empty Applications View][APPSallViewEmpty]          |
@@ -20,7 +22,11 @@ To switch to Applications View, click in the Sidebar on the **Applications** Ico
 |      | click on the **Save** Button to create new App | ![Save Button][ButtonSave]                            |
 |      | Application is shown                           | ![Application View][AppView]                          |
 
+--8<-- [end:CreateNewApplication]
+
 #### Add Environments to Application
+
+--8<-- [start:AddNewEnvironment]
 
 | Step | Details                                                   | Additional Information                                            |
 |:----:|:----------------------------------------------------------|:------------------------------------------------------------------|
@@ -32,7 +38,11 @@ To switch to Applications View, click in the Sidebar on the **Applications** Ico
 |      | Repleat this section and add "QA" and "PROD" environments |                                                                   |
 |      | List of all Environments                                  | ![Final Environment List][AppEnvironmentsView]                    |
 
+--8<-- [end:AddNewEnvironment]
+
 #### Assign Resources to Environments
+
+--8<-- [start:AddResources2Env]
 
 | Step | Details                                                         | Additional Information                      |
 |:----:|:----------------------------------------------------------------|:--------------------------------------------|
@@ -44,7 +54,11 @@ To switch to Applications View, click in the Sidebar on the **Applications** Ico
 |      | Click on **Save** Button                                        | ![Save Button][ButtonSave]                  |
 |      | Repeat this section for "QA" and "PROD" Environments            |                                             |
 
+--8<-- [end:AddResources2Env]
+
 ### Import Application
+
+--8<-- [start:ImportApplication]
 
 | Step | Details                                                             | Additional Information                       |
 |:----:|:--------------------------------------------------------------------|:---------------------------------------------|
@@ -56,7 +70,11 @@ To switch to Applications View, click in the Sidebar on the **Applications** Ico
 |      | click on **Submit** Button to start Import                          | ![Submit Button][ButtonSubmit]               |
 |      | Application is shown                                                | ![Application View with Env][AppViewWEnv]    |
 
+--8<-- [end:ImportApplication]
+
 ## View Application
+
+--8<-- [start:ViewApplications]
 
 | Step | Details                              | Additional Information                    |
 |:----:|:-------------------------------------|:------------------------------------------|
@@ -65,14 +83,22 @@ To switch to Applications View, click in the Sidebar on the **Applications** Ico
 |  3   | First View is the Environments view  | ![Application View with Env][AppViewWEnv] |
 |      |                                      |                                           |
 
+--8<-- [end:ViewApplications]
+
 ### Show Components
+
+--8<-- [start:ShowComponents]
 
 | Step | Details                     | Additional Information              |
 |:----:|:----------------------------|:------------------------------------|
 |      | Click on **Components** Tab | ![App Components Tab][AppCompTab]   |
 |      | Components View is shown    | ![App Components View][AppCompView] |
 
+--8<-- [end:ShowComponents]
+
 #### How to Add Components to Application
+
+--8<-- [start:AddComponent2App]
 
 | Step | Details                                       | Additional Information                        |
 |:----:|:----------------------------------------------|:----------------------------------------------|
@@ -82,14 +108,22 @@ To switch to Applications View, click in the Sidebar on the **Applications** Ico
 |      | Click on **Save** Button                      | ![Save Button][ButtonSave]                    |
 |      | Components View with added Components         | ![App Comp View with Comps][AppCompViewFinal] |
 
+--8<-- [end:AddComponent2App]
+
 ### Show Processes
+
+--8<-- [start:ShowProcesses]
 
 | Step | Details                                          | Additional Information                     |
 |:----:|:-------------------------------------------------|:-------------------------------------------|
 |      | click on "Processes" Tab                         | ![App Processes Tab][AppProcessesTab]      |
 |      | List of all Application Processes will be shown. | ![Application Processes][AppProcessesView] |
 
+--8<-- [end:ShowProcesses]
+
 #### Show an Application Process
+
+--8<-- [start:ShowAppProcesses]
 
 | Step | Details                                                   | Additional Information                        |
 |:----:|:----------------------------------------------------------|:----------------------------------------------|
@@ -97,7 +131,11 @@ To switch to Applications View, click in the Sidebar on the **Applications** Ico
 |      | Click on **Deploy** Process                               | ![Application Processes List][AppProcessList] |
 |      | The Process Editor opens and shows the deployment process | ![App Deployment Process][AppViewProcess]     |
 
+--8<-- [end:ShowAppProcesses]
+
 #### How to Import Processes
+
+--8<-- [start:ImportAppProcesses]
 
 | Step | Details                                             | Additional Information                                 |
 |:----:|:----------------------------------------------------|:-------------------------------------------------------|
@@ -109,6 +147,8 @@ To switch to Applications View, click in the Sidebar on the **Applications** Ico
 |      | File is selected                                    | ![Import Dialog File Selected][ImpProcessFileSelected] |
 |      | click on **Submit** Button to start import          | ![Submit Button][ButtonSubmit]                         |
 |      | Imported Application Process are shown              | ![Application Processes List][AppProcessList]          |
+
+--8<-- [end:ImportAppProcesses]
 
 ---
 

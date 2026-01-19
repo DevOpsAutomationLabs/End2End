@@ -402,9 +402,9 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [REFDeployOverview]: learn/deploy/index.md#overview
 [DeployShowLandingPage]: learn/deploy/index.md#deploy-landing-page
 [DeployDashboard]: learn/deploy/media/dashboard.png
-[DeployShowProcessWithTest]: learn/deploy/index.md#adding-version-statuses
-[DeployComponentProcessPassingTest]: learn/deploy/media/DEPLOY_ComponentProcessFinalWithPassingTest.png
-[DeployComponentFinalProcesWithVersionStatus]: learn/deploy/media/DEPLOY_Component_VersionList_withStatus.png
+[DeployShowProcessWithTest]: learn/deploy/processes/index.md#adding-version-statuses
+[DeployComponentProcessPassingTest]: learn/deploy/processes/media/DEPLOY_ComponentProcessFinalWithPassingTest.png
+[DeployComponentFinalProcesWithVersionStatus]: learn/deploy/processes/media/DEPLOY_Component_VersionList_withStatus.png
 [DeployShowApp]: learn/deploy/applications/media/Deploy_Applications_View.png
 [DeployAppEnvList]: learn/deploy/media/DEPLOY_Application_Environmentlist.png
 [DeployAppRequestProcessButton]: learn/deploy/media/DEPLOY_Application_RequestProcess.png
@@ -437,7 +437,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [ReleaseTile]: learn/introduction/media/Loop_switch_to_Release.png
 [CentralAppSwitcher]: learn/introduction/media/Loop_central_app_control.png
 [LoopHomePage]: learn/introduction/index.md#the-home-page
-[IntroductionAboutBoxSidebarPlugins]: learn/introduction/intro/index.md
+[IntroductionAboutBoxSidebarPlugins]: learn/introduction/about/index.md
 [ChartFlowOfDemo]: media/demoflow.png
 [SBApplicationsIcon]: learn/deploy/media/Deploy_Sidebar_AppIcon.jpg
 [APPSallView]: learn/deploy/applications/media/Deploy_Applications_View.png
@@ -506,9 +506,9 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [TestDataGenerated]: learn/test/media/Test_Data_GeneratedData.png
 
 [URLDoraMetrics]: https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-dora
-[REFAppProcessView]: learn/deploy/index.md#view-application-processes
-[REFCompProcessView]: learn/deploy/index.md#view-component-processes
-[REFAppProcesses]: learn/deploy/index.md#application-processes
+[REFAppProcessView]: learn/deploy/processes/index.md#view-application-processes
+[REFCompProcessView]: learn/deploy/processes/index.md#view-component-processes
+[REFAppProcesses]: learn/deploy/processes/index.md#application-processes
 [TabPipeline]: media/../learn/measure/media/Measure_Pipeline_Tab.png
 [PipelineView]: learn/measure/media/Measure_PipelineView.png
 [3Dots]: media/3Dots.png

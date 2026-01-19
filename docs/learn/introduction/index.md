@@ -99,7 +99,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [InstructionsCreateTeamSpace]: teamspace/index.md
 [InstructionsCreateLoop]: loops/index.md
 [GoBackToDemoOverview]: ../index.md#introduction
-[IntroAboutBoxSidebarPlugins]: intro/index.md
+[IntroAboutBoxSidebarPlugins]: about/index.md
 [URLDevOpsLoop]: https://devops.automation.techzone.ibm.com/automation
 [LoginDialog]: media/Loop_Login_Page.png
 [SignInButton]: media/Loop_SignInButton.png
