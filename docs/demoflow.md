@@ -80,22 +80,20 @@ learn/plan/ai_assistant/index.md:PlanAIAssistantCreateRecords
 
 <!-- [Open a workitem and use AI to create description and exploratory test information](plan/boards/index.md#use-ai-in-workitem) -->
 
-## [Control - Work with Repository](learn/control/index.md#open-repo-with-vscode)
+## [Control - Work with Repository](learn/control/index.md#open-repo-with-code)
 
 --8<--
-learn/control/index.md:OpenRepoWithVSCode
+learn/control/index.md:OpenRepoWithCode
 --8<--
 
 ## [Code](learn/code/index.md)
 
-| Step | Details                                                                     | Additional Information { width="50%" }                                            |
-|:----:|:----------------------------------------------------------------------------|:----------------------------------------------------------------------------------|
-|  1   | Explain that we showed the link between a work item and the code in control |                                                                                   |
-|  2   | [Switch to CODE][CODEopen] if it is not visible                             | **NOTE: use VScode for now, Switch to DevOps Code later when WCAx is integrated** |
-|  3   | [Use WCA to explain code and generate some new code][CODEWcaX]              | ![Explain code part 1][WcaXexplain1]                                              |
-|      |                                                                             | ![Explain code part 2][WcaXexplain2]                                              |
-|  4   | [Push code and add comment with work item number][CODEcommitWI]             | ![Commit Code with WI][CodeWithWIcommit]                                          |
-|  5   | [Open Control and show the update](#control)                                |                                                                                   |
+--8<--
+learn/code/index.md:Switch2Code
+--8<--
+--8<--
+learn/code/index.md:UseCode
+--8<--
 
 ## [Control](learn/control/index.md)
 
@@ -382,11 +380,20 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [AIPagewithPrompttypes]: learn/plan/ai_assistant/index.md#ai-assistant-type-of-output
 [PlanAICreateRecords]: learn/plan/ai_assistant/index.md#ai-assistant-create-records-from-responses
 [CODEopen]: learn/code/index.md#how-to-switch-to-code-from-home-page
+
+[WCAxExplain1]: learn/code/media/CODE_WCAx_Explain1.png
+[WCAExplain2]: learn/code/media/CODE_WCAx_Explain2.png
+[CommitWithWI]: learn/code/media/CODE_CommitWithWI.png
+[REFControlOpenWithCode]: learn/control/index.md#open-repo-with-code
+
 [CODEWcaX]: learn/code/index.md#watsonx-code-assistant
-[WcaXexplain1]: learn/code/media/CODE_WCAx_Explain1.png
-[WcaXexplain2]: learn/code/media/CODE_WCAx_Explain2.png
 [CODEcommitWI]: learn/code/index.md#commit-code-with-wi
 [CodeWithWIcommit]: learn/code/media/CODE_CommitWithWI.png
+
+[CommitAndPush]: learn/code/media/Code_Commit_and_Push.png
+[GitStagingQuestion]: learn/code/media/Code_Git_Stage_Question.png
+[GitFetchQuestion]: learn/code/media/Code_Git_Fetch_Question.png
+
 [ControlOPEN]: learn/control/index.md#how-to-switch-to-control-from-home-page
 [ControlShowUpdate]: learn/control/index.md#show-activity-report
 [ControlShowLastCommit]: learn/control/media/CONTROL_ShowLastCommit.png
@@ -466,13 +473,28 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 
 [ButtonCode]: learn/control/media/Control_CodeButton.png
 [ButtonCodeExpanded]: learn/control/media/Control_CodeButtonExpanded.png
-[OpenWithVSCode]: learn/control/media/Control_Open_with_VSCode.png
+[OpenWithCode]: learn/control/media/Control_Open_with_DevOps_Code.png
+[SelectFromListDC1]: learn/control/media/Control_Dev_Container_select_from_list.png
+[SelectFromListDC2]: learn/control/media/Control_Dev_Container_select_from_list2.png
+[CloneButton]: learn/control/media/Control_Code_Clone_Button.png
+[CodeGitCloneSuccess]: learn/code/media/Code_Git_Clone_Success.png
+
+[CodeDevContainerView]: learn/code/media/Code_Dev_Container_two_tabs.png
+[NoRunningDevContainer]: learn/code/media/Code_No_running_dev_containers.png
+[ListOfRunningDevContainer]: learn/code/media/Code_Running_Dev_Containers.png
+[LetsGoButton]: learn/code/media/Code_Dev_Container_LetsGo.png
+[TerminateButton]: learn/code/media/Code_Dev_Container_Terminate.png
+[ListOfAvailableDevContainer]: learn/code/media/Code_Dev_Container_Overview_Page.png
+[SettingUpEnv]: learn/code/media/Code_Setting_Up_Environment.png
+[WCAxNoRepo]: learn/code/media/Code_WatsonX_Dev_Container_no_Rep.png
+
+<!-- [OpenWithVSCode]: learn/control/media/Control_Open_with_VSCode.png
 [AllowToOpenVSCode]: learn/control/media/Control_AllowOpenVSCode.png
 [SelectTargetFolderforCloning]: learn/code/media/Code_VSCode_clone_targetfolder.png
 [CodeEnterUserID]: learn/code/media/Code_VSCode_enterGitUser.png
 [CodeEnterPAT]: learn/code/media/Code_VSCode_Enter_PAT.png
 [REFPATSection]: learn/control/index.md#access-token
-
+ -->
 [SwitchToTest]: learn/introduction/media/Loop_switch_to_Test.png
 [SectionExecute]: learn/test/media/Test_Sidebar_ExecuteSection.png
 [ExecuteScriptList]: learn/test/media/Test_Execute_ScriptList.png

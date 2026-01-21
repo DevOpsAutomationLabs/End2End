@@ -1,7 +1,5 @@
 # Control Lab
 
-TODO: update flow, app references and screenshots - instead of VSCode use CODE
-
 ## Introduction
 
 TODO: add here more about Control
@@ -83,6 +81,24 @@ Press Generate Token and **SAVE your newly created Token**:
 
 ## Explore Control
 
+### Open Repo with Code
+
+--8<-- [start:OpenRepoWithCode]
+
+| Step | Details                                                                                  | Additional Information { width="50%" }              |
+|:----:|:-----------------------------------------------------------------------------------------|:----------------------------------------------------|
+|  1   | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menue.    | ![Code Button Expanded][ButtonCodeExpanded]         |
+|  2   | Click on **Open with Code**                                                              | ![open with Code][OpenWithCode]                     |
+|  3   | A new dialog appears to select the right Dev Container for cloning the repository        | ![Select from List][SelectFromListDC1]              |
+| 3.1  | Scroll down to see more entries                                                          | ![More Entries in List][SelectFromListDC2]          |
+| 3.2  | use the default values for branch **main** and target folder **git**                     |                                                     |
+| 3.3  | to use Watson Code Assistant then select the WatsonX Dev Container                       |                                                     |
+|  4   | Press the **Clone** Button to proceed                                                    | ![Clone the repo][CloneButton]                      |
+|  5   | **it takes a few seconds till your environment is setup and running, please be patient** |                                                     |
+|  6   | Code and a git clone success message is shown                                            | ![Code with Git clone success][CodeGitCloneSuccess] |
+
+--8<-- [end:OpenRepoWithCode]
+<!-- 
 ### Open repo with VSCode
 
 --8<-- [start:OpenRepoWithVSCode]
@@ -98,7 +114,7 @@ Press Generate Token and **SAVE your newly created Token**:
 |  7   | which you created in the [Access Token Section][REFPATSection]                        |                                                            |
 
 --8<-- [end:OpenRepoWithVSCode]
-
+ -->
 ### Show Git Commit Details
 
 - ![CONTROL - Show Git Commit Details][ControlShowGitCommitDetails]
@@ -107,17 +123,8 @@ Press Generate Token and **SAVE your newly created Token**:
 
 ![Show Last Commit][ControlShowLastCommit]
 
-## Conclusio
-
-Congratulations you have finished Control Lab and have created a new repository and an access token.
-
-Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
-
 ---
 
-[GoBackToDemoOverview]: ../index.md
-[GoBackToParentIndex]: ../index.md#control
-[NextLab]: ../index.md#code
 [ControlTile]: ../introduction/media/Loop_switch_to_Control.png
 [CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
 [ControlListOrgsRepos]: media/Control_List_Repo_and_Org.png
@@ -138,9 +145,14 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [ControlListPullrequestsIcon]: media/Control_SidebarPull.png
 [ButtonCode]: media/Control_CodeButton.png
 [ButtonCodeExpanded]: media/Control_CodeButtonExpanded.png
-[OpenWithVSCode]: media/Control_Open_with_VSCode.png
+[OpenWithCode]: media/Control_Open_with_DevOps_Code.png
+[SelectFromListDC1]: media/Control_Dev_Container_select_from_list.png
+[SelectFromListDC2]: media/Control_Dev_Container_select_from_list2.png
+[CloneButton]: media/Control_Code_Clone_Button.png
+[CodeGitCloneSuccess]: ../code/media/Code_Git_Clone_Success.png
+<!-- [OpenWithVSCode]: media/Control_Open_with_VSCode.png
 [AllowToOpenVSCode]: media/Control_AllowOpenVSCode.png
 [SelectTargetFolderforCloning]: ../code/media/Code_VSCode_clone_targetfolder.png
 [CodeEnterUserID]: ../code/media/Code_VSCode_enterGitUser.png
 [CodeEnterPAT]: ../code/media/Code_VSCode_Enter_PAT.png
-[REFPATSection]: index.md#access-token
+[REFPATSection]: index.md#access-token -->

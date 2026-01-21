@@ -6,36 +6,46 @@ TODO: update flow, app references and screenshots
 
 TODO: add here more about Code
 
-## How to switch to Code from Home Page
+## How to work with Code
+
+### Switch to Code
 
 --8<-- [start:Switch2Code]
 
-| Step | Details                                                                             | Additional Information { width="50%" } |
-|:----:|:------------------------------------------------------------------------------------|:---------------------------------------|
-|      | **Switch to Code**                                                                  |                                        |
-|      | You can always switch using the central app switcher on the top left of your screen | ![Central App Switcher][AppSwitcher]   |
-|      |                                                                                     |                                        |
-
-> Note: it takes a few seconds till your environment is setup and running, please be patient.
+| Step | Details                                                                                          | Additional Information { width="50%" }                                           |
+|:----:|:-------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
+|  1   | You can always switch using the central app switcher on the top left of your screen              | ![Central App Switcher][AppSwitcher]                                             |
+|  2   | Overview Page of Code is shown with two tabs.                                                    | ![Two sub tabs][CodeDevContainerView]                           |
+|  3   | One for Running Dev Containers                                                                   |                                                                                  |
+| 3.1  | Which may be empty when no Dev Container has been started                                        | ![No running Dev Container][NoRunningDevContainer]            |
+| 3.2  | Or all running Dev Containers with detailed Information is shown                                 | ![List of running Dev Container][ListOfRunningDevContainer]          |
+| 3.3  | Open the running container by clicking on **Let's Go** Button                                    | ![Lets go with this container][LetsGoButton]              |
+| 3.4  | If no more needed press **Terminate** button to shutdown and remove it                           | ![Terminate this container][TerminateButton]              |
+|  4   | And another for all available types of Dev Container                                             | ![Available Dev Container][ListOfAvailableDevContainer]           |
+| 4.1  | By clicking on **Let's Go** Button a Dev Container (for example WatsonX) it will be instantiated | ![Lets go with this container][LetsGoButton]              |
+| 4.2  | and a message will be shown in a new window                                                      | ![Setting up a dev container environment][SettingUpEnv] |
+| 4.3  | **it takes a few seconds till your environment is setup and running, please be patient**         |                                                                                  |
+| 4.4  | Code is shown (example: WatsonX)                                                                 | ![Code is shown for WatsonX][WCAxNoRepo]        |
 
 --8<-- [end:Switch2Code]
 
-## VSCode
+### How to use Code
 
-<blockquote>
-<p><strong>NOTE:</strong> To showcase WCAx you need to use external VSCode as DevOps CODE in actual version does not have WCAx available. Will be provided in next releases.</p>
-</blockquote>
+--8<-- [start:UseCode]
 
-[Open the repository with VSCode from Control Repo view][REFControlOpenWithVSCode]
+| Step | Details                                                                            | Additional Information { width="50%" } |
+|:----:|:-----------------------------------------------------------------------------------|:---------------------------------------|
+|  1   | Explain that we showed the link between a work item and the code in control        |                                        |
+|  2   | [Open the repository with Code from Control Repo view][REFControlOpenWithCode] |                                        |
+|  3   | Use WCA to explain code and generate some new code                                 | ![Explain code part 1][WCAxExplain1]   |
+|  3.1    | here an example | ![Explain code part 2][WCAExplain2]    |
+| 4 | change some code and save the changes to be able to commit to Control | |
+|  4.1   | Add comment with work item number                                    | ![Commit Code with WI][CommitWithWI]   |
+| 4.2 | Click on **Commit&Push** by opening the **Commit Button** | ![Commit and push][CommitAndPush] |
+| 4.3 | a message might appear about **staging** changes, press the **Always** button | ![asking about git staging][GitStagingQuestion] |
+| 4.4 | a message might appear about **fetching** changes from git, press **Fetch** | ![periodially use Git Fetch][GitFetchQuestion] |
 
-### WatsonX Code Assistant
-
-![Explain code part 2][WCAxExplain1]
-![Explain code part 2][WCAExplain2]
-
-### Commit Code with WI
-
-![Commit Code with WI][CommitWithWI]
+--8<-- [end:UseCode]
 
 ---
 <!-- 
@@ -142,18 +152,23 @@ Click on "Yes, terminate it" to shutdown the pod, which will delete all unsaved 
 Congratulations you have finished the Code Lab.
  -->
 
-## Conclusio
-
-Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
-
 ---
 
-[GoBackToDemoOverview]: ../index.md
-[GoBackToParentIndex]: ../index.md#code
-[NextLab]: ../index.md#build
-[CodeTile]: ../introduction/media/Loop_switch_to_Code.png
 [AppSwitcher]: ../introduction/media/Loop_central_app_control.png
 [WCAxExplain1]: media/CODE_WCAx_Explain1.png
 [WCAExplain2]: media/CODE_WCAx_Explain2.png
 [CommitWithWI]: media/CODE_CommitWithWI.png
-[REFControlOpenWithVSCode]: ../control/index.md#open-repo-with-vscode
+[REFControlOpenWithCode]: ../control/index.md#open-repo-with-code
+<!-- [CODEcommitWI]: index.md#commit-code-with-wi -->
+
+[CodeDevContainerView]: media/Code_Dev_Container_two_tabs.png
+[NoRunningDevContainer]: media/Code_No_running_dev_containers.png
+[ListOfRunningDevContainer]: media/Code_Running_Dev_Containers.png
+[LetsGoButton]: media/Code_Dev_Container_LetsGo.png
+[TerminateButton]: media/Code_Dev_Container_Terminate.png
+[ListOfAvailableDevContainer]: media/Code_Dev_Container_Overview_Page.png
+[SettingUpEnv]: media/Code_Setting_Up_Environment.png
+[WCAxNoRepo]: media/Code_WatsonX_Dev_Container_no_Rep.png
+[CommitAndPush]: media/Code_Commit_and_Push.png
+[GitStagingQuestion]: media/Code_Git_Stage_Question.png
+[GitFetchQuestion]: media/Code_Git_Fetch_Question.png
