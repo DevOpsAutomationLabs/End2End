@@ -1,7 +1,6 @@
 # Code Lab
 
 TODO: update flow, app references and screenshots
-_**TODO: update flow, app references from PIZZA to EchoLogic and screenshots**_
 
 ## Introduction
 
@@ -9,15 +8,17 @@ TODO: add here more about Code
 
 ## How to switch to Code from Home Page
 
-You can switch to Code by either pressing "Let's go to Code" button on its tile:
+--8<-- [start:Switch2Code]
 
-![Code Tile lets go][CodeTile]
+| Step | Details                                                                             | Additional Information { width="50%" } |
+|:----:|:------------------------------------------------------------------------------------|:---------------------------------------|
+|      | **Switch to Code**                                                                  |                                        |
+|      | You can always switch using the central app switcher on the top left of your screen | ![Central App Switcher][AppSwitcher]   |
+|      |                                                                                     |                                        |
 
-Or you can always switch using the central app switcher on the top left of your screen:
+> Note: it takes a few seconds till your environment is setup and running, please be patient.
 
-![Central App Switcher][AppSwitcher]
-
-Note: it takes a few seconds till your environment is setup and running, please be patient.
+--8<-- [end:Switch2Code]
 
 ## VSCode
 

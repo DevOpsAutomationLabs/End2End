@@ -1,7 +1,6 @@
 # Control Lab
 
-TODO: update flow, app references and screenshots
-_**TODO: update flow, app references from PIZZA to EchoLogic and screenshots**_
+TODO: update flow, app references and screenshots - instead of VSCode use CODE
 
 ## Introduction
 
@@ -86,27 +85,19 @@ Press Generate Token and **SAVE your newly created Token**:
 
 ### Open repo with VSCode
 
-Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menue.
+--8<-- [start:OpenRepoWithVSCode]
 
-![Code Button Expanded][ButtonCodeExpanded]
+| Step | Details                                                                               | Additional Information { width="50%" }                     |
+|:----:|:--------------------------------------------------------------------------------------|:-----------------------------------------------------------|
+|  1   | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menue. | ![Code Button Expanded][ButtonCodeExpanded]                |
+|  2   | Click on **Open with VSCode**                                                         | ![open with vscode][OpenWithVSCode]                        |
+|  3   | In the following **Dialog Window** allow to open Link                                 | ![Allow to open VSCode by link][AllowToOpenVSCode]         |
+|  4   | VSCode will ask you for a location to clone the folder                                | ![Target Folder for cloning][SelectTargetFolderforCloning] |
+|  5   | VSCode will ask for Control Userid, enter **<demo@devops.loop>**                      | ![Code asking for Userid][CodeEnterUserID]                 |
+|  6   | VSCode will ask for Control Token, enter your **Access Token**                        | ![Code asking for Password or Token][CodeEnterPAT]         |
+|  7   | which you created in the [Access Token Section][REFPATSection]                        |                                                            |
 
-Click on **Open with VSCode** ![open with vscode][OpenWithVSCode]
-
-In the following **Dialog Window** allow to open Link
-
-![Allow to open VSCode by link][AllowToOpenVSCode]
-
-VSCode will ask you for a location to clone the folder
-
-![Target Folder for cloning][SelectTargetFolderforCloning]
-
-VSCode will ask for Control Userid, enter **<demo@devops.loop>**
-
-![Code asking for Userid][CodeEnterUserID]
-
-VSCode will ask for Control Token, enter your **Access Token** you created in the [Access Token Section](#access-token)
-
-![Code asking for Password or Token][CodeEnterPAT]
+--8<-- [end:OpenRepoWithVSCode]
 
 ### Show Git Commit Details
 
@@ -152,3 +143,4 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [SelectTargetFolderforCloning]: ../code/media/Code_VSCode_clone_targetfolder.png
 [CodeEnterUserID]: ../code/media/Code_VSCode_enterGitUser.png
 [CodeEnterPAT]: ../code/media/Code_VSCode_Enter_PAT.png
+[REFPATSection]: index.md#access-token

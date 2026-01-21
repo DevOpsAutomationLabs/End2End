@@ -8,91 +8,83 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 
 ## [Loop](learn/introduction/index.md)
 
-| Step  | Details                                                                                          | Additional Information { width="50%" }                       |
-|:-----:|:-------------------------------------------------------------------------------------------------|:-------------------------------------------------------------|
-|   1   | [Open DevOps Loop in Browser][URLDevOpsLoop]                                                     | URL= <https://devops.automation.techzone.ibm.com/automation> |
-|  1.1  | Enter Your Credentials in the Login Screen                                                       |                                                              |
-|       | <br> **User:** <demo@devops.loop> <br>  **Password:** 'Passw0rd'                                 | ![Login Screen][LoginDialog]                                 |
-|  1.2  | Click on the **Sign In** Button                                                                  | ![Sign In button][SignInButton]                              |
-|  1.3  | After login you will be on the [Home Page][LoopHomePage] of Loop                                 | ![Home Page][HomePage]{ width="50% }                         |
-|  1.4  | If you are in a different TeamSpace                                                              |                                                              |
-|       | click on **TeamSpace Icon** and switch to **Demo**                                               | ![Switch TeamSpace][SwitchToHome]                            |
-|  1.5  | If you are not on the Home Page page,                                                            |                                                              |
-|       | click on **Home Button** in the side bar to switch to the Home Page                              | ![Switch to Home][HomePageSideBar]                           |
-|   2   | The Home Page provides metrics and dashboards over all of my accessible Loops                    |                                                              |
-|  2.1  | Showing data from Plan - Ratio of Issues created versus closed                                   | ![Plan Metric][PlanMetric]                                   |
-|  2.3  | Number of Build Jobs failed and successeful finished                                             | ![Build Metric][BuildMetric]                                 |
-|  2.3  | Count of Deployments and how many of them were successfull or failed                             | ![Deploy Metric][DeployMetric]                               |
-|  2.4  | Top contributors in Control                                                                      | ![Control Metric][ControlMetric]                             |
-|  2.5  | Two DORA (DevOps Research and Assessment) metrics for                                            |                                                              |
-| 2.5.1 | Lead Time: In general, reflects the time from the start of a project until its final disposition | ![Lead Time][LeadTime]                                       |
-| 2.5.2 | Cycle Time: In general, reflects the time project elements take to resolve or complete           | ![Cycle Time][CycleTime]                                     |
-| 2.5.3 | Find out more about:                                                                             | [DORA Metrics here][URLDoraMetrics]                          |
+### Login into Loop
+
+--8<--
+learn/introduction/index.md:HowtoLogin
+--8<--
+
+### The Home Page
+
+--8<--
+learn/introduction/index.md:TheHomePage
+--8<--
+
+### Dashboards and Metrics
+
+--8<--
+learn/introduction/index.md:DashboardMetrics
+--8<--
 
 ## [Plan](learn/plan/index.md)
 
 ### Plan Overview
 
-| Step | Details                                                                                                 | Additional Information { width="50%" }                   |
-|:----:|:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------|
-|  1   | [Open Plan][PLANopen]                                                                                   |                                                          |
-|      | You can switch to Plan by either pressing "Let's go to Plan" button on its tile                         | ![Plan Tile lets go][PlanTile]                           |
-|      | Or you can always switch using the central app switcher on the top left of your screen                  | ![Central App Switcher][AppSwitcher]                     |
-|  2   | [Show My board][ShowMyBoard]                                                                            |                                                          |
-|      | To open the board use the Project Board icon ![Board Icon in sidebar][ProjectBoardsIcon] on the sidebar | ![sidebar][SidebarBoardIcon]                             |
-|      | The initial view is your My Board view which will show worktitems that are assigned to you              | ![myWork Board][MyWorkBoard]                             |
-|  3   | [Show how to filter out Epics][HowToFilter]                                                             | ![Board filter][FilterBar]                               |
-| 3.1  | Uncheck **Epic** from the list of Types                                                                 | ![Uncheck Epic][FilterUncheckEpic]                       |
-| 3.2  | Click on an empty field to trigger filter                                                               |                                                          |
-| 3.3  | Filtered Board (Epics are hidden) is shown                                                              | ![Filtered Board][BoardFiltered]                         |
-| 3.4  | Clear the filter by pressing **Clear** Button                                                           | ![Clear Filter][ButtonClearFilter]                       |
-|  4   | [Show all work items][WorkItems]                                                                        |                                                          |
-| 4.1  | Click on the **Work Items** Tab to view all Work Items (WI) of the project                              | ![Board workitems][ProjectBoardWorkItems]                |
-|  5   | [Select and Show the details of a work item][SelectWorkItem]                                            | ![Select WorkItem from Board][BoardSelectWorkItem]       |
-|      |                                                                                                         | ![Show Workitem Details][BoardShowWorkItemDetail]        |
-|  6   | [Scroll down to show SCM Events Section and click on it][ShowCommit]                                    | ![PLAN - Show Control/Git Commit Link][PlanShowCommit]   |
-|      | Click on the first entry to show the link between work item to code changes                             | ![PLAN - Show SCM commit entry][PlanShowSCMEntryDetails] |
-|      | and explain how easy it is to have traceability                                                         | ![CONTROL - Show Git Commit Details][ControlShowCommit]  |
+#### [Switch to Plan](learn/plan/index.md#how-to-switch-to-plan-from-home-page)
 
-### Use Plan AI Assistant
+--8<--
+learn/plan/index.md:SWITCH2Plan
+--8<--
 
-| Step | Details                                                                                    | Additional Information { width="50%" }                     |
-|:----:|:-------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
-|  1   | [More about AI Assistant][PlanAI]                                                          |                                                            |
-|  2   | Select the AI Assistant Icon ![AI Assistant Icon][PlanAIIcon] from the Sidebar             | ![Sidebar][PlanSidebar]                                    |
-|  3   | Accept the Terms of Service                                                                | ![Accept Terms][AcceptTerms]                               |
-|  4   | [The AI Assistant Chat Dialog opens][AIChatDialog]                                         | ![AI Assistant Dialog][AIAssistantDialog]                  |
-|  5   | Enter Now a prompt, you can use the example prompts or use the following one:              | ![Enter Prompt][AIEnterPrompt]                             |
-|      | Provide the necessary steps to implement a Keycloak solution in our enterprise application |                                                            |
-|  6   | Click on the **Next** Button to proceed                                                    | ![Next Button][AINextButton]                               |
-|  7   | [The Applying Prompts page is shown with several types][AIPagewithPrompttypes]             | ![Applying Prompts][AIApplyingPromptsType]                 |
-|  8   | Select **Generate Action Items** (click into the circle with the check mark)               | ![Generate Action Items][AIGenerateActionItems]            |
-|  9   | This will generate a set of responses                                                      | ![AI Responses][AIResponses]                               |
-|  10  | Click the **Select** Button and select **Break Down into Titles**                          | ![Select Button][AISelectButtonBreakDownintoTitles]        |
-|  11  | This will convert the list of responses to a list with checkboxes                          | ![AI Responses with Checkboxes][AIResponsesWithCheckboxes] |
-|  12  | Select a few you like from the list                                                        | ![AI Responses selected][AISelectedResponses]              |
-|  14  | [Create Records from Responses][PlanAICreateRecords]                                       |                                                            |
-|  15  | Click the **Select Record Type** Button                                                    | ![Select Record Type][AISelectRecordTypeButton]            |
-|  16  | to select **Workitem** from the list                                                       | ![Select Workitem][AISelectWorkitemRecordtype]             |
-|  17  | In the next Dialog  select the right **Project** and **Workitem Type**                     | ![Record Creation Dialog1][AIRecordCreationDialogEmpty]    |
-|  18  | for example **Project**: Echologic and **Type**: Epic                                      | ![Record Creation Dialog2][AIRecordCreationDialogFilled]   |
-|  19  | Press the **Create Records** Button to get the **Epics** created.                          | ![Create Records Button][AICreateRecordsButton]            |
-|  20  | A few seconds later all newly created records are now created                              | ![Newly created Records][AINewlyCreatedRecords]            |
-|  21  | Press **Done**  to finish using the AI Assistant                                           | ![Done Button][AIDoneButton]                               |
+#### [Show My board][ShowMyBoard]  
+
+--8<--
+learn/plan/boards/index.md:ProjectBoard
+--8<--
+
+#### [Show how to filter out Epics][HowToFilter]
+
+--8<--
+learn/plan/boards/index.md:FilterEpics
+--8<--
+
+#### [Show all work items][WorkItems]  
+
+--8<--
+learn/plan/boards/index.md:WorkItems
+--8<--
+
+### [Use Plan AI Assistant](learn/plan/ai_assistant/index.md#using-the-plan-ai-assistant)
+
+[For More about AI Assistant follow this link][PlanAI]
+
+#### AI Assistant Chat Dialog
+
+--8<--
+learn/plan/ai_assistant/index.md:PlanAIAssistantChat
+--8<--
+
+#### AI Assistant Type of Output
+
+--8<--
+learn/plan/ai_assistant/index.md:PlanAIAssistantOutputType
+--8<--
+
+#### AI Assistant Create Records from Responses
+
+--8<--
+learn/plan/ai_assistant/index.md:PlanAIAssistantCreateRecords
+--8<--
+
+---
 
 <!-- [Open a workitem and use AI to create description and exploratory test information](plan/boards/index.md#use-ai-in-workitem) -->
 
 ## [Control - Work with Repository](learn/control/index.md#open-repo-with-vscode)
 
-| Step | Details                                                                               | Additional Information { width="50%" }                     |
-|:----:|:--------------------------------------------------------------------------------------|:-----------------------------------------------------------|
-|  1   | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menue. | ![Code Button Expanded][ButtonCodeExpanded]                |
-|  2   | Click on **Open with VSCode**                                                         | ![open with vscode][OpenWithVSCode]                        |
-|  3   | In the following **Dialog Window** allow to open Link                                 | ![Allow to open VSCode by link][AllowToOpenVSCode]         |
-|  4   | VSCode will ask you for a location to clone the folder                                | ![Target Folder for cloning][SelectTargetFolderforCloning] |
-|  5   | VSCode will ask for Control Userid, enter **<demo@devops.loop>**                      | ![Code asking for Userid][CodeEnterUserID]                 |
-|  6   | VSCode will ask for Control Token, enter your **Access Token**                        | ![Code asking for Password or Token][CodeEnterPAT]         |
-|  7   | which you created in the [Access Token Section][REFPATSection]                        |                                                            |
+--8<--
+learn/control/index.md:OpenRepoWithVSCode
+--8<--
 
 ## [Code](learn/code/index.md)
 
@@ -315,9 +307,18 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 
 ---
 
+[NoTeamSpaceAvailable]: learn/introduction/media/INIT_1_NoTeamspace.png
+[LoopHomePageView]: learn/introduction/media/Loop_Home_Page.png
+[MetricPlan]: learn/introduction/media/LoopHome_Plan_metrics.png
+[MetricBuild]: learn/introduction/media/LoopHome_Build_Metrics.png
+[MetricDeploy]: learn/introduction/media/LoopHome_Deploy_Metrics.png
+[MetricControl]: learn/introduction/media/LoopHome_Control_metrics.png
+[KPIDoraLeadTime]: learn/introduction/media/LoopHome_LeadTime.png
+[KPIDoraCycleTime]: learn/introduction/media/LoopHome_CycleTime.png
 [LoginDialog]: learn/introduction/media/Loop_Login_Page.png
 [SignInButton]: learn/introduction/media/Loop_SignInButton.png
 [URLDevOpsLoop]: https://devops.automation.techzone.ibm.com/automation
+[WhatWouldYouLikeToDoToday]: learn/introduction/media/Loop_whatwouldyouliketodotoday.png
 
 [LoopHomeLoopGenieIcon]: learn/introduction/genie/media/Loop_Genie_Button.png
 [LoopGenieDialog]: learn/introduction/genie/media/Loop_Genie_Dialog.png
@@ -338,7 +339,9 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [ShowMyBoard]: learn/plan/boards/index.md#project-board
 [MyWorkBoard]: learn/plan/boards/media/Plan_ProjectBoard_myBoard.png
 [ProjectBoardsIcon]: learn/plan/boards/media/Plan_ProjectBoard_Icon.png
-[SidebarBoardIcon]: learn/plan/media/Plan_Sidebar_ProjectBoards.png
+[SideBarBoardIcon]: learn/plan/boards/media/Plan_ProjectBoard_Icon.png
+[SideBar]: learn/plan/media/Plan_Sidebar_ProjectBoards.png
+[BoardMyBoardwithoneentry]: learn/plan/boards/media/Plan_ProjectBoard_myBoard.png
 [HowToFilter]: learn/plan/boards/index.md#filter-epics
 [FilterBar]: learn/plan/boards/media/Plan_ProjectBoard_Filterbar.png
 [ButtonClearFilter]: learn/plan/boards/media/Plan_ProjectBoard_ClearFilterButton.png
@@ -350,6 +353,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [BoardSelectWorkItem]: learn/plan/boards/media/PLAN_Boards_SelectWI.png
 [BoardShowWorkItemDetail]: learn/plan/workitems/media/PLAN_Board_ShowWI_Detail.png
 [ShowCommit]: learn/plan/workitems/index.md#show-commit
+[REFWIuseAI]: learn/plan/workitems/index.md#use-ai-in-workitem
 [PlanShowCommit]: learn/plan/media/PLAN_Show_GitCommit.png
 [PlanShowSCMEntryDetails]: learn/plan/media/Plan_Show_SCM_Entry_Details.png
 [ControlShowCommit]: learn/control/media/CONTROL_ShowGitCommit.png

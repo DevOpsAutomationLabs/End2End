@@ -19,6 +19,8 @@ DevOps Plan is a change management application for tracking work-items with work
 
 ## Demo Data or New Application with Sample Data
 
+--8<-- [start:PlanNewAppWithSample]
+
 | Step | Details                                                                                    | Additional Information                                          |
 |:----:|:-------------------------------------------------------------------------------------------|:----------------------------------------------------------------|
 |  1   | [How to create a new Application](newapp/index.md)                                         |                                                                 |
@@ -27,7 +29,11 @@ DevOps Plan is a change management application for tracking work-items with work
 |  2   | [Setup Demo Data](setup/index.md)                                                          |                                                                 |
 |      | You can use the pre-created Plan application from your Loop and add sample data:           | Follow [this document][GoToSetup] to import Demo data into Plan |
 
+--8<-- [end:PlanNewAppWithSample]
+
 ## Let's go with Plan
+
+--8<-- [start:LetsGoPlan]
 
 | Step | Details                                                                                                                        | Additional Information                           |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|
@@ -40,7 +46,11 @@ DevOps Plan is a change management application for tracking work-items with work
 |      | By pressing the button "Explore" a new page is shown which provides an Introduction                                            | ![Plan Introduction page][PlanIntroductionPage]  |
 |      | to Plan and the used workflow model for the selected application:                                                              |                                                  |
 
+--8<-- [end:LetsGoPlan]
+
 ### Use Home Button to switch to Plan Home Page
+
+--8<-- [start:PlanSwitch2Homepage]
 
 | Step | Details                                                                                                             | Additional Information                       |
 |:----:|:--------------------------------------------------------------------------------------------------------------------|:---------------------------------------------|
@@ -48,13 +58,19 @@ DevOps Plan is a change management application for tracking work-items with work
 |  2   | View basic information and also the means to switch between Plan applications (My Applications Button on the right) | ![Plan Home page][PlanHomePage]              |
 |  3   | The explore options on this page will forward you to the Exploration page mentioned above.                          |                                              |
 
+--8<-- [end:PlanSwitch2Homepage]
+
 ### Explore the technical worflow
+
+--8<-- [start:ExploreTechFlow]
 
 | Step | Details                                                                                         | Additional Information                      |
 |:----:|:------------------------------------------------------------------------------------------------|:--------------------------------------------|
 |  1   | Pressing the button "View"                                                                      | ![view schema button][PlanViewSchemaButton] |
 |  2   | will open a new view to the technical details of the used workflow for the selected application | ![Schema Overview][PlanViewSchemaOverview]  |
 |  3   | This view provides the used record types, fields, transition matrizes and more.                 |                                             |
+
+--8<-- [end:ExploreTechFlow]
 
 ## [AI Assistant](ai_assistant/index.md)
 

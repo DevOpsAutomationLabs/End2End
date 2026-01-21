@@ -71,6 +71,8 @@ Last step is for every enabled user (from selected groups) is to activate the ac
 
 ### AI Assistant Chat Dialog
 
+--8<-- [start:PlanAIAssistantChat]
+
 | Step | Details                                                                        |          Additional Information           |
 |:----:|:-------------------------------------------------------------------------------|:-----------------------------------------:|
 |  1   | Select the AI Assistant Icon ![AI Assistant Icon][PlanAIIcon] from the Sidebar |          ![Sidebar][PlanSidebar]          |
@@ -79,18 +81,26 @@ Last step is for every enabled user (from selected groups) is to activate the ac
 |  4   | Enter Now a prompt, you can use the example prompts, or enter your prompt      |      ![Enter Prompt][AIEnterPrompt]       |
 |  5   | Click on the Next Button                                                       |       ![Next Button][AINextButton]        |
 
+--8<-- [end:PlanAIAssistantChat]
+
 ### AI Assistant Type of Output
+
+--8<-- [start:PlanAIAssistantOutputType]
 
 | Step | Details                                                                                                                      | Additional Information                                     |
 |:----:|:-----------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
-|  1   | Now select the type of Output you want.                                                                                      |                                                            |
+|  1   | Now select the type of Output:                                                                                               |                                                            |
 |  2   | We will select **Generate Action Items** ![Generate Action Items][AIGenerateActionItems] <br> from the Applying Prompts page | ![Applying Prompts][AIApplyingPromptsType]                 |
 |  3   | This will generate a set of responses                                                                                        | ![AI Responses][AIResponses]                               |
 |  4   | Click the **Select** Button <br> and select **Break Down into Titles**                                                       | ![Select Button][AISelectButtonBreakDownintoTitles]        |
 |  5   | This will convert the list of responses to a list with checkboxes:                                                           | ![AI Responses with Checkboxes][AIResponsesWithCheckboxes] |
 |  6   | Select a few you like from the list                                                                                          | ![AI Responses selected][AISelectedResponses]              |
 
+--8<-- [end:PlanAIAssistantOutputType]
+
 ### AI Assistant Create Records from Responses
+
+--8<-- [start:PlanAIAssistantCreateRecords]
 
 | Step | Details                                                               | Additional Information                                   |
 |:----:|:----------------------------------------------------------------------|:---------------------------------------------------------|
@@ -101,6 +111,8 @@ Last step is for every enabled user (from selected groups) is to activate the ac
 |      | Press the **Create Records** Button to get the **Epics** created      | ![Create Records Button][AICreateRecordsButton]          |
 |      | A few seconds later all newly created records are now created         | ![Newly created Records][AINewlyCreatedRecords]          |
 |      | Press **Done** to finish using the AI Assistant                       | ![Done Button][AIDoneButton]                             |
+
+--8<-- [end:PlanAIAssistantCreateRecords]
 
 ---
 

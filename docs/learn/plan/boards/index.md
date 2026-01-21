@@ -8,31 +8,34 @@ Project Boards provide a graphical Kanban style overview of worktitems.
 
 TODO: add more text here
 
-To open the board use the Project Board icon ![Board Icon in sidebar][SideBarBoardIcon] on the Sidebar ![sidebar][SideBar].
+--8<-- [start:ProjectBoard]
 
-The initial view is your My Board view which will show worktitems that are assigned to you. As we newly started the board may be empty.
-![myWork Board][BoardMyBoardwithoneentry]
+| Step | Details                                                                                                                                         | Additional Information                    |
+|:----:|:------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------|
+|      | To open the board use the Project Board icon <br> ![Board Icon in sidebar][SideBarBoardIcon] <br> on the Sidebar                                | ![sidebar][SideBar]                       |
+|      | The initial view is your **My Board** view which will show worktitems that are assigned to you. <br> As we newly started the board may be empty | ![myWork Board][BoardMyBoardwithoneentry] |
+
+--8<-- [end:ProjectBoard]
 
 TODO: Show the board with data and expain what it is good for and how to use it
 
 ### [Work Items](../workitems/index.md)
 
-Click on the **Work Items** Tab to view all Work Items (WI) of the project.
+--8<-- [start:WorkItems]
 
-- ![Board workitems][BoardWorkItems]
+| Step | Details                                                                                           | Additional Information                                   |
+|:----:|:--------------------------------------------------------------------------------------------------|:---------------------------------------------------------|
+|      | Click on the **Work Items** Tab to view all Work Items (WI) of the project                        | ![Board workitems][ProjectBoardWorkItems]                     |
+|      | Let's view a Work Item and it's Details. Please select item in the **Closed** column of the board | ![Select WorkItem from Board][BoardSelectWorkItem]       |
+|      |                                                                                                   | ![Show Workitem Details][BoardShowWorkItemDetail]        |
+|      | [Scroll down to show SCM Events Section and click on it][ShowCommit]                              | ![PLAN - Show Control/Git Commit Link][PlanShowCommit]   |
+|      | Click on the first entry to show the link between work item to code changes                       | ![PLAN - Show SCM commit entry][PlanShowSCMEntryDetails] |
+|      | and explain how easy it is to have traceability                                                   | ![CONTROL - Show Git Commit Details][ControlShowCommit]  |
+|      | *Optional:* [Use AI for Exploratory Test creation][REFWIuseAI]                                    |                                                          |
+
+--8<-- [end:WorkItems]
 
 #### Workitem
-
-Let's view a Work Item and it's Details. Please select item in the **Closed** column of the board.
-
-- ![Select WorkItem from Board][BoardSelectWI]
-- [Show Work Item Details][REFWIShowDetails]
-  - ![Show Workitem Details][BoardShowWIDetail]
-- [Show commits][REFWIShowCommits]
-  - ![PLAN - Show Control/Git Commit Link][PlanShowCommit]
-- [Use AI for Exploratory Test creation][REFWIuseAI]
-  - ![In Edit Mode][WIExploratoryInEditMode]
-  - ![Exploratory Test created][WIExploratoryTestCreated]
 
 ### Filter Projects
 
@@ -40,11 +43,17 @@ Let's view a Work Item and it's Details. Please select item in the **Closed** co
 
 ### Filter Epics
 
-- ![Board filter][BoardFilterWITypes]
-- Uncheck **Epic** [Uncheck Epic][FilterUncheckEpic]
-- Click on an empty field to trigger filter
-- Filtered Board (Epics are hidden) is shown ![Filtered Board][BoardFiltered]
-- Clear the filter by pressing **Clear** Button ![Clear Filter][ButtonClearFilter]
+--8<-- [start:FilterEpics]
+
+| Step | Details                                                   | Additional Information { width="50%" } |
+|:----:|:----------------------------------------------------------|:---------------------------------------|
+|  1   | Show how to filter out Epics by using the **Type** filter | ![Board filter][FilterBar]             |
+|  2   | Uncheck **Epic** from the list of Types                   | ![Uncheck Epic][FilterUncheckEpic]     |
+|  3   | Click on an empty field to trigger filter                 |                                        |
+|  4   | Filtered Board (Epics are hidden) is shown                | ![Filtered Board][BoardFiltered]       |
+|  5   | Clear the filter by pressing **Clear** Button             | ![Clear Filter][ButtonClearFilter]     |
+
+--8<-- [end:FilterEpics]
 
 ### Show Releases
 
@@ -71,20 +80,22 @@ Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOver
 [SideBarBoardIcon]: media/Plan_ProjectBoard_Icon.png
 [SideBar]: ../media/Plan_Sidebar_ProjectBoards.png
 [BoardMyBoardwithoneentry]: media/Plan_ProjectBoard_myBoard.png
-[BoardWorkItems]: media/Plan_ProjectBoard_WorkItems.png
-[BoardSelectWI]: media/PLAN_Boards_SelectWI.png
+[ProjectBoardWorkItems]: media/Plan_ProjectBoard_WorkItems.png
+[BoardSelectWorkItem]: media/PLAN_Boards_SelectWI.png
 
 [BoardSelectProject]: media/Plan_ProjectBoard_SelectProject.png
-[BoardFilterWITypes]: media/Plan_ProjectBoard_Filterbar.png
+[FilterBar]: media/Plan_ProjectBoard_Filterbar.png
 [BoardShowReleases]: media/Plan_ProjectBoard_Releases.png
 [BoardShowSprintBoard]: media/Plan_ProjectBoard_SprintBoard.png
 [BoardShowSprintBacklog]: media/Plan_ProjectBoard_SprintBacklog.png
 [REFWIShowDetails]: ../workitems/index.md#show-workitem-details
-[REFWIShowCommits]: ../workitems/index.md#show-commit
+[ShowCommit]: ../workitems/index.md#show-commit
 [REFWIuseAI]: ../workitems/index.md#use-ai-in-workitem
 
-[BoardShowWIDetail]: ../workitems/media/PLAN_Board_ShowWI_Detail.png
+[BoardShowWorkItemDetail]: ../workitems/media/PLAN_Board_ShowWI_Detail.png
+[PlanShowSCMEntryDetails]: ../media/Plan_Show_SCM_Entry_Details.png
 [PlanShowCommit]: ../media/PLAN_Show_GitCommit.png
+[ControlShowCommit]: ../../control/media/CONTROL_ShowGitCommit.png
 [WIExploratoryInEditMode]: ../workitems/media/Plan_WI_Exploratory_InEditMode.png
 [WIExploratoryTestCreated]: ../workitems/media/Plan_WI_Exploratory_Generated.png
 [FilterUncheckEpic]: media/Plan_ProjectBoard_Filterbar_UncheckEpic.png
