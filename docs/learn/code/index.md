@@ -12,38 +12,39 @@ TODO: add here more about Code
 
 --8<-- [start:Switch2Code]
 
-| Step | Details                                                                                          | Additional Information { width="50%" }                                           |
-|:----:|:-------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-|  1   | You can always switch using the central app switcher on the top left of your screen              | ![Central App Switcher][AppSwitcher]                                             |
-|  2   | Overview Page of Code is shown with two tabs.                                                    | ![Two sub tabs][CodeDevContainerView]                           |
-|  3   | One for Running Dev Containers                                                                   |                                                                                  |
-| 3.1  | Which may be empty when no Dev Container has been started                                        | ![No running Dev Container][NoRunningDevContainer]            |
-| 3.2  | Or all running Dev Containers with detailed Information is shown                                 | ![List of running Dev Container][ListOfRunningDevContainer]          |
-| 3.3  | Open the running container by clicking on **Let's Go** Button                                    | ![Lets go with this container][LetsGoButton]              |
-| 3.4  | If no more needed press **Terminate** button to shutdown and remove it                           | ![Terminate this container][TerminateButton]              |
-|  4   | And another for all available types of Dev Container                                             | ![Available Dev Container][ListOfAvailableDevContainer]           |
-| 4.1  | By clicking on **Let's Go** Button a Dev Container (for example WatsonX) it will be instantiated | ![Lets go with this container][LetsGoButton]              |
-| 4.2  | and a message will be shown in a new window                                                      | ![Setting up a dev container environment][SettingUpEnv] |
-| 4.3  | **it takes a few seconds till your environment is setup and running, please be patient**         |                                                                                  |
-| 4.4  | Code is shown (example: WatsonX)                                                                 | ![Code is shown for WatsonX][WCAxNoRepo]        |
+| Step | Details                                                                                          | Additional Information { width="50%" }                      |
+|:----:|:-------------------------------------------------------------------------------------------------|:------------------------------------------------------------|
+|  1   | You can always switch using the central app switcher on the top left of your screen              | ![Central App Switcher][AppSwitcher]                        |
+|  2   | Overview Page of Code is shown with two tabs.                                                    | ![Two sub tabs][CodeDevContainerView]                       |
+|  3   | One for Running Dev Containers                                                                   |                                                             |
+| 3.1  | Which may be empty when no Dev Container has been started                                        | ![No running Dev Container][NoRunningDevContainer]          |
+| 3.2  | Or all running Dev Containers with detailed Information is shown                                 | ![List of running Dev Container][ListOfRunningDevContainer] |
+| 3.3  | Open the running container by clicking on **Let's Go** Button                                    | ![Lets go with this container][LetsGoButton]                |
+| 3.4  | If no more needed press **Terminate** button to shutdown and remove it                           | ![Terminate this container][TerminateButton]                |
+|  4   | And another for all available types of Dev Container                                             | ![Available Dev Container][ListOfAvailableDevContainer]     |
+| 4.1  | By clicking on **Let's Go** Button a Dev Container (for example WatsonX) it will be instantiated | ![Lets go with this container][LetsGoButton]                |
+| 4.2  | and a message will be shown in a new window                                                      | ![Setting up a dev container environment][SettingUpEnv]     |
+| 4.3  | **it takes a few seconds till your environment is setup and running, please be patient**         |                                                             |
+| 4.4  | Code is shown (example: WatsonX)                                                                 | ![Code is shown for WatsonX][WCAxNoRepo]                    |
 
 --8<-- [end:Switch2Code]
 
 ### How to use Code
 
+If Code has not been opened yet [Open the repository with Code from Control Repo view][REFControlOpenWithCode]
+
 --8<-- [start:UseCode]
 
-| Step | Details                                                                            | Additional Information { width="50%" } |
-|:----:|:-----------------------------------------------------------------------------------|:---------------------------------------|
-|  1   | Explain that we showed the link between a work item and the code in control        |                                        |
-|  2   | [Open the repository with Code from Control Repo view][REFControlOpenWithCode] |                                        |
-|  3   | Use WCA to explain code and generate some new code                                 | ![Explain code part 1][WCAxExplain1]   |
-|  3.1    | here an example | ![Explain code part 2][WCAExplain2]    |
-| 4 | change some code and save the changes to be able to commit to Control | |
-|  4.1   | Add comment with work item number                                    | ![Commit Code with WI][CommitWithWI]   |
-| 4.2 | Click on **Commit&Push** by opening the **Commit Button** | ![Commit and push][CommitAndPush] |
-| 4.3 | a message might appear about **staging** changes, press the **Always** button | ![asking about git staging][GitStagingQuestion] |
-| 4.4 | a message might appear about **fetching** changes from git, press **Fetch** | ![periodially use Git Fetch][GitFetchQuestion] |
+| Step | Details                                                                       | Additional Information { width="50%" }          |
+|:----:|:------------------------------------------------------------------------------|:------------------------------------------------|
+|  1   | Talk about Code                                                               |                                                 |
+|  2   | change some code and save the changes to be able to commit to Control         |                                                 |
+|  3   | Or **optionaly** Use WCA to explain code and generate some new code           | ![Explain code part 1][WCAxExplain1]            |
+| 3.1  | here an example                                                               | ![Explain code part 2][WCAExplain2]             |
+|  4   | Add comment with work item number                                             | ![Commit Code with WI][CommitWithWI]            |
+|  5   | Click on **Commit&Push** by opening the **Commit Button**                     | ![Commit and push][CommitAndPush]               |
+| 5.1  | a message might appear about **staging** changes, press the **Always** button | ![asking about git staging][GitStagingQuestion] |
+| 5.2  | a message might appear about **fetching** changes from git, press **Fetch**   | ![periodially use Git Fetch][GitFetchQuestion]  |
 
 --8<-- [end:UseCode]
 

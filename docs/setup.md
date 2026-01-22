@@ -431,7 +431,7 @@ If no Application exists either import or create application
 [SetupDemoData]: #setup-demo-data
 [GoToSelfenablement]: learn/index.md
 [GoToDemoFlow]: demoflow.md
-[SetupTSandLoop]: #setup-a-teamspace-and-loop
+<!--[SetupTSandLoop]: #setup-a-teamspace-and-loop-->
 [PlanTile]: learn/introduction/media/Loop_switch_to_Plan.png
 [AppSwitcher]: learn/introduction/media/Loop_central_app_control.png
 [WhatWouldYouLikeToDoToday]: learn/introduction/media/Loop_whatwouldyouliketodotoday.png

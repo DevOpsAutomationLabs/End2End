@@ -6,78 +6,85 @@ TODO: add here more about Control
 
 ## How to switch to Control from Home Page
 
-You can switch to Control by either pressing "Let's go to Control" button on its tile:
+--8<-- [start:SWITCH2Control]
 
-![Control Tile lets go][ControlTile]
+| Step | Details                                                                                                     | Additional Information                                         |
+|:----:|:------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
+|      | You can always switch using the central app switcher on the top left of your screen                         | ![Central App Switcher][CentralAppSwitcher]                    |
+|      | Or You can switch directly to Control by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
-Or you can always switch using the central app switcher on the top left of your screen:
-
-![Central App Switcher][CentralAppSwitcher]
+--8<-- [end:SWITCH2Control]
 
 ## Managing Repositories and Organizations
 
-The home page for Control is the Repositories and Organizations view. In this view you will get a list of all your repositories and organizations. If you have active repositories also a activity report will be shown. The first time you use Control an empty list is shown:
+--8<-- [start:ManageRepoOrgs]
 
-![List my Repos and Orgs][ControlListOrgsRepos]
+The home page for Control is the Repositories and Organizations view. In this view you will get a list of all your repositories and organizations.
 
-After creation of a repository an activity dashboard will be added to it:
+| Step | Details                                                                                                                         | Additional Information                                      |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------|
+|      | The first time you use Control with no "Learning data" used, an empty list is shown                                             | ![List my Repos and Orgs][ControlListOrgsRepos]             |
+|      | If you have checked the "Learning Data" during Loop creation then the repo will be shown                                        | ![learning data repo][ControlLearningRepo]                  |
+|      | By clicking on the **Home** Button ![HomePage Button][ControlHomeButton] all activities will be shown                           | ![Home Page Report][ControlHomePage]                        |
+|      | click on the Pull request Icon ![List Pulls Icon][ControlListPullrequestsIcon] to view all pull requests                        | ![List my Pull Requests][ControlListPullRequests]           |
+|      | Click on the List all Repositories Icon ![List all Repos Ico][ControlAllRepoIcon] to see all Repositories you can get access to | ![Explore other Repos and Orgs][ControlExploreOtherOrgRepo] |
+|      |                                                                                                                                 |                                                             |
 
-![Activity Report][ControlActivityReport]
-
-On the left of your screen you can switch to the list of pulls by clicking on the Pull request Icon ![List Pulls Icon][ControlListPullrequestsIcon] a new view is provided with all your related (assigned to you, created by you, review needed by you or mentioning you) pull requests:
-
-![List my Pull Requests][ControlListPullRequests]
-
-Click on the List all Repositories Icon ![List all Repos Ico][ControlAllRepoIcon] to see all Repositories you can get access to:
-
-![Explore other Repos and Orgs][ControlExploreOtherOrgRepo]
+--8<-- [end:ManageRepoOrgs]
 
 ## Create a new Repository
 
-### Fork a repository
-
-In this lab we want to for an existing repository. To achieve this select the PizzaApp repository as shown below:
-
-![Select PizzaApp Repo][ControlSelectAPPRepo]
-
-In the repository click the Fork button on the top right left:
-
-![Fork repo][ControlForkRepo]
-
-Use the preprovided information and proceed by clicking "Fork ...":
-
-![Fork enter details][ControlForkDetails]
-
-Congratulations! You have now your own repository!
-
-![Newly forked repo][ControlForkedRepo]
-
 ### Create New Repository
 
-If you want to create a fresh new repository or migrate an existing repository to Control, use the NEW button to proceed:
+--8<-- [start:NewRepo]
 
-![New Button][ControlNewRepoButton]
+| Step | Details                                                                                                      | Additional Information              |
+|:----:|:-------------------------------------------------------------------------------------------------------------|:------------------------------------|
+|      | To create a fresh new repository or migrate an existing repository to Control, use the NEW button to proceed | ![New Button][ControlNewRepoButton] |
+|      |                                                                                                              |                                     |
+
+--8<-- [end:NewRepo]
+
+### Fork a repository
+
+--8<-- [start:ForkRepo]
+
+| Step | Details | Additional Information |
+|:----:|:--------|:-----------------------|
+|      |Select the source repository in Control, in this example we will fork this repository|![Select PizzaApp Repo][ControlSelectAPPRepo]|
+|      |In the repository click the Fork button on the top right left|![Fork repo][ControlForkRepo]|
+|      |Use the preprovided information and proceed by clicking "Fork ..."|![Fork enter details][ControlForkDetails]|
+|      |Forked repository is shown |![Newly forked repo][ControlForkedRepo]|
+
+--8<-- [end:ForkRepo]
+
+### Migrate a repository
+
+--8<-- [start:MigrateRepo]
+
+| Step | Details                                                                                         | Additional Information                      |
+|:----:|:------------------------------------------------------------------------------------------------|:--------------------------------------------|
+|      |                                                                                                 |                                             |
+|      |                                                                                                 |                                             |
+
+--8<-- [end:MigrateRepo]
 
 ## Access Token
 
-For external use of the repositories you need to provide an Access Token, for example to be able to clone and push changes to it.
+--8<-- [start:NewPAT]
 
-Please clieck on your User Profile and select Settings:
+| Step | Details                                                                                                    | Additional Information                             |
+|:----:|:-----------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
+|      | For external access to the repositories you need to provide an Access Token                                |                                                    |
+|      | to create a new token, click on your **User Profile** and select **Settings**                              | ![User Profile][ControlUserProfile]                |
+|      | In the Settings view click on Access Tokens then enter a Token name to identify its purpose                | ![Name for new PAT][ControlNewPATName]             |
+|      | Click on **Select Permissions** to set the access rights, select **All** to cover all repositories         | ![Open Select Permissions][ControlOpenPermissions] |
+|      | Set **Repository** to *Read and Write* and Set **User** to *Read*                                          | ![Set Permissions][ControlPATSetPermissions]       |
+|      | These settigs are the minimal needed to provide access to work with your repository through external tools | ![Create AccessToken][ControlCreateAccesstoken]    |
+|      | Press **Generate Token**                                                                                   | ![Generate Token][ControlGeneratePATButton]        |
+|      | Do not to forget to **Copy and Paste the token!**                                                          | ![AccessToken][ControlAccessToken]                 |
 
-![User Profile][ControlUserProfile]
-
-In the Settings view click on Access Tokens then enter a Token name, use your StudentName (eg. Student13) and extend it with "AccessToken" and set the permissions:
-
-- Set Repository to Read and Write
-- Set User to Read
-
-These settigs are the minimal needed to provide access to work with your repository through external tools:
-
-![Create AccessToken][ControlCreateAccesstoken]
-
-Press Generate Token and **SAVE your newly created Token**:
-
-![AccessToken][ControlAccessToken]
+--8<-- [end:NewPAT]
 
 ## Explore Control
 
@@ -117,18 +124,26 @@ Press Generate Token and **SAVE your newly created Token**:
  -->
 ### Show Git Commit Details
 
+--8<-- [start:ShowGitCommitDetails]
+
 - ![CONTROL - Show Git Commit Details][ControlShowGitCommitDetails]
+
+--8<-- [end:ShowGitCommitDetails]
 
 ### Show Activity Report
 
+--8<-- [start:ShowLastCommits]
+
 ![Show Last Commit][ControlShowLastCommit]
+
+--8<-- [end:ShowLastCommits]
 
 ---
 
-[ControlTile]: ../introduction/media/Loop_switch_to_Control.png
+[WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png
 [CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
 [ControlListOrgsRepos]: media/Control_List_Repo_and_Org.png
-[ControlActivityReport]: media/Control_HomePage_ActivityReport.png
+[ControlHomePage]: media/CONTROL_HomePage_of_DemoEchoLogic.png
 [ControlListPullRequests]: media/Control_List_Pulls.png
 [ControlAllRepoIcon]: media/Control_SidebarRepos.png
 [ControlExploreOtherOrgRepo]: media/Control_List_Explore_Repo_orgs_etc.png
@@ -156,3 +171,10 @@ Press Generate Token and **SAVE your newly created Token**:
 [CodeEnterUserID]: ../code/media/Code_VSCode_enterGitUser.png
 [CodeEnterPAT]: ../code/media/Code_VSCode_Enter_PAT.png
 [REFPATSection]: index.md#access-token -->
+
+[ControlLearningRepo]: media/Control_LearningDataRepo.png
+[ControlHomeButton]: media/Control_SidebarHome.png
+[ControlNewPATName]: media/Control_NewPAT_Name.png
+[ControlPATSetPermissions]: media/Control_NewPAT_setpermissions_minimal.png
+[ControlOpenPermissions]: media/Control_NewPat_SelectAccessTypePermissions.png
+[ControlGeneratePATButton]: media/Control_NewPAT_Generate_Button.png

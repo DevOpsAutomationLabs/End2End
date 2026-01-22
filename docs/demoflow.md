@@ -83,14 +83,17 @@ learn/plan/ai_assistant/index.md:PlanAIAssistantCreateRecords
 ## [Control - Work with Repository](learn/control/index.md#open-repo-with-code)
 
 --8<--
+learn/control/index.md:SWITCH2Control
+--8<--
+--8<--
 learn/control/index.md:OpenRepoWithCode
 --8<--
 
 ## [Code](learn/code/index.md)
 
---8<--
+<!-- --8<--
 learn/code/index.md:Switch2Code
---8<--
+--8<-- -->
 --8<--
 learn/code/index.md:UseCode
 --8<--
@@ -535,7 +538,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [REFAppProcessView]: learn/deploy/processes/index.md#view-application-processes
 [REFCompProcessView]: learn/deploy/processes/index.md#view-component-processes
 [REFAppProcesses]: learn/deploy/processes/index.md#application-processes
-[TabPipeline]: media/../learn/measure/media/Measure_Pipeline_Tab.png
+[TabPipeline]: learn/measure/media/Measure_Pipeline_Tab.png
 [PipelineView]: learn/measure/media/Measure_PipelineView.png
 [3Dots]: media/3Dots.png
 [MeasureEnv3DotsMenue]: learn/measure/media/Measure_Pipeline_Env_3Dotsmenue.png
