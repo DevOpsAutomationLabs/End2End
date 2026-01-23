@@ -12,7 +12,7 @@ DevOps Plan is a change management application for tracking work-items with work
 
 | Step | Details                                                                                                  | Additional Information                                         |
 |:----:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | You can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][AppSwitcher]                           |
+|  1   | You can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][CentralAppSwitcher]                           |
 |  2   | Or You can switch directly to Plan by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 --8<-- [end:SWITCH2Plan]
@@ -101,7 +101,7 @@ Please follow [this steps for setting up the AI integration](ai_assistant/index.
 [ShowCommitLink]: media/PLAN_Show_GitCommit.png
 [AppPage]: media/Plan_Applications_Page.png
 [AppPageList]: newapp/media/PLAN_Tenant_AppListFinal.png
-[AppSwitcher]: ../introduction/media/Loop_central_app_control.png
+[CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
 
  <!-- media/Plan_Applications_page.png -->
 

@@ -75,15 +75,15 @@ learn/plan/ai_assistant/index.md:PlanAIAssistantOutputType
 --8<--
 learn/plan/ai_assistant/index.md:PlanAIAssistantCreateRecords
 --8<--
-
----
-
 <!-- [Open a workitem and use AI to create description and exploratory test information](plan/boards/index.md#use-ai-in-workitem) -->
 
 ## [Control - Work with Repository](learn/control/index.md#open-repo-with-code)
 
 --8<--
 learn/control/index.md:SWITCH2Control
+--8<--
+--8<--
+learn/control/index.md:ManageRepoOrgs
 --8<--
 --8<--
 learn/control/index.md:OpenRepoWithCode
@@ -100,23 +100,38 @@ learn/code/index.md:UseCode
 
 ## [Control](learn/control/index.md)
 
-| Step | Details                                                                       | Additional Information { width="50%" }                  |
-|:----:|:------------------------------------------------------------------------------|:--------------------------------------------------------|
-|  1   | [Open Control][ControlOPEN]                                                   |                                                         |
-|  2   | [Show the Update][ControlShowUpdate] in the activity report of the repository | ![Show Last Commit][ControlShowLastCommit]              |
-|  3   | Git Commit Details                                                            | ![CONTROL - Show Git Commit Details][ControlShowCommit] |
+--8<--
+learn/control/index.md:ShowLastCommits
+--8<--
+--8<--
+learn/control/index.md:ShowGitCommitDetails
+--8<--
 
 ## [Build](learn/build/index.md)
 
-| Step | Details                                                             | Additional Information { width="50%" }                             |
-|:----:|:--------------------------------------------------------------------|:-------------------------------------------------------------------|
-|  1   | [Open Build][BuildOpen]                                             |                                                                    |
-|  2   | [Show overview on build runs and results][BuildOverviewRunsResults] | ![Project Build Runs and Results][BuildProjectRunsResults]         |
-|  3   | [Show build process][BuildShowBuildProcess]                         | ![Build Process Detail][BuildProcessDetail]                        |
-|  4   | [Show Templates][BuildShowTemplates]                                | ![Templates - Process][BuildProcessTemplates]                      |
-|  5   | [Show Build Template Detail][BuildShowTemplateDetail]               | ![Templates - Process Details][BuildProcessTemplatesDetail]        |
-|  6   | [Show Build Template Definition][BuildShowTemplateDefinition]       | ![Templates - Process Definition][BuildProcessTemplatesDefinition] |
-|      |                                                                     |                                                                    |
+--8<--
+learn/build/index.md:SWITCH2Build
+--8<--
+
+--8<--
+learn/build/index.md:ProjectBuildRunResults
+--8<--
+
+--8<--
+learn/build/index.md:BuildProcDetail
+--8<--
+
+--8<--
+learn/build/index.md:ProcessTemplates
+--8<--
+
+--8<--
+learn/build/index.md:ProcessDetailsTemplates
+--8<--
+
+--8<--
+learn/build/index.md:ProcessDefTemplates
+--8<--
 
 ## [Deploy](learn/deploy/index.md)
 
@@ -308,6 +323,23 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 
 ---
 
+[GoBackToDemoOverview]: index.md
+[ChartFlowOfDemo]: media/demoflow.png
+
+<!-- INTRODUCTION -->
+
+[CentralAppSwitcher]: learn/introduction/media/Loop_central_app_control.png
+[IntroductionAboutBoxSidebarPlugins]: learn/introduction/about/index.md
+[SwitchToHome]: learn/introduction/media/Loop_Sidebar_SwitchTeamSpace.png
+[LoopHomePage]: learn/introduction/index.md#the-home-page
+[HomePage]: learn/introduction/media/Loop_Home_Page.png
+[HomePageSideBar]: learn/introduction/media/Loop_Home_Page_SideBar.png
+
+[URLDoraMetrics]: https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-dora
+[3Dots]: media/3Dots.png
+
+[ReleaseTile]: learn/introduction/media/Loop_switch_to_Release.png
+[SwitchToTest]: learn/introduction/media/Loop_switch_to_Test.png
 [NoTeamSpaceAvailable]: learn/introduction/media/INIT_1_NoTeamspace.png
 [LoopHomePageView]: learn/introduction/media/Loop_Home_Page.png
 [MetricPlan]: learn/introduction/media/LoopHome_Plan_metrics.png
@@ -320,23 +352,18 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [SignInButton]: learn/introduction/media/Loop_SignInButton.png
 [URLDevOpsLoop]: https://devops.automation.techzone.ibm.com/automation
 [WhatWouldYouLikeToDoToday]: learn/introduction/media/Loop_whatwouldyouliketodotoday.png
-
 [LoopHomeLoopGenieIcon]: learn/introduction/genie/media/Loop_Genie_Button.png
 [LoopGenieDialog]: learn/introduction/genie/media/Loop_Genie_Dialog.png
-[GoBackToDemoOverview]: index.md
-
-[HomePage]: learn/introduction/media/Loop_Home_Page.png
-[HomePageSideBar]: learn/introduction/media/Loop_Home_Page_SideBar.png
-[SwitchToHome]: learn/introduction/media/Loop_Sidebar_SwitchTeamSpace.png
 [PlanMetric]: learn/introduction/media/LoopHome_Plan_metrics.png
 [BuildMetric]: learn/introduction/media/LoopHome_Build_Metrics.png
 [DeployMetric]: learn/introduction/media/LoopHome_Deploy_Metrics.png
 [ControlMetric]: learn/introduction/media/LoopHome_Control_metrics.png
 [LeadTime]: learn/introduction/media/LoopHome_LeadTime.png
 [CycleTime]: learn/introduction/media/LoopHome_CycleTime.png
-[PLANopen]: learn/plan/index.md#how-to-switch-to-plan-from-home-page
 [PlanTile]: learn/introduction/media/Loop_switch_to_Plan.png
-[AppSwitcher]: learn/introduction/media/Loop_central_app_control.png
+
+<!-- PLAN -->
+[PLANopen]: learn/plan/index.md#how-to-switch-to-plan-from-home-page
 [ShowMyBoard]: learn/plan/boards/index.md#project-board
 [MyWorkBoard]: learn/plan/boards/media/Plan_ProjectBoard_myBoard.png
 [ProjectBoardsIcon]: learn/plan/boards/media/Plan_ProjectBoard_Icon.png
@@ -357,8 +384,8 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [REFWIuseAI]: learn/plan/workitems/index.md#use-ai-in-workitem
 [PlanShowCommit]: learn/plan/media/PLAN_Show_GitCommit.png
 [PlanShowSCMEntryDetails]: learn/plan/media/Plan_Show_SCM_Entry_Details.png
-[ControlShowCommit]: learn/control/media/CONTROL_ShowGitCommit.png
 
+<!-- PLAN AI -->
 [PlanAI]: learn/plan/index.md#ai-assistant
 [PlanAIIcon]: learn/plan/ai_assistant/media/PLAN_AI_assistant_Icon.png
 [PlanSidebar]: learn/plan/media/PLAN_Sidebar.png
@@ -382,24 +409,48 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [AIChatDialog]: learn/plan/ai_assistant/index.md#ai-assistant-chat-dialog
 [AIPagewithPrompttypes]: learn/plan/ai_assistant/index.md#ai-assistant-type-of-output
 [PlanAICreateRecords]: learn/plan/ai_assistant/index.md#ai-assistant-create-records-from-responses
-[CODEopen]: learn/code/index.md#how-to-switch-to-code-from-home-page
 
+<!-- CODE -->
+[CODEopen]: learn/code/index.md#how-to-switch-to-code-from-home-page
 [WCAxExplain1]: learn/code/media/CODE_WCAx_Explain1.png
 [WCAExplain2]: learn/code/media/CODE_WCAx_Explain2.png
 [CommitWithWI]: learn/code/media/CODE_CommitWithWI.png
-[REFControlOpenWithCode]: learn/control/index.md#open-repo-with-code
-
 [CODEWcaX]: learn/code/index.md#watsonx-code-assistant
 [CODEcommitWI]: learn/code/index.md#commit-code-with-wi
 [CodeWithWIcommit]: learn/code/media/CODE_CommitWithWI.png
-
 [CommitAndPush]: learn/code/media/Code_Commit_and_Push.png
 [GitStagingQuestion]: learn/code/media/Code_Git_Stage_Question.png
 [GitFetchQuestion]: learn/code/media/Code_Git_Fetch_Question.png
+[CodeGitCloneSuccess]: learn/code/media/Code_Git_Clone_Success.png
+[CodeDevContainerView]: learn/code/media/Code_Dev_Container_two_tabs.png
+[NoRunningDevContainer]: learn/code/media/Code_No_running_dev_containers.png
+[ListOfRunningDevContainer]: learn/code/media/Code_Running_Dev_Containers.png
+[LetsGoButton]: learn/code/media/Code_Dev_Container_LetsGo.png
+[TerminateButton]: learn/code/media/Code_Dev_Container_Terminate.png
+[ListOfAvailableDevContainer]: learn/code/media/Code_Dev_Container_Overview_Page.png
+[SettingUpEnv]: learn/code/media/Code_Setting_Up_Environment.png
+[WCAxNoRepo]: learn/code/media/Code_WatsonX_Dev_Container_no_Rep.png
 
+<!-- CONTROL -->
 [ControlOPEN]: learn/control/index.md#how-to-switch-to-control-from-home-page
 [ControlShowUpdate]: learn/control/index.md#show-activity-report
 [ControlShowLastCommit]: learn/control/media/CONTROL_ShowLastCommit.png
+[ControlListOrgsRepos]: learn/control/media/Control_List_Repo_and_Org.png
+[ControlHomePage]: learn/control/media/CONTROL_HomePage_of_DemoEchoLogic.png
+[ControlListPullRequests]: learn/control/media/Control_List_Pulls.png
+[ControlAllRepoIcon]: learn/control/media/Control_SidebarRepos.png
+[ControlExploreOtherOrgRepo]: learn/control/media/Control_List_Explore_Repo_orgs_etc.png
+[ControlLearningRepo]: learn/control/media/Control_LearningDataRepo.png
+[ControlShowCommit]: learn/control/media/CONTROL_ShowGitCommit.png
+[REFControlOpenWithCode]: learn/control/index.md#open-repo-with-code
+[ButtonCode]: learn/control/media/Control_CodeButton.png
+[ButtonCodeExpanded]: learn/control/media/Control_CodeButtonExpanded.png
+[OpenWithCode]: learn/control/media/Control_Open_with_DevOps_Code.png
+[SelectFromListDC1]: learn/control/media/Control_Dev_Container_select_from_list.png
+[SelectFromListDC2]: learn/control/media/Control_Dev_Container_select_from_list2.png
+[CloneButton]: learn/control/media/Control_Code_Clone_Button.png
+
+<!-- BUILD -->
 [BuildProcessDetail]: learn/build/media/BUILD_Process_Runs_Details.png
 [BuildProcessTemplates]: learn/build/media/BUILD_Template_Process.png
 [BuildShowBuildProcess]: learn/build/index.md#build-process-detail
@@ -411,7 +462,13 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [BuildShowTemplates]: learn/build/index.md#templates
 [BuildShowTemplateDetail]: learn/build/index.md#process-template-detail
 [BuildShowTemplateDefinition]: learn/build/media/BUILD_Templates_Process_Def.png
+[BuildMetrics]: learn/build/media/Build_Metrics.png
+[Build3Buttons]: learn/build/media/Build_3Buttons.png
+[BuildProcDetails]: learn/build/media/Build_ProcessLink_in_ProjectsView.png
+[BuildRecentRunsMetricsFilter]: learn/build/media/Build_Process_runs_details_metrics_and_filter.png
+[BuildTimePeriodFilter]: learn/build/media/Build_Metrics_TimePeriodfilter.png
 
+<!-- DEPLOY -->
 [DeployOpen]: learn/deploy/index.md#how-to-switch-to-deploy-from-home-page
 [REFDeployOverview]: learn/deploy/index.md#overview
 [DeployShowLandingPage]: learn/deploy/index.md#deploy-landing-page
@@ -445,14 +502,6 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [DeploySettingsPluginsList]: learn/deploy/settings/media/DEPLOY_PluginsList.png
 [DeploySettingsAutomationSection]: learn/deploy/settings/index.md#plugins
 [DeployPlugin3DotsMenue]: learn/deploy/media/DEPLOY_PluginList_3DotsMenue.png
-[TestOpen]: learn/test/index.md#how-to-switch-to-test-from-home-page
-[MeasureOpen]: learn/measure/index.md#how-to-switch-to-measure-from-home-page
-[ReleaseOpen]: learn/release/index.md#how-to-switch-to-release-from-home-page
-[ReleaseTile]: learn/introduction/media/Loop_switch_to_Release.png
-[CentralAppSwitcher]: learn/introduction/media/Loop_central_app_control.png
-[LoopHomePage]: learn/introduction/index.md#the-home-page
-[IntroductionAboutBoxSidebarPlugins]: learn/introduction/about/index.md
-[ChartFlowOfDemo]: media/demoflow.png
 [SBApplicationsIcon]: learn/deploy/media/Deploy_Sidebar_AppIcon.jpg
 [APPSallView]: learn/deploy/applications/media/Deploy_Applications_View.png
 [AppViewWEnv]: learn/deploy/applications/media/Deploy_Application_View_WithEnv.png
@@ -473,32 +522,12 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [RunFailed]: learn/deploy/media/Deploy_AppRun_ResultFailed.png
 [GenieAnalysis]: learn/deploy/media/Deploy_AppProcess_AI_Analysis.png
 [Step3DotsMenueWithGenie]: learn/deploy/media/Deploy_AppRun_ResultFailed_Step_3Dots.png
+[REFAppProcessView]: learn/deploy/processes/index.md#view-application-processes
+[REFCompProcessView]: learn/deploy/processes/index.md#view-component-processes
+[REFAppProcesses]: learn/deploy/processes/index.md#application-processes
 
-[ButtonCode]: learn/control/media/Control_CodeButton.png
-[ButtonCodeExpanded]: learn/control/media/Control_CodeButtonExpanded.png
-[OpenWithCode]: learn/control/media/Control_Open_with_DevOps_Code.png
-[SelectFromListDC1]: learn/control/media/Control_Dev_Container_select_from_list.png
-[SelectFromListDC2]: learn/control/media/Control_Dev_Container_select_from_list2.png
-[CloneButton]: learn/control/media/Control_Code_Clone_Button.png
-[CodeGitCloneSuccess]: learn/code/media/Code_Git_Clone_Success.png
-
-[CodeDevContainerView]: learn/code/media/Code_Dev_Container_two_tabs.png
-[NoRunningDevContainer]: learn/code/media/Code_No_running_dev_containers.png
-[ListOfRunningDevContainer]: learn/code/media/Code_Running_Dev_Containers.png
-[LetsGoButton]: learn/code/media/Code_Dev_Container_LetsGo.png
-[TerminateButton]: learn/code/media/Code_Dev_Container_Terminate.png
-[ListOfAvailableDevContainer]: learn/code/media/Code_Dev_Container_Overview_Page.png
-[SettingUpEnv]: learn/code/media/Code_Setting_Up_Environment.png
-[WCAxNoRepo]: learn/code/media/Code_WatsonX_Dev_Container_no_Rep.png
-
-<!-- [OpenWithVSCode]: learn/control/media/Control_Open_with_VSCode.png
-[AllowToOpenVSCode]: learn/control/media/Control_AllowOpenVSCode.png
-[SelectTargetFolderforCloning]: learn/code/media/Code_VSCode_clone_targetfolder.png
-[CodeEnterUserID]: learn/code/media/Code_VSCode_enterGitUser.png
-[CodeEnterPAT]: learn/code/media/Code_VSCode_Enter_PAT.png
-[REFPATSection]: learn/control/index.md#access-token
- -->
-[SwitchToTest]: learn/introduction/media/Loop_switch_to_Test.png
+<!-- TEST -->
+[TestOpen]: learn/test/index.md#how-to-switch-to-test-from-home-page
 [SectionExecute]: learn/test/media/Test_Sidebar_ExecuteSection.png
 [ExecuteScriptList]: learn/test/media/Test_Execute_ScriptList.png
 [ButtonRun]: learn/test/media/Test_RunButton.png
@@ -534,13 +563,8 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [TestDataFiles]: learn/test/media/Test_Data_DownloadedFiles.png
 [TestDataGenerated]: learn/test/media/Test_Data_GeneratedData.png
 
-[URLDoraMetrics]: https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-dora
-[REFAppProcessView]: learn/deploy/processes/index.md#view-application-processes
-[REFCompProcessView]: learn/deploy/processes/index.md#view-component-processes
-[REFAppProcesses]: learn/deploy/processes/index.md#application-processes
-[TabPipeline]: learn/measure/media/Measure_Pipeline_Tab.png
-[PipelineView]: learn/measure/media/Measure_PipelineView.png
-[3Dots]: media/3Dots.png
+<!-- MEASURE -->
+[MeasureOpen]: learn/measure/index.md#how-to-switch-to-measure-from-home-page
 [MeasureEnv3DotsMenue]: learn/measure/media/Measure_Pipeline_Env_3Dotsmenue.png
 [MeasureGateDialog1]: learn/measure/media/Measure_Pipeline_Env_CreateGatedialog1.png
 [MeasureGateDialog2]: learn/measure/media/Measure_Pipeline_Env_CreateGatedialog2.png
@@ -552,6 +576,18 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [VSMSelectDot]: learn/measure/media/VSM_ViewDot.png
 [TabSwimlane]: learn/measure/media/Measure_Swimlane_Tab.png
 [SwimlaneView]: learn/measure/media/Measure_Swimlane_view.png
+[TabPipeline]: learn/measure/media/Measure_Pipeline_Tab.png
+[PipelineView]: learn/measure/media/Measure_PipelineView.png
+
+<!-- RELEASE -->
+[ReleaseOpen]: learn/release/index.md#how-to-switch-to-release-from-home-page
 [ReleaseViewasList]: learn/release/media/Release_View_asList.png
 [ReleaseSwitchToTiles]: learn/release/media/Release_Switch_To_TilesView.png
 [ReleaseViewasTiles]: learn/release/media/Release_View_asTiles.png
+<!-- [OpenWithVSCode]: learn/control/media/Control_Open_with_VSCode.png
+[AllowToOpenVSCode]: learn/control/media/Control_AllowOpenVSCode.png
+[SelectTargetFolderforCloning]: learn/code/media/Code_VSCode_clone_targetfolder.png
+[CodeEnterUserID]: learn/code/media/Code_VSCode_enterGitUser.png
+[CodeEnterPAT]: learn/code/media/Code_VSCode_Enter_PAT.png
+[REFPATSection]: learn/control/index.md#access-token
+ -->

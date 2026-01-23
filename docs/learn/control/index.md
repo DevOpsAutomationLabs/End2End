@@ -49,12 +49,12 @@ The home page for Control is the Repositories and Organizations view. In this vi
 
 --8<-- [start:ForkRepo]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:-----------------------|
-|      |Select the source repository in Control, in this example we will fork this repository|![Select PizzaApp Repo][ControlSelectAPPRepo]|
-|      |In the repository click the Fork button on the top right left|![Fork repo][ControlForkRepo]|
-|      |Use the preprovided information and proceed by clicking "Fork ..."|![Fork enter details][ControlForkDetails]|
-|      |Forked repository is shown |![Newly forked repo][ControlForkedRepo]|
+| Step | Details                                                                               | Additional Information                        |
+|:----:|:--------------------------------------------------------------------------------------|:----------------------------------------------|
+|      | Select the source repository in Control, in this example we will fork this repository | ![Select PizzaApp Repo][ControlSelectAPPRepo] |
+|      | In the repository click the Fork button on the top right left                         | ![Fork repo][ControlForkRepo]                 |
+|      | Use the preprovided information and proceed by clicking "Fork ..."                    | ![Fork enter details][ControlForkDetails]     |
+|      | Forked repository is shown                                                            | ![Newly forked repo][ControlForkedRepo]       |
 
 --8<-- [end:ForkRepo]
 
@@ -62,10 +62,10 @@ The home page for Control is the Repositories and Organizations view. In this vi
 
 --8<-- [start:MigrateRepo]
 
-| Step | Details                                                                                         | Additional Information                      |
-|:----:|:------------------------------------------------------------------------------------------------|:--------------------------------------------|
-|      |                                                                                                 |                                             |
-|      |                                                                                                 |                                             |
+| Step | Details | Additional Information |
+|:----:|:--------|:-----------------------|
+|      |         |                        |
+|      |         |                        |
 
 --8<-- [end:MigrateRepo]
 
@@ -92,17 +92,18 @@ The home page for Control is the Repositories and Organizations view. In this vi
 
 --8<-- [start:OpenRepoWithCode]
 
-| Step | Details                                                                                  | Additional Information { width="50%" }              |
-|:----:|:-----------------------------------------------------------------------------------------|:----------------------------------------------------|
-|  1   | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menue.    | ![Code Button Expanded][ButtonCodeExpanded]         |
-|  2   | Click on **Open with Code**                                                              | ![open with Code][OpenWithCode]                     |
-|  3   | A new dialog appears to select the right Dev Container for cloning the repository        | ![Select from List][SelectFromListDC1]              |
-| 3.1  | Scroll down to see more entries                                                          | ![More Entries in List][SelectFromListDC2]          |
-| 3.2  | use the default values for branch **main** and target folder **git**                     |                                                     |
-| 3.3  | to use Watson Code Assistant then select the WatsonX Dev Container                       |                                                     |
-|  4   | Press the **Clone** Button to proceed                                                    | ![Clone the repo][CloneButton]                      |
-|  5   | **it takes a few seconds till your environment is setup and running, please be patient** |                                                     |
-|  6   | Code and a git clone success message is shown                                            | ![Code with Git clone success][CodeGitCloneSuccess] |
+| Step | Details                                                                                                  | Additional Information { width="50%" }              |
+|:----:|:---------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
+|  1   | Open the **Echologic** repository which has been created with the learning data                          | ![learning data repo][ControlLearningRepo]          |
+|  2   | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menue.                    | ![Code Button Expanded][ButtonCodeExpanded]         |
+|  3   | Click on **Open with Code**                                                                              | ![open with Code][OpenWithCode]                     |
+|  4   | A new dialog appears to select the right Dev Container for cloning the repository                        | ![Select from List][SelectFromListDC1]              |
+| 4.1  | Scroll down to see more entries                                                                          | ![More Entries in List][SelectFromListDC2]          |
+| 4.2  | use the default values for branch **main** and target folder **git**                                     |                                                     |
+| 4.3  | If you want to use Watson Code Assistant then select the **WatsonX** Dev Container, else use **Starter** |                                                     |
+|  5   | Press the **Clone** Button to proceed                                                                    | ![Clone the repo][CloneButton]                      |
+|  6   | **it takes a few seconds till your environment is setup and running, please be patient**                 |                                                     |
+|  7   | Code and a git clone success message is shown                                                            | ![Code with Git clone success][CodeGitCloneSuccess] |
 
 --8<-- [end:OpenRepoWithCode]
 <!-- 
@@ -122,21 +123,26 @@ The home page for Control is the Repositories and Organizations view. In this vi
 
 --8<-- [end:OpenRepoWithVSCode]
  -->
-### Show Git Commit Details
-
---8<-- [start:ShowGitCommitDetails]
-
-- ![CONTROL - Show Git Commit Details][ControlShowGitCommitDetails]
-
---8<-- [end:ShowGitCommitDetails]
 
 ### Show Activity Report
 
 --8<-- [start:ShowLastCommits]
 
-![Show Last Commit][ControlShowLastCommit]
+| Step | Details                                                  | Additional Information { width="50%" }     |
+|:----:|:---------------------------------------------------------|:-------------------------------------------|
+|      | Show the Update in the activity report of the repository | ![Show Last Commit][ControlShowLastCommit] |
 
 --8<-- [end:ShowLastCommits]
+
+### Show Git Commit Details
+
+--8<-- [start:ShowGitCommitDetails]
+
+| Step | Details                     | Additional Information { width="50%" }                  |
+|:----:|:----------------------------|:--------------------------------------------------------|
+|      | Show the Git Commit Details | ![CONTROL - Show Git Commit Details][ControlShowCommit] |
+
+--8<-- [end:ShowGitCommitDetails]
 
 ---
 
@@ -155,7 +161,7 @@ The home page for Control is the Repositories and Organizations view. In this vi
 [ControlUserProfile]: media/Control_UserProfile.png
 [ControlCreateAccesstoken]: media/Control_Create_AccessToken.png
 [ControlAccessToken]: media/Control_Accesstoken.png
-[ControlShowGitCommitDetails]: media/CONTROL_ShowGitCommit.png
+[ControlShowCommit]: media/CONTROL_ShowGitCommit.png
 [ControlShowLastCommit]: media/CONTROL_ShowLastCommit.png
 [ControlListPullrequestsIcon]: media/Control_SidebarPull.png
 [ButtonCode]: media/Control_CodeButton.png
