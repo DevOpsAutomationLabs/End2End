@@ -10,16 +10,18 @@ A teamspace acts as a logical partition of larger system providing a secure and 
 
 --8<-- [start:CreateNewTS]
 
-| Step | Details                                                                                           |                         Additional Information                          |
-|:----:|:--------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------:|
-|  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon] to view your Teamspaces or create a new one |                       ![Teamspace menue][TSMenue]                       |
-|      | Click on **Create TeamSpace**                                                                     |       ![TeamSpace menue - Create TeamSpace Link][TSCreateTSentry]       |
-|  2   | Enter the name and a Description and press **Next** ![Next Button][NextButton]                    |              ![Teamspace - Create New][TSCreateNewDialog]               |
-|  3   | You can search and **add** Teammembers to a Teamspace                                             |       ![Teamspace - Create New - search Member][TSAddTeammember]        |
-|      | Teammember is added to a list. Proceed to add more members if needed.                             |       ![Teamspace - Create New - Member added][TSTeamMemberAdded]       |
-|  4   | Press **Create** to proceed                                                                       |               ![Create TeamSpace Button][TSCreateButton]                |
-|  5   | Teamspace creation will take a few moments, as soon as it finishes a success dialog will be shown | ![Teamspace - Create New - creation process started][TSCreationStarted] |
-|  6   | Teamspace created. Click on **Go to Teamspace** for next steps                                    |  ![Teamspace - Create New - creation successfull][TSCreateionFinished]  |
+| Step | Details                                                                                              | Additional Information                                                  |
+|:----:|:-----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
+|  0   | If Loop environment has been freshly set up just click on the **Create Teamspace** Button to proceed | ![Create Teamspace][TSInitCreateButton]                                 |
+|      | then proceed to step 2, else with next step                                                          |                                                                         |
+|  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon] to view your Teamspaces or create a new one    | ![Teamspace menue][TSMenue]                                             |
+|      | Click on **Create TeamSpace**                                                                        | ![TeamSpace menue - Create TeamSpace Link][TSCreateTSentry]             |
+|  2   | Enter the name and a Description and press **Next** ![Next Button][NextButton]                       | ![Teamspace - Create New][TSCreateNewDialog]                            |
+|  3   | You can search and **add** Teammembers to a Teamspace                                                | ![Teamspace - Create New - search Member][TSAddTeammember]              |
+|      | Teammember is added to a list. Proceed to add more members if needed.                                | ![Teamspace - Create New - Member added][TSTeamMemberAdded]             |
+|  4   | Press **Create** to proceed                                                                          | ![Create TeamSpace Button][TSCreateButton]                              |
+|  5   | Teamspace creation will take a few moments, as soon as it finishes a success dialog will be shown    | ![Teamspace - Create New - creation process started][TSCreationStarted] |
+|  6   | Teamspace created. Click on **Go to Teamspace** for next steps                                       | ![Teamspace - Create New - creation successfull][TSCreateionFinished]   |
 
 --8<-- [end:CreateNewTS]
 
@@ -36,6 +38,7 @@ Please proceed with [creating a Loop][GoBackToCreateALoop]
 [TSIcon]: media/Loop_TeamSpaceIcon.png
 [TSCreateTSentry]: media/Loop_CreateTeamSpace.png
 [TSCreateButton]: media/Loop_Create_TS_Button.png
+[TSInitCreateButton]: media/Loop_Initial_Create_TS_Button.png
 [NextButton]: ../../../media/Button_NEXT.png
 [GoBackToCreateALoop]: ../index.md#create-a-loop
 [DOCSLoopTS]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=administration-teamspace-management
