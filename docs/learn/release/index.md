@@ -3,7 +3,14 @@
 ## Introduction
 
 _**NOTE: This Lab will be added later**_
-TODO: add more about Release
+
+> NOTE: DevOps Release is based on DevOps Velocity, please have a look at the [documentation][VelocityDocumentation] for more details.
+
+Use IDevOps Release to automate your release lifecycle.
+
+Release is an enterprise-scale release management application that supports both cloud-native and on-premises deployment. You can use Release to move releases through all your development life-cycle environments including planning, development, testing, and production. You can create a predictable schedule of releases for your software applications. Your release plans and statuses are shared with all stakeholders so that they know the schedules and the key milestones and identify issues that may delay releases.
+
+The Insights metric data tools enable you to assess the efficiency and quality of projects. You can measure every aspect of the development life-cycle with the supplied charts. You can create your own charts with metric definitions and upload custom data to Release using the Application programming interface (API) endpoints. Because data sources also encompass plugins and API calls, project data can come from virtually anywhere, including planning and development tools, testing and building applications, and deployment processes.
 
 ## How to switch to Release from Home Page
 
@@ -40,3 +47,5 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [ReleaseViewasList]: media/Release_View_asList.png
 [ReleaseSwitchToTiles]: media/Release_Switch_To_TilesView.png
 [ReleaseViewasTiles]: media/Release_View_asTiles.png
+
+[VelocityDocumentation]: https://www.ibm.com/docs/en/devops-velocity

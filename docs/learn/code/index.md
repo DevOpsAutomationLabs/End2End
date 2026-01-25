@@ -1,10 +1,10 @@
 # Code Lab
 
-TODO: update flow, app references and screenshots
-
 ## Introduction
 
-TODO: add here more about Code
+Code is a cloud-based integrated development environment (based on VSCode) on DevOps Loop, with which you can write, compile, build, and debug software applications in a so-called **dev container**, accessible directly from a web browser. The editor provides a completely configured development environment with preinstalled extensions, tools, and libraries. You can start coding without the need to set up the environment on your local machine.
+
+To learn more about DevOps Code please have a look at the [documentation][CodeDocumentation].
 
 ## How to work with Code
 
@@ -111,3 +111,4 @@ Switch Back to Control and verify that in the activity view you have your commit
 [CommitAndPush]: media/Code_Commit_and_Push.png
 [GitStagingQuestion]: media/Code_Git_Stage_Question.png
 [GitFetchQuestion]: media/Code_Git_Fetch_Question.png
+[CodeDocumentation]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=loop-code

@@ -2,6 +2,18 @@
 
 TODO: Flow needs rewrite and new screenshots
 
+## Introduction
+
+Use DevOps Deploy (Deploy) to standardize and simplify the process of deploying software components to each environment in your development cycle.
+
+Deploy helps you meet the challenge of deploying software throughout your enterprise by providing tools that improve both deployment speed and reliability. The release automation tools in Deploy provide complete visibility into n-tiered deployments. Use the tools to model processes that orchestrate complex deployments across every environment and approval gate.
+
+By using plug-ins in Deploy, you integrate the server with your existing middleware and organize code from your existing code repositories into components. You design processes to deploy your code by using steps that run each required task. Then, you organize your components into applications and create environments for each stage of your release process. Finally, you create an application process to set the deployment order of your components and deploy your application to an environment.
+
+You can model the topology of your environment, specify which virtual images contain Deploy components, and provision both the environment and components to your cloud in a single action.
+
+To learn more about DevOps Deploy please have a look at the [documentation][DeployDocumentation].
+
 ## Overview
 
 This lab provides a practical, hands-on experience in deploying an application to a target server.
@@ -261,3 +273,4 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [CreateAppDialogEnterInfo]: applications/media/Deploy_App_CreateApp_Dialog2.png
 [ButtonSave]: ../../media/Button_Save.png
 [AppView]: applications/media/Deploy_Application_View.png
+[DeployDocumentation]: https://www.ibm.com/docs/en/devops-deploy/8.2.0

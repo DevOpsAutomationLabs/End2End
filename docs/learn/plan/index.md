@@ -4,7 +4,9 @@ Please have a look at the [DevOps Plan documentation][DOCSPlan] for more details
 
 ## Introduction
 
-DevOps Plan is a change management application for tracking work-items with workflow automations. Various types of work-items (called record types) and their workflow can be defined using low-code technology.
+DevOps Plan is a low‑code, multi-tenant SaaS solution for comprehensive change and issue management, offering customizable workflow automation without requiring deep coding skills. The tool streamlines change tracking, improves issue resolution, and enhances operational efficiency by enabling organizations to tailor workflows and integrate seamlessly with their existing cloud environments.
+
+To learn more about DevOps Plan please have a look at the [documentation][PlanDocumentation].
 
 ### How to switch to Plan from Home Page
 
@@ -119,3 +121,4 @@ Please follow [this steps for setting up the AI integration](ai_assistant/index.
 
 [WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png
 [DOCSPlan]: https://www.ibm.com/docs/en/devops-plan
+[PlanDocumentation]: https://www.ibm.com/docs/en/devops-plan

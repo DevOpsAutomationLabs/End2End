@@ -5,7 +5,13 @@ _**TODO: update flow, app references from PIZZA to EchoLogic and screenshots**_
 
 ## Introduction
 
-TODO: #35 add more about Measure
+> NOTE: DevOps Measure is based on DevOps Velocity, please have a look at the [documentation][VelocityDocumentation] for more details.
+
+Use DevOps Measure to  manage your DevOps value streams.
+
+The value stream provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements. The elements including builds, pull requests, issues, and tests that is collected from tools that you integrate into Measure. Individual elements are represented graphically by small circles called dots. Dots can provide information from logically related tools, such as issues linked to Source control management (SCM).
+
+The pipeline feature enables you to drive releases by using application-focused methods. Add applications to logical environments and let Measure generate the deployment plans required to deploy the applications.
 
 ## How to switch to Measure from Home Page
 
@@ -118,3 +124,4 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [GoBackToParentIndex]: ../index.md#measure
 [NextLab]: ../index.md#release
 [VSMEmerald]: media/Measure_Emerald_VSM_DotView.png
+[VelocityDocumentation]: https://www.ibm.com/docs/en/devops-velocity

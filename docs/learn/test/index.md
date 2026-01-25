@@ -1,8 +1,16 @@
 # Test
 
-This lab will provide you with a practical hands-on of our testing capabilities. You can click on the main menu and navigate to the DevOps test.
+## Introduction
+
+TODO: Update with latest "Learning Loops" data. New Screenshots and slightly different flow
+
+DevOps Test is a web-based continuous testing platform that consolidates test data, environments, test runs, and reports. It supports API, functional, and performance tests. 
+
+To learn more about DevOps Test please have a look at the [documentation][TestDocumentation]
 
 ## Overview
+
+This lab will provide you with a practical hands-on of our testing capabilities. You can click on the main menu and navigate to the DevOps Test.
 
 ### How to switch to Test from Home Page
 
@@ -119,3 +127,4 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [TestDataFolder]: media/Test_Data_DownloadedUnzipped.png
 [TestDataFiles]: media/Test_Data_DownloadedFiles.png
 [TestDataGenerated]: media/Test_Data_GeneratedData.png
+[TestDocumentation]: https://www.ibm.com/docs/en/devops-test-hub/

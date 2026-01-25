@@ -2,7 +2,9 @@
 
 ## Introduction
 
-TODO: add here more about Control
+DevOps Control is part of DevOps Loop, a platform for software development. DevOps Control provides Git hosting, code review, and team collaboration. It is similar to GitHub, Bitbucket and GitLab. DevOps Control is based on the open-source [Gitea][GiteaRepo] project.
+
+To learn more about DevOps Control please have a look at the [documentation][ControlDocumentation].
 
 ## How to switch to Control from Home Page
 
@@ -184,3 +186,5 @@ The home page for Control is the Repositories and Organizations view. In this vi
 [ControlPATSetPermissions]: media/Control_NewPAT_setpermissions_minimal.png
 [ControlOpenPermissions]: media/Control_NewPat_SelectAccessTypePermissions.png
 [ControlGeneratePATButton]: media/Control_NewPAT_Generate_Button.png
+[ControlDocumentation]: https://www.ibm.com/docs/en/devops-plan/3.0.6?topic=function-devops-control
+[GiteaRepo]: https://github.com/go-gitea/gitea
