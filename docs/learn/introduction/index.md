@@ -22,15 +22,25 @@ To use the platform you have to be onboarded onto it. This is normaly done by yo
 
 --8<-- [start:TheHomePage]
 
-| Step | Details                                                                                                                                     |             Additional Information              |
-|:----:|:--------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------:|
-|  1   | After you have been logged in you will be directed to your homepage                                                                         |                                                 |
-|  2   | If no **Teamspace** or **Loop** has been created follow: <br> [Creation of a Teamspace and Loops instructions](#setup-a-teamspace-and-loop) | ![No Teamspace available][NoTeamSpaceAvailable] |
-|  3   | if a **Teamspace** and **Loop** exists it will provide you an overview about metrics from your Loops                                        |         ![Home Page][LoopHomePageView]          |
-|  4   | If you are in a different TeamSpace, click on **TeamSpace Icon** and switch to **Demo**                                                     |        ![Switch TeamSpace][SwitchToHome]        |
-|  5   | If you are not on the Home Page page, click on **Home Button** in the side bar to switch to the Home Page                                   |       ![Switch to Home][HomePageSideBar]        |
+| Step | Details                                                                                                                         |             Additional Information              |
+|:----:|:--------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------:|
+|  1   | After you have been logged in you will be directed to your homepage                                                             |                                                 |
+|  2   | If no **Teamspace** or **Loop** has been created follow: <br> [Creation of a Teamspace and Loops instructions][CreateTSandLoop] | ![No Teamspace available][NoTeamSpaceAvailable] |
+|  3   | if a **Teamspace** and **Loop** exists it will provide you an overview about metrics from your Loops                            |         ![Home Page][LoopHomePageView]          |
+|  4   | To switch between Teamspaces follow this guide: [Switching between Teamspaces][SwitchTeamSpaces]                                |                                                 |
 
 --8<-- [end:TheHomePage]
+
+#### Switch between Teamspaces and back to Home
+
+--8<-- [start:SwitchTS]
+
+| Step | Details                                                                                                   |       Additional Information       |
+|:----:|:----------------------------------------------------------------------------------------------------------|:----------------------------------:|
+|      | If you are in a different TeamSpace, click on **TeamSpace Icon** and switch to **Demo**                   | ![Switch TeamSpace][SwitchToHome]  |
+|      | If you are not on the Home Page page, click on **Home Button** in the side bar to switch to the Home Page | ![Switch to Home][HomePageSideBar] |
+
+--8<-- [end:SwitchTS]
 
 #### Dashboard and Metrics
 
@@ -93,12 +103,6 @@ You need to create at least one Loop in your TeamSpace, please follow the [Instr
 learn/introduction/loops/index.md:CreateNewLoop
 --8<--
 
-## Conclusio
-
-Have a look at the [About Box, Sidebar, Plug-Ins and Settings][IntroAboutBoxSidebarPlugins] introduction which also gives information how setup Loop wide AI integration.
-
-Go back to [Lab and Demo Overview][GoBackToDemoOverview]
-
 ---
 
 [LoopHomePageView]: media/Loop_Home_Page.png
@@ -106,8 +110,6 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [HomePageSideBar]: media/Loop_Home_Page_SideBar.png
 [InstructionsCreateTeamSpace]: teamspace/index.md
 [InstructionsCreateLoop]: loops/index.md
-[GoBackToDemoOverview]: ../index.md#introduction
-[IntroAboutBoxSidebarPlugins]: about/index.md
 [URLDevOpsLoop]: https://devops.automation.techzone.ibm.com/automation
 [LoginDialog]: media/Loop_Login_Page.png
 [SignInButton]: media/Loop_SignInButton.png
@@ -146,3 +148,5 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [LoopCreation]: loops/media/New_Loop_Creation_Progress.png
 [LoopCreatedSuccess]: loops/media/New_Loop_Creation_Success.png
 [GoToMyLoops]: loops/media/Loops_GoToMyLoops_Button.png
+[CreateTSandLoop]: #setup-a-teamspace-and-loop
+[SwitchTeamSpaces]: #switch-between-teamspaces-and-back-to-home

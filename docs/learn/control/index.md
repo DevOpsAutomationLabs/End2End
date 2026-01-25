@@ -23,8 +23,8 @@ The home page for Control is the Repositories and Organizations view. In this vi
 
 | Step | Details                                                                                                                         | Additional Information                                      |
 |:----:|:--------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------|
-|      | The first time you use Control with no "Learning data" used, an empty list is shown                                             | ![List my Repos and Orgs][ControlListOrgsRepos]             |
-|      | If you have checked the "Learning Data" during Loop creation then the repo will be shown                                        | ![learning data repo][ControlLearningRepo]                  |
+|      | The first time you use Control with no "**Learning data**" used, an empty list is shown                                         | ![List my Repos and Orgs][ControlListOrgsRepos]             |
+|      | If you have checked the "**Learning Data**" during Loop creation then the repo will be shown                                    | ![learning data repo][ControlLearningRepo]                  |
 |      | By clicking on the **Home** Button ![HomePage Button][ControlHomeButton] all activities will be shown                           | ![Home Page Report][ControlHomePage]                        |
 |      | click on the Pull request Icon ![List Pulls Icon][ControlListPullrequestsIcon] to view all pull requests                        | ![List my Pull Requests][ControlListPullRequests]           |
 |      | Click on the List all Repositories Icon ![List all Repos Ico][ControlAllRepoIcon] to see all Repositories you can get access to | ![Explore other Repos and Orgs][ControlExploreOtherOrgRepo] |

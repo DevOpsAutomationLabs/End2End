@@ -341,6 +341,8 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [ReleaseTile]: learn/introduction/media/Loop_switch_to_Release.png
 [SwitchToTest]: learn/introduction/media/Loop_switch_to_Test.png
 [NoTeamSpaceAvailable]: learn/introduction/media/INIT_1_NoTeamspace.png
+[CreateTSandLoop]: learn/introduction/index.md#setup-a-teamspace-and-loop
+[SwitchTeamSpaces]: learn/introduction/index.md#switch-between-teamspaces-and-back-to-home
 [LoopHomePageView]: learn/introduction/media/Loop_Home_Page.png
 [MetricPlan]: learn/introduction/media/LoopHome_Plan_metrics.png
 [MetricBuild]: learn/introduction/media/LoopHome_Build_Metrics.png
@@ -449,6 +451,8 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 [SelectFromListDC1]: learn/control/media/Control_Dev_Container_select_from_list.png
 [SelectFromListDC2]: learn/control/media/Control_Dev_Container_select_from_list2.png
 [CloneButton]: learn/control/media/Control_Code_Clone_Button.png
+[ControlHomeButton]: learn/control/media/Control_SidebarHome.png
+[ControlListPullrequestsIcon]: learn/control/media/Control_SidebarPull.png
 
 <!-- BUILD -->
 [BuildProcessDetail]: learn/build/media/BUILD_Process_Runs_Details.png
