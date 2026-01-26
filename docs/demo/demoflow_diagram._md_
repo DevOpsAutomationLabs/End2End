@@ -1,0 +1,118 @@
+# Demo Flow Diagram
+
+--8<-- [start:DemoFlow]
+
+## Part 1: Intro & Planning
+
+```mermaid
+graph LR
+    Loop["<a href='#loop'>Loop</a>"]
+    Plan["<a href='#plan'>Plan</a>"]
+    Part2["<a href='#part-2-code--control'>Part2</a>"]
+
+    note1["• Show overview on build runs and results<br/>• Show build process<br/>• Show templates<br/>• Explain that we have lots of metrics -> show osski<br/>• Follow the dot during whole demo!"]
+    note2["• Show a kanban board<br/>• Show how we filter all topics<br/>• Show all work items<br/>• Show the details of a work item<br/>• Show the link between work item to code<br/>• Show work item Use AI to create<br/>  description and exploratory test information"]
+    
+    Loop --> Plan
+    Plan --> Part2
+    
+    Loop -.-> note1
+    Plan -.-> note2
+    
+    style note1 fill:#fff,stroke:#666,color:#000,text-align:left
+    style note2 fill:#fff,stroke:#666,color:#000,text-align:left
+```
+
+## Part 2: Code & Control
+
+```mermaid
+graph LR
+    Control1["<a href='#control-work-with-repository'>Control</a>"]
+    Code["<a href='#code'>Code</a>"]
+    Control2["<a href='#control'>Control</a>"]
+    Part3["<a href='#part-3-build--deploy'>Part3</a>"]
+
+    note3["• Show repo in Control<br/>• Open repo with DevOps Code<br/>• Select a dev Container <br/>• Proceed with Code"]
+    note4["• Open Code<br/>• Change some code<br/>• Push code and add commit to work item number<br/>• Open Control and show the update"]
+    note5["• Open Control<br/>• Show activity report<br/>• Show git commit details"]
+
+    Control1 --> Code
+    Code --> Control2
+    Control2 --> Part3
+
+    Control1 -.-> note3
+    Code -.-> note4
+    Control2 -.-> note5
+    
+    style note3 fill:#fff,stroke:#666,color:#000,text-align:left
+    style note4 fill:#fff,stroke:#666,color:#000,text-align:left
+    style note5 fill:#fff,stroke:#666,color:#000,text-align:left
+```
+
+## Part 3: Build & Deploy
+
+```mermaid
+graph LR
+    Build["<a href='#build'>Build</a>"]
+    Deploy["<a href='#deploy'>Deploy</a>"]
+    Part4["<a href='#part-4-test--measure'>Part4</a>"]
+
+    note6["• Show overview<br/>• Show process/components, app<br/>• Edit process<br/>• Show a process which executes a TEST with<br/>  setting quality tag on version<br/>• Run and view results of steps<br/>• Show built (environment and version changes of comp)<br/>• Use Deploy to show<br/>• Show the plug-ins"]
+    note7["• Show and talk about pipeline(s) with<br/>  environments and Gates<br/>• Create simple new gate to show usage of metrics"]
+    
+    Build --> Deploy
+    Deploy --> Part4
+    
+    Build -.-> note6
+    Deploy -.-> note7
+    
+    style note6 fill:#fff,stroke:#666,color:#000,text-align:left
+    style note7 fill:#fff,stroke:#666,color:#000,text-align:left
+```
+
+## Part 4: Test & Measure
+
+```mermaid
+graph LR
+    Test["<a href='#test'>Test</a>"]
+    Measure1["<a href='#measure-1'>Measure</a>"]
+    
+    note8["• Show test landing page and metrics<br/>• Run integration test<br/>• Run performance test<br/>• Explain that our service might not be really so<br/>  switch on a virtual service<br/>• Run the tests again as a suite<br/>• Show the analysis of the test Results<br/>• Explain that we can create or edit a test<br/>• Generate test data<br/>• Show a security test report<br/>• Run a new test that will fail<br/>• Create a defect in Plan and show that is has<br/>  all the data automatically"]
+    note9["• Open the VSM for the project<br/>• Show the information of a dot<br/>• Show the swimlane view<br/>• Generate a release readiness report"]
+    
+    Test --> Measure1
+    
+    Test -.-> note8
+    Measure1 -.-> note9
+    
+    style note8 fill:#fff,stroke:#666,color:#000,text-align:left
+    style note9 fill:#fff,stroke:#666,color:#000,text-align:left
+```
+
+## Part 5: Release & Analytics
+
+```mermaid
+graph LR
+    Release["<a href='#release'>Release</a>"]
+    Measure2["<a href='#measure-2'>Measure</a>"]
+    LoopGenie["<a href='#loop-genie'>Loop Genie</a>"]
+    
+    note10["• Show release overview with calendar"]
+    note11["• Open the VSM for the project<br/>• Show the information of a dot<br/>• Show the swimlane view<br/>• Generate a release readiness report"]
+    note12["• Explain that we have played lots of roles but<br/>  what if we want to find information from across<br/>  the delivery<br/>• Open the landing page<br/>• Click Loop Genie<br/>• Ask xyz question<br/>• Explain that we are back to the start and that<br/>  this has been a quick end to end demo"]
+    
+    Release --> Measure2
+    Measure2 --> LoopGenie
+    
+    Release -.-> note10
+    Measure2 -.-> note11
+    LoopGenie -.-> note12
+    
+    style note10 fill:#fff,stroke:#666,color:#000,text-align:left
+    style note11 fill:#fff,stroke:#666,color:#000,text-align:left
+    style note12 fill:#fff,stroke:#666,color:#000,text-align:left
+```
+
+--8<-- [end:DemoFlow]
+
+---

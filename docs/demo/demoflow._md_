@@ -1,5 +1,7 @@
 # Demo Flow
 
+TODO: Provide 2 flows, the classic one (like the existing but updated) and the AI first demo flow (need to be build)
+
 ![Demo Flow][ChartFlowOfDemo]
 
 ## Overview
@@ -324,7 +326,7 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 ---
 
 [GoBackToDemoOverview]: index.md
-[ChartFlowOfDemo]: media/demoflow.png
+[ChartFlowOfDemo]: demo/media/demoflow.png
 
 <!-- INTRODUCTION -->
 

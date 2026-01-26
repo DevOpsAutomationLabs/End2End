@@ -50,8 +50,10 @@ It will help you to learn DevOps Loop very easily and how to efficiently provide
 
 ---
 
-[REFDemo]: demoflow.md
+[REFDemo]: demo/index.md
 [REFIntro]: learn/introduction/index.md
 [REFLearn]: learn/index.md
 [REFSetup]: setup.md
 [AISetup]: ai_setup.md
+
+<!-- demoflow.md -->
