@@ -20,9 +20,7 @@ It will help you to learn DevOps Loop very easily and how to efficiently provide
 
     ---
 
-    [:octicons-arrow-right-24: Classic Demo Flow][REFClassicDemo]
-    
-    [:octicons-arrow-right-24: AI First Demo Flow][REFAIFirstDemo]
+    [:octicons-arrow-right-24: Demo Flows][REFDemo]
 
 - :simple-futurelearn:{ .lg .middle } __Learn more about DevOps Loop__
 
@@ -53,8 +51,6 @@ It will help you to learn DevOps Loop very easily and how to efficiently provide
 ---
 
 [REFDemo]: demo/index.md
-[REFClassicDemo]: demo_classic.md
-[REFAIFirstDemo]: demo_ai_first.md
 [REFIntro]: learn/introduction/index.md
 [REFLearn]: learn/index.md
 [REFSetup]: setup.md
