@@ -2,8 +2,8 @@
 
 ## AI First
 
-- [AI First](demo_ai_first.md)
+- [AI First](../demo_ai_first.md)
 
 ## Classic
 
-- [Classic Demo](demo_classic.md)
+- [Classic Demo](../demo_classic.md)

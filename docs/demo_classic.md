@@ -6,134 +6,134 @@
 
 This Step by Step Demo Guide will give you compact Instructions how to demo DevOps Loop. For more detailed information about the Capabilities and Steps links to the indepth enablement Guide has been added.
 
-## [Loop](../learn/introduction/index.md)
+## [Loop](learn/introduction/index.md)
 
 ### Login into Loop
 
 --8<--
-../learn/introduction/index.md:HowtoLogin
+learn/introduction/index.md:HowtoLogin
 --8<--
 
 ### The Home Page
 
 --8<--
-../learn/introduction/index.md:TheHomePage
+learn/introduction/index.md:TheHomePage
 --8<--
 
 ### Dashboards and Metrics
 
 --8<--
-../learn/introduction/index.md:DashboardMetrics
+learn/introduction/index.md:DashboardMetrics
 --8<--
 
-## [Plan](../learn/plan/index.md)
+## [Plan](learn/plan/index.md)
 
 ### Plan Overview
 
-#### [Switch to Plan](../learn/plan/index.md#how-to-switch-to-plan-from-home-page)
+#### [Switch to Plan](learn/plan/index.md#how-to-switch-to-plan-from-home-page)
 
 --8<--
-../learn/plan/index.md:SWITCH2Plan
+learn/plan/index.md:SWITCH2Plan
 --8<--
 
 #### [Show My board][ShowMyBoard]  
 
 --8<--
-../learn/plan/boards/index.md:ProjectBoard
+learn/plan/boards/index.md:ProjectBoard
 --8<--
 
 #### [Show how to filter out Epics][HowToFilter]
 
 --8<--
-../learn/plan/boards/index.md:FilterEpics
+learn/plan/boards/index.md:FilterEpics
 --8<--
 
 #### [Show all work items][WorkItems]  
 
 --8<--
-../learn/plan/boards/index.md:WorkItems
+learn/plan/boards/index.md:WorkItems
 --8<--
 
-### [Use Plan AI Assistant](../learn/plan/ai_assistant/index.md#using-the-plan-ai-assistant)
+### [Use Plan AI Assistant](learn/plan/ai_assistant/index.md#using-the-plan-ai-assistant)
 
 [For More about AI Assistant follow this link][PlanAI]
 
 #### AI Assistant Chat Dialog
 
 --8<--
-../learn/plan/ai_assistant/index.md:PlanAIAssistantChat
+learn/plan/ai_assistant/index.md:PlanAIAssistantChat
 --8<--
 
 #### AI Assistant Type of Output
 
 --8<--
-../learn/plan/ai_assistant/index.md:PlanAIAssistantOutputType
+learn/plan/ai_assistant/index.md:PlanAIAssistantOutputType
 --8<--
 
 #### AI Assistant Create Records from Responses
 
 --8<--
-../learn/plan/ai_assistant/index.md:PlanAIAssistantCreateRecords
+learn/plan/ai_assistant/index.md:PlanAIAssistantCreateRecords
 --8<--
 <!-- [Open a workitem and use AI to create description and exploratory test information](plan/boards/index.md#use-ai-in-workitem) -->
 
-## [Control - Work with Repository](../learn/control/index.md#open-repo-with-code)
+## [Control - Work with Repository](learn/control/index.md#open-repo-with-code)
 
 --8<--
-../learn/control/index.md:SWITCH2Control
+learn/control/index.md:SWITCH2Control
 --8<--
 --8<--
-../learn/control/index.md:ManageRepoOrgs
+learn/control/index.md:ManageRepoOrgs
 --8<--
 --8<--
-../learn/control/index.md:OpenRepoWithCode
+learn/control/index.md:OpenRepoWithCode
 --8<--
 
-## [Code](../learn/code/index.md)
+## [Code](learn/code/index.md)
 
 <!-- --8<--
-../learn/code/index.md:Switch2Code
+learn/code/index.md:Switch2Code
 --8<-- -->
 --8<--
-../learn/code/index.md:UseCode
+learn/code/index.md:UseCode
 --8<--
 
-## [Control](../learn/control/index.md)
+## [Control](learn/control/index.md)
 
 --8<--
-../learn/control/index.md:ShowLastCommits
+learn/control/index.md:ShowLastCommits
 --8<--
 --8<--
-../learn/control/index.md:ShowGitCommitDetails
---8<--
-
-## [Build](../learn/build/index.md)
-
---8<--
-../learn/build/index.md:SWITCH2Build
+learn/control/index.md:ShowGitCommitDetails
 --8<--
 
+## [Build](learn/build/index.md)
+
 --8<--
-../learn/build/index.md:ProjectBuildRunResults
+learn/build/index.md:SWITCH2Build
 --8<--
 
 --8<--
-../learn/build/index.md:BuildProcDetail
+learn/build/index.md:ProjectBuildRunResults
 --8<--
 
 --8<--
-../learn/build/index.md:ProcessTemplates
+learn/build/index.md:BuildProcDetail
 --8<--
 
 --8<--
-../learn/build/index.md:ProcessDetailsTemplates
+learn/build/index.md:ProcessTemplates
 --8<--
 
 --8<--
-../learn/build/index.md:ProcessDefTemplates
+learn/build/index.md:ProcessDetailsTemplates
 --8<--
 
-## [Deploy](../learn/deploy/index.md)
+--8<--
+learn/build/index.md:ProcessDefTemplates
+--8<--
+
+## [Deploy](learn/deploy/index.md)
 
 ### [Deploy Overview][REFDeployOverview]
 
@@ -211,7 +211,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 |      | [View installed and available Plugins][DeploySettingsAutomationSection]        | ![Automation Plugins][DeploySettingsAutomationPlugins] |
 |  4   | By clicking on **Available Plugins** a list of all available Plug-Ins is shown | ![Plugin List][DeploySettingsPluginsList]              |
 
-## [Test](../learn/test/index.md)
+## [Test](learn/test/index.md)
 
 | Step  | Details                                                                                                     | Additional Information { width="50%" }           |
 |:-----:|:------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|
@@ -264,7 +264,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 | 11.9  | Two files are created **Customers** and **Orders**                                                          | ![Gnereated Files][TestDataFiles]                |
 | 11.10 | Open one **Orders.csv** to view gnerated Data                                                               | ![Generated Data][TestDataGenerated]             |
 
-## [Measure](../learn/measure/index.md)
+## [Measure](learn/measure/index.md)
 
 | Step | Details                                                                                                                  | Additional Information { width="50%" }                             |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------|
@@ -281,12 +281,12 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 | 3.1  | Open the [VSM][REFMeasureVSM] for the project by clicking on **Value Stream** in the Tabmenue                            | ![Measure VSM Tabs][MeasureTabs]                                   |
 | 3.2  | The ValueStream of EchoLogic Project is shown                                                                            | ![EchoLogic VSM][VSMEchoLogic]                                     |
 | 3.3  | click on a dot to get more information                                                                                   | ![View Dot][VSMSelectDot]                                          |
-| 3.4  | This view will give you a complate Audit information of this item                                                        | ![View Dot Details 1](../learn/measure/media/VSM_ViewDotDetails1.png) |
-|      |                                                                                                                          | ![View Dot Details 2](../learn/measure/media/VSM_ViewDotDetails2.png) |
+| 3.4  | This view will give you a complate Audit information of this item                                                        | ![View Dot Details 1](learn/measure/media/VSM_ViewDotDetails1.png) |
+|      |                                                                                                                          | ![View Dot Details 2](learn/measure/media/VSM_ViewDotDetails2.png) |
 |  4   | click on **Swimlane** ![Swimmlane][TabSwimlane] in tabbar                                                                | ![Measure VSM Tabs][MeasureTabs]                                   |
 | 4.1  | The Swimlane view opens and gives more information about the distribution of items                                       | ![Swimlane View][SwimlaneView]                                     |
 
-## [Release](../learn/release/index.md)
+## [Release](learn/release/index.md)
 
 | Step | Details                                                                                                                                    | Additional Information { width="50%" }        |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------|
@@ -297,7 +297,7 @@ This Step by Step Demo Guide will give you compact Instructions how to demo DevO
 | 2.1  | Switch to Tiles view by clicking on ![Release tiles icon][ReleaseSwitchToTiles]                                                            | ![Releases as Tiles view][ReleaseViewasTiles] |
 |      | So how do we ensure everyone understands the state of our project.  Well we can generate a release readiness report. – Generate the report |                                               |
 
-## [Loop Genie](../learn/introduction/genie/index.md)
+## [Loop Genie](learn/introduction/genie/index.md)
 
 Explain that we have covered a lot of roles and used a mixture of AI and automation but we can bring it all together with what we call our Loop Genie
 
@@ -323,275 +323,275 @@ Go back to [Lab and Demo Overview][GoBackToDemoOverview]
 
 ---
 
-[GoBackToDemoOverview]: ../index.md
-[ChartFlowOfDemo]: media/demoflow.png
+[GoBackToDemoOverview]: index.md
+[ChartFlowOfDemo]: demo/media/demoflow.png
 
 <!-- INTRODUCTION -->
 
-[CentralAppSwitcher]: ../learn/introduction/media/Loop_central_app_control.png
-[IntroductionAboutBoxSidebarPlugins]: ../learn/introduction/about/index.md
-[SwitchToHome]: ../learn/introduction/media/Loop_Sidebar_SwitchTeamSpace.png
-[LoopHomePage]: ../learn/introduction/index.md#the-home-page
-[HomePage]: ../learn/introduction/media/Loop_Home_Page.png
-[HomePageSideBar]: ../learn/introduction/media/Loop_Home_Page_SideBar.png
+[CentralAppSwitcher]: learn/introduction/media/Loop_central_app_control.png
+[IntroductionAboutBoxSidebarPlugins]: learn/introduction/about/index.md
+[SwitchToHome]: learn/introduction/media/Loop_Sidebar_SwitchTeamSpace.png
+[LoopHomePage]: learn/introduction/index.md#the-home-page
+[HomePage]: learn/introduction/media/Loop_Home_Page.png
+[HomePageSideBar]: learn/introduction/media/Loop_Home_Page_SideBar.png
 
 [URLDoraMetrics]: https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-dora
-[3Dots]: ../media/3Dots.png
+[3Dots]: media/3Dots.png
 
-[ReleaseTile]: ../learn/introduction/media/Loop_switch_to_Release.png
-[SwitchToTest]: ../learn/introduction/media/Loop_switch_to_Test.png
-[NoTeamSpaceAvailable]: ../learn/introduction/media/INIT_1_NoTeamspace.png
-[CreateTSandLoop]: ../learn/introduction/index.md#setup-a-teamspace-and-loop
-[SwitchTeamSpaces]: ../learn/introduction/index.md#switch-between-teamspaces-and-back-to-home
-[LoopHomePageView]: ../learn/introduction/media/Loop_Home_Page.png
-[MetricPlan]: ../learn/introduction/media/LoopHome_Plan_metrics.png
-[MetricBuild]: ../learn/introduction/media/LoopHome_Build_Metrics.png
-[MetricDeploy]: ../learn/introduction/media/LoopHome_Deploy_Metrics.png
-[MetricControl]: ../learn/introduction/media/LoopHome_Control_metrics.png
-[KPIDoraLeadTime]: ../learn/introduction/media/LoopHome_LeadTime.png
-[KPIDoraCycleTime]: ../learn/introduction/media/LoopHome_CycleTime.png
-[LoginDialog]: ../learn/introduction/media/Loop_Login_Page.png
-[SignInButton]: ../learn/introduction/media/Loop_SignInButton.png
+[ReleaseTile]: learn/introduction/media/Loop_switch_to_Release.png
+[SwitchToTest]: learn/introduction/media/Loop_switch_to_Test.png
+[NoTeamSpaceAvailable]: learn/introduction/media/INIT_1_NoTeamspace.png
+[CreateTSandLoop]: learn/introduction/index.md#setup-a-teamspace-and-loop
+[SwitchTeamSpaces]: learn/introduction/index.md#switch-between-teamspaces-and-back-to-home
+[LoopHomePageView]: learn/introduction/media/Loop_Home_Page.png
+[MetricPlan]: learn/introduction/media/LoopHome_Plan_metrics.png
+[MetricBuild]: learn/introduction/media/LoopHome_Build_Metrics.png
+[MetricDeploy]: learn/introduction/media/LoopHome_Deploy_Metrics.png
+[MetricControl]: learn/introduction/media/LoopHome_Control_metrics.png
+[KPIDoraLeadTime]: learn/introduction/media/LoopHome_LeadTime.png
+[KPIDoraCycleTime]: learn/introduction/media/LoopHome_CycleTime.png
+[LoginDialog]: learn/introduction/media/Loop_Login_Page.png
+[SignInButton]: learn/introduction/media/Loop_SignInButton.png
 [URLDevOpsLoop]: https://devops.automation.techzone.ibm.com/automation
-[WhatWouldYouLikeToDoToday]: ../learn/introduction/media/Loop_whatwouldyouliketodotoday.png
-[LoopHomeLoopGenieIcon]: ../learn/introduction/genie/media/Loop_Genie_Button.png
-[LoopGenieDialog]: ../learn/introduction/genie/media/Loop_Genie_Dialog.png
-[PlanMetric]: ../learn/introduction/media/LoopHome_Plan_metrics.png
-[BuildMetric]: ../learn/introduction/media/LoopHome_Build_Metrics.png
-[DeployMetric]: ../learn/introduction/media/LoopHome_Deploy_Metrics.png
-[ControlMetric]: ../learn/introduction/media/LoopHome_Control_metrics.png
-[LeadTime]: ../learn/introduction/media/LoopHome_LeadTime.png
-[CycleTime]: ../learn/introduction/media/LoopHome_CycleTime.png
-[PlanTile]: ../learn/introduction/media/Loop_switch_to_Plan.png
+[WhatWouldYouLikeToDoToday]: learn/introduction/media/Loop_whatwouldyouliketodotoday.png
+[LoopHomeLoopGenieIcon]: learn/introduction/genie/media/Loop_Genie_Button.png
+[LoopGenieDialog]: learn/introduction/genie/media/Loop_Genie_Dialog.png
+[PlanMetric]: learn/introduction/media/LoopHome_Plan_metrics.png
+[BuildMetric]: learn/introduction/media/LoopHome_Build_Metrics.png
+[DeployMetric]: learn/introduction/media/LoopHome_Deploy_Metrics.png
+[ControlMetric]: learn/introduction/media/LoopHome_Control_metrics.png
+[LeadTime]: learn/introduction/media/LoopHome_LeadTime.png
+[CycleTime]: learn/introduction/media/LoopHome_CycleTime.png
+[PlanTile]: learn/introduction/media/Loop_switch_to_Plan.png
 
 <!-- PLAN -->
-[PLANopen]: ../learn/plan/index.md#how-to-switch-to-plan-from-home-page
-[ShowMyBoard]: ../learn/plan/boards/index.md#project-board
-[MyWorkBoard]: ../learn/plan/boards/media/Plan_ProjectBoard_myBoard.png
-[ProjectBoardsIcon]: ../learn/plan/boards/media/Plan_ProjectBoard_Icon.png
-[SideBarBoardIcon]: ../learn/plan/boards/media/Plan_ProjectBoard_Icon.png
-[SideBar]: ../learn/plan/media/Plan_Sidebar_ProjectBoards.png
-[BoardMyBoardwithoneentry]: ../learn/plan/boards/media/Plan_ProjectBoard_myBoard.png
-[HowToFilter]: ../learn/plan/boards/index.md#filter-epics
-[FilterBar]: ../learn/plan/boards/media/Plan_ProjectBoard_Filterbar.png
-[ButtonClearFilter]: ../learn/plan/boards/media/Plan_ProjectBoard_ClearFilterButton.png
-[FilterUncheckEpic]: ../learn/plan/boards/media/Plan_ProjectBoard_Filterbar_UncheckEpic.png
-[BoardFiltered]: ../learn/plan/boards/media/Plan_ProjectBoard_WorkItemsFiltered.png
-[WorkItems]: ../learn/plan/boards/index.md#work-items
-[ProjectBoardWorkItems]: ../learn/plan/boards/media/Plan_ProjectBoard_WorkItems.png
-[SelectWorkItem]: ../learn/plan/boards/index.md#workitem
-[BoardSelectWorkItem]: ../learn/plan/boards/media/PLAN_Boards_SelectWI.png
-[BoardShowWorkItemDetail]: ../learn/plan/workitems/media/PLAN_Board_ShowWI_Detail.png
-[ShowCommit]: ../learn/plan/workitems/index.md#show-commit
-[REFWIuseAI]: ../learn/plan/workitems/index.md#use-ai-in-workitem
-[PlanShowCommit]: ../learn/plan/media/PLAN_Show_GitCommit.png
-[PlanShowSCMEntryDetails]: ../learn/plan/media/Plan_Show_SCM_Entry_Details.png
+[PLANopen]: learn/plan/index.md#how-to-switch-to-plan-from-home-page
+[ShowMyBoard]: learn/plan/boards/index.md#project-board
+[MyWorkBoard]: learn/plan/boards/media/Plan_ProjectBoard_myBoard.png
+[ProjectBoardsIcon]: learn/plan/boards/media/Plan_ProjectBoard_Icon.png
+[SideBarBoardIcon]: learn/plan/boards/media/Plan_ProjectBoard_Icon.png
+[SideBar]: learn/plan/media/Plan_Sidebar_ProjectBoards.png
+[BoardMyBoardwithoneentry]: learn/plan/boards/media/Plan_ProjectBoard_myBoard.png
+[HowToFilter]: learn/plan/boards/index.md#filter-epics
+[FilterBar]: learn/plan/boards/media/Plan_ProjectBoard_Filterbar.png
+[ButtonClearFilter]: learn/plan/boards/media/Plan_ProjectBoard_ClearFilterButton.png
+[FilterUncheckEpic]: learn/plan/boards/media/Plan_ProjectBoard_Filterbar_UncheckEpic.png
+[BoardFiltered]: learn/plan/boards/media/Plan_ProjectBoard_WorkItemsFiltered.png
+[WorkItems]: learn/plan/boards/index.md#work-items
+[ProjectBoardWorkItems]: learn/plan/boards/media/Plan_ProjectBoard_WorkItems.png
+[SelectWorkItem]: learn/plan/boards/index.md#workitem
+[BoardSelectWorkItem]: learn/plan/boards/media/PLAN_Boards_SelectWI.png
+[BoardShowWorkItemDetail]: learn/plan/workitems/media/PLAN_Board_ShowWI_Detail.png
+[ShowCommit]: learn/plan/workitems/index.md#show-commit
+[REFWIuseAI]: learn/plan/workitems/index.md#use-ai-in-workitem
+[PlanShowCommit]: learn/plan/media/PLAN_Show_GitCommit.png
+[PlanShowSCMEntryDetails]: learn/plan/media/Plan_Show_SCM_Entry_Details.png
 
 <!-- PLAN AI -->
-[PlanAI]: ../learn/plan/index.md#ai-assistant
-[PlanAIIcon]: ../learn/plan/ai_assistant/media/PLAN_AI_assistant_Icon.png
-[PlanSidebar]: ../learn/plan/media/PLAN_Sidebar.png
-[AcceptTerms]: ../learn/plan/ai_assistant/media/PLAN_AI_accept_Terms.png
-[AIAssistantDialog]: ../learn/plan/ai_assistant/media/PLAN_AI_Dialog1.png
-[AIEnterPrompt]: ../learn/plan/ai_assistant/media/PLAN_AI_enter_prompt.png
-[AINextButton]: ../learn/plan/ai_assistant/media/PLAN_AI_NextButton.png
-[AIGenerateActionItems]: ../learn/plan/ai_assistant/media/PLAN_AI_Generate_Action_Items.png
-[AIApplyingPromptsType]: ../learn/plan/ai_assistant/media/PLAN_AI_UserInputType.png
-[AIResponses]: ../learn/plan/ai_assistant/media/PLAN_AI_to_create_Items.png
-[AISelectButtonBreakDownintoTitles]: ../learn/plan/ai_assistant/media/PLAN_AI_SelectButton_List.png
-[AIResponsesWithCheckboxes]: ../learn/plan/ai_assistant/media/PLAN_AI_select_items.png
-[AISelectedResponses]: ../learn/plan/ai_assistant/media/PLAN_AI_select_items2.png
-[AISelectRecordTypeButton]: ../learn/plan/ai_assistant/media/PLAN_AI_select_record_type.png
-[AISelectWorkitemRecordtype]: ../learn/plan/ai_assistant/media/PLAN_AI_recordtype_workitem.png
-[AIRecordCreationDialogEmpty]: ../learn/plan/ai_assistant/media/PLAN_AI_recordtype_Dialog1.png
-[AIRecordCreationDialogFilled]: ../learn/plan/ai_assistant/media/PLAN_AI_recordtype_Dialog2.png
-[AICreateRecordsButton]: ../learn/plan/ai_assistant/media/PLAN_AI_create_records_button.png
-[AINewlyCreatedRecords]: ../learn/plan/ai_assistant/media/PLAN_AI_records_created.png
-[AIDoneButton]: ../learn/plan/ai_assistant/media/PLAN_AI_done.png
-[AIChatDialog]: ../learn/plan/ai_assistant/index.md#ai-assistant-chat-dialog
-[AIPagewithPrompttypes]: ../learn/plan/ai_assistant/index.md#ai-assistant-type-of-output
-[PlanAICreateRecords]: ../learn/plan/ai_assistant/index.md#ai-assistant-create-records-from-responses
+[PlanAI]: learn/plan/index.md#ai-assistant
+[PlanAIIcon]: learn/plan/ai_assistant/media/PLAN_AI_assistant_Icon.png
+[PlanSidebar]: learn/plan/media/PLAN_Sidebar.png
+[AcceptTerms]: learn/plan/ai_assistant/media/PLAN_AI_accept_Terms.png
+[AIAssistantDialog]: learn/plan/ai_assistant/media/PLAN_AI_Dialog1.png
+[AIEnterPrompt]: learn/plan/ai_assistant/media/PLAN_AI_enter_prompt.png
+[AINextButton]: learn/plan/ai_assistant/media/PLAN_AI_NextButton.png
+[AIGenerateActionItems]: learn/plan/ai_assistant/media/PLAN_AI_Generate_Action_Items.png
+[AIApplyingPromptsType]: learn/plan/ai_assistant/media/PLAN_AI_UserInputType.png
+[AIResponses]: learn/plan/ai_assistant/media/PLAN_AI_to_create_Items.png
+[AISelectButtonBreakDownintoTitles]: learn/plan/ai_assistant/media/PLAN_AI_SelectButton_List.png
+[AIResponsesWithCheckboxes]: learn/plan/ai_assistant/media/PLAN_AI_select_items.png
+[AISelectedResponses]: learn/plan/ai_assistant/media/PLAN_AI_select_items2.png
+[AISelectRecordTypeButton]: learn/plan/ai_assistant/media/PLAN_AI_select_record_type.png
+[AISelectWorkitemRecordtype]: learn/plan/ai_assistant/media/PLAN_AI_recordtype_workitem.png
+[AIRecordCreationDialogEmpty]: learn/plan/ai_assistant/media/PLAN_AI_recordtype_Dialog1.png
+[AIRecordCreationDialogFilled]: learn/plan/ai_assistant/media/PLAN_AI_recordtype_Dialog2.png
+[AICreateRecordsButton]: learn/plan/ai_assistant/media/PLAN_AI_create_records_button.png
+[AINewlyCreatedRecords]: learn/plan/ai_assistant/media/PLAN_AI_records_created.png
+[AIDoneButton]: learn/plan/ai_assistant/media/PLAN_AI_done.png
+[AIChatDialog]: learn/plan/ai_assistant/index.md#ai-assistant-chat-dialog
+[AIPagewithPrompttypes]: learn/plan/ai_assistant/index.md#ai-assistant-type-of-output
+[PlanAICreateRecords]: learn/plan/ai_assistant/index.md#ai-assistant-create-records-from-responses
 
 <!-- CODE -->
-[CODEopen]: ../learn/code/index.md#how-to-switch-to-code-from-home-page
-[WCAxExplain1]: ../learn/code/media/CODE_WCAx_Explain1.png
-[WCAExplain2]: ../learn/code/media/CODE_WCAx_Explain2.png
-[CommitWithWI]: ../learn/code/media/CODE_CommitWithWI.png
-[CODEWcaX]: ../learn/code/index.md#watsonx-code-assistant
-[CODEcommitWI]: ../learn/code/index.md#commit-code-with-wi
-[CodeWithWIcommit]: ../learn/code/media/CODE_CommitWithWI.png
-[CommitAndPush]: ../learn/code/media/Code_Commit_and_Push.png
-[GitStagingQuestion]: ../learn/code/media/Code_Git_Stage_Question.png
-[GitFetchQuestion]: ../learn/code/media/Code_Git_Fetch_Question.png
-[CodeGitCloneSuccess]: ../learn/code/media/Code_Git_Clone_Success.png
-[CodeDevContainerView]: ../learn/code/media/Code_Dev_Container_two_tabs.png
-[NoRunningDevContainer]: ../learn/code/media/Code_No_running_dev_containers.png
-[ListOfRunningDevContainer]: ../learn/code/media/Code_Running_Dev_Containers.png
-[LetsGoButton]: ../learn/code/media/Code_Dev_Container_LetsGo.png
-[TerminateButton]: ../learn/code/media/Code_Dev_Container_Terminate.png
-[ListOfAvailableDevContainer]: ../learn/code/media/Code_Dev_Container_Overview_Page.png
-[SettingUpEnv]: ../learn/code/media/Code_Setting_Up_Environment.png
-[WCAxNoRepo]: ../learn/code/media/Code_WatsonX_Dev_Container_no_Rep.png
+[CODEopen]: learn/code/index.md#how-to-switch-to-code-from-home-page
+[WCAxExplain1]: learn/code/media/CODE_WCAx_Explain1.png
+[WCAExplain2]: learn/code/media/CODE_WCAx_Explain2.png
+[CommitWithWI]: learn/code/media/CODE_CommitWithWI.png
+[CODEWcaX]: learn/code/index.md#watsonx-code-assistant
+[CODEcommitWI]: learn/code/index.md#commit-code-with-wi
+[CodeWithWIcommit]: learn/code/media/CODE_CommitWithWI.png
+[CommitAndPush]: learn/code/media/Code_Commit_and_Push.png
+[GitStagingQuestion]: learn/code/media/Code_Git_Stage_Question.png
+[GitFetchQuestion]: learn/code/media/Code_Git_Fetch_Question.png
+[CodeGitCloneSuccess]: learn/code/media/Code_Git_Clone_Success.png
+[CodeDevContainerView]: learn/code/media/Code_Dev_Container_two_tabs.png
+[NoRunningDevContainer]: learn/code/media/Code_No_running_dev_containers.png
+[ListOfRunningDevContainer]: learn/code/media/Code_Running_Dev_Containers.png
+[LetsGoButton]: learn/code/media/Code_Dev_Container_LetsGo.png
+[TerminateButton]: learn/code/media/Code_Dev_Container_Terminate.png
+[ListOfAvailableDevContainer]: learn/code/media/Code_Dev_Container_Overview_Page.png
+[SettingUpEnv]: learn/code/media/Code_Setting_Up_Environment.png
+[WCAxNoRepo]: learn/code/media/Code_WatsonX_Dev_Container_no_Rep.png
 
 <!-- CONTROL -->
-[ControlOPEN]: ../learn/control/index.md#how-to-switch-to-control-from-home-page
-[ControlShowUpdate]: ../learn/control/index.md#show-activity-report
-[ControlShowLastCommit]: ../learn/control/media/CONTROL_ShowLastCommit.png
-[ControlListOrgsRepos]: ../learn/control/media/Control_List_Repo_and_Org.png
-[ControlHomePage]: ../learn/control/media/CONTROL_HomePage_of_DemoEchoLogic.png
-[ControlListPullRequests]: ../learn/control/media/Control_List_Pulls.png
-[ControlAllRepoIcon]: ../learn/control/media/Control_SidebarRepos.png
-[ControlExploreOtherOrgRepo]: ../learn/control/media/Control_List_Explore_Repo_orgs_etc.png
-[ControlLearningRepo]: ../learn/control/media/Control_LearningDataRepo.png
-[ControlShowCommit]: ../learn/control/media/CONTROL_ShowGitCommit.png
-[REFControlOpenWithCode]: ../learn/control/index.md#open-repo-with-code
-[ButtonCode]: ../learn/control/media/Control_CodeButton.png
-[ButtonCodeExpanded]: ../learn/control/media/Control_CodeButtonExpanded.png
-[OpenWithCode]: ../learn/control/media/Control_Open_with_DevOps_Code.png
-[SelectFromListDC1]: ../learn/control/media/Control_Dev_Container_select_from_list.png
-[SelectFromListDC2]: ../learn/control/media/Control_Dev_Container_select_from_list2.png
-[CloneButton]: ../learn/control/media/Control_Code_Clone_Button.png
-[ControlHomeButton]: ../learn/control/media/Control_SidebarHome.png
-[ControlListPullrequestsIcon]: ../learn/control/media/Control_SidebarPull.png
+[ControlOPEN]: learn/control/index.md#how-to-switch-to-control-from-home-page
+[ControlShowUpdate]: learn/control/index.md#show-activity-report
+[ControlShowLastCommit]: learn/control/media/CONTROL_ShowLastCommit.png
+[ControlListOrgsRepos]: learn/control/media/Control_List_Repo_and_Org.png
+[ControlHomePage]: learn/control/media/CONTROL_HomePage_of_DemoEchoLogic.png
+[ControlListPullRequests]: learn/control/media/Control_List_Pulls.png
+[ControlAllRepoIcon]: learn/control/media/Control_SidebarRepos.png
+[ControlExploreOtherOrgRepo]: learn/control/media/Control_List_Explore_Repo_orgs_etc.png
+[ControlLearningRepo]: learn/control/media/Control_LearningDataRepo.png
+[ControlShowCommit]: learn/control/media/CONTROL_ShowGitCommit.png
+[REFControlOpenWithCode]: learn/control/index.md#open-repo-with-code
+[ButtonCode]: learn/control/media/Control_CodeButton.png
+[ButtonCodeExpanded]: learn/control/media/Control_CodeButtonExpanded.png
+[OpenWithCode]: learn/control/media/Control_Open_with_DevOps_Code.png
+[SelectFromListDC1]: learn/control/media/Control_Dev_Container_select_from_list.png
+[SelectFromListDC2]: learn/control/media/Control_Dev_Container_select_from_list2.png
+[CloneButton]: learn/control/media/Control_Code_Clone_Button.png
+[ControlHomeButton]: learn/control/media/Control_SidebarHome.png
+[ControlListPullrequestsIcon]: learn/control/media/Control_SidebarPull.png
 
 <!-- BUILD -->
-[BuildProcessDetail]: ../learn/build/media/BUILD_Process_Runs_Details.png
-[BuildProcessTemplates]: ../learn/build/media/BUILD_Template_Process.png
-[BuildShowBuildProcess]: ../learn/build/index.md#build-process-detail
-[BuildOpen]: ../learn/build/index.md#how-to-switch-to-build-from-home-page
-[BuildOverviewRunsResults]: ../learn/build/index.md#build-project-runs
-[BuildProjectRunsResults]: ../learn/build/media/BUILD_Process_Runs_results.png
-[BuildProcessTemplatesDetail]: ../learn/build/media/BUILD_Templates_Process_Detail.png
-[BuildProcessTemplatesDefinition]: ../learn/build/media/BUILD_Templates_Process_Def.png
-[BuildShowTemplates]: ../learn/build/index.md#templates
-[BuildShowTemplateDetail]: ../learn/build/index.md#process-template-detail
-[BuildShowTemplateDefinition]: ../learn/build/media/BUILD_Templates_Process_Def.png
-[BuildMetrics]: ../learn/build/media/Build_Metrics.png
-[Build3Buttons]: ../learn/build/media/Build_3Buttons.png
-[BuildProcDetails]: ../learn/build/media/Build_ProcessLink_in_ProjectsView.png
-[BuildRecentRunsMetricsFilter]: ../learn/build/media/Build_Process_runs_details_metrics_and_filter.png
-[BuildTimePeriodFilter]: ../learn/build/media/Build_Metrics_TimePeriodfilter.png
+[BuildProcessDetail]: learn/build/media/BUILD_Process_Runs_Details.png
+[BuildProcessTemplates]: learn/build/media/BUILD_Template_Process.png
+[BuildShowBuildProcess]: learn/build/index.md#build-process-detail
+[BuildOpen]: learn/build/index.md#how-to-switch-to-build-from-home-page
+[BuildOverviewRunsResults]: learn/build/index.md#build-project-runs
+[BuildProjectRunsResults]: learn/build/media/BUILD_Process_Runs_results.png
+[BuildProcessTemplatesDetail]: learn/build/media/BUILD_Templates_Process_Detail.png
+[BuildProcessTemplatesDefinition]: learn/build/media/BUILD_Templates_Process_Def.png
+[BuildShowTemplates]: learn/build/index.md#templates
+[BuildShowTemplateDetail]: learn/build/index.md#process-template-detail
+[BuildShowTemplateDefinition]: learn/build/media/BUILD_Templates_Process_Def.png
+[BuildMetrics]: learn/build/media/Build_Metrics.png
+[Build3Buttons]: learn/build/media/Build_3Buttons.png
+[BuildProcDetails]: learn/build/media/Build_ProcessLink_in_ProjectsView.png
+[BuildRecentRunsMetricsFilter]: learn/build/media/Build_Process_runs_details_metrics_and_filter.png
+[BuildTimePeriodFilter]: learn/build/media/Build_Metrics_TimePeriodfilter.png
 
 <!-- DEPLOY -->
-[DeployOpen]: ../learn/deploy/index.md#how-to-switch-to-deploy-from-home-page
-[REFDeployOverview]: ../learn/deploy/index.md#overview
-[DeployShowLandingPage]: ../learn/deploy/index.md#deploy-landing-page
-[DeployDashboard]: ../learn/deploy/media/dashboard.png
-[DeployShowProcessWithTest]: ../learn/deploy/processes/index.md#adding-version-statuses
-[DeployComponentProcessPassingTest]: ../learn/deploy/processes/media/DEPLOY_ComponentProcessFinalWithPassingTest.png
-[DeployComponentFinalProcesWithVersionStatus]: ../learn/deploy/processes/media/DEPLOY_Component_VersionList_withStatus.png
-[DeployShowApp]: ../learn/deploy/applications/media/Deploy_Applications_View.png
-[DeployAppEnvList]: ../learn/deploy/media/DEPLOY_Application_Environmentlist.png
-[DeployAppRequestProcessButton]: ../learn/deploy/media/DEPLOY_Application_RequestProcess.png
-[DeployAppProcessRequestSelectProcess]: ../learn/deploy/media/DEPLOY_Application_Runappprocessdialog1_SelectDeploymentProcess.png
-[DeployAppProcessRequestOnlyChanged]: ../learn/deploy/media/DEPLOY_Application_Runappprocessdialog3_OnlyChanged.png
-[DeployAppPocessRequestChooseCompVersionButton]: ../learn/deploy/media/DEPLOY_Application_Runappprocessdialog4_ChooseCompVersionButton.png
-[DeployAppPocessRequestSelectCompVersion1]: ../learn/deploy/media/DEPLOY_Application_Runappprocessdialog5_SelectCompVersion.png
-[DeployAppPocessRequestSelectCompVersion2]: ../learn/deploy/media/DEPLOY_Application_Runappprocessdialog6_SelectCompVersion.png
-[DeployAppPocessRequestSubmitButton]: ../learn/deploy/media/DEPLOY_Application_Runappprocessdialog7_Submit.png
-[DeployRunaDeployment]: ../learn/deploy/index.md#run-a-deployment
-[DeployRequestAprocess]: ../learn/deploy/index.md#request-a-process
-[DeployAppDevEnv]: ../learn/deploy/media/DEPLOY_AppEnv_DEV.png
-[DeployProcessRunning]: ../learn/deploy/media/DEPLOY_RunningProcess1.png
-[DeployProcessRunningExpandAllButton]: ../learn/deploy/media/DEPLOY_RunningProcess2_ExpandAll.png
-[DeployProcessRunning3DotsofStep]: ../learn/deploy/media/DEPLOY_RunningProcess3_Stepdetails.png
-[DeployProcessRunningStepOutputDetails]: ../learn/deploy/media/DEPLOY_RunningProcess4_StepDetails.png
-[DeployViewRunningProcess]: ../learn/deploy/index.md#view-of-running-process
-[DeployAppProcessRunSuccess]: ../learn/deploy/media/DEPLOY_AppProcessFinishedSuccess.png
-[DeployAppEnvwithDeployedVersions]: ../learn/deploy/media/DEPLOY_Application_EnvironmentResultVersions.png
-[DeployResultofRun]: ../learn/deploy/index.md#result-of-run
-[DeployShowPluginsPage]: ../learn/deploy/index.md#settings
-[DeploySettingsIcon]: ../learn/deploy/media/DEPLOY_SettingsIcon.png
-[DeploySettingsAutomationPlugins]: ../learn/deploy/settings/media/DEPLOY_Settings_AutomationSection.png
-[DeploySettingsPluginsList]: ../learn/deploy/settings/media/DEPLOY_PluginsList.png
-[DeploySettingsAutomationSection]: ../learn/deploy/settings/index.md#plugins
-[DeployPlugin3DotsMenue]: ../learn/deploy/media/DEPLOY_PluginList_3DotsMenue.png
-[SBApplicationsIcon]: ../learn/deploy/media/Deploy_Sidebar_AppIcon.jpg
-[APPSallView]: ../learn/deploy/applications/media/Deploy_Applications_View.png
-[AppViewWEnv]: ../learn/deploy/applications/media/Deploy_Application_View_WithEnv.png
-[SwitchToProcessView]: ../learn/deploy/applications/index.md#show-processes
-[AppProcessesTab]: ../learn/deploy/applications/media/Deploy_Application_ProcessesTab.png
-[AppProcessesView]: ../learn/deploy/applications/media/Deploy_App_Processes_view.png
-[AppViewProcess]: ../learn/deploy/applications/media/Deploy_AppDeploymentProcess.png
-[REFSwitchToCompView]: ../learn/deploy/components/index.md#switch-to-components-view
-[SBCompIcon]: ../learn/deploy/media/Deploy_Sidebar_ComponentsIcon.png
-[CompView]: ../learn/deploy/media/DEPLOY_Components_List.png
-[CompDetails]: ../learn/deploy/components/media/Component_Imported.png
-[CompProcessTab]: ../learn/deploy/components/media/Component_Tabbar_Processes.png
-[CompProcesses]: ../learn/deploy/components/media/Component_Processlist_withentries.png
-[REFUseGenie]: ../learn/deploy/index.md#use-the-deployment-genie
-[RunSelectFailingDeployment]: ../learn/deploy/media/Deploy_RunProc_FailingDeploy.png
-[REFRequestAProcess]: ../learn/deploy/index.md#request-a-process
-[RunFailSelectCompVersions]: ../learn/deploy/media/Deploy_AppRun_SelectedCompVersions.png
-[RunFailed]: ../learn/deploy/media/Deploy_AppRun_ResultFailed.png
-[GenieAnalysis]: ../learn/deploy/media/Deploy_AppProcess_AI_Analysis.png
-[Step3DotsMenueWithGenie]: ../learn/deploy/media/Deploy_AppRun_ResultFailed_Step_3Dots.png
-[REFAppProcessView]: ../learn/deploy/processes/index.md#view-application-processes
-[REFCompProcessView]: ../learn/deploy/processes/index.md#view-component-processes
-[REFAppProcesses]: ../learn/deploy/processes/index.md#application-processes
+[DeployOpen]: learn/deploy/index.md#how-to-switch-to-deploy-from-home-page
+[REFDeployOverview]: learn/deploy/index.md#overview
+[DeployShowLandingPage]: learn/deploy/index.md#deploy-landing-page
+[DeployDashboard]: learn/deploy/media/dashboard.png
+[DeployShowProcessWithTest]: learn/deploy/processes/index.md#adding-version-statuses
+[DeployComponentProcessPassingTest]: learn/deploy/processes/media/DEPLOY_ComponentProcessFinalWithPassingTest.png
+[DeployComponentFinalProcesWithVersionStatus]: learn/deploy/processes/media/DEPLOY_Component_VersionList_withStatus.png
+[DeployShowApp]: learn/deploy/applications/media/Deploy_Applications_View.png
+[DeployAppEnvList]: learn/deploy/media/DEPLOY_Application_Environmentlist.png
+[DeployAppRequestProcessButton]: learn/deploy/media/DEPLOY_Application_RequestProcess.png
+[DeployAppProcessRequestSelectProcess]: learn/deploy/media/DEPLOY_Application_Runappprocessdialog1_SelectDeploymentProcess.png
+[DeployAppProcessRequestOnlyChanged]: learn/deploy/media/DEPLOY_Application_Runappprocessdialog3_OnlyChanged.png
+[DeployAppPocessRequestChooseCompVersionButton]: learn/deploy/media/DEPLOY_Application_Runappprocessdialog4_ChooseCompVersionButton.png
+[DeployAppPocessRequestSelectCompVersion1]: learn/deploy/media/DEPLOY_Application_Runappprocessdialog5_SelectCompVersion.png
+[DeployAppPocessRequestSelectCompVersion2]: learn/deploy/media/DEPLOY_Application_Runappprocessdialog6_SelectCompVersion.png
+[DeployAppPocessRequestSubmitButton]: learn/deploy/media/DEPLOY_Application_Runappprocessdialog7_Submit.png
+[DeployRunaDeployment]: learn/deploy/index.md#run-a-deployment
+[DeployRequestAprocess]: learn/deploy/index.md#request-a-process
+[DeployAppDevEnv]: learn/deploy/media/DEPLOY_AppEnv_DEV.png
+[DeployProcessRunning]: learn/deploy/media/DEPLOY_RunningProcess1.png
+[DeployProcessRunningExpandAllButton]: learn/deploy/media/DEPLOY_RunningProcess2_ExpandAll.png
+[DeployProcessRunning3DotsofStep]: learn/deploy/media/DEPLOY_RunningProcess3_Stepdetails.png
+[DeployProcessRunningStepOutputDetails]: learn/deploy/media/DEPLOY_RunningProcess4_StepDetails.png
+[DeployViewRunningProcess]: learn/deploy/index.md#view-of-running-process
+[DeployAppProcessRunSuccess]: learn/deploy/media/DEPLOY_AppProcessFinishedSuccess.png
+[DeployAppEnvwithDeployedVersions]: learn/deploy/media/DEPLOY_Application_EnvironmentResultVersions.png
+[DeployResultofRun]: learn/deploy/index.md#result-of-run
+[DeployShowPluginsPage]: learn/deploy/index.md#settings
+[DeploySettingsIcon]: learn/deploy/media/DEPLOY_SettingsIcon.png
+[DeploySettingsAutomationPlugins]: learn/deploy/settings/media/DEPLOY_Settings_AutomationSection.png
+[DeploySettingsPluginsList]: learn/deploy/settings/media/DEPLOY_PluginsList.png
+[DeploySettingsAutomationSection]: learn/deploy/settings/index.md#plugins
+[DeployPlugin3DotsMenue]: learn/deploy/media/DEPLOY_PluginList_3DotsMenue.png
+[SBApplicationsIcon]: learn/deploy/media/Deploy_Sidebar_AppIcon.jpg
+[APPSallView]: learn/deploy/applications/media/Deploy_Applications_View.png
+[AppViewWEnv]: learn/deploy/applications/media/Deploy_Application_View_WithEnv.png
+[SwitchToProcessView]: learn/deploy/applications/index.md#show-processes
+[AppProcessesTab]: learn/deploy/applications/media/Deploy_Application_ProcessesTab.png
+[AppProcessesView]: learn/deploy/applications/media/Deploy_App_Processes_view.png
+[AppViewProcess]: learn/deploy/applications/media/Deploy_AppDeploymentProcess.png
+[REFSwitchToCompView]: learn/deploy/components/index.md#switch-to-components-view
+[SBCompIcon]: learn/deploy/media/Deploy_Sidebar_ComponentsIcon.png
+[CompView]: learn/deploy/media/DEPLOY_Components_List.png
+[CompDetails]: learn/deploy/components/media/Component_Imported.png
+[CompProcessTab]: learn/deploy/components/media/Component_Tabbar_Processes.png
+[CompProcesses]: learn/deploy/components/media/Component_Processlist_withentries.png
+[REFUseGenie]: learn/deploy/index.md#use-the-deployment-genie
+[RunSelectFailingDeployment]: learn/deploy/media/Deploy_RunProc_FailingDeploy.png
+[REFRequestAProcess]: learn/deploy/index.md#request-a-process
+[RunFailSelectCompVersions]: learn/deploy/media/Deploy_AppRun_SelectedCompVersions.png
+[RunFailed]: learn/deploy/media/Deploy_AppRun_ResultFailed.png
+[GenieAnalysis]: learn/deploy/media/Deploy_AppProcess_AI_Analysis.png
+[Step3DotsMenueWithGenie]: learn/deploy/media/Deploy_AppRun_ResultFailed_Step_3Dots.png
+[REFAppProcessView]: learn/deploy/processes/index.md#view-application-processes
+[REFCompProcessView]: learn/deploy/processes/index.md#view-component-processes
+[REFAppProcesses]: learn/deploy/processes/index.md#application-processes
 
 <!-- TEST -->
-[TestOpen]: ../learn/test/index.md#how-to-switch-to-test-from-home-page
-[SectionExecute]: ../learn/test/media/Test_Sidebar_ExecuteSection.png
-[ExecuteScriptList]: ../learn/test/media/Test_Execute_ScriptList.png
-[ButtonRun]: ../learn/test/media/Test_RunButton.png
-[CreateTicketIcon]: ../learn/test/media/Test_ResultView_FailedTest_CreateTicket.png
-[Projecttile]: ../learn/test/media/Test_Project_Tile.png
-[ProjectHomePage]: ../learn/test/media/Test_Project_Homepage.png
-[RunDialog]: ../learn/test/media/Test_Run_Dialog.png
-[ButtonExecute]: ../learn/test/media/Test_ExecuteButton.png
-[RunningScript]: ../learn/test/media/Test_Execute_ScriptList_runningScript.png
-[SectionAnalyze]: ../learn/test/media/Test_Sidebar_Analyze_Section.png
-[ResultsOverview]: ../learn/test/media/Test_Analyze_ResultOverview.png
-[SectionAuthor]: ../learn/test/media/Test_Sidebar_AuthorSection.png
-[TestEditorView]: ../learn/test/media/Test_TestEditor_View.png
-[TestScriptEditor]: ../learn/test/media/Test_TestEditor_ScriptOpened.png
-[TestScriptStepDetails]: ../learn/test/media/Test_TestEditor_StepDetails.png
-[MenueAnalyze]: ../learn/test/media/Test_Sidebar_Analyze_Menue.png
-[ResultsFailedTest]: ../learn/test/media/Test_ResultView_FailedTest.png
-[WICreatedialog]: ../learn/test/media/Test_Plan_WI_Dialog1.png
-[WICreateDetails]: ../learn/test/media/Test_Plan_WI_Dialog2.png
-[ResultLinked]: ../learn/test/media/Test_Result_Details_with_PlanLink.png
-[REFSwitchTestTS]: ../learn/test/index.md#switch-teamspace-and-project-if-needed
-[TestPrjList]: ../learn/test/media/Test_Show_ProjectList.png
-[SwitchTestTS]: ../learn/test/media/Test_SwitchTS.png
-[DataDefView]: ../learn/test/media/Test_Author_DataDefView.png
-[DataSchemas]: ../learn/test/media/Test_Author_Schemas.png
-[DataSchemaView]: ../learn/test/media/Test_Author_Schema_View.png
-[DataPreviewIcon]: ../learn/test/media/Test_Data_PreviewIcon.png
-[DataPreview]: ../learn/test/media/Test_Data_Preview.png
-[GenerateIcon]: ../learn/test/media/Test_Data_GenerateIcon.png
-[GenerateDialog]: ../learn/test/media/Test_Data_GenerateDialog.png
-[ButtonDownload]: ../media/Button_Download.png
-[TestDataFolder]: ../learn/test/media/Test_Data_DownloadedUnzipped.png
-[TestDataFiles]: ../learn/test/media/Test_Data_DownloadedFiles.png
-[TestDataGenerated]: ../learn/test/media/Test_Data_GeneratedData.png
+[TestOpen]: learn/test/index.md#how-to-switch-to-test-from-home-page
+[SectionExecute]: learn/test/media/Test_Sidebar_ExecuteSection.png
+[ExecuteScriptList]: learn/test/media/Test_Execute_ScriptList.png
+[ButtonRun]: learn/test/media/Test_RunButton.png
+[CreateTicketIcon]: learn/test/media/Test_ResultView_FailedTest_CreateTicket.png
+[Projecttile]: learn/test/media/Test_Project_Tile.png
+[ProjectHomePage]: learn/test/media/Test_Project_Homepage.png
+[RunDialog]: learn/test/media/Test_Run_Dialog.png
+[ButtonExecute]: learn/test/media/Test_ExecuteButton.png
+[RunningScript]: learn/test/media/Test_Execute_ScriptList_runningScript.png
+[SectionAnalyze]: learn/test/media/Test_Sidebar_Analyze_Section.png
+[ResultsOverview]: learn/test/media/Test_Analyze_ResultOverview.png
+[SectionAuthor]: learn/test/media/Test_Sidebar_AuthorSection.png
+[TestEditorView]: learn/test/media/Test_TestEditor_View.png
+[TestScriptEditor]: learn/test/media/Test_TestEditor_ScriptOpened.png
+[TestScriptStepDetails]: learn/test/media/Test_TestEditor_StepDetails.png
+[MenueAnalyze]: learn/test/media/Test_Sidebar_Analyze_Menue.png
+[ResultsFailedTest]: learn/test/media/Test_ResultView_FailedTest.png
+[WICreatedialog]: learn/test/media/Test_Plan_WI_Dialog1.png
+[WICreateDetails]: learn/test/media/Test_Plan_WI_Dialog2.png
+[ResultLinked]: learn/test/media/Test_Result_Details_with_PlanLink.png
+[REFSwitchTestTS]: learn/test/index.md#switch-teamspace-and-project-if-needed
+[TestPrjList]: learn/test/media/Test_Show_ProjectList.png
+[SwitchTestTS]: learn/test/media/Test_SwitchTS.png
+[DataDefView]: learn/test/media/Test_Author_DataDefView.png
+[DataSchemas]: learn/test/media/Test_Author_Schemas.png
+[DataSchemaView]: learn/test/media/Test_Author_Schema_View.png
+[DataPreviewIcon]: learn/test/media/Test_Data_PreviewIcon.png
+[DataPreview]: learn/test/media/Test_Data_Preview.png
+[GenerateIcon]: learn/test/media/Test_Data_GenerateIcon.png
+[GenerateDialog]: learn/test/media/Test_Data_GenerateDialog.png
+[ButtonDownload]: media/Button_Download.png
+[TestDataFolder]: learn/test/media/Test_Data_DownloadedUnzipped.png
+[TestDataFiles]: learn/test/media/Test_Data_DownloadedFiles.png
+[TestDataGenerated]: learn/test/media/Test_Data_GeneratedData.png
 
 <!-- MEASURE -->
-[MeasureOpen]: ../learn/measure/index.md#how-to-switch-to-measure-from-home-page
-[MeasureEnv3DotsMenue]: ../learn/measure/media/Measure_Pipeline_Env_3Dotsmenue.png
-[MeasureGateDialog1]: ../learn/measure/media/Measure_Pipeline_Env_CreateGatedialog1.png
-[MeasureGateDialog2]: ../learn/measure/media/Measure_Pipeline_Env_CreateGatedialog2.png
-[MeasureTabs]: ../learn/measure/media/VSM_Tabs.png
-[REFMeasurePipelines]: ../learn/measure/index.md#pipeline
-[REFMeasureGates]: ../learn/measure/index.md#quality-gates
-[REFMeasureVSM]: ../learn/measure/index.md#have-a-look-at-the-value-stream
-[VSMEchoLogic]: ../learn/measure/media/Measure_VSM_EchoLogic.png
-[VSMSelectDot]: ../learn/measure/media/VSM_ViewDot.png
-[TabSwimlane]: ../learn/measure/media/Measure_Swimlane_Tab.png
-[SwimlaneView]: ../learn/measure/media/Measure_Swimlane_view.png
-[TabPipeline]: ../learn/measure/media/Measure_Pipeline_Tab.png
-[PipelineView]: ../learn/measure/media/Measure_PipelineView.png
+[MeasureOpen]: learn/measure/index.md#how-to-switch-to-measure-from-home-page
+[MeasureEnv3DotsMenue]: learn/measure/media/Measure_Pipeline_Env_3Dotsmenue.png
+[MeasureGateDialog1]: learn/measure/media/Measure_Pipeline_Env_CreateGatedialog1.png
+[MeasureGateDialog2]: learn/measure/media/Measure_Pipeline_Env_CreateGatedialog2.png
+[MeasureTabs]: learn/measure/media/VSM_Tabs.png
+[REFMeasurePipelines]: learn/measure/index.md#pipeline
+[REFMeasureGates]: learn/measure/index.md#quality-gates
+[REFMeasureVSM]: learn/measure/index.md#have-a-look-at-the-value-stream
+[VSMEchoLogic]: learn/measure/media/Measure_VSM_EchoLogic.png
+[VSMSelectDot]: learn/measure/media/VSM_ViewDot.png
+[TabSwimlane]: learn/measure/media/Measure_Swimlane_Tab.png
+[SwimlaneView]: learn/measure/media/Measure_Swimlane_view.png
+[TabPipeline]: learn/measure/media/Measure_Pipeline_Tab.png
+[PipelineView]: learn/measure/media/Measure_PipelineView.png
 
 <!-- RELEASE -->
-[ReleaseOpen]: ../learn/release/index.md#how-to-switch-to-release-from-home-page
-[ReleaseViewasList]: ../learn/release/media/Release_View_asList.png
-[ReleaseSwitchToTiles]: ../learn/release/media/Release_Switch_To_TilesView.png
-[ReleaseViewasTiles]: ../learn/release/media/Release_View_asTiles.png
-<!-- [OpenWithVSCode]: ../learn/control/media/Control_Open_with_VSCode.png
-[AllowToOpenVSCode]: ../learn/control/media/Control_AllowOpenVSCode.png
-[SelectTargetFolderforCloning]: ../learn/code/media/Code_VSCode_clone_targetfolder.png
-[CodeEnterUserID]: ../learn/code/media/Code_VSCode_enterGitUser.png
-[CodeEnterPAT]: ../learn/code/media/Code_VSCode_Enter_PAT.png
-[REFPATSection]: ../learn/control/index.md#access-token
+[ReleaseOpen]: learn/release/index.md#how-to-switch-to-release-from-home-page
+[ReleaseViewasList]: learn/release/media/Release_View_asList.png
+[ReleaseSwitchToTiles]: learn/release/media/Release_Switch_To_TilesView.png
+[ReleaseViewasTiles]: learn/release/media/Release_View_asTiles.png
+<!-- [OpenWithVSCode]: learn/control/media/Control_Open_with_VSCode.png
+[AllowToOpenVSCode]: learn/control/media/Control_AllowOpenVSCode.png
+[SelectTargetFolderforCloning]: learn/code/media/Code_VSCode_clone_targetfolder.png
+[CodeEnterUserID]: learn/code/media/Code_VSCode_enterGitUser.png
+[CodeEnterPAT]: learn/code/media/Code_VSCode_Enter_PAT.png
+[REFPATSection]: learn/control/index.md#access-token
  -->
