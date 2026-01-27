@@ -47,6 +47,24 @@ How to import existing data (CSV file) into an application.
 
 --8<-- [end:PATPlan]
 
+### Get the DB ID
+
+This value is needed in the MCP setup.
+
+--8<-- [start:PlanGetDBID]
+
+| Step | Details                                                                                            | Additional Information                             |
+|:----:|:---------------------------------------------------------------------------------------------------|:---------------------------------------------------|
+|      | Please use the "Home" button on the left sidebar to switch to the Home page for Plan               | ![Plan Home Page Button][PlanHomePageButton]       |
+|      | On the right side click on **My Applications**                                                     | ![My Applications Button][PlanMyApplicationButton] |
+|      | Click on **Tenant Management** ![Tenant Management Button][PlanTMButton] to open a the Tenant View | ![Tenant Management View][PlanTMView]              |
+|      | In this view select your Tenant (in this example **Demo**)                                         |                                                    |
+|      | select the Details view tab and switch it on                                                       | ![Tenant Detail View][PlanTMDetailSwitch]          |
+|      | more information is shown about the tenant                                                         | ![Tenant Details][PlanTMDetails]                   |
+|      | The Database ID is shown, and copy it for further usage                                            | ![Plan Database ID][PlanDBID]                      |
+
+--8<-- [end:PlanGetDBID]
+
 ---
 
 [ChooseFileDialog]: media/PLAN_Import_Dialog_ChooseFile.png
@@ -68,3 +86,10 @@ How to import existing data (CSV file) into an application.
 [PlanPATCreated]: media/Plan_PAT_created.png
 [PlanPATCopied]: media/Plan_PAT_copied.png
 [PlanListnewPATS]: media/Plan_PAT_list_updated.png
+[PlanHomePageButton]: ../media/Plan_Home_button.png
+[PlanMyApplicationButton]: ../media/Plan_MyApplications_Button.png
+[PlanTMButton]: media/Plan_TenantManagement_Link.png
+[PlanTMView]: media/Plan_Tenant_Management_View.png
+[PlanTMDetailSwitch]: media/Plan_Tenant_Management_Details_Switch.png
+[PlanTMDetails]: media/Plan_Tenant_Management_Details.png
+[PlanDBID]: media/Plan_Database_ID.png
