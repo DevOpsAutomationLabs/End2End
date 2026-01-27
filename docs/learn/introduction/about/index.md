@@ -1,5 +1,15 @@
 # About Box, Sidebar and Plug-Ins
 
+## Switch to Loop Home page
+
+--8<-- [start:SWITCH2Loop]
+
+| Step | Details                                                                                                    | Additional Information            |
+|:----:|:-----------------------------------------------------------------------------------------------------------|:----------------------------------|
+|      | Switch to the main view of your Teamspace by clicking on **DevOps Loop: Loop** in the **Central App Menu** | ![Central App Menue][CentralAppSwitcher] |
+
+--8<-- [end:SWITCH2Loop]
+
 ## About Box and Logging out
 
 | Step | Details                                                                                                 | Additional Information                        |
@@ -45,9 +55,11 @@
 
 #### Integrations
 
-View or Create an Integration to an AI Provider
+View or Create an Integration to an AI Provider.
 
 --8<-- [start:TSAIIntegrations]
+
+Please have a look at the [documentation][LoopDocAIIntegrations] for more details.
 
 | Step | Details                                                                                             | Additional Information                                            |
 |:----:|:----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------|
@@ -68,6 +80,7 @@ View or Create an Integration to an AI Provider
 
 ---
 
+[CentralAppSwitcher]: ../media/Loop_central_app_control.png
 [SBSettings]: media/Loop_Sidebar_Settings.png
 [SBPlugins]: media/Loop_Sidebar_plugins.png
 [SBExpanded]: media/Loop_Sidebar_expanded.png
@@ -89,3 +102,4 @@ View or Create an Integration to an AI Provider
 [ListOfIntegrations]: media/Loop_Settings_Integrations.png
 [ButtonNext]: ../../../media/Button_NEXT.png
 [ButtonSave]: ../../../media/Button_Save.png
+[LoopDocAIIntegrations]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=loop-ai-provider-integration-genie-tech-preview

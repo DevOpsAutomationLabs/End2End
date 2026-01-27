@@ -6,7 +6,7 @@
 
 This Step by Step Demo Guide will give you compact Instructions how to demo DevOps Loop. For more detailed information about the Capabilities and Steps links to the indepth enablement Guide has been added.
 
-## [Loop](learn/introduction/index.md)
+## [Loop](../learn/introduction/index.md)
 
 ### Login into Loop
 
@@ -26,11 +26,11 @@ learn/introduction/index.md:TheHomePage
 learn/introduction/index.md:DashboardMetrics
 --8<--
 
-## [Plan](learn/plan/index.md)
+## [Plan](../learn/plan/index.md)
 
 ### Plan Overview
 
-#### [Switch to Plan](learn/plan/index.md#how-to-switch-to-plan-from-home-page)
+#### [Switch to Plan](../learn/plan/index.md#how-to-switch-to-plan-from-home-page)
 
 --8<--
 learn/plan/index.md:SWITCH2Plan
@@ -54,7 +54,7 @@ learn/plan/boards/index.md:FilterEpics
 learn/plan/boards/index.md:WorkItems
 --8<--
 
-### [Use Plan AI Assistant](learn/plan/ai_assistant/index.md#using-the-plan-ai-assistant)
+### [Use Plan AI Assistant](../learn/plan/ai_assistant/index.md#using-the-plan-ai-assistant)
 
 [For More about AI Assistant follow this link][PlanAI]
 
@@ -77,7 +77,7 @@ learn/plan/ai_assistant/index.md:PlanAIAssistantCreateRecords
 --8<--
 <!-- [Open a workitem and use AI to create description and exploratory test information](plan/boards/index.md#use-ai-in-workitem) -->
 
-## [Control - Work with Repository](learn/control/index.md#open-repo-with-code)
+## [Control - Work with Repository](../learn/control/index.md#open-repo-with-code)
 
 --8<--
 learn/control/index.md:SWITCH2Control
@@ -89,7 +89,7 @@ learn/control/index.md:ManageRepoOrgs
 learn/control/index.md:OpenRepoWithCode
 --8<--
 
-## [Code](learn/code/index.md)
+## [Code](../learn/code/index.md)
 
 <!-- --8<--
 learn/code/index.md:Switch2Code
@@ -98,7 +98,7 @@ learn/code/index.md:Switch2Code
 learn/code/index.md:UseCode
 --8<--
 
-## [Control](learn/control/index.md)
+## [Control](../learn/control/index.md)
 
 --8<--
 learn/control/index.md:ShowLastCommits
@@ -107,7 +107,7 @@ learn/control/index.md:ShowLastCommits
 learn/control/index.md:ShowGitCommitDetails
 --8<--
 
-## [Build](learn/build/index.md)
+## [Build](../learn/build/index.md)
 
 --8<--
 learn/build/index.md:SWITCH2Build
@@ -133,7 +133,7 @@ learn/build/index.md:ProcessDetailsTemplates
 learn/build/index.md:ProcessDefTemplates
 --8<--
 
-## [Deploy](learn/deploy/index.md)
+## [Deploy](../learn/deploy/index.md)
 
 ### [Deploy Overview][REFDeployOverview]
 
@@ -211,7 +211,7 @@ learn/build/index.md:ProcessDefTemplates
 |      | [View installed and available Plugins][DeploySettingsAutomationSection]        | ![Automation Plugins][DeploySettingsAutomationPlugins] |
 |  4   | By clicking on **Available Plugins** a list of all available Plug-Ins is shown | ![Plugin List][DeploySettingsPluginsList]              |
 
-## [Test](learn/test/index.md)
+## [Test](../learn/test/index.md)
 
 | Step  | Details                                                                                                     | Additional Information { width="50%" }           |
 |:-----:|:------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|
@@ -264,7 +264,7 @@ learn/build/index.md:ProcessDefTemplates
 | 11.9  | Two files are created **Customers** and **Orders**                                                          | ![Gnereated Files][TestDataFiles]                |
 | 11.10 | Open one **Orders.csv** to view gnerated Data                                                               | ![Generated Data][TestDataGenerated]             |
 
-## [Measure](learn/measure/index.md)
+## [Measure](../learn/measure/index.md)
 
 | Step | Details                                                                                                                  | Additional Information { width="50%" }                             |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------|
@@ -281,12 +281,12 @@ learn/build/index.md:ProcessDefTemplates
 | 3.1  | Open the [VSM][REFMeasureVSM] for the project by clicking on **Value Stream** in the Tabmenue                            | ![Measure VSM Tabs][MeasureTabs]                                   |
 | 3.2  | The ValueStream of EchoLogic Project is shown                                                                            | ![EchoLogic VSM][VSMEchoLogic]                                     |
 | 3.3  | click on a dot to get more information                                                                                   | ![View Dot][VSMSelectDot]                                          |
-| 3.4  | This view will give you a complate Audit information of this item                                                        | ![View Dot Details 1](learn/measure/media/VSM_ViewDotDetails1.png) |
-|      |                                                                                                                          | ![View Dot Details 2](learn/measure/media/VSM_ViewDotDetails2.png) |
+| 3.4  | This view will give you a complate Audit information of this item                                                        | ![View Dot Details 1](../learn/measure/media/VSM_ViewDotDetails1.png) |
+|      |                                                                                                                          | ![View Dot Details 2](../learn/measure/media/VSM_ViewDotDetails2.png) |
 |  4   | click on **Swimlane** ![Swimmlane][TabSwimlane] in tabbar                                                                | ![Measure VSM Tabs][MeasureTabs]                                   |
 | 4.1  | The Swimlane view opens and gives more information about the distribution of items                                       | ![Swimlane View][SwimlaneView]                                     |
 
-## [Release](learn/release/index.md)
+## [Release](../learn/release/index.md)
 
 | Step | Details                                                                                                                                    | Additional Information { width="50%" }        |
 |:----:|:-------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------|
@@ -297,7 +297,7 @@ learn/build/index.md:ProcessDefTemplates
 | 2.1  | Switch to Tiles view by clicking on ![Release tiles icon][ReleaseSwitchToTiles]                                                            | ![Releases as Tiles view][ReleaseViewasTiles] |
 |      | So how do we ensure everyone understands the state of our project.  Well we can generate a release readiness report. – Generate the report |                                               |
 
-## [Loop Genie](learn/introduction/genie/index.md)
+## [Loop Genie](../learn/introduction/genie/index.md)
 
 Explain that we have covered a lot of roles and used a mixture of AI and automation but we can bring it all together with what we call our Loop Genie
 

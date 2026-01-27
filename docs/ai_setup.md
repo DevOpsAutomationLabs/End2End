@@ -2,11 +2,11 @@
 
 AI integrations can be setup only with administrative rights.
 
-## [AI Integration on Teamspace level](learn/introduction/about/index.md#integrations)
+## [AI Integration for Loop Genie](learn/introduction/about/index.md#integrations)
 
-|   |                                                                                                            |                                   |
-|:-:|:-----------------------------------------------------------------------------------------------------------|:----------------------------------|
-|   | Switch to the main view of your Teamspace by clicking on **DevOps Loop: Loop** in the **Central App Menu** | ![Central App Menue][AppSwitcher] |
+--8<--
+learn/introduction/about/index.md:SWITCH2Loop
+--8<--
 
 ### View or Create an Integration to an AI Provider
 
@@ -63,6 +63,7 @@ learn/deploy/settings/index.md:DeployAIIntegration
 
 ---
 
+[LoopDocAIIntegrations]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=loop-ai-provider-integration-genie-tech-preview
 [DeploySettingsIcon]: learn/deploy/media/DEPLOY_SettingsIcon.png
 [DeploySystemSection]: learn/deploy/settings/media/Deploy_Settings_SystemSection.png
 [DeployAISettingsIcon]: learn/deploy/settings/media/Deploy_SystemSection_AI_Settings.png
@@ -110,5 +111,5 @@ learn/deploy/settings/index.md:DeployAIIntegration
 [PlanMemberAccessSelected]: learn/plan/media/Plan_SideBar_Profile_MemberAccess_Selected.png
 [PlusSymbol]: learn/plan/media/Plan_PlusSymbol.png
 [SwitchToPlan]: learn/plan/index.md#how-to-switch-to-plan-from-home-page
-[AppSwitcher]: learn/introduction/media/Loop_central_app_control.png
+[CentralAppSwitcher]: learn/introduction/media/Loop_central_app_control.png
 [WhatWouldYouLikeToDoToday]: learn/introduction/media/Loop_whatwouldyouliketodotoday.png
