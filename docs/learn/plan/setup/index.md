@@ -1,6 +1,16 @@
-# Setting Up
+# Setting Up and other Configurations
+
+All about setting up for DevOps Plan and configure parts.
+
+## [Create new Application](../newapp/index.md)
+
+If you need a new app follow the instructions for [creating a new Application](../newapp/index.md).
 
 ## Importing Sample Data
+
+How to import existing data (CSV file) into an application.
+
+### Import Data
 
 | Step | Details                                                                 | Additional Information                                   |
 |:----:|:------------------------------------------------------------------------|:---------------------------------------------------------|
@@ -19,6 +29,24 @@
 |  9   | Press the close button (bottom right on the screen)                     | ![Close Button][ImportClose]                             |
 |      |                                                                         |                                                          |
 
+## Configuring
+
+### Personal Access Token
+
+--8<-- [start:PATPlan]
+
+| Step | Details                                                                                                     | Additional Information                    |
+|:----:|:------------------------------------------------------------------------------------------------------------|:------------------------------------------|
+|      | Click on your *Profile* Icon in the Sidebar and select **Personal Access Token**                            | ![Sidebar Profile][PlanSidebarProfile]    |
+|      | A list of existing Personal Access Tokens (PAT) is shown                                                    | ![List of PATS][PlanListPATS]             |
+|      | Click on **Create New API Token**                                                                           | ![Create PAT Button][PlanCreatePATButton] |
+|      | a dialog is shown, please provide a name and a validity time                                                | ![PAT creation dialog][PlanPATDialog]     |
+|      | PAT is created, press the **Copy** button ![Copy Button](media/Plan_Copy_Button.png) to copy into Clipboard | ![PAT is created][PlanPATCreated]         |
+|      | PAT is copied, paste it into a secure storage for furter use                                                | ![PAT Copied][PlanPATCopied]              |
+|      | Close the dialog and updated list is shown                                                                  | ![Updated PAT list][PlanListnewPATS]      |
+
+--8<-- [end:PATPlan]
+
 ---
 
 [ChooseFileDialog]: media/PLAN_Import_Dialog_ChooseFile.png
@@ -33,3 +61,10 @@
 [EchoLogicZIPFile]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/plan/EchoLogic.zip
 [ImportFinished]: media/PLAN_Import_finished.png
 [DownloadDemoDataFile]: media/Download_PlanDemoDataFile.png
+[PlanSidebarProfile]: media/Plan_Profile_Menue.png
+[PlanListPATS]: media/Plan_PAT_List.png
+[PlanCreatePATButton]: media/Plan_Create_PAT_Button.png
+[PlanPATDialog]: media/Plan_Create_Pat_Dialog.png
+[PlanPATCreated]: media/Plan_PAT_created.png
+[PlanPATCopied]: media/Plan_PAT_copied.png
+[PlanListnewPATS]: media/Plan_PAT_list_updated.png
