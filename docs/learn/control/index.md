@@ -73,7 +73,7 @@ The home page for Control is the Repositories and Organizations view. In this vi
 
 ## Access Token
 
---8<-- [start:NewPAT]
+--8<-- [start:PATControl]
 
 | Step | Details                                                                                                    | Additional Information                             |
 |:----:|:-----------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
@@ -86,7 +86,7 @@ The home page for Control is the Repositories and Organizations view. In this vi
 |      | Press **Generate Token**                                                                                   | ![Generate Token][ControlGeneratePATButton]        |
 |      | Do not to forget to **Copy and Paste the token!**                                                          | ![AccessToken][ControlAccessToken]                 |
 
---8<-- [end:NewPAT]
+--8<-- [end:PATControl]
 
 ## Explore Control
 

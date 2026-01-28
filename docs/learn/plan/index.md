@@ -14,7 +14,7 @@ To learn more about DevOps Plan please have a look at the [documentation][PlanDo
 
 | Step | Details                                                                                                  | Additional Information                                         |
 |:----:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | You can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][CentralAppSwitcher]                           |
+|  1   | You can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][CentralAppSwitcher]                    |
 |  2   | Or You can switch directly to Plan by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 --8<-- [end:SWITCH2Plan]

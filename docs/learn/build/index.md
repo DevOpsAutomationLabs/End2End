@@ -37,7 +37,7 @@
 |      | Click on one of the link to view the details of all runs                                            | ![Process details][BuildProcDetails]                                               |
 |      | Shows overview on most recent build runs and their results                                          | ![Build Process Detail][BuildProcessDetail]                                        |
 |      | additional information are the success rate of all builds, Build & Source activity and test results | ![Build Process recent runs and metrics with filter][BuildRecentRunsMetricsFilter] |
-|      | The time period can be changed for the metrics using the filter control                             | ![Filter for Time Period to be shown][BuildTimePeriodFilter]    |
+|      | The time period can be changed for the metrics using the filter control                             | ![Filter for Time Period to be shown][BuildTimePeriodFilter]                       |
 
 --8<-- [end:BuildProcDetail]
 
@@ -121,6 +121,26 @@
 
 --8<-- [end:TemplatesJobStepDetail]
 
+## Access Token
+
+Access Token (also known as Personal Access Token, short PAT) are needed for external access to DevOps Build to read, create and update data or run jobs.
+
+--8<-- [start:PATBuild]
+
+| Step | Details                                                                                                       | Additional Information                                    |
+|:----:|:--------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
+|      | For external access to the build functions you need to provide an Access Token                                |                                                           |
+|      | To create a new token please switch to the **System** ![System][BuildSideBarSystem] settings from the Sidebar | ![Build Sidebar][BuildSidebar]                            |
+|      | System Settings view is shown.                                                                                | ![System Settings][BuildSystemSettings]                   |
+|      | Click on **Auth token** ![auth Token][BuildPATSettings]                                                       | ![Security Settings][BuildSecuritySettings]               |
+|      | A new view with existing Access tokens is shown                                                               | ![List of existing PAT][BuildPATList]                     |
+|      | Click on **Create Auth token** ![Create PAT Button][BuildGeneratePATButton] Button and a new Dialog is shown  | ![Create PAT dialog][BuildPATDialog]                      |
+|      | Fill in the required fields for User, Expiration and a comment then press the **Save** Button                 | ![Save Button][ButtonSave]                                |
+|      | An updated Authorization Token List view is shown with new token                                              | ![Updated list][BuildPATListUpdated]                      |
+|      | Copy new Access Token and use in external tool                                                                | ![New PAT details](media/Build_New_Authtoken_Details.png) |
+
+--8<-- [end:PATBuild]
+
 ---
 
 [WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png
@@ -140,3 +160,13 @@
 [BuildProcDetails]: media/Build_ProcessLink_in_ProjectsView.png
 [BuildRecentRunsMetricsFilter]: media/Build_Process_runs_details_metrics_and_filter.png
 [BuildTimePeriodFilter]: media/Build_Metrics_TimePeriodfilter.png
+[BuildSidebar]: media/Build_Sidebar.png
+[BuildSideBarSystem]: media/Build_Sidebar_System_Link.png
+[BuildGeneratePATButton]: media/Build_Create_AuthToken_Button.png
+[BuildSystemSettings]: media/Build_System_Settings.png
+[BuildSecuritySettings]: media/Build_System_Security_Settings.png
+[BuildPATList]: media/Build_AuthToken_List.png
+[BuildPATDialog]: media/Build_Create_AuthToken_Dialog.png
+[ButtonSave]: ../../media/Button_Save.png
+[BuildPATListUpdated]: media/Build_AuthToken_List_Updated.png
+[BuildPATSettings]: media/Build_Security_AuthToken_Settings.png
