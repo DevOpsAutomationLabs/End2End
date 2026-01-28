@@ -14,13 +14,25 @@ This lab will provide you with a practical hands-on of our testing capabilities.
 
 ### How to switch to Test from Home Page
 
-You can switch to Test by either pressing "Let's go to Test" button on its tile:
+--8<-- [start:SWITCH2Test]
 
-![Test Tile lets go][SwitchToTest]
+| Step | Details                                                                                                  | Additional Information                                         |
+|:----:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
+|  1   | You can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][CentralAppSwitcher]                    |
+|  2   | Or You can switch directly to Test by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
-Or you can always switch using the central app switcher on the top left of your screen:
+--8<-- [end:SWITCH2Test]
 
-![Central App Switcher][CentralAppSwitcher]
+### 3rd Party
+
+--8<-- [start:Test3rdParty]
+
+| Step | Details                                                                                                       | Additional Information                      |
+|:----:|:--------------------------------------------------------------------------------------------------------------|:--------------------------------------------|
+|      | The first time you use Test you are asked if you want to accept 3rd Party plugins                             | ![3rd Party question][Test3rdPartyQ]        |
+|      | Either check the plugins to have them arccepte or accept them later. Press Save and a success mesage is shown | ![3rd Party Accepted][Test3rdPartyAccepted] |
+
+--8<-- [end:Test3rdParty]
 
 ### Switch TeamSpace and Project if needed
 
@@ -70,18 +82,33 @@ and Select **Demo**. A list of Projects is shown:
 
 ## Testdata
 
-| Step | Details                                                                      | Additional Information                               |
-|:----:|:-----------------------------------------------------------------------------|:-----------------------------------------------------|
-|      | Open **Author** section on **Test Editor** menue entry and click on **Data** | ![Test Author Section][SectionAuthor]                |
-|      | Data Definitions and Schemas are shown                                       | ![Data Definitions Schemas][DataDefView]             |
-|      | click on **CRM-System** in the Schema folder                                 | ![Schemas][DataSchemas]                              |
-|      | the **CRM-System** Data Schema is shown                                      | ![Schema View][DataSchemaView]                       |
-|      | Click on the **Preview Icon** ![Preview Icon][DataPreviewIcon]               | ![Data Preview][DataPreview]                         |
-|      | Click on the **Generate Icon** ![Generate Icon][GenerateIcon]                | ![][GenerateDialog]                                  |
-|      | Download the generated Data by clicking on **Downlad** Button                | ![Download button][ButtonDownload]                   |
-|      | Unzip and open the create folder                                             | ![Downloaded Unzipped][TestDataFolder]               |
-|      | Two files are created **Customers** and **Orders**                           | ![Gnereated Files][TestDataFiles]                    |
-|      | Open one **Orders.csv** to view gnerated Data                                | ![Generated Data][TestDataGenerated] |
+| Step | Details                                                                      | Additional Information                   |
+|:----:|:-----------------------------------------------------------------------------|:-----------------------------------------|
+|      | Open **Author** section on **Test Editor** menue entry and click on **Data** | ![Test Author Section][SectionAuthor]    |
+|      | Data Definitions and Schemas are shown                                       | ![Data Definitions Schemas][DataDefView] |
+|      | click on **CRM-System** in the Schema folder                                 | ![Schemas][DataSchemas]                  |
+|      | the **CRM-System** Data Schema is shown                                      | ![Schema View][DataSchemaView]           |
+|      | Click on the **Preview Icon** ![Preview Icon][DataPreviewIcon]               | ![Data Preview][DataPreview]             |
+|      | Click on the **Generate Icon** ![Generate Icon][GenerateIcon]                | ![][GenerateDialog]                      |
+|      | Download the generated Data by clicking on **Downlad** Button                | ![Download button][ButtonDownload]       |
+|      | Unzip and open the create folder                                             | ![Downloaded Unzipped][TestDataFolder]   |
+|      | Two files are created **Customers** and **Orders**                           | ![Gnereated Files][TestDataFiles]        |
+|      | Open one **Orders.csv** to view gnerated Data                                | ![Generated Data][TestDataGenerated]     |
+
+## Settings
+
+### Create Token
+
+--8<-- [start:PATTest]
+
+| Step | Details                                                                                                      | Additional Information                        |
+|:----:|:-------------------------------------------------------------------------------------------------------------|:----------------------------------------------|
+|      | click on the **Profile** Link on the top right of your screen to get a menue                                 | ![Test top right menuebar][TestToprightMenue] |
+|      | Click on **Create Token** in the menue for a new PAT                                                         | ![Create Token][TestProfileMenue]             |
+|      | A new PAT will be created automatically and shown. **COPY and PASTE** into a secure storage for furter usage | ![Test New PAT is shown][TestNewPAT]          |
+|      | click on **Close** to close the dialog                                                                       | ![Close button][ButtonClose]                  |
+
+--8<-- [end:PATTest]
 
 ## Conclusio
 
@@ -92,11 +119,14 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [GoBackToDemoOverview]: ../index.md
 [GoBackToParentIndex]: ../index.md#test
 [NextLab]: ../index.md#secure
-[SwitchToTest]: ../introduction/media/Loop_switch_to_Test.png
+[WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png
 [CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
+[Test3rdPartyQ]: media/Test_Accept_3rdParty.png
+[Test3rdPartyAccepted]: media/Test_3rdPartyAccepted.png
 [SectionExecute]: media/Test_Sidebar_ExecuteSection.png
 [ExecuteScriptList]: media/Test_Execute_ScriptList.png
 [ButtonRun]: media/Test_RunButton.png
+[ButtonClose]: ../../media/Button_Close.png
 [CreateTicketIcon]: media/Test_ResultView_FailedTest_CreateTicket.png
 [Projecttile]: media/Test_Project_Tile.png
 [ProjectHomePage]: media/Test_Project_Homepage.png
@@ -128,3 +158,6 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [TestDataFiles]: media/Test_Data_DownloadedFiles.png
 [TestDataGenerated]: media/Test_Data_GeneratedData.png
 [TestDocumentation]: https://www.ibm.com/docs/en/devops-test-hub/
+[TestToprightMenue]: media/Test_Profile_Notification_Settings_Help_Links.png
+[TestProfileMenue]: media/Test_Profile_Menue.png
+[TestNewPAT]: media/Test_Create_PAT_Dialog.png
