@@ -1,7 +1,6 @@
 # Measure Lab
 
 TODO: #34 update flow, app references and screenshots
-_**TODO: update flow, app references from PIZZA to EchoLogic and screenshots**_
 
 ## Introduction
 
@@ -15,13 +14,14 @@ The pipeline feature enables you to drive releases by using application-focused 
 
 ## How to switch to Measure from Home Page
 
-You can switch to Measure by either pressing "Let's go to Measure" button on its tile:
+--8<-- [start:SWITCH2Measure]
 
-![Measure Tile lets go](../introduction/media/Loop_switch_to_Measure.png)
+| Step | Details                                                                                                     | Additional Information                                         |
+|:----:|:------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
+|  1   | You can always switch using the central app switcher on the top left of your screen                         | ![Central App Switcher][CentralAppSwitcher]                    |
+|  2   | Or You can switch directly to Measure by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
-Or you can always switch using the central app switcher on the top left of your screen:
-
-![Central App Switcher](../introduction/media/Loop_central_app_control.png)
+--8<-- [end:SWITCH2Measure]
 
 ## Let's go with Measure
 
@@ -30,8 +30,6 @@ Or you can always switch using the central app switcher on the top left of your 
 Please select "All Value Streams" to get a list of all Value Streams you have access to:
 
 ![List of all VSM](media/Measure_AllVSM_List.png)
-
-In this list we have two Value Streams Emerald Product Team - Accounting and Pizza App Pipeline.
 
 **_NOTE: Before we proceed here a short intro what a Value Stream is._**
 
@@ -88,11 +86,11 @@ If you click on the Prod column additional gating criteria has been added:
 
 ![Emerald Gates QA](media/Measure_Emerald_Gates_QA.png)
 
-### Pizza VSM
+### Review VSM
 
-Now have a look at the Pizza value stream view. If you have created a new workitem in Plan you will see it in the dot view. Search for it.
+Now have a look at your Loops value stream view. If you have created a new workitem in Plan you will see it in the dot view. Search for it.
 
-![Pizza VSM Item Detail](media/Measure_Pizza_ItemDetails.png)
+![VSM Item Detail](media/Measure_Pizza_ItemDetails.png)
 
 If not, try it out and create a new Defect in Plan and then look for it in this VSM view.
 
@@ -112,6 +110,26 @@ In this view you will see two existing dashboards. Delivery Performance and Deli
 
 ![Delivery Quality](media/Measure_Insights_DeliveryQuality.png)
 
+## Settings and more
+
+### Create User Access Key
+
+An User Access Key, also known as Access Token, or Personal Access Token (short PAT) is needed to be able to access Measure data or capabilities.
+
+--8<-- [start:PATMeasure]
+
+| Step | Details                                                                                                    | Additional Information                              |
+|:----:|:-----------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
+|      | click on the **Settings** ![Settings][ButtonSettings] Link on the top right of your screen to get a menue  | ![Measure top right menuebar][MeasureToprightMenue] |
+|      | click on **My Profile** ![My Profile][MeasureMyProfileLink] to view the Profile settings                   | ![My Settings Menue][MeasureSettingsMenue]          |
+|      | A list of User Access Keys (or PAT) is shown                                                               | ![Measure List of UAK or PAT][MeasurePATList]       |
+|      | Click on the **Create User Access Key** ![Create UAK Button][MeasureNewPATButton] and a new Dialog appears | ![UAK Dialog][MeasureNewPATDialog]                  |
+|      | Provide a name for the UAK/PAT and click **Create** Button to get the token                                | ![Measure New UAK][MeasureNewPATMessage]            |
+|      | **COPY and PASTE** the key into a secure storage for further usage, then close the dialog                  |                                                     |
+|      | The newly created UAK/PAT is shown                                                                         | ![new UAK is shown][MeasurePATListUpdated]          |
+
+--8<-- [end:PATMeasure]
+
 ## Conclusio
 
 Congratulations! You have finished the Measure Lab!
@@ -123,5 +141,16 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [GoBackToDemoOverview]: ../index.md
 [GoBackToParentIndex]: ../index.md#measure
 [NextLab]: ../index.md#release
+[WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png
+[CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
 [VSMEmerald]: media/Measure_Emerald_VSM_DotView.png
 [VelocityDocumentation]: https://www.ibm.com/docs/en/devops-velocity
+[MeasureToprightMenue]: media/Measure_Profile_Settings_Help_Bar.png
+[ButtonSettings]: ../../media/Button_Settings.png
+[MeasureMyProfileLink]: media/Measure_MyProfile_Link.png
+[MeasureSettingsMenue]: media/Measure_Settings_Menue.png
+[MeasurePATList]: media/Measure_PAT_List.png
+[MeasureNewPATButton]: media/Measure_Create_User_Access_Key_Button.png
+[MeasureNewPATDialog]: media/Measure_Create_PAT_Dialog.png
+[MeasureNewPATMessage]: media/Measure_Create_PAT_Result_Message.png
+[MeasurePATListUpdated]: media/Measure_PAT_newly_Created.png

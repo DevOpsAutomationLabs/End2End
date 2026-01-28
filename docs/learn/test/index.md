@@ -4,7 +4,7 @@
 
 TODO: Update with latest "Learning Loops" data. New Screenshots and slightly different flow
 
-DevOps Test is a web-based continuous testing platform that consolidates test data, environments, test runs, and reports. It supports API, functional, and performance tests. 
+DevOps Test is a web-based continuous testing platform that consolidates test data, environments, test runs, and reports. It supports API, functional, and performance tests.
 
 To learn more about DevOps Test please have a look at the [documentation][TestDocumentation]
 
@@ -89,7 +89,7 @@ and Select **Demo**. A list of Projects is shown:
 |      | click on **CRM-System** in the Schema folder                                 | ![Schemas][DataSchemas]                  |
 |      | the **CRM-System** Data Schema is shown                                      | ![Schema View][DataSchemaView]           |
 |      | Click on the **Preview Icon** ![Preview Icon][DataPreviewIcon]               | ![Data Preview][DataPreview]             |
-|      | Click on the **Generate Icon** ![Generate Icon][GenerateIcon]                | ![][GenerateDialog]                      |
+|      | Click on the **Generate Icon** ![Generate Icon][GenerateIcon]                | ![Generate][GenerateDialog]              |
 |      | Download the generated Data by clicking on **Downlad** Button                | ![Download button][ButtonDownload]       |
 |      | Unzip and open the create folder                                             | ![Downloaded Unzipped][TestDataFolder]   |
 |      | Two files are created **Customers** and **Orders**                           | ![Gnereated Files][TestDataFiles]        |
