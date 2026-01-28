@@ -1,6 +1,12 @@
 # Deploy Settings
 
-Switch to Settings by using the Settings Icon: ![Deploy Settings Icon][DeploySettingsIcon]
+--8<-- [start:DeploySettings]
+
+| Step | Details                                                                                                            | Additional Information { width="50%" } |
+|:----:|:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------|
+|      | Switch to Settings by using the Settings Icon: ![Deploy Settings Icon][DeploySettingsIcon] from the Deploy Sidebar | ![Deploy Sidebar][DeploySidebar]       |
+
+--8<-- [end:DeploySettings]
 
 ## Automation Section
 
@@ -22,6 +28,24 @@ Installation is Successfull Notification ![Plugin Installation Successfull][Depl
 Same procedure as installing a Plugin. Click on the 3 Dots menue and select **Upgrade**
 
 ## Security Section
+
+### Tokens
+
+Access Token (also known as Personal Access Token, short PAT) are needed for external access to DevOps Deploy to read, create and update data or run deployments.
+
+--8<-- [start:PATDeploy]
+
+| Step | Details                                                                                                                           | Additional Information { width="50%" }        |
+|:----:|:----------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------|
+|      | click on **Tokens** ![Tokens][DeployPATLink] in the Security settings to view and create new PAT                                  | ![System Settings View][DeploySystemSettings] |
+|      | A list of existing Tokens (PAT) is shown                                                                                          | ![List of PAT][DeployPATList]                 |
+|      | Click on **Create Token** ![Create Token button][DeployCreatePATButton] and fill in the details in the new dialog                 | ![PAT Creation Dialog][DeployCreatePATDialog] |
+|      | Provide a description, user, expiration and optional restrictions from where this PAT can be ued                                  |                                               |
+|      | Click on **Save** ![Save][ButtonSave] and the new PAT will be shown                                                               | ![New PAT is shown][DeployNewPATInfo]         |
+|      | Do not to forget to **COPY and PASTE** the PAT into a secure storage for furter usage, then click **Close** ![close][ButtonClose] |                                               |
+|      | An updated PAT list is shown                                                                                                      | ![Updated PAT list][DeployPATListUpdated]     |
+
+--8<-- [end:PATDeploy]
 
 ## System Section
 
@@ -64,3 +88,12 @@ Configuring the AI Integration is in the **Systems** Section
 [ModelName]: media/Deploy_AI_Settings_ModelName.png
 [ModelList]: media/Deploy_AI_Settings_Model_AvailableList.png
 [ButtonSave]: ../../../media/Button_Save.png
+[DeploySidebar]: ../media/Deploy_Sidebar.png
+[DeployPATLink]: media/Deploy_Create_Token_Button.png
+[DeploySystemSettings]: media/Deploy_Settings.png
+[DeployPATList]: media/Deploy_PAT_List.png
+[DeployCreatePATButton]: media/Deploy_Create_Token_Button.png
+[DeployCreatePATDialog]: media/Deploy_Create_Token_Dialog.png
+[DeployNewPATInfo]: media/Deploy_NewPAT_Message.png
+[ButtonClose]: media/Deploy_Close_Button.png
+[DeployPATListUpdated]: media/Deploy_PAT_List_updated.png
