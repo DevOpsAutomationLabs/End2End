@@ -75,16 +75,17 @@ The home page for Control is the Repositories and Organizations view. In this vi
 
 --8<-- [start:PATControl]
 
-| Step | Details                                                                                                    | Additional Information                             |
-|:----:|:-----------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
-|      | For external access to the repositories you need to provide an Access Token                                |                                                    |
-|      | to create a new token, click on your **User Profile** and select **Settings**                              | ![User Profile][ControlUserProfile]                |
-|      | In the Settings view click on Access Tokens then enter a Token name to identify its purpose                | ![Name for new PAT][ControlNewPATName]             |
-|      | Click on **Select Permissions** to set the access rights, select **All** to cover all repositories         | ![Open Select Permissions][ControlOpenPermissions] |
-|      | Set **Repository** to *Read and Write* and Set **User** to *Read*                                          | ![Set Permissions][ControlPATSetPermissions]       |
-|      | These settigs are the minimal needed to provide access to work with your repository through external tools | ![Create AccessToken][ControlCreateAccesstoken]    |
-|      | Press **Generate Token**                                                                                   | ![Generate Token][ControlGeneratePATButton]        |
-|      | Do not to forget to **Copy and Paste the token!**                                                          | ![AccessToken][ControlAccessToken]                 |
+| Step | Details                                                                                                                 | Additional Information                             |
+|:----:|:------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
+|      | For external access to the repositories you need to provide an Access Token                                             |                                                    |
+|      | to create a new token, click on your **User Profile** and select **Settings**                                           | ![User Profile][ControlUserProfile]                |
+|      | In the Settings view click on Access Tokens then enter a Token name to identify its purpose                             | ![Name for new PAT][ControlNewPATName]             |
+|      | Click on **Select Permissions** to set the access rights, select **All** to cover all repositories                      | ![Open Select Permissions][ControlOpenPermissions] |
+|      | You can set any permission setting as you need it. Please be aware to limit the access tough to prevent security issues |                                                    |
+|      | Example: Set **Repository** to *Read and Write* and Set **User** to *Read*                                              | ![Set Permissions][ControlPATSetPermissions]       |
+|      | These settigs are the minimal needed to provide access to work with your repository through external tools              | ![Create AccessToken][ControlCreateAccesstoken]    |
+|      | Press **Generate Token**                                                                                                | ![Generate Token][ControlGeneratePATButton]        |
+|      | Do not to forget to **Copy and Paste the token!**                                                                       | ![AccessToken][ControlAccessToken]                 |
 
 --8<-- [end:PATControl]
 
