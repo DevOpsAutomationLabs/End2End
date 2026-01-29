@@ -89,7 +89,7 @@ Configuring the AI Integration is in the **Systems** Section
 [ModelList]: media/Deploy_AI_Settings_Model_AvailableList.png
 [ButtonSave]: ../../../media/Button_Save.png
 [DeploySidebar]: ../media/Deploy_Sidebar.png
-[DeployPATLink]: media/Deploy_Create_Token_Button.png
+[DeployPATLink]: media/Deploy_Tokens_Link.png
 [DeploySystemSettings]: media/Deploy_Settings.png
 [DeployPATList]: media/Deploy_PAT_List.png
 [DeployCreatePATButton]: media/Deploy_Create_Token_Button.png

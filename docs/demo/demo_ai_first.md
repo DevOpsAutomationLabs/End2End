@@ -1,5 +1,11 @@
 # AI First Demo Flow
 
+For the AI First Demo you can use VSCode with Copilot or IBM Project Bob.
+
+## VSCode and MCP Server
+
+Please have a look how to use MCP Server with VSCode in this [documentation][VSCodeMCPServer]. More MCP Server for VSCode can be found in the [Marketplace][VSMarketplaceMCP]
+
 ## Preparing the mcp.json file
 
 Add the MCP Servers into the mcp.json file in the "servers" section.
@@ -167,7 +173,7 @@ Use your Personal Access token and replace the ```<plan token>``` part with your
 }
 ```
 
-## mcp.json template
+## VSCode mcp.json template
 
 Here the mcp.json template file using available remote MCP server and the local one for DevOps Plan (will be changed as soon as the remote one is available)
 
@@ -226,6 +232,9 @@ Here the mcp.json template file using available remote MCP server and the local 
 
 ---
 
+[VSCodeMCPServer]: https://code.visualstudio.com/docs/copilot/customization/mcp-servers
+[VSMarketplaceMCP]: https://marketplace.visualstudio.com/search?term=%40mcp&target=VSCode&category=Other&sortBy=Relevance
+
 [ButtonClose]: ../media/Button_Close.png
 
 [ControlUserProfile]: ../learn/control/media/Control_UserProfile.png
@@ -248,6 +257,7 @@ Here the mcp.json template file using available remote MCP server and the local 
 [DeployNewPATInfo]: ../learn/deploy/settings/media/Deploy_NewPAT_Message.png
 [ButtonClose]: ../learn/deploy/settings/media/Deploy_Close_Button.png
 [DeployPATListUpdated]: ../learn/deploy/settings/media/Deploy_PAT_List_updated.png
+[DeployPATLink]: ../learn/deploy/settings/media/Deploy_Tokens_Link.png
 
 [MeasureToprightMenue]: ../learn/measure/media/Measure_Profile_Settings_Help_Bar.png
 [ButtonSettings]: ../media/Button_Settings.png
@@ -273,3 +283,4 @@ Here the mcp.json template file using available remote MCP server and the local 
 [PlanTMDetailSwitch]: ../learn/plan/setup/media/Plan_Tenant_Management_Details_Switch.png
 [PlanTMDetails]: ../learn/plan/setup/media/Plan_Tenant_Management_Details.png
 [PlanDBID]: ../learn/plan/setup/media/Plan_Database_ID.png
+[ButtonCopy]: ../learn/plan/setup/media/Plan_Copy_Button.png
