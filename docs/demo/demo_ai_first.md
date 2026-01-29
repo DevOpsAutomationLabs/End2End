@@ -1,6 +1,8 @@
 # AI First Demo Flow
 
-For the AI First Demo you can use VSCode with Copilot or IBM Project Bob.
+For the AI First Demo you can use VSCode with Copilot or IBM Project Bob or Claude or ...
+
+MCP Server settings may vary between tools, please check documentation of the tool you want to use.
 
 ## VSCode and MCP Server
 
@@ -20,7 +22,9 @@ Add the MCP Servers into the mcp.json file in the "servers" section.
 
 ### Loop MCP Server
 
-The Loop MCP server uses single sign on for authentication so the setup is very simple.
+The Loop MCP server uses single sign on for authentication so the setup is very simple. Please have a look at the [documentation for Loop MCP server usage](https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=administration-devops-loop-mcp-server)
+
+#### Configure the MCP Server Section
 
 ```json
 "Loop-mcp-server": {
@@ -53,6 +57,8 @@ Use your token and replace the ```<control token>``` part with your token in the
 
 ### Test MCP Server
 
+Please have a look at the [Testhub Documentation how to configure the MCP server](https://www.ibm.com/docs/en/devops-test-hub/11.0.7?topic=guide-configuring-mcp-server-endpoint-in-vs-code) for more details.
+
 #### Get the necessary Offline User Token
 
 --8<--
@@ -68,14 +74,14 @@ Use your token and replace the ```<test token>``` part with your token in the Te
     "url": "https://<hostname>/test/mcp/stream",
     "type": "http",
     "headers": {
-    "Authorization2": "Offline <test token>"
+    "Authorization": "Offline <test token>"
     }
 }
 ```
 
 ### Deploy MCP Server
 
-Deploy MCP Server requires a slightly different approach.
+Deploy MCP Server requires a slightly different approach. Please have a look at the [documentation for Deploy MCP server usage](https://www.ibm.com/docs/en/devops-deploy/8.2.0?topic=function-devops-deploy-mcp-server) for more details.
 
 #### Get the necessary Token
 
@@ -195,7 +201,7 @@ Here the mcp.json template file using available remote MCP server and the local 
       "url": "https://<hostname>/test/mcp/stream",
       "type": "http",
       "headers": {
-        "Authorization2": "Offline <test token>"
+        "Authorization": "Offline <test token>"
       }
     },
     "Deploy-mcp-server": {
