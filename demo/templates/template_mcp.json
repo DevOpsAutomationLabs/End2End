@@ -1,0 +1,60 @@
+{
+  "servers": {
+    "Loop-MCP-Server": {
+      "url": "https://<hostname>/loop/mcp",
+      "type": "http"
+    },
+    "Control-MCP-Server": {
+      "url": "https://<hostname>/control-mcp",
+      "type": "http",
+      "headers": {
+        "Authorization": "token <control token>"
+      }
+    },
+    "Test-MCP-Server": {
+      "url": "https://<hostname>/test/mcp/stream",
+      "type": "http",
+      "headers": {
+        "Authorization": "Offline <test token>"
+      }
+    },
+    "Deploy-MCP-Server": {
+      "url": "https://<hostname>/deploy/mcp",
+      "type": "http",
+      "headers": {
+        "Authorization": "Basic <base64 encoded deploy token>"
+      }
+    },
+    "Velocity-MCP-Server": {
+      "url": "https://<hostname>/velocity/mcp",
+      "type": "http",
+      "headers": {
+        "Authorization": "UserAccessKey <velocity token>"
+      }
+    },
+    "plan-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@securedevops/mcp-devops-plan"
+      ],
+      "env": {
+        "PLAN_ACCESS_TOKEN": "<plan token>",
+        "PLAN_SERVER_URL": "https://<hostname>/plan",
+        "PLAN_TEAMSPACE_ID": "<teamspace id>"
+      },
+      "type": "stdio"
+    },
+    "wait_server": {
+      "command": "npx",
+      "args": [
+        "mcp-wait-server@latest"
+      ],
+      "env": {
+        "MCP_WAIT_MAX_DURATION_SECONDS": "210",
+        "MCP_WAIT_TOOL_DESCRIPTION": "Waits for a specified number of seconds. Use this to create a delay after starting a long-running operation (like a script or download via another tool), allowing it time to complete before you proceed or check its status."
+      }
+    }
+  },
+  "inputs": []
+}
