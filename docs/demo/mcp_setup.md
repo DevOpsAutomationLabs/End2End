@@ -6,7 +6,28 @@ MCP Server settings may vary between tools, please check documentation of the to
 
 Please have a look how to use MCP Server with VSCode in this [documentation][VSCodeMCPServer]. More MCP Server for VSCode can be found in the [Marketplace][VSMarketplaceMCP]
 
+## Adding MCP Server
+
+### Using the Add MCP Server command
+
+| Step | Details                                                                                           | Additional Information                                      |
+|:----:|:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------|
+|      | Click on the **View** Menue and select **Command Palette**                                        | ![VSCode View Command Palette][VSCviewCP]                   |
+|      | In the **Command View** search for **Add MCP Server** and click on it                             | ![VSCode Command Palette add MCP Server][VSCCPAddMCPServer] |
+|      | From the listbox select **HTTP**                                                                  | ![Step 1][VSCAddMCPStep1]                                   |
+|      | Enter the MCP Server URL (example for Control MCP server)                                         | ![Step 2][VSCAddMCPStep2]                                   |
+|      | Enter the Name for this MCP Server section                                                        | ![Step 3][VSCAddMCPStep3]                                   |
+|      | Decide where to store this configuration, for the demo use local **Workspace**                    | ![Step 4][VSCAddMCPStep4]                                   |
+|      | Added MCP Servers will be shown in the **Extension View** under **MCP Server**                    | ![Updated MCP server list][VSCMCPList]                      |
+|      | You can open the mcp.json to add more manualy (for example the Authorization key for Control MCP) | ![Updated mcp.json][VSCMCPjson]                             |
+
+### Manualy editing the mcp.json file
+
+To be able to manualy edit the mcp.json file you have to first let it be created by VSCode, easiest way is to use [Add MCP Server command](#using-the-add-mcp-server-command) to add an entry then open it from the MCP server settings for editing.
+
 ## Preparing the mcp.json file
+
+> NOTE: Templates for `mcp.json`files with preprovided sections: [for local mcp server](templates/template_local_mcp.json) and [for remove mcp server](templates/template_mcp.json)
 
 Add the MCP Servers into the mcp.json file in the "servers" section.
 
@@ -25,7 +46,7 @@ The Loop MCP server uses single sign on for authentication so the setup is very 
 #### Configure the MCP Server Section
 
 ```json
-"Loop-mcp-server": {
+"Loop-MCP-Server": {
   "url": "https://<hostname>/loop/mcp",
   "type": "http"
 }
@@ -44,7 +65,7 @@ learn/control/index.md:PATControl
 Use your token and replace the ```<control token>``` part with your token in the Control MCP Server section.
 
 ```json
-"Control-mcp-server": {
+"Control-MCP-Server": {
     "url": "https://<hostname>/control-mcp",
     "type": "http",
     "headers": {
@@ -68,7 +89,7 @@ learn/test/index.md:PATTest
 Use your token and replace the ```<test token>``` part with your token in the Test MCP Server section.
 
 ```json
-"Test-mcp-server": {
+"Test-MCP-Server": {
     "url": "https://<hostname>/test/mcp/stream",
     "type": "http",
     "headers": {
@@ -109,7 +130,7 @@ write-output $encoded
 Use the output and replace the ```<base64 encoded deploy token>``` part with it in the Deploy MCP Server section.
 
 ```json
-"Deploy-mcp-server": {
+"Deploy-MCP-Server": {
     "url": "https://<hostname>/deploy/mcp",
     "type": "http",
     "headers": {
@@ -133,7 +154,7 @@ learn/measure/index.md:PATMeasure
 Use your User Access Key and replace the ```<velocity token>``` part with your token in the Velocity MCP Server section.
 
 ```json
-"Velocity-mcp-server": {
+"Velocity-MCP-Server": {
   "url": "https://<hostname>/velocity/mcp",
   "type": "http",
   "headers": {
@@ -162,7 +183,7 @@ learn/plan/setup/index.md:PlanGetDBID
 Use your Personal Access token and replace the ```<plan token>``` part with your token in the Plan MCP Server section, replace the ```<teamspace id>```with the value of the DB ID.
 
 ```json
-"plan": {
+"plan-mcp-server": {
   "command": "npx",
   "args": [
     "-y",
@@ -184,39 +205,39 @@ Here the mcp.json template file using available remote MCP server and the local 
 ```json
 {
   "servers": {
-    "Loop-mcp-server": {
+    "Loop-MCP-Server": {
       "url": "https://<hostname>/loop/mcp",
       "type": "http"
     },
-    "Control-mcp-server": {
+    "Control-MCP-Server": {
       "url": "https://<hostname>/control-mcp",
       "type": "http",
       "headers": {
         "Authorization": "token <control token>"
       }
     },
-    "Test-mcp-server": {
+    "Test-MCP-Server": {
       "url": "https://<hostname>/test/mcp/stream",
       "type": "http",
       "headers": {
         "Authorization": "Offline <test token>"
       }
     },
-    "Deploy-mcp-server": {
+    "Deploy-MCP-Server": {
       "url": "https://<hostname>/deploy/mcp",
       "type": "http",
       "headers": {
         "Authorization": "Basic <base64 encoded deploy token>"
       }
     },
-    "Velocity-mcp-server": {
+    "Velocity-MCP-Server": {
       "url": "https://<hostname>/velocity/mcp",
       "type": "http",
       "headers": {
         "Authorization": "UserAccessKey <velocity token>"
       }
     },
-    "plan": {
+    "plan-mcp-server": {
       "command": "npx",
       "args": [
         "-y",
@@ -228,6 +249,16 @@ Here the mcp.json template file using available remote MCP server and the local 
         "PLAN_TEAMSPACE_ID": "<teamspace id>"
       },
       "type": "stdio"
+    },
+    "wait_server": {
+      "command": "npx",
+      "args": [
+        "mcp-wait-server@latest"
+      ],
+      "env": {
+        "MCP_WAIT_MAX_DURATION_SECONDS": "210",
+        "MCP_WAIT_TOOL_DESCRIPTION": "Waits for a specified number of seconds. Use this to create a delay after starting a long-running operation (like a script or download via another tool), allowing it time to complete before you proceed or check its status."
+      }
     }
   },
   "inputs": []
@@ -238,6 +269,15 @@ Here the mcp.json template file using available remote MCP server and the local 
 
 [VSCodeMCPServer]: https://code.visualstudio.com/docs/copilot/customization/mcp-servers
 [VSMarketplaceMCP]: https://marketplace.visualstudio.com/search?term=%40mcp&target=VSCode&category=Other&sortBy=Relevance
+
+[VSCviewCP]: media/Demo_VSCode_Command_Palette.png
+[VSCCPAddMCPServer]: media/Demo_VSCode_Command_add_MCP_Server.png
+[VSCAddMCPStep1]: media/Demo_VSCode_add_MCP_server_Step1.png
+[VSCAddMCPStep2]: media/Demo_VSCode_add_MCP_server_Step2.png
+[VSCAddMCPStep3]: media/Demo_VSCode_add_MCP_server_Step3.png
+[VSCAddMCPStep4]: media/Demo_VSCode_add_MCP_server_Step4.png
+[VSCMCPList]: media/Demo_MCP_Server_List_View.png
+[VSCMCPjson]: media/Demo_MCP_json_view.png
 
 [ButtonClose]: ../media/Button_Close.png
 
