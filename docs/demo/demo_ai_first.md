@@ -7,6 +7,3 @@ For the AI First Demo you can use VSCode with Copilot or IBM Project Bob or Clau
 ## Example Runs
 
 Here are two example execution results to understand how the assistants behave. The given prompt was slightly different to try to use local ssh key.
-
-- [First Run](chat_output/First_Run_Results.md)
-- [Second Run](chat_output/Second_Run_Results.md)
