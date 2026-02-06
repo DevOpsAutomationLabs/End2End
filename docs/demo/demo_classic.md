@@ -1,10 +1,101 @@
 # Classic Demo Flow
 
-![Demo Flow][ChartFlowOfDemo]
+<!-- ![Demo Flow][ChartFlowOfDemo] -->
 
 ## Overview
 
 This Step by Step Demo Guide will give you compact Instructions how to demo DevOps Loop. For more detailed information about the Capabilities and Steps links to the indepth enablement Guide has been added.
+
+Starting with **Loop and Plan**
+
+```mermaid
+flowchart LR
+    subgraph LoopPlan [" "]
+        direction LR
+        Loop["🔄 <a href='#loop'>**Loop**</a><br/><br/>• Show Home Page <br/>• Short intro Dashboards and metrics"]
+        Plan["📋 <a href='#plan'>**Plan**</a><br/><br/>• Show a kanban board<br/>• Work with filters<br/>• Workitems and Details<br/>• Show Plan AI assistant"]
+    end
+
+    
+    Loop --> Plan
+    %%Plan --> Control
+
+    
+    style Loop fill:#e1f5ff,text-align:left
+    style Plan fill:#f3e5f5,text-align:left
+```
+
+Proceeding to **Control and Code**
+
+```mermaid
+flowchart LR
+    subgraph ControlCodeControl [" "]
+        direction LR
+        Control["🎛️ <a href='#control-work-with-repository'>**Control**</a><br/><br/>• Show repo in Control<br/>• Open repo with DevOps Code<br/>• Select a dev Container <br/>• Proceed with Code"]
+        Code["💻 <a href='#code'>**Code**</a><br/><br/>• Change some code<br/>• Push code and add commit to work item number"]
+        Control2["🎛️ <a href='#control'>**Control**</a><br/><br/>• Show activity report<br/>• Show git commit details"]
+    end
+
+    
+    Control --> Code
+    Code --> Control2
+
+    
+    style Control fill:#e8f5e9,text-align:left
+    style Control2 fill:#e8f5e9,text-align:left
+    style Code fill:#fff3e0,text-align:left
+```
+
+Now building and deploying with **Build and Deploy**
+
+```mermaid
+flowchart LR
+    
+    subgraph BuildDeploy [" "]
+        direction LR
+        Build["🔨 <a href='#build'>**Build**</a><br/><br/>• Show Build Runs and details<br/>• Show Build Templates"]
+        Deploy["🚀 <a href='#deploy'>**Deploy**</a><br/><br/>• Deploy Overview<br/>• Run Deployment<br/>• Show Genie<br/>• Show Plug-Ins"]
+    end
+    
+    Build --> Deploy
+    
+    style Deploy fill:#f1f8e9,text-align:left
+    style Build fill:#fce4ec,text-align:left
+```
+
+Run Tests and Show progress with **Test and Measure**
+
+```mermaid
+flowchart LR
+    
+    subgraph TestMeasure [" "]
+        direction LR
+        Test["✅ <a href='#test'>**Test**</a><br/><br/>• Show Test Home Page<br/>• Run a test<br/>• Show Results<br/>• Show Test Editor<br/>• Show Test Data generation"]
+        Measure["📊 <a href='#measure'>**Measure**</a><br/><br/>• Show Pipeline view<br/>• Set a Gate<br/>• Show VSM"]
+    end
+    
+    Test --> Measure
+    
+    style Test fill:#e0f2f1,text-align:left
+    style Measure fill:#ede7f6,text-align:left
+```
+
+Manage Releases and use AI with **Release and Loop Genie**
+
+```mermaid
+flowchart LR
+    
+    subgraph ReleaseGenie [" "]
+        direction LR
+        Release["📦 <a href='#release'>**Release**</a><br/><br/>• Show Release View and Calendar<br/>• Show Detail of a Release"]
+        Genie["🧞 <a href='#loop-genie'>**Loop Genie**</a><br/><br/>• Show Loop Genie<br/>• Prompt for information"]
+    end
+    
+    Release --> Genie
+    
+    style Release fill:#fff8e1,text-align:left
+    style Genie fill:#f3e5f5,text-align:left
+```
 
 ## [Loop](../learn/introduction/index.md)
 
@@ -113,6 +204,8 @@ learn/control/index.md:ShowGitCommitDetails
 learn/build/index.md:SWITCH2Build
 --8<--
 
+### Show Build Runs and Details
+
 --8<--
 learn/build/index.md:ProjectBuildRunResults
 --8<--
@@ -120,6 +213,8 @@ learn/build/index.md:ProjectBuildRunResults
 --8<--
 learn/build/index.md:BuildProcDetail
 --8<--
+
+### Show Build Templates
 
 --8<--
 learn/build/index.md:ProcessTemplates
