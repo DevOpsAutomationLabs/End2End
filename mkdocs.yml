@@ -1,3 +1,35 @@
 site_name: "DevOps Loop End to End Demo"
+site_description: "Master DevOps Loop with hands-on labs and AI-powered demonstrations"
+site_author: "DevOps Automation Labs"
 repo_url: "https://github.com/DevOpsAutomationLabs/End2End"
+repo_name: "DevOpsAutomationLabs/End2End"
+edit_uri: edit/main/docs/
+
 INHERIT: base.yml
+
+nav:
+  - Home: index.md
+  - Introduction: learn/introduction/index.md
+  - Demo Flows:
+    - AI-First Demo: demo/demo_ai_first.md
+    - Classic Demo: demo/demo_classic.md
+    - MCP Setup: demo/mcp_setup.md
+  - Learning Labs:
+    - Overview: learn/index.md
+    - Plan:
+      - Overview: learn/plan/index.md
+      - AI Assistant: learn/plan/ai_assistant/index.md
+      - Boards: learn/plan/boards/index.md
+    - Control: learn/control/index.md
+    - Build: learn/build/index.md
+    - Deploy:
+      - Overview: learn/deploy/index.md
+      - Applications: learn/deploy/applications/index.md
+      - Components: learn/deploy/components/index.md
+    - Test: learn/test/index.md
+    - Secure: learn/secure/index.md
+    - Measure: learn/measure/index.md
+    - Release: learn/release/index.md
+  - Setup Guides:
+    - Manual Setup: setup.md
+    - AI Integration: ai_setup.md

@@ -1,0 +1,77 @@
+{
+  "servers": {
+    "Loop-MCP-Server": {
+      "url": "https://<hostname>/loop/mcp",
+      "type": "http"
+    },
+    "Control-MCP-Server": {
+      "url": "https://<hostname>/control-mcp",
+      "type": "http",
+      "headers": {
+        "Authorization": "token <control token>"
+      }
+    },
+    "test-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@securedevops/mcp-devops-test"
+      ],
+      "env": {
+        "TEST_ACCESS_TOKEN": "<test token>",
+        "TEST_SERVER_URL": "https://<hostname>/test",
+        "TEST_TEAMSPACE_ID": "<teamspace id>"
+      },
+      "type": "stdio"
+    },
+    "deploy-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@securedevops/mcp-devops-deploy"
+      ],
+      "env": {
+        "DEPLOY_TOKEN": "<deploy token>",
+        "DEPLOY_SERVER_URL": "https://<hostname>/deploy"
+      },
+      "type": "stdio"
+    },
+    "velocity-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@securedevops/mcp-devops-velocity"
+      ],
+      "env": {
+        "VELOCITY_GRAPHQL_URL": "https://<hostname>/velocity/release-events-api/graphql",
+        "VELOCITY_TENANT_ID": "<teamspace id>",
+        "VELOCITY_ACCESS_TOKEN": "<deploy token>"
+      },
+      "type": "stdio"
+    },
+    "plan-mcp-server": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@securedevops/mcp-devops-plan"
+      ],
+      "env": {
+        "PLAN_ACCESS_TOKEN": "<plan token>",
+        "PLAN_SERVER_URL": "https://<hostname>/plan",
+        "PLAN_TEAMSPACE_ID": "<teamspace id>"
+      },
+      "type": "stdio"
+    },
+    "wait_server": {
+      "command": "npx",
+      "args": [
+        "mcp-wait-server@latest"
+      ],
+      "env": {
+        "MCP_WAIT_MAX_DURATION_SECONDS": "210",
+        "MCP_WAIT_TOOL_DESCRIPTION": "Waits for a specified number of seconds. Use this to create a delay after starting a long-running operation (like a script or download via another tool), allowing it time to complete before you proceed or check its status."
+      }
+    }
+  },
+  "inputs": []
+}

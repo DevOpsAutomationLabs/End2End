@@ -1,11 +1,17 @@
 theme:
   name: material
   language: en
-  font: false
+  font:
+    text: Inter
+    code: JetBrains Mono
   icon:
-    logo: material/arrow-left
+    logo: material/rocket-launch
+    repo: fontawesome/brands/github
   favicon: null
   features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
     - content.cards
     - content.code.annotate
     - content.code.copy
@@ -13,50 +19,79 @@ theme:
     - content.tabs.link
     - content.tooltips
     - header.autohide
-    - navigation.collaps
+    - navigation.collapse
+    - navigation.expand
+    - navigation.footer
     - navigation.indexes
     - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     - navigation.path
+    - navigation.prune
+    - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
-    - search.share
+    - navigation.tracking
     - search.highlight
+    - search.share
     - search.suggest
-    - toc.integrate
     - toc.follow
+    - toc.integrate
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-      primary: black
-      accent: cyan
+      primary: indigo
+      accent: teal
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-      primary: black
-      accent: cyan
+      primary: indigo
+      accent: teal
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
-  - codehilite
+  - def_list
+  - footnotes
   - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Anchor link to this section
+      toc_depth: 3
+      title: On this page
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
   - pymdownx.blocks.caption
-  - pymdownx.critic
   - pymdownx.caret
+  - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      auto_title: true
+  - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.mark
+  - pymdownx.smartsymbols
   - pymdownx.snippets:
       base_path: 'docs/'
+      auto_append:
+        - includes/abbreviations.md
+      check_paths: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -64,26 +99,46 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
+      clickable_checkbox: true
   - pymdownx.tilde
-  - tables
-  - toc:
-      title: Table of Contents
-      permalink: true
-      toc_depth: 3
-  - def_list
 plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
   - git-authors
-  - git-revision-date-localized
-  - search
   - minify:
       minify_html: true
+      minify_js: true
+      minify_css: true
   - tags
   - toggle-sidebar:
       enabled: true
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
 extra_css:
   - stylesheets/extra.css
 extra:
   generator: false
   homepage: https://devopsautomationlabs.github.io/Index/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DevOpsAutomationLabs
+      name: DevOps Automation Labs on GitHub
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/devopsautomationlabs
+      name: Docker Hub
