@@ -14,8 +14,8 @@ A teamspace acts as a logical partition of larger system providing a secure and 
 |:----:|:-----------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
 |  0   | If Loop environment has been freshly set up just click on the **Create Teamspace** Button to proceed | ![Create Teamspace][TSInitCreateButton]                                 |
 |      | then proceed to step 2, else with next step                                                          |                                                                         |
-|  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon] to view your Teamspaces or create a new one    | ![Teamspace menu][TSMenue]                                             |
-|      | Click on **Create teamspace**                                                                        | ![teamspace menu - Create teamspace Link][TSCreateTSentry]             |
+|  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon] to view your Teamspaces or create a new one    | ![Teamspace menu][TSMenue]                                              |
+|      | Click on **Create teamspace**                                                                        | ![teamspace menu - Create teamspace Link][TSCreateTSentry]              |
 |  2   | Enter the name and a Description and press **Next** ![Next Button][NextButton]                       | ![Teamspace - Create New][TSCreateNewDialog]                            |
 |  3   | You can search and **add** Teammembers to a Teamspace                                                | ![Teamspace - Create New - search Member][TSAddTeammember]              |
 |      | Teammember is added to a list. Proceed to add more members if needed.                                | ![Teamspace - Create New - Member added][TSTeamMemberAdded]             |

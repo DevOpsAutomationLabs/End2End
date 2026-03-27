@@ -25,7 +25,7 @@ TODO: Show the board with data and expain what it is good for and how to use it
 
 | Step | Details                                                                                           | Additional Information                                   |
 |:----:|:--------------------------------------------------------------------------------------------------|:---------------------------------------------------------|
-|      | Click on the **Work Items** Tab to view all Work Items (WI) of the project                        | ![Board workitems][ProjectBoardWorkItems]                     |
+|      | Click on the **Work Items** Tab to view all Work Items (WI) of the project                        | ![Board workitems][ProjectBoardWorkItems]                |
 |      | Let's view a Work Item and it's Details. Please select item in the **Closed** column of the board | ![Select WorkItem from Board][BoardSelectWorkItem]       |
 |      |                                                                                                   | ![Show Workitem Details][BoardShowWorkItemDetail]        |
 |      | [Scroll down to show SCM Events Section and click on it][ShowCommit]                              | ![PLAN - Show Control/Git Commit Link][PlanShowCommit]   |
@@ -88,7 +88,6 @@ Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOver
 [BoardShowReleases]: media/Plan_ProjectBoard_Releases.png
 [BoardShowSprintBoard]: media/Plan_ProjectBoard_SprintBoard.png
 [BoardShowSprintBacklog]: media/Plan_ProjectBoard_SprintBacklog.png
-[REFWIShowDetails]: ../workitems/index.md#show-workitem-details
 [ShowCommit]: ../workitems/index.md#show-commit
 [REFWIuseAI]: ../workitems/index.md#use-ai-in-workitem
 
@@ -96,8 +95,6 @@ Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOver
 [PlanShowSCMEntryDetails]: ../media/Plan_Show_SCM_Entry_Details.png
 [PlanShowCommit]: ../media/PLAN_Show_GitCommit.png
 [ControlShowCommit]: ../../control/media/CONTROL_ShowGitCommit.png
-[WIExploratoryInEditMode]: ../workitems/media/Plan_WI_Exploratory_InEditMode.png
-[WIExploratoryTestCreated]: ../workitems/media/Plan_WI_Exploratory_Generated.png
 [FilterUncheckEpic]: media/Plan_ProjectBoard_Filterbar_UncheckEpic.png
 [BoardFiltered]: media/Plan_ProjectBoard_WorkItemsFiltered.png
 [ButtonClearFilter]: media/Plan_ProjectBoard_ClearFilterButton.png
