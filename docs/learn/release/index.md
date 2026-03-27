@@ -31,7 +31,7 @@ The Releases View and a Calender is shown
 Switch to Tiles view by clicking on ![Release tiles icon][ReleaseSwitchToTiles]
 ![Releases as Tiles view][ReleaseViewasTiles]
 
-## Conclusio
+## Conclusion
 
 Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
 

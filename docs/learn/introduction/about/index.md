@@ -6,7 +6,7 @@
 
 | Step | Details                                                                                                    | Additional Information            |
 |:----:|:-----------------------------------------------------------------------------------------------------------|:----------------------------------|
-|      | Switch to the main view of your Teamspace by clicking on **DevOps Loop: Loop** in the **Central App Menu** | ![Central App Menue][CentralAppSwitcher] |
+|      | Switch to the main view of your Teamspace by clicking on **DevOps Loop: Loop** in the **Central App Menu** | ![Central App Menu][CentralAppSwitcher] |
 
 --8<-- [end:SWITCH2Loop]
 
@@ -44,7 +44,7 @@
 
 | Step | Details                                                                                | Additional Information          |
 |:----:|:---------------------------------------------------------------------------------------|:--------------------------------|
-|      | The Settings Menue provides a view User Administration and managing the AI integration | ![Sidebar Settings][SBSettings] |
+|      | The Settings Menu provides a view User Administration and managing the AI integration | ![Sidebar Settings][SBSettings] |
 
 #### User Administration
 

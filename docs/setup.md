@@ -26,13 +26,13 @@ learn/introduction/index.md:TheHomePage
 |:----:|:--------------------------------------------------------------------------------|:-----------------------------------------------------|
 |  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon]                           | ![TS Menu][TSMenue]                                  |
 |      | 1.1 to **view** or **create** a Teamspace                                       |                                                      |
-|  2   | Click on **Create TeamSpace**                                                   | ![TS Menu - Create TS Link][TSCreateTSentry]         |
+|  2   | Click on **Create teamspace**                                                   | ![TS Menu - Create TS Link][TSCreateTSentry]         |
 |  3   | Enter a name and a Description                                                  |                                                      |
 |      | 2.1 **Example Name: 'Demo'** <br>**Example Description: 'Teamspace for Demos'** | ![TS - Create New][TSCreateNewDialog]                |
 |  4   | press **Next** Button to proceed                                                | ![Next Button][NextButton]                           |
 |  5   | You can search and **add** Teammembers to a Teamspace                           | ![TS - Create New - search Member][TSAddTeammember]  |
 |  6   | Teammember is added to a list. Proceed to add more members if needed.           | ![TS - Create New - Member added][TSTeamMemberAdded] |
-|  7   | Press **Create** to proceed                                                     | ![Create TeamSpace Button][TSCreateButton]           |
+|  7   | Press **Create** to proceed                                                     | ![Create teamspace Button][TSCreateButton]           |
 |  8   | Teamspace creation will take a few moments                                      | ![TS - Create started][TSCreationStarted]            |
 |  9   | Teamspace created. Click on **Go to Teamspace** for next steps                  | ![TS - creation successfull][TSCreateionFinished]    |
 |  10  | New Teamspace is shown                                                          | ![Empty Loops Homepage][LoopHomePageCreateNewLoop]   |

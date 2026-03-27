@@ -81,7 +81,7 @@ The home page for Control is the Repositories and Organizations view. In this vi
 |      | to create a new token, click on your **User Profile** and select **Settings**                                           | ![User Profile][ControlUserProfile]                |
 |      | In the Settings view click on Access Tokens then enter a Token name to identify its purpose                             | ![Name for new PAT][ControlNewPATName]             |
 |      | Click on **Select Permissions** to set the access rights, select **All** to cover all repositories                      | ![Open Select Permissions][ControlOpenPermissions] |
-|      | You can set any permission setting as you need it. Please be aware to limit the access tough to prevent security issues |                                                    |
+|      | You can set any permission setting as you need it. Please be aware to limit the access though to prevent security issues |                                                    |
 |      | Example: Set **Repository** to *Read and Write* and Set **User** to *Read*                                              | ![Set Permissions][ControlPATSetPermissions]       |
 |      | These settigs are the minimal needed to provide access to work with your repository through external tools              | ![Create AccessToken][ControlCreateAccesstoken]    |
 |      | Press **Generate Token**                                                                                                | ![Generate Token][ControlGeneratePATButton]        |
@@ -98,7 +98,7 @@ The home page for Control is the Repositories and Organizations view. In this vi
 | Step | Details                                                                                                  | Additional Information { width="50%" }              |
 |:----:|:---------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
 |  1   | Open the **Echologic** repository which has been created with the learning data                          | ![learning data repo][ControlLearningRepo]          |
-|  2   | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menue.                    | ![Code Button Expanded][ButtonCodeExpanded]         |
+|  2   | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menu.                    | ![Code Button Expanded][ButtonCodeExpanded]         |
 |  3   | Click on **Open with Code**                                                                              | ![open with Code][OpenWithCode]                     |
 |  4   | A new dialog appears to select the right Dev Container for cloning the repository                        | ![Select from List][SelectFromListDC1]              |
 | 4.1  | Scroll down to see more entries                                                                          | ![More Entries in List][SelectFromListDC2]          |
@@ -116,7 +116,7 @@ The home page for Control is the Repositories and Organizations view. In this vi
 
 | Step | Details                                                                               | Additional Information { width="50%" }                     |
 |:----:|:--------------------------------------------------------------------------------------|:-----------------------------------------------------------|
-|  1   | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menue. | ![Code Button Expanded][ButtonCodeExpanded]                |
+|  1   | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menu. | ![Code Button Expanded][ButtonCodeExpanded]                |
 |  2   | Click on **Open with VSCode**                                                         | ![open with vscode][OpenWithVSCode]                        |
 |  3   | In the following **Dialog Window** allow to open Link                                 | ![Allow to open VSCode by link][AllowToOpenVSCode]         |
 |  4   | VSCode will ask you for a location to clone the folder                                | ![Target Folder for cloning][SelectTargetFolderforCloning] |

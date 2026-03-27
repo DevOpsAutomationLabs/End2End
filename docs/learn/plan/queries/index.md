@@ -9,11 +9,11 @@ Use Queries to get a list of items you are interested on. Every user can create 
 You can switch to the Query Editor by either Clicking on the Queries icon on the left sidebar to open the submenue:
 
 ![Queries Icon][QueriesIcon]
-![Queries Menue List][QueriesMenue]
+![Queries Menu List][QueriesMenue]
 
 Or when your sidebar is expanded click on Personal to create a new Personal Query:
 
-![Queries Menue Expanded][QueriesMenueExpanded]
+![Queries Menu Expanded][QueriesMenueExpanded]
 
 The Query Editor list all your queries you have access to. You can switch here between Personal and Public queries by clicking on the triangle symbol right beside the Public/Personal Query:
 
@@ -74,7 +74,7 @@ If you want to save and go on with editing use the Save button. It can be also u
 
 Have a look at the available Queries in the Public Queries list and try them out.
 
-## Conclusio
+## Conclusion
 
 Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
 

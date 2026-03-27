@@ -4,7 +4,7 @@ A very short introduction to DevOps Loop.
 
 ## Start Here
 
-To use the platform you have to be onboarded onto it. This is normaly done by your administrators. URLs and User names are examples, please check with your admin about the information.
+To use the platform you have to be onboarded onto it. This is normally done by your administrators. URLs and User names are examples, please check with your admin about the information.
 
 ### How to log in
 
@@ -37,7 +37,7 @@ To use the platform you have to be onboarded onto it. This is normaly done by yo
 
 | Step | Details                                                                                                   |       Additional Information       |
 |:----:|:----------------------------------------------------------------------------------------------------------|:----------------------------------:|
-|      | If you are in a different TeamSpace, click on **TeamSpace Icon** and switch to **Demo**                   | ![Switch TeamSpace][SwitchToHome]  |
+|      | If you are in a different teamspace, click on **teamspace Icon** and switch to **Demo**                   | ![Switch teamspace][SwitchToHome]  |
 |      | If you are not on the Home Page page, click on **Home Button** in the side bar to switch to the Home Page | ![Switch to Home][HomePageSideBar] |
 
 --8<-- [end:SwitchTS]
@@ -68,7 +68,7 @@ To use the platform you have to be onboarded onto it. This is normaly done by yo
 |:---:|:--------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
 |     | There are several ways to switch to the capabilites (Plan, _Model_, Control, Code, Build, Deploy, Test, Measure, Release) |                                                                |
 |  1  | by using the central app switcher on the top left Central Solution/App Switcher                                           | ![Central App Switcher][CentralAppSwitcher]                    |
-|  2  | by using the "What would you like to do today?" Menue on the botton of the Dashboard                                      | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
+|  2  | by using the "What would you like to do today?" Menu on the bottom of the Dashboard                                      | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 | 2.1 | Only the capabilities fully integrated into Teamspaces and Loops are shown                                                |                                                                |
 
 --8<-- [end:SwitchingCapabilities]
@@ -83,7 +83,7 @@ learn/introduction/genie/index.md:HowToUseLoopGenie
 
 In the case of an empty environment you need to create a new Teamspace and at least one Loop.
 
-### Create a TeamSpace
+### Create a teamspace
 
 Please follow the [Instructions for creating Teamspace(s)][InstructionsCreateTeamSpace] for more details.
 
@@ -91,13 +91,13 @@ Please follow the [Instructions for creating Teamspace(s)][InstructionsCreateTea
 learn/introduction/teamspace/index.md:CreateNewTS
 --8<--
 
-When the creation of a TeamSpace is finished you will be forwarded to your empty loops home page for your new TeamSpace.
+When the creation of a teamspace is finished you will be forwarded to your empty loops home page for your new teamspace.
 
 ![Empty Loops Homepage][LoopHomePageCreateNewLoop]
 
 ### Create a Loop
 
-You need to create at least one Loop in your TeamSpace, please follow the [Instructions for creation of a new Loop][InstructionsCreateLoop] for more details.
+You need to create at least one Loop in your teamspace, please follow the [Instructions for creation of a new Loop][InstructionsCreateLoop] for more details.
 
 --8<--
 learn/introduction/loops/index.md:CreateNewLoop

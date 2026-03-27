@@ -19,7 +19,7 @@ Plugins are listed in the Automation Section of the Settings pages.
 
 #### How to install a plugin
 
-click on the **3 Dots** ![3 dots menue][DeployPlugin3DotsMenue] of the plugin you want to install and select install: ![Install plugin][DeployInstallPlugin]
+click on the **3 Dots** ![3 dots menu][DeployPlugin3DotsMenue] of the plugin you want to install and select install: ![Install plugin][DeployInstallPlugin]
 An Installation Confirmation Dialog will pop up, click here on **Confirm** to proceed ![Plugin Installation Confirmation][DeployInstallPluginConfirmation]
 Installation is Successfull Notification ![Plugin Installation Successfull][DeployPluginInstallSuccess]
 

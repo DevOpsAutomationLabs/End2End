@@ -8,7 +8,7 @@ A loop consists of several interconnected phases for connecting DevOps activitie
 
 ## Create new Loop
 
-Your freshly created TeamSpace has no Loop yet.
+Your freshly created teamspace has no Loop yet.
 
 ![Loops - Home][LoopHome]
 

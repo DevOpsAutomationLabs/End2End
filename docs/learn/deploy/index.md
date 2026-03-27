@@ -183,7 +183,7 @@ Use Deploy Genie to understand why the deployment failed. To simulate a failed d
   - ![Select Versions for Components][RunFailSelectCompVersions]
 - The result will be a failed deployment as one step has failed
   - ![Failed Result][RunFailed]
-  - Click on the **3 dots** ![3 dots menue][DeployPlugin3DotsMenue] of the failing to show Menue: ![menue][Step3DotsMenueWithGenie]
+  - Click on the **3 dots** ![3 dots menu][DeployPlugin3DotsMenue] of the failing to show Menu: ![menu][Step3DotsMenueWithGenie]
   - Click on **Deployment Genie** after a few moments the step will be analyzed and the results shown
     - ![AI Analyzed][GenieAnalysis]
 
@@ -191,7 +191,7 @@ Use Deploy Genie to understand why the deployment failed. To simulate a failed d
 
 Please read the [Settings Section](settings/index.md) for more Details how to set System parameters or install Plugins.
 
-## Conclusio
+## Conclusion
 
 Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
 

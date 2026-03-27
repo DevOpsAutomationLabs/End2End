@@ -2,7 +2,7 @@
 
 ## [Introduction](introduction/index.md)
 
-Short Introduction into Loop and how to setup a new TeamSpace and Loop.
+Short Introduction into Loop and how to setup a new teamspace and Loop.
 
 ## Capabilities
 

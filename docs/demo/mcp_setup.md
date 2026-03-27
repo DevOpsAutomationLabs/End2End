@@ -12,7 +12,7 @@ Please have a look how to use MCP Server with VSCode in this [documentation][VSC
 
 | Step | Details                                                                                           | Additional Information                                      |
 |:----:|:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------|
-|      | Click on the **View** Menue and select **Command Palette**                                        | ![VSCode View Command Palette][VSCviewCP]                   |
+|      | Click on the **View** Menu and select **Command Palette**                                        | ![VSCode View Command Palette][VSCviewCP]                   |
 |      | In the **Command View** search for **Add MCP Server** and click on it                             | ![VSCode Command Palette add MCP Server][VSCCPAddMCPServer] |
 |      | From the listbox select **HTTP**                                                                  | ![Step 1][VSCAddMCPStep1]                                   |
 |      | Enter the MCP Server URL (example for Control MCP server)                                         | ![Step 2][VSCAddMCPStep2]                                   |

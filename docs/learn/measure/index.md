@@ -120,8 +120,8 @@ An User Access Key, also known as Access Token, or Personal Access Token (short 
 
 | Step | Details                                                                                                    | Additional Information                              |
 |:----:|:-----------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
-|      | click on the **Settings** ![Settings][ButtonSettings] Link on the top right of your screen to get a menue  | ![Measure top right menuebar][MeasureToprightMenue] |
-|      | click on **My Profile** ![My Profile][MeasureMyProfileLink] to view the Profile settings                   | ![My Settings Menue][MeasureSettingsMenue]          |
+|      | click on the **Settings** ![Settings][ButtonSettings] Link on the top right of your screen to get a menu  | ![Measure top right menubar][MeasureToprightMenue] |
+|      | click on **My Profile** ![My Profile][MeasureMyProfileLink] to view the Profile settings                   | ![My Settings Menu][MeasureSettingsMenue]          |
 |      | A list of User Access Keys (or PAT) is shown                                                               | ![Measure List of UAK or PAT][MeasurePATList]       |
 |      | Click on the **Create User Access Key** ![Create UAK Button][MeasureNewPATButton] and a new Dialog appears | ![UAK Dialog][MeasureNewPATDialog]                  |
 |      | Provide a name for the UAK/PAT and click **Create** Button to get the token                                | ![Measure New UAK][MeasureNewPATMessage]            |
@@ -130,7 +130,7 @@ An User Access Key, also known as Access Token, or Personal Access Token (short 
 
 --8<-- [end:PATMeasure]
 
-## Conclusio
+## Conclusion
 
 Congratulations! You have finished the Measure Lab!
 

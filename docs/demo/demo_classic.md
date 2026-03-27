@@ -292,7 +292,7 @@ learn/build/index.md:ProcessDefTemplates
 |  4   | Select following Versions <br>for **Echo** select **1.0**<br>for **Logic** select **2.0.0**                          | ![Comp Versions][RunFailSelectCompVersions]          |
 |  5   | Press the **Submit** button to start the deployment process                                                          | ![Submit Button][DeployAppPocessRequestSubmitButton] |
 |  6   | The result will be a **failed** deployment as one step has failed                                                    | ![Failed Result][RunFailed]                          |
-|  7   | Click on the **3 dots** ![3 dots menue][DeployPlugin3DotsMenue] to get menue of the failed step                      | ![Step Menue][Step3DotsMenueWithGenie]               |
+|  7   | Click on the **3 dots** ![3 dots menu][DeployPlugin3DotsMenue] to get menu of the failed step                      | ![Step Menu][Step3DotsMenueWithGenie]               |
 |  8   | Click on **Deployment Genie** after a few moments the step will be analyzed and the results shown                    | ![AI Analyzed][GenieAnalysis]                        |
 
 ### Show the Plug-Ins Page
@@ -327,10 +327,10 @@ learn/build/index.md:ProcessDefTemplates
 |  6.5  | Click on **Execute** Button to start Test Execution                                                         | ![Execute Button][ButtonExecute]                 |
 |  6.6  | Run will take a few moments                                                                                 | ![Running Script][RunningScript]                 |
 |   7   | Show the analysis of the test results                                                                       |                                                  |
-|  7.1  | click on **Analyze** section in Sidebar to get list of Menue                                                | ![Analyze Section][SectionAnalyze]               |
+|  7.1  | click on **Analyze** section in Sidebar to get list of Menu                                                | ![Analyze Section][SectionAnalyze]               |
 |  7.2  | click on **Results** to get Results View                                                                    | ![Results Overview][ResultsOverview]             |
 |   8   | Show how we can create or edit a test                                                                       |                                                  |
-|  8.1  | click on **Author** section on **Test Editor** menue entry                                                  | ![Test Author Section][SectionAuthor]            |
+|  8.1  | click on **Author** section on **Test Editor** menu entry                                                  | ![Test Author Section][SectionAuthor]            |
 |  8.2  | Test Editor View opens and select the **DemoTestFail** script                                               | ![Test Editor View][TestEditorView]              |
 |  8.3  | Test Script will be shown                                                                                   | ![Test Script][TestScriptEditor]                 |
 |  8.4  | click on the **verification** step to view step details                                                     | ![Step Details][TestScriptStepDetails]           |
@@ -340,7 +340,7 @@ learn/build/index.md:ProcessDefTemplates
 |  9.3  | click on **Run Button** on the right of Script **DemoTestFail**                                             | ![Run Button][ButtonRun]                         |
 |  9.4  | Testexecution will take a few moments.                                                                      |                                                  |
 |  10   | Create a defect in Plan and show that is has all the data automatically                                     |                                                  |
-| 10.1  | Switch to Results View using the **Analyze** Section menue                                                  | ![Analyze Section menue][MenueAnalyze]           |
+| 10.1  | Switch to Results View using the **Analyze** Section menu                                                  | ![Analyze Section menu][MenueAnalyze]           |
 | 10.2  | In the **Results** View select the **DemoTestFail** run                                                     | ![Results Overview][ResultsOverview]             |
 | 10.3  | Click on **DevOps Plan** ![Create ticket icon][CreateTicketIcon] Icon on the right side of the row          | ![Failed Test][ResultsFailedTest]                |
 | 10.4  | A WorkItem creation Dialog opens, select **Workitem** in the Type field                                     | ![CreateWI][WICreatedialog]                      |
@@ -410,7 +410,7 @@ Explain that we have covered a lot of roles and used a mixture of AI and automat
 
 Explain that we are back to the start and that this has been a quick end to end demo
 
-## Conclusio
+## Conclusion
 
 If you want to talk more about Loop please have a look at the [About Box, Sidebar and Plug-Ins][IntroductionAboutBoxSidebarPlugins] introduction.
 

@@ -110,7 +110,7 @@ The new component list should look like this:
 
 Do not forget to save the project to keep the changes!
 
-## Conclusio
+## Conclusion
 
 Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
 

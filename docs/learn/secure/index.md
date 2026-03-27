@@ -4,7 +4,7 @@
 
 _**NOTE: will be added later**_
 
-## Conclusio
+## Conclusion
 
 Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
 

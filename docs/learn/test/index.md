@@ -34,7 +34,7 @@ This lab will provide you with a practical hands-on of our testing capabilities.
 
 --8<-- [end:Test3rdParty]
 
-### Switch TeamSpace and Project if needed
+### Switch teamspace and Project if needed
 
 Should Test show you a different Teamspace or Project then expected (Demo and EchoLogic), click on Teamspace Icon
 
@@ -59,10 +59,10 @@ and Select **Demo**. A list of Projects is shown:
 |      | Click on **Execute** Button to start Test Execution                                                | ![Execute Button][ButtonExecute]                 |
 |      | Run will take a few moments                                                                        | ![Running Script][RunningScript]                 |
 |      | Show the analysis of the test results                                                              |                                                  |
-|      | click on **Analyze** section in Sidebar to get list of Menue                                       | ![Analyze Section][SectionAnalyze]               |
+|      | click on **Analyze** section in Sidebar to get list of Menu                                       | ![Analyze Section][SectionAnalyze]               |
 |      | click on **Results** to get Results View                                                           | ![Results Overview][ResultsOverview]             |
 |      | Show how we can create or edit a test                                                              |                                                  |
-|      | click on **Author** section on **Test Editor** menue entry                                         | ![Test Author Section][SectionAuthor]            |
+|      | click on **Author** section on **Test Editor** menu entry                                         | ![Test Author Section][SectionAuthor]            |
 |      | Test Editor View opens and select the **DemoTestFail** script                                      | ![Test Editor View][TestEditorView]              |
 |      | Test Script will be shown                                                                          | ![Test Script][TestScriptEditor]                 |
 |      | click on the **verification** step to view step details                                            | ![Step Details][TestScriptStepDetails]           |
@@ -72,7 +72,7 @@ and Select **Demo**. A list of Projects is shown:
 |      | click on **Run Button** on the right of Script **DemoTestFail**                                    | ![Run Button][ButtonRun]                         |
 |      | Testexecution will take a few moments.                                                             |                                                  |
 |      | Create a defect in Plan and show that is has all the data automatically                            |                                                  |
-|      | Switch to Results View using the **Analyze** Section menue                                         | ![Analyze Section menue][MenueAnalyze]           |
+|      | Switch to Results View using the **Analyze** Section menu                                         | ![Analyze Section menu][MenueAnalyze]           |
 |      | In the **Results** View select the **DemoTestFail** run                                            | ![Results Overview][ResultsOverview]             |
 |      | Click on **DevOps Plan** ![Create ticket icon][CreateTicketIcon] Icon on the right side of the row | ![Failed Test][ResultsFailedTest]                |
 |      | A WorkItem creation Dialog opens, select **Workitem** in the Type field                            | ![CreateWI][WICreatedialog]                      |
@@ -110,7 +110,7 @@ and Select **Demo**. A list of Projects is shown:
 
 --8<-- [end:PATTest]
 
-## Conclusio
+## Conclusion
 
 Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
 

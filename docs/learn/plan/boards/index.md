@@ -67,7 +67,7 @@ TODO: Show the board with data and expain what it is good for and how to use it
 
 - ![Board Sprint Backlog][BoardShowSprintBacklog]
 
-## Conclusio
+## Conclusion
 
 Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
 
