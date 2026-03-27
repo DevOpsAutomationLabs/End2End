@@ -1,3 +1,291 @@
+/* ============================================
+   DevOps Loop Documentation - Custom Styles
+   ============================================ */
+
+/* Wider content area for better readability */
 .md-grid {
-  max-width: 1440px; 
+  max-width: 1440px;
 }
+
+/* ============================================
+   Modern Card Styling
+   ============================================ */
+.md-typeset .grid.cards > :is(ul, ol) > li {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.md-typeset .grid.cards > :is(ul, ol) > li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Dark mode card adjustments */
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > :is(ul, ol) > li {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > :is(ul, ol) > li:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+}
+
+/* ============================================
+   Code Block Enhancements
+   ============================================ */
+.md-typeset pre > code {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset code {
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+}
+
+/* ============================================
+   Table Improvements
+   ============================================ */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset table:not([class]) th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  letter-spacing: 0.5px;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: rgba(103, 126, 234, 0.05);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================
+   Hero Section
+   ============================================ */
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+}
+
+.hero-section h1 {
+  color: white !important;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
+/* ============================================
+   Button Enhancements
+   ============================================ */
+.md-button {
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  text-transform: none;
+  padding: 0.625em 1.5em;
+}
+
+.md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.md-button--primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+}
+
+.md-button--primary:hover {
+  background: linear-gradient(135deg, #5568d3 0%, #653a8b 100%);
+}
+
+/* ============================================
+   Animated Icons
+   ============================================ */
+.md-typeset .twemoji,
+.md-typeset .emojione {
+  transition: transform 0.2s ease;
+}
+
+.md-typeset .twemoji:hover,
+.md-typeset .emojione:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
+/* ============================================
+   Image Presentation
+   ============================================ */
+.md-typeset img {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.md-typeset img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
+}
+
+/* ============================================
+   Admonition Enhancements
+   ============================================ */
+.md-typeset .admonition {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-left-width: 4px;
+}
+
+.md-typeset .admonition-title {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+/* ============================================
+   Smooth Scrolling
+   ============================================ */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ============================================
+   Navigation Enhancements
+   ============================================ */
+.md-nav__link--active {
+  font-weight: 600;
+}
+
+.md-nav__link:hover {
+  color: var(--md-accent-fg-color);
+}
+
+/* ============================================
+   Search Enhancements
+   ============================================ */
+.md-search__input {
+  border-radius: 8px;
+}
+
+.md-search__input::placeholder {
+  opacity: 0.6;
+}
+
+/* ============================================
+   Footer Enhancements
+   ============================================ */
+.md-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+[data-md-color-scheme="slate"] .md-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================
+   Tab Enhancements
+   ============================================ */
+.md-typeset .tabbed-set > input:checked + label {
+  border-bottom: 2px solid var(--md-accent-fg-color);
+  font-weight: 600;
+}
+
+.md-typeset .tabbed-set > label {
+  transition: all 0.2s ease;
+}
+
+.md-typeset .tabbed-set > label:hover {
+  color: var(--md-accent-fg-color);
+}
+
+/* ============================================
+   Progress Bar (for instant loading)
+   ============================================ */
+.md-progress {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  height: 3px;
+}
+
+/* ============================================
+   Custom Utility Classes
+   ============================================ */
+.text-center {
+  text-align: center;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ============================================
+   Responsive Adjustments
+   ============================================ */
+@media screen and (max-width: 76.1875em) {
+  .hero-section {
+    padding: 3rem 1.5rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 44.9375em) {
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 1.75rem;
+  }
+  
+  .hero-section p {
+    font-size: 1rem;
+  }
+}
+
+/* ============================================
+   Print Styles
+   ============================================ */
+@media print {
+  .hero-section {
+    background: none;
+    color: black;
+    box-shadow: none;
+  }
+  
+  .md-typeset img {
+    box-shadow: none;
+  }
+}
+
+/* Made with Bob */
