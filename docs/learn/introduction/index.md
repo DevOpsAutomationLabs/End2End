@@ -137,6 +137,9 @@ learn/introduction/loops/index.md:CreateNewLoop
 [GoBackToCreateALoop]: #create-a-loop
 [DOCSLoopTS]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=administration-teamspace-management
 
+[GenieDialog]: genie/media/Loop_Genie_Dialog.png
+[GenieFocusSelection]: genie/media/Loop_Genie_Dialog_FocusSelection.png
+
 [LoopHome]: loops/media/NoLoops_inthis_TeamSpace.png
 [CreateNewDialog]: loops/media/Create_New_Loop_Dialog.png
 [WithLearningData]: loops/media/Create_New_Loop_with_Learning_Data.png
