@@ -1,0 +1,129 @@
+{
+    "mcpServers": {
+        "plan": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@securedevops/mcp-devops-plan"
+            ],
+            "env": {
+                "PLAN_ACCESS_TOKEN": "<YOUR PLAN TOKEN>",
+                "PLAN_SERVER_URL": "https://<hostname>/plan",
+                "PLAN_TEAMSPACE_ID": "<YOUR TEAMSPACE ID>"
+            },
+            "type": "stdio",
+            "alwaysAllow": [
+                "get_available_projects",
+                "get_available_components",
+                "get_sprints",
+                "get_releases",
+                "get_available_workitem_types",
+                "get_work_items",
+                "get_applications",
+                "get_available_states"
+            ]
+        },
+        "deploy": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@securedevops/mcp-devops-deploy"
+            ],
+            "env": {
+                "DEPLOY_TOKEN": "<YOUR DEPLOY TOKEN>",
+                "DEPLOY_SERVER_URL": "https://<hostname>/deploy",
+                "DEPLOY_INSECURE_TLS": "true"
+            },
+            "type": "stdio",
+            "alwaysAllow": [
+                "list_application_snapshots",
+                "list_environment_inventory",
+                "get_deployment_status",
+                "list_environments_for_application",
+                "compare_environment_snapshots",
+                "list_applications",
+                "list_application_processes",
+                "list_components",
+                "get_component_versions",
+                "auth_diagnostics"
+            ]
+        },
+        "velocity": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@securedevops/mcp-devops-velocity"
+            ],
+            "env": {
+                "VELOCITY_GRAPHQL_URL": "https://<hostname>/velocity/release-events-api/graphql",
+                "VELOCITY_TENANT_ID": "<YOUR TEAMSPACE ID>",
+                "VELOCITY_ACCESS_TOKEN": "<YOUR VELOCITY TOKEN>"
+            },
+            "type": "stdio",
+            "alwaysAllow": [
+                "get_release_events",
+                "get_pipelines_by_tenant",
+                "get_workflows_for_tenant",
+                "get_particles_by_stage",
+                "get_issues",
+                "get_deployment_metrics",
+                "get_build_data",
+                "get_teams_by_tenant",
+                "get_applications_by_criteria",
+                "get_integrations_by_tenant",
+                "test_graphql_connection",
+                "get_my_access_key_metadata"
+            ]
+        },
+        "test": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@securedevops/mcp-devops-test"
+            ],
+            "env": {
+                "TEST_ACCESS_TOKEN": "<YOUR TESTHUB TOKEN>",
+                "TEST_SERVER_URL": "https://<hostname>/test",
+                "TEST_TEAMSPACE_ID": "<YOUR TEAMSPACE ID>"
+            },
+            "type": "stdio",
+            "alwaysAllow": [
+                "get_projects",
+                "list_tests",
+                "get_test_results",
+                "get_test_log_results",
+                "execute_test",
+                "prepare_test_download"
+            ],
+            "disabled": true
+        },
+        "Test-MCP": {
+            "url": "https://<hostname>/test/mcp/stream",
+            "type": "streamable-http",
+            "headers": {
+                "Authorization": "Offline <YOUR TESTHUB TOKEN>"
+            },
+            "alwaysAllow": [
+                "testhub__get_projects",
+                "testhub__list_tests",
+                "testhub__run_test",
+                "testhub__get_result_by_id",
+                "testhub__get_results"
+            ]
+        },
+        "wait_server": {
+            "command": "npx",
+            "args": [
+                "mcp-wait-server@latest"
+            ],
+            "env": {
+                "MCP_WAIT_MAX_DURATION_SECONDS": "210",
+                "MCP_WAIT_TOOL_DESCRIPTION": "Waits for a specified number of seconds. Use this to create a delay after starting a long-running operation (like a script or download via another tool), allowing it time to complete before you proceed or check its status."
+            },
+            "alwaysAllow": [
+                "wait",
+                "get_datetime"
+            ]
+        }
+    }
+}
