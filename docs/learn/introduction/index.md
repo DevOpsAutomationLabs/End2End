@@ -124,5 +124,30 @@ learn/introduction/loops/index.md:CreateNewLoop
 [NoTeamSpaceAvailable]: media/INIT_1_NoTeamspace.png
 [SwitchToHome]: media/Loop_Sidebar_SwitchTeamSpace.png
 [TSInitCreateButton]: teamspace/media/Loop_Initial_Create_TS_Button.png
+[TSMenue]: teamspace/media/Loop_Teamspace_01_Menue.png
+[TSCreateNewDialog]: teamspace/media/Loop_Teamspace_02_CreateNew_Dialog.png
+[TSAddTeammember]: teamspace/media/Loop_Teamspace_03_CreateNew_searchMember.png
+[TSTeamMemberAdded]: teamspace/media/Loop_Teamspace_04_CreateNew_MemberAdded.png
+[TSCreationStarted]: teamspace/media/Loop_Teamspace_05_CreateNew_creation.png
+[TSCreateionFinished]: teamspace/media/Loop_Teamspace_06_CreateNew_success.png
+[TSIcon]: teamspace/media/Loop_TeamSpaceIcon.png
+[TSCreateTSentry]: teamspace/media/Loop_CreateTeamSpace.png
+[TSCreateButton]: teamspace/media/Loop_Create_TS_Button.png
+[NextButton]: ../../media/Button_NEXT.png
+[GoBackToCreateALoop]: #create-a-loop
+[DOCSLoopTS]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=administration-teamspace-management
+
+[LoopHome]: loops/media/NoLoops_inthis_TeamSpace.png
+[CreateNewDialog]: loops/media/Create_New_Loop_Dialog.png
+[WithLearningData]: loops/media/Create_New_Loop_with_Learning_Data.png
+[CreateNewLoopButton]: loops/media/Loop_CreateNewLoop_Button.png
+[SearchAddMember]: loops/media/Loop_Teamspace_09_CreateNewLoop_searchMember.png
+[AddedMember]: loops/media/Loop_Teamspace_10_CreateNewLoop_MemberAdded.png
+[CreateButton]: loops/media/Loop_CreateNewLoop_Button.png
+[LoopCreation]: loops/media/New_Loop_Creation_Progress.png
+[LoopCreatedSuccess]: loops/media/New_Loop_Creation_Success.png
+[GoToMyLoops]: loops/media/Loops_GoToMyLoops_Button.png
+[DOCSWorkWithLoops]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=working-loops
+
 [CreateTSandLoop]: #setup-a-teamspace-and-loop
 [SwitchTeamSpaces]: #switch-between-teamspaces-and-back-to-home
