@@ -12,7 +12,7 @@ Please have a look how to use MCP Server with VSCode in this [documentation][VSC
 
 | Step | Details                                                                                           | Additional Information                                      |
 |:----:|:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------|
-|      | Click on the **View** Menu and select **Command Palette**                                        | ![VSCode View Command Palette][VSCviewCP]                   |
+|      | Click on the **View** Menu and select **Command Palette**                                         | ![VSCode View Command Palette][VSCviewCP]                   |
 |      | In the **Command View** search for **Add MCP Server** and click on it                             | ![VSCode Command Palette add MCP Server][VSCCPAddMCPServer] |
 |      | From the listbox select **HTTP**                                                                  | ![Step 1][VSCAddMCPStep1]                                   |
 |      | Enter the MCP Server URL (example for Control MCP server)                                         | ![Step 2][VSCAddMCPStep2]                                   |
@@ -27,7 +27,7 @@ To be able to manualy edit the mcp.json file you have to first let it be created
 
 ## Preparing the mcp.json file
 
-> NOTE: Templates for `mcp.json`files with preprovided sections: [for local mcp server](templates/template_local_mcp.json) and [for remove mcp server](templates/template_mcp.json)
+> NOTE: Templates for `mcp.json`files with preprovided sections: [for local mcp server](templates/template_local_mcp.json) and [for remote mcp server](templates/template_mcp.json)
 
 Add the MCP Servers into the mcp.json file in the "servers" section.
 
@@ -41,7 +41,7 @@ Add the MCP Servers into the mcp.json file in the "servers" section.
 
 ### Loop MCP Server
 
-The Loop MCP server uses single sign on for authentication so the setup is very simple. Please have a look at the [documentation for Loop MCP server usage](https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=administration-devops-loop-mcp-server)
+The Loop MCP server uses single sign on for authentication so the setup is very simple. Please have a look at the [documentation for Loop MCP server usage](https://www.ibm.com/docs/en/devops-loop/2.0.1?topic=administration-devops-loop-mcp-server). There is no local MCP Server available.
 
 #### Configure the MCP Server Section
 
@@ -54,19 +54,30 @@ The Loop MCP server uses single sign on for authentication so the setup is very 
 
 ### Control MCP Server
 
-#### Get the necessary Access Token
+#### Configure Control MCP Server to use SSO
+
+```json
+"Control-MCP-Server": {
+    "url": "https://<hostname>/control/mcp",
+    "type": "http"
+}
+```
+
+#### Configure the MCP Server with Access Token
+
+##### Get the necessary Access Token
 
 --8<--
 learn/control/index.md:PATControl
 --8<--
 
-#### Configure the MCP Server Section
+##### Use Access Token in MCP server settings
 
 Use your token and replace the ```<control token>``` part with your token in the Control MCP Server section.
 
 ```json
 "Control-MCP-Server": {
-    "url": "https://<hostname>/control-mcp",
+    "url": "https://<hostname>/control/mcp",
     "type": "http",
     "headers": {
     "Authorization": "token <control token>"
@@ -278,53 +289,3 @@ Here the mcp.json template file using available remote MCP server and the local 
 [VSCAddMCPStep4]: media/Demo_VSCode_add_MCP_server_Step4.png
 [VSCMCPList]: media/Demo_MCP_Server_List_View.png
 [VSCMCPjson]: media/Demo_MCP_json_view.png
-
-[ButtonClose]: ../media/Button_Close.png
-
-[ControlUserProfile]: ../learn/control/media/Control_UserProfile.png
-[ControlCreateAccesstoken]: ../learn/control/media/Control_Create_AccessToken.png
-[ControlAccessToken]: ../learn/control/media/Control_Accesstoken.png
-[ControlNewPATName]: ../learn/control/media/Control_NewPAT_Name.png
-[ControlPATSetPermissions]: ../learn/control/media/Control_NewPAT_setpermissions_minimal.png
-[ControlOpenPermissions]: ../learn/control/media/Control_NewPat_SelectAccessTypePermissions.png
-[ControlGeneratePATButton]: ../learn/control/media/Control_NewPAT_Generate_Button.png
-
-[TestToprightMenue]: ../learn/test/media/Test_Profile_Notification_Settings_Help_Links.png
-[TestProfileMenue]: ../learn/test/media/Test_Profile_Menue.png
-[TestNewPAT]: ../learn/test/media/Test_Create_PAT_Dialog.png
-
-[DeploySystemSettings]: ../learn/deploy/settings/media/Deploy_Settings.png
-[DeploySystemSection]: ../learn/deploy/settings/media/Deploy_Settings_SystemSection.png
-[DeployPATList]: ../learn/deploy/settings/media/Deploy_PAT_List.png
-[DeployCreatePATButton]: ../learn/deploy/settings/media/Deploy_Create_Token_Button.png
-[DeployCreatePATDialog]: ../learn/deploy/settings/media/Deploy_Create_Token_Dialog.png
-[DeployNewPATInfo]: ../learn/deploy/settings/media/Deploy_NewPAT_Message.png
-[ButtonClose]: ../learn/deploy/settings/media/Deploy_Close_Button.png
-[DeployPATListUpdated]: ../learn/deploy/settings/media/Deploy_PAT_List_updated.png
-[DeployPATLink]: ../learn/deploy/settings/media/Deploy_Tokens_Link.png
-
-[MeasureToprightMenue]: ../learn/measure/media/Measure_Profile_Settings_Help_Bar.png
-[ButtonSettings]: ../media/Button_Settings.png
-[MeasureMyProfileLink]: ../learn/measure/media/Measure_MyProfile_Link.png
-[MeasureSettingsMenue]: ../learn/measure/media/Measure_Settings_Menue.png
-[MeasurePATList]: ../learn/measure/media/Measure_PAT_List.png
-[MeasureNewPATButton]: ../learn/measure/media/Measure_Create_User_Access_Key_Button.png
-[MeasureNewPATDialog]: ../learn/measure/media/Measure_Create_PAT_Dialog.png
-[MeasureNewPATMessage]: ../learn/measure/media/Measure_Create_PAT_Result_Message.png
-[MeasurePATListUpdated]: ../learn/measure/media/Measure_PAT_newly_Created.png
-
-[PlanSidebarProfile]: ../learn/plan/setup/media/Plan_Profile_Menue.png
-[PlanListPATS]: ../learn/plan/setup/media/Plan_PAT_List.png
-[PlanCreatePATButton]: ../learn/plan/setup/media/Plan_Create_PAT_Button.png
-[PlanPATDialog]: ../learn/plan/setup/media/Plan_Create_Pat_Dialog.png
-[PlanPATCreated]: ../learn/plan/setup/media/Plan_PAT_created.png
-[PlanPATCopied]: ../learn/plan/setup/media/Plan_PAT_copied.png
-[PlanListnewPATS]: ../learn/plan/setup/media/Plan_PAT_list_updated.png
-[PlanHomePageButton]: ../learn/plan/media/Plan_Home_button.png
-[PlanMyApplicationButton]: ../learn/plan/media/Plan_MyApplications_Button.png
-[PlanTMButton]: ../learn/plan/setup/media/Plan_TenantManagement_Link.png
-[PlanTMView]: ../learn/plan/setup/media/Plan_Tenant_Management_View.png
-[PlanTMDetailSwitch]: ../learn/plan/setup/media/Plan_Tenant_Management_Details_Switch.png
-[PlanTMDetails]: ../learn/plan/setup/media/Plan_Tenant_Management_Details.png
-[PlanDBID]: ../learn/plan/setup/media/Plan_Database_ID.png
-[ButtonCopy]: ../learn/plan/setup/media/Plan_Copy_Button.png
