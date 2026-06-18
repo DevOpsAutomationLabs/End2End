@@ -30,10 +30,10 @@
 |      | Enter the name of the component (for example Echo) and a Description                   | ![Component - Create Dialog 1][DeployComponentCreateNewDialog1]                           |
 |      | Select Version Source Configuration (use file system versioned for this step)          | ![Component - Create Dialog 2][DeployComponentCreateNewDialog2]                           |
 |      | Provide the base path from where to import versions for this component                 | ![Component - Create Dialog 3][DeployComponentCreateNewDialog3]                           |
-|      | use "home/echologic/echo" for this example                                             | <home/echologic/echo>                                                                     |
+|      | use "home/echologic/echo" for this example                                             | `home/echologic/echo`                                                                     |
 |      | select "copy to Codestation" if not selected automatically                             | ![Component - Create Dialog 4][DeployComponentCreateNewDialog4]                           |
 |      | Component successful created, first view is the Versions view                          | ![Component - Newly Created Comp first view versions ][DeployComponentNewVersionView]     |
-|      | have a look at the Components configuration, you can change it here if needed          | ![Component - Newly Created Comp configuraiton view][DeployComponentNewConfigurationView] |
+|      | have a look at the Components configuration, you can change it here if needed          | ![Component - Newly Created Comp configuration view][DeployComponentNewConfigurationView] |
 |      | have a look at the processes of the component, which are empty too                     | ![Component - Newly Created Comp Processes view][DeployComponentNewProcessesView]         |
 |      | We will add processes later in this lab                                                |                                                                                           |
 
@@ -45,7 +45,7 @@
 |:----:|:-------------------------------------------|:-----------------------------------------------|
 |      | click on **Import Component** Button       | ![Import Component Button][ButtonImportComps]  |
 |      | Import Dialog opens                        | ![Import Dialog][CompImportDialog]             |
-|      | click on **Chose File** Button             | ![Choose File Button][CompImpChooseFileButton] |
+|      | click on **Choose File** Button            | ![Choose File Button][CompImpChooseFileButton] |
 |      | Switch to folder with files and select one | ![Files to choose][Filestochoose]              |
 |      | File is selected                           | ![File is selected][FileChoosen]               |
 |      | click the **Submit** Button                | ![Submit Button][ButtonSubmit]                 |

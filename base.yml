@@ -7,7 +7,6 @@ theme:
   icon:
     logo: material/rocket-launch
     repo: fontawesome/brands/github
-  favicon: null
   features:
     - announce.dismiss
     - content.action.edit
@@ -19,7 +18,6 @@ theme:
     - content.tabs.link
     - content.tooltips
     - header.autohide
-    - navigation.collapse
     - navigation.expand
     - navigation.footer
     - navigation.indexes
@@ -130,6 +128,9 @@ plugins:
       height: auto
       zoomable: true
       draggable: true
+  - social
+  - offline
+  - meta
 extra_css:
   - stylesheets/extra.css
 extra:

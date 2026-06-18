@@ -2,7 +2,6 @@
 *[API]: Application Programming Interface
 *[CI]: Continuous Integration
 *[CD]: Continuous Delivery
-*[CD]: Continuous Deployment
 *[CLI]: Command Line Interface
 *[DevOps]: Development and Operations
 *[MCP]: Model Context Protocol
@@ -14,3 +13,14 @@
 *[UX]: User Experience
 *[VSM]: Value Stream Management
 *[YAML]: YAML Ain't Markup Language
+*[DORA]: DevOps Research and Assessment
+*[HTTP]: HyperText Transfer Protocol
+*[JSON]: JavaScript Object Notation
+*[MFA]: Multi-Factor Authentication
+*[SaaS]: Software as a Service
+*[SCM]: Source Code Management
+*[SDK]: Software Development Kit
+*[SSO]: Single Sign-On
+*[URL]: Uniform Resource Locator
+*[VSCode]: Visual Studio Code
+*[WCA]: Watson Code Assistant

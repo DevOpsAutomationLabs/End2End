@@ -1,6 +1,7 @@
 # Deploy Lab
 
-TODO: Flow needs rewrite and new screenshots
+!!! warning "Work in Progress"
+    This section is being updated. Content and screenshots will be added in the next revision.
 
 ## Introduction
 
@@ -81,7 +82,9 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 ## [Applications](applications/index.md)
 
-TODO: talk about applications
+!!! info "Coming Soon"
+    A full walkthrough of the Applications section will be added here.
+    For now, see the [Applications sub-page](applications/index.md) for step-by-step instructions.
 
 ### Switch to Applications View
 
@@ -95,27 +98,26 @@ TODO: talk about applications
 
 ### Create New Application
 
---8<--
-learn/deploy/applications/index.md:CreateNewApplication
---8<--
+--8<-- "learn/deploy/applications/index.md:CreateNewApplication"
 
 ## [Components](components/index.md)
 
-TODO: talk about components
+!!! info "Coming Soon"
+    A full walkthrough of the Components section will be added here.
+    For now, see the [Components sub-page](components/index.md) for step-by-step instructions.
 
 ![List of components][DeployComponentList]
 
 ### Create New Component
 
---8<--
-learn/deploy/components/index.md:CreateNewComponent
---8<--
+--8<-- "learn/deploy/components/index.md:CreateNewComponent"
 
 ## [Processes](processes/index.md)
 
 ## Environments
 
-TODO: talk about environments
+!!! info "Coming Soon"
+    A full walkthrough of the Environments section will be added here.
 
 ## Run a deployment
 
@@ -160,7 +162,8 @@ and updated the configuration of the environment with the deployed component ver
 
 ### Create a Snapshot
 
-TODO: talk about snapshots and what they are good for
+!!! info "Coming Soon"
+    A description of snapshots and their purpose will be added here.
 
 Select the Create Snapshot Icon: ![Create Snapshot](media/DEPLOY_Application_Environment_CreateSnapshot.png)
 

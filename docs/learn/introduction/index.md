@@ -50,7 +50,7 @@ To use the platform you have to be onboarded onto it. This is normally done by y
 |:----:|:--------------------------------------------------------------------------------------------------------------|:---------------------------------|
 |  1   | The Home Page provides metrics and dashboards over all of accessible Loops                                    |                                  |
 |  2   | Showing data from Plan - Ratio of Issues created versus closed                                                | ![Plan Metric][MetricPlan]       |
-|  3   | Number of Build Jobs failed and successeful finished                                                          | ![Build Metric][MetricBuild]     |
+|  3   | Number of Build Jobs failed and successful finished                                                           | ![Build Metric][MetricBuild]     |
 |  4   | Count of Deployments and how many of them were successfull or failed                                          | ![Deploy Metric][MetricDeploy]   |
 |  5   | Top contributors in Control                                                                                   | ![Control Metric][MetricControl] |
 |  6   | Two DORA (DevOps Research and Assessment) metrics for                                                         |                                  |

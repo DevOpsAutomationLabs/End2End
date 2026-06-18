@@ -1,4 +1,5 @@
 site_name: "DevOps Loop End to End Demo"
+site_url: "https://devopsautomationlabs.github.io/End2End/"
 site_description: "Master DevOps Loop with hands-on labs and AI-powered demonstrations"
 site_author: "DevOps Automation Labs"
 repo_url: "https://github.com/DevOpsAutomationLabs/End2End"
@@ -33,3 +34,6 @@ nav:
   - Setup Guides:
     - Manual Setup: setup.md
     - AI Integration: ai_setup.md
+
+extra_javascript:
+  - javascripts/lazyload.js
