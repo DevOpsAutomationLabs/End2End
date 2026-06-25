@@ -44,13 +44,10 @@ This lab will provide you with a practical hands-on of our testing capabilities.
 
 --8<-- [start:SwitchTSandProject]
 
-Should Test show you a different Teamspace or Project then expected (Demo and EchoLogic), click on Teamspace Icon
-
-![Teamspace Switcher][SwitchTS]
-
-and Select **Demo**. A list of Projects is shown:
-
-![Projectlist is shown][TestPrjList]
+|   | Details                                                                                                           | Additional Information               |
+|:-:|:------------------------------------------------------------------------------------------------------------------|:-------------------------------------|
+|   | Should Test show you a different Teamspace or Project then expected (Demo and EchoLogic), click on Teamspace Icon | ![Teamspace Switcher][SwitchTS]      |
+|   | and Select **Demo**. A list of Projects is shown:                                                                 | ![Projectlist is shown][TestPrjList] |
 
 --8<-- [end:SwitchTSandProject]
 
@@ -133,14 +130,6 @@ and Select **Demo**. A list of Projects is shown:
 --8<-- [end:PATTest]
 
 --8<-- [end:Settings]
-
-## Conclusion
-
---8<-- [start:Conclusion]
-
-Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
-
---8<-- [end:Conclusion]
 
 ---
 

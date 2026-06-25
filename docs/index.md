@@ -61,7 +61,7 @@ Learn DevOps Loop easily with step-by-step guides, interactive demos, and compre
   
     ---
 
-    [:octicons-arrow-right-24: Browse Docs](learn/index.md)
+    [:octicons-arrow-right-24: Browse Docs](https://www.ibm.com/docs/en/devops-loop)
 
 </div>
 

@@ -65,9 +65,9 @@ Your development environment runs in it's own pod and uses resources. When you a
 
 NOTE: your session will not be terminated when you switch between capabilities or just close your browser!
 
-Use the Logout icon ![Code Logout](media/Code_LogoutIcon.png) to get a popup which asks what to do with your running development environment:
+Use the Logout icon ![Code Logout][code-logout] to get a popup which asks what to do with your running development environment:
 
-![Code Environment Terminate or Not](media/Code_Terminate_Environment.png)
+![Code Environment Terminate or Not][code-terminate]
 
 Click on "Yes, terminate it" to shutdown the pod, which will delete all unsaved or pushed changes! Or you can decide to keep it alive with "No, let it run" if you want to continue working later.
 
@@ -79,23 +79,23 @@ Click on "Yes, terminate it" to shutdown the pod, which will delete all unsaved 
 
 Open the README.md file and add some text. In this example added "Troubleshooting" at the end of the file then saved changes"
 
-![File Changed](media/Code_NewFileChanges.png)
+![File Changed][code-file-changed]
 
-Now click on the Source Control icon ![Source Control Icon](media/Code_SourceControl_Icon.png) which shows the changed files and provide a good commit message and press commit:
+Now click on the Source Control icon ![Source Control Icon][code-sc-icon] which shows the changed files and provide a good commit message and press commit:
 
-![Changes View](media/Code_ChangesView.png)
+![Changes View][code-changes-view]
 
 Click on the triangle on the Commit Button to open the menue:
 
-![Commit menue](media/Code_CommitChangesMenu.png)
+![Commit menue][code-commit-menu]
 
 Click on Commit and Push. A new popup will appear and ask how to stage the changes. Press on Always to proceed:
 
-![Commit Stage Changes Popup](media/Code_CommitStageChangesPopup.png)
+![Commit Stage Changes Popup][code-commit-popup]
 
 Congratulations you have commited your first change into your repository. In the Graph view you will see your commit message:
 
-![Graph View](media/Code_GitGraphView.png)
+![Graph View][code-graph-view]
 
 Switch Back to Control and verify that in the activity view you have your commit visible:
 
@@ -124,3 +124,11 @@ Switch Back to Control and verify that in the activity view you have your commit
 [GitStagingQuestion]: media/Code_Git_Stage_Question.png
 [GitFetchQuestion]: media/Code_Git_Fetch_Question.png
 [CodeDocumentation]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=loop-code
+[code-logout]: media/Code_LogoutIcon.png
+[code-terminate]: media/Code_Terminate_Environment.png
+[code-file-changed]: media/Code_NewFileChanges.png
+[code-sc-icon]: media/Code_SourceControl_Icon.png
+[code-changes-view]: media/Code_ChangesView.png
+[code-commit-menu]: media/Code_CommitChangesMenu.png
+[code-commit-popup]: media/Code_CommitStageChangesPopup.png
+[code-graph-view]: media/Code_GitGraphView.png

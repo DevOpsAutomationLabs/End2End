@@ -82,9 +82,10 @@ To learn more about DevOps Plan please have a look at the [documentation][PlanDo
 
 --8<-- [start:AIAssistant]
 
-Please follow [this steps for setting up the AI integration](ai_assistant/index.md#ai-assistant-integration-setup) in Plan.
-
-[Learn more how to use the Plan AI Assistant](ai_assistant/index.md#using-the-plan-ai-assistant)
+|   | Details                                                                                                                    | Additional Information |
+|:-:|:---------------------------------------------------------------------------------------------------------------------------|:-----------------------|
+|   | Please follow [this steps for setting up the AI integration](ai_assistant/index.md#ai-assistant-integration-setup) in Plan |                        |
+|   | [Learn more how to use the Plan AI Assistant](ai_assistant/index.md#using-the-plan-ai-assistant)                           |                        |
 
 --8<-- [end:AIAssistant]
 
@@ -92,7 +93,9 @@ Please follow [this steps for setting up the AI integration](ai_assistant/index.
 
 --8<-- [start:WorkWithBoards]
 
-[Please follow these instructions to learn more about Boards][GoToPlanBoards].
+|   | Details                                                                       | Additional Information |
+|:-:|:------------------------------------------------------------------------------|:-----------------------|
+|   | [Please follow these instructions to learn more about Boards][GoToPlanBoards] |                        |
 
 --8<-- [end:WorkWithBoards]
 
@@ -100,7 +103,9 @@ Please follow [this steps for setting up the AI integration](ai_assistant/index.
 
 --8<-- [start:CreateNewProject]
 
-[Please follow these instructions to create a new Project][GoToPlanCreateNewProject].
+|   | Details                                                                              | Additional Information |
+|:-:|:-------------------------------------------------------------------------------------|:-----------------------|
+|   | [Please follow these instructions to create a new Project][GoToPlanCreateNewProject] |                        |
 
 --8<-- [end:CreateNewProject]
 
@@ -108,7 +113,9 @@ Please follow [this steps for setting up the AI integration](ai_assistant/index.
 
 --8<-- [start:WorkWithQueries]
 
-[Please follow these instructions to show how to work with Queries][GoToWorkWithQueries]
+|   | Details                                                                                  | Additional Information |
+|:-:|:-----------------------------------------------------------------------------------------|:-----------------------|
+|   | [Please follow these instructions to show how to work with Queries][GoToWorkWithQueries] |                        |
 
 --8<-- [end:WorkWithQueries]
 
@@ -120,9 +127,9 @@ Please follow [this steps for setting up the AI integration](ai_assistant/index.
 
 --8<-- [start:ControlGitSCM]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | View the Control/GIT/SCM integration | ![PLAN - Show Control/Git Commit Link][ShowCommitLink] |
+|   | Details                              | Additional Information                                 |
+|:-:|:-------------------------------------|:-------------------------------------------------------|
+|   | View the Control/GIT/SCM integration | ![PLAN - Show Control/Git Commit Link][ShowCommitLink] |
 
 --8<-- [end:ControlGitSCM]
 

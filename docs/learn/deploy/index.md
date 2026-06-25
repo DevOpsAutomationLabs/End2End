@@ -68,7 +68,7 @@ Explore the comprehensive dashboard provided by DevOps Deploy, which displays ke
 DevOps Deploy is a rich tool and provides excellent mechanisms to control the deployment of application. A simple architecture is
 Application > Environment(DEV, QA, PROD, etc.) > Components
 
-  ![Deploy Environment Page](media/deploy_environment.png)
+  ![Deploy Environment Page][deploy-env]
 
  **_Important Note: This is a shared lab environment. To ensure a smooth experience for everyone, please only modify the applications, components, or processes that you create during your lab session. Kindly avoid making changes to any existing applications or configurations visible in DevOps Deploy, as they may be in use by others_**
 
@@ -83,11 +83,11 @@ In order to deploy application, please download the [Application file](../../fil
 
 Go to DevOps Deploy > Applications > Import Application > (Scroll down) Choose File > Select your updated file > Submit
 
-  ![Deploy Import Application Page](media/import_application.png)
+  ![Deploy Import Application Page][deploy-import]
 
 Once you import the application, you would be able to see additional application listes like:
 
-  ![Deploy Updated Application](media/updated_application.png)
+  ![Deploy Updated Application][deploy-updated]
 
 Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click on PizzaApp-Container-XX > Switch tab to Process > Click on "Deploy PizzaApp"
  -->
@@ -241,14 +241,6 @@ Please read the [Settings Section](settings/index.md) for more Details how to se
 
 --8<-- [end:Settings]
 
-## Conclusion
-
---8<-- [start:Conclusion]
-
-Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
-
---8<-- [end:Conclusion]
-
 ---
 
 [GoBackToDemoOverview]: ../index.md
@@ -333,3 +325,6 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [CreateSnapshotDetail1]: media/DEPLOY_Application_Environment_CreateSnapshot_Detail1.png
 [CreateSnapshotDetail2]: media/DEPLOY_Application_Environment_CreateSnapshot_Detail2.png
 [SnapshotApplied]: media/DEPLOY_Application_Environment_SnapshotApplied.png
+[deploy-env]: media/deploy_environment.png
+[deploy-import]: media/import_application.png
+[deploy-updated]: media/updated_application.png

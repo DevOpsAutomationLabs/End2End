@@ -35,9 +35,9 @@ The pipeline feature enables you to drive releases by using application-focused 
 
 --8<-- [start:ValueStreamList]
 
-Please select "All Value Streams" to get a list of all Value Streams you have access to:
-
-![List of all VSM](media/Measure_AllVSM_List.png)
+|   | Details                                                                                  | Additional Information           |
+|:-:|:-----------------------------------------------------------------------------------------|:---------------------------------|
+|   | Please select "All Value Streams" to get a list of all Value Streams you have access to: | ![List of all VSM][ListOfAllVSM] |
 
 **_NOTE: Before we proceed here a short intro what a Value Stream is._**
 
@@ -66,13 +66,10 @@ Finally, when you click on a dot, the displayed card provides information about 
 
 --8<-- [start:LookAtVSM]
 
-Please click on "Emerald ..." Link to open the value stream and explore the shown data. This will open the Dot View of the Emerald Product Team - Accounting VSM:
-
-![Emerald Dot View][VSMEmerald]
-
-The "Emerald .." VSM contains Demo Data to give you a good insight how Measure works. When you click on one Dot it will open a popup with additional informatio and a full history of changes (lifecycle)
-
-![Emerald Item Details](media/Measure_Emerald_ItemDetails.png)
+|   | Details                                                                                                                                                                                                   | Additional Information                                         |
+|:-:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
+|   | Please click on a VSM Link to open the value stream and explore the shown data, eg. ***Emerald..***. This will open the Dot View of the Emerald Product Team - Accounting VSM:                                  | ![Emerald Dot View][VSMEmerald]                                |
+|   | The "Emerald .." VSM contains Demo Data to give you a good insight how Measure works. When you click on one Dot it will open a popup with additional informatio and a full history of changes (lifecycle) | ![Emerald Item Details][EmeraldItemDetails] |
 
 --8<-- [end:LookAtVSM]
 
@@ -80,9 +77,9 @@ The "Emerald .." VSM contains Demo Data to give you a good insight how Measure w
 
 --8<-- [start:Swimlanes]
 
-Click on the top right corner of your screen on the "Swimlane" link to get another view onto the data:
-
-![Emerald Swimlanes](media/Measure_Emerald_Swimlanes.png)
+|   | Details                                                                                                | Additional Information                                    |
+|:-:|:-------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
+|   | Click on the top right corner of your screen on the "Swimlane" link to get another view onto the data: | ![Emerald Swimlanes][measure-swimlanes] |
 
 The Swimlane page displays the work items in a variety of ways allowing the team to view distribution of work by team members, priority of work, type of work, along with work items associated to a particular ownder, priority, type, release or sprint.
 
@@ -92,9 +89,9 @@ The Swimlane page displays the work items in a variety of ways allowing the team
 
 --8<-- [start:Pipeline]
 
-Click on the top right corner of your screen on the "Pipeline" link to view your pipelines:
-
-![Emerald Pipeline](media/Measure_Emerald_Pipeline.png)
+|   | Details                                                                                     | Additional Information                                  |
+|:-:|:--------------------------------------------------------------------------------------------|:--------------------------------------------------------|
+|   | Click on the top right corner of your screen on the "Pipeline" link to view your pipelines: | ![Emerald Pipeline][measure-pipeline] |
 
 When you create a value stream, a corresponding pipeline is automatically configured. And a pipeline is a sequence of stages that retrieve input and run applications and jobs. Pipelines accept input from source control management (SCM) repositories or other external applications, such as DevOps Deploy, Azure DevOps as well as API driven which allows organizations to update the pipeline inventory using API calls, and more.
 
@@ -104,13 +101,10 @@ When you create a value stream, a corresponding pipeline is automatically config
 
 Gates ensure that releases cannot be executed in an environment until the gate rule is satisfied. A gate is a condition that determines whether an application version can be deployed into the environment based on some assessment criteria. A pipeline may have some environments with gates and some without gates. A gate condition (or the assessment criteria) is called a rule.
 
-Click on the Gate symbol on the QA column to view the criteria:
-
-![Emerald Gates Prod](media/Measure_Emerald_Gates_Prod.png)
-
-If you click on the Prod column additional gating criteria has been added:
-
-![Emerald Gates QA](media/Measure_Emerald_Gates_QA.png)
+|   | Details                                                                    | Additional Information                                      |
+|:-:|:---------------------------------------------------------------------------|:------------------------------------------------------------|
+|   | Click on the Gate symbol on the QA column to view the criteria:            | ![Emerald Gates Prod][measure-gates-prod] |
+|   | If you click on the Prod column additional gating criteria has been added: | ![Emerald Gates QA][measure-gates-qa]     |
 
 --8<-- [end:QualityGates]
 
@@ -120,11 +114,10 @@ If you click on the Prod column additional gating criteria has been added:
 
 --8<-- [start:ReviewVSM]
 
-Now have a look at your Loops value stream view. If you have created a new workitem in Plan you will see it in the dot view. Search for it.
-
-![VSM Item Detail](media/Measure_Pizza_ItemDetails.png)
-
-If not, try it out and create a new Defect in Plan and then look for it in this VSM view.
+|   | Details                                                                                                                                     | Additional Information                                  |
+|:-:|:--------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------|
+|   | Now have a look at your Loops value stream view. If you have created a new workitem in Plan you will see it in the dot view. Search for it. | ![VSM Item Detail][measure-vsm-item] |
+|   | If not, try it out and create a new Defect in Plan and then look for it in this VSM view                                                    |                                                         |
 
 --8<-- [end:ReviewVSM]
 
@@ -134,19 +127,13 @@ If not, try it out and create a new Defect in Plan and then look for it in this 
 
 --8<-- [start:Insight]
 
-Measure provides an Insight view (Dashboards) to gain additional information about your value streams. Click on the ![Insight Icon](media/Measure_Insight_Icon.png) to open the Insight view:
-
-![Insight Home](media/Measure_Insight_Home.png)
-
-Click on "All Dashboards" to view all available existing Dashboards to you:
-
-![All Dashboards](media/Measure_Insight_allDashboards.png)
-
-In this view you will see two existing dashboards. Delivery Performance and Delivery Quality. Click each tile and have a look at the provided graphics:
-
-![Delivery performance](media/Measure_Insight_DeliveryPerformance.png)
-
-![Delivery Quality](media/Measure_Insights_DeliveryQuality.png)
+|   | Details                                                                                                                                                                                       | Additional Information                                     |
+|:-:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
+|   | Measure provides an Insight view (Dashboards) to gain additional information about your value streams. Click on the ![Insight Icon][measure-insight-icon] to open the Insight view: | ![Insight Home][measure-insight-home]            |
+|   | Click on "All Dashboards" to view all available existing Dashboards to you:                                                                                                                   | ![All Dashboards][measure-all-dashboards] |
+| | In this view you will see two existing dashboards. Click each tile and have a look at the provided graphics. |
+| | Delivery Performance: | ![Delivery performance][measure-delivery-perf] |
+| | Delivery Quality: | ![Delivery Quality][measure-delivery-quality] |
 
 --8<-- [end:Insight]
 
@@ -174,16 +161,6 @@ An User Access Key, also known as Access Token, or Personal Access Token (short 
 
 --8<-- [end:SettingsAndMore]
 
-## Conclusion
-
---8<-- [start:Conclusion]
-
-Congratulations! You have finished the Measure Lab!
-
-Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
-
---8<-- [end:Conclusion]
-
 ---
 
 [GoBackToDemoOverview]: ../index.md
@@ -202,3 +179,15 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [MeasureNewPATDialog]: media/Measure_Create_PAT_Dialog.png
 [MeasureNewPATMessage]: media/Measure_Create_PAT_Result_Message.png
 [MeasurePATListUpdated]: media/Measure_PAT_newly_Created.png
+[ListOfAllVSM]: media/Measure_AllVSM_List.png
+[EmeraldItemDetails]: media/Measure_Emerald_ItemDetails.png
+[measure-swimlanes]: media/Measure_Emerald_Swimlanes.png
+[measure-pipeline]: media/Measure_Emerald_Pipeline.png
+[measure-gates-prod]: media/Measure_Emerald_Gates_Prod.png
+[measure-gates-qa]: media/Measure_Emerald_Gates_QA.png
+[measure-vsm-item]: media/Measure_Pizza_ItemDetails.png
+[measure-insight-icon]: media/Measure_Insight_Icon.png
+[measure-insight-home]: media/Measure_Insight_Home.png
+[measure-all-dashboards]: media/Measure_Insight_allDashboards.png
+[measure-delivery-perf]: media/Measure_Insight_DeliveryPerformance.png
+[measure-delivery-quality]: media/Measure_Insights_DeliveryQuality.png

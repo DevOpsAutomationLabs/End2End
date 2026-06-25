@@ -99,14 +99,6 @@ TODO: Show the board with data and expain what it is good for and how to use it
 
 --8<-- [end:WorkWithBoards]
 
-## Conclusion
-
---8<-- [start:Conclusion]
-
-Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
-
---8<-- [end:Conclusion]
-
 ---
 
 [GoBackToDemoOverview]: ../../index.md

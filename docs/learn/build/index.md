@@ -137,7 +137,7 @@ Access Token (also known as Personal Access Token, short PAT) are needed for ext
 |      | Click on **Create Auth token** ![Create PAT Button][BuildGeneratePATButton] Button and a new Dialog is shown  | ![Create PAT dialog][BuildPATDialog]                      |
 |      | Fill in the required fields for User, Expiration and a comment then press the **Save** Button                 | ![Save Button][ButtonSave]                                |
 |      | An updated Authorization Token List view is shown with new token                                              | ![Updated list][BuildPATListUpdated]                      |
-|      | Copy new Access Token and use in external tool                                                                | ![New PAT details](media/Build_New_Authtoken_Details.png) |
+|      | Copy new Access Token and use in external tool                                                                | ![New PAT details][build-pat-details] |
 
 --8<-- [end:PATBuild]
 
@@ -170,3 +170,4 @@ Access Token (also known as Personal Access Token, short PAT) are needed for ext
 [ButtonSave]: ../../media/Button_Save.png
 [BuildPATListUpdated]: media/Build_AuthToken_List_Updated.png
 [BuildPATSettings]: media/Build_Security_AuthToken_Settings.png
+[build-pat-details]: media/Build_New_Authtoken_Details.png

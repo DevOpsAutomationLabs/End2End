@@ -90,14 +90,6 @@ Have a look at the available Queries in the Public Queries list and try them out
 
 --8<-- [end:WorkWithQueries]
 
-## Conclusion
-
---8<-- [start:Conclusion]
-
-Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
-
---8<-- [end:Conclusion]
-
 ---
 
 [GoBackToDemoOverview]: ../index.md

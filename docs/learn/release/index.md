@@ -43,14 +43,6 @@ Switch to Tiles view by clicking on ![Release tiles icon][ReleaseSwitchToTiles]
 
 --8<-- [end:ReleasesView]
 
-## Conclusion
-
---8<-- [start:Conclusion]
-
-Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
-
---8<-- [end:Conclusion]
-
 ---
 
 [GoBackToDemoOverview]: ../index.md

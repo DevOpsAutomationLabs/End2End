@@ -14,10 +14,10 @@ A loop consists of several interconnected phases for connecting DevOps activitie
 
 --8<-- [start:CreateLoop]
 
-Your freshly created teamspace has no Loop yet.
-
-![Loops - Home][LoopHome]
-
+| Step | Details                                         | Additional Information    |
+|:----:|:------------------------------------------------|:--------------------------|
+|  1   | Your freshly created teamspace has no Loop yet. | ![Loops - Home][LoopHome] |
+‚
 ### Step by Step instructions
 
 --8<-- [start:CreateNewLoop]

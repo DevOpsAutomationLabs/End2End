@@ -101,9 +101,9 @@ Please follow the [Instructions for creating Teamspace(s)][InstructionsCreateTea
 learn/introduction/teamspace/index.md:CreateNewTS
 --8<--
 
-When the creation of a teamspace is finished you will be forwarded to your empty loops home page for your new teamspace.
-
-![Empty Loops Homepage][LoopHomePageCreateNewLoop]
+|   | Details                                                                                                                  | Additional Information                             |
+|:-:|:-------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
+|   | When the creation of a teamspace is finished you will be forwarded to your empty loops home page for your new teamspace. | ![Empty Loops Homepage][LoopHomePageCreateNewLoop] |
 
 ### Create a Loop
 
