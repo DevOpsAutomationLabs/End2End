@@ -4,9 +4,15 @@ For more details please have a look at the [AI integration documentation][DOCSPl
 
 ## Overview
 
+--8<-- [start:Overview]
+
 Please have a look at the [AI Assistant documentation][DOCSPlanAIAssistant] for more details.
 
+--8<-- [end:Overview]
+
 ## AI Assistant integration setup
+
+--8<-- [start:AIAssistantSetup]
 
 ### Create AI User Group
 
@@ -67,7 +73,11 @@ Last step is for every enabled user (from selected groups) is to activate the ac
 
 --8<-- [end:PLANMemberAccess]
 
+--8<-- [end:AIAssistantSetup]
+
 ## Using the Plan AI Assistant
+
+--8<-- [start:UsingPlanAI]
 
 ### AI Assistant Chat Dialog
 
@@ -113,6 +123,8 @@ Last step is for every enabled user (from selected groups) is to activate the ac
 |      | Press **Done** to finish using the AI Assistant                       | ![Done Button][AIDoneButton]                             |
 
 --8<-- [end:PlanAIAssistantCreateRecords]
+
+--8<-- [end:UsingPlanAI]
 
 ---
 

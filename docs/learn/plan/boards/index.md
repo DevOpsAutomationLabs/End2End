@@ -2,6 +2,8 @@
 
 ## Work with Boards
 
+--8<-- [start:WorkWithBoards]
+
 ### Project Board
 
 Project Boards provide a graphical Kanban style overview of worktitems.
@@ -37,9 +39,19 @@ TODO: Show the board with data and expain what it is good for and how to use it
 
 #### Workitem
 
+--8<-- [start:Workitem]
+
+--8<-- [end:Workitem]
+
 ### Filter Projects
 
-- ![Board Select Project][BoardSelectProject]
+--8<-- [start:FilterProjects]
+
+| Step | Details | Additional Information |
+|:----:|:--------|:----------------------|
+| 1 | Select Project from the Board filter | ![Board Select Project][BoardSelectProject] |
+
+--8<-- [end:FilterProjects]
 
 ### Filter Epics
 
@@ -57,19 +69,43 @@ TODO: Show the board with data and expain what it is good for and how to use it
 
 ### Show Releases
 
-- ![Board Releases][BoardShowReleases]
+--8<-- [start:ShowReleases]
+
+| Step | Details | Additional Information |
+|:----:|:--------|:----------------------|
+| 1 | View Releases on the Board | ![Board Releases][BoardShowReleases] |
+
+--8<-- [end:ShowReleases]
 
 ### Show Sprints
 
-- ![Board Sprint Board][BoardShowSprintBoard]
+--8<-- [start:ShowSprints]
+
+| Step | Details | Additional Information |
+|:----:|:--------|:----------------------|
+| 1 | View Sprint Board | ![Board Sprint Board][BoardShowSprintBoard] |
+
+--8<-- [end:ShowSprints]
 
 ### Show Sprint Backlog
 
-- ![Board Sprint Backlog][BoardShowSprintBacklog]
+--8<-- [start:ShowSprintBacklog]
+
+| Step | Details | Additional Information |
+|:----:|:--------|:----------------------|
+| 1 | View Sprint Backlog | ![Board Sprint Backlog][BoardShowSprintBacklog] |
+
+--8<-- [end:ShowSprintBacklog]
+
+--8<-- [end:WorkWithBoards]
 
 ## Conclusion
 
+--8<-- [start:Conclusion]
+
 Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
+--8<-- [end:Conclusion]
 
 ---
 

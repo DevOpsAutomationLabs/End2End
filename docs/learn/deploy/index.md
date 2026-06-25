@@ -5,6 +5,8 @@
 
 ## Introduction
 
+--8<-- [start:Intro]
+
 Use DevOps Deploy (Deploy) to standardize and simplify the process of deploying software components to each environment in your development cycle.
 
 Deploy helps you meet the challenge of deploying software throughout your enterprise by providing tools that improve both deployment speed and reliability. The release automation tools in Deploy provide complete visibility into n-tiered deployments. Use the tools to model processes that orchestrate complex deployments across every environment and approval gate.
@@ -15,11 +17,17 @@ You can model the topology of your environment, specify which virtual images con
 
 To learn more about DevOps Deploy please have a look at the [documentation][DeployDocumentation].
 
+--8<-- [end:Intro]
+
 ## Overview
+
+--8<-- [start:Overview]
 
 This lab provides a practical, hands-on experience in deploying an application to a target server.
 
 Explore the comprehensive dashboard provided by DevOps Deploy, which displays key information about deployment successes and failures
+
+--8<-- [end:Overview]
 
 ### How to switch to Deploy from Home Page
 
@@ -36,6 +44,8 @@ Explore the comprehensive dashboard provided by DevOps Deploy, which displays ke
 
 ### Deploy Landing Page
 
+--8<-- [start:DeployLandingPage]
+
    ![Deploy Dashboard Page][DeployDashboard]
 
 **This Dashboard provides an overall view on:**
@@ -45,7 +55,9 @@ Explore the comprehensive dashboard provided by DevOps Deploy, which displays ke
 - Utilization and Health status of deployment agents (which are doing the actual deployment work)
 - And a timeline of deployment activities and their results
 
-<!-- 
+--8<-- [end:DeployLandingPage]
+
+<!--
 ### Note
 
 1. Agent-Based Installation Support: DevOps Deploy works on agent-based deployments, allowing you to deploy applications across various environments—including On-Premises, IBM Cloud, Microsoft Azure, AWS, Google Cloud Platform (GCP), Mainframes, and more.
@@ -82,6 +94,8 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 ## [Applications](applications/index.md)
 
+--8<-- [start:Applications]
+
 !!! info "Coming Soon"
     A full walkthrough of the Applications section will be added here.
     For now, see the [Applications sub-page](applications/index.md) for step-by-step instructions.
@@ -100,7 +114,11 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 --8<-- "learn/deploy/applications/index.md:CreateNewApplication"
 
+--8<-- [end:Applications]
+
 ## [Components](components/index.md)
+
+--8<-- [start:Components]
 
 !!! info "Coming Soon"
     A full walkthrough of the Components section will be added here.
@@ -112,14 +130,26 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 --8<-- "learn/deploy/components/index.md:CreateNewComponent"
 
+--8<-- [end:Components]
+
 ## [Processes](processes/index.md)
 
+--8<-- [start:Processes]
+
+--8<-- [end:Processes]
+
 ## Environments
+
+--8<-- [start:Environments]
 
 !!! info "Coming Soon"
     A full walkthrough of the Environments section will be added here.
 
+--8<-- [end:Environments]
+
 ## Run a deployment
+
+--8<-- [start:RunDeployment]
 
 | Step | Details                                                       | Additional Information { width="50%" }                   |
 |:----:|:--------------------------------------------------------------|:---------------------------------------------------------|
@@ -129,74 +159,95 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 ### Request a Process
 
-click on Request Process Button: ![Request Button][DeployAppRequestProcessButton] on the DEV Environment ![Dev Environment][DeployAppDevEnv]
+--8<-- [start:RequestProcess]
 
-Go through dialog:
+| Step | Details | Additional Information |
+|:----:|:--------|:----------------------|
+| 1 | Click on **Request Process** Button | ![Request Button][DeployAppRequestProcessButton] |
+| 2 | On the DEV Environment | ![Dev Environment][DeployAppDevEnv] |
+| 3 | Select Deployment Process | ![Run Process Dialog - Select Deployment Process][DeployAppProcessRequestSelectProcess] |
+| 4 | Select Version or Snapshot | ![Run Process Dialog - Select Version Or Snapshot][DeployAppProcessRequestSelectSnapsotOrVersions] |
+| 5 | Uncheck Deploy Only Changed | ![Run Process Dialog - uncheck Deploy Only Changed][DeployAppProcessRequestOnlyChanged] |
+| 6 | Click **Choose Versions** Button | ![Run Process Dialog - Choose Versions Button][DeployAppPocessRequestChooseCompVersionButton] |
+| 7 | Select Component Version (first component) | ![Run Process Dialog - Select Component Version 1][DeployAppPocessRequestSelectCompVersion1] |
+| 8 | Select Component Version (second component) | ![Run Process Dialog - Select Component Version 2][DeployAppPocessRequestSelectCompVersion2] |
+| 9 | Press **Submit** to start the deployment | ![Submit Button][DeployAppPocessRequestSubmitButton] |
 
-- ![Run Process Dialog - Select Deployment Process][DeployAppProcessRequestSelectProcess]
-- ![Run Process Dialog - Select Select Version Or Snapshot][DeployAppProcessRequestSelectSnapsotOrVersions]
-- ![Run Process Dialog - uncheck Deploy Only Changed][DeployAppProcessRequestOnlyChanged]
-- ![Run Process Dialog - Choose Versions Button][DeployAppPocessRequestChooseCompVersionButton]
-- ![Run Process Dialog - Select Component Version 1][DeployAppPocessRequestSelectCompVersion1]
-- ![Run Process Dialog - Select Component Version 2][DeployAppPocessRequestSelectCompVersion2]
-
-Press the Submit button: ![Submit Button][DeployAppPocessRequestSubmitButton] to start the deployment process.
+--8<-- [end:RequestProcess]
 
 ### View of Running Process
 
-The details of the running process are shown:
-![Running Process][DeployProcessRunning]
+--8<-- [start:ViewRunningProcess]
 
-Click on Expand All ![Expand All][DeployProcessRunningExpandAllButton] so see step details
+| Step | Details | Additional Information |
+|:----:|:--------|:----------------------|
+| 1 | The details of the running process are shown | ![Running Process][DeployProcessRunning] |
+| 2 | Click on **Expand All** to see step details | ![Expand All][DeployProcessRunningExpandAllButton] |
+| 3 | Click on **3 dots menu** of a step | ![3 dots menu of step][DeployProcessRunning3DotsofStep] |
+| 4 | View the output of the step | ![Output of Step][DeployProcessRunningStepOutputDetails] |
 
-Click on 3 dots menue of a step ![3 dots menue of step][DeployProcessRunning3DotsofStep]
-View the output of the step ![Output of Step][DeployProcessRunningStepOutputDetails]
+--8<-- [end:ViewRunningProcess]
 
 ### Result of Run
 
-The deployment run successfully ![Deployment Success][DeployAppProcessRunSuccess]
+--8<-- [start:ResultOfRun]
 
-and updated the configuration of the environment with the deployed component versions:
+| Step | Details | Additional Information |
+|:----:|:--------|:----------------------|
+| 1 | The deployment ran successfully | ![Deployment Success][DeployAppProcessRunSuccess] |
+| 2 | Environment updated with deployed component versions | ![Environment with deployed versions of components][DeployAppEnvwithDeployedVersions] |
 
-![Environment with deployed versions of components][DeployAppEnvwithDeployedVersions]
+--8<-- [end:ResultOfRun]
 
 ### Create a Snapshot
+
+--8<-- [start:CreateSnapshot]
 
 !!! info "Coming Soon"
     A description of snapshots and their purpose will be added here.
 
-Select the Create Snapshot Icon: ![Create Snapshot](media/DEPLOY_Application_Environment_CreateSnapshot.png)
+| Step | Details | Additional Information |
+|:----:|:--------|:----------------------|
+| 1 | Select the **Create Snapshot** Icon | ![Create Snapshot][CreateSnapshotIcon] |
+| 2 | The Create Snapshot dialog opens | ![Create Snapshot dialog][CreateSnapshotDialog] |
+| 3 | Review snapshot details (step 1) | ![Create Snapshot Detail step 1][CreateSnapshotDetail1] |
+| 4 | Review snapshot details (step 2) | ![Create Snapshot Detail step 2][CreateSnapshotDetail2] |
+| 5 | Environment configuration updated — Snapshot is now applied | ![Snapshot on environment][SnapshotApplied] |
 
-- ![Create Snapshot dialog](media/DEPLOY_Application_Environment_CreateSnapshot_Dialog.png)
-- ![Create Snapshot Detail step 1](media/DEPLOY_Application_Environment_CreateSnapshot_Detail1.png)
-- ![Create Snapshot Detail step 2](media/DEPLOY_Application_Environment_CreateSnapshot_Detail2.png)
-
-Now the Environment configuration has been updated to indicate that a Snapshot is applied:
-![Snapshot on environment](media/DEPLOY_Application_Environment_SnapshotApplied.png)
+--8<-- [end:CreateSnapshot]
 
 ### Use the Deployment Genie
 
-Use Deploy Genie to understand why the deployment failed. To simulate a failed deployment [request a new deployment process][REFRequestAProcess] but now select the following:
+--8<-- [start:UseDeployGenie]
 
-- Deployment Process **Failing Deployment**
-  - ![Failing Deployment Process][RunSelectFailingDeployment]
-- Select Versions for Components
-  - for **Echo** select Version **1.0**
-  - for **Logic** select Version **2.0.0**
-  - ![Select Versions for Components][RunFailSelectCompVersions]
-- The result will be a failed deployment as one step has failed
-  - ![Failed Result][RunFailed]
-  - Click on the **3 dots** ![3 dots menu][DeployPlugin3DotsMenue] of the failing to show Menu: ![menu][Step3DotsMenueWithGenie]
-  - Click on **Deployment Genie** after a few moments the step will be analyzed and the results shown
-    - ![AI Analyzed][GenieAnalysis]
+| Step | Details | Additional Information |
+|:----:|:--------|:----------------------|
+| 1 | [Request a new deployment process][REFRequestAProcess] to simulate a failure | |
+| 2 | Select Deployment Process **Failing Deployment** | ![Failing Deployment Process][RunSelectFailingDeployment] |
+| 3 | Select Versions: **Echo** → v1.0, **Logic** → v2.0.0 | ![Select Versions for Components][RunFailSelectCompVersions] |
+| 4 | The result will be a failed deployment | ![Failed Result][RunFailed] |
+| 5 | Click **3 dots** menu of the failing step to show menu | ![3 dots menu][DeployPlugin3DotsMenue] ![menu with Genie][Step3DotsMenueWithGenie] |
+| 6 | Click **Deployment Genie** — results shown after analysis | ![AI Analyzed][GenieAnalysis] |
+
+--8<-- [end:UseDeployGenie]
+
+--8<-- [end:RunDeployment]
 
 ## Settings
 
+--8<-- [start:Settings]
+
 Please read the [Settings Section](settings/index.md) for more Details how to set System parameters or install Plugins.
+
+--8<-- [end:Settings]
 
 ## Conclusion
 
+--8<-- [start:Conclusion]
+
 Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
+--8<-- [end:Conclusion]
 
 ---
 
@@ -277,3 +328,8 @@ Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackTo
 [ButtonSave]: ../../media/Button_Save.png
 [AppView]: applications/media/Deploy_Application_View.png
 [DeployDocumentation]: https://www.ibm.com/docs/en/devops-deploy/8.2.0
+[CreateSnapshotIcon]: media/DEPLOY_Application_Environment_CreateSnapshot.png
+[CreateSnapshotDialog]: media/DEPLOY_Application_Environment_CreateSnapshot_Dialog.png
+[CreateSnapshotDetail1]: media/DEPLOY_Application_Environment_CreateSnapshot_Detail1.png
+[CreateSnapshotDetail2]: media/DEPLOY_Application_Environment_CreateSnapshot_Detail2.png
+[SnapshotApplied]: media/DEPLOY_Application_Environment_SnapshotApplied.png

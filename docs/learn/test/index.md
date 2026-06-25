@@ -2,13 +2,19 @@
 
 ## Introduction
 
+--8<-- [start:Intro]
+
 TODO: Update with latest "Learning Loops" data. New Screenshots and slightly different flow
 
 DevOps Test is a web-based continuous testing platform that consolidates test data, environments, test runs, and reports. It supports API, functional, and performance tests.
 
 To learn more about DevOps Test please have a look at the [documentation][TestDocumentation]
 
+--8<-- [end:Intro]
+
 ## Overview
+
+--8<-- [start:Overview]
 
 This lab will provide you with a practical hands-on of our testing capabilities. You can click on the main menu and navigate to the DevOps Test.
 
@@ -36,6 +42,8 @@ This lab will provide you with a practical hands-on of our testing capabilities.
 
 ### Switch teamspace and Project if needed
 
+--8<-- [start:SwitchTSandProject]
+
 Should Test show you a different Teamspace or Project then expected (Demo and EchoLogic), click on Teamspace Icon
 
 ![Teamspace Switcher][SwitchTS]
@@ -44,7 +52,13 @@ and Select **Demo**. A list of Projects is shown:
 
 ![Projectlist is shown][TestPrjList]
 
+--8<-- [end:SwitchTSandProject]
+
+--8<-- [end:Overview]
+
 ## TestScripts and Testruns
+
+--8<-- [start:TestScriptsAndRuns]
 
 | Step | Details                                                                                            | Additional Information                           |
 |:----:|:---------------------------------------------------------------------------------------------------|:-------------------------------------------------|
@@ -80,7 +94,11 @@ and Select **Demo**. A list of Projects is shown:
 |      | In the **Results** View click on the **DemoTestFail** name to get a Detailed View                  | ![Result Details with Plan Link][ResultLinked]   |
 |      | Explain that everything is traceable                                                               |                                                  |
 
+--8<-- [end:TestScriptsAndRuns]
+
 ## Testdata
+
+--8<-- [start:Testdata]
 
 | Step | Details                                                                      | Additional Information                   |
 |:----:|:-----------------------------------------------------------------------------|:-----------------------------------------|
@@ -95,7 +113,11 @@ and Select **Demo**. A list of Projects is shown:
 |      | Two files are created **Customers** and **Orders**                           | ![Gnereated Files][TestDataFiles]        |
 |      | Open one **Orders.csv** to view gnerated Data                                | ![Generated Data][TestDataGenerated]     |
 
+--8<-- [end:Testdata]
+
 ## Settings
+
+--8<-- [start:Settings]
 
 ### Create Token
 
@@ -110,9 +132,15 @@ and Select **Demo**. A list of Projects is shown:
 
 --8<-- [end:PATTest]
 
+--8<-- [end:Settings]
+
 ## Conclusion
 
+--8<-- [start:Conclusion]
+
 Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
+--8<-- [end:Conclusion]
 
 ---
 

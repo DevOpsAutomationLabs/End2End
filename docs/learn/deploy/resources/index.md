@@ -2,6 +2,8 @@
 
 ## Go to Resources
 
+--8<-- [start:GoToResources]
+
 | Step | Details                                             | Additional Information                          |
 |:----:|:----------------------------------------------------|:------------------------------------------------|
 |  1   | Switch to Resources View by clicking on the Sidebar |                                                 |
@@ -9,7 +11,11 @@
 |      |                                                     | ![Sidebar Resources with Text][SBResourcesText] |
 |      | View for all Resources                              | ![All Resources Tabs][ResAllTabs]               |
 
+--8<-- [end:GoToResources]
+
 ## Agent Pools
+
+--8<-- [start:AgentPools]
 
 | Step | Details                              | Additional Information                                                    |
 |:----:|:-------------------------------------|:--------------------------------------------------------------------------|
@@ -22,7 +28,11 @@
 |      | 4.3 Click on **Save** Button         | ![Save Button][ButtonSave]                                                |
 |  5   | New Agent Pool is listed in the View | ![Agent Pool List][ResAPList]{: style="height:50%;width:50%"}             |
 
+--8<-- [end:AgentPools]
+
 ## Resource Tree
+
+--8<-- [start:ResourceTree]
 
 | Step | Details                                                                 | Additional Information                         |
 |:----:|:------------------------------------------------------------------------|:-----------------------------------------------|
@@ -56,6 +66,8 @@
 |      | 6.5 Click on **Save** Button                                            | ![Save Button][ButtonSave]                     |
 |      | 6.6 repeat this section to add a Component Tag to other 2 Sub Groups/Environments|  |
 |  7   | Final Resource Tree View | ![Final Resource Tree][ResTreeFinal]  |
+
+--8<-- [end:ResourceTree]
 
 ---
 

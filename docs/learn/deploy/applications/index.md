@@ -2,9 +2,15 @@
 
 ## [Switch to Applications View](../index.md#switch-to-applications-view)
 
+--8<-- [start:SwitchToAppsView]
+
 To switch to Applications View, click in the Sidebar on the **Applications** Icon ![Sidebar Applications][SBApplicationsIcon] / ![Sidebar App Expanded][SBApplicationsText]
 
+--8<-- [end:SwitchToAppsView]
+
 ## Create or Import Application
+
+--8<-- [start:CreateOrImportApp]
 
 ### Create New Application
 
@@ -72,7 +78,11 @@ To switch to Applications View, click in the Sidebar on the **Applications** Ico
 
 --8<-- [end:ImportApplication]
 
+--8<-- [end:CreateOrImportApp]
+
 ## View Application
+
+--8<-- [start:ViewApplication]
 
 --8<-- [start:ViewApplications]
 
@@ -84,6 +94,8 @@ To switch to Applications View, click in the Sidebar on the **Applications** Ico
 |      |                                      |                                           |
 
 --8<-- [end:ViewApplications]
+
+--8<-- [end:ViewApplication]
 
 ### Show Components
 

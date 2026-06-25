@@ -4,9 +4,13 @@ Please have a look at the [DevOps Plan documentation][DOCSPlan] for more details
 
 ## Introduction
 
+--8<-- [start:Intro]
+
 DevOps Plan is a low‑code, multi-tenant SaaS solution for comprehensive change and issue management, offering customizable workflow automation without requiring deep coding skills. The tool streamlines change tracking, improves issue resolution, and enhances operational efficiency by enabling organizations to tailor workflows and integrate seamlessly with their existing cloud environments.
 
 To learn more about DevOps Plan please have a look at the [documentation][PlanDocumentation].
+
+--8<-- [end:Intro]
 
 ### How to switch to Plan from Home Page
 
@@ -76,27 +80,53 @@ To learn more about DevOps Plan please have a look at the [documentation][PlanDo
 
 ## [AI Assistant](ai_assistant/index.md)
 
+--8<-- [start:AIAssistant]
+
 Please follow [this steps for setting up the AI integration](ai_assistant/index.md#ai-assistant-integration-setup) in Plan.
 
 [Learn more how to use the Plan AI Assistant](ai_assistant/index.md#using-the-plan-ai-assistant)
 
+--8<-- [end:AIAssistant]
+
 ## Work with Boards
+
+--8<-- [start:WorkWithBoards]
 
 [Please follow these instructions to learn more about Boards][GoToPlanBoards].
 
+--8<-- [end:WorkWithBoards]
+
 ## Create and customize a new Project
+
+--8<-- [start:CreateNewProject]
 
 [Please follow these instructions to create a new Project][GoToPlanCreateNewProject].
 
+--8<-- [end:CreateNewProject]
+
 ## Work with Queries
+
+--8<-- [start:WorkWithQueries]
 
 [Please follow these instructions to show how to work with Queries][GoToWorkWithQueries]
 
+--8<-- [end:WorkWithQueries]
+
 ## Integrations
+
+--8<-- [start:Integrations]
 
 ### Control/GIT/SCM
 
-- ![PLAN - Show Control/Git Commit Link][ShowCommitLink]
+--8<-- [start:ControlGitSCM]
+
+| Step | Details | Additional Information |
+|:----:|:--------|:----------------------|
+| 1 | View the Control/GIT/SCM integration | ![PLAN - Show Control/Git Commit Link][ShowCommitLink] |
+
+--8<-- [end:ControlGitSCM]
+
+--8<-- [end:Integrations]
 
 ---
 

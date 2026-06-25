@@ -4,6 +4,8 @@ A very short introduction to DevOps Loop.
 
 ## Start Here
 
+--8<-- [start:StartHere]
+
 To use the platform you have to be onboarded onto it. This is normally done by your administrators. URLs and User names are examples, please check with your admin about the information.
 
 ### How to log in
@@ -73,13 +75,21 @@ To use the platform you have to be onboarded onto it. This is normally done by y
 
 --8<-- [end:SwitchingCapabilities]
 
+--8<-- [end:StartHere]
+
 ## How to use Loop Genie
+
+--8<-- [start:HowToUseLoopGenie]
 
 --8<--
 learn/introduction/genie/index.md:HowToUseLoopGenie
 --8<--
 
+--8<-- [end:HowToUseLoopGenie]
+
 ## Setup a Teamspace and Loop
+
+--8<-- [start:SetupTsAndLoop]
 
 In the case of an empty environment you need to create a new Teamspace and at least one Loop.
 
@@ -102,6 +112,8 @@ You need to create at least one Loop in your teamspace, please follow the [Instr
 --8<--
 learn/introduction/loops/index.md:CreateNewLoop
 --8<--
+
+--8<-- [end:SetupTsAndLoop]
 
 ---
 

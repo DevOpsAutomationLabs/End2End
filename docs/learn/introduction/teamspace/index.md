@@ -4,9 +4,15 @@ For more details please have a look at the [Teamspace management][DOCSLoopTS] do
 
 ## Overview
 
+--8<-- [start:Overview]
+
 A teamspace acts as a logical partition of larger system providing a secure and isolated "environment/workspace" for multiple teams to work independent.
 
+--8<-- [end:Overview]
+
 ## Create new Teamspace
+
+--8<-- [start:CreateTeamspace]
 
 --8<-- [start:CreateNewTS]
 
@@ -24,6 +30,8 @@ A teamspace acts as a logical partition of larger system providing a secure and 
 |  6   | Teamspace created. Click on **Go to Teamspace** for next steps                                       | ![Teamspace - Create New - creation successfull][TSCreateionFinished]   |
 
 --8<-- [end:CreateNewTS]
+
+--8<-- [end:CreateTeamspace]
 
 Please proceed with [creating a Loop][GoBackToCreateALoop]
 

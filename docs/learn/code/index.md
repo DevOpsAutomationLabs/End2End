@@ -2,11 +2,17 @@
 
 ## Introduction
 
+--8<-- [start:Intro]
+
 Code is a cloud-based integrated development environment (based on VSCode) on DevOps Loop, with which you can write, compile, build, and debug software applications in a so-called **dev container**, accessible directly from a web browser. The editor provides a completely configured development environment with preinstalled extensions, tools, and libraries. You can start coding without the need to set up the environment on your local machine.
 
 To learn more about DevOps Code please have a look at the [documentation][CodeDocumentation].
 
+--8<-- [end:Intro]
+
 ## How to work with Code
+
+--8<-- [start:HowToUseCode]
 
 ### Switch to Code
 
@@ -49,7 +55,11 @@ If Code has not been opened yet [Open the repository with Code from Control Repo
 
 --8<-- [end:UseCode]
 
+--8<-- [end:HowToUseCode]
+
 ## Close and terminate Environment
+
+--8<-- [start:CloseEnv]
 
 Your development environment runs in it's own pod and uses resources. When you are finished with your work it is recommended to terminate the Environment.
 
@@ -61,7 +71,9 @@ Use the Logout icon ![Code Logout](media/Code_LogoutIcon.png) to get a popup whi
 
 Click on "Yes, terminate it" to shutdown the pod, which will delete all unsaved or pushed changes! Or you can decide to keep it alive with "No, let it run" if you want to continue working later.
 
-<!-- 
+--8<-- [end:CloseEnv]
+
+<!--
 
 ### Edit a file and commit the changes
 

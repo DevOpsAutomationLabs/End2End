@@ -2,11 +2,19 @@
 
 ## Overview
 
+--8<-- [start:Overview]
+
 This schema uses Projects as high level seperators for workitem management.
+
+--8<-- [end:Overview]
 
 ## Steps
 
+--8<-- [start:Steps]
+
 ### Create a new Project
+
+--8<-- [start:CreateNewProject]
 
 To create a new Workitem you have to click on the triangle icon on the NEW button on the top right of your screen:
 
@@ -22,7 +30,11 @@ The name of our project is "EchoLogic", add a meaningful description too.
 
 ![Enter Project Name and Description](media/Plan_Project_New_withData.png)
 
+--8<-- [end:CreateNewProject]
+
 ### Add Releases to Project
+
+--8<-- [start:AddReleasesToProject]
 
 If you have saved the Project, you need to switch back to edit mode by using the Edit Button ![Switch to Edit mode by using the Edit Button on the top left](media/Plan_Project_EDIT_Button.png)
 
@@ -46,7 +58,11 @@ In your release section you will now see your new releases:
 
 If the Save button is active for the project, please press it to save your changes!
 
+--8<-- [end:AddReleasesToProject]
+
 ### Add Sprints to Project
+
+--8<-- [start:AddSprintsToProject]
 
 If you have saved the Project, you need to switch back to edit mode by using the Edit Button ![Switch to Edit mode by using the Edit Button on the top left](media/Plan_Project_EDIT_Button.png)
 
@@ -74,7 +90,11 @@ Example with two Sprints:
 
 Please do not forget to save the project changes!
 
+--8<-- [end:AddSprintsToProject]
+
 ### Configure Project
+
+--8<-- [start:ConfigureProject]
 
 If you have saved the Project, you need to switch back to edit mode by using the Edit Button ![Switch to Edit mode by using the Edit Button on the top left](media/Plan_Project_EDIT_Button.png)
 
@@ -90,7 +110,11 @@ In the Workitem Types remove the Hill, SubHill and Scenario work item types. You
 
 Click the Save button on the lower right of the screen: ![Save Button](../media/Plan_Save_Button.png)
 
+--8<-- [end:ConfigureProject]
+
 ### Add Components
+
+--8<-- [start:AddComponents]
 
 If you have saved the Project, you need to switch back to edit mode by using the Edit Button ![Switch to Edit mode by using the Edit Button on the top left](media/Plan_Project_EDIT_Button.png)
 
@@ -110,9 +134,17 @@ The new component list should look like this:
 
 Do not forget to save the project to keep the changes!
 
+--8<-- [end:AddComponents]
+
+--8<-- [end:Steps]
+
 ## Conclusion
 
+--8<-- [start:Conclusion]
+
 Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
+--8<-- [end:Conclusion]
 
 ---
 

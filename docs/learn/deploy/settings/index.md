@@ -10,7 +10,11 @@
 
 ## Automation Section
 
+--8<-- [start:AutomationSection]
+
 ### Plugins
+
+--8<-- [start:Plugins]
 
 Plugins are listed in the Automation Section of the Settings pages.
 
@@ -19,17 +23,33 @@ Plugins are listed in the Automation Section of the Settings pages.
 
 #### How to install a plugin
 
+--8<-- [start:InstallPlugin]
+
 click on the **3 Dots** ![3 dots menu][DeployPlugin3DotsMenue] of the plugin you want to install and select install: ![Install plugin][DeployInstallPlugin]
 An Installation Confirmation Dialog will pop up, click here on **Confirm** to proceed ![Plugin Installation Confirmation][DeployInstallPluginConfirmation]
 Installation is Successfull Notification ![Plugin Installation Successfull][DeployPluginInstallSuccess]
 
+--8<-- [end:InstallPlugin]
+
 ### How to upgrade a plugin
+
+--8<-- [start:UpgradePlugin]
 
 Same procedure as installing a Plugin. Click on the 3 Dots menue and select **Upgrade**
 
+--8<-- [end:UpgradePlugin]
+
+--8<-- [end:Plugins]
+
+--8<-- [end:AutomationSection]
+
 ## Security Section
 
+--8<-- [start:SecuritySection]
+
 ### Tokens
+
+--8<-- [start:Tokens]
 
 Access Token (also known as Personal Access Token, short PAT) are needed for external access to DevOps Deploy to read, create and update data or run deployments.
 
@@ -47,9 +67,17 @@ Access Token (also known as Personal Access Token, short PAT) are needed for ext
 
 --8<-- [end:PATDeploy]
 
+--8<-- [end:Tokens]
+
+--8<-- [end:SecuritySection]
+
 ## System Section
 
+--8<-- [start:SystemSection]
+
 ### AI Settings
+
+--8<-- [start:AISettings]
 
 Configuring the AI Integration is in the **Systems** Section
 
@@ -69,6 +97,10 @@ Configuring the AI Integration is in the **Systems** Section
 |      | Click on **Save** to finish setup                                | ![Click on Save][ButtonSave]                         |
 
 --8<-- [end:DeployAIIntegration]
+
+--8<-- [end:AISettings]
+
+--8<-- [end:SystemSection]
 
 ---
 

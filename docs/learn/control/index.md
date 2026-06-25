@@ -2,9 +2,13 @@
 
 ## Introduction
 
+--8<-- [start:Intro]
+
 DevOps Control is part of DevOps Loop, a platform for software development. DevOps Control provides Git hosting, code review, and team collaboration. It is similar to GitHub, Bitbucket and GitLab. DevOps Control is based on the open-source [Gitea][GiteaRepo] project.
 
 To learn more about DevOps Control please have a look at the [documentation][ControlDocumentation].
+
+--8<-- [end:Intro]
 
 ## How to switch to Control from Home Page
 
@@ -35,6 +39,8 @@ The home page for Control is the Repositories and Organizations view. In this vi
 --8<-- [end:ManageRepoOrgs]
 
 ## Create a new Repository
+
+--8<-- [start:CreateNewRepo]
 
 ### Create New Repository
 
@@ -71,7 +77,11 @@ The home page for Control is the Repositories and Organizations view. In this vi
 
 --8<-- [end:MigrateRepo]
 
+--8<-- [end:CreateNewRepo]
+
 ## Access Token
+
+--8<-- [start:AccessToken]
 
 --8<-- [start:PATControl]
 
@@ -89,7 +99,11 @@ The home page for Control is the Repositories and Organizations view. In this vi
 
 --8<-- [end:PATControl]
 
+--8<-- [end:AccessToken]
+
 ## Explore Control
+
+--8<-- [start:ExploreControl]
 
 ### Open Repo with Code
 
@@ -129,6 +143,8 @@ The home page for Control is the Repositories and Organizations view. In this vi
 
 ### Show Activity Report
 
+--8<-- [start:ShowActivityReport]
+
 --8<-- [start:ShowLastCommits]
 
 | Step | Details                                                  | Additional Information { width="50%" }     |
@@ -136,6 +152,8 @@ The home page for Control is the Repositories and Organizations view. In this vi
 |      | Show the Update in the activity report of the repository | ![Show Last Commit][ControlShowLastCommit] |
 
 --8<-- [end:ShowLastCommits]
+
+--8<-- [end:ShowActivityReport]
 
 ### Show Git Commit Details
 
@@ -146,6 +164,8 @@ The home page for Control is the Repositories and Organizations view. In this vi
 |      | Show the Git Commit Details | ![CONTROL - Show Git Commit Details][ControlShowCommit] |
 
 --8<-- [end:ShowGitCommitDetails]
+
+--8<-- [end:ExploreControl]
 
 ---
 

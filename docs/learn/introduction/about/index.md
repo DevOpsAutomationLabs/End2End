@@ -12,6 +12,8 @@
 
 ## About Box and Logging out
 
+--8<-- [start:AboutBoxLogout]
+
 | Step | Details                                                                                                 | Additional Information                        |
 |:----:|:--------------------------------------------------------------------------------------------------------|:----------------------------------------------|
 |      | **About Loop**                                                                                          |                                               |
@@ -22,7 +24,11 @@
 |      | You can always log out of the platform by pressing the user symbol                                      | ![User Symbol for Logging Out][LoggOutButton] |
 |      | After a secure log out you will be presented with a new page which provides a login again               | ![Logged out][LoggedOut]                      |
 
+--8<-- [end:AboutBoxLogout]
+
 ## Sidebar
+
+--8<-- [start:Sidebar]
 
 | Step | Details                                                                                         | Additional Information          |
 |:----:|:------------------------------------------------------------------------------------------------|:--------------------------------|
@@ -32,6 +38,8 @@
 
 ### Plug-Ins
 
+--8<-- [start:Plugins]
+
 > NOTE: This page will provide you some information about available Plug-Ins, installing and configuring them needs to be done in the appropiate capabilities.
 
 | Step | Details                                                                                                                                | Additional Information        |
@@ -40,7 +48,11 @@
 
 <!-- <img src="media/Loop_Sidebar_plugins.png" width="50%" height="50%"> -->
 
+--8<-- [end:Plugins]
+
 ### Settings
+
+--8<-- [start:Settings]
 
 | Step | Details                                                                                | Additional Information          |
 |:----:|:---------------------------------------------------------------------------------------|:--------------------------------|
@@ -48,10 +60,14 @@
 
 #### User Administration
 
+--8<-- [start:UserAdmin]
+
 | Step | Details                                                                                       | Additional Information              |
 |:----:|:----------------------------------------------------------------------------------------------|:------------------------------------|
 |      | This view will provide information about the Tenant and the users in this tenant              | ![User Admin View][UserAdminView]   |
 |      | Detailed information about a user, which Teamspaces and Loops it has access to and gobal Role | ![User Detail][UserAdminUserDetail] |
+
+--8<-- [end:UserAdmin]
 
 #### Integrations
 
@@ -77,6 +93,10 @@ Please have a look at the [documentation][LoopDocAIIntegrations] for more detail
 |  6   | The newly created AI integration is shown                                                           | ![List of Integrations][ListOfIntegrations]                       |
 
 --8<-- [end:TSAIIntegrations]
+
+--8<-- [end:Settings]
+
+--8<-- [end:Sidebar]
 
 ---
 

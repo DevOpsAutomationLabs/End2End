@@ -4,9 +4,15 @@ For more details please have a look at the [Working with Loops][DOCSWorkWithLoop
 
 ## Overview
 
+--8<-- [start:Overview]
+
 A loop consists of several interconnected phases for connecting DevOps activities of your team from planning, development, building, testing, deployment and release management.
 
+--8<-- [end:Overview]
+
 ## Create new Loop
+
+--8<-- [start:CreateLoop]
 
 Your freshly created teamspace has no Loop yet.
 
@@ -30,6 +36,8 @@ Your freshly created teamspace has no Loop yet.
 |  6   | Press now **Go to my Loops** Button to proceed                                              | ![Go to my Loop Button][GoToMyLoops]                             |
 
 --8<-- [end:CreateNewLoop]
+
+--8<-- [end:CreateLoop]
 
 ---
 

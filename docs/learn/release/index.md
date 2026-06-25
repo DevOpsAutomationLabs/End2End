@@ -2,6 +2,8 @@
 
 ## Introduction
 
+--8<-- [start:Intro]
+
 _**NOTE: This Lab will be added later**_
 
 > NOTE: DevOps Release is based on DevOps Velocity, please have a look at the [documentation][VelocityDocumentation] for more details.
@@ -12,7 +14,11 @@ Release is an enterprise-scale release management application that supports both
 
 The Insights metric data tools enable you to assess the efficiency and quality of projects. You can measure every aspect of the development life-cycle with the supplied charts. You can create your own charts with metric definitions and upload custom data to Release using the Application programming interface (API) endpoints. Because data sources also encompass plugins and API calls, project data can come from virtually anywhere, including planning and development tools, testing and building applications, and deployment processes.
 
+--8<-- [end:Intro]
+
 ## How to switch to Release from Home Page
+
+--8<-- [start:SWITCH2Release]
 
 You can switch to Release by either pressing "Let's go to Release" button on its tile:
 
@@ -22,7 +28,11 @@ Or you can always switch using the central app switcher on the top left of your 
 
 ![Central App Switcher][CentralAppSwitcher]
 
+--8<-- [end:SWITCH2Release]
+
 ## Releases View
+
+--8<-- [start:ReleasesView]
 
 The Releases View and a Calender is shown
 
@@ -31,9 +41,15 @@ The Releases View and a Calender is shown
 Switch to Tiles view by clicking on ![Release tiles icon][ReleaseSwitchToTiles]
 ![Releases as Tiles view][ReleaseViewasTiles]
 
+--8<-- [end:ReleasesView]
+
 ## Conclusion
 
+--8<-- [start:Conclusion]
+
 Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
+--8<-- [end:Conclusion]
 
 ---
 

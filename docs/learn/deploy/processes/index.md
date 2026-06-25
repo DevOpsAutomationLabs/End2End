@@ -2,15 +2,25 @@
 
 ## Overview
 
+--8<-- [start:Overview]
+
 TODO: talk about processes
 
 ### Types of Processes
 
+--8<-- [start:TypesOfProcesses]
+
 #### Generic Processes
+
+--8<-- [start:GenericProcesses]
 
 TODO: talk about generic processes and for what they are good for
 
+--8<-- [end:GenericProcesses]
+
 #### Application Processes
+
+--8<-- [start:AppProcesses]
 
 [Detailed Documentation on Application Processes][DOCAppProccesses]
 
@@ -30,7 +40,11 @@ Application processes, like component processes, are created with the process ed
 
 --8<-- [end:ViewAppProcesses]
 
+--8<-- [end:AppProcesses]
+
 #### Component Processes
+
+--8<-- [start:CompProcesses]
 
 TODO: talk about component processes and what is it good for
 
@@ -54,13 +68,23 @@ TODO: talk about process details
 
 --8<-- [end:ViewComponentProcesses]
 
+--8<-- [end:CompProcesses]
+
+--8<-- [end:TypesOfProcesses]
+
+--8<-- [end:Overview]
+
 ### Process Designer
+
+--8<-- [start:ProcessDesigner]
 
 It will show you the process designer for a new process:
 
 ![Process Designer][DeployProcessDesigner]
 
 #### Process Designer Sidebar
+
+--8<-- [start:ProcessDesignerSidebar]
 
 TODO: talk about sidebar
 
@@ -80,17 +104,27 @@ In this example the shell step requires to have some script/commands added into 
 ![Shell Script1][DeployProcessDesignerStepShellScript1]
 ![Shell Script2][DeployProcessDesignerStepShellScript2]
 
+--8<-- [end:ProcessDesignerSidebar]
+
 #### Final Process Diagram
+
+--8<-- [start:FinalProcessDiagram]
 
 ![Deploy Process Diagram Application Page][DeployComponentFinalProcess]
 
+--8<-- [end:FinalProcessDiagram]
+
 #### Adding Version Statuses
+
+--8<-- [start:AddingVersionStatuses]
 
 ![Process Designer - sidebar add version status][DeployProcesDesignerSidebarAddVersionStatus]
 ![process designer - step added add version status][DeployProcessDesignerAddedVersionStatus]
 ![process designer - add version status properites][DeployProcessDesignerAddedVersionStatusProperties]
 
 ##### Final Process Diagrams (Passing and Failing tests)
+
+--8<-- [start:FinalProcessDiagrams]
 
 ![Process Designer - Final Process with passed Test][DeployComponentProcessPassingTest]
 ![Process Designer - Final Process with failing Test][DeployComponentProcessFailingTest]
@@ -101,6 +135,12 @@ Now we have additional deployment processes. One for passing a test and one for 
 
 Result in the Versionlist of the component:
 ![Status added to version][DeployComponentFinalProcesWithVersionStatus]
+
+--8<-- [end:FinalProcessDiagrams]
+
+--8<-- [end:AddingVersionStatuses]
+
+--8<-- [end:ProcessDesigner]
 
 ---
 

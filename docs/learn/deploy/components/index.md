@@ -2,13 +2,19 @@
 
 ## Switch to Components View
 
+--8<-- [start:SwitchToCompView]
+
 | Step | Details                                       | Additional Information { width="50%" }         |
 |:----:|:----------------------------------------------|:-----------------------------------------------|
 |  1   | In the sidebar select the **Components** Icon | ![Sidebar Components Icon][SBCompIcon]         |
 |      |                                               | ![Sidebar ComponentsIcon Text][SBCompIconText] |
 |  2   | Components View                               | ![Components View][CompView]                   |
 
+--8<-- [end:SwitchToCompView]
+
 ## View Component Processes
+
+--8<-- [start:ViewCompProcesses]
 
 | Step | Details                                               | Additional Information { width="50%" } |
 |:----:|:------------------------------------------------------|:---------------------------------------|
@@ -18,9 +24,15 @@
 |      | ![Switch to Component processes View][CompProcessTab] |                                        |
 |      | Available Component processes are shown               | ![Component Processes][CompProcesses]  |
 
+--8<-- [end:ViewCompProcesses]
+
 ## Creating or Importing Components
 
+--8<-- [start:CreateOrImportComp]
+
 ### Creating Components
+
+--8<-- [start:CreateComponent]
 
 --8<-- [start:CreateNewComponent]
 
@@ -39,7 +51,13 @@
 
 --8<-- [end:CreateNewComponent]
 
+--8<-- [end:CreateComponent]
+
+--8<-- [end:CreateOrImportComp]
+
 ## Importing Components
+
+--8<-- [start:ImportComponents]
 
 | Step | Details                                    | Additional Information { width="50%" }         |
 |:----:|:-------------------------------------------|:-----------------------------------------------|
@@ -51,6 +69,10 @@
 |      | click the **Submit** Button                | ![Submit Button][ButtonSubmit]                 |
 |      | Result is component imported               | ![Component Imported][CompImported]            |
 |      | Repeat Import for second component         |                                                |
+
+
+--8<-- [end:ImportComponents]
+
 
 ---
 

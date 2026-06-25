@@ -13,3 +13,5 @@ OPTIMIZATION_FINDINGS.md
 OPTIMIZATION_RECOMMENDATIONS.md
 IMPLEMENTATION_PLAN.md
 .cache/plugin/social
+docs-standardization-plan.md
+.playwright-mcp

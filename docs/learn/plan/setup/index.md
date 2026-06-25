@@ -4,13 +4,21 @@ All about setting up for DevOps Plan and configure parts.
 
 ## [Create new Application](../newapp/index.md)
 
+--8<-- [start:CreateNewApp]
+
 If you need a new app follow the instructions for [creating a new Application](../newapp/index.md).
 
+--8<-- [end:CreateNewApp]
+
 ## Importing Sample Data
+
+--8<-- [start:ImportSampleData]
 
 How to import existing data (CSV file) into an application.
 
 ### Import Data
+
+--8<-- [start:ImportData]
 
 | Step | Details                                                                 | Additional Information                                   |
 |:----:|:------------------------------------------------------------------------|:---------------------------------------------------------|
@@ -29,7 +37,13 @@ How to import existing data (CSV file) into an application.
 |  9   | Press the close button (bottom right on the screen)                     | ![Close Button][ImportClose]                             |
 |      |                                                                         |                                                          |
 
+--8<-- [end:ImportData]
+
+--8<-- [end:ImportSampleData]
+
 ## Configuring
+
+--8<-- [start:Configuring]
 
 ### Personal Access Token
 
@@ -64,6 +78,8 @@ This value is needed in the MCP setup.
 |      | The Database ID is shown, and copy it for further usage                                            | ![Plan Database ID][PlanDBID]                      |
 
 --8<-- [end:PlanGetDBID]
+
+--8<-- [end:Configuring]
 
 ---
 

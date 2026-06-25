@@ -2,15 +2,23 @@
 
 ## Switch to Tenant View
 
+--8<-- [start:SwitchToTenantView]
+
 | Step | Details                                                                                | Additional Information              |
 |:----:|:---------------------------------------------------------------------------------------|:------------------------------------|
 |  1   | Use the Dots Menu to select PLAN to view the Applications you have access to          | ![Dots Menu][DotsMenue]            |
 |  2   | Click on the Tenant Management Button/Link to manage your Application for your Tenants | ![Tenant Management][TenantMngmnt]  |
 |  3   | Select your Tenant EchoLogic and view your Applications                                | ![Tenantlist with Apps][TenantList] |
 
+--8<-- [end:SwitchToTenantView]
+
 ## Create a new Application
 
+--8<-- [start:CreateNewApp]
+
 ### Add a new Application
+
+--8<-- [start:AddNewApp]
 
 | Step | Details                                                                                          | Additional Information                          |
 |:----:|:-------------------------------------------------------------------------------------------------|:------------------------------------------------|
@@ -23,6 +31,10 @@
 |  6   | Now you have a new Application with some Sample Data                                             | ![App List finished][Application List]          |
 |  7   | You can use the **Let's go! Button** to switch to your newly created Application                 | ![Lets go button][LetsGoButton]                 |
 |      | or proceed with next step in the [Plan Overview][GoBackToParentIndex]    |                                                 |
+
+--8<-- [end:AddNewApp]
+
+--8<-- [end:CreateNewApp]
 
 ---
 

@@ -4,6 +4,8 @@ TODO: #34 update flow, app references and screenshots
 
 ## Introduction
 
+--8<-- [start:Intro]
+
 > NOTE: DevOps Measure is based on DevOps Velocity, please have a look at the [documentation][VelocityDocumentation] for more details.
 
 Use DevOps Measure to  manage your DevOps value streams.
@@ -11,6 +13,8 @@ Use DevOps Measure to  manage your DevOps value streams.
 The value stream provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements. The elements including builds, pull requests, issues, and tests that is collected from tools that you integrate into Measure. Individual elements are represented graphically by small circles called dots. Dots can provide information from logically related tools, such as issues linked to Source control management (SCM).
 
 The pipeline feature enables you to drive releases by using application-focused methods. Add applications to logical environments and let Measure generate the deployment plans required to deploy the applications.
+
+--8<-- [end:Intro]
 
 ## How to switch to Measure from Home Page
 
@@ -25,7 +29,11 @@ The pipeline feature enables you to drive releases by using application-focused 
 
 ## Let's go with Measure
 
+--8<-- [start:LetsGoMeasure]
+
 ### Value Stream List
+
+--8<-- [start:ValueStreamList]
 
 Please select "All Value Streams" to get a list of all Value Streams you have access to:
 
@@ -33,7 +41,11 @@ Please select "All Value Streams" to get a list of all Value Streams you have ac
 
 **_NOTE: Before we proceed here a short intro what a Value Stream is._**
 
+--8<-- [end:ValueStreamList]
+
 ### What is a Value Stream?
+
+--8<-- [start:WhatIsVSM]
 
 A value stream represents the objects and activities that you employ to deliver customer value, from initial concept to final delivered project.
 
@@ -48,7 +60,11 @@ Stages are containers for dots. Dots represent units of work from HCL Accelerate
 
 Finally, when you click on a dot, the displayed card provides information about the work items, including their history, and provides links to associated tools.
 
+--8<-- [end:WhatIsVSM]
+
 ### Have a look at the Value Stream
+
+--8<-- [start:LookAtVSM]
 
 Please click on "Emerald ..." Link to open the value stream and explore the shown data. This will open the Dot View of the Emerald Product Team - Accounting VSM:
 
@@ -58,7 +74,11 @@ The "Emerald .." VSM contains Demo Data to give you a good insight how Measure w
 
 ![Emerald Item Details](media/Measure_Emerald_ItemDetails.png)
 
+--8<-- [end:LookAtVSM]
+
 ### Swimlanes
+
+--8<-- [start:Swimlanes]
 
 Click on the top right corner of your screen on the "Swimlane" link to get another view onto the data:
 
@@ -66,7 +86,11 @@ Click on the top right corner of your screen on the "Swimlane" link to get anoth
 
 The Swimlane page displays the work items in a variety of ways allowing the team to view distribution of work by team members, priority of work, type of work, along with work items associated to a particular ownder, priority, type, release or sprint.
 
+--8<-- [end:Swimlanes]
+
 ### Pipeline
+
+--8<-- [start:Pipeline]
 
 Click on the top right corner of your screen on the "Pipeline" link to view your pipelines:
 
@@ -75,6 +99,8 @@ Click on the top right corner of your screen on the "Pipeline" link to view your
 When you create a value stream, a corresponding pipeline is automatically configured. And a pipeline is a sequence of stages that retrieve input and run applications and jobs. Pipelines accept input from source control management (SCM) repositories or other external applications, such as DevOps Deploy, Azure DevOps as well as API driven which allows organizations to update the pipeline inventory using API calls, and more.
 
 #### Quality Gates
+
+--8<-- [start:QualityGates]
 
 Gates ensure that releases cannot be executed in an environment until the gate rule is satisfied. A gate is a condition that determines whether an application version can be deployed into the environment based on some assessment criteria. A pipeline may have some environments with gates and some without gates. A gate condition (or the assessment criteria) is called a rule.
 
@@ -86,7 +112,13 @@ If you click on the Prod column additional gating criteria has been added:
 
 ![Emerald Gates QA](media/Measure_Emerald_Gates_QA.png)
 
+--8<-- [end:QualityGates]
+
+--8<-- [end:Pipeline]
+
 ### Review VSM
+
+--8<-- [start:ReviewVSM]
 
 Now have a look at your Loops value stream view. If you have created a new workitem in Plan you will see it in the dot view. Search for it.
 
@@ -94,7 +126,13 @@ Now have a look at your Loops value stream view. If you have created a new worki
 
 If not, try it out and create a new Defect in Plan and then look for it in this VSM view.
 
+--8<-- [end:ReviewVSM]
+
+--8<-- [end:LetsGoMeasure]
+
 ## Insight
+
+--8<-- [start:Insight]
 
 Measure provides an Insight view (Dashboards) to gain additional information about your value streams. Click on the ![Insight Icon](media/Measure_Insight_Icon.png) to open the Insight view:
 
@@ -110,7 +148,11 @@ In this view you will see two existing dashboards. Delivery Performance and Deli
 
 ![Delivery Quality](media/Measure_Insights_DeliveryQuality.png)
 
+--8<-- [end:Insight]
+
 ## Settings and more
+
+--8<-- [start:SettingsAndMore]
 
 ### Create User Access Key
 
@@ -130,11 +172,17 @@ An User Access Key, also known as Access Token, or Personal Access Token (short 
 
 --8<-- [end:PATMeasure]
 
+--8<-- [end:SettingsAndMore]
+
 ## Conclusion
+
+--8<-- [start:Conclusion]
 
 Congratulations! You have finished the Measure Lab!
 
 Go back to [Introduction][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
+--8<-- [end:Conclusion]
 
 ---
 

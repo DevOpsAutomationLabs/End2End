@@ -4,21 +4,43 @@ In this section you will get more information about Work items.
 
 ## What are Work Items
 
+--8<-- [start:WhatAreWorkItems]
+
 TODO: More about Work Items
+
+--8<-- [end:WhatAreWorkItems]
 
 ## Several Ways to find your Work Item
 
+--8<-- [start:FindWorkItem]
+
 ### From [Board](../boards/index.md#project-board)
 
-- [Open Work items View][REFBoardWIview]
-- ![Board workitems][BoardWorkItems]
+--8<-- [start:FindFromBoard]
+
+| Step | Details | Additional Information |
+|:----:|:--------|:----------------------|
+| 1 | [Open Work items View][REFBoardWIview] | |
+| 2 | View all Work Items on the Board | ![Board workitems][BoardWorkItems] |
+
+--8<-- [end:FindFromBoard]
 
 ### From [Query](../queries/index.md)
 
-- Use existing [Public or Personal Queries][REFQueriesUseExisting] to list Work items.
-- Or create a new [Personal Query][REFQueriesCreateNew] with your personal filters.
+--8<-- [start:FindFromQuery]
+
+| Step | Details | Additional Information |
+|:----:|:--------|:----------------------|
+| 1 | Use existing [Public or Personal Queries][REFQueriesUseExisting] to list Work items | |
+| 2 | Or create a new [Personal Query][REFQueriesCreateNew] with your personal filters | |
+
+--8<-- [end:FindFromQuery]
+
+--8<-- [end:FindWorkItem]
 
 ## Show Workitem Details
+
+--8<-- [start:ShowWorkitemDetails]
 
 If you are viewing a Work Item in the Right Sidebar, click on the **Link with Work Item Number**
 
@@ -29,6 +51,8 @@ to open the full Details View.
 - ![Show Workitem Details][BoardShowWIDetail]
 
 ### Show Commit
+
+--8<-- [start:ShowCommit]
 
 To view the details of commits (from source control systems like DevOps Control) scroll down in the Work Item Detail View and click on **SCM Events** section.
 
@@ -42,7 +66,13 @@ By clicking on the **Link** in the **SCM Event Details** Section of the new view
 
 ![CONTROL - Show Git Commit Details][ControlShowCommit]
 
+--8<-- [end:ShowCommit]
+
+--8<-- [end:ShowWorkitemDetails]
+
 ## Use AI in WorkItem
+
+--8<-- [start:UseAIinWorkItem]
 
 TODO: Use Plan Genie to create description and explorative test information (need screenshots or animated gif)
 
@@ -51,6 +81,8 @@ TODO: Use Plan Genie to create description and explorative test information (nee
 **[AI Assistant Setup][AIAssistantSetup]**
 
 ### Create Exploratory Test using AI
+
+--8<-- [start:CreateExploratoryTest]
 
 Click on a Work item, scroll down to **Exporatory** section
 
@@ -63,6 +95,10 @@ Switch to Edit Mode.
 click on the **Generate** button ![Generate Button][ButtonGenerateAIText]
 
 ![Exploratory Test created][WIExploratoryTestCreated]
+
+--8<-- [end:CreateExploratoryTest]
+
+--8<-- [end:UseAIinWorkItem]
 
 [BoardShowWIDetail]: media/PLAN_Board_ShowWI_Detail.png
 [PlanShowCommit]: ../media/PLAN_Show_GitCommit.png

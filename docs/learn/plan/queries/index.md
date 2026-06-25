@@ -2,9 +2,13 @@
 
 ## Work with Queries
 
+--8<-- [start:WorkWithQueries]
+
 Use Queries to get a list of items you are interested on. Every user can create its own Personal Queries. If you have the role or permission set to be a Public Query Editor then you can publish personal queries as Public Queries.
 
 ### Public and Personal Queries
+
+--8<-- [start:PublicPersonalQueries]
 
 You can switch to the Query Editor by either Clicking on the Queries icon on the left sidebar to open the submenue:
 
@@ -20,6 +24,8 @@ The Query Editor list all your queries you have access to. You can switch here b
 ![Switch between Personal and Public Queries][QueryEditorSwitchTypes]
 
 #### create new personal query
+
+--8<-- [start:CreatePersonalQuery]
 
 Now let us create a simple Query to list all Projects we own. Click on the Add New Query button and select "New Query":
 
@@ -70,13 +76,27 @@ If you want to save and go on with editing use the Save button. It can be also u
 
 ![Query Save Menue][ButtonSaveExpanded]
 
+--8<-- [end:CreatePersonalQuery]
+
 #### Public Queries
+
+--8<-- [start:PublicQueries]
 
 Have a look at the available Queries in the Public Queries list and try them out.
 
+--8<-- [end:PublicQueries]
+
+--8<-- [end:PublicPersonalQueries]
+
+--8<-- [end:WorkWithQueries]
+
 ## Conclusion
 
+--8<-- [start:Conclusion]
+
 Go back to [Plan][GoBackToParentIndex], [Lab and Demo Overview][GoBackToDemoOverview] or proceed with [Next Lab][NextLab]
+
+--8<-- [end:Conclusion]
 
 ---
 
