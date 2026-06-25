@@ -67,4 +67,11 @@ Master DevOps Loop capabilities with hands-on step-by-step labs.
     ---
     [:octicons-arrow-right-24: Start Release Lab](release/index.md)
 
+- :material-sitemap:{ .lg .middle } **Model**
+
+    Solution workbench, architecture modeling, templates, and configuration.
+
+    ---
+    [:octicons-arrow-right-24: Open Model Docs](https://docs-devops-solution-workbench.knowis.net/5.2/docs/)
+
 </div>
