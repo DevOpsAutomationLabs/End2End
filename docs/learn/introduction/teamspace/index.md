@@ -37,16 +37,16 @@ Please proceed with [creating a Loop][GoBackToCreateALoop]
 
 ---
 
-[TSMenue]: media/Loop_Teamspace_01_Menue.png
-[TSCreateNewDialog]: media/Loop_Teamspace_02_CreateNew_Dialog.png
-[TSAddTeammember]: media/Loop_Teamspace_03_CreateNew_searchMember.png
-[TSTeamMemberAdded]: media/Loop_Teamspace_04_CreateNew_MemberAdded.png
-[TSCreationStarted]: media/Loop_Teamspace_05_CreateNew_creation.png
-[TSCreateionFinished]: media/Loop_Teamspace_06_CreateNew_success.png
-[TSIcon]: media/Loop_TeamSpaceIcon.png
-[TSCreateTSentry]: media/Loop_CreateTeamSpace.png
-[TSCreateButton]: media/Loop_Create_TS_Button.png
-[TSInitCreateButton]: media/Loop_Initial_Create_TS_Button.png
-[NextButton]: ../../../media/Button_NEXT.png
+[TSMenue]: media/intro-teamspace-loop-teamspace-01-menue.png
+[TSCreateNewDialog]: media/intro-teamspace-loop-teamspace-02-create-new-dialog.png
+[TSAddTeammember]: media/intro-teamspace-loop-teamspace-03-create-new-search-member.png
+[TSTeamMemberAdded]: media/intro-teamspace-loop-teamspace-04-create-new-member-added.png
+[TSCreationStarted]: media/intro-teamspace-loop-teamspace-05-create-new-creation.png
+[TSCreateionFinished]: media/intro-teamspace-loop-teamspace-06-create-new-success.png
+[TSIcon]: media/intro-teamspace-loop-team-space-icon.png
+[TSCreateTSentry]: media/intro-teamspace-loop-create-team-space.png
+[TSCreateButton]: media/intro-teamspace-loop-create-ts-button.png
+[TSInitCreateButton]: media/intro-teamspace-loop-initial-create-ts-button.png
+[NextButton]: ../../../media/common-button-next.png
 [GoBackToCreateALoop]: ../index.md#create-a-loop
-[DOCSLoopTS]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=administration-teamspace-management
+[DOCSLoopTS]: https://www.ibm.com/docs/en/devops-loop/2.0.2?topic=administration-teamspace-management

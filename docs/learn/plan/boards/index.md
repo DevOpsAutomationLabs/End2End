@@ -105,24 +105,24 @@ TODO: Show the board with data and expain what it is good for and how to use it
 [GoBackToParentIndex]: ../index.md
 [NextLab]: ../index.md#create-and-customize-a-new-project
 
-[SideBarBoardIcon]: media/Plan_ProjectBoard_Icon.png
-[SideBar]: ../media/Plan_Sidebar_ProjectBoards.png
-[BoardMyBoardwithoneentry]: media/Plan_ProjectBoard_myBoard.png
-[ProjectBoardWorkItems]: media/Plan_ProjectBoard_WorkItems.png
-[BoardSelectWorkItem]: media/PLAN_Boards_SelectWI.png
+[SideBarBoardIcon]: media/plan-boards-plan-project-board-icon.png
+[SideBar]: ../media/plan-plan-sidebar-project-boards.png
+[BoardMyBoardwithoneentry]: media/plan-boards-plan-project-board-my-board.png
+[ProjectBoardWorkItems]: media/plan-boards-plan-project-board-work-items.png
+[BoardSelectWorkItem]: media/plan-boards-boards-select-wi.png
 
-[BoardSelectProject]: media/Plan_ProjectBoard_SelectProject.png
-[FilterBar]: media/Plan_ProjectBoard_Filterbar.png
-[BoardShowReleases]: media/Plan_ProjectBoard_Releases.png
-[BoardShowSprintBoard]: media/Plan_ProjectBoard_SprintBoard.png
-[BoardShowSprintBacklog]: media/Plan_ProjectBoard_SprintBacklog.png
+[BoardSelectProject]: media/plan-boards-plan-project-board-select-project.png
+[FilterBar]: media/plan-boards-plan-project-board-filterbar.png
+[BoardShowReleases]: media/plan-boards-plan-project-board-releases.png
+[BoardShowSprintBoard]: media/plan-boards-plan-project-board-sprint-board.png
+[BoardShowSprintBacklog]: media/plan-boards-plan-project-board-sprint-backlog.png
 [ShowCommit]: ../workitems/index.md#show-commit
 [REFWIuseAI]: ../workitems/index.md#use-ai-in-workitem
 
-[BoardShowWorkItemDetail]: ../workitems/media/PLAN_Board_ShowWI_Detail.png
-[PlanShowSCMEntryDetails]: ../media/Plan_Show_SCM_Entry_Details.png
-[PlanShowCommit]: ../media/PLAN_Show_GitCommit.png
-[ControlShowCommit]: ../../control/media/CONTROL_ShowGitCommit.png
-[FilterUncheckEpic]: media/Plan_ProjectBoard_Filterbar_UncheckEpic.png
-[BoardFiltered]: media/Plan_ProjectBoard_WorkItemsFiltered.png
-[ButtonClearFilter]: media/Plan_ProjectBoard_ClearFilterButton.png
+[BoardShowWorkItemDetail]: ../workitems/media/plan-workitems-board-show-wi-detail.png
+[PlanShowSCMEntryDetails]: ../media/plan-plan-show-scm-entry-details.png
+[PlanShowCommit]: ../media/plan-show-git-commit.png
+[ControlShowCommit]: ../../control/media/control-show-git-commit.png
+[FilterUncheckEpic]: media/plan-boards-plan-project-board-filterbar-uncheck-epic.png
+[BoardFiltered]: media/plan-boards-plan-project-board-work-items-filtered.png
+[ButtonClearFilter]: media/plan-boards-plan-project-board-clear-filter-button.png

@@ -18,7 +18,7 @@ To learn more about DevOps Plan please have a look at the [documentation][PlanDo
 
 | Step | Details                                                                                                  | Additional Information                                         |
 |:----:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | You can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][CentralAppSwitcher]                    |
+|  1   | You can always switch using the central app switcher on the right side of your screen                      | ![Central App Switcher][CentralAppSwitcher]                    |
 |  2   | Or You can switch directly to Plan by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 --8<-- [end:SWITCH2Plan]
@@ -137,25 +137,25 @@ To learn more about DevOps Plan please have a look at the [documentation][PlanDo
 
 ---
 
-[ShowCommitLink]: media/PLAN_Show_GitCommit.png
-[AppPage]: media/Plan_Applications_Page.png
-[AppPageList]: newapp/media/PLAN_Tenant_AppListFinal.png
-[CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
+[ShowCommitLink]: media/plan-show-git-commit.png
+[AppPage]: media/plan-plan-applications-page.png
+[AppPageList]: newapp/media/plan-newapp-tenant-app-list-final.png
+[CentralAppSwitcher]: ../introduction/media/intro-loop-central-app-control.png
 
  <!-- media/Plan_Applications_page.png -->
 
 [GoToSetup]: setup/index.md
 [GoToNewApp]: newapp/index.md
-[PlanWelcomeScreen]: media/Plan_welcome_screen.png
-[PlanIntroductionPage]: media/Plan_welcome_introduction_screen.png
-[PlanHomePageButton]: media/Plan_Home_button.png
-[PlanHomePage]: media/Plan_Home_page.png
-[PlanViewSchemaButton]: media/Plan_app_view_flow.png
-[PlanViewSchemaOverview]: media/Plan_app_view_details.png
+[PlanWelcomeScreen]: media/plan-plan-welcome-screen.png
+[PlanIntroductionPage]: media/plan-plan-welcome-introduction-screen.png
+[PlanHomePageButton]: media/plan-plan-home-button.png
+[PlanHomePage]: media/plan-plan-home-page.png
+[PlanViewSchemaButton]: media/plan-plan-app-view-flow.png
+[PlanViewSchemaOverview]: media/plan-plan-app-view-details.png
 [GoToPlanBoards]: boards/index.md
 [GoToPlanCreateNewProject]: newproject/index.md
 [GoToWorkWithQueries]: queries/index.md
 
-[WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png
+[WhatWouldYouLikeToDoToday]: ../introduction/media/intro-loop-whatwouldyouliketodotoday.png
 [DOCSPlan]: https://www.ibm.com/docs/en/devops-plan
 [PlanDocumentation]: https://www.ibm.com/docs/en/devops-plan

@@ -12,6 +12,7 @@ nav:
   - Home: index.md
   - Introduction: learn/introduction/index.md
   - Demo Flows:
+    - Overview: demo/index.md
     - AI-First Demo: demo/demo_ai_first.md
     - Classic Demo: demo/demo_classic.md
     - MCP Setup: demo/mcp_setup.md
@@ -21,16 +22,32 @@ nav:
       - Overview: learn/plan/index.md
       - AI Assistant: learn/plan/ai_assistant/index.md
       - Boards: learn/plan/boards/index.md
-    - Control: learn/control/index.md
-    - Build: learn/build/index.md
+      - New Application: learn/plan/newapp/index.md
+      - New Project: learn/plan/newproject/index.md
+      - Queries: learn/plan/queries/index.md
+      - Setup: learn/plan/setup/index.md
+      - Work Items: learn/plan/workitems/index.md
+    - Code: 
+      - Overview: learn/code/index.md
+    - Control: 
+      - Overview: learn/control/index.md
+    - Build: 
+      - Overview: learn/build/index.md
     - Deploy:
       - Overview: learn/deploy/index.md
       - Applications: learn/deploy/applications/index.md
       - Components: learn/deploy/components/index.md
-    - Test: learn/test/index.md
-    - Secure: learn/secure/index.md
-    - Measure: learn/measure/index.md
-    - Release: learn/release/index.md
+      - Processes: learn/deploy/processes/index.md
+      - Resources: learn/deploy/resources/index.md
+      - Settings: learn/deploy/settings/index.md
+    - Test: 
+      - Overview: learn/test/index.md
+    - Secure: 
+      - Overview: learn/secure/index.md
+    - Measure: 
+      - Overview: learn/measure/index.md
+    - Release: 
+      - Overview: learn/release/index.md
   - Setup Guides:
     - Manual Setup: setup.md
     - AI Integration: ai_setup.md

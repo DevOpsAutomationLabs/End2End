@@ -100,19 +100,19 @@ click on the **Generate** button ![Generate Button][ButtonGenerateAIText]
 
 --8<-- [end:UseAIinWorkItem]
 
-[BoardShowWIDetail]: media/PLAN_Board_ShowWI_Detail.png
-[PlanShowCommit]: ../media/PLAN_Show_GitCommit.png
-[ControlShowCommit]: ../../control/media/CONTROL_ShowGitCommit.png
+[BoardShowWIDetail]: media/plan-workitems-board-show-wi-detail.png
+[PlanShowCommit]: ../media/plan-show-git-commit.png
+[ControlShowCommit]: ../../control/media/control-show-git-commit.png
 [OpenControl]: ../../control/index.md#how-to-switch-to-control-from-home-page
-[PlanShowSCMEntryDetails]: ../media/Plan_Show_SCM_Entry_Details.png
+[PlanShowSCMEntryDetails]: ../media/plan-plan-show-scm-entry-details.png
 [AIAssistantSetup]: ../ai_assistant/index.md#ai-assistant-integration-setup
-[WIExploratorySection]: media/Plan_WI_Exploratory_View.png
-[WIExploratoryInEditMode]: media/Plan_WI_Exploratory_InEditMode.png
-[ButtonGenerateAIText]: media/Plan_WI_Exploratory_GenerateButton.png
-[WIExploratoryTestCreated]: media/Plan_WI_Exploratory_Generated.png
+[WIExploratorySection]: media/plan-workitems-plan-wi-exploratory-view.png
+[WIExploratoryInEditMode]: media/plan-workitems-plan-wi-exploratory-in-edit-mode.png
+[ButtonGenerateAIText]: media/plan-workitems-plan-wi-exploratory-generate-button.png
+[WIExploratoryTestCreated]: media/plan-workitems-plan-wi-exploratory-generated.png
 
-[BoardWorkItems]: ../boards/media/Plan_ProjectBoard_WorkItems.png
+[BoardWorkItems]: ../boards/media/plan-boards-plan-project-board-work-items.png
 [REFBoardWIview]: ../boards/index.md#work-items
 [REFQueriesUseExisting]: ../queries/index.md#public-and-personal-queries
 [REFQueriesCreateNew]: ../queries/index.md#create-new-personal-query
-[WIuseLinkWithNumber]: media/Plan_WI_Link_open_Detail.png
+[WIuseLinkWithNumber]: media/plan-workitems-plan-wi-link-open-detail.png

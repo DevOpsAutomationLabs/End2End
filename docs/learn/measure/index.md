@@ -22,7 +22,7 @@ The pipeline feature enables you to drive releases by using application-focused 
 
 | Step | Details                                                                                                     | Additional Information                                         |
 |:----:|:------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | You can always switch using the central app switcher on the top left of your screen                         | ![Central App Switcher][CentralAppSwitcher]                    |
+|  1   | You can always switch using the central app switcher on the right side of your screen                         | ![Central App Switcher][CentralAppSwitcher]                    |
 |  2   | Or You can switch directly to Measure by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 --8<-- [end:SWITCH2Measure]
@@ -166,28 +166,28 @@ An User Access Key, also known as Access Token, or Personal Access Token (short 
 [GoBackToDemoOverview]: ../index.md
 [GoBackToParentIndex]: ../index.md#measure
 [NextLab]: ../index.md#release
-[WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png
-[CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
-[VSMEmerald]: media/Measure_Emerald_VSM_DotView.png
+[WhatWouldYouLikeToDoToday]: ../introduction/media/intro-loop-whatwouldyouliketodotoday.png
+[CentralAppSwitcher]: ../introduction/media/intro-loop-central-app-control.png
+[VSMEmerald]: media/measure-measure-emerald-vsm-dot-view.png
 [VelocityDocumentation]: https://www.ibm.com/docs/en/devops-velocity
-[MeasureToprightMenue]: media/Measure_Profile_Settings_Help_Bar.png
-[ButtonSettings]: ../../media/Button_Settings.png
-[MeasureMyProfileLink]: media/Measure_MyProfile_Link.png
-[MeasureSettingsMenue]: media/Measure_Settings_Menue.png
-[MeasurePATList]: media/Measure_PAT_List.png
-[MeasureNewPATButton]: media/Measure_Create_User_Access_Key_Button.png
-[MeasureNewPATDialog]: media/Measure_Create_PAT_Dialog.png
-[MeasureNewPATMessage]: media/Measure_Create_PAT_Result_Message.png
-[MeasurePATListUpdated]: media/Measure_PAT_newly_Created.png
-[ListOfAllVSM]: media/Measure_AllVSM_List.png
-[EmeraldItemDetails]: media/Measure_Emerald_ItemDetails.png
-[measure-swimlanes]: media/Measure_Emerald_Swimlanes.png
-[measure-pipeline]: media/Measure_Emerald_Pipeline.png
-[measure-gates-prod]: media/Measure_Emerald_Gates_Prod.png
-[measure-gates-qa]: media/Measure_Emerald_Gates_QA.png
-[measure-vsm-item]: media/Measure_Pizza_ItemDetails.png
-[measure-insight-icon]: media/Measure_Insight_Icon.png
-[measure-insight-home]: media/Measure_Insight_Home.png
-[measure-all-dashboards]: media/Measure_Insight_allDashboards.png
-[measure-delivery-perf]: media/Measure_Insight_DeliveryPerformance.png
-[measure-delivery-quality]: media/Measure_Insights_DeliveryQuality.png
+[MeasureToprightMenue]: media/measure-measure-profile-settings-help-bar.png
+[ButtonSettings]: ../../media/common-button-settings.png
+[MeasureMyProfileLink]: media/measure-measure-my-profile-link.png
+[MeasureSettingsMenue]: media/measure-measure-settings-menue.png
+[MeasurePATList]: media/measure-measure-pat-list.png
+[MeasureNewPATButton]: media/measure-measure-create-user-access-key-button.png
+[MeasureNewPATDialog]: media/measure-measure-create-pat-dialog.png
+[MeasureNewPATMessage]: media/measure-measure-create-pat-result-message.png
+[MeasurePATListUpdated]: media/measure-measure-pat-newly-created.png
+[ListOfAllVSM]: media/measure-measure-all-vsm-list.png
+[EmeraldItemDetails]: media/measure-measure-emerald-item-details.png
+[measure-swimlanes]: media/measure-measure-emerald-swimlanes.png
+[measure-pipeline]: media/measure-measure-emerald-pipeline.png
+[measure-gates-prod]: media/measure-measure-emerald-gates-prod.png
+[measure-gates-qa]: media/measure-measure-emerald-gates-qa.png
+[measure-vsm-item]: media/measure-measure-pizza-item-details.png
+[measure-insight-icon]: media/measure-measure-insight-icon.png
+[measure-insight-home]: media/measure-measure-insight-home.png
+[measure-all-dashboards]: media/measure-measure-insight-all-dashboards.png
+[measure-delivery-perf]: media/measure-measure-insight-delivery-performance.png
+[measure-delivery-quality]: media/measure-measure-insights-delivery-quality.png

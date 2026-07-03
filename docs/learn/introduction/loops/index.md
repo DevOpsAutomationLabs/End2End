@@ -41,15 +41,15 @@ A loop consists of several interconnected phases for connecting DevOps activitie
 
 ---
 
-[LoopHome]: media/NoLoops_inthis_TeamSpace.png
-[CreateNewDialog]: media/Create_New_Loop_Dialog.png
-[WithLearningData]: media/Create_New_Loop_with_Learning_Data.png
-[CreateNewLoopButton]: media/Loop_CreateNewLoop_Button.png
-[NextButton]: ../../../media/Button_NEXT.png
-[SearchAddMember]: media/Loop_Teamspace_09_CreateNewLoop_searchMember.png
-[AddedMember]: media/Loop_Teamspace_10_CreateNewLoop_MemberAdded.png
-[CreateButton]: media/Loop_CreateNewLoop_Button.png
-[LoopCreation]: media/New_Loop_Creation_Progress.png
-[LoopCreatedSuccess]: media/New_Loop_Creation_Success.png
-[GoToMyLoops]: media/Loops_GoToMyLoops_Button.png
-[DOCSWorkWithLoops]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=working-loops
+[LoopHome]: media/intro-loops-no-loops-inthis-team-space.png
+[CreateNewDialog]: media/intro-loops-create-new-loop-dialog.png
+[WithLearningData]: media/intro-loops-create-new-loop-with-learning-data.png
+[CreateNewLoopButton]: media/intro-loops-loop-create-new-loop-button.png
+[NextButton]: ../../../media/common-button-next.png
+[SearchAddMember]: media/intro-loops-loop-teamspace-09-create-new-loop-search-member.png
+[AddedMember]: media/intro-loops-loop-teamspace-10-create-new-loop-member-added.png
+[CreateButton]: media/intro-loops-loop-create-new-loop-button.png
+[LoopCreation]: media/intro-loops-new-loop-creation-progress.png
+[LoopCreatedSuccess]: media/intro-loops-new-loop-creation-success.png
+[GoToMyLoops]: media/intro-loops-loops-go-to-my-loops-button.png
+[DOCSWorkWithLoops]: https://www.ibm.com/docs/en/devops-loop/2.0.2?topic=working-loops

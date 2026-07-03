@@ -24,7 +24,7 @@ This lab will provide you with a practical hands-on of our testing capabilities.
 
 | Step | Details                                                                                                  | Additional Information                                         |
 |:----:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | You can always switch using the central app switcher on the top left of your screen                      | ![Central App Switcher][CentralAppSwitcher]                    |
+|  1   | You can always switch using the central app switcher on the right side of your screen                      | ![Central App Switcher][CentralAppSwitcher]                    |
 |  2   | Or You can switch directly to Test by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 --8<-- [end:SWITCH2Test]
@@ -136,45 +136,45 @@ This lab will provide you with a practical hands-on of our testing capabilities.
 [GoBackToDemoOverview]: ../index.md
 [GoBackToParentIndex]: ../index.md#test
 [NextLab]: ../index.md#secure
-[WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png
-[CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
-[Test3rdPartyQ]: media/Test_Accept_3rdParty.png
-[Test3rdPartyAccepted]: media/Test_3rdPartyAccepted.png
-[SectionExecute]: media/Test_Sidebar_ExecuteSection.png
-[ExecuteScriptList]: media/Test_Execute_ScriptList.png
-[ButtonRun]: media/Test_RunButton.png
-[ButtonClose]: ../../media/Button_Close.png
-[CreateTicketIcon]: media/Test_ResultView_FailedTest_CreateTicket.png
-[Projecttile]: media/Test_Project_Tile.png
-[ProjectHomePage]: media/Test_Project_Homepage.png
-[RunDialog]: media/Test_Run_Dialog.png
-[ButtonExecute]: media/Test_ExecuteButton.png
-[RunningScript]: media/Test_Execute_ScriptList_runningScript.png
-[SectionAnalyze]: media/Test_Sidebar_Analyze_Section.png
-[ResultsOverview]: media/Test_Analyze_ResultOverview.png
-[SectionAuthor]: media/Test_Sidebar_AuthorSection.png
-[TestEditorView]: media/Test_TestEditor_View.png
-[TestScriptEditor]: media/Test_TestEditor_ScriptOpened.png
-[TestScriptStepDetails]: media/Test_TestEditor_StepDetails.png
-[MenueAnalyze]: media/Test_Sidebar_Analyze_Menue.png
-[ResultsFailedTest]: media/Test_ResultView_FailedTest.png
-[WICreatedialog]: media/Test_Plan_WI_Dialog1.png
-[WICreateDetails]: media/Test_Plan_WI_Dialog2.png
-[ResultLinked]: media/Test_Result_Details_with_PlanLink.png
-[SwitchTS]: media/Test_SwitchTS.png
-[TestPrjList]: media/Test_Show_ProjectList.png
-[DataDefView]: media/Test_Author_DataDefView.png
-[DataSchemas]: media/Test_Author_Schemas.png
-[DataSchemaView]: media/Test_Author_Schema_View.png
-[DataPreviewIcon]: media/Test_Data_PreviewIcon.png
-[DataPreview]: media/Test_Data_Preview.png
-[GenerateIcon]: media/Test_Data_GenerateIcon.png
-[GenerateDialog]: media/Test_Data_GenerateDialog.png
-[ButtonDownload]: ../../media/Button_Download.png
-[TestDataFolder]: media/Test_Data_DownloadedUnzipped.png
-[TestDataFiles]: media/Test_Data_DownloadedFiles.png
-[TestDataGenerated]: media/Test_Data_GeneratedData.png
+[WhatWouldYouLikeToDoToday]: ../introduction/media/intro-loop-whatwouldyouliketodotoday.png
+[CentralAppSwitcher]: ../introduction/media/intro-loop-central-app-control.png
+[Test3rdPartyQ]: media/test-test-accept-3-rd-party.png
+[Test3rdPartyAccepted]: media/test-test-3-rd-party-accepted.png
+[SectionExecute]: media/test-test-sidebar-execute-section.png
+[ExecuteScriptList]: media/test-test-execute-script-list.png
+[ButtonRun]: media/test-test-run-button.png
+[ButtonClose]: ../../media/common-button-close.png
+[CreateTicketIcon]: media/test-test-result-view-failed-test-create-ticket.png
+[Projecttile]: media/test-test-project-tile.png
+[ProjectHomePage]: media/test-test-project-homepage.png
+[RunDialog]: media/test-test-run-dialog.png
+[ButtonExecute]: media/test-test-execute-button.png
+[RunningScript]: media/test-test-execute-script-list-running-script.png
+[SectionAnalyze]: media/test-test-sidebar-analyze-section.png
+[ResultsOverview]: media/test-test-analyze-result-overview.png
+[SectionAuthor]: media/test-test-sidebar-author-section.png
+[TestEditorView]: media/test-test-test-editor-view.png
+[TestScriptEditor]: media/test-test-test-editor-script-opened.png
+[TestScriptStepDetails]: media/test-test-test-editor-step-details.png
+[MenueAnalyze]: media/test-test-sidebar-analyze-menue.png
+[ResultsFailedTest]: media/test-test-result-view-failed-test.png
+[WICreatedialog]: media/test-test-plan-wi-dialog-01.png
+[WICreateDetails]: media/test-test-plan-wi-dialog-02.png
+[ResultLinked]: media/test-test-result-details-with-plan-link.png
+[SwitchTS]: media/test-test-switch-ts.png
+[TestPrjList]: media/test-test-show-project-list.png
+[DataDefView]: media/test-test-author-data-def-view.png
+[DataSchemas]: media/test-test-author-schemas.png
+[DataSchemaView]: media/test-test-author-schema-view.png
+[DataPreviewIcon]: media/test-test-data-preview-icon.png
+[DataPreview]: media/test-test-data-preview.png
+[GenerateIcon]: media/test-test-data-generate-icon.png
+[GenerateDialog]: media/test-test-data-generate-dialog.png
+[ButtonDownload]: ../../media/common-button-download.png
+[TestDataFolder]: media/test-test-data-downloaded-unzipped.png
+[TestDataFiles]: media/test-test-data-downloaded-files.png
+[TestDataGenerated]: media/test-test-data-generated-data.png
 [TestDocumentation]: https://www.ibm.com/docs/en/devops-test-hub/
-[TestToprightMenue]: media/Test_Profile_Notification_Settings_Help_Links.png
-[TestProfileMenue]: media/Test_Profile_Menue.png
-[TestNewPAT]: media/Test_Create_PAT_Dialog.png
+[TestToprightMenue]: media/test-test-profile-notification-settings-help-links.png
+[TestProfileMenue]: media/test-test-profile-menue.png
+[TestNewPAT]: media/test-test-create-pat-dialog.png

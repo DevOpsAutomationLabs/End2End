@@ -104,28 +104,28 @@ Configuring the AI Integration is in the **Systems** Section
 
 ---
 
-[DeploySettingsIcon]: ../media/DEPLOY_SettingsIcon.png
-[DeploySettingsAutomationPlugins]: media/DEPLOY_Settings_AutomationSection.png
-[DeploySettingsPluginsList]: media/DEPLOY_PluginsList.png
-[DeployInstallPlugin]: media/DEPLOY_Plugins_Install.png
-[DeployInstallPluginConfirmation]: media/DEPLOY_PluginInstallConfirmation.png
-[DeployPluginInstallSuccess]: media/DEPLOY_PluginInstallSuccess.png
-[DeployPlugin3DotsMenue]: ../media/DEPLOY_PluginList_3DotsMenue.png
-[ModelSelected]: media/Deploy_AI_Settings_ModelName_Selected.png
+[DeploySettingsIcon]: ../media/deploy-settings-icon.png
+[DeploySettingsAutomationPlugins]: media/deploy-settings-settings-automation-section.png
+[DeploySettingsPluginsList]: media/deploy-settings-plugins-list.png
+[DeployInstallPlugin]: media/deploy-settings-plugins-install.png
+[DeployInstallPluginConfirmation]: media/deploy-settings-plugin-install-confirmation.png
+[DeployPluginInstallSuccess]: media/deploy-settings-plugin-install-success.png
+[DeployPlugin3DotsMenue]: ../media/deploy-plugin-list-3-dots-menue.png
+[ModelSelected]: media/deploy-settings-deploy-ai-settings-model-name-selected.png
 
-[DeploySystemSection]: media/Deploy_Settings_SystemSection.png
-[DeployAISettingsIcon]: media/Deploy_SystemSection_AI_Settings.png
-[AISettings_Dialog]: media/Deploy_AI_Settings_Dialog.png
-[AIProvider]: media/Deploy_AI_Settings_AIProviderSelection.png
-[ModelName]: media/Deploy_AI_Settings_ModelName.png
-[ModelList]: media/Deploy_AI_Settings_Model_AvailableList.png
-[ButtonSave]: ../../../media/Button_Save.png
-[DeploySidebar]: ../media/Deploy_Sidebar.png
-[DeployPATLink]: media/Deploy_Tokens_Link.png
-[DeploySystemSettings]: media/Deploy_Settings.png
-[DeployPATList]: media/Deploy_PAT_List.png
-[DeployCreatePATButton]: media/Deploy_Create_Token_Button.png
-[DeployCreatePATDialog]: media/Deploy_Create_Token_Dialog.png
-[DeployNewPATInfo]: media/Deploy_NewPAT_Message.png
-[ButtonClose]: media/Deploy_Close_Button.png
-[DeployPATListUpdated]: media/Deploy_PAT_List_updated.png
+[DeploySystemSection]: media/deploy-settings-deploy-settings-system-section.png
+[DeployAISettingsIcon]: media/deploy-settings-deploy-system-section-ai-settings.png
+[AISettings_Dialog]: media/deploy-settings-deploy-ai-settings-dialog.png
+[AIProvider]: media/deploy-settings-deploy-ai-settings-ai-provider-selection.png
+[ModelName]: media/deploy-settings-deploy-ai-settings-model-name.png
+[ModelList]: media/deploy-settings-deploy-ai-settings-model-available-list.png
+[ButtonSave]: ../../../media/common-button-save.png
+[DeploySidebar]: ../media/deploy-deploy-sidebar.png
+[DeployPATLink]: media/deploy-settings-deploy-tokens-link.png
+[DeploySystemSettings]: media/deploy-settings-deploy-settings.png
+[DeployPATList]: media/deploy-settings-deploy-pat-list.png
+[DeployCreatePATButton]: media/deploy-settings-deploy-create-token-button.png
+[DeployCreatePATDialog]: media/deploy-settings-deploy-create-token-dialog.png
+[DeployNewPATInfo]: media/deploy-settings-deploy-new-pat-message.png
+[ButtonClose]: media/deploy-settings-deploy-close-button.png
+[DeployPATListUpdated]: media/deploy-settings-deploy-pat-list-updated.png

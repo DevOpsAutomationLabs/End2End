@@ -8,7 +8,7 @@
 
 | Step | Details                                                                                                   | Additional Information                                         |
 |:----:|:----------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-|      | You can always switch using the central app switcher on the top left of your screen                       | ![Central App Switcher][CentralAppSwitcher]                    |
+|      | You can always switch using the central app switcher on the right side of your screen                       | ![Central App Switcher][CentralAppSwitcher]                    |
 |      | Or You can switch directly to Build by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 --8<-- [end:SWITCH2Build]
@@ -143,31 +143,31 @@ Access Token (also known as Personal Access Token, short PAT) are needed for ext
 
 ---
 
-[WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png
-[CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
-[BuildProjectRunsResults]: media/BUILD_Process_Runs_results.png
-[BuildProcessDetail]: media/BUILD_Process_Runs_Details.png
-[BuildProjectTemplates]: media/BUILD_Template_Process.png
-[BuildProcessTemplates]: media/BUILD_Template_Process.png
-[BuildProcessTemplatesDetail]: media/BUILD_Templates_Process_Detail.png
-[BuildProcessTemplatesDefinition]: media/BUILD_Templates_Process_Def.png
-[BuildSoureTemplates]: media/BUILD_Template_Source.png
-[BuildJobTemplates]: media/BUILD_Template_Jobs.png
-[BuildJobTemplatesSteps]: media/BUILD_Templates_Process_JobSteps.png
-[BuildJobTemplatesStepsDetail]: media/BUILD_Templates_Process_JobStepDetail.png
-[BuildMetrics]: media/Build_Metrics.png
-[Build3Buttons]: media/Build_3Buttons.png
-[BuildProcDetails]: media/Build_ProcessLink_in_ProjectsView.png
-[BuildRecentRunsMetricsFilter]: media/Build_Process_runs_details_metrics_and_filter.png
-[BuildTimePeriodFilter]: media/Build_Metrics_TimePeriodfilter.png
-[BuildSidebar]: media/Build_Sidebar.png
-[BuildSideBarSystem]: media/Build_Sidebar_System_Link.png
-[BuildGeneratePATButton]: media/Build_Create_AuthToken_Button.png
-[BuildSystemSettings]: media/Build_System_Settings.png
-[BuildSecuritySettings]: media/Build_System_Security_Settings.png
-[BuildPATList]: media/Build_AuthToken_List.png
-[BuildPATDialog]: media/Build_Create_AuthToken_Dialog.png
-[ButtonSave]: ../../media/Button_Save.png
-[BuildPATListUpdated]: media/Build_AuthToken_List_Updated.png
-[BuildPATSettings]: media/Build_Security_AuthToken_Settings.png
-[build-pat-details]: media/Build_New_Authtoken_Details.png
+[WhatWouldYouLikeToDoToday]: ../introduction/media/intro-loop-whatwouldyouliketodotoday.png
+[CentralAppSwitcher]: ../introduction/media/intro-loop-central-app-control.png
+[BuildProjectRunsResults]: media/build-process-runs-results.png
+[BuildProcessDetail]: media/build-process-runs-details.png
+[BuildProjectTemplates]: media/build-template-process.png
+[BuildProcessTemplates]: media/build-template-process.png
+[BuildProcessTemplatesDetail]: media/build-templates-process-detail.png
+[BuildProcessTemplatesDefinition]: media/build-templates-process-def.png
+[BuildSoureTemplates]: media/build-template-source.png
+[BuildJobTemplates]: media/build-template-jobs.png
+[BuildJobTemplatesSteps]: media/build-templates-process-job-steps.png
+[BuildJobTemplatesStepsDetail]: media/build-templates-process-job-step-detail.png
+[BuildMetrics]: media/build-build-metrics.png
+[Build3Buttons]: media/build-build-3-buttons.png
+[BuildProcDetails]: media/build-build-process-link-in-projects-view.png
+[BuildRecentRunsMetricsFilter]: media/build-build-process-runs-details-metrics-and-filter.png
+[BuildTimePeriodFilter]: media/build-build-metrics-time-periodfilter.png
+[BuildSidebar]: media/build-build-sidebar.png
+[BuildSideBarSystem]: media/build-build-sidebar-system-link.png
+[BuildGeneratePATButton]: media/build-build-create-auth-token-button.png
+[BuildSystemSettings]: media/build-build-system-settings.png
+[BuildSecuritySettings]: media/build-build-system-security-settings.png
+[BuildPATList]: media/build-build-auth-token-list.png
+[BuildPATDialog]: media/build-build-create-auth-token-dialog.png
+[ButtonSave]: ../../media/common-button-save.png
+[BuildPATListUpdated]: media/build-build-auth-token-list-updated.png
+[BuildPATSettings]: media/build-build-security-auth-token-settings.png
+[build-pat-details]: media/build-build-new-authtoken-details.png

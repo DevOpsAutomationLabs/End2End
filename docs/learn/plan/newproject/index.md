@@ -48,7 +48,7 @@ Enter "Release 1" into the Release Name and add a meaningfull description, you c
 
 ![Project - New Release][plan-new-release]
 
-Press the SAVE button to save the new Release ![Project - Save Button](../media/Plan_Save_Button.png)
+Press the SAVE button to save the new Release ![Project - Save Button](../media/plan-plan-save-button.png)
 
 Please now repeat the steps to create "Release 2" which starts 1 day after "Release 1" ends and lasts for another 3 months.
 
@@ -78,7 +78,7 @@ In the new Dialog/form enter the Sprint name "Sprint 1" and if necessary adjust 
 
 ![Create new Sprint Dialog][plan-sprint-dialog]
 
-Press the Save Button ![Project - Save Button](../media/Plan_Save_Button.png) to save this new Sprint. Now the Sprint is visible in the Sprintlist of the Project:
+Press the Save Button ![Project - Save Button](../media/plan-plan-save-button.png) to save this new Sprint. Now the Sprint is visible in the Sprintlist of the Project:
 
 ![Sprint List with newly created sprint][plan-sprint-added]
 
@@ -108,7 +108,7 @@ In the Workitem Types remove the Hill, SubHill and Scenario work item types. You
 
 ![Project new configuration][plan-project-configure]
 
-Click the Save button on the lower right of the screen: ![Save Button](../media/Plan_Save_Button.png)
+Click the Save button on the lower right of the screen: ![Save Button](../media/plan-plan-save-button.png)
 
 --8<-- [end:ConfigureProject]
 
@@ -143,22 +143,22 @@ Do not forget to save the project to keep the changes!
 [GoBackToDemoOverview]: ../index.md
 [GoBackToParentIndex]: ../index.md#work-with-boards
 [NextLab]: ../index.md#work-with-queries
-[plan-new-workitem]: media/Plan_New_WorkItem.png
-[plan-wi-list]: media/Plan_New_WI_List.png
-[plan-new-project]: media/Plan_New_Project_Main.png
-[plan-project-data]: media/Plan_Project_New_withData.png
-[plan-edit-btn]: media/Plan_Project_EDIT_Button.png
-[plan-releases-section]: media/Plan_Project_Releases_Section.png
-[plan-releases-search]: media/Plan_Project_Releases_Search.png
-[plan-new-release]: media/Plan_Project_Releases_New_Release.png
-[plan-releases-list]: media/Plan_Project_Releaseslist.png
-[plan-sprint-list]: media/Plan_Project_Sprintlist.png
-[plan-sprint-list-new]: media/Plan_Project_SprintList_New.png
-[plan-sprint-dialog]: media/Plan_Project_Sprint_New_Dialog.png
-[plan-sprint-added]: media/Plan_Project_SprintList_added.png
-[plan-sprint-more]: media/Plan_Project_SprintList_moreadded.png
-[plan-configure]: media/Plan_New_Project_Configure.png
-[plan-project-configure]: media/Plan_Project_Configure.png
-[plan-component-list]: media/Plan_Project_ComponentList.png
-[plan-component-create]: media/Plan_Project_Component_create.png
-[plan-component-withdata]: media/Plan_Project_ComponentList_withdata.png
+[plan-new-workitem]: media/plan-newproject-plan-new-work-item.png
+[plan-wi-list]: media/plan-newproject-plan-new-wi-list.png
+[plan-new-project]: media/plan-newproject-plan-new-project-main.png
+[plan-project-data]: media/plan-newproject-plan-project-new-with-data.png
+[plan-edit-btn]: media/plan-newproject-plan-project-edit-button.png
+[plan-releases-section]: media/plan-newproject-plan-project-releases-section.png
+[plan-releases-search]: media/plan-newproject-plan-project-releases-search.png
+[plan-new-release]: media/plan-newproject-plan-project-releases-new-release.png
+[plan-releases-list]: media/plan-newproject-plan-project-releaseslist.png
+[plan-sprint-list]: media/plan-newproject-plan-project-sprintlist.png
+[plan-sprint-list-new]: media/plan-newproject-plan-project-sprint-list-new.png
+[plan-sprint-dialog]: media/plan-newproject-plan-project-sprint-new-dialog.png
+[plan-sprint-added]: media/plan-newproject-plan-project-sprint-list-added.png
+[plan-sprint-more]: media/plan-newproject-plan-project-sprint-list-moreadded.png
+[plan-configure]: media/plan-newproject-plan-new-project-configure.png
+[plan-project-configure]: media/plan-newproject-plan-project-configure.png
+[plan-component-list]: media/plan-newproject-plan-project-component-list.png
+[plan-component-create]: media/plan-newproject-plan-project-component-create.png
+[plan-component-withdata]: media/plan-newproject-plan-project-component-list-withdata.png

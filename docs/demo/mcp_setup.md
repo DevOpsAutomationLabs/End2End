@@ -41,7 +41,7 @@ Add the MCP Servers into the mcp.json file in the "servers" section.
 
 ### Loop MCP Server
 
-The Loop MCP server uses single sign on for authentication so the setup is very simple. Please have a look at the [documentation for Loop MCP server usage](https://www.ibm.com/docs/en/devops-loop/2.0.1?topic=administration-devops-loop-mcp-server). There is no local MCP Server available.
+The Loop MCP server uses single sign on for authentication so the setup is very simple. Please have a look at the [documentation for Loop MCP server usage](https://www.ibm.com/docs/en/devops-loop/2.0.2?topic=administration-devops-loop-mcp-server). There is no local MCP Server available.
 
 #### Configure the MCP Server Section
 
@@ -95,7 +95,7 @@ Please have a look at the [Testhub Documentation how to configure the MCP server
 learn/test/index.md:PATTest
 --8<--
 
-#### Configure the MCP Server Section
+#### Configure the Test MCP Server
 
 Use your token and replace the ```<test token>``` part with your token in the Test MCP Server section.
 
@@ -136,7 +136,7 @@ $encoded  = [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes("Pas
 write-output $encoded
 ```
 
-#### Configure the MCP Server Section
+#### Configure the Deploy MCP Server
 
 Use the output and replace the ```<base64 encoded deploy token>``` part with it in the Deploy MCP Server section.
 
@@ -160,7 +160,7 @@ Measure and Release use the services of DevOps Velocity. Please have a look at t
 learn/measure/index.md:PATMeasure
 --8<--
 
-#### Configure the MCP Server Section
+#### Configure the Velocity (Measure/Release) MCP Server
 
 Use your User Access Key and replace the ```<velocity token>``` part with your token in the Velocity MCP Server section.
 
@@ -189,7 +189,7 @@ learn/plan/setup/index.md:PATPlan
 learn/plan/setup/index.md:PlanGetDBID
 --8<--
 
-#### Configure the MCP Server Section
+#### Configure the Plan MCP Server
 
 Use your Personal Access token and replace the ```<plan token>``` part with your token in the Plan MCP Server section, replace the ```<teamspace id>```with the value of the DB ID.
 
@@ -281,11 +281,11 @@ Here the mcp.json template file using available remote MCP server and the local 
 [VSCodeMCPServer]: https://code.visualstudio.com/docs/copilot/customization/mcp-servers
 [VSMarketplaceMCP]: https://marketplace.visualstudio.com/search?term=%40mcp&target=VSCode&category=Other&sortBy=Relevance
 
-[VSCviewCP]: media/Demo_VSCode_Command_Palette.png
-[VSCCPAddMCPServer]: media/Demo_VSCode_Command_add_MCP_Server.png
-[VSCAddMCPStep1]: media/Demo_VSCode_add_MCP_server_Step1.png
-[VSCAddMCPStep2]: media/Demo_VSCode_add_MCP_server_Step2.png
-[VSCAddMCPStep3]: media/Demo_VSCode_add_MCP_server_Step3.png
-[VSCAddMCPStep4]: media/Demo_VSCode_add_MCP_server_Step4.png
-[VSCMCPList]: media/Demo_MCP_Server_List_View.png
-[VSCMCPjson]: media/Demo_MCP_json_view.png
+[VSCviewCP]: media/demo-demo-vs-code-command-palette.png
+[VSCCPAddMCPServer]: media/demo-demo-vs-code-command-add-mcp-server.png
+[VSCAddMCPStep1]: media/demo-demo-vs-code-add-mcp-server-step-01.png
+[VSCAddMCPStep2]: media/demo-demo-vs-code-add-mcp-server-step-02.png
+[VSCAddMCPStep3]: media/demo-demo-vs-code-add-mcp-server-step-03.png
+[VSCAddMCPStep4]: media/demo-demo-vs-code-add-mcp-server-step-04.png
+[VSCMCPList]: media/demo-demo-mcp-server-list-view.png
+[VSCMCPjson]: media/demo-demo-mcp-json-view.png

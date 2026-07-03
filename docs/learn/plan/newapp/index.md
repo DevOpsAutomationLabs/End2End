@@ -40,14 +40,14 @@
 
 [GoBackToParentIndex]: ../index.md#lets-go-with-plan
 
-[AddAppButton]: media/PLAN_Tenant_AddAppButton.png
-[DialogNewApp]: media/PLAN_Tenant_CreateNewApp.png
-[NextButton]: media/PLAN_Tenant_NewAppNext.png
-[NewAppDetails]: media/PLAN_Tenant_NewAppDialog.png
-[FinishButton]: media/PLAN_Tenant_NewApp_Finish.png
-[AppCreationProcess]: media/PLAN_Tenant_NewApp_creation.png
-[Application List]: media/PLAN_Tenant_AppListFinal.png
-[LetsGoButton]: ../media/PLAN_LetsGoButton.png
-[DotsMenue]: media/PLAN_Tenant_HowToSwitch1.png
-[TenantMngmnt]: media/PLAN_Tenant_HowToSwitch2.png
-[TenantList]: media/PLAN_Tenant_list.png
+[AddAppButton]: media/plan-newapp-tenant-add-app-button.png
+[DialogNewApp]: media/plan-newapp-tenant-create-new-app.png
+[NextButton]: media/plan-newapp-tenant-new-app-next.png
+[NewAppDetails]: media/plan-newapp-tenant-new-app-dialog.png
+[FinishButton]: media/plan-newapp-tenant-new-app-finish.png
+[AppCreationProcess]: media/plan-newapp-tenant-new-app-creation.png
+[Application List]: media/plan-newapp-tenant-app-list-final.png
+[LetsGoButton]: ../media/plan-lets-go-button.png
+[DotsMenue]: media/plan-newapp-tenant-how-to-switch-01.png
+[TenantMngmnt]: media/plan-newapp-tenant-how-to-switch-02.png
+[TenantList]: media/plan-newapp-tenant-list.png

@@ -9,3 +9,7 @@ docs/modernization-plan.md
 .playwright-mcp
 bob_*.md
 bob*
+site
+# Playwright screenshot automation
+scripts/screenshots/.env
+scripts/screenshots/.session.json

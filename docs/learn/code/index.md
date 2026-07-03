@@ -20,7 +20,7 @@ To learn more about DevOps Code please have a look at the [documentation][CodeDo
 
 | Step | Details                                                                                          | Additional Information { width="50%" }                      |
 |:----:|:-------------------------------------------------------------------------------------------------|:------------------------------------------------------------|
-|  1   | You can always switch using the central app switcher on the top left of your screen              | ![Central App Switcher][AppSwitcher]                        |
+|  1   | You can always switch using the central app switcher on the right side of your screen              | ![Central App Switcher][CentralAppSwitcher]                        |
 |  2   | Overview Page of Code is shown with two tabs.                                                    | ![Two sub tabs][CodeDevContainerView]                       |
 |  3   | One for Running Dev Containers                                                                   |                                                             |
 | 3.1  | Which may be empty when no Dev Container has been started                                        | ![No running Dev Container][NoRunningDevContainer]          |
@@ -99,36 +99,36 @@ Congratulations you have commited your first change into your repository. In the
 
 Switch Back to Control and verify that in the activity view you have your commit visible:
 
-![New Activity in Control](../Control/media/Control_NewActivity.png)
+![New Activity in Control](../Control/media/control-control-new-activity.png)
 
  -->
 
 ---
 
-[AppSwitcher]: ../introduction/media/Loop_central_app_control.png
-[WCAxExplain1]: media/CODE_WCAx_Explain1.png
-[WCAExplain2]: media/CODE_WCAx_Explain2.png
-[CommitWithWI]: media/CODE_CommitWithWI.png
+[CentralAppSwitcher]: ../introduction/media/intro-loop-central-app-control.png
+[WCAxExplain1]: media/code-wc-ax-explain-01.png
+[WCAExplain2]: media/code-wc-ax-explain-02.png
+[CommitWithWI]: media/code-commit-with-wi.png
 [REFControlOpenWithCode]: ../control/index.md#open-repo-with-code
 <!-- [CODEcommitWI]: index.md#commit-code-with-wi -->
 
-[CodeDevContainerView]: media/Code_Dev_Container_two_tabs.png
-[NoRunningDevContainer]: media/Code_No_running_dev_containers.png
-[ListOfRunningDevContainer]: media/Code_Running_Dev_Containers.png
-[LetsGoButton]: media/Code_Dev_Container_LetsGo.png
-[TerminateButton]: media/Code_Dev_Container_Terminate.png
-[ListOfAvailableDevContainer]: media/Code_Dev_Container_Overview_Page.png
-[SettingUpEnv]: media/Code_Setting_Up_Environment.png
-[WCAxNoRepo]: media/Code_WatsonX_Dev_Container_no_Rep.png
-[CommitAndPush]: media/Code_Commit_and_Push.png
-[GitStagingQuestion]: media/Code_Git_Stage_Question.png
-[GitFetchQuestion]: media/Code_Git_Fetch_Question.png
-[CodeDocumentation]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=loop-code
-[code-logout]: media/Code_LogoutIcon.png
-[code-terminate]: media/Code_Terminate_Environment.png
-[code-file-changed]: media/Code_NewFileChanges.png
-[code-sc-icon]: media/Code_SourceControl_Icon.png
-[code-changes-view]: media/Code_ChangesView.png
-[code-commit-menu]: media/Code_CommitChangesMenu.png
-[code-commit-popup]: media/Code_CommitStageChangesPopup.png
-[code-graph-view]: media/Code_GitGraphView.png
+[CodeDevContainerView]: media/code-code-dev-container-two-tabs.png
+[NoRunningDevContainer]: media/code-code-no-running-dev-containers.png
+[ListOfRunningDevContainer]: media/code-code-running-dev-containers.png
+[LetsGoButton]: media/code-code-dev-container-lets-go.png
+[TerminateButton]: media/code-code-dev-container-terminate.png
+[ListOfAvailableDevContainer]: media/code-code-dev-container-overview-page.png
+[SettingUpEnv]: media/code-code-setting-up-environment.png
+[WCAxNoRepo]: media/code-code-watson-x-dev-container-no-rep.png
+[CommitAndPush]: media/code-code-commit-and-push.png
+[GitStagingQuestion]: media/code-code-git-stage-question.png
+[GitFetchQuestion]: media/code-code-git-fetch-question.png
+[CodeDocumentation]: https://www.ibm.com/docs/en/devops-loop/2.0.2?topic=loop-code
+[code-logout]: media/code-code-logout-icon.png
+[code-terminate]: media/code-code-terminate-environment.png
+[code-file-changed]: media/code-code-new-file-changes.png
+[code-sc-icon]: media/code-code-source-control-icon.png
+[code-changes-view]: media/code-code-changes-view.png
+[code-commit-menu]: media/code-code-commit-changes-menu.png
+[code-commit-popup]: media/code-code-commit-stage-changes-popup.png
+[code-graph-view]: media/code-code-git-graph-view.png
