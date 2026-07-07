@@ -7,8 +7,6 @@ docs/modernization-plan.md
 .bob
 .cache/plugin/social
 .playwright-mcp
-bob_*.md
-bob*
 site
 # Playwright screenshot automation
 scripts/screenshots/.env

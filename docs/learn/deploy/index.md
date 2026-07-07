@@ -36,7 +36,7 @@ Explore the comprehensive dashboard provided by DevOps Deploy, which displays ke
 | Step | Details                                                                                                  | Additional Information                                         |
 |:----:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
 |      | **Central App Switcher**                                                                                 |                                                                |
-|      | Or you can always switch using the central app switcher on the right side of your screen:                  | ![Central App Switcher][CentralAppSwitcher]                    |
+|      | Or you can always switch using the central app switcher on the right side of your screen:                | ![Central App Switcher][CentralAppSwitcher]                    |
 |      | **What would you like to do today**                                                                      |                                                                |
 |      | You can switch directly to Deploy by using the button/link from What would you like to do today section: | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
@@ -112,7 +112,7 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 ### Create New Application
 
---8<-- "learn/deploy/applications/index.md:CreateNewApplication"
+--8<-- "docs/learn/deploy/applications/index.md:CreateNewApplication"
 
 --8<-- [end:Applications]
 
@@ -128,7 +128,7 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 ### Create New Component
 
---8<-- "learn/deploy/components/index.md:CreateNewComponent"
+--8<-- "docs/learn/deploy/components/index.md:CreateNewComponent"
 
 --8<-- [end:Components]
 
@@ -161,17 +161,17 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 --8<-- [start:RequestProcess]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | Click on **Request Process** Button | ![Request Button][DeployAppRequestProcessButton] |
-| 2 | On the DEV Environment | ![Dev Environment][DeployAppDevEnv] |
-| 3 | Select Deployment Process | ![Run Process Dialog - Select Deployment Process][DeployAppProcessRequestSelectProcess] |
-| 4 | Select Version or Snapshot | ![Run Process Dialog - Select Version Or Snapshot][DeployAppProcessRequestSelectSnapsotOrVersions] |
-| 5 | Uncheck Deploy Only Changed | ![Run Process Dialog - uncheck Deploy Only Changed][DeployAppProcessRequestOnlyChanged] |
-| 6 | Click **Choose Versions** Button | ![Run Process Dialog - Choose Versions Button][DeployAppPocessRequestChooseCompVersionButton] |
-| 7 | Select Component Version (first component) | ![Run Process Dialog - Select Component Version 1][DeployAppPocessRequestSelectCompVersion1] |
-| 8 | Select Component Version (second component) | ![Run Process Dialog - Select Component Version 2][DeployAppPocessRequestSelectCompVersion2] |
-| 9 | Press **Submit** to start the deployment | ![Submit Button][DeployAppPocessRequestSubmitButton] |
+| Step | Details                                     | Additional Information                                                                             |
+|:----:|:--------------------------------------------|:---------------------------------------------------------------------------------------------------|
+|  1   | Click on **Request Process** Button         | ![Request Button][DeployAppRequestProcessButton]                                                   |
+|  2   | On the DEV Environment                      | ![Dev Environment][DeployAppDevEnv]                                                                |
+|  3   | Select Deployment Process                   | ![Run Process Dialog - Select Deployment Process][DeployAppProcessRequestSelectProcess]            |
+|  4   | Select Version or Snapshot                  | ![Run Process Dialog - Select Version Or Snapshot][DeployAppProcessRequestSelectSnapsotOrVersions] |
+|  5   | Uncheck Deploy Only Changed                 | ![Run Process Dialog - uncheck Deploy Only Changed][DeployAppProcessRequestOnlyChanged]            |
+|  6   | Click **Choose Versions** Button            | ![Run Process Dialog - Choose Versions Button][DeployAppPocessRequestChooseCompVersionButton]      |
+|  7   | Select Component Version (first component)  | ![Run Process Dialog - Select Component Version 1][DeployAppPocessRequestSelectCompVersion1]       |
+|  8   | Select Component Version (second component) | ![Run Process Dialog - Select Component Version 2][DeployAppPocessRequestSelectCompVersion2]       |
+|  9   | Press **Submit** to start the deployment    | ![Submit Button][DeployAppPocessRequestSubmitButton]                                               |
 
 --8<-- [end:RequestProcess]
 
@@ -179,12 +179,12 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 --8<-- [start:ViewRunningProcess]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | The details of the running process are shown | ![Running Process][DeployProcessRunning] |
-| 2 | Click on **Expand All** to see step details | ![Expand All][DeployProcessRunningExpandAllButton] |
-| 3 | Click on **3 dots menu** of a step | ![3 dots menu of step][DeployProcessRunning3DotsofStep] |
-| 4 | View the output of the step | ![Output of Step][DeployProcessRunningStepOutputDetails] |
+| Step | Details                                      | Additional Information                                   |
+|:----:|:---------------------------------------------|:---------------------------------------------------------|
+|  1   | The details of the running process are shown | ![Running Process][DeployProcessRunning]                 |
+|  2   | Click on **Expand All** to see step details  | ![Expand All][DeployProcessRunningExpandAllButton]       |
+|  3   | Click on **3 dots menu** of a step           | ![3 dots menu of step][DeployProcessRunning3DotsofStep]  |
+|  4   | View the output of the step                  | ![Output of Step][DeployProcessRunningStepOutputDetails] |
 
 --8<-- [end:ViewRunningProcess]
 
@@ -192,10 +192,10 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 --8<-- [start:ResultOfRun]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | The deployment ran successfully | ![Deployment Success][DeployAppProcessRunSuccess] |
-| 2 | Environment updated with deployed component versions | ![Environment with deployed versions of components][DeployAppEnvwithDeployedVersions] |
+| Step | Details                                              | Additional Information                                                                |
+|:----:|:-----------------------------------------------------|:--------------------------------------------------------------------------------------|
+|  1   | The deployment ran successfully                      | ![Deployment Success][DeployAppProcessRunSuccess]                                     |
+|  2   | Environment updated with deployed component versions | ![Environment with deployed versions of components][DeployAppEnvwithDeployedVersions] |
 
 --8<-- [end:ResultOfRun]
 
@@ -206,13 +206,13 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 !!! info "Coming Soon"
     A description of snapshots and their purpose will be added here.
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | Select the **Create Snapshot** Icon | ![Create Snapshot][CreateSnapshotIcon] |
-| 2 | The Create Snapshot dialog opens | ![Create Snapshot dialog][CreateSnapshotDialog] |
-| 3 | Review snapshot details (step 1) | ![Create Snapshot Detail step 1][CreateSnapshotDetail1] |
-| 4 | Review snapshot details (step 2) | ![Create Snapshot Detail step 2][CreateSnapshotDetail2] |
-| 5 | Environment configuration updated — Snapshot is now applied | ![Snapshot on environment][SnapshotApplied] |
+| Step | Details                                                     | Additional Information                                  |
+|:----:|:------------------------------------------------------------|:--------------------------------------------------------|
+|  1   | Select the **Create Snapshot** Icon                         | ![Create Snapshot][CreateSnapshotIcon]                  |
+|  2   | The Create Snapshot dialog opens                            | ![Create Snapshot dialog][CreateSnapshotDialog]         |
+|  3   | Review snapshot details (step 1)                            | ![Create Snapshot Detail step 1][CreateSnapshotDetail1] |
+|  4   | Review snapshot details (step 2)                            | ![Create Snapshot Detail step 2][CreateSnapshotDetail2] |
+|  5   | Environment configuration updated — Snapshot is now applied | ![Snapshot on environment][SnapshotApplied]             |
 
 --8<-- [end:CreateSnapshot]
 
@@ -220,14 +220,14 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 --8<-- [start:UseDeployGenie]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | [Request a new deployment process][REFRequestAProcess] to simulate a failure | |
-| 2 | Select Deployment Process **Failing Deployment** | ![Failing Deployment Process][RunSelectFailingDeployment] |
-| 3 | Select Versions: **Echo** → v1.0, **Logic** → v2.0.0 | ![Select Versions for Components][RunFailSelectCompVersions] |
-| 4 | The result will be a failed deployment | ![Failed Result][RunFailed] |
-| 5 | Click **3 dots** menu of the failing step to show menu | ![3 dots menu][DeployPlugin3DotsMenue] ![menu with Genie][Step3DotsMenueWithGenie] |
-| 6 | Click **Deployment Genie** — results shown after analysis | ![AI Analyzed][GenieAnalysis] |
+| Step | Details                                                                      | Additional Information                                                             |
+|:----:|:-----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|
+|  1   | [Request a new deployment process][REFRequestAProcess] to simulate a failure |                                                                                    |
+|  2   | Select Deployment Process **Failing Deployment**                             | ![Failing Deployment Process][RunSelectFailingDeployment]                          |
+|  3   | Select Versions: **Echo** → v1.0, **Logic** → v2.0.0                         | ![Select Versions for Components][RunFailSelectCompVersions]                       |
+|  4   | The result will be a failed deployment                                       | ![Failed Result][RunFailed]                                                        |
+|  5   | Click **3 dots** menu of the failing step to show menu                       | ![3 dots menu][DeployPlugin3DotsMenue] ![menu with Genie][Step3DotsMenueWithGenie] |
+|  6   | Click **Deployment Genie** — results shown after analysis                    | ![AI Analyzed][GenieAnalysis]                                                      |
 
 --8<-- [end:UseDeployGenie]
 
