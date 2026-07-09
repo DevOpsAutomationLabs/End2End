@@ -112,7 +112,7 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 ### Create New Application
 
---8<-- "docs/learn/deploy/applications/index.md:CreateNewApplication"
+--8<-- docs/learn/deploy/applications/index.md:CreateNewApplication
 
 --8<-- [end:Applications]
 
@@ -128,7 +128,7 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 ### Create New Component
 
---8<-- "docs/learn/deploy/components/index.md:CreateNewComponent"
+--8<-- docs/learn/deploy/components/index.md:CreateNewComponent
 
 --8<-- [end:Components]
 

@@ -69,7 +69,7 @@ To use the platform you have to be onboarded onto it. This is normally done by y
 |     | Details                                                                                                                   | Additional Information                                         |
 |:---:|:--------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
 |     | There are several ways to switch to the capabilites (Plan, _Model_, Control, Code, Build, Deploy, Test, Measure, Release) |                                                                |
-|  1  | by using the central app switcher on the right side of your screen                                           | ![Central App Switcher][CentralAppSwitcher]                    |
+|  1  | by using the central app switcher on the right side of your screen                                                        | ![Central App Switcher][CentralAppSwitcher]                    |
 |  2  | by using the "What would you like to do today?" Menu on the bottom of the Dashboard                                       | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 | 2.1 | Only the capabilities fully integrated into Teamspaces and Loops are shown                                                |                                                                |
 
@@ -166,3 +166,5 @@ learn/introduction/loops/index.md:CreateNewLoop
 
 [CreateTSandLoop]: #setup-a-teamspace-and-loop
 [SwitchTeamSpaces]: #switch-between-teamspaces-and-back-to-home
+
+[GenieButton]: genie/media/intro-genie-loop-genie-button.png
