@@ -24,7 +24,7 @@ This lab will provide you with a practical hands-on of our testing capabilities.
 
 | Step | Details                                                                                                  | Additional Information                                         |
 |:----:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | You can always switch using the central app switcher on the right side of your screen                      | ![Central App Switcher][CentralAppSwitcher]                    |
+|  1   | You can always switch using the central app switcher on the right side of your screen                    | ![Central App Switcher][CentralAppSwitcher]                    |
 |  2   | Or You can switch directly to Test by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 --8<-- [end:SWITCH2Test]
@@ -70,10 +70,10 @@ This lab will provide you with a practical hands-on of our testing capabilities.
 |      | Click on **Execute** Button to start Test Execution                                                | ![Execute Button][ButtonExecute]                 |
 |      | Run will take a few moments                                                                        | ![Running Script][RunningScript]                 |
 |      | Show the analysis of the test results                                                              |                                                  |
-|      | click on **Analyze** section in Sidebar to get list of Menu                                       | ![Analyze Section][SectionAnalyze]               |
+|      | click on **Analyze** section in Sidebar to get list of Menu                                        | ![Analyze Section][SectionAnalyze]               |
 |      | click on **Results** to get Results View                                                           | ![Results Overview][ResultsOverview]             |
 |      | Show how we can create or edit a test                                                              |                                                  |
-|      | click on **Author** section on **Test Editor** menu entry                                         | ![Test Author Section][SectionAuthor]            |
+|      | click on **Author** section on **Test Editor** menu entry                                          | ![Test Author Section][SectionAuthor]            |
 |      | Test Editor View opens and select the **DemoTestFail** script                                      | ![Test Editor View][TestEditorView]              |
 |      | Test Script will be shown                                                                          | ![Test Script][TestScriptEditor]                 |
 |      | click on the **verification** step to view step details                                            | ![Step Details][TestScriptStepDetails]           |
@@ -83,7 +83,7 @@ This lab will provide you with a practical hands-on of our testing capabilities.
 |      | click on **Run Button** on the right of Script **DemoTestFail**                                    | ![Run Button][ButtonRun]                         |
 |      | Testexecution will take a few moments.                                                             |                                                  |
 |      | Create a defect in Plan and show that is has all the data automatically                            |                                                  |
-|      | Switch to Results View using the **Analyze** Section menu                                         | ![Analyze Section menu][MenueAnalyze]           |
+|      | Switch to Results View using the **Analyze** Section menu                                          | ![Analyze Section menu][MenueAnalyze]            |
 |      | In the **Results** View select the **DemoTestFail** run                                            | ![Results Overview][ResultsOverview]             |
 |      | Click on **DevOps Plan** ![Create ticket icon][CreateTicketIcon] Icon on the right side of the row | ![Failed Test][ResultsFailedTest]                |
 |      | A WorkItem creation Dialog opens, select **Workitem** in the Type field                            | ![CreateWI][WICreatedialog]                      |

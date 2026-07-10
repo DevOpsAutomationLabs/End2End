@@ -16,7 +16,7 @@ To learn more about DevOps Control please have a look at the [documentation][Con
 
 | Step | Details                                                                                                     | Additional Information                                         |
 |:----:|:------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-|      | You can always switch using the central app switcher on the right side of your screen                         | ![Central App Switcher][CentralAppSwitcher]                    |
+|      | You can always switch using the central app switcher on the right side of your screen                       | ![Central App Switcher][CentralAppSwitcher]                    |
 |      | Or You can switch directly to Control by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 --8<-- [end:SWITCH2Control]
@@ -85,17 +85,17 @@ The home page for Control is the Repositories and Organizations view. In this vi
 
 --8<-- [start:PATControl]
 
-| Step | Details                                                                                                                 | Additional Information                             |
-|:----:|:------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
-|      | For external access to the repositories you need to provide an Access Token                                             |                                                    |
-|      | to create a new token, click on your **User Profile** and select **Settings**                                           | ![User Profile][ControlUserProfile]                |
-|      | In the Settings view click on Access Tokens then enter a Token name to identify its purpose                             | ![Name for new PAT][ControlNewPATName]             |
-|      | Click on **Select Permissions** to set the access rights, select **All** to cover all repositories                      | ![Open Select Permissions][ControlOpenPermissions] |
+| Step | Details                                                                                                                  | Additional Information                             |
+|:----:|:-------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
+|      | For external access to the repositories you need to provide an Access Token                                              |                                                    |
+|      | to create a new token, click on your **User Profile** and select **Settings**                                            | ![User Profile][ControlUserProfile]                |
+|      | In the Settings view click on Access Tokens then enter a Token name to identify its purpose                              | ![Name for new PAT][ControlNewPATName]             |
+|      | Click on **Select Permissions** to set the access rights, select **All** to cover all repositories                       | ![Open Select Permissions][ControlOpenPermissions] |
 |      | You can set any permission setting as you need it. Please be aware to limit the access though to prevent security issues |                                                    |
-|      | Example: Set **Repository** to *Read and Write* and Set **User** to *Read*                                              | ![Set Permissions][ControlPATSetPermissions]       |
-|      | These settigs are the minimal needed to provide access to work with your repository through external tools              | ![Create AccessToken][ControlCreateAccesstoken]    |
-|      | Press **Generate Token**                                                                                                | ![Generate Token][ControlGeneratePATButton]        |
-|      | Do not to forget to **Copy and Paste the token!**                                                                       | ![AccessToken][ControlAccessToken]                 |
+|      | Example: Set **Repository** to *Read and Write* and Set **User** to *Read*                                               | ![Set Permissions][ControlPATSetPermissions]       |
+|      | These settigs are the minimal needed to provide access to work with your repository through external tools               | ![Create AccessToken][ControlCreateAccesstoken]    |
+|      | Press **Generate Token**                                                                                                 | ![Generate Token][ControlGeneratePATButton]        |
+|      | Do not to forget to **Copy and Paste the token!**                                                                        | ![AccessToken][ControlAccessToken]                 |
 
 --8<-- [end:PATControl]
 
@@ -112,7 +112,7 @@ The home page for Control is the Repositories and Organizations view. In this vi
 | Step | Details                                                                                                  | Additional Information { width="50%" }              |
 |:----:|:---------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
 |  1   | Open the **Echologic** repository which has been created with the learning data                          | ![learning data repo][ControlLearningRepo]          |
-|  2   | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menu.                    | ![Code Button Expanded][ButtonCodeExpanded]         |
+|  2   | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menu.                     | ![Code Button Expanded][ButtonCodeExpanded]         |
 |  3   | Click on **Open with Code**                                                                              | ![open with Code][OpenWithCode]                     |
 |  4   | A new dialog appears to select the right Dev Container for cloning the repository                        | ![Select from List][SelectFromListDC1]              |
 | 4.1  | Scroll down to see more entries                                                                          | ![More Entries in List][SelectFromListDC2]          |
@@ -128,15 +128,15 @@ The home page for Control is the Repositories and Organizations view. In this vi
 
 --8<-- [start:OpenRepoWithVSCode]
 
-| Step | Details                                                                               | Additional Information { width="50%" }                     |
-|:----:|:--------------------------------------------------------------------------------------|:-----------------------------------------------------------|
+| Step | Details                                                                              | Additional Information { width="50%" }                     |
+|:----:|:-------------------------------------------------------------------------------------|:-----------------------------------------------------------|
 |  1   | Click on **CODE** Button ![code button expaned][ButtonCode] to get an expanded Menu. | ![Code Button Expanded][ButtonCodeExpanded]                |
-|  2   | Click on **Open with VSCode**                                                         | ![open with vscode][OpenWithVSCode]                        |
-|  3   | In the following **Dialog Window** allow to open Link                                 | ![Allow to open VSCode by link][AllowToOpenVSCode]         |
-|  4   | VSCode will ask you for a location to clone the folder                                | ![Target Folder for cloning][SelectTargetFolderforCloning] |
-|  5   | VSCode will ask for Control Userid, enter **<demo@devops.loop>**                      | ![Code asking for Userid][CodeEnterUserID]                 |
-|  6   | VSCode will ask for Control Token, enter your **Access Token**                        | ![Code asking for Password or Token][CodeEnterPAT]         |
-|  7   | which you created in the [Access Token Section][REFPATSection]                        |                                                            |
+|  2   | Click on **Open with VSCode**                                                        | ![open with vscode][OpenWithVSCode]                        |
+|  3   | In the following **Dialog Window** allow to open Link                                | ![Allow to open VSCode by link][AllowToOpenVSCode]         |
+|  4   | VSCode will ask you for a location to clone the folder                               | ![Target Folder for cloning][SelectTargetFolderforCloning] |
+|  5   | VSCode will ask for Control Userid, enter **<demo@devops.loop>**                     | ![Code asking for Userid][CodeEnterUserID]                 |
+|  6   | VSCode will ask for Control Token, enter your **Access Token**                       | ![Code asking for Password or Token][CodeEnterPAT]         |
+|  7   | which you created in the [Access Token Section][REFPATSection]                       |                                                            |
 
 --8<-- [end:OpenRepoWithVSCode]
  -->

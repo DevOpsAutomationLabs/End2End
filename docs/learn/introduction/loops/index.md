@@ -17,7 +17,7 @@ A loop consists of several interconnected phases for connecting DevOps activitie
 | Step | Details                                         | Additional Information    |
 |:----:|:------------------------------------------------|:--------------------------|
 |  1   | Your freshly created teamspace has no Loop yet. | ![Loops - Home][LoopHome] |
-‚
+
 ### Step by Step instructions
 
 --8<-- [start:CreateNewLoop]
@@ -26,7 +26,7 @@ A loop consists of several interconnected phases for connecting DevOps activitie
 |:----:|:--------------------------------------------------------------------------------------------|:-----------------------------------------------------------------|
 |  1   | Press the **Create Loop** Button                                                            | ![Create New Loop Button][CreateNewLoopButton]                   |
 |  2   | In the Loop creation Dialog enter a name and a description                                  | ![Loops - Create New - Dialog][CreateNewDialog]                  |
-|      | Please check the **Learning Loop** switch to import learning data into your new Loop        | ![Learning Data][WithLearningData]   |
+|      | Please check the **Learning Loop** switch to import learning data into your new Loop        | ![Learning Data][WithLearningData]                               |
 |  3   | press the **Next** Button to proceed                                                        | ![Next Button][NextButton]                                       |
 |  4   | You can search and add a Teammember to the Loop                                             | ![Loops - Create New - search Member][SearchAddMember]           |
 |      | a new Member is added                                                                       | ![Loops - Create New - member added][AddedMember]                |

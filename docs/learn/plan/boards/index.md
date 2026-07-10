@@ -47,9 +47,9 @@ TODO: Show the board with data and expain what it is good for and how to use it
 
 --8<-- [start:FilterProjects]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | Select Project from the Board filter | ![Board Select Project][BoardSelectProject] |
+| Step | Details                              | Additional Information                      |
+|:----:|:-------------------------------------|:--------------------------------------------|
+|  1   | Select Project from the Board filter | ![Board Select Project][BoardSelectProject] |
 
 --8<-- [end:FilterProjects]
 
@@ -71,9 +71,9 @@ TODO: Show the board with data and expain what it is good for and how to use it
 
 --8<-- [start:ShowReleases]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | View Releases on the Board | ![Board Releases][BoardShowReleases] |
+| Step | Details                    | Additional Information               |
+|:----:|:---------------------------|:-------------------------------------|
+|  1   | View Releases on the Board | ![Board Releases][BoardShowReleases] |
 
 --8<-- [end:ShowReleases]
 
@@ -81,9 +81,9 @@ TODO: Show the board with data and expain what it is good for and how to use it
 
 --8<-- [start:ShowSprints]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | View Sprint Board | ![Board Sprint Board][BoardShowSprintBoard] |
+| Step | Details           | Additional Information                      |
+|:----:|:------------------|:--------------------------------------------|
+|  1   | View Sprint Board | ![Board Sprint Board][BoardShowSprintBoard] |
 
 --8<-- [end:ShowSprints]
 
@@ -91,9 +91,9 @@ TODO: Show the board with data and expain what it is good for and how to use it
 
 --8<-- [start:ShowSprintBacklog]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | View Sprint Backlog | ![Board Sprint Backlog][BoardShowSprintBacklog] |
+| Step | Details             | Additional Information                          |
+|:----:|:--------------------|:------------------------------------------------|
+|  1   | View Sprint Backlog | ![Board Sprint Backlog][BoardShowSprintBacklog] |
 
 --8<-- [end:ShowSprintBacklog]
 

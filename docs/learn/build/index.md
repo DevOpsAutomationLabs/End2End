@@ -8,7 +8,7 @@
 
 | Step | Details                                                                                                   | Additional Information                                         |
 |:----:|:----------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-|      | You can always switch using the central app switcher on the right side of your screen                       | ![Central App Switcher][CentralAppSwitcher]                    |
+|      | You can always switch using the central app switcher on the right side of your screen                     | ![Central App Switcher][CentralAppSwitcher]                    |
 |      | Or You can switch directly to Build by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 --8<-- [end:SWITCH2Build]
@@ -127,17 +127,17 @@ Access Token (also known as Personal Access Token, short PAT) are needed for ext
 
 --8<-- [start:PATBuild]
 
-| Step | Details                                                                                                       | Additional Information                                    |
-|:----:|:--------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
-|      | For external access to the build functions you need to provide an Access Token                                |                                                           |
-|      | To create a new token please switch to the **System** ![System][BuildSideBarSystem] settings from the Sidebar | ![Build Sidebar][BuildSidebar]                            |
-|      | System Settings view is shown.                                                                                | ![System Settings][BuildSystemSettings]                   |
-|      | Click on **Auth token** ![auth Token][BuildPATSettings]                                                       | ![Security Settings][BuildSecuritySettings]               |
-|      | A new view with existing Access tokens is shown                                                               | ![List of existing PAT][BuildPATList]                     |
-|      | Click on **Create Auth token** ![Create PAT Button][BuildGeneratePATButton] Button and a new Dialog is shown  | ![Create PAT dialog][BuildPATDialog]                      |
-|      | Fill in the required fields for User, Expiration and a comment then press the **Save** Button                 | ![Save Button][ButtonSave]                                |
-|      | An updated Authorization Token List view is shown with new token                                              | ![Updated list][BuildPATListUpdated]                      |
-|      | Copy new Access Token and use in external tool                                                                | ![New PAT details][build-pat-details] |
+| Step | Details                                                                                                       | Additional Information                      |
+|:----:|:--------------------------------------------------------------------------------------------------------------|:--------------------------------------------|
+|      | For external access to the build functions you need to provide an Access Token                                |                                             |
+|      | To create a new token please switch to the **System** ![System][BuildSideBarSystem] settings from the Sidebar | ![Build Sidebar][BuildSidebar]              |
+|      | System Settings view is shown.                                                                                | ![System Settings][BuildSystemSettings]     |
+|      | Click on **Auth token** ![auth Token][BuildPATSettings]                                                       | ![Security Settings][BuildSecuritySettings] |
+|      | A new view with existing Access tokens is shown                                                               | ![List of existing PAT][BuildPATList]       |
+|      | Click on **Create Auth token** ![Create PAT Button][BuildGeneratePATButton] Button and a new Dialog is shown  | ![Create PAT dialog][BuildPATDialog]        |
+|      | Fill in the required fields for User, Expiration and a comment then press the **Save** Button                 | ![Save Button][ButtonSave]                  |
+|      | An updated Authorization Token List view is shown with new token                                              | ![Updated list][BuildPATListUpdated]        |
+|      | Copy new Access Token and use in external tool                                                                | ![New PAT details][build-pat-details]       |
 
 --8<-- [end:PATBuild]
 

@@ -19,7 +19,7 @@ TODO: More about Work Items
 --8<-- [start:FindFromBoard]
 
 | Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
+| :----: | :-------- | :---------------------- |
 | 1 | [Open Work items View][REFBoardWIview] | |
 | 2 | View all Work Items on the Board | ![Board workitems][BoardWorkItems] |
 
@@ -30,7 +30,7 @@ TODO: More about Work Items
 --8<-- [start:FindFromQuery]
 
 | Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
+| :----: | :-------- | :---------------------- |
 | 1 | Use existing [Public or Personal Queries][REFQueriesUseExisting] to list Work items | |
 | 2 | Or create a new [Personal Query][REFQueriesCreateNew] with your personal filters | |
 

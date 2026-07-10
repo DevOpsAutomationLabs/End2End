@@ -70,9 +70,7 @@
 |      | Result is component imported               | ![Component Imported][CompImported]            |
 |      | Repeat Import for second component         |                                                |
 
-
 --8<-- [end:ImportComponents]
-
 
 ---
 

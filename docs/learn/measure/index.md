@@ -22,7 +22,7 @@ The pipeline feature enables you to drive releases by using application-focused 
 
 | Step | Details                                                                                                     | Additional Information                                         |
 |:----:|:------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-|  1   | You can always switch using the central app switcher on the right side of your screen                         | ![Central App Switcher][CentralAppSwitcher]                    |
+|  1   | You can always switch using the central app switcher on the right side of your screen                       | ![Central App Switcher][CentralAppSwitcher]                    |
 |  2   | Or You can switch directly to Measure by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 --8<-- [end:SWITCH2Measure]
@@ -66,9 +66,9 @@ Finally, when you click on a dot, the displayed card provides information about 
 
 --8<-- [start:LookAtVSM]
 
-|   | Details                                                                                                                                                                                                   | Additional Information                                         |
-|:-:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-|   | Please click on a VSM Link to open the value stream and explore the shown data, eg. ***Emerald..***. This will open the Dot View of the Emerald Product Team - Accounting VSM:                                  | ![Emerald Dot View][VSMEmerald]                                |
+|   | Details                                                                                                                                                                                                   | Additional Information                      |
+|:-:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------|
+|   | Please click on a VSM Link to open the value stream and explore the shown data, eg. _**Emerald..**_. This will open the Dot View of the Emerald Product Team - Accounting VSM:                            | ![Emerald Dot View][VSMEmerald]             |
 |   | The "Emerald .." VSM contains Demo Data to give you a good insight how Measure works. When you click on one Dot it will open a popup with additional informatio and a full history of changes (lifecycle) | ![Emerald Item Details][EmeraldItemDetails] |
 
 --8<-- [end:LookAtVSM]
@@ -77,8 +77,8 @@ Finally, when you click on a dot, the displayed card provides information about 
 
 --8<-- [start:Swimlanes]
 
-|   | Details                                                                                                | Additional Information                                    |
-|:-:|:-------------------------------------------------------------------------------------------------------|:----------------------------------------------------------|
+|   | Details                                                                                                | Additional Information                  |
+|:-:|:-------------------------------------------------------------------------------------------------------|:----------------------------------------|
 |   | Click on the top right corner of your screen on the "Swimlane" link to get another view onto the data: | ![Emerald Swimlanes][measure-swimlanes] |
 
 The Swimlane page displays the work items in a variety of ways allowing the team to view distribution of work by team members, priority of work, type of work, along with work items associated to a particular ownder, priority, type, release or sprint.
@@ -89,8 +89,8 @@ The Swimlane page displays the work items in a variety of ways allowing the team
 
 --8<-- [start:Pipeline]
 
-|   | Details                                                                                     | Additional Information                                  |
-|:-:|:--------------------------------------------------------------------------------------------|:--------------------------------------------------------|
+|   | Details                                                                                     | Additional Information                |
+|:-:|:--------------------------------------------------------------------------------------------|:--------------------------------------|
 |   | Click on the top right corner of your screen on the "Pipeline" link to view your pipelines: | ![Emerald Pipeline][measure-pipeline] |
 
 When you create a value stream, a corresponding pipeline is automatically configured. And a pipeline is a sequence of stages that retrieve input and run applications and jobs. Pipelines accept input from source control management (SCM) repositories or other external applications, such as DevOps Deploy, Azure DevOps as well as API driven which allows organizations to update the pipeline inventory using API calls, and more.
@@ -101,8 +101,8 @@ When you create a value stream, a corresponding pipeline is automatically config
 
 Gates ensure that releases cannot be executed in an environment until the gate rule is satisfied. A gate is a condition that determines whether an application version can be deployed into the environment based on some assessment criteria. A pipeline may have some environments with gates and some without gates. A gate condition (or the assessment criteria) is called a rule.
 
-|   | Details                                                                    | Additional Information                                      |
-|:-:|:---------------------------------------------------------------------------|:------------------------------------------------------------|
+|   | Details                                                                    | Additional Information                    |
+|:-:|:---------------------------------------------------------------------------|:------------------------------------------|
 |   | Click on the Gate symbol on the QA column to view the criteria:            | ![Emerald Gates Prod][measure-gates-prod] |
 |   | If you click on the Prod column additional gating criteria has been added: | ![Emerald Gates QA][measure-gates-qa]     |
 
@@ -114,10 +114,10 @@ Gates ensure that releases cannot be executed in an environment until the gate r
 
 --8<-- [start:ReviewVSM]
 
-|   | Details                                                                                                                                     | Additional Information                                  |
-|:-:|:--------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------|
+|   | Details                                                                                                                                     | Additional Information               |
+|:-:|:--------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------|
 |   | Now have a look at your Loops value stream view. If you have created a new workitem in Plan you will see it in the dot view. Search for it. | ![VSM Item Detail][measure-vsm-item] |
-|   | If not, try it out and create a new Defect in Plan and then look for it in this VSM view                                                    |                                                         |
+|   | If not, try it out and create a new Defect in Plan and then look for it in this VSM view                                                    |                                      |
 
 --8<-- [end:ReviewVSM]
 
@@ -127,13 +127,14 @@ Gates ensure that releases cannot be executed in an environment until the gate r
 
 --8<-- [start:Insight]
 
-|   | Details                                                                                                                                                                                       | Additional Information                                     |
-|:-:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
-|   | Measure provides an Insight view (Dashboards) to gain additional information about your value streams. Click on the ![Insight Icon][measure-insight-icon] to open the Insight view: | ![Insight Home][measure-insight-home]            |
-|   | Click on "All Dashboards" to view all available existing Dashboards to you:                                                                                                                   | ![All Dashboards][measure-all-dashboards] |
-| | In this view you will see two existing dashboards. Click each tile and have a look at the provided graphics. |
-| | Delivery Performance: | ![Delivery performance][measure-delivery-perf] |
-| | Delivery Quality: | ![Delivery Quality][measure-delivery-quality] |
+|   | Details                                                                                                      | Additional Information                         |
+|:-:|:-------------------------------------------------------------------------------------------------------------|:-----------------------------------------------|
+|   | Measure provides an Insight view (Dashboards) to gain additional information about your value streams.       |                                                |
+|   | Click on the ![Insight Icon][measure-insight-icon] to open the Insight view:                                 | ![Insight Home][measure-insight-home]          |
+|   | Click on "All Dashboards" to view all available existing Dashboards to you:                                  | ![All Dashboards][measure-all-dashboards]      |
+|   | In this view you will see two existing dashboards. Click each tile and have a look at the provided graphics. |                                                |
+|   | Delivery Performance:                                                                                        | ![Delivery performance][measure-delivery-perf] |
+|   | Delivery Quality:                                                                                            | ![Delivery Quality][measure-delivery-quality]  |
 
 --8<-- [end:Insight]
 
@@ -147,15 +148,15 @@ An User Access Key, also known as Access Token, or Personal Access Token (short 
 
 --8<-- [start:PATMeasure]
 
-| Step | Details                                                                                                    | Additional Information                              |
-|:----:|:-----------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
-|      | click on the **Settings** ![Settings][ButtonSettings] Link on the top right of your screen to get a menu  | ![Measure top right menubar][MeasureToprightMenue] |
+| Step | Details                                                                                                    | Additional Information                             |
+|:----:|:-----------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
+|      | click on the **Settings** ![Settings][ButtonSettings] Link on the top right of your screen to get a menu   | ![Measure top right menubar][MeasureToprightMenue] |
 |      | click on **My Profile** ![My Profile][MeasureMyProfileLink] to view the Profile settings                   | ![My Settings Menu][MeasureSettingsMenue]          |
-|      | A list of User Access Keys (or PAT) is shown                                                               | ![Measure List of UAK or PAT][MeasurePATList]       |
-|      | Click on the **Create User Access Key** ![Create UAK Button][MeasureNewPATButton] and a new Dialog appears | ![UAK Dialog][MeasureNewPATDialog]                  |
-|      | Provide a name for the UAK/PAT and click **Create** Button to get the token                                | ![Measure New UAK][MeasureNewPATMessage]            |
-|      | **COPY and PASTE** the key into a secure storage for further usage, then close the dialog                  |                                                     |
-|      | The newly created UAK/PAT is shown                                                                         | ![new UAK is shown][MeasurePATListUpdated]          |
+|      | A list of User Access Keys (or PAT) is shown                                                               | ![Measure List of UAK or PAT][MeasurePATList]      |
+|      | Click on the **Create User Access Key** ![Create UAK Button][MeasureNewPATButton] and a new Dialog appears | ![UAK Dialog][MeasureNewPATDialog]                 |
+|      | Provide a name for the UAK/PAT and click **Create** Button to get the token                                | ![Measure New UAK][MeasureNewPATMessage]           |
+|      | **COPY and PASTE** the key into a secure storage for further usage, then close the dialog                  |                                                    |
+|      | The newly created UAK/PAT is shown                                                                         | ![new UAK is shown][MeasurePATListUpdated]         |
 
 --8<-- [end:PATMeasure]
 

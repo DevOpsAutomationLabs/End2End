@@ -55,7 +55,7 @@ How to import existing data (CSV file) into an application.
 |      | A list of existing Personal Access Tokens (PAT) is shown                                                    | ![List of PATS][PlanListPATS]             |
 |      | Click on **Create New API Token**                                                                           | ![Create PAT Button][PlanCreatePATButton] |
 |      | a dialog is shown, please provide a name and a validity time                                                | ![PAT creation dialog][PlanPATDialog]     |
-|      | PAT is created, press the **Copy** button ![Copy Button][ButtonCopy] to copy into Clipboard | ![PAT is created][PlanPATCreated]         |
+|      | PAT is created, press the **Copy** button ![Copy Button][ButtonCopy] to copy into Clipboard                 | ![PAT is created][PlanPATCreated]         |
 |      | PAT is copied, paste it into a secure storage for furter use                                                | ![PAT Copied][PlanPATCopied]              |
 |      | Close the dialog and updated list is shown                                                                  | ![Updated PAT list][PlanListnewPATS]      |
 

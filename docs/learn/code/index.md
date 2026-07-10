@@ -20,7 +20,7 @@ To learn more about DevOps Code please have a look at the [documentation][CodeDo
 
 | Step | Details                                                                                          | Additional Information { width="50%" }                      |
 |:----:|:-------------------------------------------------------------------------------------------------|:------------------------------------------------------------|
-|  1   | You can always switch using the central app switcher on the right side of your screen              | ![Central App Switcher][CentralAppSwitcher]                        |
+|  1   | You can always switch using the central app switcher on the right side of your screen            | ![Central App Switcher][CentralAppSwitcher]                 |
 |  2   | Overview Page of Code is shown with two tabs.                                                    | ![Two sub tabs][CodeDevContainerView]                       |
 |  3   | One for Running Dev Containers                                                                   |                                                             |
 | 3.1  | Which may be empty when no Dev Container has been started                                        | ![No running Dev Container][NoRunningDevContainer]          |

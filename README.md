@@ -69,7 +69,7 @@ mkdocs gh-deploy
 
 ## 📖 Documentation Structure
 
-```
+```dir
 docs/
 ├── index.md                    # Homepage with hero section
 ├── ai_setup.md                 # AI integration setup
