@@ -11,3 +11,4 @@ site
 # Playwright screenshot automation
 scripts/screenshots/.env
 scripts/screenshots/.session.json
+.bob/mcp.json

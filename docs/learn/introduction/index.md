@@ -98,7 +98,7 @@ In the case of an empty environment you need to create a new Teamspace and at le
 Please follow the [Instructions for creating Teamspace(s)][InstructionsCreateTeamSpace] for more details.
 
 --8<--
-learn/introduction/teamspace/index.md:CreateNewTS
+learn/introduction/teamspace/index.md:CreateTeamspace
 --8<--
 
 |   | Details                                                                                                                  | Additional Information                             |
@@ -138,6 +138,8 @@ learn/introduction/loops/index.md:CreateNewLoop
 [TSInitCreateButton]: teamspace/media/intro-teamspace-loop-initial-create-ts-button.png
 [TSMenue]: teamspace/media/intro-teamspace-loop-teamspace-01-menue.png
 [TSCreateNewDialog]: teamspace/media/intro-teamspace-loop-teamspace-02-create-new-dialog.png
+[TSCreateNewScreen]: teamspace/media/intro-teamspace-create-ts-screen.png
+[TSCreateTSIconColor]: teamspace/media/intro-teamspace-create-ts-icon.png
 [TSAddTeammember]: teamspace/media/intro-teamspace-loop-teamspace-03-create-new-search-member.png
 [TSTeamMemberAdded]: teamspace/media/intro-teamspace-loop-teamspace-04-create-new-member-added.png
 [TSCreationStarted]: teamspace/media/intro-teamspace-loop-teamspace-05-create-new-creation.png

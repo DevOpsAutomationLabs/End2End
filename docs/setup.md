@@ -20,41 +20,9 @@ learn/introduction/index.md:TheHomePage
 
 ## Setup a Teamspace and Loop
 
-### Setup a Teamspace
-
-| Step | Details                                                                         | Additional Information                               |
-|:----:|:--------------------------------------------------------------------------------|:-----------------------------------------------------|
-|  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon]                           | ![TS Menu][TSMenue]                                  |
-|      | 1.1 to **view** or **create** a Teamspace                                       |                                                      |
-|  2   | Click on **Create teamspace**                                                   | ![TS Menu - Create TS Link][TSCreateTSentry]         |
-|  3   | Enter a name and a Description                                                  |                                                      |
-|      | 2.1 **Example Name: 'Demo'** <br>**Example Description: 'Teamspace for Demos'** | ![TS - Create New][TSCreateNewDialog]                |
-|  4   | press **Next** Button to proceed                                                | ![Next Button][NextButton]                           |
-|  5   | You can search and **add** Teammembers to a Teamspace                           | ![TS - Create New - search Member][TSAddTeammember]  |
-|  6   | Teammember is added to a list. Proceed to add more members if needed.           | ![TS - Create New - Member added][TSTeamMemberAdded] |
-|  7   | Press **Create** to proceed                                                     | ![Create teamspace Button][TSCreateButton]           |
-|  8   | Teamspace creation will take a few moments                                      | ![TS - Create started][TSCreationStarted]            |
-|  9   | Teamspace created. Click on **Go to Teamspace** for next steps                  | ![TS - creation successfull][TSCreateionFinished]    |
-|  10  | New Teamspace is shown                                                          | ![Empty Loops Homepage][LoopHomePageCreateNewLoop]   |
-|  11  | Please proceed with [Setting up a Loop][SetupLoop]                              |                                                      |
-
-### Setup a Loop
-
-| Step | Details                                                                                       | Additional Information                                                                       |
-|:----:|:----------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------|
-|  1   | Press the **Create Loop** Button                                                              | ![Create New Loop Button][CreateNewLoopButton]                                               |
-|  2   | In the Loop creation Dialog enter a name and a description                                    | ![Loops - Create New - Dialog][CreateNewDialog]                                              |
-|      | 2.1 Name:                                                                                     | "EchoLogic"                                                                                  |
-|      | 2.2 Description:                                                                              | "Bringing together the power of Echo and Logic into bleeding edge, cloud native and beyond!" |
-|  3   | press the **Next** Button to proceed                                                          | ![Next Button][NextButton]                                                                   |
-|  4   | You can search and add a Teammember to the Loop                                               | ![Loops - Create New - search Member][SearchAddMember]                                       |
-|      | 4.1 enter "a" in search dialog and if a mail address is shown, select it and click on **Add** | ![Add][ButtonAdd]                                                                            |
-|      | 4.2 a new Member is added                                                                     | ![Loops - Create New - member added][AddedMember]                                            |
-|  5   | Press the **Create** Button to start Loop creation                                            | ![Create Button][CreateButton]                                                               |
-|  6   | Loop creation can take a few moments, as soon as it finishes a Success screen will be shown   | ![Loops - Create New - create process started][LoopCreation]                                 |
-|  7   | Creation is successfull                                                                       | ![Loops - Create New - creation successfull][LoopCreatedSuccess]                             |
-|  8   | Press now **Go to my Loops** Button to proceed                                                | ![Go to my Loop Button][GoToMyLoops]                                                         |
-|  9   | As your Loop has no data please proceed with [Setting up Demo Data][SetupDemoData]            | ![Home Page][LoopHomePageWithNoData]                                                         |
+--8<--
+learn/introduction/index.md:SetupTsAndLoop
+--8<--
 
 ## Setup AI Integrations
 
@@ -405,7 +373,11 @@ If no Application exists either import or create application
 [LoopHomePageView]: learn/introduction/media/intro-loop-home-page.png
 [NoTeamSpaceAvailable]: learn/introduction/media/intro-1-no-teamspace.png
 
+[InstructionsCreateTeamSpace]: learn/introduction/teamspace/index.md
 [TSMenue]: learn/introduction/teamspace/media/intro-teamspace-loop-teamspace-01-menue.png
+[TSInitCreateButton]: learn/introduction/teamspace/media/intro-teamspace-loop-initial-create-ts-button.png
+[TSCreateNewScreen]:learn/introduction/teamspace/media/intro-teamspace-create-ts-screen.png
+[TSCreateTSIconColor]: learn/introduction/teamspace/media/intro-teamspace-create-ts-icon.png
 [TSCreateNewDialog]: learn/introduction/teamspace/media/intro-teamspace-loop-teamspace-02-create-new-dialog.png
 [TSAddTeammember]: learn/introduction/teamspace/media/intro-teamspace-loop-teamspace-03-create-new-search-member.png
 [TSTeamMemberAdded]: learn/introduction/teamspace/media/intro-teamspace-loop-teamspace-04-create-new-member-added.png
@@ -421,7 +393,9 @@ If no Application exists either import or create application
 [CreateNewLoopButton]: learn/introduction/loops/media/intro-loops-loop-create-new-loop-button.png
 [SearchAddMember]: learn/introduction/loops/media/intro-loops-loop-teamspace-10-create-new-loop-member-added.png
 [AddedMember]: learn/introduction/loops/media/intro-loops-loop-teamspace-09-create-new-loop-search-member.png
+[WithLearningData]: learn/introduction/loops/media/intro-loops-create-new-loop-with-learning-data.png
 
+[InstructionsCreateLoop]: learn/introduction/loops/index.md
 [CreateButton]: learn/introduction/loops/media/intro-loops-loop-create-new-loop-button.png
 [LoopCreation]: learn/introduction/loops/media/intro-loops-loop-teamspace-11-create-new-loop-creation.png
 [LoopCreatedSuccess]: learn/introduction/loops/media/intro-loops-loop-teamspace-12-create-new-loop-success.png
