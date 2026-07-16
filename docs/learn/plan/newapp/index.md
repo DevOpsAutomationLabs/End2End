@@ -6,7 +6,7 @@
 
 | Step | Details                                                                                | Additional Information              |
 |:----:|:---------------------------------------------------------------------------------------|:------------------------------------|
-|  1   | Use the Dots Menu to select PLAN to view the Applications you have access to          | ![Dots Menu][DotsMenue]            |
+|  1   | Use the Dots Menu to select PLAN to view the Applications you have access to           | ![Dots Menu][DotsMenue]             |
 |  2   | Click on the Tenant Management Button/Link to manage your Application for your Tenants | ![Tenant Management][TenantMngmnt]  |
 |  3   | Select your Tenant EchoLogic and view your Applications                                | ![Tenantlist with Apps][TenantList] |
 
@@ -30,7 +30,7 @@
 |      |                                                                                                  | ![New App creation process][AppCreationProcess] |
 |  6   | Now you have a new Application with some Sample Data                                             | ![App List finished][Application List]          |
 |  7   | You can use the **Let's go! Button** to switch to your newly created Application                 | ![Lets go button][LetsGoButton]                 |
-|      | or proceed with next step in the [Plan Overview][GoBackToParentIndex]    |                                                 |
+|      | or proceed with next step in the [Plan Overview][GoBackToParentIndex]                            |                                                 |
 
 --8<-- [end:AddNewApp]
 
@@ -40,14 +40,14 @@
 
 [GoBackToParentIndex]: ../index.md#lets-go-with-plan
 
-[AddAppButton]: media/PLAN_Tenant_AddAppButton.png
-[DialogNewApp]: media/PLAN_Tenant_CreateNewApp.png
-[NextButton]: media/PLAN_Tenant_NewAppNext.png
-[NewAppDetails]: media/PLAN_Tenant_NewAppDialog.png
-[FinishButton]: media/PLAN_Tenant_NewApp_Finish.png
-[AppCreationProcess]: media/PLAN_Tenant_NewApp_creation.png
-[Application List]: media/PLAN_Tenant_AppListFinal.png
-[LetsGoButton]: ../media/PLAN_LetsGoButton.png
-[DotsMenue]: media/PLAN_Tenant_HowToSwitch1.png
-[TenantMngmnt]: media/PLAN_Tenant_HowToSwitch2.png
-[TenantList]: media/PLAN_Tenant_list.png
+[AddAppButton]: media/plan-newapp-tenant-add-app-button.png
+[DialogNewApp]: media/plan-newapp-tenant-create-new-app.png
+[NextButton]: media/plan-newapp-tenant-new-app-next.png
+[NewAppDetails]: media/plan-newapp-tenant-new-app-dialog.png
+[FinishButton]: media/plan-newapp-tenant-new-app-finish.png
+[AppCreationProcess]: media/plan-newapp-tenant-new-app-creation.png
+[Application List]: media/plan-newapp-tenant-app-list-final.png
+[LetsGoButton]: ../media/plan-lets-go-button.png
+[DotsMenue]: media/plan-newapp-tenant-how-to-switch-01.png
+[TenantMngmnt]: media/plan-newapp-tenant-how-to-switch-02.png
+[TenantList]: media/plan-newapp-tenant-list.png

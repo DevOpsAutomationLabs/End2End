@@ -1,0 +1,2191 @@
+{
+  "docs/demo/media": {
+    "demo-demo-ai-asks-for-user-response-to-step-02.png": {
+      "newName": "demo-demo-ai-asks-for-user-response-to-step-02.png"
+    },
+    "demo-demo-ai-asks-for-user-response-to-step-03.png": {
+      "newName": "demo-demo-ai-asks-for-user-response-to-step-03.png"
+    },
+    "demo-demo-ai-asks-for-user-response-to-step-04.png": {
+      "newName": "demo-demo-ai-asks-for-user-response-to-step-04.png"
+    },
+    "demo-demo-ai-asks-for-user-response-to-step.png": {
+      "newName": "demo-demo-ai-asks-for-user-response-to-step.png"
+    },
+    "demo-demo-git-asks-for-user-accesskey.png": {
+      "newName": "demo-demo-git-asks-for-user-accesskey.png"
+    },
+    "demo-demo-git-asks-for-username.png": {
+      "newName": "demo-demo-git-asks-for-username.png"
+    },
+    "demo-demo-mcp-json-view.png": {
+      "newName": "demo-demo-mcp-json-view.png"
+    },
+    "demo-demo-mcp-server-list-view.png": {
+      "newName": "demo-demo-mcp-server-list-view.png"
+    },
+    "demo-demo-vs-code-add-mcp-server-step-01.png": {
+      "newName": "demo-demo-vs-code-add-mcp-server-step-01.png"
+    },
+    "demo-demo-vs-code-add-mcp-server-step-02.png": {
+      "newName": "demo-demo-vs-code-add-mcp-server-step-02.png"
+    },
+    "demo-demo-vs-code-add-mcp-server-step-03.png": {
+      "newName": "demo-demo-vs-code-add-mcp-server-step-03.png"
+    },
+    "demo-demo-vs-code-add-mcp-server-step-04.png": {
+      "newName": "demo-demo-vs-code-add-mcp-server-step-04.png"
+    },
+    "demo-demo-vs-code-command-add-mcp-server.png": {
+      "newName": "demo-demo-vs-code-command-add-mcp-server.png"
+    },
+    "demo-demo-vs-code-command-palette.png": {
+      "newName": "demo-demo-vs-code-command-palette.png"
+    },
+    "demo-demoflow.png": {
+      "newName": "demo-demoflow.png"
+    }
+  },
+  "docs/learn/build/media": {
+    "build-build-3-buttons.png": {
+      "newName": "build-build-3-buttons.png"
+    },
+    "build-build-auth-token-list-updated.png": {
+      "newName": "build-build-auth-token-list-updated.png"
+    },
+    "build-build-auth-token-list.png": {
+      "newName": "build-build-auth-token-list.png"
+    },
+    "build-build-create-auth-token-button.png": {
+      "newName": "build-build-create-auth-token-button.png"
+    },
+    "build-build-create-auth-token-dialog.png": {
+      "newName": "build-build-create-auth-token-dialog.png"
+    },
+    "build-build-metrics-time-periodfilter.png": {
+      "newName": "build-build-metrics-time-periodfilter.png"
+    },
+    "build-build-metrics.png": {
+      "newName": "build-build-metrics.png"
+    },
+    "build-build-new-authtoken-details.png": {
+      "newName": "build-build-new-authtoken-details.png"
+    },
+    "build-build-process-link-in-projects-view.png": {
+      "newName": "build-build-process-link-in-projects-view.png"
+    },
+    "build-build-process-runs-details-metrics-and-filter.png": {
+      "newName": "build-build-process-runs-details-metrics-and-filter.png"
+    },
+    "build-build-save-button.png": {
+      "newName": "build-build-save-button.png"
+    },
+    "build-build-security-auth-token-settings.png": {
+      "newName": "build-build-security-auth-token-settings.png"
+    },
+    "build-build-sidebar-system-link.png": {
+      "newName": "build-build-sidebar-system-link.png"
+    },
+    "build-build-sidebar.png": {
+      "newName": "build-build-sidebar.png"
+    },
+    "build-build-system-security-settings.png": {
+      "newName": "build-build-system-security-settings.png"
+    },
+    "build-build-system-settings.png": {
+      "newName": "build-build-system-settings.png"
+    },
+    "build-process-runs-details.png": {
+      "newName": "build-process-runs-details.png"
+    },
+    "build-process-runs-results.png": {
+      "newName": "build-process-runs-results.png"
+    },
+    "build-template-jobs.png": {
+      "newName": "build-template-jobs.png"
+    },
+    "build-template-process.png": {
+      "newName": "build-template-process.png"
+    },
+    "build-template-source.png": {
+      "newName": "build-template-source.png"
+    },
+    "build-templates-process-def.png": {
+      "newName": "build-templates-process-def.png"
+    },
+    "build-templates-process-detail.png": {
+      "newName": "build-templates-process-detail.png"
+    },
+    "build-templates-process-job-step-detail.png": {
+      "newName": "build-templates-process-job-step-detail.png"
+    },
+    "build-templates-process-job-steps.png": {
+      "newName": "build-templates-process-job-steps.png"
+    },
+    "build-templates-projects.png": {
+      "newName": "build-templates-projects.png"
+    }
+  },
+  "docs/learn/code/media": {
+    "code-code-changes-view.png": {
+      "newName": "code-code-changes-view.png"
+    },
+    "code-code-check-trust-authors.png": {
+      "newName": "code-code-check-trust-authors.png"
+    },
+    "code-code-cloned-repository-view.png": {
+      "newName": "code-code-cloned-repository-view.png"
+    },
+    "code-code-commit-and-push.png": {
+      "newName": "code-code-commit-and-push.png"
+    },
+    "code-code-commit-changes-menu.png": {
+      "newName": "code-code-commit-changes-menu.png"
+    },
+    "code-code-commit-stage-changes-popup.png": {
+      "newName": "code-code-commit-stage-changes-popup.png"
+    },
+    "code-code-dev-container-lets-go.png": {
+      "newName": "code-code-dev-container-lets-go.png"
+    },
+    "code-code-dev-container-overview-page.png": {
+      "newName": "code-code-dev-container-overview-page.png"
+    },
+    "code-code-dev-container-terminate.png": {
+      "newName": "code-code-dev-container-terminate.png"
+    },
+    "code-code-dev-container-two-tabs.png": {
+      "newName": "code-code-dev-container-two-tabs.png"
+    },
+    "code-code-do-you-trust-authors.png": {
+      "newName": "code-code-do-you-trust-authors.png"
+    },
+    "code-code-first-entry.png": {
+      "newName": "code-code-first-entry.png"
+    },
+    "code-code-git-clone-success.png": {
+      "newName": "code-code-git-clone-success.png"
+    },
+    "code-code-git-fetch-question.png": {
+      "newName": "code-code-git-fetch-question.png"
+    },
+    "code-code-git-graph-view.png": {
+      "newName": "code-code-git-graph-view.png"
+    },
+    "code-code-git-stage-question.png": {
+      "newName": "code-code-git-stage-question.png"
+    },
+    "code-code-logout-icon.png": {
+      "newName": "code-code-logout-icon.png"
+    },
+    "code-code-new-file-changes.png": {
+      "newName": "code-code-new-file-changes.png"
+    },
+    "code-code-no-running-dev-containers.png": {
+      "newName": "code-code-no-running-dev-containers.png"
+    },
+    "code-code-open-folder.png": {
+      "newName": "code-code-open-folder.png"
+    },
+    "code-code-open-pizza-app-folder.png": {
+      "newName": "code-code-open-pizza-app-folder.png"
+    },
+    "code-code-panel-view.png": {
+      "newName": "code-code-panel-view.png"
+    },
+    "code-code-pizza-app-first-view.png": {
+      "newName": "code-code-pizza-app-first-view.png"
+    },
+    "code-code-pizza-app-view-image.png": {
+      "newName": "code-code-pizza-app-view-image.png"
+    },
+    "code-code-primary-sidebar-view.png": {
+      "newName": "code-code-primary-sidebar-view.png"
+    },
+    "code-code-running-dev-containers.png": {
+      "newName": "code-code-running-dev-containers.png"
+    },
+    "code-code-secondary-sidebar-view.png": {
+      "newName": "code-code-secondary-sidebar-view.png"
+    },
+    "code-code-setting-up-environment.png": {
+      "newName": "code-code-setting-up-environment.png"
+    },
+    "code-code-source-control-icon.png": {
+      "newName": "code-code-source-control-icon.png"
+    },
+    "code-code-terminal-clone-repo.png": {
+      "newName": "code-code-terminal-clone-repo.png"
+    },
+    "code-code-terminal-set-git-settings.png": {
+      "newName": "code-code-terminal-set-git-settings.png"
+    },
+    "code-code-terminate-environment.png": {
+      "newName": "code-code-terminate-environment.png"
+    },
+    "code-code-toggle-bar.png": {
+      "newName": "code-code-toggle-bar.png"
+    },
+    "code-code-toggle-panel.png": {
+      "newName": "code-code-toggle-panel.png"
+    },
+    "code-code-toggle-primary-sidebar.png": {
+      "newName": "code-code-toggle-primary-sidebar.png"
+    },
+    "code-code-toggle-secondary-sidebar.png": {
+      "newName": "code-code-toggle-secondary-sidebar.png"
+    },
+    "code-code-trust-authors.png": {
+      "newName": "code-code-trust-authors.png"
+    },
+    "code-code-vs-code-clone-targetfolder.png": {
+      "newName": "code-code-vs-code-clone-targetfolder.png"
+    },
+    "code-code-vs-code-enter-git-user.png": {
+      "newName": "code-code-vs-code-enter-git-user.png"
+    },
+    "code-code-vs-code-enter-pat.png": {
+      "newName": "code-code-vs-code-enter-pat.png"
+    },
+    "code-code-vs-code-open-repo.png": {
+      "newName": "code-code-vs-code-open-repo.png"
+    },
+    "code-code-watson-x-dev-container-no-rep.png": {
+      "newName": "code-code-watson-x-dev-container-no-rep.png"
+    },
+    "code-commit-with-wi.png": {
+      "newName": "code-commit-with-wi.png"
+    },
+    "code-dev-container-home-page-starter.png": {
+      "newName": "code-dev-container-home-page-starter.png"
+    },
+    "code-dev-container-home-page.png": {
+      "newName": "code-dev-container-home-page.png"
+    },
+    "code-setting-up-environment-message.png": {
+      "newName": "code-setting-up-environment-message.png"
+    },
+    "code-terminal-set-userdetails.png": {
+      "newName": "code-terminal-set-userdetails.png"
+    },
+    "code-wc-ax-explain-01.png": {
+      "newName": "code-wc-ax-explain-01.png"
+    },
+    "code-wc-ax-explain-02.png": {
+      "newName": "code-wc-ax-explain-02.png"
+    }
+  },
+  "docs/learn/control/media": {
+    "control-control-accesstoken.png": {
+      "newName": "control-control-accesstoken.png"
+    },
+    "control-control-allow-open-vs-code.png": {
+      "newName": "control-control-allow-open-vs-code.png"
+    },
+    "control-control-code-button-expanded.png": {
+      "newName": "control-control-code-button-expanded.png"
+    },
+    "control-control-code-button.png": {
+      "newName": "control-control-code-button.png"
+    },
+    "control-control-code-clone-button.png": {
+      "newName": "control-control-code-clone-button.png"
+    },
+    "control-control-create-access-token.png": {
+      "newName": "control-control-create-access-token.png"
+    },
+    "control-control-dev-container-select-from-list-02.png": {
+      "newName": "control-control-dev-container-select-from-list-02.png"
+    },
+    "control-control-dev-container-select-from-list.png": {
+      "newName": "control-control-dev-container-select-from-list.png"
+    },
+    "control-control-fork-detail.png": {
+      "newName": "control-control-fork-detail.png"
+    },
+    "control-control-fork.png": {
+      "newName": "control-control-fork.png"
+    },
+    "control-control-home-page-activity-report.png": {
+      "newName": "control-control-home-page-activity-report.png"
+    },
+    "control-control-learning-data-repo.png": {
+      "newName": "control-control-learning-data-repo.png"
+    },
+    "control-control-list-explore-repo-orgs-etc.png": {
+      "newName": "control-control-list-explore-repo-orgs-etc.png"
+    },
+    "control-control-list-pulls.png": {
+      "newName": "control-control-list-pulls.png"
+    },
+    "control-control-list-repo-and-org.png": {
+      "newName": "control-control-list-repo-and-org.png"
+    },
+    "control-control-new-activity.png": {
+      "newName": "control-control-new-activity.png"
+    },
+    "control-control-new-button.png": {
+      "newName": "control-control-new-button.png"
+    },
+    "control-control-new-forked-repo.png": {
+      "newName": "control-control-new-forked-repo.png"
+    },
+    "control-control-new-pat-created.png": {
+      "newName": "control-control-new-pat-created.png"
+    },
+    "control-control-new-pat-generate-button.png": {
+      "newName": "control-control-new-pat-generate-button.png"
+    },
+    "control-control-new-pat-name.png": {
+      "newName": "control-control-new-pat-name.png"
+    },
+    "control-control-new-pat-select-access-type-permissions.png": {
+      "newName": "control-control-new-pat-select-access-type-permissions.png"
+    },
+    "control-control-new-pat-setpermissions-minimal.png": {
+      "newName": "control-control-new-pat-setpermissions-minimal.png"
+    },
+    "control-control-open-with-dev-ops-code.png": {
+      "newName": "control-control-open-with-dev-ops-code.png"
+    },
+    "control-control-open-with-vs-code.png": {
+      "newName": "control-control-open-with-vs-code.png"
+    },
+    "control-control-select-pizza-app-repo.png": {
+      "newName": "control-control-select-pizza-app-repo.png"
+    },
+    "control-control-sidebar-home.png": {
+      "newName": "control-control-sidebar-home.png"
+    },
+    "control-control-sidebar-pull.png": {
+      "newName": "control-control-sidebar-pull.png"
+    },
+    "control-control-sidebar-repos.png": {
+      "newName": "control-control-sidebar-repos.png"
+    },
+    "control-control-user-profile.png": {
+      "newName": "control-control-user-profile.png"
+    },
+    "control-home-page-of-demo-echo-logic.png": {
+      "newName": "control-home-page-of-demo-echo-logic.png"
+    },
+    "control-personal-access-token-01.png": {
+      "newName": "control-personal-access-token-01.png"
+    },
+    "control-personal-access-token-02.png": {
+      "newName": "control-personal-access-token-02.png"
+    },
+    "control-personal-access-token-03.png": {
+      "newName": "control-personal-access-token-03.png"
+    },
+    "control-personal-access-token-04.png": {
+      "newName": "control-personal-access-token-04.png"
+    },
+    "control-profile-and-settings-01.png": {
+      "newName": "control-profile-and-settings-01.png"
+    },
+    "control-profile-and-settings-02.png": {
+      "newName": "control-profile-and-settings-02.png"
+    },
+    "control-profile-and-settings-03.png": {
+      "newName": "control-profile-and-settings-03.png"
+    },
+    "control-repo-new-data.png": {
+      "newName": "control-repo-new-data.png"
+    },
+    "control-select-repo-01.png": {
+      "newName": "control-select-repo-01.png"
+    },
+    "control-select-repo-02.png": {
+      "newName": "control-select-repo-02.png"
+    },
+    "control-select-repo-3-copy-url.png": {
+      "newName": "control-select-repo-3-copy-url.png"
+    },
+    "control-show-git-commit.png": {
+      "newName": "control-show-git-commit.png"
+    },
+    "control-show-last-commit.png": {
+      "newName": "control-show-last-commit.png"
+    },
+    "control-terminal-1-open.png": {
+      "newName": "control-terminal-1-open.png"
+    },
+    "control-terminal-2-cd-documents.png": {
+      "newName": "control-terminal-2-cd-documents.png"
+    },
+    "control-terminal-3-clone-target-repo-01.png": {
+      "newName": "control-terminal-3-clone-target-repo-01.png"
+    },
+    "control-terminal-3-clone-target-repo-02.png": {
+      "newName": "control-terminal-3-clone-target-repo-02.png"
+    },
+    "control-terminal-3-clone-target-repo-03.png": {
+      "newName": "control-terminal-3-clone-target-repo-03.png"
+    },
+    "control-terminal-3-clone-target-repo-4-cloned.png": {
+      "newName": "control-terminal-3-clone-target-repo-4-cloned.png"
+    },
+    "control-terminal-3-clone-target-repo-5-empty.png": {
+      "newName": "control-terminal-3-clone-target-repo-5-empty.png"
+    },
+    "control-terminal-4-clone-source-repo-01.png": {
+      "newName": "control-terminal-4-clone-source-repo-01.png"
+    },
+    "control-terminal-4-clone-source-repo-02.png": {
+      "newName": "control-terminal-4-clone-source-repo-02.png"
+    },
+    "control-terminal-5-copy-to-target.png": {
+      "newName": "control-terminal-5-copy-to-target.png"
+    },
+    "control-terminal-6-target-new-data.png": {
+      "newName": "control-terminal-6-target-new-data.png"
+    },
+    "control-terminal-7-git-add-commit.png": {
+      "newName": "control-terminal-7-git-add-commit.png"
+    },
+    "control-terminal-8-git-push.png": {
+      "newName": "control-terminal-8-git-push.png"
+    }
+  },
+  "docs/learn/deploy/applications/media": {
+    "deploy-app-deploy-app-app-comps-button.png": {
+      "newName": "deploy-app-deploy-app-app-comps-button.png"
+    },
+    "deploy-app-deploy-app-create-app-button.png": {
+      "newName": "deploy-app-deploy-app-create-app-button.png"
+    },
+    "deploy-app-deploy-app-create-app-dialog-01.png": {
+      "newName": "deploy-app-deploy-app-create-app-dialog-01.png"
+    },
+    "deploy-app-deploy-app-create-app-dialog-02.png": {
+      "newName": "deploy-app-deploy-app-create-app-dialog-02.png"
+    },
+    "deploy-app-deploy-app-create-app-menue.png": {
+      "newName": "deploy-app-deploy-app-create-app-menue.png"
+    },
+    "deploy-app-deploy-app-create-env-button.png": {
+      "newName": "deploy-app-deploy-app-create-env-button.png"
+    },
+    "deploy-app-deploy-app-create-env-dialog-01.png": {
+      "newName": "deploy-app-deploy-app-create-env-dialog-01.png"
+    },
+    "deploy-app-deploy-app-create-env-dialog-02.png": {
+      "newName": "deploy-app-deploy-app-create-env-dialog-02.png"
+    },
+    "deploy-app-deploy-app-create-env-dialog-03.png": {
+      "newName": "deploy-app-deploy-app-create-env-dialog-03.png"
+    },
+    "deploy-app-deploy-app-deployment-process.png": {
+      "newName": "deploy-app-deploy-app-deployment-process.png"
+    },
+    "deploy-app-deploy-app-environment-list.png": {
+      "newName": "deploy-app-deploy-app-environment-list.png"
+    },
+    "deploy-app-deploy-app-environment-select.png": {
+      "newName": "deploy-app-deploy-app-environment-select.png"
+    },
+    "deploy-app-deploy-app-process-list-final.png": {
+      "newName": "deploy-app-deploy-app-process-list-final.png"
+    },
+    "deploy-app-deploy-app-processes-view-empty.png": {
+      "newName": "deploy-app-deploy-app-processes-view-empty.png"
+    },
+    "deploy-app-deploy-app-processes-view.png": {
+      "newName": "deploy-app-deploy-app-processes-view.png"
+    },
+    "deploy-app-deploy-application-import-process-button.png": {
+      "newName": "deploy-app-deploy-application-import-process-button.png"
+    },
+    "deploy-app-deploy-application-processes-tab.png": {
+      "newName": "deploy-app-deploy-application-processes-tab.png"
+    },
+    "deploy-app-deploy-application-view-with-env.png": {
+      "newName": "deploy-app-deploy-application-view-with-env.png"
+    },
+    "deploy-app-deploy-application-view.png": {
+      "newName": "deploy-app-deploy-application-view.png"
+    },
+    "deploy-app-deploy-applications-view-else.png": {
+      "newName": "deploy-app-deploy-applications-view-else.png"
+    },
+    "deploy-app-deploy-applications-view-empty.png": {
+      "newName": "deploy-app-deploy-applications-view-empty.png"
+    },
+    "deploy-app-deploy-applications-view.png": {
+      "newName": "deploy-app-deploy-applications-view.png"
+    },
+    "deploy-app-deploy-apps-add-components-button.png": {
+      "newName": "deploy-app-deploy-apps-add-components-button.png"
+    },
+    "deploy-app-deploy-apps-add-components-dialog.png": {
+      "newName": "deploy-app-deploy-apps-add-components-dialog.png"
+    },
+    "deploy-app-deploy-apps-components-tab.png": {
+      "newName": "deploy-app-deploy-apps-components-tab.png"
+    },
+    "deploy-app-deploy-apps-components-view-final.png": {
+      "newName": "deploy-app-deploy-apps-components-view-final.png"
+    },
+    "deploy-app-deploy-apps-components-view.png": {
+      "newName": "deploy-app-deploy-apps-components-view.png"
+    },
+    "deploy-app-deploy-apps-processes-import-process-button.png": {
+      "newName": "deploy-app-deploy-apps-processes-import-process-button.png"
+    },
+    "deploy-app-deploy-env-add-base-res-button.png": {
+      "newName": "deploy-app-deploy-env-add-base-res-button.png"
+    },
+    "deploy-app-deploy-env-add-res-dialog.png": {
+      "newName": "deploy-app-deploy-env-add-res-dialog.png"
+    },
+    "deploy-app-deploy-env-add-res-selected.png": {
+      "newName": "deploy-app-deploy-env-add-res-selected.png"
+    },
+    "deploy-app-deploy-env-linked-resources.png": {
+      "newName": "deploy-app-deploy-env-linked-resources.png"
+    },
+    "deploy-app-deploy-env-view.png": {
+      "newName": "deploy-app-deploy-env-view.png"
+    },
+    "deploy-app-deploy-import-app-process-dialog-01.png": {
+      "newName": "deploy-app-deploy-import-app-process-dialog-01.png"
+    },
+    "deploy-app-deploy-import-app-process-dialog-02.png": {
+      "newName": "deploy-app-deploy-import-app-process-dialog-02.png"
+    },
+    "deploy-app-deploy-import-app-process-dialog-03.png": {
+      "newName": "deploy-app-deploy-import-app-process-dialog-03.png"
+    },
+    "deploy-app-deploy-import-app-process-dialog-04.png": {
+      "newName": "deploy-app-deploy-import-app-process-dialog-04.png"
+    }
+  },
+  "docs/learn/deploy/components/media": {
+    "deploy-comp-component-config.png": {
+      "newName": "deploy-comp-component-config.png"
+    },
+    "deploy-comp-component-import-components-button.png": {
+      "newName": "deploy-comp-component-import-components-button.png"
+    },
+    "deploy-comp-component-import-dialog-choose-file.png": {
+      "newName": "deploy-comp-component-import-dialog-choose-file.png"
+    },
+    "deploy-comp-component-import-dialog-file-chosen.png": {
+      "newName": "deploy-comp-component-import-dialog-file-chosen.png"
+    },
+    "deploy-comp-component-import-dialog-with-file-chosen.png": {
+      "newName": "deploy-comp-component-import-dialog-with-file-chosen.png"
+    },
+    "deploy-comp-component-import-dialog.png": {
+      "newName": "deploy-comp-component-import-dialog.png"
+    },
+    "deploy-comp-component-import-files.png": {
+      "newName": "deploy-comp-component-import-files.png"
+    },
+    "deploy-comp-component-import-submit-button.png": {
+      "newName": "deploy-comp-component-import-submit-button.png"
+    },
+    "deploy-comp-component-imported.png": {
+      "newName": "deploy-comp-component-imported.png"
+    },
+    "deploy-comp-component-processlist-withentries.png": {
+      "newName": "deploy-comp-component-processlist-withentries.png"
+    },
+    "deploy-comp-component-tabbar-processes.png": {
+      "newName": "deploy-comp-component-tabbar-processes.png"
+    },
+    "deploy-comp-component-versions-view-empty.png": {
+      "newName": "deploy-comp-component-versions-view-empty.png"
+    },
+    "deploy-comp-components-create-component-button.png": {
+      "newName": "deploy-comp-components-create-component-button.png"
+    },
+    "deploy-comp-components-create-dialog-01.png": {
+      "newName": "deploy-comp-components-create-dialog-01.png"
+    },
+    "deploy-comp-components-create-dialog-02.png": {
+      "newName": "deploy-comp-components-create-dialog-02.png"
+    },
+    "deploy-comp-components-create-dialog-03.png": {
+      "newName": "deploy-comp-components-create-dialog-03.png"
+    },
+    "deploy-comp-components-create-dialog-04.png": {
+      "newName": "deploy-comp-components-create-dialog-04.png"
+    },
+    "deploy-comp-components-view-empty.png": {
+      "newName": "deploy-comp-components-view-empty.png"
+    }
+  },
+  "docs/learn/deploy/media": {
+    "deploy-add-component.png": {
+      "newName": "deploy-add-component.png"
+    },
+    "deploy-app-comp-create-process-button.png": {
+      "newName": "deploy-app-comp-create-process-button.png"
+    },
+    "deploy-app-env-dev.png": {
+      "newName": "deploy-app-env-dev.png"
+    },
+    "deploy-app-process-finished-success.png": {
+      "newName": "deploy-app-process-finished-success.png"
+    },
+    "deploy-app-run-select-failing-deployment.png": {
+      "newName": "deploy-app-run-select-failing-deployment.png"
+    },
+    "deploy-application-environment-create-snapshot-detail-01.png": {
+      "newName": "deploy-application-environment-create-snapshot-detail-01.png"
+    },
+    "deploy-application-environment-create-snapshot-detail-02.png": {
+      "newName": "deploy-application-environment-create-snapshot-detail-02.png"
+    },
+    "deploy-application-environment-create-snapshot-dialog.png": {
+      "newName": "deploy-application-environment-create-snapshot-dialog.png"
+    },
+    "deploy-application-environment-create-snapshot.png": {
+      "newName": "deploy-application-environment-create-snapshot.png"
+    },
+    "deploy-application-environment-result-versions.png": {
+      "newName": "deploy-application-environment-result-versions.png"
+    },
+    "deploy-application-environment-snapshot-applied.png": {
+      "newName": "deploy-application-environment-snapshot-applied.png"
+    },
+    "deploy-application-environmentlist.png": {
+      "newName": "deploy-application-environmentlist.png"
+    },
+    "deploy-application-request-process-withcomponents.png": {
+      "newName": "deploy-application-request-process-withcomponents.png"
+    },
+    "deploy-application-request-process-withsnapshot.png": {
+      "newName": "deploy-application-request-process-withsnapshot.png"
+    },
+    "deploy-application-request-process.png": {
+      "newName": "deploy-application-request-process.png"
+    },
+    "deploy-application-runappprocessdialog-1-select-deployment-process.png": {
+      "newName": "deploy-application-runappprocessdialog-1-select-deployment-process.png"
+    },
+    "deploy-application-runappprocessdialog-2-select-comp-version-or-snapshot.png": {
+      "newName": "deploy-application-runappprocessdialog-2-select-comp-version-or-snapshot.png"
+    },
+    "deploy-application-runappprocessdialog-3-only-changed.png": {
+      "newName": "deploy-application-runappprocessdialog-3-only-changed.png"
+    },
+    "deploy-application-runappprocessdialog-4-choose-comp-version-button.png": {
+      "newName": "deploy-application-runappprocessdialog-4-choose-comp-version-button.png"
+    },
+    "deploy-application-runappprocessdialog-5-select-comp-version.png": {
+      "newName": "deploy-application-runappprocessdialog-5-select-comp-version.png"
+    },
+    "deploy-application-runappprocessdialog-6-select-comp-version.png": {
+      "newName": "deploy-application-runappprocessdialog-6-select-comp-version.png"
+    },
+    "deploy-application-runappprocessdialog-7-submit.png": {
+      "newName": "deploy-application-runappprocessdialog-7-submit.png"
+    },
+    "deploy-applications-run-page.png": {
+      "newName": "deploy-applications-run-page.png"
+    },
+    "deploy-components-list.png": {
+      "newName": "deploy-components-list.png"
+    },
+    "deploy-components-menuebar.png": {
+      "newName": "deploy-components-menuebar.png"
+    },
+    "deploy-control-email.png": {
+      "newName": "deploy-control-email.png"
+    },
+    "deploy-dashboard.png": {
+      "newName": "deploy-dashboard.png"
+    },
+    "deploy-deploy-3-dots.png": {
+      "newName": "deploy-deploy-3-dots.png"
+    },
+    "deploy-deploy-app-process-ai-analysis.png": {
+      "newName": "deploy-deploy-app-process-ai-analysis.png"
+    },
+    "deploy-deploy-app-process-failing-deployment.png": {
+      "newName": "deploy-deploy-app-process-failing-deployment.png"
+    },
+    "deploy-deploy-app-run-result-failed-step-3-dots.png": {
+      "newName": "deploy-deploy-app-run-result-failed-step-3-dots.png"
+    },
+    "deploy-deploy-app-run-result-failed.png": {
+      "newName": "deploy-deploy-app-run-result-failed.png"
+    },
+    "deploy-deploy-app-run-selected-comp-versions.png": {
+      "newName": "deploy-deploy-app-run-selected-comp-versions.png"
+    },
+    "deploy-deploy-comp-process-fail-deploy.png": {
+      "newName": "deploy-deploy-comp-process-fail-deploy.png"
+    },
+    "deploy-deploy-environment.png": {
+      "newName": "deploy-deploy-environment.png"
+    },
+    "deploy-deploy-import-apps-button.png": {
+      "newName": "deploy-deploy-import-apps-button.png"
+    },
+    "deploy-deploy-import-apps-dialog.png": {
+      "newName": "deploy-deploy-import-apps-dialog.png"
+    },
+    "deploy-deploy-import-apps-select-file.png": {
+      "newName": "deploy-deploy-import-apps-select-file.png"
+    },
+    "deploy-deploy-run-proc-failing-deploy.png": {
+      "newName": "deploy-deploy-run-proc-failing-deploy.png"
+    },
+    "deploy-deploy-side-bar-1-resources-icon-with-text.png": {
+      "newName": "deploy-deploy-side-bar-1-resources-icon-with-text.png"
+    },
+    "deploy-deploy-side-bar-1-resources-icon.png": {
+      "newName": "deploy-deploy-side-bar-1-resources-icon.png"
+    },
+    "deploy-deploy-sidebar-app-icon-with-text.png": {
+      "newName": "deploy-deploy-sidebar-app-icon-with-text.png"
+    },
+    "deploy-deploy-sidebar-app-icon.png": {
+      "newName": "deploy-deploy-sidebar-app-icon.png"
+    },
+    "deploy-deploy-sidebar-components-icon-with-text.png": {
+      "newName": "deploy-deploy-sidebar-components-icon-with-text.png"
+    },
+    "deploy-deploy-sidebar-components-icon.png": {
+      "newName": "deploy-deploy-sidebar-components-icon.png"
+    },
+    "deploy-deploy-sidebar.png": {
+      "newName": "deploy-deploy-sidebar.png"
+    },
+    "deploy-deployment-process.png": {
+      "newName": "deploy-deployment-process.png"
+    },
+    "deploy-edit-process.png": {
+      "newName": "deploy-edit-process.png"
+    },
+    "deploy-edit-pull-docker.png": {
+      "newName": "deploy-edit-pull-docker.png"
+    },
+    "deploy-install-component.png": {
+      "newName": "deploy-install-component.png"
+    },
+    "deploy-jenkins-pipeline.png": {
+      "newName": "deploy-jenkins-pipeline.png"
+    },
+    "deploy-navigate.png": {
+      "newName": "deploy-navigate.png"
+    },
+    "deploy-plugin-list-3-dots-menue.png": {
+      "newName": "deploy-plugin-list-3-dots-menue.png"
+    },
+    "deploy-process-diagram.png": {
+      "newName": "deploy-process-diagram.png"
+    },
+    "deploy-resource-tree.png": {
+      "newName": "deploy-resource-tree.png"
+    },
+    "deploy-running-process-01.png": {
+      "newName": "deploy-running-process-01.png"
+    },
+    "deploy-running-process-2-expand-all.png": {
+      "newName": "deploy-running-process-2-expand-all.png"
+    },
+    "deploy-running-process-3-stepdetails.png": {
+      "newName": "deploy-running-process-3-stepdetails.png"
+    },
+    "deploy-running-process-4-step-details.png": {
+      "newName": "deploy-running-process-4-step-details.png"
+    },
+    "deploy-settings-icon.png": {
+      "newName": "deploy-settings-icon.png"
+    }
+  },
+  "docs/learn/deploy/processes/media": {
+    "deploy-proc-component-create-new-process.png": {
+      "newName": "deploy-proc-component-create-new-process.png"
+    },
+    "deploy-proc-component-create-process-button.png": {
+      "newName": "deploy-proc-component-create-process-button.png"
+    },
+    "deploy-proc-component-create-process-dialog.png": {
+      "newName": "deploy-proc-component-create-process-dialog.png"
+    },
+    "deploy-proc-component-process-add-step.png": {
+      "newName": "deploy-proc-component-process-add-step.png"
+    },
+    "deploy-proc-component-process-editor-sidebar-add-status.png": {
+      "newName": "deploy-proc-component-process-editor-sidebar-add-status.png"
+    },
+    "deploy-proc-component-process-editor-sidebar.png": {
+      "newName": "deploy-proc-component-process-editor-sidebar.png"
+    },
+    "deploy-proc-component-process-editor-step-added-add-status.png": {
+      "newName": "deploy-proc-component-process-editor-step-added-add-status.png"
+    },
+    "deploy-proc-component-process-editor-step-added.png": {
+      "newName": "deploy-proc-component-process-editor-step-added.png"
+    },
+    "deploy-proc-component-process-editor-step-edit.png": {
+      "newName": "deploy-proc-component-process-editor-step-edit.png"
+    },
+    "deploy-proc-component-process-editor.png": {
+      "newName": "deploy-proc-component-process-editor.png"
+    },
+    "deploy-proc-component-process-empty.png": {
+      "newName": "deploy-proc-component-process-empty.png"
+    },
+    "deploy-proc-component-process-final-with-failing-test.png": {
+      "newName": "deploy-proc-component-process-final-with-failing-test.png"
+    },
+    "deploy-proc-component-process-final-with-passing-test.png": {
+      "newName": "deploy-proc-component-process-final-with-passing-test.png"
+    },
+    "deploy-proc-component-process-final.png": {
+      "newName": "deploy-proc-component-process-final.png"
+    },
+    "deploy-proc-component-process-list.png": {
+      "newName": "deploy-proc-component-process-list.png"
+    },
+    "deploy-proc-component-process-step-add-status-properties.png": {
+      "newName": "deploy-proc-component-process-step-add-status-properties.png"
+    },
+    "deploy-proc-component-process-step-properties-01.png": {
+      "newName": "deploy-proc-component-process-step-properties-01.png"
+    },
+    "deploy-proc-component-process-step-properties-02.png": {
+      "newName": "deploy-proc-component-process-step-properties-02.png"
+    },
+    "deploy-proc-component-process-step-shell-script-01.png": {
+      "newName": "deploy-proc-component-process-step-shell-script-01.png"
+    },
+    "deploy-proc-component-process-step-shell-script-02.png": {
+      "newName": "deploy-proc-component-process-step-shell-script-02.png"
+    },
+    "deploy-proc-component-version-list-with-status.png": {
+      "newName": "deploy-proc-component-version-list-with-status.png"
+    },
+    "deploy-proc-component-with-process-list.png": {
+      "newName": "deploy-proc-component-with-process-list.png"
+    }
+  },
+  "docs/learn/deploy/resources/media": {
+    "deploy-res-deploy-agent-pool-select-from-list-of-agents.png": {
+      "newName": "deploy-res-deploy-agent-pool-select-from-list-of-agents.png"
+    },
+    "deploy-res-deploy-resource-tree-3-dots-add-agent-pool.png": {
+      "newName": "deploy-res-deploy-resource-tree-3-dots-add-agent-pool.png"
+    },
+    "deploy-res-deploy-resource-tree-3-dots-add-comp-tag.png": {
+      "newName": "deploy-res-deploy-resource-tree-3-dots-add-comp-tag.png"
+    },
+    "deploy-res-deploy-resource-tree-3-dots-add-group.png": {
+      "newName": "deploy-res-deploy-resource-tree-3-dots-add-group.png"
+    },
+    "deploy-res-deploy-resource-tree-3-dots-menu.png": {
+      "newName": "deploy-res-deploy-resource-tree-3-dots-menu.png"
+    },
+    "deploy-res-deploy-resource-tree-add-agent-pool-dialog.png": {
+      "newName": "deploy-res-deploy-resource-tree-add-agent-pool-dialog.png"
+    },
+    "deploy-res-deploy-resource-tree-agent-pool-added.png": {
+      "newName": "deploy-res-deploy-resource-tree-agent-pool-added.png"
+    },
+    "deploy-res-deploy-resource-tree-create-dialog-enter-name.png": {
+      "newName": "deploy-res-deploy-resource-tree-create-dialog-enter-name.png"
+    },
+    "deploy-res-deploy-resource-tree-create-dialog.png": {
+      "newName": "deploy-res-deploy-resource-tree-create-dialog.png"
+    },
+    "deploy-res-deploy-resource-tree-create-resouce-dialog-component-tag.png": {
+      "newName": "deploy-res-deploy-resource-tree-create-resouce-dialog-component-tag.png"
+    },
+    "deploy-res-deploy-resource-tree-final.png": {
+      "newName": "deploy-res-deploy-resource-tree-final.png"
+    },
+    "deploy-res-deploy-resource-tree-sub-group-name.png": {
+      "newName": "deploy-res-deploy-resource-tree-sub-group-name.png"
+    },
+    "deploy-res-deploy-resource-tree-sub-groups.png": {
+      "newName": "deploy-res-deploy-resource-tree-sub-groups.png"
+    },
+    "deploy-res-deploy-resource-tree-top-level-created.png": {
+      "newName": "deploy-res-deploy-resource-tree-top-level-created.png"
+    },
+    "deploy-res-deploy-resource-tree-view.png": {
+      "newName": "deploy-res-deploy-resource-tree-view.png"
+    },
+    "deploy-res-deploy-resources-agent-pool-list.png": {
+      "newName": "deploy-res-deploy-resources-agent-pool-list.png"
+    },
+    "deploy-res-deploy-resources-agent-pools-create-agent-pool-button.png": {
+      "newName": "deploy-res-deploy-resources-agent-pools-create-agent-pool-button.png"
+    },
+    "deploy-res-deploy-resources-agent-pools-create-dialog.png": {
+      "newName": "deploy-res-deploy-resources-agent-pools-create-dialog.png"
+    },
+    "deploy-res-deploy-resources-agent-pools-tab.png": {
+      "newName": "deploy-res-deploy-resources-agent-pools-tab.png"
+    },
+    "deploy-res-deploy-resources-agent-pools-view.png": {
+      "newName": "deploy-res-deploy-resources-agent-pools-view.png"
+    },
+    "deploy-res-deploy-resources-agentand-pools-3-dots-menu.png": {
+      "newName": "deploy-res-deploy-resources-agentand-pools-3-dots-menu.png"
+    },
+    "deploy-res-deploy-resources-all-tab-view.png": {
+      "newName": "deploy-res-deploy-resources-all-tab-view.png"
+    },
+    "deploy-res-deploy-resources-create-top-level.png": {
+      "newName": "deploy-res-deploy-resources-create-top-level.png"
+    },
+    "deploy-res-deploy-resources-resource-tree-tab.png": {
+      "newName": "deploy-res-deploy-resources-resource-tree-tab.png"
+    }
+  },
+  "docs/learn/deploy/settings/media": {
+    "deploy-settings-deploy-ai-settings-ai-provider-selection.png": {
+      "newName": "deploy-settings-deploy-ai-settings-ai-provider-selection.png"
+    },
+    "deploy-settings-deploy-ai-settings-dialog.png": {
+      "newName": "deploy-settings-deploy-ai-settings-dialog.png"
+    },
+    "deploy-settings-deploy-ai-settings-model-available-list.png": {
+      "newName": "deploy-settings-deploy-ai-settings-model-available-list.png"
+    },
+    "deploy-settings-deploy-ai-settings-model-name-selected.png": {
+      "newName": "deploy-settings-deploy-ai-settings-model-name-selected.png"
+    },
+    "deploy-settings-deploy-ai-settings-model-name.png": {
+      "newName": "deploy-settings-deploy-ai-settings-model-name.png"
+    },
+    "deploy-settings-deploy-close-button.png": {
+      "newName": "deploy-settings-deploy-close-button.png"
+    },
+    "deploy-settings-deploy-create-token-button.png": {
+      "newName": "deploy-settings-deploy-create-token-button.png"
+    },
+    "deploy-settings-deploy-create-token-dialog.png": {
+      "newName": "deploy-settings-deploy-create-token-dialog.png"
+    },
+    "deploy-settings-deploy-new-pat-message.png": {
+      "newName": "deploy-settings-deploy-new-pat-message.png"
+    },
+    "deploy-settings-deploy-pat-list-updated.png": {
+      "newName": "deploy-settings-deploy-pat-list-updated.png"
+    },
+    "deploy-settings-deploy-pat-list.png": {
+      "newName": "deploy-settings-deploy-pat-list.png"
+    },
+    "deploy-settings-deploy-security-settings.png": {
+      "newName": "deploy-settings-deploy-security-settings.png"
+    },
+    "deploy-settings-deploy-settings-system-section.png": {
+      "newName": "deploy-settings-deploy-settings-system-section.png"
+    },
+    "deploy-settings-deploy-settings.png": {
+      "newName": "deploy-settings-deploy-settings.png"
+    },
+    "deploy-settings-deploy-system-section-ai-settings.png": {
+      "newName": "deploy-settings-deploy-system-section-ai-settings.png"
+    },
+    "deploy-settings-deploy-tokens-link.png": {
+      "newName": "deploy-settings-deploy-tokens-link.png"
+    },
+    "deploy-settings-plugin-install-confirmation.png": {
+      "newName": "deploy-settings-plugin-install-confirmation.png"
+    },
+    "deploy-settings-plugin-install-success.png": {
+      "newName": "deploy-settings-plugin-install-success.png"
+    },
+    "deploy-settings-plugin-upgrade.png": {
+      "newName": "deploy-settings-plugin-upgrade.png"
+    },
+    "deploy-settings-plugins-install.png": {
+      "newName": "deploy-settings-plugins-install.png"
+    },
+    "deploy-settings-plugins-list.png": {
+      "newName": "deploy-settings-plugins-list.png"
+    },
+    "deploy-settings-settings-automation-section.png": {
+      "newName": "deploy-settings-settings-automation-section.png"
+    },
+    "deploy-settings-settings-statuses-version-statuses.png": {
+      "newName": "deploy-settings-settings-statuses-version-statuses.png"
+    }
+  },
+  "docs/learn/introduction/about/media": {
+    "intro-about-loop-about-box.png": {
+      "newName": "intro-about-loop-about-box.png"
+    },
+    "intro-about-loop-about-button.png": {
+      "newName": "intro-about-loop-about-button.png"
+    },
+    "intro-about-loop-ai-setup-empty-list.png": {
+      "newName": "intro-about-loop-ai-setup-empty-list.png"
+    },
+    "intro-about-loop-ai-setup-name.png": {
+      "newName": "intro-about-loop-ai-setup-name.png"
+    },
+    "intro-about-loop-ai-setup-page-02.png": {
+      "newName": "intro-about-loop-ai-setup-page-02.png"
+    },
+    "intro-about-loop-ai-setup-select-provider.png": {
+      "newName": "intro-about-loop-ai-setup-select-provider.png"
+    },
+    "intro-about-loop-logged-out.png": {
+      "newName": "intro-about-loop-logged-out.png"
+    },
+    "intro-about-loop-logout-button.png": {
+      "newName": "intro-about-loop-logout-button.png"
+    },
+    "intro-about-loop-settings-integrations-new-dialog-01.png": {
+      "newName": "intro-about-loop-settings-integrations-new-dialog-01.png"
+    },
+    "intro-about-loop-settings-integrations-new-dialog-02.png": {
+      "newName": "intro-about-loop-settings-integrations-new-dialog-02.png"
+    },
+    "intro-about-loop-settings-integrations-new-dialog-03.png": {
+      "newName": "intro-about-loop-settings-integrations-new-dialog-03.png"
+    },
+    "intro-about-loop-settings-integrations.png": {
+      "newName": "intro-about-loop-settings-integrations.png"
+    },
+    "intro-about-loop-settings-new-integrations-button.png": {
+      "newName": "intro-about-loop-settings-new-integrations-button.png"
+    },
+    "intro-about-loop-settings-user-admin-users.png": {
+      "newName": "intro-about-loop-settings-user-admin-users.png"
+    },
+    "intro-about-loop-settings-user-admin.png": {
+      "newName": "intro-about-loop-settings-user-admin.png"
+    },
+    "intro-about-loop-sidebar-expand-button.png": {
+      "newName": "intro-about-loop-sidebar-expand-button.png"
+    },
+    "intro-about-loop-sidebar-expanded.png": {
+      "newName": "intro-about-loop-sidebar-expanded.png"
+    },
+    "intro-about-loop-sidebar-plugins.png": {
+      "newName": "intro-about-loop-sidebar-plugins.png"
+    },
+    "intro-about-loop-sidebar-settings.png": {
+      "newName": "intro-about-loop-sidebar-settings.png"
+    },
+    "intro-about-loop-sidebar-small.png": {
+      "newName": "intro-about-loop-sidebar-small.png"
+    }
+  },
+  "docs/learn/introduction/genie/media": {
+    "intro-genie-loop-genie-button.png": {
+      "newName": "intro-genie-loop-genie-button.png"
+    },
+    "intro-genie-loop-genie-dialog-focus-selection.png": {
+      "newName": "intro-genie-loop-genie-dialog-focus-selection.png"
+    },
+    "intro-genie-loop-genie-dialog.png": {
+      "newName": "intro-genie-loop-genie-dialog.png"
+    }
+  },
+  "docs/learn/introduction/loops/media": {
+    "intro-loops-create-new-loop-dialog.png": {
+      "newName": "intro-loops-create-new-loop-dialog.png"
+    },
+    "intro-loops-create-new-loop-with-learning-data.png": {
+      "newName": "intro-loops-create-new-loop-with-learning-data.png"
+    },
+    "intro-loops-loop-create-new-loop-button.png": {
+      "newName": "intro-loops-loop-create-new-loop-button.png"
+    },
+    "intro-loops-loop-teamspace-07-create-new-loop-home.png": {
+      "newName": "intro-loops-loop-teamspace-07-create-new-loop-home.png"
+    },
+    "intro-loops-loop-teamspace-08-create-new-loop-dialog.png": {
+      "newName": "intro-loops-loop-teamspace-08-create-new-loop-dialog.png"
+    },
+    "intro-loops-loop-teamspace-09-create-new-loop-search-member.png": {
+      "newName": "intro-loops-loop-teamspace-09-create-new-loop-search-member.png"
+    },
+    "intro-loops-loop-teamspace-10-create-new-loop-member-added.png": {
+      "newName": "intro-loops-loop-teamspace-10-create-new-loop-member-added.png"
+    },
+    "intro-loops-loop-teamspace-11-create-new-loop-creation.png": {
+      "newName": "intro-loops-loop-teamspace-11-create-new-loop-creation.png"
+    },
+    "intro-loops-loop-teamspace-12-create-new-loop-success.png": {
+      "newName": "intro-loops-loop-teamspace-12-create-new-loop-success.png"
+    },
+    "intro-loops-loops-go-to-my-loops-button.png": {
+      "newName": "intro-loops-loops-go-to-my-loops-button.png"
+    },
+    "intro-loops-new-loop-creation-progress.png": {
+      "newName": "intro-loops-new-loop-creation-progress.png"
+    },
+    "intro-loops-new-loop-creation-success.png": {
+      "newName": "intro-loops-new-loop-creation-success.png"
+    },
+    "intro-loops-no-loops-inthis-team-space.png": {
+      "newName": "intro-loops-no-loops-inthis-team-space.png"
+    }
+  },
+  "docs/learn/introduction/media": {
+    "intro-1-no-teamspace.png": {
+      "newName": "intro-1-no-teamspace.png"
+    },
+    "intro-home-page-with-no-data.png": {
+      "newName": "intro-home-page-with-no-data.png"
+    },
+    "intro-loop-central-app-control.png": {
+      "newName": "intro-loop-central-app-control.png"
+    },
+    "intro-loop-home-build-metrics.png": {
+      "newName": "intro-loop-home-build-metrics.png"
+    },
+    "intro-loop-home-control-metrics.png": {
+      "newName": "intro-loop-home-control-metrics.png"
+    },
+    "intro-loop-home-cycle-time.png": {
+      "newName": "intro-loop-home-cycle-time.png"
+    },
+    "intro-loop-home-deploy-metrics.png": {
+      "newName": "intro-loop-home-deploy-metrics.png"
+    },
+    "intro-loop-home-lead-time.png": {
+      "newName": "intro-loop-home-lead-time.png"
+    },
+    "intro-loop-home-page-side-bar.png": {
+      "newName": "intro-loop-home-page-side-bar.png"
+    },
+    "intro-loop-home-page-solutions.png": {
+      "newName": "intro-loop-home-page-solutions.png"
+    },
+    "intro-loop-home-page.png": {
+      "newName": "intro-loop-home-page.png"
+    },
+    "intro-loop-home-plan-metrics.png": {
+      "newName": "intro-loop-home-plan-metrics.png"
+    },
+    "intro-loop-login-page.png": {
+      "newName": "intro-loop-login-page.png"
+    },
+    "intro-loop-sidebar-switch-team-space.png": {
+      "newName": "intro-loop-sidebar-switch-team-space.png"
+    },
+    "intro-loop-sign-in-button.png": {
+      "newName": "intro-loop-sign-in-button.png"
+    },
+    "intro-loop-switch-to-build.png": {
+      "newName": "intro-loop-switch-to-build.png"
+    },
+    "intro-loop-switch-to-code.png": {
+      "newName": "intro-loop-switch-to-code.png"
+    },
+    "intro-loop-switch-to-control.png": {
+      "newName": "intro-loop-switch-to-control.png"
+    },
+    "intro-loop-switch-to-deploy.png": {
+      "newName": "intro-loop-switch-to-deploy.png"
+    },
+    "intro-loop-switch-to-measure.png": {
+      "newName": "intro-loop-switch-to-measure.png"
+    },
+    "intro-loop-switch-to-plan.png": {
+      "newName": "intro-loop-switch-to-plan.png"
+    },
+    "intro-loop-switch-to-release.png": {
+      "newName": "intro-loop-switch-to-release.png"
+    },
+    "intro-loop-switch-to-test.png": {
+      "newName": "intro-loop-switch-to-test.png"
+    },
+    "intro-loop-whatwouldyouliketodotoday.png": {
+      "newName": "intro-loop-whatwouldyouliketodotoday.png"
+    }
+  },
+  "docs/learn/introduction/teamspace/media": {
+    "intro-teamspace-loop-create-team-space.png": {
+      "newName": "intro-teamspace-loop-create-team-space.png"
+    },
+    "intro-teamspace-loop-create-ts-button.png": {
+      "newName": "intro-teamspace-loop-create-ts-button.png"
+    },
+    "intro-teamspace-loop-initial-create-ts-button.png": {
+      "newName": "intro-teamspace-loop-initial-create-ts-button.png"
+    },
+    "intro-teamspace-loop-team-space-icon.png": {
+      "newName": "intro-teamspace-loop-team-space-icon.png"
+    },
+    "intro-teamspace-loop-teamspace-01-menue.png": {
+      "newName": "intro-teamspace-loop-teamspace-01-menue.png"
+    },
+    "intro-teamspace-loop-teamspace-02-create-new-dialog.png": {
+      "newName": "intro-teamspace-loop-teamspace-02-create-new-dialog.png"
+    },
+    "intro-teamspace-loop-teamspace-03-create-new-search-member.png": {
+      "newName": "intro-teamspace-loop-teamspace-03-create-new-search-member.png"
+    },
+    "intro-teamspace-loop-teamspace-04-create-new-member-added.png": {
+      "newName": "intro-teamspace-loop-teamspace-04-create-new-member-added.png"
+    },
+    "intro-teamspace-loop-teamspace-05-create-new-creation.png": {
+      "newName": "intro-teamspace-loop-teamspace-05-create-new-creation.png"
+    },
+    "intro-teamspace-loop-teamspace-06-create-new-success.png": {
+      "newName": "intro-teamspace-loop-teamspace-06-create-new-success.png"
+    },
+    "intro-teamspace-loop-ts-initial-ts.png": {
+      "newName": "intro-teamspace-loop-ts-initial-ts.png"
+    },
+    "intro-teamspace-loop-ts-team-space-icon.png": {
+      "newName": "intro-teamspace-loop-ts-team-space-icon.png"
+    }
+  },
+  "docs/learn/measure/media": {
+    "measure-measure-all-vsm-list.png": {
+      "newName": "measure-measure-all-vsm-list.png"
+    },
+    "measure-measure-create-pat-dialog.png": {
+      "newName": "measure-measure-create-pat-dialog.png"
+    },
+    "measure-measure-create-pat-result-message.png": {
+      "newName": "measure-measure-create-pat-result-message.png"
+    },
+    "measure-measure-create-user-access-key-button.png": {
+      "newName": "measure-measure-create-user-access-key-button.png"
+    },
+    "measure-measure-emerald-gates-prod.png": {
+      "newName": "measure-measure-emerald-gates-prod.png"
+    },
+    "measure-measure-emerald-gates-qa.png": {
+      "newName": "measure-measure-emerald-gates-qa.png"
+    },
+    "measure-measure-emerald-item-details.png": {
+      "newName": "measure-measure-emerald-item-details.png"
+    },
+    "measure-measure-emerald-pipeline.png": {
+      "newName": "measure-measure-emerald-pipeline.png"
+    },
+    "measure-measure-emerald-swimlanes.png": {
+      "newName": "measure-measure-emerald-swimlanes.png"
+    },
+    "measure-measure-emerald-vsm-dot-view.png": {
+      "newName": "measure-measure-emerald-vsm-dot-view.png"
+    },
+    "measure-measure-insight-all-dashboards.png": {
+      "newName": "measure-measure-insight-all-dashboards.png"
+    },
+    "measure-measure-insight-delivery-performance.png": {
+      "newName": "measure-measure-insight-delivery-performance.png"
+    },
+    "measure-measure-insight-home.png": {
+      "newName": "measure-measure-insight-home.png"
+    },
+    "measure-measure-insight-icon.png": {
+      "newName": "measure-measure-insight-icon.png"
+    },
+    "measure-measure-insights-delivery-quality.png": {
+      "newName": "measure-measure-insights-delivery-quality.png"
+    },
+    "measure-measure-my-profile-link.png": {
+      "newName": "measure-measure-my-profile-link.png"
+    },
+    "measure-measure-pat-list.png": {
+      "newName": "measure-measure-pat-list.png"
+    },
+    "measure-measure-pat-newly-created.png": {
+      "newName": "measure-measure-pat-newly-created.png"
+    },
+    "measure-measure-pipeline-actions.png": {
+      "newName": "measure-measure-pipeline-actions.png"
+    },
+    "measure-measure-pipeline-env-3-dotsmenue.png": {
+      "newName": "measure-measure-pipeline-env-3-dotsmenue.png"
+    },
+    "measure-measure-pipeline-env-create-gatedialog-01.png": {
+      "newName": "measure-measure-pipeline-env-create-gatedialog-01.png"
+    },
+    "measure-measure-pipeline-env-create-gatedialog-02.png": {
+      "newName": "measure-measure-pipeline-env-create-gatedialog-02.png"
+    },
+    "measure-measure-pipeline-run-deployment.png": {
+      "newName": "measure-measure-pipeline-run-deployment.png"
+    },
+    "measure-measure-pipeline-tab.png": {
+      "newName": "measure-measure-pipeline-tab.png"
+    },
+    "measure-measure-pipeline-view.png": {
+      "newName": "measure-measure-pipeline-view.png"
+    },
+    "measure-measure-pizza-item-details.png": {
+      "newName": "measure-measure-pizza-item-details.png"
+    },
+    "measure-measure-profile-settings-help-bar.png": {
+      "newName": "measure-measure-profile-settings-help-bar.png"
+    },
+    "measure-measure-release-icon.png": {
+      "newName": "measure-measure-release-icon.png"
+    },
+    "measure-measure-settings-menue.png": {
+      "newName": "measure-measure-settings-menue.png"
+    },
+    "measure-measure-swimlane-selected-tab.png": {
+      "newName": "measure-measure-swimlane-selected-tab.png"
+    },
+    "measure-measure-swimlane-tab.png": {
+      "newName": "measure-measure-swimlane-tab.png"
+    },
+    "measure-measure-swimlane-view.png": {
+      "newName": "measure-measure-swimlane-view.png"
+    },
+    "measure-measure-vsm-echo-logic.png": {
+      "newName": "measure-measure-vsm-echo-logic.png"
+    },
+    "measure-measure-vsm-emerald.png": {
+      "newName": "measure-measure-vsm-emerald.png"
+    },
+    "measure-measure-vsm-icon.png": {
+      "newName": "measure-measure-vsm-icon.png"
+    },
+    "measure-tabs.png": {
+      "newName": "measure-tabs.png"
+    },
+    "measure-view-dot-details-01.png": {
+      "newName": "measure-view-dot-details-01.png"
+    },
+    "measure-view-dot-details-02.png": {
+      "newName": "measure-view-dot-details-02.png"
+    },
+    "measure-view-dot.png": {
+      "newName": "measure-view-dot.png"
+    }
+  },
+  "docs/learn/plan/ai_assistant/media": {
+    "plan-ai-accept-terms.png": {
+      "newName": "plan-ai-accept-terms.png"
+    },
+    "plan-ai-assistant-icon.png": {
+      "newName": "plan-ai-assistant-icon.png"
+    },
+    "plan-ai-create-records-button.png": {
+      "newName": "plan-ai-create-records-button.png"
+    },
+    "plan-ai-dialog-01.png": {
+      "newName": "plan-ai-dialog-01.png"
+    },
+    "plan-ai-done.png": {
+      "newName": "plan-ai-done.png"
+    },
+    "plan-ai-enter-prompt.png": {
+      "newName": "plan-ai-enter-prompt.png"
+    },
+    "plan-ai-generate-action-items.png": {
+      "newName": "plan-ai-generate-action-items.png"
+    },
+    "plan-ai-next-button.png": {
+      "newName": "plan-ai-next-button.png"
+    },
+    "plan-ai-records-created.png": {
+      "newName": "plan-ai-records-created.png"
+    },
+    "plan-ai-recordtype-dialog-01.png": {
+      "newName": "plan-ai-recordtype-dialog-01.png"
+    },
+    "plan-ai-recordtype-dialog-02.png": {
+      "newName": "plan-ai-recordtype-dialog-02.png"
+    },
+    "plan-ai-recordtype-workitem.png": {
+      "newName": "plan-ai-recordtype-workitem.png"
+    },
+    "plan-ai-select-button-list.png": {
+      "newName": "plan-ai-select-button-list.png"
+    },
+    "plan-ai-select-items-02.png": {
+      "newName": "plan-ai-select-items-02.png"
+    },
+    "plan-ai-select-items-simple.png": {
+      "newName": "plan-ai-select-items-simple.png"
+    },
+    "plan-ai-select-items.png": {
+      "newName": "plan-ai-select-items.png"
+    },
+    "plan-ai-select-record-type.png": {
+      "newName": "plan-ai-select-record-type.png"
+    },
+    "plan-ai-to-create-items.png": {
+      "newName": "plan-ai-to-create-items.png"
+    },
+    "plan-ai-user-input-type.png": {
+      "newName": "plan-ai-user-input-type.png"
+    }
+  },
+  "docs/learn/plan/boards/media": {
+    "plan-boards-boards-select-wi.png": {
+      "newName": "plan-boards-boards-select-wi.png"
+    },
+    "plan-boards-plan-project-board-clear-filter-button.png": {
+      "newName": "plan-boards-plan-project-board-clear-filter-button.png"
+    },
+    "plan-boards-plan-project-board-filterbar-uncheck-epic.png": {
+      "newName": "plan-boards-plan-project-board-filterbar-uncheck-epic.png"
+    },
+    "plan-boards-plan-project-board-filterbar.png": {
+      "newName": "plan-boards-plan-project-board-filterbar.png"
+    },
+    "plan-boards-plan-project-board-icon.png": {
+      "newName": "plan-boards-plan-project-board-icon.png"
+    },
+    "plan-boards-plan-project-board-my-board-with-imported-data.png": {
+      "newName": "plan-boards-plan-project-board-my-board-with-imported-data.png"
+    },
+    "plan-boards-plan-project-board-my-board.png": {
+      "newName": "plan-boards-plan-project-board-my-board.png"
+    },
+    "plan-boards-plan-project-board-releases.png": {
+      "newName": "plan-boards-plan-project-board-releases.png"
+    },
+    "plan-boards-plan-project-board-select-project.png": {
+      "newName": "plan-boards-plan-project-board-select-project.png"
+    },
+    "plan-boards-plan-project-board-sprint-backlog.png": {
+      "newName": "plan-boards-plan-project-board-sprint-backlog.png"
+    },
+    "plan-boards-plan-project-board-sprint-board.png": {
+      "newName": "plan-boards-plan-project-board-sprint-board.png"
+    },
+    "plan-boards-plan-project-board-work-items-filtered.png": {
+      "newName": "plan-boards-plan-project-board-work-items-filtered.png"
+    },
+    "plan-boards-plan-project-board-work-items.png": {
+      "newName": "plan-boards-plan-project-board-work-items.png"
+    }
+  },
+  "docs/learn/plan/media": {
+    "plan-lets-go-button.png": {
+      "newName": "plan-lets-go-button.png"
+    },
+    "plan-plan-app-view-details.png": {
+      "newName": "plan-plan-app-view-details.png"
+    },
+    "plan-plan-app-view-flow.png": {
+      "newName": "plan-plan-app-view-flow.png"
+    },
+    "plan-plan-application-items.png": {
+      "newName": "plan-plan-application-items.png"
+    },
+    "plan-plan-applications-page.png": {
+      "newName": "plan-plan-applications-page.png"
+    },
+    "plan-plan-copy-link.png": {
+      "newName": "plan-plan-copy-link.png"
+    },
+    "plan-plan-create-new-component.png": {
+      "newName": "plan-plan-create-new-component.png"
+    },
+    "plan-plan-create-new-sprint.png": {
+      "newName": "plan-plan-create-new-sprint.png"
+    },
+    "plan-plan-created-by-me.png": {
+      "newName": "plan-plan-created-by-me.png"
+    },
+    "plan-plan-eco-logic-app.png": {
+      "newName": "plan-plan-eco-logic-app.png"
+    },
+    "plan-plan-edit-record.png": {
+      "newName": "plan-plan-edit-record.png"
+    },
+    "plan-plan-editor-bar.png": {
+      "newName": "plan-plan-editor-bar.png"
+    },
+    "plan-plan-editprojec-list-releases.png": {
+      "newName": "plan-plan-editprojec-list-releases.png"
+    },
+    "plan-plan-home-button.png": {
+      "newName": "plan-plan-home-button.png"
+    },
+    "plan-plan-home-page.png": {
+      "newName": "plan-plan-home-page.png"
+    },
+    "plan-plan-integration-add-group.png": {
+      "newName": "plan-plan-integration-add-group.png"
+    },
+    "plan-plan-integration-final.png": {
+      "newName": "plan-plan-integration-final.png"
+    },
+    "plan-plan-integration-llm-settings.png": {
+      "newName": "plan-plan-integration-llm-settings.png"
+    },
+    "plan-plan-integration-new-button.png": {
+      "newName": "plan-plan-integration-new-button.png"
+    },
+    "plan-plan-integration-new-created-no-groups.png": {
+      "newName": "plan-plan-integration-new-created-no-groups.png"
+    },
+    "plan-plan-integration-new-created.png": {
+      "newName": "plan-plan-integration-new-created.png"
+    },
+    "plan-plan-integration-new-dialog-01.png": {
+      "newName": "plan-plan-integration-new-dialog-01.png"
+    },
+    "plan-plan-integration-new-dialog-02.png": {
+      "newName": "plan-plan-integration-new-dialog-02.png"
+    },
+    "plan-plan-integration-select-ai-model.png": {
+      "newName": "plan-plan-integration-select-ai-model.png"
+    },
+    "plan-plan-integration-select-groups.png": {
+      "newName": "plan-plan-integration-select-groups.png"
+    },
+    "plan-plan-integrations-view.png": {
+      "newName": "plan-plan-integrations-view.png"
+    },
+    "plan-plan-list-created-by-me.png": {
+      "newName": "plan-plan-list-created-by-me.png"
+    },
+    "plan-plan-member-access-integrations-checked.png": {
+      "newName": "plan-plan-member-access-integrations-checked.png"
+    },
+    "plan-plan-member-access-integrations-not-checked.png": {
+      "newName": "plan-plan-member-access-integrations-not-checked.png"
+    },
+    "plan-plan-member-access-view.png": {
+      "newName": "plan-plan-member-access-view.png"
+    },
+    "plan-plan-my-applications-button.png": {
+      "newName": "plan-plan-my-applications-button.png"
+    },
+    "plan-plan-new-component-main.png": {
+      "newName": "plan-plan-new-component-main.png"
+    },
+    "plan-plan-new-item-button-select-project.png": {
+      "newName": "plan-plan-new-item-button-select-project.png"
+    },
+    "plan-plan-new-item-button.png": {
+      "newName": "plan-plan-new-item-button.png"
+    },
+    "plan-plan-new-release-main.png": {
+      "newName": "plan-plan-new-release-main.png"
+    },
+    "plan-plan-new-release.png": {
+      "newName": "plan-plan-new-release.png"
+    },
+    "plan-plan-new-sprint-main.png": {
+      "newName": "plan-plan-new-sprint-main.png"
+    },
+    "plan-plan-plus-symbol.png": {
+      "newName": "plan-plan-plus-symbol.png"
+    },
+    "plan-plan-profile-button.png": {
+      "newName": "plan-plan-profile-button.png"
+    },
+    "plan-plan-profile-member-access.png": {
+      "newName": "plan-plan-profile-member-access.png"
+    },
+    "plan-plan-profile-menue.png": {
+      "newName": "plan-plan-profile-menue.png"
+    },
+    "plan-plan-profile-modify.png": {
+      "newName": "plan-plan-profile-modify.png"
+    },
+    "plan-plan-project-config-add-new-tag.png": {
+      "newName": "plan-plan-project-config-add-new-tag.png"
+    },
+    "plan-plan-refresh.png": {
+      "newName": "plan-plan-refresh.png"
+    },
+    "plan-plan-releases-list-details.png": {
+      "newName": "plan-plan-releases-list-details.png"
+    },
+    "plan-plan-releases-project-list.png": {
+      "newName": "plan-plan-releases-project-list.png"
+    },
+    "plan-plan-releases-sprint-list.png": {
+      "newName": "plan-plan-releases-sprint-list.png"
+    },
+    "plan-plan-releases-test-plans-list.png": {
+      "newName": "plan-plan-releases-test-plans-list.png"
+    },
+    "plan-plan-save-and-create-another.png": {
+      "newName": "plan-plan-save-and-create-another.png"
+    },
+    "plan-plan-save-button.png": {
+      "newName": "plan-plan-save-button.png"
+    },
+    "plan-plan-show-scm-entry-details.png": {
+      "newName": "plan-plan-show-scm-entry-details.png"
+    },
+    "plan-plan-side-bar-profile-member-access-selected.png": {
+      "newName": "plan-plan-side-bar-profile-member-access-selected.png"
+    },
+    "plan-plan-side-bar-user-management.png": {
+      "newName": "plan-plan-side-bar-user-management.png"
+    },
+    "plan-plan-sidebar-agile-icon.png": {
+      "newName": "plan-plan-sidebar-agile-icon.png"
+    },
+    "plan-plan-sidebar-agile-projects.png": {
+      "newName": "plan-plan-sidebar-agile-projects.png"
+    },
+    "plan-plan-sidebar-config-integrations.png": {
+      "newName": "plan-plan-sidebar-config-integrations.png"
+    },
+    "plan-plan-sidebar-project-boards.png": {
+      "newName": "plan-plan-sidebar-project-boards.png"
+    },
+    "plan-plan-sidebar-projects.png": {
+      "newName": "plan-plan-sidebar-projects.png"
+    },
+    "plan-plan-three-dotsmenue.png": {
+      "newName": "plan-plan-three-dotsmenue.png"
+    },
+    "plan-plan-user-management-groups.png": {
+      "newName": "plan-plan-user-management-groups.png"
+    },
+    "plan-plan-usermanagement-create-group-button.png": {
+      "newName": "plan-plan-usermanagement-create-group-button.png"
+    },
+    "plan-plan-usermanagement-group-add-user.png": {
+      "newName": "plan-plan-usermanagement-group-add-user.png"
+    },
+    "plan-plan-usermanagement-group-add-users-list-button-add.png": {
+      "newName": "plan-plan-usermanagement-group-add-users-list-button-add.png"
+    },
+    "plan-plan-usermanagement-group-add-users-list-updated.png": {
+      "newName": "plan-plan-usermanagement-group-add-users-list-updated.png"
+    },
+    "plan-plan-usermanagement-group-add-users-list.png": {
+      "newName": "plan-plan-usermanagement-group-add-users-list.png"
+    },
+    "plan-plan-usermanagement-new-group-name.png": {
+      "newName": "plan-plan-usermanagement-new-group-name.png"
+    },
+    "plan-plan-welcome-introduction-screen.png": {
+      "newName": "plan-plan-welcome-introduction-screen.png"
+    },
+    "plan-plan-welcome-screen.png": {
+      "newName": "plan-plan-welcome-screen.png"
+    },
+    "plan-show-git-commit.png": {
+      "newName": "plan-show-git-commit.png"
+    },
+    "plan-sidebar-configuration-button.png": {
+      "newName": "plan-sidebar-configuration-button.png"
+    },
+    "plan-sidebar.png": {
+      "newName": "plan-sidebar.png"
+    }
+  },
+  "docs/learn/plan/newapp/media": {
+    "plan-newapp-tenant-add-app-button.png": {
+      "newName": "plan-newapp-tenant-add-app-button.png"
+    },
+    "plan-newapp-tenant-app-list-final.png": {
+      "newName": "plan-newapp-tenant-app-list-final.png"
+    },
+    "plan-newapp-tenant-create-new-app.png": {
+      "newName": "plan-newapp-tenant-create-new-app.png"
+    },
+    "plan-newapp-tenant-how-to-switch-01.png": {
+      "newName": "plan-newapp-tenant-how-to-switch-01.png"
+    },
+    "plan-newapp-tenant-how-to-switch-02.png": {
+      "newName": "plan-newapp-tenant-how-to-switch-02.png"
+    },
+    "plan-newapp-tenant-list.png": {
+      "newName": "plan-newapp-tenant-list.png"
+    },
+    "plan-newapp-tenant-new-app-creation.png": {
+      "newName": "plan-newapp-tenant-new-app-creation.png"
+    },
+    "plan-newapp-tenant-new-app-dialog.png": {
+      "newName": "plan-newapp-tenant-new-app-dialog.png"
+    },
+    "plan-newapp-tenant-new-app-finish.png": {
+      "newName": "plan-newapp-tenant-new-app-finish.png"
+    },
+    "plan-newapp-tenant-new-app-next.png": {
+      "newName": "plan-newapp-tenant-new-app-next.png"
+    }
+  },
+  "docs/learn/plan/newproject/media": {
+    "plan-newproject-plan-new-project-configure.png": {
+      "newName": "plan-newproject-plan-new-project-configure.png"
+    },
+    "plan-newproject-plan-new-project-main.png": {
+      "newName": "plan-newproject-plan-new-project-main.png"
+    },
+    "plan-newproject-plan-new-wi-list.png": {
+      "newName": "plan-newproject-plan-new-wi-list.png"
+    },
+    "plan-newproject-plan-new-work-item.png": {
+      "newName": "plan-newproject-plan-new-work-item.png"
+    },
+    "plan-newproject-plan-project-add-releases.png": {
+      "newName": "plan-newproject-plan-project-add-releases.png"
+    },
+    "plan-newproject-plan-project-admins.png": {
+      "newName": "plan-newproject-plan-project-admins.png"
+    },
+    "plan-newproject-plan-project-attachments.png": {
+      "newName": "plan-newproject-plan-project-attachments.png"
+    },
+    "plan-newproject-plan-project-component-create-02.png": {
+      "newName": "plan-newproject-plan-project-component-create-02.png"
+    },
+    "plan-newproject-plan-project-component-create.png": {
+      "newName": "plan-newproject-plan-project-component-create.png"
+    },
+    "plan-newproject-plan-project-component-list-withdata.png": {
+      "newName": "plan-newproject-plan-project-component-list-withdata.png"
+    },
+    "plan-newproject-plan-project-component-list.png": {
+      "newName": "plan-newproject-plan-project-component-list.png"
+    },
+    "plan-newproject-plan-project-configure.png": {
+      "newName": "plan-newproject-plan-project-configure.png"
+    },
+    "plan-newproject-plan-project-edit-button.png": {
+      "newName": "plan-newproject-plan-project-edit-button.png"
+    },
+    "plan-newproject-plan-project-list-details.png": {
+      "newName": "plan-newproject-plan-project-list-details.png"
+    },
+    "plan-newproject-plan-project-new-release-save.png": {
+      "newName": "plan-newproject-plan-project-new-release-save.png"
+    },
+    "plan-newproject-plan-project-new-with-data.png": {
+      "newName": "plan-newproject-plan-project-new-with-data.png"
+    },
+    "plan-newproject-plan-project-new.png": {
+      "newName": "plan-newproject-plan-project-new.png"
+    },
+    "plan-newproject-plan-project-releases-new-release.png": {
+      "newName": "plan-newproject-plan-project-releases-new-release.png"
+    },
+    "plan-newproject-plan-project-releases-search.png": {
+      "newName": "plan-newproject-plan-project-releases-search.png"
+    },
+    "plan-newproject-plan-project-releases-section.png": {
+      "newName": "plan-newproject-plan-project-releases-section.png"
+    },
+    "plan-newproject-plan-project-releaseslist.png": {
+      "newName": "plan-newproject-plan-project-releaseslist.png"
+    },
+    "plan-newproject-plan-project-save.png": {
+      "newName": "plan-newproject-plan-project-save.png"
+    },
+    "plan-newproject-plan-project-saved.png": {
+      "newName": "plan-newproject-plan-project-saved.png"
+    },
+    "plan-newproject-plan-project-sprint-list-added.png": {
+      "newName": "plan-newproject-plan-project-sprint-list-added.png"
+    },
+    "plan-newproject-plan-project-sprint-list-moreadded.png": {
+      "newName": "plan-newproject-plan-project-sprint-list-moreadded.png"
+    },
+    "plan-newproject-plan-project-sprint-list-new.png": {
+      "newName": "plan-newproject-plan-project-sprint-list-new.png"
+    },
+    "plan-newproject-plan-project-sprint-new-dialog.png": {
+      "newName": "plan-newproject-plan-project-sprint-new-dialog.png"
+    },
+    "plan-newproject-plan-project-sprintlist.png": {
+      "newName": "plan-newproject-plan-project-sprintlist.png"
+    }
+  },
+  "docs/learn/plan/queries/media": {
+    "plan-queries-plan-new-query.png": {
+      "newName": "plan-queries-plan-new-query.png"
+    },
+    "plan-queries-plan-personal-queries-add-new-expanded.png": {
+      "newName": "plan-queries-plan-personal-queries-add-new-expanded.png"
+    },
+    "plan-queries-plan-personal-queries-add-new.png": {
+      "newName": "plan-queries-plan-personal-queries-add-new.png"
+    },
+    "plan-queries-plan-personal-queries-list.png": {
+      "newName": "plan-queries-plan-personal-queries-list.png"
+    },
+    "plan-queries-plan-queries-filter-current-user.png": {
+      "newName": "plan-queries-plan-queries-filter-current-user.png"
+    },
+    "plan-queries-plan-queries-filter.png": {
+      "newName": "plan-queries-plan-queries-filter.png"
+    },
+    "plan-queries-plan-queries-icon.png": {
+      "newName": "plan-queries-plan-queries-icon.png"
+    },
+    "plan-queries-plan-queries-menu-expanded.png": {
+      "newName": "plan-queries-plan-queries-menu-expanded.png"
+    },
+    "plan-queries-plan-queries-menue-list.png": {
+      "newName": "plan-queries-plan-queries-menue-list.png"
+    },
+    "plan-queries-plan-query-editor-add-field.png": {
+      "newName": "plan-queries-plan-query-editor-add-field.png"
+    },
+    "plan-queries-plan-query-editor-field-three-dots.png": {
+      "newName": "plan-queries-plan-query-editor-field-three-dots.png"
+    },
+    "plan-queries-plan-query-editor-r-esult-field-list.png": {
+      "newName": "plan-queries-plan-query-editor-r-esult-field-list.png"
+    },
+    "plan-queries-plan-query-editor-run-back-to-edit.png": {
+      "newName": "plan-queries-plan-query-editor-run-back-to-edit.png"
+    },
+    "plan-queries-plan-query-editor-switch-types.png": {
+      "newName": "plan-queries-plan-query-editor-switch-types.png"
+    },
+    "plan-queries-plan-query-editor.png": {
+      "newName": "plan-queries-plan-query-editor.png"
+    },
+    "plan-queries-plan-query-result.png": {
+      "newName": "plan-queries-plan-query-result.png"
+    },
+    "plan-queries-plan-query-run.png": {
+      "newName": "plan-queries-plan-query-run.png"
+    },
+    "plan-queries-plan-query-save-close.png": {
+      "newName": "plan-queries-plan-query-save-close.png"
+    },
+    "plan-queries-plan-query-save-expanded.png": {
+      "newName": "plan-queries-plan-query-save-expanded.png"
+    }
+  },
+  "docs/learn/plan/setup/media": {
+    "plan-setup-download-plan-demo-data-file.png": {
+      "newName": "plan-setup-download-plan-demo-data-file.png"
+    },
+    "plan-setup-import-button.png": {
+      "newName": "plan-setup-import-button.png"
+    },
+    "plan-setup-import-close-dialog.png": {
+      "newName": "plan-setup-import-close-dialog.png"
+    },
+    "plan-setup-import-dialog-01.png": {
+      "newName": "plan-setup-import-dialog-01.png"
+    },
+    "plan-setup-import-dialog-02.png": {
+      "newName": "plan-setup-import-dialog-02.png"
+    },
+    "plan-setup-import-dialog-choose-file.png": {
+      "newName": "plan-setup-import-dialog-choose-file.png"
+    },
+    "plan-setup-import-finished.png": {
+      "newName": "plan-setup-import-finished.png"
+    },
+    "plan-setup-import-icon.png": {
+      "newName": "plan-setup-import-icon.png"
+    },
+    "plan-setup-import-running.png": {
+      "newName": "plan-setup-import-running.png"
+    },
+    "plan-setup-import-select-zip-file.png": {
+      "newName": "plan-setup-import-select-zip-file.png"
+    },
+    "plan-setup-import-started.png": {
+      "newName": "plan-setup-import-started.png"
+    },
+    "plan-setup-plan-copy-button.png": {
+      "newName": "plan-setup-plan-copy-button.png"
+    },
+    "plan-setup-plan-create-button.png": {
+      "newName": "plan-setup-plan-create-button.png"
+    },
+    "plan-setup-plan-create-pat-button.png": {
+      "newName": "plan-setup-plan-create-pat-button.png"
+    },
+    "plan-setup-plan-create-pat-dialog.png": {
+      "newName": "plan-setup-plan-create-pat-dialog.png"
+    },
+    "plan-setup-plan-database-id.png": {
+      "newName": "plan-setup-plan-database-id.png"
+    },
+    "plan-setup-plan-home-view-with-sidebar.png": {
+      "newName": "plan-setup-plan-home-view-with-sidebar.png"
+    },
+    "plan-setup-plan-pat-copied.png": {
+      "newName": "plan-setup-plan-pat-copied.png"
+    },
+    "plan-setup-plan-pat-created.png": {
+      "newName": "plan-setup-plan-pat-created.png"
+    },
+    "plan-setup-plan-pat-list-updated.png": {
+      "newName": "plan-setup-plan-pat-list-updated.png"
+    },
+    "plan-setup-plan-pat-list.png": {
+      "newName": "plan-setup-plan-pat-list.png"
+    },
+    "plan-setup-plan-profile-menue.png": {
+      "newName": "plan-setup-plan-profile-menue.png"
+    },
+    "plan-setup-plan-profile-pat-button.png": {
+      "newName": "plan-setup-plan-profile-pat-button.png"
+    },
+    "plan-setup-plan-tenant-management-details-switch.png": {
+      "newName": "plan-setup-plan-tenant-management-details-switch.png"
+    },
+    "plan-setup-plan-tenant-management-details.png": {
+      "newName": "plan-setup-plan-tenant-management-details.png"
+    },
+    "plan-setup-plan-tenant-management-link.png": {
+      "newName": "plan-setup-plan-tenant-management-link.png"
+    },
+    "plan-setup-plan-tenant-management-view.png": {
+      "newName": "plan-setup-plan-tenant-management-view.png"
+    },
+    "plan-setup-upload-plan-demo-data-file.png": {
+      "newName": "plan-setup-upload-plan-demo-data-file.png"
+    }
+  },
+  "docs/learn/plan/workitems/media": {
+    "plan-workitems-board-show-wi-detail.png": {
+      "newName": "plan-workitems-board-show-wi-detail.png"
+    },
+    "plan-workitems-plan-wi-exploratory-generate-button.png": {
+      "newName": "plan-workitems-plan-wi-exploratory-generate-button.png"
+    },
+    "plan-workitems-plan-wi-exploratory-generated.png": {
+      "newName": "plan-workitems-plan-wi-exploratory-generated.png"
+    },
+    "plan-workitems-plan-wi-exploratory-in-edit-mode.png": {
+      "newName": "plan-workitems-plan-wi-exploratory-in-edit-mode.png"
+    },
+    "plan-workitems-plan-wi-exploratory-view.png": {
+      "newName": "plan-workitems-plan-wi-exploratory-view.png"
+    },
+    "plan-workitems-plan-wi-link-open-detail.png": {
+      "newName": "plan-workitems-plan-wi-link-open-detail.png"
+    }
+  },
+  "docs/learn/release/media": {
+    "release-release-switch-to-tiles-view.png": {
+      "newName": "release-release-switch-to-tiles-view.png"
+    },
+    "release-release-view-as-list.png": {
+      "newName": "release-release-view-as-list.png"
+    },
+    "release-release-view-as-tiles.png": {
+      "newName": "release-release-view-as-tiles.png"
+    }
+  },
+  "docs/learn/test/media": {
+    "test-test-3-rd-party-accepted.png": {
+      "newName": "test-test-3-rd-party-accepted.png"
+    },
+    "test-test-accept-3-rd-party.png": {
+      "newName": "test-test-accept-3-rd-party.png"
+    },
+    "test-test-analyze-result-overview-clickscript.png": {
+      "newName": "test-test-analyze-result-overview-clickscript.png"
+    },
+    "test-test-analyze-result-overview.png": {
+      "newName": "test-test-analyze-result-overview.png"
+    },
+    "test-test-author-data-def-view.png": {
+      "newName": "test-test-author-data-def-view.png"
+    },
+    "test-test-author-data-icon.png": {
+      "newName": "test-test-author-data-icon.png"
+    },
+    "test-test-author-schema-view.png": {
+      "newName": "test-test-author-schema-view.png"
+    },
+    "test-test-author-schemas.png": {
+      "newName": "test-test-author-schemas.png"
+    },
+    "test-test-create-pat-dialog.png": {
+      "newName": "test-test-create-pat-dialog.png"
+    },
+    "test-test-data-downloaded-files.png": {
+      "newName": "test-test-data-downloaded-files.png"
+    },
+    "test-test-data-downloaded-unzipped.png": {
+      "newName": "test-test-data-downloaded-unzipped.png"
+    },
+    "test-test-data-generate-dialog-01.png": {
+      "newName": "test-test-data-generate-dialog-01.png"
+    },
+    "test-test-data-generate-dialog-02.png": {
+      "newName": "test-test-data-generate-dialog-02.png"
+    },
+    "test-test-data-generate-dialog.png": {
+      "newName": "test-test-data-generate-dialog.png"
+    },
+    "test-test-data-generate-icon.png": {
+      "newName": "test-test-data-generate-icon.png"
+    },
+    "test-test-data-generated-data.png": {
+      "newName": "test-test-data-generated-data.png"
+    },
+    "test-test-data-preview-icon.png": {
+      "newName": "test-test-data-preview-icon.png"
+    },
+    "test-test-data-preview.png": {
+      "newName": "test-test-data-preview.png"
+    },
+    "test-test-execute-button.png": {
+      "newName": "test-test-execute-button.png"
+    },
+    "test-test-execute-script-list-running-script.png": {
+      "newName": "test-test-execute-script-list-running-script.png"
+    },
+    "test-test-execute-script-list.png": {
+      "newName": "test-test-execute-script-list.png"
+    },
+    "test-test-message-job-successfully-submited.png": {
+      "newName": "test-test-message-job-successfully-submited.png"
+    },
+    "test-test-plan-wi-dialog-01.png": {
+      "newName": "test-test-plan-wi-dialog-01.png"
+    },
+    "test-test-plan-wi-dialog-02.png": {
+      "newName": "test-test-plan-wi-dialog-02.png"
+    },
+    "test-test-profile-menue.png": {
+      "newName": "test-test-profile-menue.png"
+    },
+    "test-test-profile-notification-settings-help-links.png": {
+      "newName": "test-test-profile-notification-settings-help-links.png"
+    },
+    "test-test-project-homepage.png": {
+      "newName": "test-test-project-homepage.png"
+    },
+    "test-test-project-tile.png": {
+      "newName": "test-test-project-tile.png"
+    },
+    "test-test-result-details-with-plan-link.png": {
+      "newName": "test-test-result-details-with-plan-link.png"
+    },
+    "test-test-result-details.png": {
+      "newName": "test-test-result-details.png"
+    },
+    "test-test-result-view-failed-test-create-ticket.png": {
+      "newName": "test-test-result-view-failed-test-create-ticket.png"
+    },
+    "test-test-result-view-failed-test.png": {
+      "newName": "test-test-result-view-failed-test.png"
+    },
+    "test-test-run-button.png": {
+      "newName": "test-test-run-button.png"
+    },
+    "test-test-run-dialog.png": {
+      "newName": "test-test-run-dialog.png"
+    },
+    "test-test-running-link.png": {
+      "newName": "test-test-running-link.png"
+    },
+    "test-test-running-script-3-dot-menue.png": {
+      "newName": "test-test-running-script-3-dot-menue.png"
+    },
+    "test-test-running-script-info.png": {
+      "newName": "test-test-running-script-info.png"
+    },
+    "test-test-running-script-test-log.png": {
+      "newName": "test-test-running-script-test-log.png"
+    },
+    "test-test-show-project-list.png": {
+      "newName": "test-test-show-project-list.png"
+    },
+    "test-test-sidebar-analyze-menue.png": {
+      "newName": "test-test-sidebar-analyze-menue.png"
+    },
+    "test-test-sidebar-analyze-section.png": {
+      "newName": "test-test-sidebar-analyze-section.png"
+    },
+    "test-test-sidebar-author-section.png": {
+      "newName": "test-test-sidebar-author-section.png"
+    },
+    "test-test-sidebar-execute-section.png": {
+      "newName": "test-test-sidebar-execute-section.png"
+    },
+    "test-test-sidebar.png": {
+      "newName": "test-test-sidebar.png"
+    },
+    "test-test-switch-ts.png": {
+      "newName": "test-test-switch-ts.png"
+    },
+    "test-test-test-editor-script-opened.png": {
+      "newName": "test-test-test-editor-script-opened.png"
+    },
+    "test-test-test-editor-step-details.png": {
+      "newName": "test-test-test-editor-step-details.png"
+    },
+    "test-test-test-editor-view.png": {
+      "newName": "test-test-test-editor-view.png"
+    },
+    "test-test-wrong-ts.png": {
+      "newName": "test-test-wrong-ts.png"
+    }
+  },
+  "docs/media": {
+    "common-3-dots.png": {
+      "newName": "common-3-dots.png"
+    },
+    "common-button-add.png": {
+      "newName": "common-button-add.png"
+    },
+    "common-button-cancel.png": {
+      "newName": "common-button-cancel.png"
+    },
+    "common-button-choose-file.png": {
+      "newName": "common-button-choose-file.png"
+    },
+    "common-button-close.png": {
+      "newName": "common-button-close.png"
+    },
+    "common-button-create.png": {
+      "newName": "common-button-create.png"
+    },
+    "common-button-deploy.png": {
+      "newName": "common-button-deploy.png"
+    },
+    "common-button-download.png": {
+      "newName": "common-button-download.png"
+    },
+    "common-button-next.png": {
+      "newName": "common-button-next.png"
+    },
+    "common-button-open.png": {
+      "newName": "common-button-open.png"
+    },
+    "common-button-save.png": {
+      "newName": "common-button-save.png"
+    },
+    "common-button-settings.png": {
+      "newName": "common-button-settings.png"
+    },
+    "common-button-submit.png": {
+      "newName": "common-button-submit.png"
+    },
+    "common-desktop-browser-downloads-icon.png": {
+      "newName": "common-desktop-browser-downloads-icon.png",
+      "noCapture": true
+    },
+    "common-desktop-browser-downloads-open-file.png": {
+      "newName": "common-desktop-browser-downloads-open-file.png",
+      "noCapture": true
+    },
+    "common-desktop-browser-save-to-downloads.png": {
+      "newName": "common-desktop-browser-save-to-downloads.png",
+      "noCapture": true
+    },
+    "common-desktop-downloads-echo-logic-app-zip-plan-folder.png": {
+      "newName": "common-desktop-downloads-echo-logic-app-zip-plan-folder.png",
+      "noCapture": true
+    },
+    "common-desktop-downloads-echo-logic-demo-app-zip.png": {
+      "newName": "common-desktop-downloads-echo-logic-demo-app-zip.png",
+      "noCapture": true
+    },
+    "common-desktop-echo-logic-demo-app-latest-version-assets.png": {
+      "newName": "common-desktop-echo-logic-demo-app-latest-version-assets.png",
+      "noCapture": true
+    },
+    "common-desktop-echo-logic-demo-app-latest-version-source-code-zip.png": {
+      "newName": "common-desktop-echo-logic-demo-app-latest-version-source-code-zip.png",
+      "noCapture": true
+    },
+    "common-desktop-echo-logic-demo-app-latest-version-view.png": {
+      "newName": "common-desktop-echo-logic-demo-app-latest-version-view.png",
+      "noCapture": true
+    }
+  }
+}

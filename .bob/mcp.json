@@ -6,6 +6,17 @@
         "-y",
         "@modelcontextprotocol/server-filesystem",
         "/Users/ozzy/RnD/Source"
+      ],
+      "alwaysAllow": [
+        "read_file",
+        "read_text_file",
+        "read_media_file",
+        "read_multiple_files",
+        "list_directory",
+        "list_directory_with_sizes",
+        "directory_tree",
+        "get_file_info",
+        "list_allowed_directories"
       ]
     }
   }

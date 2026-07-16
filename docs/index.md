@@ -80,14 +80,14 @@ Learn DevOps Loop easily with step-by-step guides, interactive demos, and compre
 
 === "Quick Start (30 minutes)"
     Perfect for getting a rapid overview and running your first demo.
-    
+
     1. [Introduction to DevOps Loop](learn/introduction/index.md)
     2. [AI-First Demo Flow](demo/demo_ai_first.md)
     3. [Quick Setup Guide](setup.md)
 
 === "Comprehensive Learning (4-6 hours)"
     Deep dive into all capabilities with hands-on labs.
-    
+
     1. [Introduction](learn/introduction/index.md)
     2. [Plan Capability](learn/plan/index.md)
     3. [Control Capability](learn/control/index.md)
@@ -100,7 +100,7 @@ Learn DevOps Loop easily with step-by-step guides, interactive demos, and compre
 
 === "Demo Preparation (1 hour)"
     Get ready to deliver an impressive DevOps Loop demonstration.
-    
+
     1. [Setup AI Integration](ai_setup.md)
     2. [MCP Server Configuration](demo/mcp_setup.md)
     3. [AI-First Demo Flow](demo/demo_ai_first.md)

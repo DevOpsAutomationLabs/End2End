@@ -70,33 +70,31 @@
 |      | Result is component imported               | ![Component Imported][CompImported]            |
 |      | Repeat Import for second component         |                                                |
 
-
 --8<-- [end:ImportComponents]
-
 
 ---
 
-[SBCompIcon]: ../media/Deploy_Sidebar_ComponentsIcon.png
-[SBCompIconText]: ../media/Deploy_Sidebar_ComponentsIconWithText.png
-[CompView]: ../media/DEPLOY_Components_List.png
-[ButtonImportComps]: media/Component_Import_Components_Button.png
-[CompImportDialog]: media/Component_Import_Dialog.png
-[CompImpChooseFileButton]: media/Component_Import_Dialog_ChooseFile.png
-[Filestochoose]: media/Component_Import_Files.png
-[ButtonSubmit]: media/Component_Import_SubmitButton.png
-[FileChoosen]: media/Component_Import_Dialog_FileChosen.png
-[CompImported]: media/Component_Imported.png
+[SBCompIcon]: ../media/deploy-deploy-sidebar-components-icon.png
+[SBCompIconText]: ../media/deploy-deploy-sidebar-components-icon-with-text.png
+[CompView]: ../media/deploy-components-list.png
+[ButtonImportComps]: media/deploy-comp-component-import-components-button.png
+[CompImportDialog]: media/deploy-comp-component-import-dialog.png
+[CompImpChooseFileButton]: media/deploy-comp-component-import-dialog-choose-file.png
+[Filestochoose]: media/deploy-comp-component-import-files.png
+[ButtonSubmit]: media/deploy-comp-component-import-submit-button.png
+[FileChoosen]: media/deploy-comp-component-import-dialog-file-chosen.png
+[CompImported]: media/deploy-comp-component-imported.png
 [SwitchToCompView]: #switch-to-components-view
-[CompsList]: ../media/DEPLOY_Components_List.png
-[CompDetails]: media/Component_Imported.png
-[CompProcessTab]: media/Component_Tabbar_Processes.png
-[CompProcesses]: media/Component_Processlist_withentries.png
+[CompsList]: ../media/deploy-components-list.png
+[CompDetails]: media/deploy-comp-component-imported.png
+[CompProcessTab]: media/deploy-comp-component-tabbar-processes.png
+[CompProcesses]: media/deploy-comp-component-processlist-withentries.png
 
-[DeployComponentCreateNew]: media/DEPLOY_Components_CreateComponentButton.png
-[DeployComponentCreateNewDialog1]: media/DEPLOY_Components_CreateDialog1.png
-[DeployComponentCreateNewDialog2]: media/DEPLOY_Components_CreateDialog2.png
-[DeployComponentCreateNewDialog3]: media/DEPLOY_Components_CreateDialog3.png
-[DeployComponentCreateNewDialog4]: media/DEPLOY_Components_CreateDialog4.png
-[DeployComponentNewVersionView]: media/Component_Versions_View_empty.png
-[DeployComponentNewConfigurationView]: media/Component_Config.png
-[DeployComponentNewProcessesView]: media/Component_Tabbar_Processes.png
+[DeployComponentCreateNew]: media/deploy-comp-components-create-component-button.png
+[DeployComponentCreateNewDialog1]: media/deploy-comp-components-create-dialog-01.png
+[DeployComponentCreateNewDialog2]: media/deploy-comp-components-create-dialog-02.png
+[DeployComponentCreateNewDialog3]: media/deploy-comp-components-create-dialog-03.png
+[DeployComponentCreateNewDialog4]: media/deploy-comp-components-create-dialog-04.png
+[DeployComponentNewVersionView]: media/deploy-comp-component-versions-view-empty.png
+[DeployComponentNewConfigurationView]: media/deploy-comp-component-config.png
+[DeployComponentNewProcessesView]: media/deploy-comp-component-tabbar-processes.png

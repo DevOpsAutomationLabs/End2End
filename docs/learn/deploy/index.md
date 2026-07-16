@@ -36,7 +36,7 @@ Explore the comprehensive dashboard provided by DevOps Deploy, which displays ke
 | Step | Details                                                                                                  | Additional Information                                         |
 |:----:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
 |      | **Central App Switcher**                                                                                 |                                                                |
-|      | Or you can always switch using the central app switcher on the top left of your screen:                  | ![Central App Switcher][CentralAppSwitcher]                    |
+|      | Or you can always switch using the central app switcher on the right side of your screen:                | ![Central App Switcher][CentralAppSwitcher]                    |
 |      | **What would you like to do today**                                                                      |                                                                |
 |      | You can switch directly to Deploy by using the button/link from What would you like to do today section: | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
@@ -112,7 +112,7 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 ### Create New Application
 
---8<-- "learn/deploy/applications/index.md:CreateNewApplication"
+--8<-- docs/learn/deploy/applications/index.md:CreateNewApplication
 
 --8<-- [end:Applications]
 
@@ -128,7 +128,7 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 ### Create New Component
 
---8<-- "learn/deploy/components/index.md:CreateNewComponent"
+--8<-- docs/learn/deploy/components/index.md:CreateNewComponent
 
 --8<-- [end:Components]
 
@@ -161,17 +161,17 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 --8<-- [start:RequestProcess]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | Click on **Request Process** Button | ![Request Button][DeployAppRequestProcessButton] |
-| 2 | On the DEV Environment | ![Dev Environment][DeployAppDevEnv] |
-| 3 | Select Deployment Process | ![Run Process Dialog - Select Deployment Process][DeployAppProcessRequestSelectProcess] |
-| 4 | Select Version or Snapshot | ![Run Process Dialog - Select Version Or Snapshot][DeployAppProcessRequestSelectSnapsotOrVersions] |
-| 5 | Uncheck Deploy Only Changed | ![Run Process Dialog - uncheck Deploy Only Changed][DeployAppProcessRequestOnlyChanged] |
-| 6 | Click **Choose Versions** Button | ![Run Process Dialog - Choose Versions Button][DeployAppPocessRequestChooseCompVersionButton] |
-| 7 | Select Component Version (first component) | ![Run Process Dialog - Select Component Version 1][DeployAppPocessRequestSelectCompVersion1] |
-| 8 | Select Component Version (second component) | ![Run Process Dialog - Select Component Version 2][DeployAppPocessRequestSelectCompVersion2] |
-| 9 | Press **Submit** to start the deployment | ![Submit Button][DeployAppPocessRequestSubmitButton] |
+| Step | Details                                     | Additional Information                                                                             |
+|:----:|:--------------------------------------------|:---------------------------------------------------------------------------------------------------|
+|  1   | Click on **Request Process** Button         | ![Request Button][DeployAppRequestProcessButton]                                                   |
+|  2   | On the DEV Environment                      | ![Dev Environment][DeployAppDevEnv]                                                                |
+|  3   | Select Deployment Process                   | ![Run Process Dialog - Select Deployment Process][DeployAppProcessRequestSelectProcess]            |
+|  4   | Select Version or Snapshot                  | ![Run Process Dialog - Select Version Or Snapshot][DeployAppProcessRequestSelectSnapsotOrVersions] |
+|  5   | Uncheck Deploy Only Changed                 | ![Run Process Dialog - uncheck Deploy Only Changed][DeployAppProcessRequestOnlyChanged]            |
+|  6   | Click **Choose Versions** Button            | ![Run Process Dialog - Choose Versions Button][DeployAppPocessRequestChooseCompVersionButton]      |
+|  7   | Select Component Version (first component)  | ![Run Process Dialog - Select Component Version 1][DeployAppPocessRequestSelectCompVersion1]       |
+|  8   | Select Component Version (second component) | ![Run Process Dialog - Select Component Version 2][DeployAppPocessRequestSelectCompVersion2]       |
+|  9   | Press **Submit** to start the deployment    | ![Submit Button][DeployAppPocessRequestSubmitButton]                                               |
 
 --8<-- [end:RequestProcess]
 
@@ -179,12 +179,12 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 --8<-- [start:ViewRunningProcess]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | The details of the running process are shown | ![Running Process][DeployProcessRunning] |
-| 2 | Click on **Expand All** to see step details | ![Expand All][DeployProcessRunningExpandAllButton] |
-| 3 | Click on **3 dots menu** of a step | ![3 dots menu of step][DeployProcessRunning3DotsofStep] |
-| 4 | View the output of the step | ![Output of Step][DeployProcessRunningStepOutputDetails] |
+| Step | Details                                      | Additional Information                                   |
+|:----:|:---------------------------------------------|:---------------------------------------------------------|
+|  1   | The details of the running process are shown | ![Running Process][DeployProcessRunning]                 |
+|  2   | Click on **Expand All** to see step details  | ![Expand All][DeployProcessRunningExpandAllButton]       |
+|  3   | Click on **3 dots menu** of a step           | ![3 dots menu of step][DeployProcessRunning3DotsofStep]  |
+|  4   | View the output of the step                  | ![Output of Step][DeployProcessRunningStepOutputDetails] |
 
 --8<-- [end:ViewRunningProcess]
 
@@ -192,10 +192,10 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 --8<-- [start:ResultOfRun]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | The deployment ran successfully | ![Deployment Success][DeployAppProcessRunSuccess] |
-| 2 | Environment updated with deployed component versions | ![Environment with deployed versions of components][DeployAppEnvwithDeployedVersions] |
+| Step | Details                                              | Additional Information                                                                |
+|:----:|:-----------------------------------------------------|:--------------------------------------------------------------------------------------|
+|  1   | The deployment ran successfully                      | ![Deployment Success][DeployAppProcessRunSuccess]                                     |
+|  2   | Environment updated with deployed component versions | ![Environment with deployed versions of components][DeployAppEnvwithDeployedVersions] |
 
 --8<-- [end:ResultOfRun]
 
@@ -206,13 +206,13 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 !!! info "Coming Soon"
     A description of snapshots and their purpose will be added here.
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | Select the **Create Snapshot** Icon | ![Create Snapshot][CreateSnapshotIcon] |
-| 2 | The Create Snapshot dialog opens | ![Create Snapshot dialog][CreateSnapshotDialog] |
-| 3 | Review snapshot details (step 1) | ![Create Snapshot Detail step 1][CreateSnapshotDetail1] |
-| 4 | Review snapshot details (step 2) | ![Create Snapshot Detail step 2][CreateSnapshotDetail2] |
-| 5 | Environment configuration updated — Snapshot is now applied | ![Snapshot on environment][SnapshotApplied] |
+| Step | Details                                                     | Additional Information                                  |
+|:----:|:------------------------------------------------------------|:--------------------------------------------------------|
+|  1   | Select the **Create Snapshot** Icon                         | ![Create Snapshot][CreateSnapshotIcon]                  |
+|  2   | The Create Snapshot dialog opens                            | ![Create Snapshot dialog][CreateSnapshotDialog]         |
+|  3   | Review snapshot details (step 1)                            | ![Create Snapshot Detail step 1][CreateSnapshotDetail1] |
+|  4   | Review snapshot details (step 2)                            | ![Create Snapshot Detail step 2][CreateSnapshotDetail2] |
+|  5   | Environment configuration updated — Snapshot is now applied | ![Snapshot on environment][SnapshotApplied]             |
 
 --8<-- [end:CreateSnapshot]
 
@@ -220,14 +220,14 @@ Now, Click on your application(PizzaApp-XX) > Switch Tab to Components > Click o
 
 --8<-- [start:UseDeployGenie]
 
-| Step | Details | Additional Information |
-|:----:|:--------|:----------------------|
-| 1 | [Request a new deployment process][REFRequestAProcess] to simulate a failure | |
-| 2 | Select Deployment Process **Failing Deployment** | ![Failing Deployment Process][RunSelectFailingDeployment] |
-| 3 | Select Versions: **Echo** → v1.0, **Logic** → v2.0.0 | ![Select Versions for Components][RunFailSelectCompVersions] |
-| 4 | The result will be a failed deployment | ![Failed Result][RunFailed] |
-| 5 | Click **3 dots** menu of the failing step to show menu | ![3 dots menu][DeployPlugin3DotsMenue] ![menu with Genie][Step3DotsMenueWithGenie] |
-| 6 | Click **Deployment Genie** — results shown after analysis | ![AI Analyzed][GenieAnalysis] |
+| Step | Details                                                                      | Additional Information                                                             |
+|:----:|:-----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------|
+|  1   | [Request a new deployment process][REFRequestAProcess] to simulate a failure |                                                                                    |
+|  2   | Select Deployment Process **Failing Deployment**                             | ![Failing Deployment Process][RunSelectFailingDeployment]                          |
+|  3   | Select Versions: **Echo** → v1.0, **Logic** → v2.0.0                         | ![Select Versions for Components][RunFailSelectCompVersions]                       |
+|  4   | The result will be a failed deployment                                       | ![Failed Result][RunFailed]                                                        |
+|  5   | Click **3 dots** menu of the failing step to show menu                       | ![3 dots menu][DeployPlugin3DotsMenue] ![menu with Genie][Step3DotsMenueWithGenie] |
+|  6   | Click **Deployment Genie** — results shown after analysis                    | ![AI Analyzed][GenieAnalysis]                                                      |
 
 --8<-- [end:UseDeployGenie]
 
@@ -247,84 +247,84 @@ Please read the [Settings Section](settings/index.md) for more Details how to se
 [GoBackToParentIndex]: ../index.md#deploy
 [NextLab]: ../index.md#test
 
-[DeployTile]: ../introduction/media/Loop_switch_to_Deploy.png
-[WhatWouldYouLikeToDoToday]: ../introduction/media/Loop_whatwouldyouliketodotoday.png
-[CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
-[DeployDashboard]: media/dashboard.png
-[DeployComponentList]: media/DEPLOY_Components_List.png
-[DeployComponentCreateNew]: components/media/DEPLOY_Components_CreateComponentButton.png
-[DeployComponentCreateNewDialog1]: components/media/DEPLOY_Components_CreateDialog1.png
-[DeployComponentCreateNewDialog2]: components/media/DEPLOY_Components_CreateDialog2.png
-[DeployComponentCreateNewDialog3]: components/media/DEPLOY_Components_CreateDialog3.png
-[DeployComponentCreateNewDialog4]: components/media/DEPLOY_Components_CreateDialog4.png
-[DeployComponentNewVersionView]: components/media/Component_Versions_View_empty.png
-[DeployComponentNewConfigurationView]: components/media/Component_Config.png
-[DeployComponentNewProcessesView]: components/media/Component_Tabbar_Processes.png
-[DeployProcessDesigner]: media/DEPLOY_Component_ProcessEditor.png
-[DeployComponentProcessDesignerSidebar]: media/DEPLOY_Component_ProcessEditor_Sidebar.png
-[DeployProcessDesignerAddStepp]: media/DEPLOY_Component_Process_AddStep.png
-[DeployProcessDesignerStepProperties1]: media/DEPLOY_Component_Process_Step_Properties1.png
-[DeployProcessDesignerStepProperties2]: media/DEPLOY_Component_Process_Step_Properties2.png
-[DeployComponentProcessesListEmpty]: media/DEPLOY_Component_ProcessList.png
-[DeployComponentProcessesList]: media/DEPLOY_Component_WithProcessList.png
-[DeployComponentCreateNewProcessButton]: media/DEPLOY_Component_CreateProcessButton.png
-[DeployComponentCreateProcessDialog]: media/DEPLOY_Component_CreateProcessDialog.png
-[DeployProcessDesignerStepShellScript1]: media/DEPLOY_Component_Process_Step_ShellScript1.png
-[DeployProcessDesignerStepShellScript2]: media/DEPLOY_Component_Process_Step_ShellScript2.png
-[DeployComponentFinalProcess]: media/DEPLOY_Component_Process_Final.png
-[DeployProcesDesignerSidebarAddVersionStatus]: media/DEPLOY_Component_ProcessEditor_SidebarAddStatus.png
-[DeployProcessDesignerAddedVersionStatus]: media/DEPLOY_Component_ProcessEditor_StepAdded_AddStatus.png
-[DeployProcessDesignerAddedVersionStatusProperties]: media/DEPLOY_Component_Process_Step_AddStatusProperties.png
-[DeployComponentFinalProcesWithVersionStatus]: media/DEPLOY_Component_VersionList_withStatus.png
-[DeployShowApp]: applications/media/Deploy_Applications_View.png
-[DeployAppEnvList]: media/DEPLOY_Application_Environmentlist.png
-[DeployAppRequestProcessButton]: media/DEPLOY_Application_RequestProcess.png
-[DeployAppProcessRequestSelectProcess]: media/DEPLOY_Application_Runappprocessdialog1_SelectDeploymentProcess.png
-[DeployAppProcessRequestSelectSnapsotOrVersions]: media/DEPLOY_Application_Runappprocessdialog2_SelectCompVersionOrSnapshot.png
-[DeployAppProcessRequestOnlyChanged]: media/DEPLOY_Application_Runappprocessdialog3_OnlyChanged.png
-[DeployAppPocessRequestChooseCompVersionButton]: media/DEPLOY_Application_Runappprocessdialog4_ChooseCompVersionButton.png
-[DeployAppPocessRequestSelectCompVersion1]: media/DEPLOY_Application_Runappprocessdialog5_SelectCompVersion.png
-[DeployAppPocessRequestSelectCompVersion2]: media/DEPLOY_Application_Runappprocessdialog6_SelectCompVersion.png
-[DeployAppPocessRequestSubmitButton]: media/DEPLOY_Application_Runappprocessdialog7_Submit.png
-[DeployComponentProcessPassingTest]: media/DEPLOY_ComponentProcessFinalWithPassingTest.png
-[DeployComponentProcessFailingTest]: media/DEPLOY_ComponentProcessFinalWithFailingTest.png
-[DeployAppDevEnv]: media/DEPLOY_AppEnv_DEV.png
-[DeployProcessRunning]: media/DEPLOY_RunningProcess1.png
-[DeployProcessRunningExpandAllButton]: media/DEPLOY_RunningProcess2_ExpandAll.png
-[DeployProcessRunning3DotsofStep]: media/DEPLOY_RunningProcess3_Stepdetails.png
-[DeployProcessRunningStepOutputDetails]: media/DEPLOY_RunningProcess4_StepDetails.png
-[DeployAppProcessRunSuccess]: media/DEPLOY_AppProcessFinishedSuccess.png
-[DeployAppEnvwithDeployedVersions]: media/DEPLOY_Application_EnvironmentResultVersions.png
-[DeployPlugin3DotsMenue]: media/DEPLOY_PluginList_3DotsMenue.png
+[DeployTile]: ../introduction/media/intro-loop-switch-to-deploy.png
+[WhatWouldYouLikeToDoToday]: ../introduction/media/intro-loop-whatwouldyouliketodotoday.png
+[CentralAppSwitcher]: ../introduction/media/intro-loop-central-app-control.png
+[DeployDashboard]: media/deploy-dashboard.png
+[DeployComponentList]: media/deploy-components-list.png
+[DeployComponentCreateNew]: components/media/deploy-comp-components-create-component-button.png
+[DeployComponentCreateNewDialog1]: components/media/deploy-comp-components-create-dialog-01.png
+[DeployComponentCreateNewDialog2]: components/media/deploy-comp-components-create-dialog-02.png
+[DeployComponentCreateNewDialog3]: components/media/deploy-comp-components-create-dialog-03.png
+[DeployComponentCreateNewDialog4]: components/media/deploy-comp-components-create-dialog-04.png
+[DeployComponentNewVersionView]: components/media/deploy-comp-component-versions-view-empty.png
+[DeployComponentNewConfigurationView]: components/media/deploy-comp-component-config.png
+[DeployComponentNewProcessesView]: components/media/deploy-comp-component-tabbar-processes.png
+[DeployProcessDesigner]: processes/media/deploy-proc-component-process-editor.png
+[DeployComponentProcessDesignerSidebar]: processes/media/deploy-proc-component-process-editor-sidebar.png
+[DeployProcessDesignerAddStepp]: processes/media/deploy-proc-component-process-add-step.png
+[DeployProcessDesignerStepProperties1]: processes/media/deploy-proc-component-process-step-properties-01.png
+[DeployProcessDesignerStepProperties2]: processes/media/deploy-proc-component-process-step-properties-02.png
+[DeployComponentProcessesListEmpty]: processes/media/deploy-proc-component-process-list.png
+[DeployComponentProcessesList]: processes/media/deploy-proc-component-with-process-list.png
+[DeployComponentCreateNewProcessButton]: processes/media/deploy-proc-component-create-process-button.png
+[DeployComponentCreateProcessDialog]: processes/media/deploy-proc-component-create-process-dialog.png
+[DeployProcessDesignerStepShellScript1]: processes/media/deploy-proc-component-process-step-shell-script-01.png
+[DeployProcessDesignerStepShellScript2]: processes/media/deploy-proc-component-process-step-shell-script-02.png
+[DeployComponentFinalProcess]: processes/media/deploy-proc-component-process-final.png
+[DeployProcesDesignerSidebarAddVersionStatus]: processes/media/deploy-proc-component-process-editor-sidebar-add-status.png
+[DeployProcessDesignerAddedVersionStatus]: processes/media/deploy-proc-component-process-editor-step-added-add-status.png
+[DeployProcessDesignerAddedVersionStatusProperties]: processes/media/deploy-proc-component-process-step-add-status-properties.png
+[DeployComponentFinalProcesWithVersionStatus]: processes/media/deploy-proc-component-version-list-with-status.png
+[DeployShowApp]: applications/media/deploy-app-deploy-applications-view.png
+[DeployAppEnvList]: media/deploy-application-environmentlist.png
+[DeployAppRequestProcessButton]: media/deploy-application-request-process.png
+[DeployAppProcessRequestSelectProcess]: media/deploy-application-runappprocessdialog-1-select-deployment-process.png
+[DeployAppProcessRequestSelectSnapsotOrVersions]: media/deploy-application-runappprocessdialog-2-select-comp-version-or-snapshot.png
+[DeployAppProcessRequestOnlyChanged]: media/deploy-application-runappprocessdialog-3-only-changed.png
+[DeployAppPocessRequestChooseCompVersionButton]: media/deploy-application-runappprocessdialog-4-choose-comp-version-button.png
+[DeployAppPocessRequestSelectCompVersion1]: media/deploy-application-runappprocessdialog-5-select-comp-version.png
+[DeployAppPocessRequestSelectCompVersion2]: media/deploy-application-runappprocessdialog-6-select-comp-version.png
+[DeployAppPocessRequestSubmitButton]: media/deploy-application-runappprocessdialog-7-submit.png
+[DeployComponentProcessPassingTest]: processes/media/deploy-proc-component-process-final-with-passing-test.png
+[DeployComponentProcessFailingTest]: processes/media/deploy-proc-component-process-final-with-failing-test.png
+[DeployAppDevEnv]: media/deploy-app-env-dev.png
+[DeployProcessRunning]: media/deploy-running-process-01.png
+[DeployProcessRunningExpandAllButton]: media/deploy-running-process-2-expand-all.png
+[DeployProcessRunning3DotsofStep]: media/deploy-running-process-3-stepdetails.png
+[DeployProcessRunningStepOutputDetails]: media/deploy-running-process-4-step-details.png
+[DeployAppProcessRunSuccess]: media/deploy-app-process-finished-success.png
+[DeployAppEnvwithDeployedVersions]: media/deploy-application-environment-result-versions.png
+[DeployPlugin3DotsMenue]: media/deploy-plugin-list-3-dots-menue.png
 [APPSallView]: applications/index.md#switch-to-applications-view
 [AppViewWithEnv]: applications/index.md#view-application
 [SwitchToProcessView]: applications/index.md#show-processes
-[AppProcessList]: applications/media/Deploy_AppProcess_ListFinal.png
+[AppProcessList]: applications/media/deploy-app-deploy-app-process-list-final.png
 [REFSwitchToCompView]: components/index.md#switch-to-components-view
 [REFCompProcessesView]: components/index.md#view-component-processes
 [DOCAppProccesses]: https://www.ibm.com/docs/en/devops-deploy/8.1.2?topic=processes-application
-[SBApplicationsIcon]: media/Deploy_Sidebar_AppIcon.jpg
-[SBApplicationsText]: media/Deploy_Sidebar_AppIconWithText.png
+[SBApplicationsIcon]: media/deploy-deploy-sidebar-app-icon.png
+[SBApplicationsText]: media/deploy-deploy-sidebar-app-icon-with-text.png
 [REFSwitchToAppView]: #switch-to-applications-view
-[RunSelectFailingDeployment]: media/Deploy_RunProc_FailingDeploy.png
+[RunSelectFailingDeployment]: media/deploy-deploy-run-proc-failing-deploy.png
 [REFRequestAProcess]: #request-a-process
-[Step3DotsMenueWithGenie]: media/Deploy_AppRun_ResultFailed_Step_3Dots.png
-[RunFailSelectCompVersions]: media/Deploy_AppRun_SelectedCompVersions.png
-[RunFailed]: media/Deploy_AppRun_ResultFailed.png
-[GenieAnalysis]: media/Deploy_AppProcess_AI_Analysis.png
-[APPSallViewEmpty]: applications/media/Deploy_Applications_View_Empty.png
-[ButtonCreateApp]: applications/media/Deploy_App_CreateAppButton.png
-[CreateAppMenu]: applications/media/Deploy_App_CreateAppMenue.png
-[CreateAppDialog]: applications/media/Deploy_App_CreateApp_Dialog1.png
-[CreateAppDialogEnterInfo]: applications/media/Deploy_App_CreateApp_Dialog2.png
-[ButtonSave]: ../../media/Button_Save.png
-[AppView]: applications/media/Deploy_Application_View.png
+[Step3DotsMenueWithGenie]: media/deploy-deploy-app-run-result-failed-step-3-dots.png
+[RunFailSelectCompVersions]: media/deploy-deploy-app-run-selected-comp-versions.png
+[RunFailed]: media/deploy-deploy-app-run-result-failed.png
+[GenieAnalysis]: media/deploy-deploy-app-process-ai-analysis.png
+[APPSallViewEmpty]: applications/media/deploy-app-deploy-applications-view-empty.png
+[ButtonCreateApp]: applications/media/deploy-app-deploy-app-create-app-button.png
+[CreateAppMenu]: applications/media/deploy-app-deploy-app-create-app-menue.png
+[CreateAppDialog]: applications/media/deploy-app-deploy-app-create-app-dialog-01.png
+[CreateAppDialogEnterInfo]: applications/media/deploy-app-deploy-app-create-app-dialog-02.png
+[ButtonSave]: ../../media/common-button-save.png
+[AppView]: applications/media/deploy-app-deploy-application-view.png
 [DeployDocumentation]: https://www.ibm.com/docs/en/devops-deploy/8.2.0
-[CreateSnapshotIcon]: media/DEPLOY_Application_Environment_CreateSnapshot.png
-[CreateSnapshotDialog]: media/DEPLOY_Application_Environment_CreateSnapshot_Dialog.png
-[CreateSnapshotDetail1]: media/DEPLOY_Application_Environment_CreateSnapshot_Detail1.png
-[CreateSnapshotDetail2]: media/DEPLOY_Application_Environment_CreateSnapshot_Detail2.png
-[SnapshotApplied]: media/DEPLOY_Application_Environment_SnapshotApplied.png
-[deploy-env]: media/deploy_environment.png
-[deploy-import]: media/import_application.png
-[deploy-updated]: media/updated_application.png
+[CreateSnapshotIcon]: media/deploy-application-environment-create-snapshot.png
+[CreateSnapshotDialog]: media/deploy-application-environment-create-snapshot-dialog.png
+[CreateSnapshotDetail1]: media/deploy-application-environment-create-snapshot-detail-01.png
+[CreateSnapshotDetail2]: media/deploy-application-environment-create-snapshot-detail-02.png
+[SnapshotApplied]: media/deploy-application-environment-snapshot-applied.png
+[deploy-env]: media/deploy-deploy-environment.png
+[deploy-import]: media/deploy-deploy-import-apps-button.png
+[deploy-updated]: media/deploy-deploy-import-apps-dialog.png

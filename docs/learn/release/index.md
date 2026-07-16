@@ -24,7 +24,7 @@ You can switch to Release by either pressing "Let's go to Release" button on its
 
 ![Release Tile lets go][ReleaseTile]
 
-Or you can always switch using the central app switcher on the top left of your screen:
+Or you can always switch using the central app switcher on the right side of your screen:
 
 ![Central App Switcher][CentralAppSwitcher]
 
@@ -49,11 +49,11 @@ Switch to Tiles view by clicking on ![Release tiles icon][ReleaseSwitchToTiles]
 [GoBackToParentIndex]: ../index.md#release
 [NextLab]: ../index.md
 
-[ReleaseTile]: ../introduction/media/Loop_switch_to_Release.png
-[CentralAppSwitcher]: ../introduction/media/Loop_central_app_control.png
+[ReleaseTile]: ../introduction/media/intro-loop-switch-to-release.png
+[CentralAppSwitcher]: ../introduction/media/intro-loop-central-app-control.png
 
-[ReleaseViewasList]: media/Release_View_asList.png
-[ReleaseSwitchToTiles]: media/Release_Switch_To_TilesView.png
-[ReleaseViewasTiles]: media/Release_View_asTiles.png
+[ReleaseViewasList]: media/release-release-view-as-list.png
+[ReleaseSwitchToTiles]: media/release-release-switch-to-tiles-view.png
+[ReleaseViewasTiles]: media/release-release-view-as-tiles.png
 
 [VelocityDocumentation]: https://www.ibm.com/docs/en/devops-velocity

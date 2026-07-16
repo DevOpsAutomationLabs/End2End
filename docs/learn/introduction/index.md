@@ -69,7 +69,7 @@ To use the platform you have to be onboarded onto it. This is normally done by y
 |     | Details                                                                                                                   | Additional Information                                         |
 |:---:|:--------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
 |     | There are several ways to switch to the capabilites (Plan, _Model_, Control, Code, Build, Deploy, Test, Measure, Release) |                                                                |
-|  1  | by using the central app switcher on the top left Central Solution/App Switcher                                           | ![Central App Switcher][CentralAppSwitcher]                    |
+|  1  | by using the central app switcher on the right side of your screen                                                        | ![Central App Switcher][CentralAppSwitcher]                    |
 |  2  | by using the "What would you like to do today?" Menu on the bottom of the Dashboard                                       | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 | 2.1 | Only the capabilities fully integrated into Teamspaces and Loops are shown                                                |                                                                |
 
@@ -98,7 +98,7 @@ In the case of an empty environment you need to create a new Teamspace and at le
 Please follow the [Instructions for creating Teamspace(s)][InstructionsCreateTeamSpace] for more details.
 
 --8<--
-learn/introduction/teamspace/index.md:CreateNewTS
+learn/introduction/teamspace/index.md:CreateTeamspace
 --8<--
 
 |   | Details                                                                                                                  | Additional Information                             |
@@ -117,52 +117,56 @@ learn/introduction/loops/index.md:CreateNewLoop
 
 ---
 
-[LoopHomePageView]: media/Loop_Home_Page.png
-[LoopHomePageCreateNewLoop]: loops/media/NoLoops_inthis_TeamSpace.png
-[HomePageSideBar]: media/Loop_Home_Page_SideBar.png
+[LoopHomePageView]: media/intro-loop-home-page.png
+[LoopHomePageCreateNewLoop]: loops/media/intro-loops-no-loops-inthis-team-space.png
+[HomePageSideBar]: media/intro-loop-home-page-side-bar.png
 [InstructionsCreateTeamSpace]: teamspace/index.md
 [InstructionsCreateLoop]: loops/index.md
 [URLDevOpsLoop]: https://devops.automation.techzone.ibm.com/automation
-[LoginDialog]: media/Loop_Login_Page.png
-[SignInButton]: media/Loop_SignInButton.png
-[MetricPlan]: media/LoopHome_Plan_metrics.png
-[MetricBuild]: media/LoopHome_Build_Metrics.png
-[MetricDeploy]: media/LoopHome_Deploy_Metrics.png
-[MetricControl]: media/LoopHome_Control_metrics.png
-[KPIDoraLeadTime]: media/LoopHome_LeadTime.png
-[KPIDoraCycleTime]: media/LoopHome_CycleTime.png
-[WhatWouldYouLikeToDoToday]: media/Loop_whatwouldyouliketodotoday.png
-[CentralAppSwitcher]: media/Loop_central_app_control.png
-[NoTeamSpaceAvailable]: media/INIT_1_NoTeamspace.png
-[SwitchToHome]: media/Loop_Sidebar_SwitchTeamSpace.png
-[TSInitCreateButton]: teamspace/media/Loop_Initial_Create_TS_Button.png
-[TSMenue]: teamspace/media/Loop_Teamspace_01_Menue.png
-[TSCreateNewDialog]: teamspace/media/Loop_Teamspace_02_CreateNew_Dialog.png
-[TSAddTeammember]: teamspace/media/Loop_Teamspace_03_CreateNew_searchMember.png
-[TSTeamMemberAdded]: teamspace/media/Loop_Teamspace_04_CreateNew_MemberAdded.png
-[TSCreationStarted]: teamspace/media/Loop_Teamspace_05_CreateNew_creation.png
-[TSCreateionFinished]: teamspace/media/Loop_Teamspace_06_CreateNew_success.png
-[TSIcon]: teamspace/media/Loop_TeamSpaceIcon.png
-[TSCreateTSentry]: teamspace/media/Loop_CreateTeamSpace.png
-[TSCreateButton]: teamspace/media/Loop_Create_TS_Button.png
-[NextButton]: ../../media/Button_NEXT.png
+[LoginDialog]: media/intro-loop-login-page.png
+[SignInButton]: media/intro-loop-sign-in-button.png
+[MetricPlan]: media/intro-loop-home-plan-metrics.png
+[MetricBuild]: media/intro-loop-home-build-metrics.png
+[MetricDeploy]: media/intro-loop-home-deploy-metrics.png
+[MetricControl]: media/intro-loop-home-control-metrics.png
+[KPIDoraLeadTime]: media/intro-loop-home-lead-time.png
+[KPIDoraCycleTime]: media/intro-loop-home-cycle-time.png
+[WhatWouldYouLikeToDoToday]: media/intro-loop-whatwouldyouliketodotoday.png
+[CentralAppSwitcher]: media/intro-loop-central-app-control.png
+[NoTeamSpaceAvailable]: media/intro-1-no-teamspace.png
+[SwitchToHome]: media/intro-loop-sidebar-switch-team-space.png
+[TSInitCreateButton]: teamspace/media/intro-teamspace-loop-initial-create-ts-button.png
+[TSMenue]: teamspace/media/intro-teamspace-loop-teamspace-01-menue.png
+[TSCreateNewDialog]: teamspace/media/intro-teamspace-loop-teamspace-02-create-new-dialog.png
+[TSCreateNewScreen]: teamspace/media/intro-teamspace-create-ts-screen.png
+[TSCreateTSIconColor]: teamspace/media/intro-teamspace-create-ts-icon.png
+[TSAddTeammember]: teamspace/media/intro-teamspace-loop-teamspace-03-create-new-search-member.png
+[TSTeamMemberAdded]: teamspace/media/intro-teamspace-loop-teamspace-04-create-new-member-added.png
+[TSCreationStarted]: teamspace/media/intro-teamspace-loop-teamspace-05-create-new-creation.png
+[TSCreateionFinished]: teamspace/media/intro-teamspace-loop-teamspace-06-create-new-success.png
+[TSIcon]: teamspace/media/intro-teamspace-loop-team-space-icon.png
+[TSCreateTSentry]: teamspace/media/intro-teamspace-loop-create-team-space.png
+[TSCreateButton]: teamspace/media/intro-teamspace-loop-create-ts-button.png
+[NextButton]: ../../media/common-button-next.png
 [GoBackToCreateALoop]: #create-a-loop
-[DOCSLoopTS]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=administration-teamspace-management
+[DOCSLoopTS]: https://www.ibm.com/docs/en/devops-loop/2.0.2?topic=administration-teamspace-management
 
-[GenieDialog]: genie/media/Loop_Genie_Dialog.png
-[GenieFocusSelection]: genie/media/Loop_Genie_Dialog_FocusSelection.png
+[GenieDialog]: genie/media/intro-genie-loop-genie-dialog.png
+[GenieFocusSelection]: genie/media/intro-genie-loop-genie-dialog-focus-selection.png
 
-[LoopHome]: loops/media/NoLoops_inthis_TeamSpace.png
-[CreateNewDialog]: loops/media/Create_New_Loop_Dialog.png
-[WithLearningData]: loops/media/Create_New_Loop_with_Learning_Data.png
-[CreateNewLoopButton]: loops/media/Loop_CreateNewLoop_Button.png
-[SearchAddMember]: loops/media/Loop_Teamspace_09_CreateNewLoop_searchMember.png
-[AddedMember]: loops/media/Loop_Teamspace_10_CreateNewLoop_MemberAdded.png
-[CreateButton]: loops/media/Loop_CreateNewLoop_Button.png
-[LoopCreation]: loops/media/New_Loop_Creation_Progress.png
-[LoopCreatedSuccess]: loops/media/New_Loop_Creation_Success.png
-[GoToMyLoops]: loops/media/Loops_GoToMyLoops_Button.png
-[DOCSWorkWithLoops]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=working-loops
+[LoopHome]: loops/media/intro-loops-no-loops-inthis-team-space.png
+[CreateNewDialog]: loops/media/intro-loops-create-new-loop-dialog.png
+[WithLearningData]: loops/media/intro-loops-create-new-loop-with-learning-data.png
+[CreateNewLoopButton]: loops/media/intro-loops-loop-create-new-loop-button.png
+[SearchAddMember]: loops/media/intro-loops-loop-teamspace-09-create-new-loop-search-member.png
+[AddedMember]: loops/media/intro-loops-loop-teamspace-10-create-new-loop-member-added.png
+[CreateButton]: loops/media/intro-loops-loop-create-new-loop-button.png
+[LoopCreation]: loops/media/intro-loops-new-loop-creation-progress.png
+[LoopCreatedSuccess]: loops/media/intro-loops-new-loop-creation-success.png
+[GoToMyLoops]: loops/media/intro-loops-loops-go-to-my-loops-button.png
+[DOCSWorkWithLoops]: https://www.ibm.com/docs/en/devops-loop/2.0.2?topic=working-loops
 
 [CreateTSandLoop]: #setup-a-teamspace-and-loop
 [SwitchTeamSpaces]: #switch-between-teamspaces-and-back-to-home
+
+[GenieButton]: genie/media/intro-genie-loop-genie-button.png

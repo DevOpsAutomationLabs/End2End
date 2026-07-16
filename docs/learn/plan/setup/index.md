@@ -55,7 +55,7 @@ How to import existing data (CSV file) into an application.
 |      | A list of existing Personal Access Tokens (PAT) is shown                                                    | ![List of PATS][PlanListPATS]             |
 |      | Click on **Create New API Token**                                                                           | ![Create PAT Button][PlanCreatePATButton] |
 |      | a dialog is shown, please provide a name and a validity time                                                | ![PAT creation dialog][PlanPATDialog]     |
-|      | PAT is created, press the **Copy** button ![Copy Button][ButtonCopy] to copy into Clipboard | ![PAT is created][PlanPATCreated]         |
+|      | PAT is created, press the **Copy** button ![Copy Button][ButtonCopy] to copy into Clipboard                 | ![PAT is created][PlanPATCreated]         |
 |      | PAT is copied, paste it into a secure storage for furter use                                                | ![PAT Copied][PlanPATCopied]              |
 |      | Close the dialog and updated list is shown                                                                  | ![Updated PAT list][PlanListnewPATS]      |
 
@@ -83,30 +83,30 @@ This value is needed in the MCP setup.
 
 ---
 
-[ChooseFileDialog]: media/PLAN_Import_Dialog_ChooseFile.png
-[ImportIcon]: media/PLAN_Import_Icon.png
-[ImportDialog1]: media/PLAN_Import_Dialog1.png
-[SelectZipFile]: media/PLAN_Import_Select_ZipFile.png
-[ImportDialog2]: media/PLAN_Import_Dialog2.png
-[ImportButton]: media/PLAN_Import_Button.png
-[ImportStarts]: media/PLAN_Import_started.png
-[ImportRunningWithDetails]: media/PLAN_Import_running.png
-[ImportClose]: media/PLAN_Import_Close_dialog.png
+[ChooseFileDialog]: media/plan-setup-import-dialog-choose-file.png
+[ImportIcon]: media/plan-setup-import-icon.png
+[ImportDialog1]: media/plan-setup-import-dialog-01.png
+[SelectZipFile]: media/plan-setup-import-select-zip-file.png
+[ImportDialog2]: media/plan-setup-import-dialog-02.png
+[ImportButton]: media/plan-setup-import-button.png
+[ImportStarts]: media/plan-setup-import-started.png
+[ImportRunningWithDetails]: media/plan-setup-import-running.png
+[ImportClose]: media/plan-setup-import-close-dialog.png
 [EchoLogicZIPFile]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/plan/EchoLogic.zip
-[ImportFinished]: media/PLAN_Import_finished.png
-[DownloadDemoDataFile]: media/Download_PlanDemoDataFile.png
-[PlanSidebarProfile]: media/Plan_Profile_Menue.png
-[PlanListPATS]: media/Plan_PAT_List.png
-[PlanCreatePATButton]: media/Plan_Create_PAT_Button.png
-[PlanPATDialog]: media/Plan_Create_Pat_Dialog.png
-[PlanPATCreated]: media/Plan_PAT_created.png
-[PlanPATCopied]: media/Plan_PAT_copied.png
-[PlanListnewPATS]: media/Plan_PAT_list_updated.png
-[PlanHomePageButton]: ../media/Plan_Home_button.png
-[PlanMyApplicationButton]: ../media/Plan_MyApplications_Button.png
-[PlanTMButton]: media/Plan_TenantManagement_Link.png
-[PlanTMView]: media/Plan_Tenant_Management_View.png
-[PlanTMDetailSwitch]: media/Plan_Tenant_Management_Details_Switch.png
-[PlanTMDetails]: media/Plan_Tenant_Management_Details.png
-[PlanDBID]: media/Plan_Database_ID.png
-[ButtonCopy]: media/Plan_Copy_Button.png
+[ImportFinished]: media/plan-setup-import-finished.png
+[DownloadDemoDataFile]: media/plan-setup-download-plan-demo-data-file.png
+[PlanSidebarProfile]: media/plan-setup-plan-profile-menue.png
+[PlanListPATS]: media/plan-setup-plan-pat-list.png
+[PlanCreatePATButton]: media/plan-setup-plan-create-pat-button.png
+[PlanPATDialog]: media/plan-setup-plan-create-pat-dialog.png
+[PlanPATCreated]: media/plan-setup-plan-pat-created.png
+[PlanPATCopied]: media/plan-setup-plan-pat-copied.png
+[PlanListnewPATS]: media/plan-setup-plan-pat-list-updated.png
+[PlanHomePageButton]: ../media/plan-plan-home-button.png
+[PlanMyApplicationButton]: ../media/plan-plan-my-applications-button.png
+[PlanTMButton]: media/plan-setup-plan-tenant-management-link.png
+[PlanTMView]: media/plan-setup-plan-tenant-management-view.png
+[PlanTMDetailSwitch]: media/plan-setup-plan-tenant-management-details-switch.png
+[PlanTMDetails]: media/plan-setup-plan-tenant-management-details.png
+[PlanDBID]: media/plan-setup-plan-database-id.png
+[ButtonCopy]: media/plan-setup-plan-copy-button.png

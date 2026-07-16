@@ -20,41 +20,9 @@ learn/introduction/index.md:TheHomePage
 
 ## Setup a Teamspace and Loop
 
-### Setup a Teamspace
-
-| Step | Details                                                                         | Additional Information                               |
-|:----:|:--------------------------------------------------------------------------------|:-----------------------------------------------------|
-|  1   | Click on the Teamspace icon ![TeamSpace Icon][TSIcon]                           | ![TS Menu][TSMenue]                                  |
-|      | 1.1 to **view** or **create** a Teamspace                                       |                                                      |
-|  2   | Click on **Create teamspace**                                                   | ![TS Menu - Create TS Link][TSCreateTSentry]         |
-|  3   | Enter a name and a Description                                                  |                                                      |
-|      | 2.1 **Example Name: 'Demo'** <br>**Example Description: 'Teamspace for Demos'** | ![TS - Create New][TSCreateNewDialog]                |
-|  4   | press **Next** Button to proceed                                                | ![Next Button][NextButton]                           |
-|  5   | You can search and **add** Teammembers to a Teamspace                           | ![TS - Create New - search Member][TSAddTeammember]  |
-|  6   | Teammember is added to a list. Proceed to add more members if needed.           | ![TS - Create New - Member added][TSTeamMemberAdded] |
-|  7   | Press **Create** to proceed                                                     | ![Create teamspace Button][TSCreateButton]           |
-|  8   | Teamspace creation will take a few moments                                      | ![TS - Create started][TSCreationStarted]            |
-|  9   | Teamspace created. Click on **Go to Teamspace** for next steps                  | ![TS - creation successfull][TSCreateionFinished]    |
-|  10  | New Teamspace is shown                                                          | ![Empty Loops Homepage][LoopHomePageCreateNewLoop]   |
-|  11  | Please proceed with [Setting up a Loop][SetupLoop]                              |                                                      |
-
-### Setup a Loop
-
-| Step | Details                                                                                       | Additional Information                                                                       |
-|:----:|:----------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------|
-|  1   | Press the **Create Loop** Button                                                              | ![Create New Loop Button][CreateNewLoopButton]                                               |
-|  2   | In the Loop creation Dialog enter a name and a description                                    | ![Loops - Create New - Dialog][CreateNewDialog]                                              |
-|      | 2.1 Name:                                                                                     | "EchoLogic"                                                                                  |
-|      | 2.2 Description:                                                                              | "Bringing together the power of Echo and Logic into bleeding edge, cloud native and beyond!" |
-|  3   | press the **Next** Button to proceed                                                          | ![Next Button][NextButton]                                                                   |
-|  4   | You can search and add a Teammember to the Loop                                               | ![Loops - Create New - search Member][SearchAddMember]                                       |
-|      | 4.1 enter "a" in search dialog and if a mail address is shown, select it and click on **Add** | ![Add][ButtonAdd]                                                                            |
-|      | 4.2 a new Member is added                                                                     | ![Loops - Create New - member added][AddedMember]                                            |
-|  5   | Press the **Create** Button to start Loop creation                                            | ![Create Button][CreateButton]                                                               |
-|  6   | Loop creation can take a few moments, as soon as it finishes a Success screen will be shown   | ![Loops - Create New - create process started][LoopCreation]                                 |
-|  7   | Creation is successfull                                                                       | ![Loops - Create New - creation successfull][LoopCreatedSuccess]                             |
-|  8   | Press now **Go to my Loops** Button to proceed                                                | ![Go to my Loop Button][GoToMyLoops]                                                         |
-|  9   | As your Loop has no data please proceed with [Setting up Demo Data][SetupDemoData]            | ![Home Page][LoopHomePageWithNoData]                                                         |
+--8<--
+learn/introduction/index.md:SetupTsAndLoop
+--8<--
 
 ## Setup AI Integrations
 
@@ -88,7 +56,7 @@ Please follow [this instructions](ai_setup.md)
 |:----:|:-----------------------------------------------------------------------------|:---------------------------------------------------------------|
 |  1   | Switch to [Plan][SwitchToPlan]                                               |                                                                |
 |      | 1.1 by either pressing "Let's go to Plan" button on its tile                 | ![Plan Tile lets go][PlanTile]                                 |
-|      | 1.2 by using the central app switcher on the top left of your screen         | ![Central App Switcher][AppSwitcher]                           |
+|      | 1.2 by using the central app switcher on the right side of your screen       | ![Central App Switcher][CentralAppSwitcher]                    |
 |      | 1.3 by using the button/link from What would you like to do today section    | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 |  2   | Click on **Let's Go** on the "EchoL" application                             | ![Application Page][AppPage]                                   |
 |      | 2.1 if you get a *Welcome Screen* click to close to proceed with data import | ![Welcome Screen][PlanWelcomeScreen]                           |
@@ -116,7 +84,7 @@ Please follow [this instructions](ai_setup.md)
 |:----:|:--------------------------------------------------------------------------|:---------------------------------------------------------------|
 |  1   | Switch to [Control][SwitchToControl]                                      |                                                                |
 |      | 1.1 by either pressing "Let's go to Control" button on its tile           | ![Control Tile lets go][ControlTile]                           |
-|      | 1.2 by using the central app switcher on the top left of your screen      | ![Central App Switcher][AppSwitcher]                           |
+|      | 1.2 by using the central app switcher on the right side of your screen    | ![Central App Switcher][CentralAppSwitcher]                    |
 |      | 1.3 by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 #### Setup a Personal Access Token
@@ -176,7 +144,7 @@ Please follow [this instructions](ai_setup.md)
 |:----:|:--------------------------------------------------------------------------|:---------------------------------------------------------------|
 |  1   | Switch to [Deploy][SwitchToDeploy]                                        |                                                                |
 |      | 1.1 by either pressing "Let's go to Deploy" button on its tile            | ![Deploy Tile lets go][DeployTile]                             |
-|      | 1.2 by using the central app switcher on the top left of your screen      | ![Central App Switcher][AppSwitcher]                           |
+|      | 1.2 by using the central app switcher on the right side of your screen    | ![Central App Switcher][CentralAppSwitcher]                    |
 |      | 1.3 by using the button/link from What would you like to do today section | ![What would you like to do today?][WhatWouldYouLikeToDoToday] |
 
 #### Setup an Agent Pool
@@ -397,164 +365,170 @@ If no Application exists either import or create application
 ---
 
 [URLDevOpsLoop]: https://devops.automation.techzone.ibm.com/automation
-[LoginDialog]: learn/introduction/media/Loop_Login_Page.png
-[SignInButton]: learn/introduction/media/Loop_SignInButton.png
-[SwitchToHome]: learn/introduction/media/Loop_Sidebar_SwitchTeamSpace.png
-[HomePageSideBar]: learn/introduction/media/Loop_Home_Page_SideBar.png
+[LoginDialog]: learn/introduction/media/intro-loop-login-page.png
+[SignInButton]: learn/introduction/media/intro-loop-sign-in-button.png
+[SwitchToHome]: learn/introduction/media/intro-loop-sidebar-switch-team-space.png
+[HomePageSideBar]: learn/introduction/media/intro-loop-home-page-side-bar.png
 
-[LoopHomePageView]: learn/introduction/media/Loop_Home_Page.png
-[NoTeamSpaceAvailable]: learn/introduction/media/INIT_1_NoTeamspace.png
+[LoopHomePageView]: learn/introduction/media/intro-loop-home-page.png
+[NoTeamSpaceAvailable]: learn/introduction/media/intro-1-no-teamspace.png
 
-[TSMenue]: learn/introduction/teamspace/media/Loop_Teamspace_01_Menue.png
-[TSCreateNewDialog]: learn/introduction/teamspace/media/Loop_Teamspace_02_CreateNew_Dialog.png
-[TSAddTeammember]: learn/introduction/teamspace/media/Loop_Teamspace_03_CreateNew_searchMember.png
-[TSTeamMemberAdded]: learn/introduction/teamspace/media/Loop_Teamspace_04_CreateNew_MemberAdded.png
-[TSCreationStarted]: learn/introduction/teamspace/media/Loop_Teamspace_05_CreateNew_creation.png
-[TSCreateionFinished]: learn/introduction/teamspace/media/Loop_Teamspace_06_CreateNew_success.png
-[TSIcon]: learn/introduction/teamspace/media/Loop_TeamSpaceIcon.png
-[TSCreateTSentry]: learn/introduction/teamspace/media/Loop_CreateTeamSpace.png
-[TSCreateButton]: learn/introduction/teamspace/media/Loop_Create_TS_Button.png
-[NextButton]: media/Button_NEXT.png
+[InstructionsCreateTeamSpace]: learn/introduction/teamspace/index.md
+[TSMenue]: learn/introduction/teamspace/media/intro-teamspace-loop-teamspace-01-menue.png
+[TSInitCreateButton]: learn/introduction/teamspace/media/intro-teamspace-loop-initial-create-ts-button.png
+[TSCreateNewScreen]:learn/introduction/teamspace/media/intro-teamspace-create-ts-screen.png
+[TSCreateTSIconColor]: learn/introduction/teamspace/media/intro-teamspace-create-ts-icon.png
+[TSCreateNewDialog]: learn/introduction/teamspace/media/intro-teamspace-loop-teamspace-02-create-new-dialog.png
+[TSAddTeammember]: learn/introduction/teamspace/media/intro-teamspace-loop-teamspace-03-create-new-search-member.png
+[TSTeamMemberAdded]: learn/introduction/teamspace/media/intro-teamspace-loop-teamspace-04-create-new-member-added.png
+[TSCreationStarted]: learn/introduction/teamspace/media/intro-teamspace-loop-teamspace-05-create-new-creation.png
+[TSCreateionFinished]: learn/introduction/teamspace/media/intro-teamspace-loop-teamspace-06-create-new-success.png
+[TSIcon]: learn/introduction/teamspace/media/intro-teamspace-loop-team-space-icon.png
+[TSCreateTSentry]: learn/introduction/teamspace/media/intro-teamspace-loop-create-team-space.png
+[TSCreateButton]: learn/introduction/teamspace/media/intro-teamspace-loop-create-ts-button.png
+[NextButton]: media/common-button-next.png
 
-[LoopHomePageCreateNewLoop]: learn/introduction/loops/media/Loop_Teamspace_07_CreateNewLoop_Home.png
-[CreateNewDialog]: learn/introduction/loops/media/Loop_Teamspace_08_CreateNewLoop_Dialog.png
-[CreateNewLoopButton]: learn/introduction/loops/media/Loop_CreateNewLoop_Button.png
-[SearchAddMember]: learn/introduction/loops/media/Loop_Teamspace_10_CreateNewLoop_MemberAdded.png
-[AddedMember]: learn/introduction/loops/media/Loop_Teamspace_09_CreateNewLoop_searchMember.png
+[LoopHomePageCreateNewLoop]: learn/introduction/loops/media/intro-loops-loop-teamspace-07-create-new-loop-home.png
+[CreateNewDialog]: learn/introduction/loops/media/intro-loops-loop-teamspace-08-create-new-loop-dialog.png
+[CreateNewLoopButton]: learn/introduction/loops/media/intro-loops-loop-create-new-loop-button.png
+[SearchAddMember]: learn/introduction/loops/media/intro-loops-loop-teamspace-10-create-new-loop-member-added.png
+[AddedMember]: learn/introduction/loops/media/intro-loops-loop-teamspace-09-create-new-loop-search-member.png
+[WithLearningData]: learn/introduction/loops/media/intro-loops-create-new-loop-with-learning-data.png
 
-[CreateButton]: learn/introduction/loops/media/Loop_CreateNewLoop_Button.png
-[LoopCreation]: learn/introduction/loops/media/Loop_Teamspace_11_CreateNewLoop_creation.png
-[LoopCreatedSuccess]: learn/introduction/loops/media/Loop_Teamspace_12_CreateNewLoop_success.png
-[GoToMyLoops]: learn/introduction/loops/media/Loops_GoToMyLoops_Button.png
-[LoopHomePageWithNoData]: learn/introduction/media/LOOP_Home_Page_WithNoData.png
+[InstructionsCreateLoop]: learn/introduction/loops/index.md
+[CreateButton]: learn/introduction/loops/media/intro-loops-loop-create-new-loop-button.png
+[LoopCreation]: learn/introduction/loops/media/intro-loops-loop-teamspace-11-create-new-loop-creation.png
+[LoopCreatedSuccess]: learn/introduction/loops/media/intro-loops-loop-teamspace-12-create-new-loop-success.png
+[GoToMyLoops]: learn/introduction/loops/media/intro-loops-loops-go-to-my-loops-button.png
+[LoopHomePageWithNoData]: learn/introduction/media/intro-home-page-with-no-data.png
 [SetupLoop]: #setup-a-loop
 [SetupDemoData]: #setup-demo-data
 [GoToSelfenablement]: learn/index.md
 [GoToDemoFlow]: demoflow.md
 <!--[SetupTSandLoop]: #setup-a-teamspace-and-loop-->
-[PlanTile]: learn/introduction/media/Loop_switch_to_Plan.png
-[AppSwitcher]: learn/introduction/media/Loop_central_app_control.png
-[WhatWouldYouLikeToDoToday]: learn/introduction/media/Loop_whatwouldyouliketodotoday.png
+[PlanTile]: learn/introduction/media/intro-loop-switch-to-plan.png
+[CentralAppSwitcher]: learn/introduction/media/intro-loop-central-app-control.png
+[WhatWouldYouLikeToDoToday]: learn/introduction/media/intro-loop-whatwouldyouliketodotoday.png
 
-[ChooseFileDialog]: learn/plan/setup/media/PLAN_Import_Dialog_ChooseFile.png
-[ImportIcon]: learn/plan/setup/media/PLAN_Import_Icon.png
-[ImportDialog1]: learn/plan/setup/media/PLAN_Import_Dialog1.png
-[SelectZipFile]: learn/plan/setup/media/PLAN_Import_Select_ZipFile.png
-[ImportDialog2]: learn/plan/setup/media/PLAN_Import_Dialog2.png
-[ImportButton]: learn/plan/setup/media/PLAN_Import_Button.png
-[ImportStarts]: learn/plan/setup/media/PLAN_Import_started.png
-[ImportRunningWithDetails]: learn/plan/setup/media/PLAN_Import_running.png
-[ImportClose]: learn/plan/setup/media/PLAN_Import_Close_dialog.png
-[ImportFinished]: learn/plan/setup/media/PLAN_Import_finished.png
+[ChooseFileDialog]: learn/plan/setup/media/plan-setup-import-dialog-choose-file.png
+[ImportIcon]: learn/plan/setup/media/plan-setup-import-icon.png
+[ImportDialog1]: learn/plan/setup/media/plan-setup-import-dialog-01.png
+[SelectZipFile]: learn/plan/setup/media/plan-setup-import-select-zip-file.png
+[ImportDialog2]: learn/plan/setup/media/plan-setup-import-dialog-02.png
+[ImportButton]: learn/plan/setup/media/plan-setup-import-button.png
+[ImportStarts]: learn/plan/setup/media/plan-setup-import-started.png
+[ImportRunningWithDetails]: learn/plan/setup/media/plan-setup-import-running.png
+[ImportClose]: learn/plan/setup/media/plan-setup-import-close-dialog.png
+[ImportFinished]: learn/plan/setup/media/plan-setup-import-finished.png
 
-[AppPage]: learn/plan/media/Plan_Applications_Page.png
-[PlanWelcomeScreen]: learn/plan/media/Plan_welcome_screen.png
-[ConfigButton]: learn/plan/media/PLAN_Sidebar_ConfigurationButton.png
+[AppPage]: learn/plan/media/plan-plan-applications-page.png
+[PlanWelcomeScreen]: learn/plan/media/plan-plan-welcome-screen.png
+[ConfigButton]: learn/plan/media/plan-sidebar-configuration-button.png
 
-[SideBarBoardIcon]: learn/plan/boards/media/Plan_ProjectBoard_Icon.png
-[SideBar]: learn/plan/media/Plan_Sidebar_ProjectBoards.png
-[MyBoardWithImportedData]: learn/plan/boards/media/Plan_ProjectBoard_myBoard_with_imported_data.png
+[SideBarBoardIcon]: learn/plan/boards/media/plan-boards-plan-project-board-icon.png
+[SideBar]: learn/plan/media/plan-plan-sidebar-project-boards.png
+[MyBoardWithImportedData]: learn/plan/boards/media/plan-boards-plan-project-board-my-board-with-imported-data.png
 
-[ControlTile]: learn/introduction/media/Loop_switch_to_Control.png
-[ControlProfileSettings]: learn/control/media/CONTROL_ProfileAndSettings1.png
-[ProfileSettings]: learn/control/media/CONTROL_ProfileAndSettings2.png
-[SettingsAccessTokens]: learn/control/media/CONTROL_ProfileAndSettings3.png
-[PATSelectPermissions]: learn/control/media/CONTROL_PersonalAccessToken2.png
-[PATGenerateToken]: learn/control/media/CONTROL_PersonalAccessToken1.png
-[PATcreated]: learn/control/media/CONTROL_PersonalAccessToken3.png
-[PATcopy4ref]: learn/control/media/CONTROL_PersonalAccessToken4.png
-[OpenTerminal]: learn/control/media/Terminal_1_Open.png
-[CDDocs]: learn/control/media/Terminal_2_cd_documents.png
-[CloneTargetRepo]: learn/control/media/Terminal_3_clone_target_repo1.png
-[ProvideGitUserName]: learn/control/media/Terminal_3_clone_target_repo2.png
-[ProvidePAT]: learn/control/media/Terminal_3_clone_target_repo3.png
-[TargetRepoCloned]: learn/control/media/Terminal_3_clone_target_repo4_cloned.png
-[TargetRepoEmpty]: learn/control/media/Terminal_3_clone_target_repo5_empty.png
-[CopyData]: learn/control/media/Terminal_5_copy_to_target.png
-[LSTargetRepo]: learn/control/media/Terminal_6_target_new_data.png
-[GitAddCommit]: learn/control/media/Terminal_7_git_add_commit.png
-[GitPushDone]: learn/control/media/Terminal_8_git_push.png
-[NewDataInRepo]: learn/control/media/CONTROL_Repo_New_Data.png
+[ControlTile]: learn/introduction/media/intro-loop-switch-to-control.png
+[ControlProfileSettings]: learn/control/media/control-profile-and-settings-01.png
+[ProfileSettings]: learn/control/media/control-profile-and-settings-02.png
+[SettingsAccessTokens]: learn/control/media/control-profile-and-settings-03.png
+[PATSelectPermissions]: learn/control/media/control-personal-access-token-02.png
+[PATGenerateToken]: learn/control/media/control-personal-access-token-01.png
+[PATcreated]: learn/control/media/control-personal-access-token-03.png
+[PATcopy4ref]: learn/control/media/control-personal-access-token-04.png
+[OpenTerminal]: learn/control/media/control-terminal-1-open.png
+[CDDocs]: learn/control/media/control-terminal-2-cd-documents.png
+[CloneTargetRepo]: learn/control/media/control-terminal-3-clone-target-repo-01.png
+[ProvideGitUserName]: learn/control/media/control-terminal-3-clone-target-repo-02.png
+[ProvidePAT]: learn/control/media/control-terminal-3-clone-target-repo-03.png
+[TargetRepoCloned]: learn/control/media/control-terminal-3-clone-target-repo-4-cloned.png
+[TargetRepoEmpty]: learn/control/media/control-terminal-3-clone-target-repo-5-empty.png
+[CopyData]: learn/control/media/control-terminal-5-copy-to-target.png
+[LSTargetRepo]: learn/control/media/control-terminal-6-target-new-data.png
+[GitAddCommit]: learn/control/media/control-terminal-7-git-add-commit.png
+[GitPushDone]: learn/control/media/control-terminal-8-git-push.png
+[NewDataInRepo]: learn/control/media/control-repo-new-data.png
 
-[DeployTile]: learn/introduction/media/Loop_switch_to_Deploy.png
-[SBResourcesIcon]: learn/deploy/media/Deploy_SideBar_1_ResourcesIcon.png
-[SBResourcesText]: learn/deploy/media/Deploy_SideBar_1_ResourcesIconWithText.png
+[DeployTile]: learn/introduction/media/intro-loop-switch-to-deploy.png
+[SBResourcesIcon]: learn/deploy/media/deploy-deploy-side-bar-1-resources-icon.png
+[SBResourcesText]: learn/deploy/media/deploy-deploy-side-bar-1-resources-icon-with-text.png
 
-[ResAPTab]: learn/deploy/resources/media/Deploy_Resources_AgentPoolsTab.png
-[ResAPView]: learn/deploy/resources/media/Deploy_Resources_AgentPoolsView.png
-[ResAPCreateButton]: learn/deploy/resources/media/Deploy_Resources_AgentPools_CreateAgentPoolButton.png
-[ResAPCreateDialog]: learn/deploy/resources/media/Deploy_Resources_AgentPoolsCreateDialog.png
-[ResAPCreateSelectAgents]: learn/deploy/resources/media/Deploy_AgentPool_SelectFromListOfAgents.png
-[ButtonSave]: media/Button_Save.png
-[ResAPList]: learn/deploy/resources/media/Deploy_Resources_AgentPool_list.png
+[ResAPTab]: learn/deploy/resources/media/deploy-res-deploy-resources-agent-pools-tab.png
+[ResAPView]: learn/deploy/resources/media/deploy-res-deploy-resources-agent-pools-view.png
+[ResAPCreateButton]: learn/deploy/resources/media/deploy-res-deploy-resources-agent-pools-create-agent-pool-button.png
+[ResAPCreateDialog]: learn/deploy/resources/media/deploy-res-deploy-resources-agent-pools-create-dialog.png
+[ResAPCreateSelectAgents]: learn/deploy/resources/media/deploy-res-deploy-agent-pool-select-from-list-of-agents.png
+[ButtonSave]: media/common-button-save.png
+[ResAPList]: learn/deploy/resources/media/deploy-res-deploy-resources-agent-pool-list.png
 
-[SBCompIcon]: learn/deploy/media/Deploy_Sidebar_ComponentsIcon.png
-[SBCompIconText]: learn/deploy/media/Deploy_Sidebar_ComponentsIconWithText.png
-[CompView]: learn/deploy/media/DEPLOY_Components_List.png
-[ButtonImportComps]: learn/deploy/components/media/Component_Import_Components_Button.png
-[CompImportDialog]: learn/deploy/components/media/Component_Import_Dialog.png
-[CompImpChooseFileButton]: learn/deploy/components/media/Component_Import_Dialog_ChooseFile.png
-[Filestochoose]: learn/deploy/components/media/Component_Import_Files.png
-[FileChoosen]: learn/deploy/components/media/Component_Import_Dialog_FileChosen.png
-[CompImported]: learn/deploy/components/media/Component_Imported.png
+[SBCompIcon]: learn/deploy/media/deploy-deploy-sidebar-components-icon.png
+[SBCompIconText]: learn/deploy/media/deploy-deploy-sidebar-components-icon-with-text.png
+[CompView]: learn/deploy/media/deploy-components-list.png
+[ButtonImportComps]: learn/deploy/components/media/deploy-comp-component-import-components-button.png
+[CompImportDialog]: learn/deploy/components/media/deploy-comp-component-import-dialog.png
+[CompImpChooseFileButton]: learn/deploy/components/media/deploy-comp-component-import-dialog-choose-file.png
+[Filestochoose]: learn/deploy/components/media/deploy-comp-component-import-files.png
+[FileChoosen]: learn/deploy/components/media/deploy-comp-component-import-dialog-file-chosen.png
+[CompImported]: learn/deploy/components/media/deploy-comp-component-imported.png
 
-[ResTreeTab]: learn/deploy/resources/media/Deploy_Resources_ResourceTreeTab.png
-[ResTreeView]: learn/deploy/resources/media/Deploy_ResourceTree_View.png
-[ResButtonCreateTop]: learn/deploy/resources/media/Deploy_Resources_CreateTopLevel.png
-[ResCreateResDialog]: learn/deploy/resources/media/Deploy_ResourceTree_CreateDialog.png
-[ResCreateDialogEnterName]: learn/deploy/resources/media/Deploy_ResourceTree_CreateDialog_EnterName.png
-[ResTopLevelCreated]: learn/deploy/resources/media/Deploy_ResourceTree_TopLevelCreated.png
-[Res3DotsMenu]: learn/deploy/resources/media/Deploy_ResourceTree_3DotsMenu.png
-[3Dots]: learn/deploy/media/Deploy_3Dots.png
-[ResAddGroup]: learn/deploy/resources/media/Deploy_ResourceTree_3Dots_addGroup.png
-[ResSubGroupName]: learn/deploy/resources/media/Deploy_ResourceTree_SubGroupName.png
-[ResSubGroups]: learn/deploy/resources/media/Deploy_ResourceTree_SubGroups.png
-[ResAddAgentPool]: learn/deploy/resources/media/Deploy_ResourceTree_3Dots_addAgentPool.png
-[AddAgentPoolDialog]: learn/deploy/resources/media/Deploy_ResourceTree_Add_AgentPoolDialog.png
-[Agent3DotsMenu]: learn/deploy/resources/media/Deploy_Resources_AgentandPools_3DotsMenu.png
-[AgentAddCompTag]: learn/deploy/resources/media/Deploy_ResourceTree_3Dots_addCompTag.png
-[CompTagDialog]: learn/deploy/resources/media/Deploy_ResourceTree_CreateResouceDialog_ComponentTag.png
-[ResTreeFinal]: learn/deploy/resources/media/Deploy_ResourceTree_Final.png
+[ResTreeTab]: learn/deploy/resources/media/deploy-res-deploy-resources-resource-tree-tab.png
+[ResTreeView]: learn/deploy/resources/media/deploy-res-deploy-resource-tree-view.png
+[ResButtonCreateTop]: learn/deploy/resources/media/deploy-res-deploy-resources-create-top-level.png
+[ResCreateResDialog]: learn/deploy/resources/media/deploy-res-deploy-resource-tree-create-dialog.png
+[ResCreateDialogEnterName]: learn/deploy/resources/media/deploy-res-deploy-resource-tree-create-dialog-enter-name.png
+[ResTopLevelCreated]: learn/deploy/resources/media/deploy-res-deploy-resource-tree-top-level-created.png
+[Res3DotsMenu]: learn/deploy/resources/media/deploy-res-deploy-resource-tree-3-dots-menu.png
+[3Dots]: learn/deploy/media/deploy-deploy-3-dots.png
+[ResAddGroup]: learn/deploy/resources/media/deploy-res-deploy-resource-tree-3-dots-add-group.png
+[ResSubGroupName]: learn/deploy/resources/media/deploy-res-deploy-resource-tree-sub-group-name.png
+[ResSubGroups]: learn/deploy/resources/media/deploy-res-deploy-resource-tree-sub-groups.png
+[ResAddAgentPool]: learn/deploy/resources/media/deploy-res-deploy-resource-tree-3-dots-add-agent-pool.png
+[AddAgentPoolDialog]: learn/deploy/resources/media/deploy-res-deploy-resource-tree-add-agent-pool-dialog.png
+[Agent3DotsMenu]: learn/deploy/resources/media/deploy-res-deploy-resources-agentand-pools-3-dots-menu.png
+[AgentAddCompTag]: learn/deploy/resources/media/deploy-res-deploy-resource-tree-3-dots-add-comp-tag.png
+[CompTagDialog]: learn/deploy/resources/media/deploy-res-deploy-resource-tree-create-resouce-dialog-component-tag.png
+[ResTreeFinal]: learn/deploy/resources/media/deploy-res-deploy-resource-tree-final.png
 
-[SBApplicationsIcon]: learn/deploy/media/Deploy_Sidebar_AppIcon.jpg
-[SBApplicationsText]: learn/deploy/media/Deploy_Sidebar_AppIconWithText.jpg
-[APPSallView]: learn/deploy/applications/media/Deploy_Applications_View.png
-[AppView]: learn/deploy/applications/media/Deploy_Application_View.png
-[AppProcessesTab]: learn/deploy/applications/media/Deploy_Application_ProcessesTab.png
-[AppProcessesView]: learn/deploy/applications/media/Deploy_App_Processes_view.png
-[AppImportProcessButton]: learn/deploy/applications/media/Deploy_Application_ImportProcessButton.png
-[ImportProcessDialog]: learn/deploy/applications/media/Deploy_ImportAppProcess_Dialog1.png
-[ImpProcessChooseFile]: learn/deploy/applications/media/Deploy_ImportAppProcess_Dialog2.png
-[ImpProcessFileList]: learn/deploy/applications/media/Deploy_ImportAppProcess_Dialog3.png
-[ImpProcessFileSelected]:learn/deploy/applications/media/Deploy_ImportAppProcess_Dialog4.png
-[ButtonSubmit]: media/Button_Submit.png
-[AppProcessList]: learn/deploy/applications/media/Deploy_AppProcess_ListFinal.png
+[SBApplicationsIcon]: learn/deploy/media/deploy-deploy-sidebar-app-icon.png
+[SBApplicationsText]: learn/deploy/media/deploy-deploy-sidebar-app-icon-with-text.png
+[APPSallView]: learn/deploy/applications/media/deploy-app-deploy-applications-view.png
+[AppView]: learn/deploy/applications/media/deploy-app-deploy-application-view.png
+[AppProcessesTab]: learn/deploy/applications/media/deploy-app-deploy-application-processes-tab.png
+[AppProcessesView]: learn/deploy/applications/media/deploy-app-deploy-app-processes-view.png
+[AppImportProcessButton]: learn/deploy/applications/media/deploy-app-deploy-application-import-process-button.png
+[ImportProcessDialog]: learn/deploy/applications/media/deploy-app-deploy-import-app-process-dialog-01.png
+[ImpProcessChooseFile]: learn/deploy/applications/media/deploy-app-deploy-import-app-process-dialog-02.png
+[ImpProcessFileList]: learn/deploy/applications/media/deploy-app-deploy-import-app-process-dialog-03.png
+[ImpProcessFileSelected]:learn/deploy/applications/media/deploy-app-deploy-import-app-process-dialog-04.png
+[ButtonSubmit]: media/common-button-submit.png
+[AppProcessList]: learn/deploy/applications/media/deploy-app-deploy-app-process-list-final.png
 [SwitchToAppView]: learn/deploy/applications/index.md#switch-to-applications-view
 
-[APPSallViewEmpty]: learn/deploy/applications/media/Deploy_Applications_View_Empty.png
-[ButtonCreateApp]: learn/deploy/applications/media/Deploy_App_CreateAppButton.png
-[CreateAppMenu]: learn/deploy/applications/media/Deploy_App_CreateAppMenue.png
-[CreateAppDialog]: learn/deploy/applications/media/Deploy_App_CreateApp_Dialog1.png
-[CreateAppDialogEnterInfo]: learn/deploy/applications/media/Deploy_App_CreateApp_Dialog2.png
-[ButtonImportApps]: learn/deploy/media/Deploy_Import_Apps_Button.png
-[ImportAppsDialog]: learn/deploy/media/Deploy_Import_Apps_Dialog.png
-[ButtonChooseFile]: media/Button_ChooseFile.png
-[FileSelect]: learn/deploy/media/Deploy_Import_Apps_SelectFile.png
-[AppCompTab]: learn/deploy/applications/media/Deploy_Apps_ComponentsTab.png
-[AppCompView]: learn/deploy/applications/media/Deploy_Apps_Components_View.png
-[ButtonAddComp]: learn/deploy/applications/media/Deploy_Apps_AddComponents_Button.png
-[SelectCompToAdd]: learn/deploy/applications/media/Deploy_Apps_AddComponents_Dialog.png
-[AppCompViewFinal]: learn/deploy/applications/media/Deploy_Apps_Components_View_Final.png
-[ButtonCreateEnv]: learn/deploy/applications/media/Deploy_App_CreateEnv_Button.png
-[CreateEnvDialog]: learn/deploy/applications/media/Deploy_App_CreateEnv_Dialog1.png
-[CreateEnvDialogColor]: learn/deploy/applications/media/Deploy_App_CreateEnv_Dialog2.png
-[CreateEnvDialogSelectedConor]: learn/deploy/applications/media/Deploy_App_CreateEnv_Dialog3.png
-[AppEnvironmentsView]: learn/deploy/applications/media/Deploy_App_EnvironmentList.png
-[ENVselect]: learn/deploy/applications/media/Deploy_App_Environment_select.png
-[ENVView]: learn/deploy/applications/media/Deploy_Env_View.png
-[ENVAddBaseRes]: learn/deploy/applications/media/Deploy_Env_AddBaseRes_Button.png
-[ENVAddResDialog]: learn/deploy/applications/media/Deploy_Env_AddRes_Dialog.png
-[EnvAddResSelected]: learn/deploy/applications/media/Deploy_Env_AddRes_Selected.png
+[APPSallViewEmpty]: learn/deploy/applications/media/deploy-app-deploy-applications-view-empty.png
+[ButtonCreateApp]: learn/deploy/applications/media/deploy-app-deploy-app-create-app-button.png
+[CreateAppMenu]: learn/deploy/applications/media/deploy-app-deploy-app-create-app-menue.png
+[CreateAppDialog]: learn/deploy/applications/media/deploy-app-deploy-app-create-app-dialog-01.png
+[CreateAppDialogEnterInfo]: learn/deploy/applications/media/deploy-app-deploy-app-create-app-dialog-02.png
+[ButtonImportApps]: learn/deploy/media/deploy-deploy-import-apps-button.png
+[ImportAppsDialog]: learn/deploy/media/deploy-deploy-import-apps-dialog.png
+[ButtonChooseFile]: media/common-button-choose-file.png
+[FileSelect]: learn/deploy/media/deploy-deploy-import-apps-select-file.png
+[AppCompTab]: learn/deploy/applications/media/deploy-app-deploy-apps-components-tab.png
+[AppCompView]: learn/deploy/applications/media/deploy-app-deploy-apps-components-view.png
+[ButtonAddComp]: learn/deploy/applications/media/deploy-app-deploy-apps-add-components-button.png
+[SelectCompToAdd]: learn/deploy/applications/media/deploy-app-deploy-apps-add-components-dialog.png
+[AppCompViewFinal]: learn/deploy/applications/media/deploy-app-deploy-apps-components-view-final.png
+[ButtonCreateEnv]: learn/deploy/applications/media/deploy-app-deploy-app-create-env-button.png
+[CreateEnvDialog]: learn/deploy/applications/media/deploy-app-deploy-app-create-env-dialog-01.png
+[CreateEnvDialogColor]: learn/deploy/applications/media/deploy-app-deploy-app-create-env-dialog-02.png
+[CreateEnvDialogSelectedConor]: learn/deploy/applications/media/deploy-app-deploy-app-create-env-dialog-03.png
+[AppEnvironmentsView]: learn/deploy/applications/media/deploy-app-deploy-app-environment-list.png
+[ENVselect]: learn/deploy/applications/media/deploy-app-deploy-app-environment-select.png
+[ENVView]: learn/deploy/applications/media/deploy-app-deploy-env-view.png
+[ENVAddBaseRes]: learn/deploy/applications/media/deploy-app-deploy-env-add-base-res-button.png
+[ENVAddResDialog]: learn/deploy/applications/media/deploy-app-deploy-env-add-res-dialog.png
+[EnvAddResSelected]: learn/deploy/applications/media/deploy-app-deploy-env-add-res-selected.png
 [SwitchToRes]: learn/deploy/resources/index.md
 [SwitchToDeploy]: learn/deploy/index.md
 [SwitchToPlan]: learn/plan/index.md
@@ -562,14 +536,14 @@ If no Application exists either import or create application
 [FileComp_Echo]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Echo.json
 [FileComp_Logic]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/Comp_Logic.json
 [FileApp_NoComps]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/raw/main/files/deploy/artifacts/App_EchoLogic_NoComponents.json
-[ButtonAdd]: media/Button_ADD.jpg
+[ButtonAdd]: media/common-button-add.png
 [URLDemoAppLatestVersion]: https://github.com/DevOpsAutomationLabs/EchoLogic_DemoApp/releases/latest
-[AssetsSection]: media/Desktop_EchoLogicDemoApp_LatestVersion_Assets.png
-[LatestVersionView]: media/Desktop_EchoLogicDemoApp_LatestVersion_View.png
-[LatestVersionZip]: media/Desktop_EchoLogicDemoApp_LatestVersion_SourceCodeZip.png
-[DownloadToFolder]: media/Desktop_Browser_SaveToDownloads.png
-[BrowserDLIcon]: media/Desktop_Browser_DownloadsIcon.png
-[BrowserDLdFile]: media/Desktop_Browser_DownloadsOpenFile.png
-[DLwithUnzippedFile]: media/Desktop_Downloads_EchoLogicDemoAppZip.png
-[DLPlanFolder]: media/Desktop_Downloads_EchoLogicAppZip_Plan_folder.png
+[AssetsSection]: media/common-desktop-echo-logic-demo-app-latest-version-assets.png
+[LatestVersionView]: media/common-desktop-echo-logic-demo-app-latest-version-view.png
+[LatestVersionZip]: media/common-desktop-echo-logic-demo-app-latest-version-source-code-zip.png
+[DownloadToFolder]: media/common-desktop-browser-save-to-downloads.png
+[BrowserDLIcon]: media/common-desktop-browser-downloads-icon.png
+[BrowserDLdFile]: media/common-desktop-browser-downloads-open-file.png
+[DLwithUnzippedFile]: media/common-desktop-downloads-echo-logic-demo-app-zip.png
+[DLPlanFolder]: media/common-desktop-downloads-echo-logic-app-zip-plan-folder.png
 [SwitchToControl]: learn/control/index.md

@@ -29,8 +29,8 @@ Loop Genie is an AI multi-agent chatbot integrated into DevOps Loop. It requires
 
 ---
 
-[GenieButton]: media/Loop_Genie_Button.png
-[GenieDialog]: media/Loop_Genie_Dialog.png
-[LoopHomePageView]: ../media/Loop_Home_Page.png
-[GenieFocusSelection]: media/Loop_Genie_Dialog_FocusSelection.png
-[DOCSLoopGenie]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=loop-genie-tech-preview
+[GenieButton]: media/intro-genie-loop-genie-button.png
+[GenieDialog]: media/intro-genie-loop-genie-dialog.png
+[LoopHomePageView]: ../media/intro-loop-home-page.png
+[GenieFocusSelection]: media/intro-genie-loop-genie-dialog-focus-selection.png
+[DOCSLoopGenie]: https://www.ibm.com/docs/en/devops-loop/2.0.2?topic=integrations

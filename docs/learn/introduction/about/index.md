@@ -4,8 +4,8 @@
 
 --8<-- [start:SWITCH2Loop]
 
-| Step | Details                                                                                                    | Additional Information            |
-|:----:|:-----------------------------------------------------------------------------------------------------------|:----------------------------------|
+| Step | Details                                                                                                    | Additional Information                  |
+|:----:|:-----------------------------------------------------------------------------------------------------------|:----------------------------------------|
 |      | Switch to the main view of your Teamspace by clicking on **DevOps Loop: Loop** in the **Central App Menu** | ![Central App Menu][CentralAppSwitcher] |
 
 --8<-- [end:SWITCH2Loop]
@@ -46,7 +46,7 @@
 |:----:|:---------------------------------------------------------------------------------------------------------------------------------------|:------------------------------|
 |      | On the sidebar a view of slected plug-ins is available. By pressing on the Plug-Ins symbol the Featured Plugins page will be presented | ![Sidebar Plugins][SBPlugins] |
 
-<!-- <img src="media/Loop_Sidebar_plugins.png" width="50%" height="50%"> -->
+<!-- <img src="media/intro-about-loop-sidebar-plugins.png" width="50%" height="50%"> -->
 
 --8<-- [end:Plugins]
 
@@ -54,8 +54,8 @@
 
 --8<-- [start:Settings]
 
-| Step | Details                                                                                | Additional Information          |
-|:----:|:---------------------------------------------------------------------------------------|:--------------------------------|
+| Step | Details                                                                               | Additional Information          |
+|:----:|:--------------------------------------------------------------------------------------|:--------------------------------|
 |      | The Settings Menu provides a view User Administration and managing the AI integration | ![Sidebar Settings][SBSettings] |
 
 #### User Administration
@@ -100,26 +100,26 @@ Please have a look at the [documentation][LoopDocAIIntegrations] for more detail
 
 ---
 
-[CentralAppSwitcher]: ../media/Loop_central_app_control.png
-[SBSettings]: media/Loop_Sidebar_Settings.png
-[SBPlugins]: media/Loop_Sidebar_plugins.png
-[SBExpanded]: media/Loop_Sidebar_expanded.png
-[SBExpander]: media/Loop_Sidebar_expand_button.png
-[SBIcons]: media/Loop_Sidebar_small.png
-[LoggedOut]: media/Loop_Logged_out.png
-[LoggOutButton]: media/Loop_Logout_Button.png
-[About]: media/Loop_About_box.png
-[AboutButton]: media/Loop_About_Button.png
-[UserAdminUserDetail]: media/Loop_Settings_UserAdmin_Users.png
-[UserAdminView]: media/Loop_Settings_UserAdmin.png
-[IntegrationsView]: media/Loop_AI_Setup_empty_list.png
-[ButtonCreateNewIntegration]: media/Loop_Settings_NewIntegrationsButton.png
-[NewIntegrationsDialog]: media/Loop_Settings_IntegrationsNewDialog1.png
-[NewIntegrationName]: media/Loop_AI_Setup_Name.png
-[NewIntegrationsSelectAIProvider]: media/Loop_AI_setup_Select_Provider.png
-[NewIntegrationsDialogNext]: media/Loop_Settings_IntegrationsNewDialog3.png
-[NewIntegrationsDialogNextDetails]: media/Loop_AI_Setup_Page_2.png
-[ListOfIntegrations]: media/Loop_Settings_Integrations.png
-[ButtonNext]: ../../../media/Button_NEXT.png
-[ButtonSave]: ../../../media/Button_Save.png
-[LoopDocAIIntegrations]: https://www.ibm.com/docs/en/devops-loop/2.0.0?topic=loop-ai-provider-integration-genie-tech-preview
+[CentralAppSwitcher]: ../media/intro-loop-central-app-control.png
+[SBSettings]: media/intro-about-loop-sidebar-settings.png
+[SBPlugins]: media/intro-about-loop-sidebar-plugins.png
+[SBExpanded]: media/intro-about-loop-sidebar-expanded.png
+[SBExpander]: media/intro-about-loop-sidebar-expand-button.png
+[SBIcons]: media/intro-about-loop-sidebar-small.png
+[LoggedOut]: media/intro-about-loop-logged-out.png
+[LoggOutButton]: media/intro-about-loop-logout-button.png
+[About]: media/intro-about-loop-about-box.png
+[AboutButton]: media/intro-about-loop-about-button.png
+[UserAdminUserDetail]: media/intro-about-loop-settings-user-admin-users.png
+[UserAdminView]: media/intro-about-loop-settings-user-admin.png
+[IntegrationsView]: media/intro-about-loop-ai-setup-empty-list.png
+[ButtonCreateNewIntegration]: media/intro-about-loop-settings-new-integrations-button.png
+[NewIntegrationsDialog]: media/intro-about-loop-settings-integrations-new-dialog-01.png
+[NewIntegrationName]: media/intro-about-loop-ai-setup-name.png
+[NewIntegrationsSelectAIProvider]: media/intro-about-loop-ai-setup-select-provider.png
+[NewIntegrationsDialogNext]: media/intro-about-loop-settings-integrations-new-dialog-03.png
+[NewIntegrationsDialogNextDetails]: media/intro-about-loop-ai-setup-page-02.png
+[ListOfIntegrations]: media/intro-about-loop-settings-integrations.png
+[ButtonNext]: ../../../media/common-button-next.png
+[ButtonSave]: ../../../media/common-button-save.png
+[LoopDocAIIntegrations]: https://www.ibm.com/docs/en/devops-loop/2.0.2?topic=integrations
